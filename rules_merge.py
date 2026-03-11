@@ -31,32 +31,32 @@ OUTPUT_FILES = {
 HEADERS = {
     "dns_pro": [
         "! Title: AdGuard Domain",
-        "! Description: DNS Filter composed of other filters (AdGuard DNS & Chinese Filter).,
+        "! Description: DNS Filter composed of other filters (AdGuard DNS & Chinese Filter),
         "! Homepage: https://github.com/elfinallen/filtersmod"
     ],
     "ads_pro": [
         "! Title: AdGuard Advert",
-        "! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter)., 
+        "! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), 
         "! Homepage: https://github.com/elfinallen/filtersmod"
     ],
     "prv_pro": [
         "! Title: AdGuard Privacy",
-        "! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy)., 
+        "! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), 
         "! Homepage: https://github.com/elfinallen/filtersmod"
     ],
     "dns": [
         "! Title: AdGuard Domain",
-        "! Description: DNS Filter composed of other filters (AdGuard DNS & Chinese Filter), removed uncommon rules., 
+        "! Description: DNS Filter composed of other filters (AdGuard DNS & Chinese Filter), removed uncommon rules, 
         "! Homepage: https://github.com/elfinallen/filtersmod"
     ],
     "ads": [
         "! Title: AdGuard Advert",
-        "! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.,
+        "! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules,
         "! Homepage: https://github.com/elfinallen/filtersmod"
     ],
     "prv": [
         "! Title: AdGuard Privacy",
-        "! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules., 
+        "! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules, 
         "! Homepage: https://github.com/elfinallen/filtersmod"
     ]
 }
