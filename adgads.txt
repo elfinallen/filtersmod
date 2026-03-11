@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-03-11 06:32:52 UTC
-! Total Rules: 6359
+! Last Updated: 2026-03-11 12:31:51 UTC
+! Total Rules: 6358
 ! Expires: 5 days
 &js_build=iclick-
 &stamat=*&chmob=
@@ -751,10 +751,6 @@
 /lapi/sign/signapi/getinfo
 /lapi/sign/web/getinfo
 /ld/ifk?zoneid=
-/lenovo/2021/all*.js
-/lenovo/pc/all*.js
-/lenovo/pc/piaofu2.js
-/lenovo/pc/top.js
 /letv-gug/*
 /live173/640320_
 /live173_*/46860.
@@ -2077,6 +2073,7 @@ yydstxt*.com/js/html
 ||api.bilibili.com/x/ad/
 ||api.bitchute.com/slot1/
 ||api.bitchute.com/slot2/
+||api.leakgallery.com/public/lib*.js
 ||api.live.bilibili.com/*/banner
 ||api.vebo.xyz/api/a/vebotv^
 ||api.wudizuqiu.com/72nba
@@ -4835,6 +4832,7 @@ yydstxt*.com/js/html
 ||p2peye.com/ajax.php?mod=advertisement&
 ||pad.mymovies.it/*/include/adv/manzoni/*/mnz_adsetup_online.js
 ||pan.baidu.com/act/api/activityentry?
+||pan0304.com/ads.
 ||panc.cc/uploads/hongbao.png
 ||pandora.com/api/v1/ad/
 ||panelook.com/images/ad/
@@ -6040,6 +6038,7 @@ yydstxt*.com/js/html
 ||xfvod.pro/images/ad/
 ||xghylt.com/api.php?mod=ad&adid=
 ||xgirls.agency/pg/c/
+||xgroovy.com/bid?
 ||xgroovy.com/static/js/initsite.min.js
 ||xhaccess.com^*/vast?
 ||xhamster.com*/vast?
