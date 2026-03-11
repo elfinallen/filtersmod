@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-03-10 12:31:46 UTC
-! Total Rules: 11482
+! Last Updated: 2026-03-11 00:58:17 UTC
+! Total Rules: 11485
 ! Expires: 5 days
 &&sub19=undefined&sub20=undefined
 &action=js_stats
@@ -3987,6 +3987,7 @@ t.yesware.com
 ||apester.com/event^
 ||api-cf.affirm.com/api/v*/session/touch_track
 ||api-esp.piano.io/onsite/recdata/id/
+||api-gateway-global.viu.com/api/audiencetargeting/
 ||api-godavari.sonyliv.com/beacon
 ||api-iam.intercom.io/messenger/web/metrics
 ||api-js.mixpanel.com/engage/?
@@ -4804,6 +4805,7 @@ t.yesware.com
 ||caast.tv/v1/record.gif?
 ||cache.ltn.com.tw/js/c.js
 ||cactus.jd.com/behavior_report
+||cad.de/images/1pixel.gif
 ||cadena100.es/exjs/comscore-js-*.min.js
 ||caesarsgames.com/dynamic/resources/common/js/functions/iframetracker.js
 ||caesarsgames.com/dynamic/resources/common/js/functions/tracking.js
@@ -7078,6 +7080,7 @@ t.yesware.com
 ||infosniper.net/locate-ip-on-map.php
 ||infostart.hu/js/ga.js
 ||infox.sg/stats.php^
+||infpol.ru/statistics.js
 ||infra-api.us-east-1.prod.mrc-sunrise.marketing.aws.dev/custom-metric
 ||infranken.de/_fws/json/statistic
 ||infranken.de/fileadmin/scripts/tracking
