@@ -4,7 +4,6 @@ import requests
 import subprocess
 from datetime import datetime
 
-# 配置部分
 SOURCES = {
     "dns": [
         "https://filters.adtidy.org/android/filters/15_optimized.txt",
@@ -32,32 +31,32 @@ OUTPUT_FILES = {
 HEADERS = {
     "dns_pro": [
         "! Title: AdGuard Domain",
-        "! Description: DNS Filter composed of other filters (AdGuard DNS & Chinese Filter)",
+        "! Description: DNS Filter composed of other filters (AdGuard DNS & Chinese Filter).
         "! Homepage: https://github.com/elfinallen/filtersmod"
     ],
     "ads_pro": [
         "! Title: AdGuard Advert",
-        "! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter)",
+        "! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter).
         "! Homepage: https://github.com/elfinallen/filtersmod"
     ],
     "prv_pro": [
         "! Title: AdGuard Privacy",
-        "! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy)",
+        "! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
         "! Homepage: https://github.com/elfinallen/filtersmod"
     ],
     "dns": [
         "! Title: AdGuard Domain",
-        "! Description: DNS Filter composed of other filters (AdGuard DNS & Chinese Filter), removed uncommon rules",
+        "! Description: DNS Filter composed of other filters (AdGuard DNS & Chinese Filter), removed uncommon rules.
         "! Homepage: https://github.com/elfinallen/filtersmod"
     ],
     "ads": [
         "! Title: AdGuard Advert",
-        "! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules",
+        "! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
         "! Homepage: https://github.com/elfinallen/filtersmod"
     ],
     "prv": [
         "! Title: AdGuard Privacy",
-        "! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules",
+        "! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
         "! Homepage: https://github.com/elfinallen/filtersmod"
     ]
 }
@@ -72,15 +71,13 @@ RE_DNS_TLD = re.compile(r'^\|\|[^/]+\.(com|net|org|cn)\^$')
 # 二级域名
 RE_DNS_SEC1 = re.compile(r'^\|\|[^/]+\.cloudfront\.net\^$')
 RE_DNS_SEC2 = re.compile(r'^\|\|[^/]+\.(weebly|amazonaws|iberostar|appspot|appsflyer|appsflyersdk|easyjet)\.com\^$')
-# 不常用域名
+# 不常见域名
 RE_DNS_UCM1 = re.compile(r'adobe|apple|samsung|philips|office|windows|xn--|india')
 RE_DNS_UCM2 = re.compile(r'metric|analytic|affilia|analysis|analyze|audience|beacon|firebase|monitor|omniture|sponsor|telemetry')
-# 域名开头 
-RE_DNS_STR1 = re.compile(r'^\|\|ad[cvx][-\.]')
-RE_DNS_STR2 = re.compile(r'^\|\|(a|ad|ads)?[-\*\.]')
-RE_DNS_STR3 = re.compile(r'^\|\|(ad|ad[stw]|amg|as)?\d')
-RE_DNS_STR4 = re.compile(r'^\|\|(al|anx|ao|apm|ar|at|au|asg?|axp?)[-\.]')
-RE_DNS_STR5 = re.compile(r'^\|\|[a-z][a-z]?\d')
+# 域名开头
+RE_DNS_STR1 = re.compile(r'^\|\|[a-z]?[a-z]?[a-z]?\d')
+RE_DNS_STR2 = re.compile(r'^\|\|(a|ad|ad[csvx])?[-\*\.]')
+RE_DNS_STR3 = re.compile(r'^\|\|(al|anx|ao|apm|ar|at|au|asg?|axp?)[-\.]')
 # URL 开头
 RE_URL = re.compile(r'^\$|^\*|^%')
 # $ 修饰 规则
@@ -90,12 +87,10 @@ RE_CSS = re.compile(r'#|\$\$')
 
 def fetch_content(url):
     try:
-        print(f"Fetching: {url}")
         resp = requests.get(url, timeout=30)
         resp.raise_for_status()
         return resp.text.splitlines()
     except Exception as e:
-        print(f"Error fetching {url}: {e}")
         return []
 
 def filter_rules(lines, rule_type):
@@ -115,11 +110,11 @@ def filter_rules(lines, rule_type):
         
         elif rule_type == "dns":
             if RE_DNS.match(line):
-                # 仅保留的顶级域名为 cn, com, org, net，去除不常用域名
+                # 仅保留常见顶级域名，去除不常见域名
                 if not RE_DNS_TLD.match(line) or RE_DNS_SEC1.match(line) or RE_DNS_SEC2.match(line) or RE_DNS_UCM1.search(line) or RE_DNS_UCM2.search(line):
                     continue
                 # 去除某些域名开头
-                if RE_DNS_STR1.match(line) or RE_DNS_STR2.match(line) or RE_DNS_STR3.match(line) or RE_DNS_STR4.match(line) or RE_DNS_STR5.match(line):
+                if RE_DNS_STR1.match(line) or RE_DNS_STR2.match(line) or RE_DNS_STR3.match(line):
                     continue
                 # 保留其他规则
                 filtered.add(line_lower)
@@ -161,7 +156,6 @@ def git_commit_push():
     # 检查是否有变更
     status = subprocess.run(["git", "status", "--porcelain"], capture_output=True, text=True)
     if not status.stdout.strip():
-        print("No changes to commit.")
         return
 
     # 添加、提交、推送
@@ -175,7 +169,6 @@ def main():
     
     # 处理每一类规则
     for category, urls in SOURCES.items():
-        print(f"Processing category: {category}")
         merged_lines = []
         for url in urls:
             merged_lines.extend(fetch_content(url))
