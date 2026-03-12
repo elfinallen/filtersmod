@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-03-12 00:55:24 UTC
-! Total Rules: 11484
+! Last Updated: 2026-03-12 12:30:47 UTC
+! Total Rules: 11488
 ! Expires: 5 days
 &&sub19=undefined&sub20=undefined
 &action=js_stats
@@ -4024,6 +4024,7 @@ t.yesware.com
 ||api.biz.sbs.co.kr/statistics/
 ||api.blink.net/a/
 ||api.blockchain.info/events/tracking/consent
+||api.blux.ai/prod/*/applications/*/blux-users/*/collect-events
 ||api.bookvillage.app/analytics/track
 ||api.brunch.co.kr/v1/front-log
 ||api.builtin.com/track/client-events
@@ -4037,6 +4038,7 @@ t.yesware.com
 ||api.clerk.io/v*/log/
 ||api.cmp.inmobi.com/?log=
 ||api.collarity.com/cws/*http
+||api.coloso.co.kr/logs/page
 ||api.config-security.com/event
 ||api.config-security.com/first
 ||api.consumer.pt.mcclatchy.com/mia-mh/meter
@@ -5685,6 +5687,7 @@ t.yesware.com
 ||destyy.com/bundles/*/tracking
 ||deszczowce.pl/licznik/licznik.php
 ||dev.to/fallback_activity_recorder
+||dev.visualwebsiteoptimizer.com/*/track-
 ||developer.mozilla.org/submit/
 ||developers.google.com/_d/analytics-iframe
 ||developers.miro.com/pageview
@@ -7776,6 +7779,7 @@ t.yesware.com
 ||mapandroute.de/log.xhr?
 ||mapbox.com/www/scripts/analytics.js
 ||mapcarta.com/logs
+||mapi.daisomall.co.kr/pd/pdl/pddtl/blux/rcm/prs
 ||mapixl.com/scripts/pixlv*.min.js
 ||mapquest.com/logger
 ||maps.googleapis.com/*/stats.js

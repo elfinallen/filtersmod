@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-03-12 00:55:24 UTC
-! Total Rules: 6363
+! Last Updated: 2026-03-12 12:30:47 UTC
+! Total Rules: 6359
 ! Expires: 5 days
 &js_build=iclick-
 &stamat=*&chmob=
@@ -395,6 +395,7 @@
 /a-tian/tian-*-good.js
 /a/ipn/js/*
 /a/p?adid=
+/a/pop/js/*
 /ab_my/pc_pf.js
 /ab_res/m/common.js
 /ab_res/pc/fixed/fixed.js
@@ -2066,14 +2067,12 @@ yydstxt*.com/js/html
 ||aolusb.com/forever/
 ||aoshi.com/rbc.jpg
 ||aotu43.com/templates/defboot/js/duilian.js
-||apa.az/banner/
 ||apbood.boodstream.com/v*/ad/
 ||api-a.ganjingworld.com/*/adsserver/get-vast-xml/
 ||api.adultdeepfakes.cam/banners
 ||api.apiimg.com/huaer/xiahe.js
 ||api.bilibili.com/x/ad/
 ||api.bitchute.com/slot1/
-||api.bitchute.com/slot2/
 ||api.leakgallery.com/public/lib*.js
 ||api.live.bilibili.com/*/banner
 ||api.vebo.xyz/api/a/vebotv^
@@ -2557,7 +2556,6 @@ yydstxt*.com/js/html
 ||cdn-fc.com/creatives/bar/
 ||cdn.12341234.pl/editag/*/prod/editag.min.js
 ||cdn.cnn.com/ads/
-||cdn.coinglasscdn.com/static/bitunix/*.gif
 ||cdn.concert.io/lib/concert-ads/
 ||cdn.cuty.io/fps.js
 ||cdn.dotaoutpost.com/stable/js/wowhead.js
@@ -2716,7 +2714,6 @@ yydstxt*.com/js/html
 ||cjx111.com/ads/
 ||ck180.net/mitao
 ||ckxxbao.com/templets/default/js/wx.js
-||clash.gg/embed-ad/
 ||clb.biz/public/static/js/common-v2.js
 ||cloud.tencent.com/developer/api/common/getads
 ||cloud.tencent.com/developer/api/common/getoneads
@@ -2802,7 +2799,6 @@ yydstxt*.com/js/html
 ||copyfuture.com/images/zhifubao.jpg
 ||cornpic.com/images/*.gif
 ||cosmic*.co/wp-content/uploads/*.gif|
-||cosplayporntube.com/creatives/
 ||cover.ydgal.com/axfile/
 ||cowtransfer.com/api/generic/backgrounds
 ||cp121.com/js2/
@@ -3267,7 +3263,6 @@ yydstxt*.com/js/html
 ||fmhua.com/template/*/images/g_js/*.html
 ||fmovies.*/sw.js
 ||fobshanghai.com/bbsad/
-||fokstatic.nl/fp/global/*adshield.js
 ||fontke.com/custom/
 ||fontsquirrel.com/ajaxactions/get_ads^
 ||foodmate.net/file/script/a
@@ -3435,6 +3430,7 @@ yydstxt*.com/js/html
 ||google.com/adsense/search/ads.js
 ||google.com/adsense/search/async-ads.js
 ||google.com/pagead/1p-user-list/
+||google.com/pagead/conversion_async.js
 ||google.com/pagead/drt/
 ||google.com/pagead/landing?
 ||googlesyndication.com/pagead/
@@ -3571,6 +3567,7 @@ yydstxt*.com/js/html
 ||hcbbsoss.oss-cn-hangzhou.aliyuncs.com^*-banner
 ||hd21.*/templates/base_master/js/jquery.shows.min.js
 ||hd21.*/templates/base_master/js/jquery.shows2.min.js
+||hdblog.it/new_files/ajax/prime_bf.php
 ||hdchina.*/styles/topshow/ad/
 ||hdmoli.pro/a_d/
 ||hdsky.me/adv/
@@ -3654,7 +3651,6 @@ yydstxt*.com/js/html
 ||hoopchina.com.cn/web/widget/partner/*/promote.js
 ||hoopchina.com.cn^*/ad-pc-sdk.
 ||hornygamer.com/play_horny_games/
-||horoskopy.cz/*/html/adform_sync.html
 ||hotavxxx.com/images/*96
 ||hoteastday.com/newspc/show?
 ||hotpress.info/blog/asian-javdl/wp-content/uploads/irvsxp.js
@@ -4214,7 +4210,6 @@ yydstxt*.com/js/html
 ||kewaishu.org/m-
 ||key8.com/cache/www/banner_
 ||keywin.org/templates/kw_v2/images/youbianad.png
-||kicklogz.com/vendor/videojs-contrib-ads/videojs.ads.min.js
 ||kiees.cn/img/
 ||kiees.cn/jm.png
 ||kiees.cn/k1.js
@@ -4592,7 +4587,6 @@ yydstxt*.com/js/html
 ||mm7920.com:8888/upload/*.gif
 ||mmeimh.xyz/static/100.
 ||mmeimh.xyz/static/images/
-||mmin.io/embed/
 ||mmonly.cc/js/mmonlyapp.js
 ||mmtalk.net/images/banner
 ||mnrrk.com/yuhe/ote/js/pcgg.js
@@ -5165,6 +5159,7 @@ yydstxt*.com/js/html
 ||redtube.com/_xa/
 ||reef2reef.com/data/siropu/am/user/
 ||refinery89.com/performance/
+||reiclub.com/templates/interviews/exit_popup/
 ||rentalcars.com/partners/
 ||rentiyishu.org/*.js
 ||renwai.ren/cdn/pic/ad
@@ -5460,6 +5455,8 @@ yydstxt*.com/js/html
 ||souka.me/ad/
 ||soulu365.com/images/zhuce.jpg
 ||soundcloud.com/audio-ads?
+||sourceforge.net/about/floating_sitewide
+||sourceforge.net/about/top_sitewide
 ||southmoney.com/page/pc/
 ||southmoney.com/page/top
 ||southmoney.com^*/inc/
@@ -5632,7 +5629,6 @@ yydstxt*.com/js/html
 ||theporn.xyz/static/bet365.gif
 ||theporn.xyz/static/tmp/
 ||thesimsresource.com/js/ad-loader.js
-||thetoc.gr/content/opap/
 ||thisav.com/0*.js
 ||thisav.com/index.js
 ||thisav.com/js/bioep.
@@ -5881,6 +5877,7 @@ yydstxt*.com/js/html
 ||voc.com.cn/adsclick/
 ||voc.com.cn/js/xc/
 ||voc.com.cn/static/web/js/creattwo11.js
+||vod.provider.plex.tv/ad?metadataid=
 ||voodc.com/avurc
 ||vps234.com/resources/images/hosting-promotion/
 ||vptpcs.com/templates/base_master/js/jquery.shows2.min.js
@@ -6008,6 +6005,7 @@ yydstxt*.com/js/html
 ||wx.sina.com.cn/iframe/pdps/
 ||wxc.cc/scripts/gg.
 ||wykop.pl/api/v*/ads
+||wykop.pl/static/img/pub/
 ||wzbaohe.com/imgadnew/midad.js
 ||x-resource05.com/media_orange/server-img/*_1200_120.
 ||x.com/*/videoads/
@@ -6118,7 +6116,6 @@ yydstxt*.com/js/html
 ||xslca.cc/js/pf.js
 ||xstt5.com/skin/v3/js/dibu.js
 ||xstt5.com/template/js/fx
-||xtapes.porn/adapt.html
 ||xtapes.to/ad/
 ||xtits.*/static/js/custom.js
 ||xtits.xxx/static/js/ppndr*.js
@@ -6141,7 +6138,6 @@ yydstxt*.com/js/html
 ||xxir.com/static/images/ad.
 ||xxooos.com/mm/
 ||xxxbed.cyou/script/
-||xxxbule.com/xb/xb.js
 ||xxxdl.net/nothing.aspx?
 ||xxxshake.com/assets/f_load.js
 ||xygwh.cc/js/p

@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-03-12 00:55:24 UTC
-! Total Rules: 91757
+! Last Updated: 2026-03-12 12:30:47 UTC
+! Total Rules: 91761
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -78519,6 +78519,7 @@ zmail.mtrl.me$image
 ||api.biz.sbs.co.kr/statistics/
 ||api.blink.net/a/
 ||api.blockchain.info/events/tracking/consent
+||api.blux.ai/prod/*/applications/*/blux-users/*/collect-events
 ||api.bookvillage.app/analytics/track
 ||api.brunch.co.kr/v1/front-log
 ||api.builtin.com/track/client-events
@@ -78533,6 +78534,7 @@ zmail.mtrl.me$image
 ||api.clerk.io/v*/log/
 ||api.cmp.inmobi.com/?log=
 ||api.collarity.com/cws/*http
+||api.coloso.co.kr/logs/page
 ||api.config-security.com/event
 ||api.config-security.com/first
 ||api.consumer.pt.mcclatchy.com/mia-mh/meter
@@ -81253,6 +81255,7 @@ zmail.mtrl.me$image
 ||deteql.net^$third-party
 ||detmir-stats.ru^$third-party
 ||dev.to/fallback_activity_recorder
+||dev.visualwebsiteoptimizer.com/*/track-
 ||devatics.com^$third-party
 ||devatics.io^$third-party
 ||developer.mozilla.org/submit/
@@ -85035,6 +85038,7 @@ zmail.mtrl.me$image
 ||mapbox.com/www/scripts/analytics.js
 ||mapcarta.com/logs
 ||maper.info^$third-party
+||mapi.daisomall.co.kr/pd/pdl/pddtl/blux/rcm/prs
 ||mapixl.com/scripts/pixlv*.min.js
 ||maploco.com^$third-party
 ||mapmyuser.com^$third-party
