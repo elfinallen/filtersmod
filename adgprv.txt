@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-03-11 12:31:51 UTC
-! Total Rules: 11485
+! Last Updated: 2026-03-12 00:55:24 UTC
+! Total Rules: 11484
 ! Expires: 5 days
 &&sub19=undefined&sub20=undefined
 &action=js_stats
@@ -6468,6 +6468,7 @@ t.yesware.com
 ||gazzettaobjects.it/*/js/tracking/
 ||gazzettaobjects.it^*/tracking/
 ||gc.newsweek.com/front/js/counter.js
+||gc.onliner.by/js/mediameter/counter.js
 ||gcion.com/gcion.ashx?
 ||gcpsmapi.vodafone.com/submit-events
 ||gde.ru/isapi/tracker.dll?
@@ -8315,7 +8316,6 @@ t.yesware.com
 ||ns-cdn.com^*/ns_vmtag.js
 ||nsandi.com/sites/all/themes/nsandi/js/webtrends_multitrack.js
 ||nslookup.io/pl.js
-||ntm.pstatic.net/scripts/ntm_*.js
 ||ntmb.de/count.html?
 ||ntunhs.net/js/tracker.js
 ||ntvid.online/cdn-cgi/trace
@@ -9798,7 +9798,6 @@ t.yesware.com
 ||ssgdfs.com/kr/common/getpageicfcd
 ||ssl.directferries.com/secure/ws/adtracking.asmx/
 ||ssl.kaptcha.com/collect/
-||ssl.pstatic.net/adimg3.search/adpost/js/ad.js
 ||ssl.pstatic.net/img.tvcast/pc/js/wcslog
 ||ssl.pstatic.net/static.news/mnews/resources/*/js/generated/aside.statistics.js
 ||ssl.pstatic.net/static.news/mnews/resources/*/js/generated/statistics_jquery.js

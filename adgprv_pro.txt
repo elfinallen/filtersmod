@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-03-11 12:31:51 UTC
-! Total Rules: 91758
+! Last Updated: 2026-03-12 00:55:24 UTC
+! Total Rules: 91757
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -82636,6 +82636,7 @@ zmail.mtrl.me$image
 ||gb.ru^$cookie=/^utm_/
 ||gbotvisit.com^$third-party
 ||gc.newsweek.com/front/js/counter.js
+||gc.onliner.by/js/mediameter/counter.js
 ||gc.zgo.at^$third-party
 ||gcion.com/gcion.ashx?
 ||gcpsmapi.vodafone.com/submit-events
@@ -86035,7 +86036,7 @@ zmail.mtrl.me$image
 ||nta1vb6cdlrl.com^$third-party
 ||ntlab.org^$third-party
 ||ntm.pstatic.net/scripts/ntm_$domain=naver.com
-||ntm.pstatic.net/scripts/ntm_*.js
+||ntm.pstatic.net/scripts/ntm_*.js$domain=~smartstore.naver.com|~brand.naver.com
 ||ntmb.de/count.html?
 ||nttcoms.com^$cookie=visitorid
 ||ntunhs.net/js/tracker.js
@@ -88787,9 +88788,8 @@ zmail.mtrl.me$image
 ||ssl-images-amazon.com/images/i/31yxry93hfl.js$domain=imdb.com
 ||ssl.directferries.com/secure/ws/adtracking.asmx/
 ||ssl.kaptcha.com/collect/
-||ssl.pstatic.net/adimg3.search/adpost/js/ad.js
 ||ssl.pstatic.net/img.tvcast/pc/js/wcslog
-||ssl.pstatic.net/static.gn/js/clickcrd.js$domain=~search.naver.com
+||ssl.pstatic.net/static.gn/js/clickcrd.js$domain=~search.naver.com|~smartstore.naver.com|~brand.naver.com
 ||ssl.pstatic.net/static.news/*/js/generated/aside.statistics.js$domain=media.naver.com|news.naver.com
 ||ssl.pstatic.net/static.news/mnews/resources/*/js/generated/aside.statistics.js
 ||ssl.pstatic.net/static.news/mnews/resources/*/js/generated/statistics_jquery.js
@@ -89724,7 +89724,6 @@ zmail.mtrl.me$image
 ||tiktok.com/web/report?
 ||tiktok.com/web/report^
 ||tiktok.com/whale/
-||tiktok.com^$cookie=ttwid
 ||tiktokcdn-us.com/obj/static-tx/slardar/*/sdk-web/plugins/common-monitors.*.js
 ||tiktokv.com/monitor_browser/
 ||tiktokv.com/web/report?

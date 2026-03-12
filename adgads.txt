@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-03-11 12:31:51 UTC
-! Total Rules: 6358
+! Last Updated: 2026-03-12 00:55:24 UTC
+! Total Rules: 6363
 ! Expires: 5 days
 &js_build=iclick-
 &stamat=*&chmob=
@@ -1206,6 +1206,7 @@ ubmcmm.baidustatic.com
 wss://*.top/|
 yydstxt*.com/js/cdn.
 yydstxt*.com/js/html
+|/nbsys3/fsyspp.js
 |http://*.cn/ad/
 |http://*.in/ad/
 |http://*.me/ad/
@@ -4482,10 +4483,14 @@ yydstxt*.com/js/html
 ||mamibuy.com.tw/ad/period.aspx
 ||manai521.com:88/bocai/index.html
 ||manga18.me/usd2023/usd_frontend.js
+||mangabats.com/js/ads/clck-adu-bats.js
+||mangabats.com/js/ads/fly*.js
 ||mangafuna.xyz/static/ads/
 ||mangahax.com/images/ima_
 ||mangahub.io/iframe/
 ||mangakakalot.gg/images/bns/
+||mangakakalove.com/js/ads/clck-adu-kklgg.js
+||manganato.gg/js/ads/clck-adu-ntgg.js
 ||manhwa18.cc/main2023/
 ||manqian.cn/784a6e27-be5b-4442-86e5-9f4adb51894d?
 ||manqian.cn/async/adlocationconfig
