@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-03-13 01:00:47 UTC
-! Total Rules: 6360
+! Last Updated: 2026-03-13 12:30:12 UTC
+! Total Rules: 6351
 ! Expires: 5 days
 &js_build=iclick-
 &stamat=*&chmob=
@@ -399,7 +399,6 @@
 /ab_my/pc_pf.js
 /ab_res/m/common.js
 /ab_res/pc/fixed/fixed.js
-/abdetect.min.js^
 /ad-provider.
 /ad2v1.1.js
 /ad?count=
@@ -2054,7 +2053,6 @@ yydstxt*.com/js/html
 ||ansuko.net/b4b8.js
 ||antdv.com/kaikeb
 ||antdv.com/yideng
-||antenna.gr/js/adman
 ||antpedia.com/antad/
 ||antpedia.com/images/advimages/
 ||antpedia.com/include/js/view_news/l_banner_js.js
@@ -2072,7 +2070,6 @@ yydstxt*.com/js/html
 ||api.adultdeepfakes.cam/banners
 ||api.apiimg.com/huaer/xiahe.js
 ||api.bilibili.com/x/ad/
-||api.bitchute.com/slot1/
 ||api.leakgallery.com/public/lib*.js
 ||api.live.bilibili.com/*/banner
 ||api.vebo.xyz/api/a/vebotv^
@@ -2127,9 +2124,7 @@ yydstxt*.com/js/html
 ||att.ydss.cn/attachments/portal/
 ||aty.sohu.com/v?
 ||atyun.com/wp-content/themes/xmag/js/ad.js
-||audiobookbay.*/images/bin.jpg
 ||audiobookbay.*/images/bz.jpg
-||audiobookbay.*/images/fr.jpg
 ||audioz.download/templates/default/img/promo/
 ||auntmia.com/promo/
 ||auto-online.com.tw/vendor_data/
@@ -2508,7 +2503,6 @@ yydstxt*.com/js/html
 ||caitlin.top/catalog/view/core/comic/fc.js
 ||caitlin.top/catalog/view/core/comic/fc0.js
 ||caixin.com/s?z=
-||camcaps.io/024569284e.php
 ||camsoda.com/promos/
 ||camspacelive.com/widgets/
 ||camspic.com/imguang/*.gif
@@ -2531,7 +2525,6 @@ yydstxt*.com/js/html
 ||catbox.moe/bb5wdv.jpg
 ||catchvideo.net/static/android-banner-full-
 ||cb.com.cn/index/ad/
-||cbcsport.az/wp-content/uploads/2026/02/kap.mp4
 ||cbfw.cn/gonggong/chibi/cf_
 ||ccav1.com/wp-content/uploads/an-temp/
 ||ccav1.com/wp-content/uploads/bmshkpexgyjd/
@@ -4564,7 +4557,6 @@ yydstxt*.com/js/html
 ||milffox.com/ai/
 ||milimili.tv/js/loadjs/jquery
 ||milimili.tv/template/joeleo/*.js
-||milkmanbook.com/dat/promo/
 ||mima.club/tuijian/speedtest/
 ||minecraftskins.com/miscjs/as*.js
 ||minixiazai.com/others/all_soft.js
@@ -4750,7 +4742,6 @@ yydstxt*.com/js/html
 ||no1.168abc.net/upload/
 ||nodejs.cn/_static/js/common.js
 ||nongjitong.com/adm/
-||nothingtoxic.com/aff/chaturbate/
 ||notix.io/ent/current/enot.min.js
 ||novelcool.com/files/js/auto_ads.js
 ||novelhall.com/statics/default/js/position.js
@@ -4853,7 +4844,6 @@ yydstxt*.com/js/html
 ||parade.com/runtime/gamma.js
 ||parade.com/runtime/webads.js
 ||pasazer.com/_assets/js/ad-connect.js
-||paypalobjects.com/web/res/*/js/ad.js
 ||pbc.pagesix.com/p/nyp/pagesix/pb.js
 ||pbmp.ali213.net/js/
 ||pbstck.com/kleanads-prebid/
@@ -4971,6 +4961,7 @@ yydstxt*.com/js/html
 ||pornpaw.com/never.js
 ||pornpics.de/api/banner/
 ||pornpoppy.com/*/external_pop.js
+||porntb.com/cdn/cdn_check.js
 ||pornvee.com/ads
 ||pornwex.tv/wp.js
 ||pornx.to/wp-content/uploads/ad*x*.png
@@ -5454,6 +5445,7 @@ yydstxt*.com/js/html
 ||souche.com^*.gif
 ||soufunimg.com/imgd/viewimage/*/640x210
 ||souka.me/ad/
+||soulauth.com/img/advertisements/
 ||soulu365.com/images/zhuce.jpg
 ||soundcloud.com/audio-ads?
 ||sourceforge.net/about/floating_sitewide
@@ -5608,7 +5600,6 @@ yydstxt*.com/js/html
 ||tcz.pl/*/reklama*.php
 ||techritual.com/wp-content/uploads/*/hdcource_
 ||techug.com/aatb/
-||templates.cds.yahoo.com/remote/widget?
 ||tencent-cloud.com/s9m1/12f70718c866ea3e5f22c68e6a34c54f.
 ||tencent-cloud.com/s9m1/54cb71aff82cfd690619065f2e31c346.
 ||tengfangyun.com/attachment/*/w_1200

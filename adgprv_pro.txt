@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-03-13 01:00:47 UTC
-! Total Rules: 91762
+! Last Updated: 2026-03-13 12:30:12 UTC
+! Total Rules: 91764
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -1002,6 +1002,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /admantx-
 /admantx.
 /admantx/*
+/admiral-script$xmlhttprequest,domain=wtwc40.com|wfgxtv.com|watchdaytime.com|wabm68.com|utv44.com|thenationaldesk.com|thecwtc.com|thecw46.com|thecw38.com|telemundoaustin.com|star64.tv|southernoregoncw.com|nevadasportsnet.com|mytvz.com|mytvwichita.com|mytvdayton.com|mytvcharleston.com|mytvbuffalo.com|mytvbaltimore.com|mytv30web.com|myrdctv.com|kunwtv.com|kunptv.com|ktvl.com|kocb.com|kmyu.tv|kdsm17.com|foxrichmond.com|foxkansas.com|fox49.tv|fox47.com|fox38corpuschristi.com|cwtreasurevalley.com|cwlasvegas.com|cwcolumbus.com|cwcincinnati.com|cwcentralpa.com|cwbaltimore.com|cwalbany.com|cw9tv.com|cw35.com|cw34.com|cwomaha.tv|cw14online.com|chattanoogacw.com|22thepoint.com|foxchattanooga.com|siouxlandnews.com|mycbs4.com|mynews4.com
 /admiral.js
 /admtracker.lib.min.js
 /adobe-analytics-$domain=~business.adobe.com
@@ -82025,6 +82026,7 @@ zmail.mtrl.me$image
 ||experianmatch.info^$third-party
 ||experience.ninetailed.co/*/profiles/
 ||experiences.wyng.com/api/*/event-api/events
+||expero.ru^$cookie=deviceid
 ||expert.it/js/omni/tracking/
 ||expert.nl/daix.js
 ||experte.com/t/events
