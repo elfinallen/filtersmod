@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-03-14 00:59:59 UTC
-! Total Rules: 6351
+! Last Updated: 2026-03-14 12:23:40 UTC
+! Total Rules: 6338
 ! Expires: 5 days
 &js_build=iclick-
 &stamat=*&chmob=
@@ -674,7 +674,6 @@
 /jquery.adi.js
 /jquery.adx.js?
 /jquery.dfp.min.js?
-/jquery.meerkat.
 /jquery.overlayad.js
 /jquery.popunder.js
 /js/aahome.htm
@@ -739,7 +738,6 @@
 /k960g90.
 /kan/ads/dl.js
 /kan/js/dian.js
-/karma/karma.js?karma=bs?
 /kg2.oss-
 /koukoku/*.gif
 /koukoku/list?positions=
@@ -1049,7 +1047,6 @@
 ://m.*.top/*.js?ssid=_
 ://mine.torrent.pw^
 ://rou*/_next/static/chunks/pages/home-
-://rs-stripe.wsj.com/stripe/image?
 ://seai*/ads/float.js
 ://xingkong6688s.oss-
 :1010/openv5.js
@@ -1934,7 +1931,6 @@ yydstxt*.com/js/html
 ||akabebe.com/jgg/*.gif
 ||akamaihd.net^*/gsd.html?d=
 ||akamaihd.net^*/sid.html?p=
-||akirabox.com/js/akira-ads*.js
 ||akqipai.com/m/tpl/v3/js/indexbottom.js
 ||akuziti.com/tu/*.js
 ||aldtop.com/scrtips/
@@ -2124,7 +2120,6 @@ yydstxt*.com/js/html
 ||att.ydss.cn/attachments/portal/
 ||aty.sohu.com/v?
 ||atyun.com/wp-content/themes/xmag/js/ad.js
-||audiobookbay.*/images/bz.jpg
 ||audioz.download/templates/default/img/promo/
 ||auntmia.com/promo/
 ||auto-online.com.tw/vendor_data/
@@ -4277,7 +4272,6 @@ yydstxt*.com/js/html
 ||lawtv.com.cn/jd_ceshi.html
 ||lawtv.com.cn/skin/newplayer/ads_dianshi.php
 ||layuion.com/get/showcase/
-||lbtube.com/*/ad-campaigns
 ||lbx777.*/css/300.js
 ||lbx777.*/css/lbxgg02
 ||lcxw.cn/d/js/thea
@@ -4453,7 +4447,6 @@ yydstxt*.com/js/html
 ||m1955.com/template/qq/images/playad/
 ||macd.cn/macd-topads.html
 ||macfans.org/vip/
-||machineseeker.com/data/ofni/
 ||macys.com/sitemonetization/v1/sponsored-products/
 ||madnessporn.com/mad/
 ||magedu.com/wp-content/uploads/*/xwzx
@@ -4489,7 +4482,6 @@ yydstxt*.com/js/html
 ||maomaoks.com/1.
 ||maopu.tv/d/file/p/2019/07/6ac50c702cf9e6a9a7910a510c40cb73.jpg
 ||masadora.net/kakusan-
-||massariuscdn.com/pubs/
 ||masturbation22.com/d/
 ||mat.chasedream.com^*.gif
 ||mat1.gtimg.com/2014/vikkydu/ga/haier
@@ -5133,7 +5125,6 @@ yydstxt*.com/js/html
 ||rainpat.com/scripts/jquery.superslide.
 ||rakuya.com.tw/position?task=
 ||randalls.com/abs/pub/xapi/search/sponsored-carousel?
-||rapidgator.net/images/pics/510_468%d1%8560_1.gif
 ||rarbt.cc/js/index960_
 ||rat.xxx/blsrv/
 ||ratedxbiz.com/d/
@@ -5206,7 +5197,6 @@ yydstxt*.com/js/html
 ||ruiwen.com/jscss/
 ||ruiwen.com/sp/
 ||rule34.xxx/images/r34_doll.png
-||rule34.xyz/api/v2/infrastructure/dynamic-meta/user
 ||rule34video.com/images/advertisements/
 ||runmang.vip/img/
 ||runoob.com/images/re/
@@ -5264,7 +5254,6 @@ yydstxt*.com/js/html
 ||sd173.com/images/
 ||sd1v.yitongwl.cn/site/
 ||sdbeta.com/statics/mystyle/js/1
-||sdk.irctc.corover.ai/ads/irctc_disha.ads.js
 ||sdo.com/static/image/mkads/
 ||sdzbcg.com/images/sdfhyl
 ||se533.com/template/new/css/*.js
@@ -5612,7 +5601,6 @@ yydstxt*.com/js/html
 ||tgb.cn/res/js/tgbgg/
 ||thcdy.co/baidu2/foot.js
 ||thcdy.co/baidu2/index_top.js
-||theautopian.com/content/plugins/jzl-autopian/js/htl-ad-placement.js
 ||thefreedictionary.com/_/tr.ashx?
 ||thehentaiworld.com/fro_lo*.js
 ||thehun.net/banners/
@@ -5650,7 +5638,6 @@ yydstxt*.com/js/html
 ||tigtag.com/images/*1000x
 ||tigtag.com/images/pic1/
 ||tigtag.com/styles/phpcms/js/tigtag/ads.js
-||tii.la/js/fps.js
 ||timeanddate.com/common/prebidtad.
 ||timecn.cn/image/alipay.jpg
 ||timeout.*/static/js/ads-
