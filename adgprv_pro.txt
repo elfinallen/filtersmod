@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-03-13 12:30:12 UTC
-! Total Rules: 91764
+! Last Updated: 2026-03-14 00:59:59 UTC
+! Total Rules: 91771
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -2198,6 +2198,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /googletrack.js
 /googletracker.js
 /googletracking.js
+/gosquared.js$script
 /gp/r.html?$image
 /gp/r.html?c=*&ref_=pe_*_open$image
 /gp/video/acquisition/utilities/monitoring|$domain=primevideo.com|amazon.*
@@ -2860,6 +2861,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /oo/cl-$~third-party
 /oo/cl.js|$~third-party
 /op/analytics.js?domain=
+/op/op1.js?v=$script
 /opdc.js
 /ope-adalliance.js
 /open.aspx$image
@@ -78586,6 +78588,7 @@ zmail.mtrl.me$image
 ||api.iris.tv/update
 ||api.job*.ch/public/statistic/teaser/hit
 ||api.k2s.cc/v1/adn/visit
+||api.k2s.cc/v1/analytics/
 ||api.keen.io/*/projects/$domain=faceit.com
 ||api.laftel.net/api/*/status/$xmlhttprequest,redirect=noopjs
 ||api.leadpages.io/analytics/$domain=~my.leadpages.net
@@ -79962,6 +79965,7 @@ zmail.mtrl.me$image
 ||cdn.gravitec.media/track.min.js
 ||cdn.haymarketmedia.asia/shared/tracking.html?tc=*&adunit=
 ||cdn.iol.pt/js/utils/modules/iolanalytics/dist/iol.analytics.js
+||cdn.iterwebcms.com/*/mas-tracker-min.js
 ||cdn.iyosa.com/src/report.js
 ||cdn.jp1media.com/js/v1/dmp.min.js
 ||cdn.jsdelivr.net/countly-sdk-web/
@@ -84148,6 +84152,7 @@ zmail.mtrl.me$image
 ||jins.com/*/ga.js
 ||jirafe.com^$third-party
 ||jixie.io^$third-party
+||jm-madeira.pt/html/js/iter-libraries/iter-statistics.js
 ||joann.com/qxtwmr91/init.js
 ||jobkorea.co.kr/net/adbannerapi/adbannerlog
 ||jobkorea.co.kr^$cookie=/gtm/
@@ -86246,6 +86251,7 @@ zmail.mtrl.me$image
 ||openinternetexchange.com^$third-party
 ||openinternetexchange.net^$third-party
 ||openlog.in^$third-party
+||openpanel.dev/op.js
 ||openpanel.dev/op1.js
 ||openresty.org^$cookie=userid
 ||openstat.net^$third-party
@@ -89218,6 +89224,7 @@ zmail.mtrl.me$image
 ||suggestion.ciceksepeti.com/api/v*/events
 ||sugodeku.com^$third-party
 ||suite*.linximpulse.net^$third-party
+||suki-kira.com^$referrerpolicy=origin
 ||sulia.com/papi/sulia_partner.js/$third-party
 ||sumaity.com/js/press/analytics_scroll.js
 ||sumaity.com/script/analytics/s_code.js

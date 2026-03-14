@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-03-13 12:30:12 UTC
-! Total Rules: 11488
+! Last Updated: 2026-03-14 00:59:59 UTC
+! Total Rules: 11492
 ! Expires: 5 days
 &&sub19=undefined&sub20=undefined
 &action=js_stats
@@ -4082,6 +4082,7 @@ t.yesware.com
 ||api.iris.tv/update
 ||api.job*.ch/public/statistic/teaser/hit
 ||api.k2s.cc/v1/adn/visit
+||api.k2s.cc/v1/analytics/
 ||api.lessentiel.lu/kaia/v*/persist
 ||api.lit.link/v1/access_logs/
 ||api.litres.ru/tracker/
@@ -4941,6 +4942,7 @@ t.yesware.com
 ||cdn.gravitec.media/track.min.js
 ||cdn.haymarketmedia.asia/shared/tracking.html?tc=*&adunit=
 ||cdn.iol.pt/js/utils/modules/iolanalytics/dist/iol.analytics.js
+||cdn.iterwebcms.com/*/mas-tracker-min.js
 ||cdn.iyosa.com/src/report.js
 ||cdn.jp1media.com/js/v1/dmp.min.js
 ||cdn.jsdelivr.net/countly-sdk-web/
@@ -7247,6 +7249,7 @@ t.yesware.com
 ||jimdo.com/app/tracking/common/index/
 ||jimmyjohns.com/abo2yc8x/init.js
 ||jins.com/*/ga.js
+||jm-madeira.pt/html/js/iter-libraries/iter-statistics.js
 ||joann.com/qxtwmr91/init.js
 ||jobkorea.co.kr/net/adbannerapi/adbannerlog
 ||jobs.ch/api/v1/public/product/track/
@@ -8428,6 +8431,7 @@ t.yesware.com
 ||openapi.tv.zum.com/logs/ad/
 ||openculture.com/wp-admin/admin-ajax.php*^action=rxn_
 ||opendesktop.org/l/fp
+||openpanel.dev/op.js
 ||openpanel.dev/op1.js
 ||opensubtitles.org/gfx/banners_campaigns/2x2.gif
 ||openway.deepseeksvc.com/v*/write/rum
