@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-03-15 01:10:21 UTC
-! Total Rules: 11492
+! Last Updated: 2026-03-15 12:25:42 UTC
+! Total Rules: 11514
 ! Expires: 5 days
 &&sub19=undefined&sub20=undefined
 &action=js_stats
@@ -1640,6 +1640,7 @@
 /li.lms-analytics/insight.min.js
 /lib/analytics.js
 /library/svy/broker.js
+/libs/sentry/*/sentry.js
 /libs/tracker.js
 /liferay-analytics-api.js
 /liferay-analytics-processor.js
@@ -4823,6 +4824,7 @@ t.yesware.com
 ||calendly.com/api/booking/analytics/track
 ||calendly.com/telemetry.js
 ||caliente.mx/integration-scripts/tracking.min.js
+||callindex.co.il/campaign/send_analytics.js
 ||calltrk.com/companies/
 ||calm.com/api/12xk43jk/init.js
 ||caloo.jp/js/common/click-tracking.js
@@ -5828,6 +5830,7 @@ t.yesware.com
 ||drugs.com/api/logger/
 ||drugs.com/img/pixel.gif
 ||drupal.org/vnpbbfwe/init.js
+||dspgate.ru/pixel?
 ||dtksoft.com/ajax/log^
 ||dtm-dre.platform.hicloud.com/download/web/dtm.js
 ||dtory.ebs.co.kr/wlo^
@@ -6493,6 +6496,7 @@ t.yesware.com
 ||geni.us/snippet.js
 ||geni.us/snippet.min.js
 ||genial.guru/metric-collector
+||geniusplus.ai/v1/lre-events?
 ||geoproapp.com/api/record
 ||geradovana.lt/gtm/
 ||get-trust-vpn.info/api_ip_info.php?
@@ -6662,6 +6666,9 @@ t.yesware.com
 ||grok.com/_data/v1/events
 ||grok.com/api/log_metric
 ||grok.com/api/statsig/
+||grokipedia.com/api/analytics
+||grokipedia.com/api/ev
+||grokipedia.com/api/stats
 ||groove.so/unlocker.js
 ||groupbycloud.com/gb-tracker-client-5.min.js
 ||groupbycloud.com/wisdom/v2/pixel
@@ -8078,6 +8085,8 @@ t.yesware.com
 ||multporn.net/modules/statistics/statistics.php
 ||mundodesconocido.com/tracker/
 ||muragon.com/js/normal/gtag-event.js
+||musescore.com/components/data?
+||musescore.com/score/stats/
 ||museter.com/track.php?
 ||music.163.com/device/signature/create/deviceid.js
 ||music.apm-proxy.obs.mts.ru/eum/*/eum.min.js
@@ -9225,6 +9234,7 @@ t.yesware.com
 ||rts.ch/boreas/collect
 ||rts.ch^*/boreas_b01.js
 ||ru-mi.com/*/ee_tracking.js
+||rudder-server-prd.arena.im/v1/track
 ||rule34.paheal.net/stat.txt
 ||rumble.com/l/
 ||run.app/analytics/|
@@ -9426,8 +9436,17 @@ t.yesware.com
 ||secure.agoda.com/pixel.gif
 ||secure.booking.com/email_opened_tracking_pixel
 ||secure.checkout.visa.com/logging/
+||secure.cricket365.com/tag/
+||secure.football365.com/tag/
+||secure.golf365.com/tag/
+||secure.loverugbyleague.com/tag/
 ||secure.pes.itv.com/*/event|
+||secure.planetf1.com/tag/
+||secure.planetfootball.com/tag/
 ||secure.planetfootball.com/tag/*/tag.js
+||secure.planetrugby.com/tag/
+||secure.teamtalk.com/tag/
+||secure.tennis365.com/tag/
 ||securegw.paytm.in/ui/uilogger/log?
 ||secureserver.net/t/
 ||security.giokko.ru/cookie.php
@@ -9438,6 +9457,7 @@ t.yesware.com
 ||seesaa.net/common/track.gif^
 ||seesaawiki.jp/img/rainman.gif?
 ||segment.psg.nexstardigital.net/adobeanalytics.js
+||selectika.com/selectika-pixel.min.js
 ||selenagomez.com/*/umg-analytics/
 ||seller-log-collector.shopee.
 ||seloger.com/cdp-bff/analytics
@@ -10750,6 +10770,7 @@ t.yesware.com
 ||usersonline.org/ping.php?
 ||userstatics.com/get/script.js
 ||uservoice.com^*/track.js
+||userway.org/api/abn/events
 ||userway.org/api/seo-widget/
 ||userway.org/api/v1/stats
 ||usimsa.com/_nuxt/kakaopixel.
@@ -11455,6 +11476,7 @@ t.yesware.com
 ||zed.dev/_vercel/insights/view
 ||zed.dev/api/send_page_event
 ||zed.dev/api/send_page_event|
+||zed.dev/docs/theme/analytics.js
 ||zeit.de/cre-*/tracking^
 ||zenback.jp^*/tracking.html
 ||zendesk.com/embeddable_blip?type=analytics&data=

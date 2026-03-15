@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-03-15 01:10:21 UTC
-! Total Rules: 91771
+! Last Updated: 2026-03-15 12:25:42 UTC
+! Total Rules: 91793
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -2493,6 +2493,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /lib/analytics.js
 /libraries/analytics/*.js$domain=origins.com|aveda.com|aveda.com.tr|clinique.com|clinique.com.tr|esteelauder.com|jomalone.com|maccosmetics.com
 /library/svy/broker.js
+/libs/sentry/*/sentry.js
 /libs/tracker.js
 /liferay-analytics-api.js
 /liferay-analytics-processor.js
@@ -79773,6 +79774,7 @@ zmail.mtrl.me$image
 ||californiatimes.com/privacy/$image
 ||call-tracking.by^$third-party
 ||call-tracking.co.uk^$third-party
+||callindex.co.il/campaign/send_analytics.js
 ||callisto.fm^$third-party
 ||callmeasurement.com^$third-party
 ||callrail.com^$third-party
@@ -81529,6 +81531,7 @@ zmail.mtrl.me$image
 ||dsmstats.com^$third-party
 ||dsp.logly.co.jp^$third-party
 ||dsparking.com^$third-party
+||dspgate.ru/pixel?
 ||dsply.com^$third-party
 ||dtc-v6t.com^$third-party
 ||dti-ranker.com^$third-party
@@ -82679,6 +82682,7 @@ zmail.mtrl.me$image
 ||genieessp.jp^$third-party
 ||genieesspv.jp^$third-party
 ||geniuslinkcdn.com^$third-party
+||geniusplus.ai/v1/lre-events?
 ||geo-targetly.com^$third-party
 ||geo.query.yahoo.com^$domain=~mail.yahoo.com
 ||geo.query.yahoo.com^$~xmlhttprequest,domain=~mail.yahoo.com
@@ -83097,6 +83101,9 @@ zmail.mtrl.me$image
 ||grok.com/_data/v1/events
 ||grok.com/api/log_metric
 ||grok.com/api/statsig/
+||grokipedia.com/api/analytics
+||grokipedia.com/api/ev
+||grokipedia.com/api/stats
 ||groove.so/unlocker.js
 ||group-ib.ru^$third-party
 ||groupbycloud.com/gb-tracker-client-5.min.js
@@ -85599,6 +85606,8 @@ zmail.mtrl.me$image
 ||muragon.com/js/normal/gtag-event.js
 ||murdoog.com^$third-party
 ||murdoog.com^*/pixel/$image
+||musescore.com/components/data?
+||musescore.com/score/stats/
 ||museter.com/track.php?
 ||music.163.com/device/signature/create/deviceid.js
 ||music.apm-proxy.obs.mts.ru/eum/*/eum.min.js
@@ -87759,6 +87768,7 @@ zmail.mtrl.me$image
 ||ru4.com^$third-party
 ||rubiconredirect.com^$third-party
 ||rucounter.ru^$third-party
+||rudder-server-prd.arena.im/v1/track
 ||rudderlabs.com^$third-party
 ||rule34.paheal.net/stat.txt
 ||rum-static.pingdom.net/*-*.js$script,redirect=noopjs,important,domain=leboncoin.fr
@@ -88078,9 +88088,18 @@ zmail.mtrl.me$image
 ||secure.agoda.com/pixel.gif
 ||secure.booking.com/email_opened_tracking_pixel
 ||secure.checkout.visa.com/logging/
+||secure.cricket365.com/tag/
+||secure.football365.com/tag/
+||secure.golf365.com/tag/
 ||secure.ifbyphone.com^$third-party
+||secure.loverugbyleague.com/tag/
 ||secure.pes.itv.com/*/event|
+||secure.planetf1.com/tag/
+||secure.planetfootball.com/tag/
 ||secure.planetfootball.com/tag/*/tag.js
+||secure.planetrugby.com/tag/
+||secure.teamtalk.com/tag/
+||secure.tennis365.com/tag/
 ||secure.trust-guard.com^$third-party
 ||secureanalytic.com^$third-party
 ||securegw.paytm.in/ui/uilogger/log?
@@ -88116,6 +88135,7 @@ zmail.mtrl.me$image
 ||seguridad.compensar.com/lib/js/fingerprint2.js$script,redirect=fingerprintjs2
 ||seitwert.de^$third-party
 ||selaris.com^$third-party
+||selectika.com/selectika-pixel.min.js
 ||selectmedia.asia^$third-party
 ||selenagomez.com/*/umg-analytics/
 ||selfcampaign.com^$third-party
@@ -90525,6 +90545,7 @@ zmail.mtrl.me$image
 ||userstatics.com/get/script.js
 ||usertracks.live^$third-party
 ||uservoice.com^*/track.js
+||userway.org/api/abn/events
 ||userway.org/api/seo-widget/
 ||userway.org/api/v1/stats
 ||userzoom.com/uz.js$third-party
@@ -91701,6 +91722,7 @@ zmail.mtrl.me$image
 ||zed.dev/_vercel/insights/view
 ||zed.dev/api/send_page_event
 ||zed.dev/api/send_page_event|
+||zed.dev/docs/theme/analytics.js
 ||zedwhyex.com^$third-party
 ||zeerat.com^$third-party
 ||zeit.de/cre-*/tracking^

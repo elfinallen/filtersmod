@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-03-15 01:10:21 UTC
-! Total Rules: 6338
+! Last Updated: 2026-03-15 12:25:42 UTC
+! Total Rules: 6339
 ! Expires: 5 days
 &js_build=iclick-
 &stamat=*&chmob=
@@ -388,7 +388,6 @@
 /^23\.109\.73\.\d{3}/
 /^94\.242\.247\.(2[0-9]|3[0-2])/
 /_a_ta/s/s/*
-/_ra_lib.js
 /_ra_lib.php
 /_xa/ads_
 /a-duoduo/add-
@@ -563,7 +562,6 @@
 /e/ecmsshop/zhuanpan/js/*
 /eis/diy/ad/*
 /emwappopads/*
-/eroclick.js
 /ettoday/gemini/*
 /eucjhfxh/*.js
 /ezprice_ad.js
@@ -1047,6 +1045,7 @@
 ://m.*.top/*.js?ssid=_
 ://mine.torrent.pw^
 ://rou*/_next/static/chunks/pages/home-
+://rs-stripe.wsj.com/stripe/image?
 ://seai*/ads/float.js
 ://xingkong6688s.oss-
 :1010/openv5.js
@@ -2623,6 +2622,7 @@ yydstxt*.com/js/html
 ||chengtongled.com/gg/
 ||chengtu.com/api.php?mod=ad&adid=
 ||chenjiayu.cn/gg.js
+||chessgames.com/opt.js
 ||chexun.com/delivery?
 ||chexun.net/images/sales//cxgg/
 ||china.chemnet.com/cnbanner/
@@ -4220,6 +4220,7 @@ yydstxt*.com/js/html
 ||koyi.pub/wp-content/plugins/dh-anti-adblocker/
 ||koyso.com/aclib.js
 ||koyso.com/static/js/abcd.
+||kpopsingers.com/*.php?t=
 ||kppt.cc/zb_system/script/common.js
 ||kppt.cc/zhifu.jpg
 ||krx18.com/ads/adsblockx.js
@@ -5512,6 +5513,7 @@ yydstxt*.com/js/html
 ||subhd.*/kaiyad.
 ||subhd.com/images/ap/
 ||subserieshd.com/banner/
+||succeedscene.com/openads/
 ||sucloud.xyz/js/tou.js
 ||sudugu.com/config/v7.js
 ||sudupan.com^*.gif
@@ -5536,6 +5538,7 @@ yydstxt*.com/js/html
 ||supfree.net/xxx/
 ||svet24.si/build/assets/adbeacon.js
 ||sw76r85eda3k.com/need/h5.
+||sweetalert2.github.io/images/sponsors/
 ||swoole.com/_images/kundian
 ||swoole.com/_images/w7.jpg
 ||sxeimg.com/u/20191108/13082210.gif
@@ -5826,7 +5829,6 @@ yydstxt*.com/js/html
 ||videosection.com/adv-agent.php
 ||videowood.me/assets/js/popup.js
 ||videowood.tv/popjavascript
-||vider.*/static/player/*/vast.js
 ||vidlink.pro/api/mercury
 ||vidlink.pro/api/venus
 ||vidmoly.*/static/vastad.js
@@ -5957,7 +5959,6 @@ yydstxt*.com/js/html
 ||wokao.co/qq/qq.js
 ||woozooo.com/img/*.js
 ||wowfan.net/static/js/index.
-||wowroms.com/images/banner970x250.gif
 ||woyaoq.com/201904100958_5cad4dbac9c5f.png
 ||wpdaxue.com/img/*/txy-
 ||wples.com/pc/common.js
