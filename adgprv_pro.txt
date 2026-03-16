@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-03-16 01:09:50 UTC
-! Total Rules: 91794
+! Last Updated: 2026-03-16 12:41:10 UTC
+! Total Rules: 91802
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -78879,7 +78879,7 @@ zmail.mtrl.me$image
 ||arlime.com^$third-party
 ||arlt.com/analytics/
 ||armedangels.com/javascript/script.js
-||arms-retcode-sg.aliyuncs.com/r.png?
+||arms-retcode*.aliyuncs.com/r.png?
 ||arms.aliyuncs.com/r.png
 ||armtorg.ru/top/counter/
 ||arpxs.com^$third-party
@@ -80151,6 +80151,7 @@ zmail.mtrl.me$image
 ||chartsurfer.de/uscoll.php?
 ||chat.deepseek.com/api/v0/events
 ||chat.groq.com/global_stats
+||chat.vica.gov.sg/api/v1/unleash/proxy/client/metrics
 ||chata.quickcep.com/im/behavior/visitor/update
 ||chatfuel.com/cf-analytics/
 ||chatgpt.com/ces/*/b|$xmlhttprequest
@@ -81240,6 +81241,7 @@ zmail.mtrl.me$image
 ||demo.zeenews.com/ads/counter.php
 ||denakop.com^$third-party
 ||dengage.com^$third-party
+||deno.com/i/
 ||deo.shopeemobile.com/shopee/shopee-trackingsdk-
 ||deovr.com/api_logs/
 ||dep-x.com^$third-party
@@ -85623,6 +85625,7 @@ zmail.mtrl.me$image
 ||mvilivestats.com^$third-party
 ||mvtracker.com^$third-party
 ||mwed.jp/assets/packs/js/measurements/
+||mwed.jp/i/acs.gif?
 ||mwstats.net^$third-party
 ||mx.eneba.com/lib.min.js
 ||mxapis.com^$third-party
@@ -86903,7 +86906,11 @@ zmail.mtrl.me$image
 ||postageapp.com/receipt/$third-party
 ||postback.affiliateport.eu/track.js
 ||postbank.de/etc/*/clientlib-postbank-webtrekk
+||posthog.com/*/?ip=$xmlhttprequest
 ||posthog.com/*/?retry_count
+||posthog.com/*/logs?$xmlhttprequest
+||posthog.com/api/homepage-hits
+||posthog.com/api/signup-count
 ||postmates.com/_events$redirect=nooptext
 ||postmates.com/_p/api/setrobotevents
 ||posty.kr/api/tr|
@@ -88049,6 +88056,7 @@ zmail.mtrl.me$image
 ||sdk.conscent.in^$third-party
 ||sdk.mrf.io/statics/marfeel-sdk.js
 ||sdk.nsureapi.com/sdk.js
+||sdk.rum.aliyuncs.com/v*/bl.js
 ||sdqoi2d.com^$third-party
 ||sea-nov-1.com^$third-party
 ||seaart.ai/log/

@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-03-16 01:09:50 UTC
-! Total Rules: 6339
+! Last Updated: 2026-03-16 12:41:10 UTC
+! Total Rules: 6336
 ! Expires: 5 days
 &js_build=iclick-
 &stamat=*&chmob=
@@ -2103,7 +2103,6 @@ yydstxt*.com/js/html
 ||asserts.avple.tv/file/avple-asserts/ad.js
 ||assets-prod.bitcointreasuries.net/partner-images/
 ||assets.dimitriu.xyz/prebid-hotnews.js
-||assets.everlit.audio/assets/lib/ad_manager-
 ||assets.genius.com/javascripts/compiled/ads-*.js
 ||assets.genius.com/javascripts/compiled/reactads.*.js
 ||assets.moly.hu/system/header_ads/
@@ -2388,8 +2387,6 @@ yydstxt*.com/js/html
 ||bkjia.com/bkjia/js/artitle.js
 ||bkjia.com/bkjia/js/banner
 ||bkjia.com/bkjia/js/subnavtop.js
-||blitz-cdn.blitz.gg/self-promotion/
-||blitz-desktop.blitz.gg/js/feature-ads-baseline/
 ||blog.xuite.net/_public/js/ysmad.js
 ||blogspot.com^*/s1600/drug.gif
 ||blueidea.com/js/ajs.js
@@ -2616,8 +2613,6 @@ yydstxt*.com/js/html
 ||chazidian.com/statics/images/ad_
 ||chazidian.com/statics/xly/huorezhaosheng.png
 ||chdbits.co/pic/*-*.gif
-||check-host.net/images/*hosteal*.png
-||check-host.net/images/*waith*.png
 ||chengdu.cn/acts/phoneqss/opencornerwin/
 ||chengtongled.com/gg/
 ||chengtu.com/api.php?mod=ad&adid=
@@ -3418,7 +3413,6 @@ yydstxt*.com/js/html
 ||google.com/adsense/search/ads.js
 ||google.com/adsense/search/async-ads.js
 ||google.com/pagead/1p-user-list/
-||google.com/pagead/conversion_async.js
 ||google.com/pagead/drt/
 ||google.com/pagead/landing?
 ||googlesyndication.com/pagead/
@@ -3926,6 +3920,7 @@ yydstxt*.com/js/html
 ||itc.cn/mdevp/*-advert/
 ||itc.cn/w/u/0/old-insertad-
 ||itchygame.com/assets/_ntk/
+||ithardware.pl/js/mediaexpert-widget.js
 ||itheat.com/?show=
 ||ithome.com.tw/media/serve?
 ||ithome.com/api/lapin/
@@ -4950,6 +4945,7 @@ yydstxt*.com/js/html
 ||pornofaps.com/frosty-bread-04ce/
 ||pornone.com/js/combined.js
 ||pornoxo.com/link/out/
+||pornoxo.com/pxo/www/js-v*.min.js?url=
 ||pornpapa.com/extension/
 ||pornpaw.com/never.js
 ||pornpics.de/api/banner/
@@ -5481,8 +5477,8 @@ yydstxt*.com/js/html
 ||static.gamedistribution.com/ad-block/
 ||static.hellmoms.com/*/inplaybn-
 ||static.huaren.live/ads/
-||static.newsnation.in/images/webtech.gif
 ||static.olelive.com/upload/site/*/*.gif
+||static.opensubtitles.org/libs/js/ray-announcement-bar.js
 ||static.republicworld.com/assets/js/ads.min.js
 ||static.sunmedia.tv/integrations/
 ||static.tohomh123.com/js/funasd.js
@@ -5706,6 +5702,7 @@ yydstxt*.com/js/html
 ||trip.com/partners/ad/
 ||trstx.org/overroll/
 ||truex.com/js/client.js
+||truvidplayer.com/v*/v.php?*&adid=
 ||truyensex*/anh/
 ||trvl-px.com/trvl-px/
 ||tsdm39.com/img01/mp3/gg/

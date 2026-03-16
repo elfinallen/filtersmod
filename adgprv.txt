@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-03-16 01:09:50 UTC
-! Total Rules: 11515
+! Last Updated: 2026-03-16 12:41:10 UTC
+! Total Rules: 11521
 ! Expires: 5 days
 &&sub19=undefined&sub20=undefined
 &action=js_stats
@@ -4307,7 +4307,7 @@ t.yesware.com
 ||arkoselabs.com/metrics/
 ||arlt.com/analytics/
 ||armedangels.com/javascript/script.js
-||arms-retcode-sg.aliyuncs.com/r.png?
+||arms-retcode*.aliyuncs.com/r.png?
 ||arms.aliyuncs.com/r.png
 ||armtorg.ru/top/counter/
 ||arstechnica.com/keys/arstechnica.com/p.js
@@ -5079,6 +5079,7 @@ t.yesware.com
 ||chartsurfer.de/uscoll.php?
 ||chat.deepseek.com/api/v0/events
 ||chat.groq.com/global_stats
+||chat.vica.gov.sg/api/v1/unleash/proxy/client/metrics
 ||chata.quickcep.com/im/behavior/visitor/update
 ||chatfuel.com/cf-analytics/
 ||chatgpt.com/ces/statsc/
@@ -5679,6 +5680,7 @@ t.yesware.com
 ||demandmedia.com/wm.js
 ||demandware.edgesuite.net/*/dwanalytics.js
 ||demo.zeenews.com/ads/counter.php
+||deno.com/i/
 ||deo.shopeemobile.com/shopee/shopee-trackingsdk-
 ||deovr.com/api_logs/
 ||deporvillage.com/tracking-library/
@@ -8095,6 +8097,7 @@ t.yesware.com
 ||musically.com/wp-content/plugins/jetpack/jetpack_vendor/automattic/woocommerce-analytics
 ||musvc2.net/e/c?
 ||mwed.jp/assets/packs/js/measurements/
+||mwed.jp/i/acs.gif?
 ||mx.eneba.com/lib.min.js
 ||mxmfb.com/rsps/img/
 ||mxmkitchen.com/in/pcl/track.php
@@ -8799,6 +8802,8 @@ t.yesware.com
 ||postback.affiliateport.eu/track.js
 ||postbank.de/etc/*/clientlib-postbank-webtrekk
 ||posthog.com/*/?retry_count
+||posthog.com/api/homepage-hits
+||posthog.com/api/signup-count
 ||postmates.com/_p/api/setrobotevents
 ||posty.kr/api/tr|
 ||potensic.com/npublic/libs/widget/sensors/
@@ -9412,6 +9417,7 @@ t.yesware.com
 ||sdk.appbrain.com/api/
 ||sdk.mrf.io/statics/marfeel-sdk.js
 ||sdk.nsureapi.com/sdk.js
+||sdk.rum.aliyuncs.com/v*/bl.js
 ||seaart.ai/log/
 ||search-api.fie.futurecdn.net/js/*/master-*/analytics-library-entry-getcustomtrackingid.js
 ||search-api.joongna.com/v*/ga/log|
