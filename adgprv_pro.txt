@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-03-17 01:02:45 UTC
-! Total Rules: 91804
+! Last Updated: 2026-03-17 12:39:50 UTC
+! Total Rules: 91810
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -1541,6 +1541,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /ck.m.honto.jp/c/*$image
 /cklink.gif?
 /cklog.js
+/cl.animate.co.jp/c/*$image
 /cl.mos.jp/q/*$image
 /clarity-*.js
 /clck/*$domain=yandex.*|playhop.com
@@ -2314,6 +2315,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /if/services/tdg$domain=foerde-sparkasse.de|sparkasse-dachau.de|sparkasse-hochfranken.de|sparkasse-mittelfranken-sued.de
 /if/services/tdg?hs=
 /iiquniversalid.min.js
+/image.info.jr-odekake.net/lib/*$image
 /image.ng/*
 /images/tingyun.js$script
 /images/top100.gif
@@ -78618,6 +78620,7 @@ zmail.mtrl.me$image
 ||api.parsely.com/*/analytics/
 ||api.parsely.com/v2/profile?uuid=*&apikey=
 ||api.patienten.helios-gesundheit.de/api/unleash/client/metrics
+||api.pcid.ca/v1/client/logs
 ||api.personaclick.com/push$xmlhttprequest
 ||api.phnx.click/js/article-stat-
 ||api.phoenix-widget.com/c?wid=
@@ -80646,6 +80649,7 @@ zmail.mtrl.me$image
 ||consent.trustarc.com/noticemsg?
 ||consentag.eu^$third-party
 ||consentmanager.net/delivery/info/$third-party
+||console.deno.com/_fresh/js/*/posthog.js
 ||constellation.networknmedia.com/cdn-cgi/trace
 ||construction21.org/ga.js
 ||consultant.ru/js/counter.js
@@ -85611,6 +85615,7 @@ zmail.mtrl.me$image
 ||murdoog.com^$third-party
 ||murdoog.com^*/pixel/$image
 ||musescore.com/components/data?
+||musescore.com/components/log/$ping
 ||musescore.com/score/stats/
 ||museter.com/track.php?
 ||music.163.com/device/signature/create/deviceid.js
@@ -86528,6 +86533,7 @@ zmail.mtrl.me$image
 ||pbjs.sskzlabs.com^$third-party
 ||pbstck.com^$third-party
 ||pc-agency24.de^$third-party
+||pc-optimum.ada.support/api/business_events/track$domain=pcoptimum.ca
 ||pc.assets-cosme.net/js/ga.js
 ||pc.assets-cosme.net/js/general/pc/cmn-pf-nav-google-analytics.js
 ||pc1.io^$third-party

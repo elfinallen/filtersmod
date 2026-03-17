@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-03-17 01:02:45 UTC
-! Total Rules: 6337
+! Last Updated: 2026-03-17 12:39:50 UTC
+! Total Rules: 6336
 ! Expires: 5 days
 &js_build=iclick-
 &stamat=*&chmob=
@@ -1045,7 +1045,6 @@
 ://m.*.top/*.js?ssid=_
 ://mine.torrent.pw^
 ://rou*/_next/static/chunks/pages/home-
-://rs-stripe.wsj.com/stripe/image?
 ://seai*/ads/float.js
 ://xingkong6688s.oss-
 :1010/openv5.js
@@ -2034,7 +2033,6 @@ yydstxt*.com/js/html
 ||ammcg.imgscloud.com/toy/
 ||ams.cdn.arkadiumhosted.com/advertisement/
 ||anal.media/creatives/
-||analdin.*/html.php?aid=
 ||androidauth.wpengine.com/wp-json/api/advanced_placement
 ||angelweb.cn/inc/angelg.js
 ||anhuinews.com/include/
@@ -3421,6 +3419,7 @@ yydstxt*.com/js/html
 ||goproxy.cc/api.php
 ||goraidparty.com/images/ad_banner
 ||gosexpod.com/*/*.php
+||gottanut.com/addons/blad.php
 ||gougou2018.com/js/item
 ||gouhb.com/skin/jww/images/20141029114*.png
 ||goupu.org/1files/*.gif
@@ -3581,6 +3580,7 @@ yydstxt*.com/js/html
 ||hentaicomic.*/data/ds/
 ||hentaicomic.*/data/game/*/wap.gif
 ||hentaifox.com/js/slider.js
+||hentaihand.com/api/featured
 ||hentaivideos.net/imp/
 ||hexun.*/hxpage/index.html
 ||hexun.com*/hx_news/hx_news_finalpage.js
@@ -4484,6 +4484,7 @@ yydstxt*.com/js/html
 ||mat1.gtimg.com/2014/webtips/ola2014tips
 ||mat1.gtimg.com/cq/flash/
 ||mat1.gtimg.com/ent/flash/*300
+||maxroll.gg/js/sponsor.js
 ||maxthonimg.com/v6/festival/
 ||mbalib.com/common/a_mbalib/
 ||mcmod.cn/editor/upload/20221126/1669399546_2_onbt.
@@ -4610,7 +4611,6 @@ yydstxt*.com/js/html
 ||msstatic.com/huya/main3/widget/roomgg
 ||msstatic.net/main3/common/assets/template/head/ad.
 ||mtime.cn/tg/
-||multiup.io/download-fast/
 ||multporn.net/fern*_pen.js
 ||muyuge.com/fw.html/
 ||muyys.com/img/
@@ -5907,7 +5907,6 @@ yydstxt*.com/js/html
 ||webkaka.com/info/script/articlead.js
 ||webkaka.com/script/cp.js
 ||webkaka.com^*x50.
-||webtoonscan.com/*ads.js
 ||wecima.click/static/js/adblock.js
 ||wei2008.com/js/*0.
 ||wei2008.com/js/t_

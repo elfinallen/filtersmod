@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-03-17 01:02:45 UTC
-! Total Rules: 11523
+! Last Updated: 2026-03-17 12:39:50 UTC
+! Total Rules: 11525
 ! Expires: 5 days
 &&sub19=undefined&sub20=undefined
 &action=js_stats
@@ -4106,6 +4106,7 @@ t.yesware.com
 ||api.parsely.com/*/analytics/
 ||api.parsely.com/v2/profile?uuid=*&apikey=
 ||api.patienten.helios-gesundheit.de/api/unleash/client/metrics
+||api.pcid.ca/v1/client/logs
 ||api.phnx.click/js/article-stat-
 ||api.phoenix-widget.com/c?wid=
 ||api.pico.tools/metrics/
@@ -5376,6 +5377,7 @@ t.yesware.com
 ||consent.trustarc.com/bannermsg?
 ||consent.trustarc.com/log?
 ||consent.trustarc.com/noticemsg?
+||console.deno.com/_fresh/js/*/posthog.js
 ||constellation.networknmedia.com/cdn-cgi/trace
 ||construction21.org/ga.js
 ||consultant.ru/js/counter.js
