@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-03-17 12:39:50 UTC
-! Total Rules: 9930
+! Last Updated: 2026-03-18 01:06:35 UTC
+! Total Rules: 9934
 ! Expires: 5 days
 $cookie=/adb\.key/,domain=expres.cz|televizeseznam.cz|ahaonline.cz|extra.cz|mobilmania.cz|idnes.cz|aktuality.sk|aktualne.cz|blesk.cz|centrum.cz|cnews.cz|e15.cz|karaoketexty.cz|novinky.cz|sport.cz|super.cz|tiscali.cz|zive.cz|antiyoutuber.cz|fights.cz|metro.cz
 $cookie=__adblocker,domain=slate.com|thehindubusinessline.com
@@ -1242,6 +1242,7 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 /exonb/*$script
 /exonob/*$script
 /exowb/froload.js$script
+/exowb/fronload.js$script
 /exowb/frontload.js$script
 /external/ad.$script
 /ez-yahoo/*$domain=ezvivi.com
@@ -1375,7 +1376,7 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 /https?:\/\/[^\/]*18comic\.(org|vip)\/static\/.*?\d{3}[-xx_]\d{3}.*?\.gif/$domain=18comic.org|18comic.vip
 /https?:\/\/[a-z0-9]{10,25}\.[a-z0-9]{10,20}\.cfd\/[a-za-z0-9]{10,25}\/[a-za-z0-9]{1,5}$/$script,match-case,header=set-cookie:/^gl_ui4=/
 /huijiad/huijiad.
-/huya/main/widget/roomgg
+/huya/main3/widget_roomgatop_
 /huya_promotion_content_
 /hy.js?q22
 /i/api/graphql/*/homelatesttimeline$jsonprune=\$.data.home.home_timeline_urt.instructions..entries..[?(key-substr 'entryid' 'promoted-tweet-')],domain=twitter.com|x.com
@@ -4559,6 +4560,7 @@ yydstxt*.com/js/html
 ||ckrf1.com^$popup
 ||ckxxbao.com/templets/default/js/wx.js
 ||clb.biz/public/static/js/common-v2.js
+||clc2l.com/build/boxhtml/gizus.js$domain=gizmodo.com
 ||click.aliexpress.com^$subdocument,third-party
 ||click.taobao.com^$popup,domain=steamcn.com
 ||clickadu.com^$third-party
@@ -4566,6 +4568,7 @@ yydstxt*.com/js/html
 ||clickmon.co.kr^$third-party
 ||clickonometrics.pl^$third-party
 ||clicktripz.com^$third-party
+||clictoload.com^$domain=gizmodo.com
 ||clixtrac.com^$third-party
 ||clladss.com^$all
 ||clladss.com^$document
@@ -5338,6 +5341,7 @@ yydstxt*.com/js/html
 ||fl6n.com/adtop/
 ||flash.cn/success/$popup
 ||flash.mycar168.com/data/js/
+||flashtalking.com^$image,redirect-rule=1x1-transparent.gif,domain=racenet.com.au
 ||flashtalking.com^$third-party,domain=~toggo.de
 ||flasmr.top/leb.
 ||flighty.cn/images/
@@ -5920,7 +5924,7 @@ yydstxt*.com/js/html
 ||hsvtdj.top^$all
 ||hsyipos.com/template/mxone/html_tplmx/vod/*.gif
 ||html-load.com^$image,~third-party,domain=html-load.com,important
-||html-load.com^$important,domain=nikkansports.com|j-cast.com|picksandparlays.net|ranking.net|minkou.jp|aucfree.com|motor-talk.de|373news.com|northantstelegraph.co.uk|tavovaikas.lt|agriculture.com|travelandleisure.com|learnreligions.com|verywellhealth.com|statecollege.com|dayspedia.com|aussieaudiomart.com|ukaudiomart.com|usaudiomart.com|canuckaudiomart.com
+||html-load.com^$important,domain=nikkansports.com|j-cast.com|picksandparlays.net|ranking.net|minkou.jp|aucfree.com|motor-talk.de|373news.com|northantstelegraph.co.uk|tavovaikas.lt|agriculture.com|travelandleisure.com|learnreligions.com|verywellhealth.com|statecollege.com|dayspedia.com|aussieaudiomart.com|ukaudiomart.com|usaudiomart.com|canuckaudiomart.com|thestreet.com
 ||html-load.com^$script,domain=issuya.com|pravda.com.ua|lamire.jp|picrew.me|mydaily.co.kr|badmouth1.com|taxguru.in|sportsrec.com|reportera.co.kr|tweaksforgeeks.com|fourfourtwo.co.kr|flatpanelshd.com|wfmz.com|videogamemods.com|dziennik.pl|inven.co.kr|eurointegration.com.ua|jin115.com|gloria.hr|etnews.com|carscoops.com|sportsseoul.com|onlinegdb.com|text-compare.com|winfuture.de|hoyme.jp|indiatimes.com|blog.esuteru.com|modhub.us|thatgossip.com|sourceforge.net|economictimes.com|convertcase.net|kreuzwortraetsel.de|powerpyx.com|syosetu.com|dnevno.hr|woxikon.de|wort-suchen.de|letemsvetemapplem.eu|neowin.net
 ||html-load.com^$script,important,domain=hookemheadlines.com|12thmanrising.com|aroundthefoghorn.com|arrowheadaddict.com|badgerofhonor.com|bamahammer.com|beargoggleson.com|beyondtheflag.com|blackandteal.com|blogredmachine.com|bluemanhoop.com|boltbeat.com|bosoxinjection.com|buffalowdown.com|caneswarning.com|catcrave.com|chopchat.com|climbingtalshill.com|cubbiescrib.com|dailyknicks.com|dairylandexpress.com|dawindycity.com|dawnofthedawg.com|detroitjockcity.com|dodgersway.com|ebonybird.com|fansided.com|gbmwolverine.com|gmenhq.com|hailfloridahail.com|hardwoodhoudini.com|horseshoeheroes.com|housethathankbuilt.com|huskercorner.com|insidetheiggles.com|jaysjournal.com|justblogbaby.com|kckingdom.com|kingjamesgospel.com|lakeshowlife.com|lombardiave.com|mentalfloss.com|motorcitybengals.com|musketfire.com|nflspinzone.com|ninernoise.com|nugglove.com|phinphanatic.com|pistonpowered.com|predominantlyorange.com|ramblinfan.com|redbirdrants.com|reviewingthebrew.com|riggosrag.com|ripcityproject.com|risingapple.com|rumbunter.com|scarletandgame.com|section215.com|sidelionreport.com|slapthesign.com|sodomojo.com|stillcurtain.com|stormininnorman.com|stripehype.com|thatballsouttahere.com|thejetpress.com|thelandryhat.com|thepewterplank.com|thesmokingcuban.com|thevikingage.com|thunderousintentions.com|valleyofthesuns.com|whodatdish.com|yanksgoyard.com
 ||html-load.com^$script,important,domain=oricon.co.jp|doviz.com|boardingarea.com|welt.de|sourceforge.net|omnicalculator.com|divinedaolibrary.com|computerbild.de|deadline.com|nouvelobs.com|hollywoodreporter.com|variety.com|billboard.com|rollingstone.com|dnevnik.hr|akinator.com|helpdeskgeek.com|indiewire.com|wwd.com|sportico.com|exceljet.net|perezhilton.com|fossbytes.com|newatlas.com|songfacts.com|slideshare.net|nextchessmove.com|usaudiomart.com|toyokeizai.net|autobild.de|infinityfree.com|kuruma-news.jp|liveandletsfly.com|learnmetrics.com|tablefortwoblog.com|laurenslatest.com|jamjarkitchen.com|dinneratthezoo.com|cafedelites.com|julieseatsandtreats.com|chelseasmessyapron.com|dinnersdishesanddesserts.com|bunsinmyoven.com|realhousemoms.com|crayonsandcravings.com|bakeplaysmile.com|iambaker.net|thesoccermomblog.com|savvysavingcouple.net|bestfriendsforfrosting.com|thegunnysack.com|gonnawantseconds.com|redcurrantbakery.com|bab.la|dictionary.cambridge.org|oxfordlearnersdictionaries.com|homesicktexan.com|tipsandtricksjapan.com|andrewzimmern.com|collinsdictionary.com|mamastar.jp|seriouseats.com|liquor.com|simplyrecipes.com|thespruceeats.com|eatingwell.com|marthastewart.com|thoughtco.com|lifewire.com|ldoceonline.com|treehugger.com|myrecipes.com|lerobert.com|sussexexpress.co.uk|edinburghnews.scotsman.com|lejdd.fr|tips-and-tricks.co|foodandwine.com|thetruthaboutcars.com|dexerto.com|happyinshape.com|wort-suchen.de|woxikon.de|ukaudiomart.com|wielerrevue.nl|zeilen.nl|chloeting.com|nationalpost.com|fansided.com|dict.cc|onceuponachef.com|twopeasandtheirpod.com|bz-berlin.de|myhomebook.de|fitbook.de|techbook.de|travelbook.de|pons.com|inverse.com|windsorstar.com|canuckaudiomart.com|watchdocumentaries.com|manchesterworld.uk|9gag.com|egitim.net.tr|petbook.de|natalie.mu|crosswordsolver.com|merinfo.se|trafficnews.jp|otonanswer.jp|egolf.jp|scribd.com|calculatorsoup.com|hk01.com|itavisen.no|magmix.jp|edmontonjournal.com|urldecoder.org|base64decode.org|programme-tv.net|aussieaudiomart.com
@@ -7260,7 +7264,6 @@ yydstxt*.com/js/html
 ||msn.com/resolver/api/resolve/$jsonprune=\$.configs['slideshow/ntpmsn'].properties.additionalchildexperiences..children..childexperienceconfiginfo.configref[?(key-substr '\$' 'nativead')]
 ||mssl.fwmrm.net/libs/adm/*/admanager.js$domain=eurosport.*,important
 ||msstatic.com/huya/main/img/mc-recom_
-||msstatic.com/huya/main3/widget/roomgg
 ||msstatic.net/main3/common/assets/template/head/ad.
 ||mstm.motorsport.com^$script,~third-party,redirect-rule=noopjs
 ||mtime.cn/tg/
@@ -7315,6 +7318,7 @@ yydstxt*.com/js/html
 ||myhack58.com/articleacb0
 ||myhack58.com^*0$script
 ||myhaitang.cc/assets/public/*.js
+||mykadri.tv/preroll/
 ||mylomza.pl/static/files/inline_images/*/inline__
 ||mylust.com/*.jsx
 ||mylust.com/assets/script.js^

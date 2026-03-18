@@ -1,7 +1,7 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-03-17 12:39:50 UTC
+! Last Updated: 2026-03-18 01:06:35 UTC
 ! Total Rules: 6336
 ! Expires: 5 days
 &js_build=iclick-
@@ -632,7 +632,7 @@
 /html/709/*.js
 /html/taobao_focus_
 /huijiad/huijiad.
-/huya/main/widget/roomgg
+/huya/main3/widget_roomgatop_
 /huya_promotion_content_
 /hy.js?q22
 /ifeng_jdttemplate.js
@@ -4608,7 +4608,6 @@ yydstxt*.com/js/html
 ||msdn.hk/templets/msdn/css/index.js
 ||msdn.hk/templets/msdn/css/msdng.js
 ||msstatic.com/huya/main/img/mc-recom_
-||msstatic.com/huya/main3/widget/roomgg
 ||msstatic.net/main3/common/assets/template/head/ad.
 ||mtime.cn/tg/
 ||multporn.net/fern*_pen.js
@@ -4653,6 +4652,7 @@ yydstxt*.com/js/html
 ||mydyxs.com/mpc/
 ||myhack58.com/articleacb0
 ||myhaitang.cc/assets/public/*.js
+||mykadri.tv/preroll/
 ||mylomza.pl/static/files/inline_images/*/inline__
 ||mylust.com/*.jsx
 ||mylust.com/assets/script.js^
