@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-03-18 01:06:35 UTC
-! Total Rules: 6336
+! Last Updated: 2026-03-18 12:40:09 UTC
+! Total Rules: 6338
 ! Expires: 5 days
 &js_build=iclick-
 &stamat=*&chmob=
@@ -818,7 +818,6 @@
 /pjk/xjk/*.php
 /player/html.php?aid=*&video_id=*&referer=
 /plugin.php?id=popad_7ree&
-/popunder/in/click/*
 /proxy.htm?id=
 /proxy.html?id=
 /proxy_top_banner_js.php
@@ -2611,6 +2610,8 @@ yydstxt*.com/js/html
 ||chazidian.com/statics/images/ad_
 ||chazidian.com/statics/xly/huorezhaosheng.png
 ||chdbits.co/pic/*-*.gif
+||check-host.net/images/*hosteal*.png
+||check-host.net/images/*waith*.png
 ||chengdu.cn/acts/phoneqss/opencornerwin/
 ||chengtongled.com/gg/
 ||chengtu.com/api.php?mod=ad&adid=
@@ -5464,6 +5465,7 @@ yydstxt*.com/js/html
 ||sss777.net/alove-a/
 ||ssyy881.com/zz/
 ||st.chatango.com/js/*/*/rklmodule.js
+||st.motortrend.com/nitrous/
 ||staramuse.com/bmip/showg
 ||starnnews.com/banner/
 ||startpage.com/*/adsense/search/async-ads.js
