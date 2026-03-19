@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-03-19 01:05:58 UTC
-! Total Rules: 9935
+! Last Updated: 2026-03-19 12:34:12 UTC
+! Total Rules: 9932
 ! Expires: 5 days
 $cookie=/adb\.key/,domain=expres.cz|televizeseznam.cz|ahaonline.cz|extra.cz|mobilmania.cz|idnes.cz|aktuality.sk|aktualne.cz|blesk.cz|centrum.cz|cnews.cz|e15.cz|karaoketexty.cz|novinky.cz|sport.cz|super.cz|tiscali.cz|zive.cz|antiyoutuber.cz|fights.cz|metro.cz
 $cookie=__adblocker,domain=slate.com|thehindubusinessline.com
@@ -656,7 +656,6 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 /99rejs/js/adv
 /99vjj/*$third-party
 /://666(7|8)[0-9]{2}.xyz\//$image,third-party
-/?ab=*&rl=1|$popup,third-party
 /?oo=1&aab=1|$script,third-party,xmlhttprequest
 /?oo=1&aab=1|$script,third-party,xmlhttprequest,redirect=noopjs
 /?pl=*&sm=$document
@@ -806,7 +805,6 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 /ad_360_$domain=somanhua.com
 /ad_728.js$script
 /ad_banner/*$image,domain=~ccf.com.cn
-/ad_bottom.js$script
 /ad_counter.aspx$ping
 /ad_display.php?ad_pos=
 /ad_images/*$image,domain=~5nd.com|~dietnavi.com
@@ -3377,6 +3375,7 @@ yydstxt*.com/js/html
 ||ads.exoclick.com/ads.js$script,redirect=noopjs
 ||ads.google.com^$xmlhttprequest,domain=ynet.co.il
 ||adsage.com^$third-party
+||adsbookie.com^$third-party
 ||adserve.work^$third-party
 ||adshnk.com^$third-party
 ||adshrink.it/adshytics.js
@@ -3864,6 +3863,7 @@ yydstxt*.com/js/html
 ||b168.net^*.*?$image
 ||b477.life^$popup,third-party
 ||b4dg.life/love/
+||b4x6a6x3.ssl.hwcdn.net/k/709010/1ds/ul98hj.js$domain=banglachotikahinii.com
 ||b7yy.com/ad/
 ||babepedia.com/banners/
 ||baby-kingdom.com/reqsads?
@@ -4077,7 +4077,6 @@ yydstxt*.com/js/html
 ||bianzhirensheng.com/img/bianzhiji.jpg
 ||biaoge.tv/fa
 ||biblehub.com/botmenu
-||biblemenus.com/adframe
 ||bidder.criteo.com/$xmlhttprequest,redirect=nooptext,domain=wp.pl|money.pl|o2.pl|pudelek.pl|komorkomania.pl|gadzetomania.pl|fotoblogia.pl|autokult.pl|abczdrowie.pl|parenting.pl|videostar.pl|autocentrum.pl
 ||biddingx.com^$third-party
 ||bidgear.com^$third-party
@@ -4269,8 +4268,6 @@ yydstxt*.com/js/html
 ||caikuu.com/ckimages/*_gg
 ||caikuu.com/ckimages/*_zg
 ||caitlin.top/catalog/view/core/adchecker/
-||caitlin.top/catalog/view/core/comic/fc.js
-||caitlin.top/catalog/view/core/comic/fc0.js
 ||caixin.com/s?z=
 ||caltat.com^$third-party
 ||camghosts.com^$third-party
@@ -4338,7 +4335,6 @@ yydstxt*.com/js/html
 ||cdn.ampproject.org^$popup,badfilter
 ||cdn.bescore.com^$third-party
 ||cdn.bestreviews.com/deals/main.bundle.js$third-party
-||cdn.camwhores.tv/contents/player2/player/*mp4$media,domain=camwhores.video
 ||cdn.cnn.com/ads/
 ||cdn.cohesionapps.com^$domain=thepointsguy.com
 ||cdn.concert.io/lib/concert-ads/
@@ -4370,7 +4366,6 @@ yydstxt*.com/js/html
 ||cdn.jsdelivr.net/npm/@fancyapps/$domain=hcbdsm.com
 ||cdn.jsdelivr.net/npm/ima-ad-player
 ||cdn.jwplayer.com/players/*.js$domain=imfdb.org
-||cdn.makemula.ai/js/mula.js
 ||cdn.mcnn.pl^$third-party
 ||cdn.oaistatic.com/assets/*.js$replace=/error\(.\(418\,""\)\);throw ..\(..\(.\,.\)\)\,../null;/,domain=chatgpt.com
 ||cdn.onnetwork.tv/js/player*/player_prebidm.js
@@ -5386,6 +5381,7 @@ yydstxt*.com/js/html
 ||freeones.com/build/freeones/adwidget.$script
 ||freepik.com/sponsor/$domain=freepik.com
 ||freepopnews.skin/advert/
+||freeuseporn.com/backdrop.js^
 ||freevpn4you.net/*.php$replace=/ins\.clientheight =/ins.clientheight !/
 ||freighter-prod01.narvar.com^$image
 ||frendz4m.org/arlinablock.js
@@ -6158,7 +6154,6 @@ yydstxt*.com/js/html
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=meczyki.pl
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=news.now.com,important
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=pandora.com
-||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=paroles2chansons.lemonde.fr,important
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=player.pl|vod.pl|tvn24.pl,important
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=plex.tv,important
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=poradnikzdrowie.pl|mjakmama24.pl|se.pl|eskarock.pl|voxfm.pl|radioplus.pl|eska.pl|radiosupernova.pl|vibefm.pl|urzadzamy.pl|mediateka.pl|muratordom.pl
@@ -7033,6 +7028,8 @@ yydstxt*.com/js/html
 ||mail.qq.com/lview?
 ||majorgeeks.com/images/mg/ads/
 ||makaidong.com/img/
+||malavida.com/*/download$document,replace=/\(popupon\)/(false)/
+||malavida.com/jsu_$script
 ||maleenhancement.top^$popup
 ||malimali5.com/ad1.png
 ||mall.xinkuaituan.com/zhuanti/
@@ -7900,6 +7897,7 @@ yydstxt*.com/js/html
 ||prodtraff.com^$popup
 ||proewildfire.cn/fd.js
 ||profamouslife.com/js/adcash.js
+||profitablecpmgate.com^$popup
 ||profitsfly.com^$third-party
 ||proginn.com/cms/10000/
 ||programattik.com^$third-party
@@ -8511,7 +8509,6 @@ yydstxt*.com/js/html
 ||sleazyneasy.com/contents/images-container/*.gif
 ||slickdeals.net/ad-stats/
 ||slit.cn/slimages/
-||slysoft.com/img/banner/
 ||sm.ign.com/zdadkit*.js
 ||smac-ad.com^$third-party
 ||smart.idmnet.pl^$domain=eska.pl

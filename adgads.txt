@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-03-19 01:05:58 UTC
-! Total Rules: 6339
+! Last Updated: 2026-03-19 12:34:12 UTC
+! Total Rules: 6335
 ! Expires: 5 days
 &js_build=iclick-
 &stamat=*&chmob=
@@ -2347,7 +2347,6 @@ yydstxt*.com/js/html
 ||bianzhirensheng.com/img/bianzhiji.jpg
 ||biaoge.tv/fa
 ||biblehub.com/botmenu
-||biblemenus.com/adframe
 ||bigear.cn/cache/htmlcache/
 ||bigrock.in/affiliate/
 ||biketo.com/d/file/p/
@@ -2488,8 +2487,6 @@ yydstxt*.com/js/html
 ||caikuu.com/ckimages/*_gg
 ||caikuu.com/ckimages/*_zg
 ||caitlin.top/catalog/view/core/adchecker/
-||caitlin.top/catalog/view/core/comic/fc.js
-||caitlin.top/catalog/view/core/comic/fc0.js
 ||caixin.com/s?z=
 ||camsoda.com/promos/
 ||camspacelive.com/widgets/
@@ -2557,7 +2554,6 @@ yydstxt*.com/js/html
 ||cdn.jsdelivr.net/gh/vli-platform/adb-analytics@*/v1.0.min.js
 ||cdn.jsdelivr.net/gh/willthequeencome/adcsh/june.js
 ||cdn.jsdelivr.net/npm/ima-ad-player
-||cdn.makemula.ai/js/mula.js
 ||cdn.onnetwork.tv/js/player*/player_prebidm.js
 ||cdn.questvert.pl/publishers/*/qpscript.js
 ||cdn.rawgit.com/arlina-design/quasar/*/arlinablock.js
@@ -3262,6 +3258,7 @@ yydstxt*.com/js/html
 ||freehao123.com/wp-content/uploads/2017/05/mmkdm.png
 ||freejavbt.com/assets/images/banner
 ||freepopnews.skin/advert/
+||freeuseporn.com/backdrop.js^
 ||frendz4m.org/arlinablock.js
 ||frontendjs.com/api/ad
 ||frprn.com/even/ok.js
@@ -5372,7 +5369,6 @@ yydstxt*.com/js/html
 ||sleazyneasy.com/contents/images-container/*.gif
 ||slickdeals.net/ad-stats/
 ||slit.cn/slimages/
-||slysoft.com/img/banner/
 ||sm.ign.com/zdadkit*.js
 ||smarthomebeginner.com/images/*300x250_
 ||smqzj.com/seo.js
