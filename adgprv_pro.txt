@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-03-20 01:02:12 UTC
-! Total Rules: 91812
+! Last Updated: 2026-03-20 12:30:54 UTC
+! Total Rules: 91816
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -9439,6 +9439,8 @@ demo5lobalid3.click.s11.sfmc-osl.com$image
 denis.click.s11.sfmc-osl.com$image
 dev.news.generali.de$image
 dev1lobalid3.click.s11.sfmc-osl.com$image
+digital-eliteboard.com%2fb%2fimage.gif%3fp%3d
+digital-eliteboard.com/b/image.gif?p=
 digital.neoseguradora.com.br$image
 direct.vodafone.com.au$image
 directtrack.*.js
@@ -81558,6 +81560,8 @@ zmail.mtrl.me$image
 ||duckdns.org^$third-party,websocket
 ||duckduckgo.com/*/reportanalytics
 ||duckduckgo.com/*/reportanalytics$xmlhttprequest,redirect-rule=noopjson
+||duckduckgo.com/atb.js
+||duckduckgo.com/exti/
 ||duckduckgo.com/t.js?q=
 ||duckduckgo.com/t/
 ||duckduckgo.com/y.js?ifu=
@@ -85985,7 +85989,7 @@ zmail.mtrl.me$image
 ||njam.tv/tracking/
 ||nkis.nikkei.com/imp?
 ||nlog.commerce.naver.com^$redirect=nooptext
-||nlog.naver.com^$domain=~shopping.naver.com|~smartstore.naver.com|~brand.naver.com
+||nlog.naver.com^$domain=~shopping.naver.com|~smartstore.naver.com|~brand.naver.com|~flight.naver.com
 ||nltx.kikar.co.il/v*/analytics/
 ||nmc.cn/npt/track/stat.js
 ||nmc.cn/static/nmclog/nmclog.js
@@ -86068,7 +86072,7 @@ zmail.mtrl.me$image
 ||nta1vb6cdlrl.com^$third-party
 ||ntlab.org^$third-party
 ||ntm.pstatic.net/scripts/ntm_$domain=naver.com
-||ntm.pstatic.net/scripts/ntm_*.js$domain=~smartstore.naver.com|~brand.naver.com
+||ntm.pstatic.net/scripts/ntm_*.js$domain=~smartstore.naver.com|~brand.naver.com|~flight.naver.com
 ||ntmb.de/count.html?
 ||nttcoms.com^$cookie=visitorid
 ||ntunhs.net/js/tracker.js
@@ -88839,7 +88843,7 @@ zmail.mtrl.me$image
 ||ssl.directferries.com/secure/ws/adtracking.asmx/
 ||ssl.kaptcha.com/collect/
 ||ssl.pstatic.net/img.tvcast/pc/js/wcslog
-||ssl.pstatic.net/static.gn/js/clickcrd.js$domain=~search.naver.com|~smartstore.naver.com|~brand.naver.com
+||ssl.pstatic.net/static.gn/js/clickcrd.js$domain=~search.naver.com|~smartstore.naver.com|~brand.naver.com|~flight.naver.com
 ||ssl.pstatic.net/static.news/*/js/generated/aside.statistics.js$domain=media.naver.com|news.naver.com
 ||ssl.pstatic.net/static.news/mnews/resources/*/js/generated/aside.statistics.js
 ||ssl.pstatic.net/static.news/mnews/resources/*/js/generated/statistics_jquery.js
