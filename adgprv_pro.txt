@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-03-19 12:34:12 UTC
-! Total Rules: 91811
+! Last Updated: 2026-03-20 01:02:12 UTC
+! Total Rules: 91812
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -900,7 +900,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /\/\/([0-9a-z]+\.){1,}[0-9a-z]+\.[a-z]{2,}\/[a-z]{8}\.js\?st=[0-9a-z]{6,8}$/$script,~third-party,match-case
 /\/js\/[a-z]{3}\d\.js$/$script,~third-party,domain=eegg.fun
 /^anon1.gt\d{6}.com$/
-/^https:\/\/(www|checkout|giris)\.hepsiburada\.com\/([a-za-z0-9\-_]+\/){3,7}([a-za-z0-9\-_]+|[a-za-z0-9\-_]+\/[a-za-z0-9\-_]+)$/$script,~third-party,domain=hepsiburada.com
 /^https:\/\/(www|m)\.coupang\.com\/[a-za-z0-9_]+\/[a-za-z0-9_-]+\/[a-za-z0-9_-]+\/[a-za-z0-9_]+\/[a-za-z0-9_]+(\/[a-za-z0-9_-]+){0,5}$/$domain=coupang.com,xmlhttprequest,method=post,match-case
 /^https:\/\/anon1.gt\d{6}.com/
 /^https:\/\/cdn\.jsdelivr\.net\/npm\/([a-z]|-|_){4,22}@latest\/dist\/script\.min\.js$/$domain=mlbpark.donga.com
@@ -3717,6 +3716,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /t.contactlab.it/v/*
 /t.gif?
 /t.ifly.southwest.com/*$image
+/t.notificationmail.microsoft.com/r/?id=$image
 /t.paypal.com/*$image
 /t.yesware.com/t/*$image
 /t/*/a^$image,domain=~permies.com
@@ -80065,6 +80065,7 @@ zmail.mtrl.me$image
 ||cdn.ustatik.com/vendor/metrica/watch.js
 ||cdn.webeyo.com/ipinfo|
 ||cdn.wootric.com/wootric-sdk.js
+||cdn.work.hotp.jp/assets/lib/js/logteam-
 ||cdn.yottaa.com/rapid.security.min.*.js$script,redirect=noopjs,domain=northerntool.com
 ||cdn.zg-api.com/a/z/js/v1/analytics.js
 ||cdn.zg-api.com^*/analytics.js
