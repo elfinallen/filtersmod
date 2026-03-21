@@ -1,7 +1,7 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-03-21 00:58:11 UTC
+! Last Updated: 2026-03-21 12:21:59 UTC
 ! Total Rules: 9931
 ! Expires: 5 days
 $cookie=/adb\.key/,domain=expres.cz|televizeseznam.cz|ahaonline.cz|extra.cz|mobilmania.cz|idnes.cz|aktuality.sk|aktualne.cz|blesk.cz|centrum.cz|cnews.cz|e15.cz|karaoketexty.cz|novinky.cz|sport.cz|super.cz|tiscali.cz|zive.cz|antiyoutuber.cz|fights.cz|metro.cz
@@ -2050,6 +2050,7 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 /webcam.mp4$domain=91porn.com
 /webcam600.mp4$domain=91porn.com
 /websales_push_*_big.php?id=
+/whisperingauroras\.com\/[a-z0-9]{20,32}\.js/$domain=whisperingauroras.com
 /widget-advert?$subdocument
 /wp-auto-affiliate-links/*$script,stylesheet
 /wp-bannerize-$script,stylesheet
@@ -3276,7 +3277,6 @@ yydstxt*.com/js/html
 ||ad.ari.lt^$badfilter
 ||ad.bench.utorrent.com^$app=utorrent.exe
 ||ad.digitimes.com.tw/*_bigbutton.jpg
-||ad.doubleclick.net/favicon.ico$image,redirect=32x32-transparent.png,domain=planetrugby.com|loverugbyleague.com
 ||ad.ettoday.net^$redirect=nooptext
 ||ad.linkprice.com^$third-party
 ||ad.mail.ru/static/admanhtml/
@@ -3382,6 +3382,7 @@ yydstxt*.com/js/html
 ||adsok.co^$third-party
 ||adspector.io^$third-party
 ||adsquash.info^$popup
+||adsquasher.pro^$document
 ||adsquirrel.ai^$third-party
 ||adsrvr.org^$third-party
 ||adsterratech.com^$third-party
@@ -3456,6 +3457,7 @@ yydstxt*.com/js/html
 ||agogo.tv/images//uploads/ad/
 ||aguo.com^$third-party
 ||ah.sina.com.cn/iframe/
+||ahbdsply.com^$popup
 ||ahejtw.onelink.me^$third-party
 ||ahgame.com/js/new_ad.js
 ||ahlife.com/api.php?mod=adv&
@@ -3740,7 +3742,6 @@ yydstxt*.com/js/html
 ||armanet.us^$third-party
 ||ashemaletube.com/ast/b/
 ||ashemaletube.com/ast/paysite
-||ashemaletube.com/ast/www/*.js?url=*ashemaletube.com/out/
 ||asiav.cyou/myupdatelist.
 ||asp300.*/2012adimg/
 ||asp300.*/2012js/
@@ -4365,6 +4366,7 @@ yydstxt*.com/js/html
 ||cdn.jsdelivr.net/npm/ima-ad-player
 ||cdn.jwplayer.com/players/*.js$domain=imfdb.org
 ||cdn.mcnn.pl^$third-party
+||cdn.nanamovies.org/*.gif$domain=overmovies.com
 ||cdn.oaistatic.com/assets/*.js$replace=/error\(.\(418\,""\)\);throw ..\(..\(.\,.\)\)\,../null;/,domain=chatgpt.com
 ||cdn.onnetwork.tv/js/player*/player_prebidm.js
 ||cdn.ping0.cc/images/ax/*.gif$~third-party
@@ -5399,6 +5401,7 @@ yydstxt*.com/js/html
 ||fun8.us^$domain=cartoonmad.com
 ||func.tw/image/func2.png
 ||fundingchoicesmessages.google.com^$domain=video.repubblica.it|br0wsers.com|mathsspot.com|now.gg|aranzulla.it|3bmeteo.com
+||funeraltimes.com/databaseimages/adv_
 ||funnyjunk.com/site/js/extra/pre
 ||funshipin.com/v1/js/footerhongbao.js
 ||fuoo1.top^$third-party
@@ -7508,6 +7511,7 @@ yydstxt*.com/js/html
 ||olmsoneenh.info^$domain=avgle.com
 ||olopruy.com^$document
 ||om.cn/api/ad-om/
+||omonoia24.com/wp-content/uploads/*.gif
 ||omuzaani.me^$replace=/(window\.location\.(replace|href))/\/\/\$1/,document,subdocument
 ||omuzaani.me^$replace=/forcekillplayer\(/\/\/forcekillplayer(/,document,subdocument
 ||onaudience.com^$third-party
@@ -7673,7 +7677,6 @@ yydstxt*.com/js/html
 ||pbc.pagesix.com/p/nyp/pagesix/pb.js
 ||pbl3citto.com^$all
 ||pbmp.ali213.net/js/
-||pbstck.com/kleanads-prebid/
 ||pc6.com/img/
 ||pc841.com/show/
 ||pcauto.com.cn/forum/fz/hots/
@@ -7716,7 +7719,6 @@ yydstxt*.com/js/html
 ||people.com.cn/adv/
 ||people.com.cn/img/gjt/
 ||perfdrive.com^$third-party
-||perfectmoney.com/img/banners/
 ||perlmaven.com/img/*0x2
 ||perlmaven.com/img/sticker-you.jpg
 ||petco.com/wcsstore/petcosas/javascript/smartbanner.js
@@ -8182,6 +8184,7 @@ yydstxt*.com/js/html
 ||rfidworld.com.cn/notice/home
 ||riaway.com/statics/idea.jpg
 ||richaudience.com^$third-party
+||richmediaads.com^$third-party
 ||rigengjihua.cn/banner/
 ||right.com.cn/forum/static/image/common/logo
 ||right.com.cn/forum/static/image/common/logo*.gif
@@ -8320,7 +8323,6 @@ yydstxt*.com/js/html
 ||sd173.com/images/
 ||sd1v.yitongwl.cn/site/
 ||sdbeta.com/statics/mystyle/js/1
-||sdk.credible.com/sdk.js$domain=fox35orlando.com
 ||sdo.com/static/image/mkads/
 ||sdzbcg.com/images/sdfhyl
 ||se533.com/template/new/css/*.js
@@ -8689,7 +8691,6 @@ yydstxt*.com/js/html
 ||static.okokserver.com^$media,domain=huaren.live
 ||static.olelive.com/upload/site/*/*.gif
 ||static.opensubtitles.org/libs/js/ray-announcement-bar.js
-||static.republicworld.com/assets/js/ads.min.js
 ||static.rolex.com/clocks/$third-party
 ||static.sunmedia.tv/integrations/
 ||static.tohomh123.com/js/funasd.js
@@ -8774,7 +8775,6 @@ yydstxt*.com/js/html
 ||suptraf.com^$document
 ||surfe.pro^$third-party
 ||sv1291.space^$all
-||svet24.si/build/assets/adbeacon.js
 ||svonm.com/www.katsomo.fi/config.json$replace=/"enabled": true\,/"enabled": false\,/i,domain=mtv.fi,important
 ||sw76r85eda3k.com/need/h5.
 ||swarm.video/uhdstream.js$replace=/_wm\.format\.popunder/a/

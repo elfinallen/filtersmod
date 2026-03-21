@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-03-21 00:58:11 UTC
-! Total Rules: 11531
+! Last Updated: 2026-03-21 12:21:59 UTC
+! Total Rules: 11534
 ! Expires: 5 days
 &&sub19=undefined&sub20=undefined
 &action=js_stats
@@ -1875,6 +1875,7 @@
 /mpulse.min.js
 /ms-widgets/tracking-cookies/*
 /ms.analytics-web-3.min.js
+/msq.tracker.min.js
 /mtc.js
 /mtifonttracker.js
 /mtifonttrackingcode.js
@@ -1984,6 +1985,7 @@
 /oval_web_analytics_latest.js
 /owa.analytics.m.js
 /owa.tracker-combined-min.js
+/owa.tracker.js
 /oxanalytics.js
 /p.gif?
 /p.php?action_name=
@@ -3206,6 +3208,7 @@
 /whisper?event=
 /white_pixel.gif?
 /wildfire/i/cimp.gif?
+/wix-code-telemetry-collector/*
 /wix-engage-visitors-
 /wlexpert_tracker.js
 /wmxtracker.js

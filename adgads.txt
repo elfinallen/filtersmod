@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-03-21 00:58:11 UTC
-! Total Rules: 6331
+! Last Updated: 2026-03-21 12:21:59 UTC
+! Total Rules: 6328
 ! Expires: 5 days
 &js_build=iclick-
 &stamat=*&chmob=
@@ -2089,7 +2089,6 @@ yydstxt*.com/js/html
 ||arkadiumhosted.com/advertisement/
 ||ashemaletube.com/ast/b/
 ||ashemaletube.com/ast/paysite
-||ashemaletube.com/ast/www/*.js?url=*ashemaletube.com/out/
 ||asiav.cyou/myupdatelist.
 ||asp300.*/2012adimg/
 ||asp300.*/2012js/
@@ -3271,6 +3270,7 @@ yydstxt*.com/js/html
 ||fulibl.com/wp-content/uploads/2016/06/320-230.jpg
 ||fun1shot.com/images/qrcode_wechat.png
 ||func.tw/image/func2.png
+||funeraltimes.com/databaseimages/adv_
 ||funnyjunk.com/site/js/extra/pre
 ||funshipin.com/v1/js/footerhongbao.js
 ||futbol24.com/kscms_asyncspc.php
@@ -4768,6 +4768,7 @@ yydstxt*.com/js/html
 ||olelive.com/v1/pub/index/anchor/check/pc/e?
 ||olgame.tw/home/attachment/
 ||om.cn/api/ad-om/
+||omonoia24.com/wp-content/uploads/*.gif
 ||one101.xyz/data/images/*.gif
 ||onedala.tv/uploads/banner/
 ||onegreen.net/myfile/
@@ -4831,7 +4832,6 @@ yydstxt*.com/js/html
 ||pasazer.com/_assets/js/ad-connect.js
 ||pbc.pagesix.com/p/nyp/pagesix/pb.js
 ||pbmp.ali213.net/js/
-||pbstck.com/kleanads-prebid/
 ||pc6.com/img/
 ||pc841.com/show/
 ||pcauto.com.cn/forum/fz/hots/
@@ -4863,7 +4863,6 @@ yydstxt*.com/js/html
 ||pengwei168.com/template/stui_tpl/html/vod/f.js
 ||people.com.cn/adv/
 ||people.com.cn/img/gjt/
-||perfectmoney.com/img/banners/
 ||perlmaven.com/img/*0x2
 ||perlmaven.com/img/sticker-you.jpg
 ||petco.com/wcsstore/petcosas/javascript/smartbanner.js
@@ -5477,7 +5476,6 @@ yydstxt*.com/js/html
 ||static.huaren.live/ads/
 ||static.olelive.com/upload/site/*/*.gif
 ||static.opensubtitles.org/libs/js/ray-announcement-bar.js
-||static.republicworld.com/assets/js/ads.min.js
 ||static.sunmedia.tv/integrations/
 ||static.tohomh123.com/js/funasd.js
 ||static.videezy.com/assets/underpop-*.js
@@ -5530,7 +5528,6 @@ yydstxt*.com/js/html
 ||supfree.net/stat
 ||supfree.net/top.gif
 ||supfree.net/xxx/
-||svet24.si/build/assets/adbeacon.js
 ||sw76r85eda3k.com/need/h5.
 ||sweetalert2.github.io/images/sponsors/
 ||swoole.com/_images/kundian
