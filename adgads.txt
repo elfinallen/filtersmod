@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-03-22 01:05:15 UTC
-! Total Rules: 6328
+! Last Updated: 2026-03-22 12:23:14 UTC
+! Total Rules: 6327
 ! Expires: 5 days
 &js_build=iclick-
 &stamat=*&chmob=
@@ -4337,7 +4337,6 @@ yydstxt*.com/js/html
 ||live173.com//ad/
 ||live173.com/banner/
 ||liveany.com/images/8d8d.gif
-||livexscores.com/rekban.php
 ||livku.com/g1000/
 ||liwupuba.com/livead/
 ||ll.ibiqiuge.com/m.js
@@ -5248,6 +5247,7 @@ yydstxt*.com/js/html
 ||sd173.com/images/
 ||sd1v.yitongwl.cn/site/
 ||sdbeta.com/statics/mystyle/js/1
+||sdk.k-words.io/script.js
 ||sdo.com/static/image/mkads/
 ||sdzbcg.com/images/sdfhyl
 ||se533.com/template/new/css/*.js
@@ -5460,7 +5460,6 @@ yydstxt*.com/js/html
 ||sss777.net/alove-a/
 ||ssyy881.com/zz/
 ||st.chatango.com/js/*/*/rklmodule.js
-||st.motortrend.com/nitrous/
 ||staramuse.com/bmip/showg
 ||starnnews.com/banner/
 ||startpage.com/*/adsense/search/async-ads.js
