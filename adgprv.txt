@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-03-23 01:06:34 UTC
-! Total Rules: 11536
+! Last Updated: 2026-03-23 12:37:14 UTC
+! Total Rules: 11542
 ! Expires: 5 days
 &&sub19=undefined&sub20=undefined
 &action=js_stats
@@ -680,6 +680,7 @@
 /boomerang.js
 /boomerang/beacon
 /boomr.js
+/boost-pfs-analytics-custom.js
 /boost-sd-analytic.js
 /boost_stats.php
 /bootstrap/metrics.js
@@ -3721,6 +3722,7 @@ t.yesware.com
 ||adobedc.net/collector/
 ||adope.net/external/analytics.js
 ||adora-cdn.com/adora-start.js
+||adpay.ssg.com/adpayapi/pay/send.ssg
 ||ads-partners.coupang.com/log/
 ||adservice.google.
 ||adservice.sbs.co.kr/netinsight/event/
@@ -6212,6 +6214,9 @@ t.yesware.com
 ||fbot.me/events/
 ||fbsbx.com/paid_ads_pixel/
 ||fc2.com/counter_img.php?
+||fcbayern.com/static/*/ah?
+||fcbayern.com/static/*/av?
+||fcbayern.com/static/*/collect?
 ||fcmatch.google.com/pixel
 ||fcmatch.youtube.com/pixel
 ||fd.nl/pixel/
@@ -10131,6 +10136,7 @@ t.yesware.com
 ||suedkurier.de/storage/scr/*_webtrekk.js.js
 ||suedtirol.live/slc.js
 ||suggestion.ciceksepeti.com/api/v*/events
+||sui.ssgcdn.com/ui/ssg/js/affiliate/wiselog_makepcookie.js
 ||sumaity.com/js/press/analytics_scroll.js
 ||sumaity.com/script/analytics/s_code.js
 ||sumo.com/api/event/

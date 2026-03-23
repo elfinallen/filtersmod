@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-03-23 01:06:34 UTC
-! Total Rules: 91823
+! Last Updated: 2026-03-23 12:37:14 UTC
+! Total Rules: 91830
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -1416,6 +1416,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /boomerang.js
 /boomerang/beacon
 /boomr.js
+/boost-pfs-analytics-custom.js
 /boost-sd-analytic.js
 /boost_stats.php
 /bootstrap/metrics.js
@@ -2647,6 +2648,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /ls.gif?
 /ls.php?t=
 /lst/universal-script?ph=
+/lti-analytics-$script
 /lunalys/analyzer/*
 /lunametrics-
 /lzdmailer.letter.open?
@@ -77963,6 +77965,7 @@ zmail.mtrl.me$image
 ||adoric-om.com^$third-party
 ||adoric.com^$third-party
 ||adpaths.com^$third-party
+||adpay.ssg.com/adpayapi/pay/send.ssg
 ||adpick.co.kr^$third-party
 ||adpies.com^$third-party
 ||adplus.io^$third-party
@@ -82198,6 +82201,9 @@ zmail.mtrl.me$image
 ||fbthirdpartypixel.com^$third-party
 ||fc.webmasterpro.de^$third-party
 ||fc2.com/counter_img.php?
+||fcbayern.com/static/*/ah?
+||fcbayern.com/static/*/av?
+||fcbayern.com/static/*/collect?
 ||fcmatch.google.com/pixel
 ||fcmatch.youtube.com/pixel
 ||fcs.ovh^$third-party
@@ -89271,6 +89277,7 @@ zmail.mtrl.me$image
 ||suggest.sso.dzen.ru/clck/$image,ping
 ||suggestion.ciceksepeti.com/api/v*/events
 ||sugodeku.com^$third-party
+||sui.ssgcdn.com/ui/ssg/js/affiliate/wiselog_makepcookie.js
 ||suite*.linximpulse.net^$third-party
 ||suki-kira.com^$referrerpolicy=origin
 ||sulia.com/papi/sulia_partner.js/$third-party

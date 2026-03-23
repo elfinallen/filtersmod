@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-03-23 01:06:34 UTC
-! Total Rules: 6327
+! Last Updated: 2026-03-23 12:37:14 UTC
+! Total Rules: 6324
 ! Expires: 5 days
 &js_build=iclick-
 &stamat=*&chmob=
@@ -3047,6 +3047,7 @@ yydstxt*.com/js/html
 ||e3c7.com/dh/
 ||e3c7.com/love/
 ||e3ol.com/inc/
+||earn-bitcoins.net/banner_
 ||easou.com/brandimage/ad/
 ||easou.com/online/banner/
 ||eastday.com/assets/js/dftongjiad.js
@@ -3960,7 +3961,6 @@ yydstxt*.com/js/html
 ||jandan.net^*/3kbw2.png
 ||jandan.net^*/699pic/
 ||jandan.net^*/moyu.png
-||jasonsavard.com/images/promos/
 ||jav.sb/videojs/300.php
 ||jav.sb/videojs/300x100.php
 ||jav101.com/img5bbb0096f242f.gif
@@ -4633,7 +4633,6 @@ yydstxt*.com/js/html
 ||mycodes.net/js/*.js
 ||mycodes.net/js/hf_txt.js
 ||mydifile.com/view.php/*.gif
-||mydiv.net.ua/main.js
 ||mydrivers.com/2018/ad/
 ||mydrivers.com/2020/news/8/kkj_msi.gif
 ||mydrivers.com/drivers/2021/racent.jpg
@@ -5123,7 +5122,6 @@ yydstxt*.com/js/html
 ||raw.githack.com/*/*/main/antiadblock/2.0/code.min.js
 ||rawcdn.githack.com/*/arlinablock.js
 ||rawcdn.githack.com/sanjoy944/jonaki/*/adblockerpupup.js
-||rd.com/wp-content/plugins/pup-ad-stack/
 ||readcomiconline.li/ads/
 ||realmadryt.pl/img/banners/
 ||receivefreesms.co.uk/adblk/adblk_enc.js
@@ -5711,7 +5709,6 @@ yydstxt*.com/js/html
 ||tube.hentaistream.com/wp-includes/js/pop4.js
 ||tube8.*/_xa/ads
 ||tubeon.*/templates/base_master/js/jquery.shows2.min.js
-||tubev.sex/td24f164e52654fc593c6952240be1dc210935fe/
 ||tui.gtimg.com//res/
 ||tui555.com/public/gong/js/a_
 ||tui56.com/guanggao*.html
@@ -5821,8 +5818,9 @@ yydstxt*.com/js/html
 ||videosection.com/adv-agent.php
 ||videowood.me/assets/js/popup.js
 ||videowood.tv/popjavascript
+||vidlink.pro/api/mercury
+||vidlink.pro/api/venus
 ||vidmoly.*/static/vastad.js
-||vidnest.*/player/jw8/vast.js
 ||vidsrc.cc/saas/js/script.min.js?v=
 ||vip.luanren.com/data/*.gif
 ||vip.video.qq.com/rpc/trpc.vip_ad_promotion
@@ -6097,7 +6095,6 @@ yydstxt*.com/js/html
 ||xvideo.cc/etology2.js
 ||xvideo.cc/im4.js
 ||xvideo.cc/wefong2.js
-||xvideos-cdn.com/*/js/static/header/sda/ppsuma*.js
 ||xvideos.com/zoneload/
 ||xvideos.es/zoneload/
 ||xxdm.in/js/union/
