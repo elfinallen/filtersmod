@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-03-24 00:59:19 UTC
-! Total Rules: 91835
+! Last Updated: 2026-03-24 12:40:34 UTC
+! Total Rules: 91839
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -2142,6 +2142,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /geov2.js
 /get/*/inventory|
 /get/*/live/_/jts.js
+/get/live/web/_/*$script,~third-party
 /get_cdns?$third-party,xmlhttprequest
 /get_geoip?
 /get_site_data?requestuuid=
@@ -78854,7 +78855,8 @@ zmail.mtrl.me$image
 ||appspot.com/track-analytics-event
 ||appsupport.qq.com/cgi-bin/appstage/mstats_batch_report
 ||apptentive.com^$redirect=nooptext
-||apptimize.com^$redirect=nooptext
+||apptimize.com^$domain=synchrony.com
+||apptimize.com^$redirect=nooptext,domain=~synchrony.com
 ||apptracer.ru^$third-party
 ||appvtexio.weni.ai/pixel.js
 ||aproapi.benchmarkemail.com/api/v1/trackers/
@@ -86807,6 +86809,7 @@ zmail.mtrl.me$image
 ||player.ivideosmart.com/ivsplayer/*/moat-tracker.js
 ||player.javboys.cam/cdn-cgi/trace
 ||player.kwikmotion.com/packages/videojs-stat/
+||player.mangomolo.com/stats/
 ||player.ooyala.com/errors/report?
 ||player.sbs.co.kr/log/
 ||player.svc.litv.tv/pixel/
@@ -87886,6 +87889,7 @@ zmail.mtrl.me$image
 ||s.yimg.com/dy/readmo-pixel.js
 ||s.yimg.com/jk/aabd/prod/adblockerdetector.umd.js
 ||s.yimg.com/ss/analytics-$script,domain=yahoo.com
+||s.yimg.com/ss/analytics-*.js
 ||s.yimg.com/ss/analytics3.js
 ||s.yimg.jp/images/approach/jslib/clear.gif?
 ||s.yimg.jp/images/listing/tool/cv/ytag.js
@@ -88678,8 +88682,8 @@ zmail.mtrl.me$image
 ||songmeanings.com/*/e.gif?pixels=
 ||sonic-prod.cbssports.cloud/analytics/
 ||sonic.fdp.api.flipkart.com/4/data/collector/
-||sooplive.co.kr/asset/service/common/common_analysis.js
-||sooplive.co.kr/js/google.analytics.js
+||sooplive.com/asset/service/common/common_analysis.js
+||sooplive.com/js/google.analytics.js
 ||sophi.io^$third-party
 ||sophus3.com^$third-party
 ||sopoe.cn/index.php/user/ajax_ulog/
@@ -88885,7 +88889,7 @@ zmail.mtrl.me$image
 ||st.onlygip.tech^$third-party
 ||st.ozone.ru/s3/ozon-tag-manager/
 ||st.pba.xl.pt/pbasitetracker/pbasitetracker.min.js
-||st.sooplive.co.kr/api/da_block_api.php
+||st.sooplive.com/api/da_block_api.php
 ||st.work.ua/js/banners/global-counter-min_*.js
 ||st.work.ua/js/send_stat-min_*.js
 ||st.work.ua/js/site_counters-min_*.js
@@ -89141,7 +89145,7 @@ zmail.mtrl.me$image
 ||stayforlong.com/api/kafka/tracking
 ||stayfriends.de/mobilemember/js/framework/sf_tracking.js
 ||stayz.com.au/cl/data/omgpixel.json
-||stbbs.sooplive.co.kr/api/*_log.php
+||stbbs.sooplive.com/api/*_log.php
 ||std-lab.jp/js/analytics.js.php
 ||steadfastsystem.com^$third-party
 ||stealth.nl^$third-party

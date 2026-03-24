@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-03-24 00:59:19 UTC
-! Total Rules: 6324
+! Last Updated: 2026-03-24 12:40:34 UTC
+! Total Rules: 6325
 ! Expires: 5 days
 &js_build=iclick-
 &stamat=*&chmob=
@@ -2560,6 +2560,7 @@ yydstxt*.com/js/html
 ||cdn.staticaly.com/gh/arlina-design/*/arlinablock.js
 ||cdn.staticmoly.me/vlock.php?
 ||cdn.tapioni.com/asg_embed.js
+||cdn.telekomunikace.cz/banners
 ||cdn.uameta.ai/file/bucket-media/image/advertisement/
 ||cdn.viously.com/js/sdk/boot.js
 ||cdn.wo.cc/wo.js
@@ -3961,7 +3962,6 @@ yydstxt*.com/js/html
 ||jandan.net^*/3kbw2.png
 ||jandan.net^*/699pic/
 ||jandan.net^*/moyu.png
-||jav.sb/videojs/300.php
 ||jav.sb/videojs/300x100.php
 ||jav101.com/img5bbb0096f242f.gif
 ||javazhijia.com/skin/
@@ -5470,6 +5470,7 @@ yydstxt*.com/js/html
 ||static.freevideo.cz/static/prbn/
 ||static.gamedistribution.com/ad-block/
 ||static.hellmoms.com/*/inplaybn-
+||static.hispanoads.es/ttt.js
 ||static.huaren.live/ads/
 ||static.olelive.com/upload/site/*/*.gif
 ||static.opensubtitles.org/libs/js/ray-announcement-bar.js

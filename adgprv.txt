@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-03-24 00:59:19 UTC
-! Total Rules: 11545
+! Last Updated: 2026-03-24 12:40:34 UTC
+! Total Rules: 11547
 ! Expires: 5 days
 &&sub19=undefined&sub20=undefined
 &action=js_stats
@@ -8750,6 +8750,7 @@ t.yesware.com
 ||player.ivideosmart.com/ivsplayer/*/moat-tracker.js
 ||player.javboys.cam/cdn-cgi/trace
 ||player.kwikmotion.com/packages/videojs-stat/
+||player.mangomolo.com/stats/
 ||player.ooyala.com/errors/report?
 ||player.sbs.co.kr/log/
 ||player.svc.litv.tv/pixel/
@@ -9322,6 +9323,7 @@ t.yesware.com
 ||s.yimg.com/cx/pv/perf-vitals_
 ||s.yimg.com/dy/readmo-pixel.js
 ||s.yimg.com/jk/aabd/prod/adblockerdetector.umd.js
+||s.yimg.com/ss/analytics-*.js
 ||s.yimg.com/ss/analytics3.js
 ||s.yimg.jp/images/approach/jslib/clear.gif?
 ||s.yimg.jp/images/listing/tool/cv/ytag.js
@@ -9752,8 +9754,8 @@ t.yesware.com
 ||songmeanings.com/*/e.gif?pixels=
 ||sonic-prod.cbssports.cloud/analytics/
 ||sonic.fdp.api.flipkart.com/4/data/collector/
-||sooplive.co.kr/asset/service/common/common_analysis.js
-||sooplive.co.kr/js/google.analytics.js
+||sooplive.com/asset/service/common/common_analysis.js
+||sooplive.com/js/google.analytics.js
 ||sopoe.cn/index.php/user/ajax_ulog/
 ||sortlist.cloud/log
 ||soufun.com/click/
@@ -9874,7 +9876,7 @@ t.yesware.com
 ||st.mngbcn.com/scripts/tagmanager.js
 ||st.ozone.ru/s3/ozon-tag-manager/
 ||st.pba.xl.pt/pbasitetracker/pbasitetracker.min.js
-||st.sooplive.co.kr/api/da_block_api.php
+||st.sooplive.com/api/da_block_api.php
 ||st.work.ua/js/banners/global-counter-min_*.js
 ||st.work.ua/js/send_stat-min_*.js
 ||st.work.ua/js/site_counters-min_*.js
@@ -10034,7 +10036,7 @@ t.yesware.com
 ||stayforlong.com/api/kafka/tracking
 ||stayfriends.de/mobilemember/js/framework/sf_tracking.js
 ||stayz.com.au/cl/data/omgpixel.json
-||stbbs.sooplive.co.kr/api/*_log.php
+||stbbs.sooplive.com/api/*_log.php
 ||std-lab.jp/js/analytics.js.php
 ||steamchina.com/default/usabilitytracking
 ||steamchina.com/events/
