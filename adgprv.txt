@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-03-23 12:37:14 UTC
-! Total Rules: 11542
+! Last Updated: 2026-03-24 00:59:19 UTC
+! Total Rules: 11545
 ! Expires: 5 days
 &&sub19=undefined&sub20=undefined
 &action=js_stats
@@ -3474,6 +3474,8 @@ it-recht-kanzlei.de%2flogo%2fcopyright-logo.png%3fi%3d
 it-recht-kanzlei.de/logo/copyright-logo.png?i=
 jolie.de/sites/default/files/google_tag/google_tag_manager/google_tag.script.js
 lastminute.com.au/api/uisprime/track
+newegg.com%2fmr%2f*.gif%3fr%3d
+newegg.com/mr/*.gif?r=
 notifications.google.com%2fg%2fimg%2f*.gif
 notifications.google.com/g/img/*.gif
 notifications.googleapis.com%2femail%2ft%2f*%2fa.gif
@@ -5108,6 +5110,7 @@ t.yesware.com
 ||checkout-blocks.shopifyapps.com/api/extensions/*/event
 ||checkout.com/logger/
 ||checkout.com/logging
+||checkout.paze.com/api/v*/logging/logevent
 ||checkoutshopper-live.adyen.com/checkoutshopper/*/analytics
 ||cheerup.jp/js/analytics_
 ||chefkoch-cdn.de/agf/agf.js
