@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-03-25 01:04:42 UTC
-! Total Rules: 9921
+! Last Updated: 2026-03-25 12:37:36 UTC
+! Total Rules: 9917
 ! Expires: 5 days
 $cookie=/adb\.key/,domain=expres.cz|televizeseznam.cz|ahaonline.cz|extra.cz|mobilmania.cz|idnes.cz|aktuality.sk|aktualne.cz|blesk.cz|centrum.cz|cnews.cz|e15.cz|karaoketexty.cz|novinky.cz|sport.cz|super.cz|tiscali.cz|zive.cz|antiyoutuber.cz|fights.cz|metro.cz
 $cookie=__adblocker,domain=slate.com|thehindubusinessline.com
@@ -1574,7 +1574,6 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 /meitui.org\/[a-z][a-z].js/$domain=meitui.org
 /mfad/*
 /mhw0/duniao/*
-/microad.js$script
 /mmday/91porn_
 /mmday/hgame_
 /mnpw3.js$script
@@ -4342,6 +4341,7 @@ yydstxt*.com/js/html
 ||cdn.dotaoutpost.com/stable/js/wowhead.js
 ||cdn.ex.co^$third-party
 ||cdn.flashtalking.com/*.mp4?cb=$media,redirect=noopmp4-1s,domain=safeframe.googlesyndication.com,important
+||cdn.flightconnections.com/js/before_pubfig.js
 ||cdn.flowplayer.com/releases/*/plugins/ads$script
 ||cdn.galacg.me/img/*.gif
 ||cdn.galacg.me/img/*.jpg
@@ -5784,7 +5784,6 @@ yydstxt*.com/js/html
 ||headerbidding.ai^$third-party
 ||headerbidding.services^$third-party
 ||headerlift.com^$third-party
-||heartlessanthemantiquity.com^$all
 ||hebei.com.cn/eap/
 ||hebei.com.cn/sys/online_calc.js
 ||hebtv.com/d/a/thea
@@ -7173,7 +7172,6 @@ yydstxt*.com/js/html
 ||missav*/herebyad
 ||missav.to/bn/
 ||missav.to/page/300.html
-||missav78.top/sample/placeholder.jpg$image,redirect=1x1-transparent.gif
 ||missevan.com^$domain=jijidown.com
 ||missyuan.com/sy/
 ||mitbbs.*/servicedata/static_ad.php
@@ -7817,7 +7815,6 @@ yydstxt*.com/js/html
 ||pluto.tv/*/session.json$jsonprune=\$.adbreaklocations.*
 ||pluto.tv/*/session.json$jsonprune=\$.adbreaks.*
 ||plutotv.imgix.net/pauseads/$domain=pluto.tv
-||plxnt.com^$third-party
 ||pmb*.tj.ali213.net/js/
 ||pniao99.com/statics/js/stat.js
 ||poawooptugroo.com^$popup
@@ -7974,6 +7971,7 @@ yydstxt*.com/js/html
 ||pysznosci.pl^$replace=/(aabv\d[\s\s]*?.=\(\)=>).===.(\,)/\$1{return}\$2/,script
 ||pysznosci.pl^$replace=/(aabv\d[\s\s]*?.=function\(\)\{)return .===.(\}\,)/\$1return\$2/,script
 ||qafqazinfo.az/public/site/js/adsbyskyline.js^
+||qarant.az/banner.js$domain=banker.az
 ||qayqa.com:6868/jquery/
 ||qbox.me/flnvidueio_lrxygiol0ofw0gpa7
 ||qbox.me/fnjnjjhjzlkzegj7qv1aocqusfbf
@@ -8118,7 +8116,6 @@ yydstxt*.com/js/html
 ||rapidgator.net/images/pics/36_300%d1%85250_$third-party
 ||rarbt.cc/js/index960_
 ||rareru.ru^$third-party
-||rat.xxx/blsrv/
 ||ratedxbiz.com/d/
 ||raw.githack.com/*/*/main/antiadblock/2.0/code.min.js
 ||raw.githubusercontent.com^$media,redirect=noopmp3-0.1s,domain=vidplus.pro
@@ -9622,7 +9619,6 @@ yydstxt*.com/js/html
 ||xstt5.com/template/js/fx
 ||xtapes.to/ad/
 ||xtits.*/static/js/custom.js
-||xtits.xxx/static/js/ppndr*.js
 ||xuehi.cn/reward/reward
 ||xunsu.cc/js/indexbottom.js
 ||xunyugong.xyz/sitejs/xunyugong.js

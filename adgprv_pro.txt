@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-03-25 01:04:42 UTC
-! Total Rules: 91840
+! Last Updated: 2026-03-25 12:37:36 UTC
+! Total Rules: 91843
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -80732,6 +80732,7 @@ zmail.mtrl.me$image
 ||coocha.co.kr/assets/js/tracking.js
 ||coocha.co.kr/log/
 ||coocha.co.kr/static/js/common/tracker.js
+||cookiechimp.com/api/v1/visitors
 ||cookieless.tech^$third-party
 ||cookiescript.info^$third-party
 ||cookpad.com/*/activity_logs
@@ -81637,6 +81638,7 @@ zmail.mtrl.me$image
 ||e1.ru^$cookie=ngs_analytics_uid
 ||e1.ru^$cookie=ngs_uid
 ||e2ma.net/track/
+||ea-mct-live.com/revsdk.kes.kinesisevent/
 ||eacla.com^$third-party
 ||eadaily.com/tools/calc_news_stat.php
 ||eadt.co.uk/resources/responsive-static/vendor/
@@ -88306,6 +88308,7 @@ zmail.mtrl.me$image
 ||shareaholic.com/partners.js
 ||shareasale-analytics.com^$third-party
 ||shareasale.com^$third-party
+||sharechat.com/event-tracking-service/
 ||shareholder.com/track/
 ||shareit.com/affiliate.html$third-party
 ||sharesies.com/v1/identify

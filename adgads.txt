@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-03-25 01:04:42 UTC
-! Total Rules: 6328
+! Last Updated: 2026-03-25 12:37:36 UTC
+! Total Rules: 6327
 ! Expires: 5 days
 &js_build=iclick-
 &stamat=*&chmob=
@@ -2537,6 +2537,7 @@ yydstxt*.com/js/html
 ||cdn.concert.io/lib/concert-ads/
 ||cdn.cuty.io/fps.js
 ||cdn.dotaoutpost.com/stable/js/wowhead.js
+||cdn.flightconnections.com/js/before_pubfig.js
 ||cdn.galacg.me/img/*.gif
 ||cdn.galacg.me/img/*.jpg
 ||cdn.haokongbu1.com^*.js
@@ -5120,7 +5121,6 @@ yydstxt*.com/js/html
 ||rakuya.com.tw/position?task=
 ||randalls.com/abs/pub/xapi/search/sponsored-carousel?
 ||rarbt.cc/js/index960_
-||rat.xxx/blsrv/
 ||ratedxbiz.com/d/
 ||raw.githack.com/*/*/main/antiadblock/2.0/code.min.js
 ||rawcdn.githack.com/*/arlinablock.js
@@ -6089,7 +6089,6 @@ yydstxt*.com/js/html
 ||xstt5.com/template/js/fx
 ||xtapes.to/ad/
 ||xtits.*/static/js/custom.js
-||xtits.xxx/static/js/ppndr*.js
 ||xuehi.cn/reward/reward
 ||xunsu.cc/js/indexbottom.js
 ||xunyugong.xyz/sitejs/xunyugong.js

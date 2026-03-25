@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-03-25 01:04:42 UTC
-! Total Rules: 11548
+! Last Updated: 2026-03-25 12:37:36 UTC
+! Total Rules: 11551
 ! Expires: 5 days
 &&sub19=undefined&sub20=undefined
 &action=js_stats
@@ -5418,6 +5418,7 @@ t.yesware.com
 ||coocha.co.kr/assets/js/tracking.js
 ||coocha.co.kr/log/
 ||coocha.co.kr/static/js/common/tracker.js
+||cookiechimp.com/api/v1/visitors
 ||cookpad.com/*/activity_logs
 ||cookpad.com/fqtaw5et/init.js
 ||coolbe.*/api/*/events
@@ -5898,6 +5899,7 @@ t.yesware.com
 ||e.used.ca/event
 ||e1.ru/api/metrics/
 ||e2ma.net/track/
+||ea-mct-live.com/revsdk.kes.kinesisevent/
 ||eadaily.com/tools/calc_news_stat.php
 ||eadt.co.uk/resources/responsive-static/vendor/
 ||eage.it/count2.php?
@@ -9559,6 +9561,7 @@ t.yesware.com
 ||share.9cdn.net/share/long_cache/js/tracking/
 ||shareaholic.com/analytics_
 ||shareaholic.com/partners.js
+||sharechat.com/event-tracking-service/
 ||shareholder.com/track/
 ||sharesies.com/v1/identify
 ||sharesies.com/v1/track
