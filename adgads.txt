@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-03-24 12:40:34 UTC
-! Total Rules: 6325
+! Last Updated: 2026-03-25 01:04:42 UTC
+! Total Rules: 6328
 ! Expires: 5 days
 &js_build=iclick-
 &stamat=*&chmob=
@@ -1607,6 +1607,7 @@ yydstxt*.com/js/html
 ||5442tu.com/style/ads5442.js
 ||54admin.net/images/ad_
 ||54new.com*/da/
+||55561.net/ml.
 ||5588.tv/js/piaofuimg.js
 ||55kp.app/aini.
 ||55sky.com/js/diecuo/
@@ -1765,6 +1766,7 @@ yydstxt*.com/js/html
 ||91danji.com/js/lmt.js
 ||91hs005.xyz^*.gif
 ||91jbz.com/file/script/a
+||91jp3.beauty/abc/data*.json
 ||91p20.space/fans/
 ||91rb.net/fc/
 ||91rb.net/js/gg.js
@@ -4059,6 +4061,7 @@ yydstxt*.com/js/html
 ||jmhfw.com/index.php?/ajax/get_adv/
 ||jmydm.com/jspage/ftt.js
 ||jnlc.com/www/fund/newsmarket
+||jobzhub.store/nt.js
 ||joemonster.org/build/js/prebid_*.js
 ||johojima.com/wp-content/uploads/*/bn_*.jpg
 ||johojima.com/wp-content/uploads/*/bnr_*.jpg

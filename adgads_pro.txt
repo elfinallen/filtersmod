@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-03-24 12:40:34 UTC
-! Total Rules: 9917
+! Last Updated: 2026-03-25 01:04:42 UTC
+! Total Rules: 9921
 ! Expires: 5 days
 $cookie=/adb\.key/,domain=expres.cz|televizeseznam.cz|ahaonline.cz|extra.cz|mobilmania.cz|idnes.cz|aktuality.sk|aktualne.cz|blesk.cz|centrum.cz|cnews.cz|e15.cz|karaoketexty.cz|novinky.cz|sport.cz|super.cz|tiscali.cz|zive.cz|antiyoutuber.cz|fights.cz|metro.cz
 $cookie=__adblocker,domain=slate.com|thehindubusinessline.com
@@ -367,7 +367,7 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 .gif|$domain=99re.com
 .gif|$image,domain=mj859.com|qmtrd.com
 .gif|$image,third-party,domain=huanggua22.com
-.gif|$image,third-party,domain=jiuqugan.top
+.gif|$image,third-party,domain=jiuqugan.top|91jp3.beauty
 .gif|$third-party,domain=91xx133.cc
 .hgo0*uyi.com/$script,xmlhttprequest,third-party
 .hh0*aoik.com/$script,xmlhttprequest,third-party
@@ -1240,6 +1240,7 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 /exowb/froload.js$script
 /exowb/fronload.js$script
 /exowb/frontload.js$script
+/exowb/frotload.js$script
 /external/ad.$script
 /ez-yahoo/*$domain=ezvivi.com
 /ezoic/*$script,~third-party
@@ -2944,6 +2945,7 @@ yydstxt*.com/js/html
 ||5442tu.com/style/ads5442.js
 ||54admin.net/images/ad_
 ||54new.com*/da/
+||55561.net/ml.
 ||5588.tv/js/piaofuimg.js
 ||55kp.app/aini.
 ||55sky.com/js/diecuo/
@@ -3125,6 +3127,7 @@ yydstxt*.com/js/html
 ||91friend.com^$third-party
 ||91hs005.xyz^*.gif
 ||91jbz.com/file/script/a
+||91jp3.beauty/abc/data*.json
 ||91p20.space/fans/
 ||91rb.com/fc/$image
 ||91rb.net/fc/
@@ -6521,6 +6524,7 @@ yydstxt*.com/js/html
 ||jmydm.com/jspage/ftt.js
 ||jnlc.com/www/fund/newsmarket
 ||jobbio.com^$third-party
+||jobzhub.store/nt.js
 ||joemonster.org/build/js/prebid_*.js
 ||johojima.com/wp-content/uploads/*/bn_*.jpg
 ||johojima.com/wp-content/uploads/*/bnr_*.jpg
