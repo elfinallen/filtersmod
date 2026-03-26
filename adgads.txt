@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-03-26 01:10:06 UTC
-! Total Rules: 6327
+! Last Updated: 2026-03-26 12:44:32 UTC
+! Total Rules: 6328
 ! Expires: 5 days
 &js_build=iclick-
 &stamat=*&chmob=
@@ -371,6 +371,7 @@
 /80sad/*
 /80x468_
 /83zg/tss.js
+/88/tag.min.js
 /8drama_yahoo/*
 /9115gg/*
 /91_banner/*
@@ -398,6 +399,7 @@
 /ab_my/pc_pf.js
 /ab_res/m/common.js
 /ab_res/pc/fixed/fixed.js
+/ad-container-bundle.js
 /ad-provider.
 /ad2v1.1.js
 /ad?count=
@@ -1085,7 +1087,6 @@
 =fitacg.com/static/othe
 =loginextad.
 =sogou_wap_setjsonadslot&
-?ab=1&zoneid=
 ?method=baidu.ting.commercial.tactics&
 ?usid=*&utid=
 ?wpstealthadsjs=
@@ -2058,7 +2059,6 @@ yydstxt*.com/js/html
 ||aolusb.com/forever/
 ||aoshi.com/rbc.jpg
 ||aotu43.com/templates/defboot/js/duilian.js
-||apbood.boodstream.com/v*/ad/
 ||api-a.ganjingworld.com/*/adsserver/get-vast-xml/
 ||api.adultdeepfakes.cam/banners
 ||api.apiimg.com/huaer/xiahe.js
@@ -2487,6 +2487,8 @@ yydstxt*.com/js/html
 ||caikuu.com/ckimages/*_gg
 ||caikuu.com/ckimages/*_zg
 ||caitlin.top/catalog/view/core/adchecker/
+||caitlin.top/catalog/view/core/comic/fc.js
+||caitlin.top/catalog/view/core/comic/fc0.js
 ||caixin.com/s?z=
 ||camsoda.com/promos/
 ||camspacelive.com/widgets/
@@ -2760,7 +2762,6 @@ yydstxt*.com/js/html
 ||codenong.com/dq.png
 ||codesocang.com/js/a.js
 ||codesocang.com/plus/*baoyue
-||coinmarketcap.com/static/img/cdp_ad_banner/
 ||colamanga.com/sw.js
 ||colonist.io/dist/images/ab_
 ||comefromchina.com/images/128bestbuy
@@ -2932,7 +2933,6 @@ yydstxt*.com/js/html
 ||dj97.com/api.php?mod=ad&
 ||djdedu.net/static/*.gif
 ||djicdn.com/uploads/ad_image_file/
-||dlhd.link/rs4k-adbanner.html
 ||dlkoo.cc/down/copy
 ||dlkoo.com/down/copy
 ||dmzj.com/js/ad/
@@ -3547,7 +3547,6 @@ yydstxt*.com/js/html
 ||hc360.com/security/201409/201409021830024990.jpg
 ||hcbbsoss.oss-cn-hangzhou.aliyuncs.com^*-banner
 ||hd21.*/templates/base_master/js/jquery.shows.min.js
-||hd21.*/templates/base_master/js/jquery.shows2.min.js
 ||hdblog.it/new_files/ajax/prime_bf.php
 ||hdchina.*/styles/topshow/ad/
 ||hdmoli.pro/a_d/
@@ -4727,7 +4726,7 @@ yydstxt*.com/js/html
 ||njdaily.cn/templates/njdaily2014/widget/njdaily-slideads
 ||njxzwh.com/pcsoft/statics/ycgg/
 ||no1.168abc.net/upload/
-||nodejs.cn/_static/js/common.js
+||nodejs.cn/scripts/adsbygoogle.js
 ||nongjitong.com/adm/
 ||notix.io/ent/current/enot.min.js
 ||novelcool.com/files/js/auto_ads.js
@@ -4777,6 +4776,7 @@ yydstxt*.com/js/html
 ||oneinstack.com/images/oneinstack-
 ||onetvb.com/assets/javascripts/
 ||onnetwork.tv/widget/
+||onrender.com/api/ads/
 ||onx8.com/theme/tange/add/
 ||onx8.com/zb_users/theme/ydgreen/style/ad/
 ||oodcd.cn/pan/config/ad.json
@@ -5121,6 +5121,7 @@ yydstxt*.com/js/html
 ||rakuya.com.tw/position?task=
 ||randalls.com/abs/pub/xapi/search/sponsored-carousel?
 ||rarbt.cc/js/index960_
+||rat.xxx/blsrv/
 ||ratedxbiz.com/d/
 ||raw.githack.com/*/*/main/antiadblock/2.0/code.min.js
 ||rawcdn.githack.com/*/arlinablock.js
@@ -5370,6 +5371,7 @@ yydstxt*.com/js/html
 ||slit.cn/slimages/
 ||sm.ign.com/zdadkit*.js
 ||smarthomebeginner.com/images/*300x250_
+||smoothpre.com/player/jw8/vast.js
 ||smqzj.com/seo.js
 ||smzy.com/v1/img/
 ||so.91ks.online/asset/bd.js
@@ -5418,6 +5420,7 @@ yydstxt*.com/js/html
 ||sojson.com/ui/images/upyun
 ||somanhua.com/smh/
 ||songsongyun.com/ads/
+||sonichits.com/tf.php
 ||sonimei.cn/images/gg.png
 ||sonimei.cn/images/llq.png
 ||sonimei.cn/qipai.jpg
@@ -5461,6 +5464,7 @@ yydstxt*.com/js/html
 ||sss777.net/alove-a/
 ||ssyy881.com/zz/
 ||st.chatango.com/js/*/*/rklmodule.js
+||st.motortrend.com/nitrous/
 ||staramuse.com/bmip/showg
 ||starnnews.com/banner/
 ||startpage.com/*/adsense/search/async-ads.js
@@ -5713,6 +5717,7 @@ yydstxt*.com/js/html
 ||tube.hentaistream.com/wp-includes/js/pop4.js
 ||tube8.*/_xa/ads
 ||tubeon.*/templates/base_master/js/jquery.shows2.min.js
+||tubev.sex/td24f164e52654fc593c6952240be1dc210935fe/
 ||tui.gtimg.com//res/
 ||tui555.com/public/gong/js/a_
 ||tui56.com/guanggao*.html
@@ -5853,10 +5858,6 @@ yydstxt*.com/js/html
 ||vod.provider.plex.tv/ad?metadataid=
 ||voodc.com/avurc
 ||vps234.com/resources/images/hosting-promotion/
-||vptpcs.com/templates/base_master/js/jquery.shows2.min.js
-||vptpcs.com/templates/base_master/js/ppdr/
-||vptpcs.com/templates/base_master/js/videoban.js
-||vptpcs.com/templates/frontend/viptube/js/adx_flash.js
 ||vrixon.com/adsdk/
 ||vrrw.net//templets/default/js/ad.js
 ||vs4.com/req.php?z=

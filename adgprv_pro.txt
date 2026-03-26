@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-03-26 01:10:06 UTC
-! Total Rules: 91845
+! Last Updated: 2026-03-26 12:44:32 UTC
+! Total Rules: 91847
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -78767,6 +78767,7 @@ zmail.mtrl.me$image
 ||app.cybba.solutions/event/*/pageview?
 ||app.dhgate.com/mobileapiweb/biz-feedback-log.do
 ||app.dhgate.com/musr/logodata.do
+||app.elitedomains.de/js/service/statistics.service.js
 ||app.gnosispay.com/relay-gp-ph/
 ||app.huawei.com/hwa-c*&action=
 ||app.huawei.com/hwa-c/configresource/js/general/ha.js
@@ -79914,6 +79915,7 @@ zmail.mtrl.me$image
 ||cdn-files.prsmedia.fr^*/xiti/
 ||cdn-front.ciudad.com.ar/*/cxense-min.js
 ||cdn-gateflipp.flippback.com/tag/js/flipptag.js
+||cdn-js.xyz/code?
 ||cdn-magiclinks.trackonomics.net/client^$third-party
 ||cdn-net.com^$third-party
 ||cdn-production.polaranalytics.com/pap.txt$xmlhttprequest,redirect=nooptext
@@ -90850,10 +90852,10 @@ zmail.mtrl.me$image
 ||visualstudio.com/_da.gif?
 ||visualstudio.com/v*/track$third-party
 ||visualstudio.com/v2/track
+||visualwebsiteoptimizer.com*/ee.gif
 ||visualwebsiteoptimizer.com/analysis/
 ||visualwebsiteoptimizer.com/cdn/analysis/
 ||visualwebsiteoptimizer.com/dyn
-||visualwebsiteoptimizer.com/ee.gif?
 ||visualwebsiteoptimizer.com/events/t?
 ||visualwebsiteoptimizer.com/gv.gif?
 ||visualwebsiteoptimizer.com/server-side/track-user?

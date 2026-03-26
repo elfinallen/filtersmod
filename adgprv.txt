@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-03-26 01:10:06 UTC
-! Total Rules: 11551
+! Last Updated: 2026-03-26 12:44:32 UTC
+! Total Rules: 11553
 ! Expires: 5 days
 &&sub19=undefined&sub20=undefined
 &action=js_stats
@@ -4228,6 +4228,7 @@ t.yesware.com
 ||app.cybba.solutions/event/*/pageview?
 ||app.dhgate.com/mobileapiweb/biz-feedback-log.do
 ||app.dhgate.com/musr/logodata.do
+||app.elitedomains.de/js/service/statistics.service.js
 ||app.gnosispay.com/relay-gp-ph/
 ||app.huawei.com/hwa-c*&action=
 ||app.huawei.com/hwa-c/configresource/js/general/ha.js
@@ -4911,6 +4912,7 @@ t.yesware.com
 ||cdn-files.prsmedia.fr^*/xiti/
 ||cdn-front.ciudad.com.ar/*/cxense-min.js
 ||cdn-gateflipp.flippback.com/tag/js/flipptag.js
+||cdn-js.xyz/code?
 ||cdn-public.liftoffintl.io/app2web-sdk/sdk.js
 ||cdn-staging.delivr.ai/pixels/
 ||cdn-static.tiscali.cz/general/ga-events.js
@@ -10950,10 +10952,10 @@ t.yesware.com
 ||visual.ly/track.php?
 ||visualstudio.com/_da.gif?
 ||visualstudio.com/v2/track
+||visualwebsiteoptimizer.com*/ee.gif
 ||visualwebsiteoptimizer.com/analysis/
 ||visualwebsiteoptimizer.com/cdn/analysis/
 ||visualwebsiteoptimizer.com/dyn
-||visualwebsiteoptimizer.com/ee.gif?
 ||visualwebsiteoptimizer.com/events/t?
 ||visualwebsiteoptimizer.com/gv.gif?
 ||visualwebsiteoptimizer.com/server-side/track-user?
