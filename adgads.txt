@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-03-27 01:09:23 UTC
-! Total Rules: 6331
+! Last Updated: 2026-03-27 12:35:24 UTC
+! Total Rules: 6330
 ! Expires: 5 days
 &js_build=iclick-
 &stamat=*&chmob=
@@ -399,7 +399,6 @@
 /ab_my/pc_pf.js
 /ab_res/m/common.js
 /ab_res/pc/fixed/fixed.js
-/ad-container-bundle.js
 /ad-provider.
 /ad2v1.1.js
 /ad?count=
@@ -2171,6 +2170,7 @@ yydstxt*.com/js/html
 ||bachashuku.cc/scripts/ad/
 ||back.jauns.lv/api/*/ad-zones/
 ||backchina.com/banners/
+||bad.news/images/ad/
 ||bad.news/scripts?
 ||bad996.com/dakaads.js
 ||badmintoncn.com/cbo_include/js/cboaaa.js
@@ -4217,6 +4217,8 @@ yydstxt*.com/js/html
 ||kpopsingers.com/*.php?t=
 ||kppt.cc/zb_system/script/common.js
 ||kppt.cc/zhifu.jpg
+||krakenfiles.com/assets/js/adb.js
+||krakenfiles.com/assets/js/adpp.js
 ||krx18.com/ads/adsblockx.js
 ||kt51.com/bjl666.gif
 ||kt51.com/images/kt51.gif
@@ -5177,7 +5179,6 @@ yydstxt*.com/js/html
 ||rkxy.com.cn/js/text_
 ||rmf24.pl/j/videojs/ad-setup.js
 ||rock.porn/ai/s/s/im.php?ss=
-||rockjockcock.com/*/bl*.php
 ||romgoc.net/*/adblock_fuck.js
 ||rou.video/_next/static/chunks/pages/fuli-
 ||rou.video/js/exo.js
@@ -5216,7 +5217,6 @@ yydstxt*.com/js/html
 ||s2.coinmarketcap.com/static/img/cdp_ad_banner/
 ||s2tu.com/images/*.gif
 ||s3.amazonaws.com^*/f10ac63cd7
-||s3.amazonaws.com^*/secure.js
 ||s7tu.com/images/*.gif
 ||s8bbs.com/ad/
 ||s8bbs.com/g.php?
@@ -5466,7 +5466,6 @@ yydstxt*.com/js/html
 ||sss777.net/alove-a/
 ||ssyy881.com/zz/
 ||st.chatango.com/js/*/*/rklmodule.js
-||st.motortrend.com/nitrous/
 ||staramuse.com/bmip/showg
 ||starnnews.com/banner/
 ||startpage.com/*/adsense/search/async-ads.js

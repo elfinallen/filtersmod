@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-03-27 01:09:23 UTC
-! Total Rules: 11560
+! Last Updated: 2026-03-27 12:35:24 UTC
+! Total Rules: 11566
 ! Expires: 5 days
 &&sub19=undefined&sub20=undefined
 &action=js_stats
@@ -3964,6 +3964,7 @@ t.yesware.com
 ||analytics.supplyframe.com/trackingservlet/impression?
 ||analytics.ticketmaster.
 ||analytics.twitter.com/i/adsct?
+||analytics.vgtimes.
 ||anapixel.elmundo.es/ter.gif
 ||ancestry.com/core.js
 ||ancestrycdn.com/tao/at/
@@ -4409,6 +4410,7 @@ t.yesware.com
 ||ati-host.net/hit.xiti?s=
 ||atlas.rambler.ru/metrics
 ||atlassian.com/gateway/api/*/batch
+||ats.gmarket.co.kr
 ||ats.vert.sh/js/script.js
 ||att.com/msapi/chatlogicprocessor/v*/user/events
 ||att.com/scripts/adobe/prod/marketing.min.js
@@ -8020,6 +8022,8 @@ t.yesware.com
 ||mixnews.lv/wp-content/uploads/perfmatters/gtagv*.js
 ||mixpanel.com/track
 ||mixpanel.com/track?
+||mk-log.makeshop.co.kr/analytics/events
+||mk-log.makeshop.co.kr/static/js/analytics.min.js
 ||mkcms.com/stats.js
 ||ml.com/enterprisetagging/
 ||ml314.com/csync.ashx^
@@ -8478,6 +8482,7 @@ t.yesware.com
 ||opendesktop.org/l/fp
 ||openpanel.dev/op.js
 ||openpanel.dev/op1.js
+||openpanel.velarium.cc/api/track|
 ||opensubtitles.org/gfx/banners_campaigns/2x2.gif
 ||openway.deepseeksvc.com/v*/write/rum
 ||ophan.theguardian.com/a.gif
@@ -10805,6 +10810,7 @@ t.yesware.com
 ||urlscan.io/stats
 ||us-central*-shopify-instrumentat-*.cloudfunctions.net/telemetry
 ||us-central1-affilimate.cloudfunctions.net/tracking_
+||us-central1-terrific-live.cloudfunctions.net/userevents|
 ||us.web3-lab.com*/*/stats
 ||usa.asset.d5techs.com/script/track.min.js
 ||usa.asset.d5techs.com/script/utm.min.js
