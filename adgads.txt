@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-03-26 12:44:32 UTC
-! Total Rules: 6328
+! Last Updated: 2026-03-27 01:09:23 UTC
+! Total Rules: 6331
 ! Expires: 5 days
 &js_build=iclick-
 &stamat=*&chmob=
@@ -3643,6 +3643,7 @@ yydstxt*.com/js/html
 ||hqcx.net/images/baidu.jpg
 ||hqcx.net/index.php?m=poster&
 ||hqdoor.com/web/
+||hqfap.com/themes/lite/js/mztn.js
 ||hqol.cn/up/ad/
 ||hs.cnfol.com/cm/imgs/load.gif
 ||hs640.com/js/jquery.js
@@ -4494,6 +4495,7 @@ yydstxt*.com/js/html
 ||media.swncdn.com/salemads/*/advscript.js
 ||medsci.cn/images/wyg.jpg
 ||megatube.xxx/atrm^
+||megatube.xxx/sum.js
 ||megaup.net/sw.js
 ||meiju8.cc/js/jquery.p.min.js
 ||meiju8.cc/js/m_ban_
@@ -5995,6 +5997,7 @@ yydstxt*.com/js/html
 ||xbqg6.com/*.php
 ||xcafe.com/*.php
 ||xcafe.com/assets/script.js
+||xcafe.com/js/script_new.js
 ||xcar.com.cn/dsp/ad
 ||xchina.*/ad/
 ||xchina.*/plugins/jquery.modal/

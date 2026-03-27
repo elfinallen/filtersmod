@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-03-26 12:44:32 UTC
-! Total Rules: 11553
+! Last Updated: 2026-03-27 01:09:23 UTC
+! Total Rules: 11560
 ! Expires: 5 days
 &&sub19=undefined&sub20=undefined
 &action=js_stats
@@ -2298,6 +2298,7 @@
 /rcanalyticslib.js
 /rd-js-integration.min.js
 /rdstation-popup.min.js
+/rdtracker/rdtracker.min.js
 /readthedocs-analytics.js
 /realtimeapi/impression?
 /realytics-1.2.min.js
@@ -4285,6 +4286,7 @@ t.yesware.com
 ||apps.emol.com/bt/pingcommentsad
 ||apps.emol.com/bt/pongaudience
 ||apps.emol.com/bt/rdb.pram.
+||apps.ihlasdigitalassets.com/stats
 ||apps.nhk.jp/assets/dtm/
 ||apps.omegatheme.com/facebook-pixel/
 ||apps.rokt-api.com/webevents/
@@ -4328,6 +4330,7 @@ t.yesware.com
 ||articulture.org/_t/
 ||arttrk.com/pixel/
 ||aruba.it/servlet/counterserver?
+||arukereso.hu/*.impression?tt=
 ||as.1und1.de/ias/track^
 ||as.coinbase.com/metrics
 ||asadcdn.com/bt^
@@ -4928,6 +4931,7 @@ t.yesware.com
 ||cdn.ampproject.org/*/amp-analytics-
 ||cdn.ampproject.org/*/analytics-vendors/metrika.json
 ||cdn.aosomcdn.com/upload/js/dataflux-rum.js
+||cdn.apifox.com/www/assets/js/apifox-app-event-tracking.min.js
 ||cdn.appdynamics.com/adrum
 ||cdn.awsli.com.br/production/static/analytics/owa.min.js
 ||cdn.boostcommerce.io/analytic/
@@ -6566,6 +6570,7 @@ t.yesware.com
 ||github.dev/diagnostic?
 ||gitlab.com/assets/webpack/analytics.*.js
 ||gitpod.io/api/collect-data
+||givefreely.com/ingest/
 ||gizmodo.com/x-kinja-static/assets/*/trackers.
 ||gizmodo.com/x-kinja-static/assets/new-client/*~trackers
 ||gizmodo.jp/api/surveycountcollection
@@ -7525,6 +7530,7 @@ t.yesware.com
 ||launchpad-wrapper.privacymanager.io/*/launchpad-liveramp.js
 ||laz-g-cdn.alicdn.com/lazada/dynamic-static-nopolyfill/*/daraz-marketing-tracker.js
 ||ldlc.com/v4px/js/ldlcmachine.js
+||ldoverseas.com/public-gateway/*/activity
 ||le.com/op/
 ||leadliaison.com/tracking_engine/
 ||leadpages.net/*/tracking.js
@@ -9909,6 +9915,7 @@ t.yesware.com
 ||starkbros.com/api/session/engagement
 ||start.ru/logger/
 ||startappservice.com/tracking/
+||startpage.com/sp/atq/ep2/sodar/sodar2.js
 ||startpage.com/sp/cl|
 ||startpage.com/sp/dplpxs?
 ||startpage.com/sp/elp

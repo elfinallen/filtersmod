@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-03-26 12:44:32 UTC
-! Total Rules: 91847
+! Last Updated: 2026-03-27 01:09:23 UTC
+! Total Rules: 91855
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -3249,6 +3249,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /rd-js-integration.min.js
 /rdir.baur.de/g.html?uid=$image
 /rdstation-popup.min.js
+/rdtracker/rdtracker.min.js
 /readreceipt/notify/?img=$image
 /readthedocs-analytics.js
 /realtimeapi/impression?
@@ -78844,6 +78845,7 @@ zmail.mtrl.me$image
 ||apps.emol.com/bt/pingcommentsad
 ||apps.emol.com/bt/pongaudience
 ||apps.emol.com/bt/rdb.pram.
+||apps.ihlasdigitalassets.com/stats
 ||apps.nhk.jp/assets/dtm/
 ||apps.omegatheme.com/facebook-pixel/
 ||apps.rokt-api.com/webevents/
@@ -78913,6 +78915,7 @@ zmail.mtrl.me$image
 ||articulture.org/_t/
 ||arttrk.com/pixel/
 ||aruba.it/servlet/counterserver?
+||arukereso.hu/*.impression?tt=
 ||as.1und1.de/ias/track^
 ||as.coinbase.com/metrics
 ||as.uncn.jp/uwt/$script,redirect=noopjs,domain=nissan.co.jp
@@ -79941,6 +79944,7 @@ zmail.mtrl.me$image
 ||cdn.ampproject.org/*/analytics-vendors/metrika.json
 ||cdn.aosomcdn.com/upload/js/dataflux-rum.js
 ||cdn.ap.bittorrent.com^$app=utorrent.exe
+||cdn.apifox.com/www/assets/js/apifox-app-event-tracking.min.js
 ||cdn.app.cfigroup.com/webmon/$script
 ||cdn.appdynamics.com/adrum
 ||cdn.appdynamics.com/adrum$redirect=nooptext,domain=alaskaair.com
@@ -80199,6 +80203,7 @@ zmail.mtrl.me$image
 ||checkmal.com/_res/js/naver.premiumlog.js
 ||checkmygeo.com^$third-party
 ||checkout-blocks.shopifyapps.com/api/extensions/*/event
+||checkout.arukereso.hu^$ping
 ||checkout.com/logger/
 ||checkout.com/logging
 ||checkout.paze.com/api/v*/logging/logevent
@@ -82822,6 +82827,7 @@ zmail.mtrl.me$image
 ||giveawayoftheday.com^$cookie=/^gaotd_visited_/
 ||giveawayoftheday.com^$cookie=gaotd_uid
 ||giveawayoftheday.com^$cookie=gaotd_user_id
+||givefreely.com/ingest/
 ||gixmo.dk^$third-party
 ||gizmodo.com/x-kinja-static/assets/*/trackers.
 ||gizmodo.com/x-kinja-static/assets/new-client/*~trackers
@@ -84571,7 +84577,7 @@ zmail.mtrl.me$image
 ||lcs.comico.jp^$image
 ||lddt.de^$third-party
 ||ldlc.com/v4px/js/ldlcmachine.js
-||ldoverseas.com^$third-party
+||ldoverseas.com/public-gateway/*/activity
 ||le.com/op/
 ||lead-123.com^$third-party
 ||lead.im^$third-party
@@ -85435,6 +85441,7 @@ zmail.mtrl.me$image
 ||minsk-in.net/counter.php?
 ||minutemediacdn.com/campaign-manager-client/
 ||mirabelsmarketingmanager.com^$third-party
+||mirakl.net^$third-party
 ||mirtesen.ru/js/ms.js
 ||misrepush.com^$third-party
 ||misto.zp.ua/img/reiting_$third-party
@@ -88930,6 +88937,7 @@ zmail.mtrl.me$image
 ||start.ru/logger/
 ||startappservice.com/tracking/
 ||startpage.com/sp/$ping
+||startpage.com/sp/atq/ep2/sodar/sodar2.js
 ||startpage.com/sp/cl|
 ||startpage.com/sp/dplpxs?
 ||startpage.com/sp/elp
