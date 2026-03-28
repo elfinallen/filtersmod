@@ -1,7 +1,7 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-03-28 01:03:40 UTC
+! Last Updated: 2026-03-28 12:27:36 UTC
 ! Total Rules: 6330
 ! Expires: 5 days
 &js_build=iclick-
@@ -1848,7 +1848,6 @@ yydstxt*.com/js/html
 ||abminbuy.com/789.
 ||abminbuy.com/qq
 ||abminbuy.com^*.gif
-||abstream.to/fidel.js^
 ||ac-baidu.90dao.com/inject.js
 ||ac.tc.qq.com/store_file_download?*&dir_path=/admin/swf/
 ||acfun.cn/appspreadcontents/danmuad/
@@ -2062,6 +2061,7 @@ yydstxt*.com/js/html
 ||api.adultdeepfakes.cam/banners
 ||api.apiimg.com/huaer/xiahe.js
 ||api.bilibili.com/x/ad/
+||api.deepai.org/thrad-ad-proxy
 ||api.leakgallery.com/public/lib*.js
 ||api.live.bilibili.com/*/banner
 ||api.vebo.xyz/api/a/vebotv^
@@ -2566,6 +2566,7 @@ yydstxt*.com/js/html
 ||cdn.staticmoly.me/vlock.php?
 ||cdn.tapioni.com/asg_embed.js
 ||cdn.telekomunikace.cz/banners
+||cdn.thrad.ai/ptag.min.js
 ||cdn.uameta.ai/file/bucket-media/image/advertisement/
 ||cdn.viously.com/js/sdk/boot.js
 ||cdn.wo.cc/wo.js
@@ -3140,7 +3141,6 @@ yydstxt*.com/js/html
 ||eporner.com/xhr/vast/
 ||eprice.com.tw/img/tw_m/ad/
 ||eroprofile.com/js/nvbla.js
-||erowall.com/*.php|
 ||erowall.com/126.js
 ||es3984.review/02_cn_ad/
 ||etadult.com*/images/20
@@ -3275,7 +3275,6 @@ yydstxt*.com/js/html
 ||fulibl.com/wp-content/uploads/2016/06/320-230.jpg
 ||fun1shot.com/images/qrcode_wechat.png
 ||func.tw/image/func2.png
-||funeraltimes.com/databaseimages/adv_
 ||funnyjunk.com/site/js/extra/pre
 ||funshipin.com/v1/js/footerhongbao.js
 ||futbol24.com/kscms_asyncspc.php
@@ -5217,6 +5216,7 @@ yydstxt*.com/js/html
 ||s2.coinmarketcap.com/static/img/cdp_ad_banner/
 ||s2tu.com/images/*.gif
 ||s3.amazonaws.com^*/f10ac63cd7
+||s3.amazonaws.com^*/secure.js
 ||s7tu.com/images/*.gif
 ||s8bbs.com/ad/
 ||s8bbs.com/g.php?
@@ -5422,7 +5422,6 @@ yydstxt*.com/js/html
 ||sojson.com/ui/images/upyun
 ||somanhua.com/smh/
 ||songsongyun.com/ads/
-||sonichits.com/tf.php
 ||sonimei.cn/images/gg.png
 ||sonimei.cn/images/llq.png
 ||sonimei.cn/qipai.jpg
@@ -6092,6 +6091,7 @@ yydstxt*.com/js/html
 ||xstt5.com/template/js/fx
 ||xtapes.to/ad/
 ||xtits.*/static/js/custom.js
+||xtits.xxx/static/js/ppndr*.js
 ||xuehi.cn/reward/reward
 ||xunsu.cc/js/indexbottom.js
 ||xunyugong.xyz/sitejs/xunyugong.js

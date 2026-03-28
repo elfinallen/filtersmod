@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-03-28 01:03:40 UTC
-! Total Rules: 9925
+! Last Updated: 2026-03-28 12:27:36 UTC
+! Total Rules: 9926
 ! Expires: 5 days
 $cookie=/adb\.key/,domain=expres.cz|televizeseznam.cz|ahaonline.cz|extra.cz|mobilmania.cz|idnes.cz|aktuality.sk|aktualne.cz|blesk.cz|centrum.cz|cnews.cz|e15.cz|karaoketexty.cz|novinky.cz|sport.cz|super.cz|tiscali.cz|zive.cz|antiyoutuber.cz|fights.cz|metro.cz
 $cookie=__adblocker,domain=slate.com|thehindubusinessline.com
@@ -672,7 +672,6 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 /\.com\/[_0-9a-za-z]+\.jpg$/$image,~third-party,domain=hottystop.com
 /\.com\/watch\?|\.com\/playlist\?list=|\/youtubei\/v.*\/(get_watch|player)\?/$xmlhttprequest,replace=/"(adplacements|adslots|playerads)"/"no_ads"/,domain=youtubekids.com|youtube-nocookie.com|youtube.com
 /\.gsmarena\.com\/[0-9]+\.[a-z]+\?s?search=/$xmlhttprequest,domain=gsmarena.com
-/\/....\//$script,domain=kat.*|kickass.*|kickass2.*|kickasstorrents.*|kat2.*|kattracker.*|thekat.*|thekickass.*|kickassz.*|kickasstorrents2.*|topkickass.*|kickassgo.*|kkickass.*|kkat.*|kickasst.*|kick4ss.*|katbay.*|kickasshydra.*|kickasskat.*|kickassbay.*|torrentkat.*|kickassuk.*|torrentskickass.*|kickasspk.*|kickasstrusty.*|katkickass.*|kickassindia.*|kickass-usa.*|kickassaustralia.*|kickassdb.*|kathydra.*|kickassminds.*|katkickass.*|kickassunlocked.*|kickassmovies.*|kickassfull.*|bigkickass.*|kickasstracker.*|katfreak.*|kickasstracker.*|katfreak.*|kickasshydra.*|katbay.*|kickasst.*|kkickass.*|kattracker.*|topkickass.*|thekat.*|kat.*|kat2.*|kick4ss.*|kickass.*|kickass2.*|kickasstorrents.*|kat.fun|kat2.app|kat2.space|kat2.website|kat2.xyz|kick4ss.net|kickass.cd|kickass.earth|kickass.id|kickass.kim|kickass.love|kickass.name|kickass.one|kickass.vc|kickass.ws|kickass2.app|kickass2.fun|kickass2.mobi|kickass2.online|kickass2.space|kickass2.top|kickass2.website|kickass2.xyz|kickassgo.com|kickasstorrent.cr|kickasstorrents.fun|kickasstorrents.icu|kickasstorrents.mobi|kickasstorrents.to|kickassz.com|kkat.net|thekat.cc|topkickass.org|kattracker.com
 /\/[0-9a-f]{32}\/invoke\.js/$script,third-party
 /\/[0-9a-f]{32}\/invoke\.js/$script,third-party,redirect-rule=noopjs
 /\/[a-z0-9]+$/$script,third-party,domain=gimy1.com|gimy.com.tw
@@ -912,6 +911,7 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 /adserver3.$image,script
 /adsfactor_ab
 /adsforwp-front.min.css$stylesheet
+/adsimage/*$image,domain=~kamaz-service.kz|~theatreticketsdirect.co.uk
 /adsimages/*$image,domain=~bdjobstoday.com
 /adsimg/*$image
 /adsmanager.css$stylesheet
@@ -1459,7 +1459,6 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 /js/ad.js$domain=69shuba.com
 /js/ad_common.js$script
 /js/ad_tv.js
-/js/adpopup.js$script
 /js/ads/*0.js
 /js/ads/*2.js
 /js/ads/*5.js
@@ -1575,6 +1574,7 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 /meitui.org\/[a-z][a-z].js/$domain=meitui.org
 /mfad/*
 /mhw0/duniao/*
+/microad.js$script
 /mmday/91porn_
 /mmday/hgame_
 /mnpw3.js$script
@@ -3239,7 +3239,6 @@ yydstxt*.com/js/html
 ||abminbuy.com/789.
 ||abminbuy.com/qq
 ||abminbuy.com^*.gif
-||abstream.to/fidel.js^
 ||ac-baidu.90dao.com/inject.js
 ||ac.tc.qq.com/store_file_download?*&dir_path=/admin/swf/
 ||acacdn.com/script/*.js$script,redirect-rule=noopjs
@@ -3374,7 +3373,6 @@ yydstxt*.com/js/html
 ||ads.exoclick.com/ads.js$script,redirect=noopjs
 ||ads.google.com^$xmlhttprequest,domain=ynet.co.il
 ||adsage.com^$third-party
-||adsbookie.com^$third-party
 ||adserve.work^$third-party
 ||adshnk.com^$third-party
 ||adshrink.it/adshytics.js
@@ -3686,6 +3684,7 @@ yydstxt*.com/js/html
 ||api.bilibili.com/x/ad/
 ||api.bilibili.com/x/web-interface/wbi/index/top/feed/rcmd$jsonprune=\$.data.item[?(has "\$..business_info.ad_desc")]
 ||api.bitchute.com/slot*/value?addatakey$subdocument
+||api.deepai.org/thrad-ad-proxy
 ||api.discovery.com/v*/streaming/video/$replace=/(\,"ads":\{)"breaks":[\s\s]*?(\}\,"videoview":)/\$1\$2/,domain=hgtv.com|investigationdiscovery.com
 ||api.discovery.com/v*/streaming/video/$replace=/\{"ads":\{"breaks":[\s\s]*?"playurl":/{"playurl":/,domain=diynetwork.com|discovery.com|sciencechannel.com|motortrend.com|tlc.com
 ||api.dmcdn.net/all.js$domain=gotv.ctitv.com.tw
@@ -4383,6 +4382,7 @@ yydstxt*.com/js/html
 ||cdn.staticmoly.me/vlock.php?
 ||cdn.tapioni.com/asg_embed.js
 ||cdn.telekomunikace.cz/banners
+||cdn.thrad.ai/ptag.min.js
 ||cdn.uameta.ai/file/bucket-media/image/advertisement/
 ||cdn.vgc.no/js/libs/homad-config.json$replace=/"enabled":true\,/"enabled":false\,/i
 ||cdn.vidcrunch.com/integrations/*_responsive_floating_dfp_$domain=discuss.com.hk
@@ -5200,7 +5200,6 @@ yydstxt*.com/js/html
 ||eroadvertising.com^$third-party
 ||eroprofile.com/js/nvbla.js
 ||eroterest.net^$third-party
-||erowall.com/*.php|
 ||erowall.com/126.js
 ||es3984.review/02_cn_ad/
 ||eshkol.io^$popup
@@ -5401,7 +5400,6 @@ yydstxt*.com/js/html
 ||fun8.us^$domain=cartoonmad.com
 ||func.tw/image/func2.png
 ||fundingchoicesmessages.google.com^$domain=video.repubblica.it|br0wsers.com|mathsspot.com|now.gg|aranzulla.it|3bmeteo.com
-||funeraltimes.com/databaseimages/adv_
 ||funnyjunk.com/site/js/extra/pre
 ||funshipin.com/v1/js/footerhongbao.js
 ||fuoo1.top^$third-party
@@ -6197,6 +6195,7 @@ yydstxt*.com/js/html
 ||img.lancdn.com/*-top-banner-
 ||img.lancdn.com/landian/2025/08/110020b.png
 ||img.mbalib.com/common/servicespicture/prom.js
+||img.medscapestatic.com/pi/scripts/ads/build-ad-tag.js$domain=medscape.com
 ||img.meituan.net/video/$domain=338i.com
 ||img.mikudm.net/img01/mp3/gg/20240415_cps_960x75_general.gif
 ||img.scupio.com$domain=briian.com
@@ -7565,6 +7564,7 @@ yydstxt*.com/js/html
 ||otaserve.net^$third-party
 ||otieu.com^$popup
 ||otm-r.com^$third-party
+||otoadom.com^$document
 ||otomi-games.com/wp-content/uploads/*-ad-728-
 ||ott.cibntv.net/*/ad/*.ts?ccode=$xmlhttprequest,domain=v.youku.com
 ||ottadvisors.com^$third-party
@@ -8269,6 +8269,7 @@ yydstxt*.com/js/html
 ||s2tu.com/images/*.gif
 ||s3.amazonaws.com/dmas-public/sitemaji/vast.xml$domain=dailymotion.com
 ||s3.amazonaws.com^*/f10ac63cd7
+||s3.amazonaws.com^*/secure.js
 ||s3.delfi.ee/*/app.js$replace=/adfree:!1/adfree:!0/
 ||s3.delfi.ee/*/app.js$replace=/disableads:!1/disableads:!0/
 ||s7tu.com/images/*.gif
@@ -8581,7 +8582,6 @@ yydstxt*.com/js/html
 ||sonar.viously.com^$domain=~aufeminin.com|~futura-sciences.com|~gamekult.com|~gbnews.com|~jeanmarcmorandini.com|~lesnumeriques.com|~marmiton.org|~melty.fr|~nextplz.fr|~the-race.com
 ||songsongyun.com/ads/
 ||sonic-ui.highereducation.com^$third-party
-||sonichits.com/tf.php
 ||sonimei.cn/images/gg.png
 ||sonimei.cn/images/llq.png
 ||sonimei.cn/qipai.jpg
@@ -9625,6 +9625,7 @@ yydstxt*.com/js/html
 ||xstt5.com/template/js/fx
 ||xtapes.to/ad/
 ||xtits.*/static/js/custom.js
+||xtits.xxx/static/js/ppndr*.js
 ||xuehi.cn/reward/reward
 ||xunsu.cc/js/indexbottom.js
 ||xunyugong.xyz/sitejs/xunyugong.js
