@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-03-27 12:35:24 UTC
-! Total Rules: 11566
+! Last Updated: 2026-03-28 01:03:40 UTC
+! Total Rules: 11570
 ! Expires: 5 days
 &&sub19=undefined&sub20=undefined
 &action=js_stats
@@ -1895,6 +1895,7 @@
 /nb-collector|
 /ncj-pixel.js
 /neilson.js
+/nelio-ab-testing/assets/dist/js/visitor-type.js
 /neoworx_tracker.php
 /netmining.js
 /netresults.js
@@ -4450,6 +4451,9 @@ t.yesware.com
 ||autotrader.com/pixall/
 ||auxin.g123.jp/external/*/refund_campaign/game/g123/status
 ||avaz.ba/update/hits/
+||aviasales.*-analytics.
+||aviasales.*/analytics_pv.
+||aviasales.*/sentry-replay.
 ||avito.ru/stat/
 ||avito.st/mstatic/build/legacy/*/fingerprint.*.js
 ||avito.st/s/pixel/script.js
