@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-03-29 01:12:36 UTC
-! Total Rules: 9926
+! Last Updated: 2026-03-29 12:27:50 UTC
+! Total Rules: 9920
 ! Expires: 5 days
 $cookie=/adb\.key/,domain=expres.cz|televizeseznam.cz|ahaonline.cz|extra.cz|mobilmania.cz|idnes.cz|aktuality.sk|aktualne.cz|blesk.cz|centrum.cz|cnews.cz|e15.cz|karaoketexty.cz|novinky.cz|sport.cz|super.cz|tiscali.cz|zive.cz|antiyoutuber.cz|fights.cz|metro.cz
 $cookie=__adblocker,domain=slate.com|thehindubusinessline.com
@@ -1574,7 +1574,6 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 /meitui.org\/[a-z][a-z].js/$domain=meitui.org
 /mfad/*
 /mhw0/duniao/*
-/microad.js$script
 /mmday/91porn_
 /mmday/hgame_
 /mnpw3.js$script
@@ -1898,7 +1897,6 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 /spc.php?$script
 /spcjs.php$script
 /sr/*/safeframe.html?ule=$subdocument,third-party
-/static/*/froload.js?v=$script
 /static/23wx/idd.js
 /static/2biqu/twgdh.js
 /static/69shuba/69.js
@@ -2055,7 +2053,6 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 /wp-bannerize-$script,stylesheet
 /wp-bannerize.$script,stylesheet
 /wp-bannerize/*$script,stylesheet
-/wp-content/plugins/advanced-widget-manage/awm-script.js
 /wp-content/plugins/amazon-auto-links/*$script,stylesheet
 /wp-content/plugins/eazy-ad-unblocker/*
 /wp-content/plugins/jet-blocker-anti-ad-blocker-detector/*
@@ -2091,7 +2088,6 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 /xiwang/dfumeiti.js
 /xiwang/fumeiti.js
 /xuanfusige.js
-/xupload.js$domain=noxx.to
 /xxgg/0dd*.js
 /xxgg/app.js
 /xxgg/book.js
@@ -3412,7 +3408,6 @@ yydstxt*.com/js/html
 ||adup-tech.com^$third-party
 ||adutp.com^$third-party
 ||advanseads.com^$third-party
-||advapi.kleekr.com^$domain=russh.com
 ||adventori.com^$third-party
 ||adverge.ai^$third-party
 ||adverticum.net^$third-party
@@ -3446,6 +3441,7 @@ yydstxt*.com/js/html
 ||affyun.com/wp-content/uploads/*/ad-
 ||affyun.com/wp-content/uploads/*/affffff.png
 ||affyun.com/wp-content/uploads/2018/10/file.gif
+||afilliatetraff.com^$popup
 ||afishamedia.net^$third-party
 ||afocus.com.cn/s?
 ||afp.ai^$third-party
@@ -4112,7 +4108,6 @@ yydstxt*.com/js/html
 ||bitscn.com/js/a2
 ||bitstarz.com^$third-party
 ||bixingjia.com/js/hf.
-||biz-cdn.varzesh3.com/banners
 ||bjcathay.com/s?z=
 ||bjhockey.org/public/pc/video/test.mp4
 ||bjmama.net/a/spc_
@@ -5841,7 +5836,6 @@ yydstxt*.com/js/html
 ||hit.gemius.pl/gplayer.js$script,xmlhttprequest,redirect=noopjs,domain=tvp.pl|swipeto.pl|tvp.info|tvpparlament.pl
 ||hit.gemius.pl/xgemius.js$script,redirect=noopjs,domain=wp.pl|money.pl|o2.pl|pudelek.pl|komorkomania.pl|gadzetomania.pl|fotoblogia.pl|autokult.pl|abczdrowie.pl|parenting.pl|videostar.pl|autocentrum.pl
 ||hit.stat24.com/*ad.xml$replace=/(<vast[\s\s]*?>)[\s\s]*?(<ad id=[\s\s]*?>)[\s\s]*<\/vast>/\$1\$2<\/ad><\/vast>/,important,domain=polsatnews.pl|polsatsport.pl|twojapogoda.pl|geekweek.pl
-||hitad.lk/widget/widget_$third-party
 ||hitime5.com/skin/css/*.js
 ||hjfile.cn/analytics/site/trackevent.js
 ||hk-pub.com/forum/images/2009/gifbanner
@@ -6195,7 +6189,6 @@ yydstxt*.com/js/html
 ||img.lancdn.com/*-top-banner-
 ||img.lancdn.com/landian/2025/08/110020b.png
 ||img.mbalib.com/common/servicespicture/prom.js
-||img.medscapestatic.com/pi/scripts/ads/build-ad-tag.js$domain=medscape.com
 ||img.meituan.net/video/$domain=338i.com
 ||img.mikudm.net/img01/mp3/gg/20240415_cps_960x75_general.gif
 ||img.scupio.com$domain=briian.com
@@ -7446,6 +7439,7 @@ yydstxt*.com/js/html
 ||nownews.com/assets/js/setads.js
 ||npttech.com/advertising.js$important,script,redirect=noopjs,domain=~vijesti.me
 ||nqbcf.cn/html/top
+||nrl.com/siteassets/sponsorship/
 ||nrl.com^*/sponsors/
 ||nrsfh.com/neirong/
 ||nsfwalbum.com/efds435m432.js
@@ -7462,7 +7456,6 @@ yydstxt*.com/js/html
 ||nuvid.com/nb*.js$match-case
 ||nvdst.com/adx_
 ||nvdst.com/templates/frontend/white/js/_pnuvid.js
-||nvpartnerspromo.com^$all
 ||nvsheng.com/js/gg.js
 ||nweon.com/wp-content/repo/ad/
 ||nwxs5.com/js/
@@ -7946,7 +7939,6 @@ yydstxt*.com/js/html
 ||puma.com^$popup,domain=hupu.com
 ||pupudy.com/images/wxrj.gif
 ||push-news.click^$popup
-||pushabl.com^$script,third-party
 ||pushpad.xyz^$third-party
 ||pushub.net^$document
 ||pushy.ai^$third-party
@@ -8824,7 +8816,6 @@ yydstxt*.com/js/html
 ||taboola.com^$domain=independent.co.uk|outlook.live.com
 ||taboola.com^$domain=livemint.com
 ||taboola.com^$domain=sport5.co.il
-||taboola.com^$domain=wgrz.com
 ||tagdeliver.com^$third-party
 ||tagdelivery.com^$third-party
 ||tagtoo.co^$third-party
@@ -8988,6 +8979,7 @@ yydstxt*.com/js/html
 ||toots-a.akamaihd.net/priority/*sponsor
 ||top.l2jbrasil.com/banner/
 ||topadvert.ru^$third-party
+||tophosting101.com^$third-party
 ||topicimg.1234567.com.cn/product/2021/1/11/b914f8b6-fb61-4c85-834f-863b67c13a45.gif$domain=fund.eastmoney.com
 ||toplist.raidrush.ws^$third-party
 ||topmba.mobi/ad/
@@ -9175,6 +9167,7 @@ yydstxt*.com/js/html
 ||uploadgig.com/static_/$third-party
 ||uploadhouse.com^*.gif$domain=wishct.com
 ||upuplet.net^$popup
+||usatoday.com/gcdn/ads/
 ||usemax.de^$third-party
 ||user.042.cn/adver/adver.js
 ||userscript.zone/s.js
@@ -9406,6 +9399,7 @@ yydstxt*.com/js/html
 ||whatfinger.com^$third-party
 ||whdx.cc/js/
 ||whichav.*/qq/qq.js
+||whitexxxtube.com/eureka/eureka.js
 ||whizzco.com^$third-party
 ||whnews.cn/wh_public/xuxu/
 ||whouphesaussums.net^$popup
