@@ -1,9 +1,10 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-03-30 01:14:07 UTC
-! Total Rules: 6331
+! Last Updated: 2026-03-30 12:47:01 UTC
+! Total Rules: 6328
 ! Expires: 5 days
+&ag_custom_vlmspot=
 &js_build=iclick-
 &stamat=*&chmob=
 -120-600.
@@ -2060,6 +2061,7 @@ yydstxt*.com/js/html
 ||api.adultdeepfakes.cam/banners
 ||api.apiimg.com/huaer/xiahe.js
 ||api.bilibili.com/x/ad/
+||api.bo3.gg/api/v1/ad_banners
 ||api.deepai.org/thrad-ad-proxy
 ||api.leakgallery.com/public/lib*.js
 ||api.live.bilibili.com/*/banner
@@ -3116,7 +3118,6 @@ yydstxt*.com/js/html
 ||elecfans.com/skin-*ad_
 ||elecfans.com/static/home_ad/
 ||elecfans.com/webapi/advertisement/
-||elliottwave.com/fw/regular_leaderboard.js
 ||embedsports.top/ad.html
 ||emoney.cn/www/officalwebstatic/js/slidead.js
 ||en8848.com.cn/js/ad
@@ -4914,7 +4915,6 @@ yydstxt*.com/js/html
 ||pinlue.com/error/bangolike.js
 ||pipi.cn/player/
 ||pipix.cc/gg.gif
-||piratecat.online/ads/
 ||pites.cc/js/top.php
 ||pixabay.com/static/img/publisher/*_ad_
 ||pixfs.net/js/mib.min.js
@@ -5672,7 +5672,6 @@ yydstxt*.com/js/html
 ||toolbaz.com/assets/js/unblock.js
 ||toolfk.com/common/zfb.jpg
 ||toots-a.akamaihd.net/priority/*sponsor
-||top.l2jbrasil.com/banner/
 ||topmba.mobi/ad/
 ||topthink.com/api/basic/
 ||toptoon03.xyz/app/tuijian.html
@@ -5814,7 +5813,6 @@ yydstxt*.com/js/html
 ||variflight.com/carnoc/ad/
 ||vdianying.cc/img/youhuiquan250.gif
 ||vdianying.cc/wp-content/plugins/wp-adblock-dedect/
-||veo-hentai.com/wp-content/plugins/veohentai/popunder-unificado.js
 ||vercel.app/ads/
 ||vgao.xyz/images/*.gif
 ||vidcrunch.com/api/adserver/
@@ -5894,7 +5892,6 @@ yydstxt*.com/js/html
 ||wdff.buzz/hengf.
 ||we560.com/js/*.js
 ||weathercn.com/m_mobile/ad_image/
-||web-hosting.net.my/banner/
 ||webapi.dantri.com.vn/bn/list-pos
 ||webcamtests.com/myshowroom/view.php
 ||webconf.douyucdn.cn/resource/common/giftphotos_w.json
