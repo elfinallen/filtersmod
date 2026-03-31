@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-03-30 12:47:01 UTC
-! Total Rules: 6328
+! Last Updated: 2026-03-31 01:10:56 UTC
+! Total Rules: 6332
 ! Expires: 5 days
 &ag_custom_vlmspot=
 &js_build=iclick-
@@ -1194,6 +1194,7 @@ _naimabdd_
 _popads.
 _tm11_pmt_
 _yad_jsonp_
+ad.broadstreetads.com
 banner468x60
 meijutt.*/js/pcjs/
 ubmcmm.baidustatic.com
@@ -2557,6 +2558,7 @@ yydstxt*.com/js/html
 ||cdn.jsdelivr.net/gh/vli-platform/adb-analytics@*/v1.0.min.js
 ||cdn.jsdelivr.net/gh/willthequeencome/adcsh/june.js
 ||cdn.jsdelivr.net/npm/ima-ad-player
+||cdn.myhentaicomics.com/assets/frames/banner
 ||cdn.onnetwork.tv/js/player*/player_prebidm.js
 ||cdn.questvert.pl/publishers/*/qpscript.js
 ||cdn.rawgit.com/arlina-design/quasar/*/arlinablock.js
@@ -2680,6 +2682,7 @@ yydstxt*.com/js/html
 ||cidianwang.com/js/zdtop.js
 ||cilimao.*/amaod/
 ||cilipa.com^*0.js
+||cineby.sc/scripts/gk.js
 ||citysbs.com/chongqing/*/1920x179-
 ||citysbs.com/no/*/1190x60-
 ||citysbs.com/no/*/650x50-
@@ -4935,6 +4938,7 @@ yydstxt*.com/js/html
 ||poco.cn^*_info_banner
 ||popcdn.day/magnitude.js
 ||popin.cc/ads/
+||porcore.com/plugins/nads/
 ||porn87.com/static/stream_ads/
 ||porndoe.com/views/footer/banners.html
 ||porndoe.com/wp-contents/channel?

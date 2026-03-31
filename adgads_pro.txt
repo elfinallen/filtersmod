@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-03-30 12:47:01 UTC
-! Total Rules: 9915
+! Last Updated: 2026-03-31 01:10:56 UTC
+! Total Rules: 9923
 ! Expires: 5 days
 $cookie=/adb\.key/,domain=expres.cz|televizeseznam.cz|ahaonline.cz|extra.cz|mobilmania.cz|idnes.cz|aktuality.sk|aktualne.cz|blesk.cz|centrum.cz|cnews.cz|e15.cz|karaoketexty.cz|novinky.cz|sport.cz|super.cz|tiscali.cz|zive.cz|antiyoutuber.cz|fights.cz|metro.cz
 $cookie=__adblocker,domain=slate.com|thehindubusinessline.com
@@ -2407,6 +2407,7 @@ _prebid.js$script
 _reklama_$domain=~youtube.com
 _tm11_pmt_
 _yad_jsonp_
+ad.broadstreetads.com
 banner468x60
 fastshare.cloud/top*?utm_source=*&utm_medium=*&utm_campaign=$domain=warforum.xyz
 hentai-id.tv$replace=/http:\/\/[s\s]*s=http:\/\/www.hentai-id.tv\//http:\/\/www.hentai-id.tv\//,~third-party,~stylesheet,~script,~xmlhttprequest,important
@@ -4367,6 +4368,7 @@ yydstxt*.com/js/html
 ||cdn.jsdelivr.net/npm/ima-ad-player
 ||cdn.jwplayer.com/players/*.js$domain=imfdb.org
 ||cdn.mcnn.pl^$third-party
+||cdn.myhentaicomics.com/assets/frames/banner
 ||cdn.nanamovies.org/*.gif$domain=overmovies.com
 ||cdn.oaistatic.com/assets/*.js$replace=/error\(.\(418\,""\)\);throw ..\(..\(.\,.\)\)\,../null;/,domain=chatgpt.com
 ||cdn.onnetwork.tv/js/player*/player_prebidm.js
@@ -4537,6 +4539,7 @@ yydstxt*.com/js/html
 ||cilipa.com^*0.js
 ||cimg.cnyes.cool/prod/adcontent/$image
 ||cinarra.com^$third-party
+||cineby.sc/scripts/gk.js
 ||citrusad.com^$third-party
 ||citysbs.com/chongqing/*/1920x179-
 ||citysbs.com/no/*/1190x60-
@@ -5472,6 +5475,7 @@ yydstxt*.com/js/html
 ||ganji.com/content.php
 ||ganjing.com/vast.vpaid.min.js
 ||ganjistatic1.com^*/adm/
+||gannett-player.ex.co^$domain=play.usatoday.com
 ||gansudaily.com.cn/2017zt/images/*gg
 ||gaofen.com/source/plugin/gaofen_ad/
 ||gaofuwu.org/js/dd.js
@@ -5550,6 +5554,7 @@ yydstxt*.com/js/html
 ||gmbuluo.net/js/
 ||gml-grp.com^$popup
 ||gn-web-assets.api.bbc.com/ngas/*/dotcom-ads.js
+||go.inxxx.cam^$xmlhttprequest,domain=inxxx.com
 ||go.kbnmnl.com/api/models/vast
 ||go.linkwi.se/delivery/
 ||go.trvdp.com^$domain=~canaltech.com.br|~ig.com.br|~monitordomercado.com.br|~noataque.com.br|~oantagonista.com.br|~olhardigital.com.br|~omelete.com.br
@@ -7831,6 +7836,7 @@ yydstxt*.com/js/html
 ||popin.cc/ads/
 ||popin.cc/popin_discovery$badfilter
 ||poptival.com^$third-party
+||porcore.com/plugins/nads/
 ||porn300.com^$third-party
 ||porn87.com/static/stream_ads/
 ||porndoe.com/views/footer/banners.html
@@ -8616,6 +8622,7 @@ yydstxt*.com/js/html
 ||speedy.literotica.com/ntk
 ||sphdigital.com.sg/_plat/$domain=zaobao.com.sg
 ||spl.ztvx8.com^$third-party
+||spolecznosci.net^$important,domain=donald.pl
 ||sport-fm.gr^$replace=/((.)\.src='javascript:false';)/\$1\$2.srcdoc='';/,document
 ||sport.cz^$cookie=sportysporty
 ||sport24.gr^$replace=/((.)\.src='javascript:false';)/\$1\$2.srcdoc='';/,document
@@ -8668,6 +8675,7 @@ yydstxt*.com/js/html
 ||static.fmkorea.com/modules/fmad/tpl/*/naver_power_link.
 ||static.freevideo.cz/static/prbn/
 ||static.gamedistribution.com/ad-block/
+||static.goplay.su^$script
 ||static.hellmoms.com/*/inplaybn-
 ||static.hispanoads.es/ttt.js
 ||static.huaren.live/ads/
