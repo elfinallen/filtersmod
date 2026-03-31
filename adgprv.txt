@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-03-31 01:10:56 UTC
-! Total Rules: 11572
+! Last Updated: 2026-03-31 12:45:19 UTC
+! Total Rules: 11576
 ! Expires: 5 days
 &&sub19=undefined&sub20=undefined
 &action=js_stats
@@ -2415,6 +2415,7 @@
 /screencount?vcid=
 /scribd_events?
 /script.outbound-links.js
+/script.outbound-links.pageview-props.revenue.js
 /script.tagged-events.js
 /script/pixel.js
 /scriptanalytics.js
@@ -4106,6 +4107,7 @@ t.yesware.com
 ||api.marquiz.ru/v*/analytics/
 ||api.meetup.com/pico/v4/web-events
 ||api.mercadolibre.com/tracks
+||api.mercari.jp/client_events/
 ||api.mindbox.ru/scripts/*/tracker.js
 ||api.narrativ.com/favicon.ico
 ||api.netmera.com/event^
@@ -6079,6 +6081,7 @@ t.yesware.com
 ||etoyota.net/include/js/measurementbeacon.js
 ||etsy.com/api/*/ajax/public/cheddar|
 ||etsy.com/api/v*/ajax/public/bacon|
+||etsy.com/api/v*/ajax/public/recs-interactions
 ||etsy.com/api/v*/ajax/public/statsd|
 ||etsy.com/bcn/beacon
 ||etsy.com/bcn/beacon|
@@ -7684,6 +7687,7 @@ t.yesware.com
 ||livelib.ru/service/visitlist/
 ||livelyroot.com/apps/ba-loy/app_metrics
 ||livelyvideo.tv/lb/logger
+||livemint.com/lm-img/js/lm-inp-tracker.js
 ||liveperson.net/hc/*/?visitor=
 ||liverail.com/?metric=
 ||liverail.com/track/?
