@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-03-31 12:45:19 UTC
-! Total Rules: 96337
+! Last Updated: 2026-04-01 01:17:48 UTC
+! Total Rules: 96343
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -540,6 +540,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 -config.sensic.net/3pc.html
 -config.sensic.net/s2s-web.js
 -config.sensic.net/sui.js
+-datareceiver.aki-game.net^
 -didomi.js
 -events-collector.spot.im^
 -geoip.js
@@ -2286,6 +2287,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /hlog.asp
 /hmapxy.js
 /hnpprivacy-min.js
+/ho.php?t=$image
 /hockeystack.min.js
 /home-insight/ad_placements$xmlhttprequest
 /home-insight/initial_analytics$xmlhttprequest
@@ -3378,6 +3380,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /script.outbound-links.js
 /script.outbound-links.pageview-props.revenue.js
 /script.tagged-events.js
+/script.tagged-events.outbound-links.js
 /script/pixel.js
 /scriptanalytics.js
 /scripts.kissmetrics.com/*
@@ -73372,6 +73375,8 @@ hejlobalid3.click.s11.sfmc-osl.com$image
 hey.sent-with-sendvio.com$image
 hgtvemail.mg.hotgo.tv$image
 hh88-email.com$image
+hm-f.jp%2fho.php%3ft=
+hm-f.jp/ho.php?t=
 hola.rocket.la$image
 home.e.bauermedia.co.nz$image
 homebeautiful.e.aremedia.com.au$image
@@ -91838,6 +91843,7 @@ zonedirector.avadacom.com$image
 ||raenonx.cc/g/usage/
 ||raidlight.com/*/index.php?controller=statistics
 ||rail.bankofamerica.com^$script,~third-party,xmlhttprequest
+||rainbet.com/api/ping
 ||rainbownine.net^$third-party
 ||raindrop.io/pb/api/event
 ||raine.accuweather.com/tracker/

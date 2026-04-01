@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-03-31 12:45:19 UTC
-! Total Rules: 11576
+! Last Updated: 2026-04-01 01:17:48 UTC
+! Total Rules: 11581
 ! Expires: 5 days
 &&sub19=undefined&sub20=undefined
 &action=js_stats
@@ -30,6 +30,7 @@
 -config.sensic.net/3pc.html
 -config.sensic.net/s2s-web.js
 -config.sensic.net/sui.js
+-datareceiver.aki-game.net^
 -didomi.js
 -events-collector.spot.im^
 -geoip.js
@@ -2417,6 +2418,7 @@
 /script.outbound-links.js
 /script.outbound-links.pageview-props.revenue.js
 /script.tagged-events.js
+/script.tagged-events.outbound-links.js
 /script/pixel.js
 /scriptanalytics.js
 /scripts.kissmetrics.com/*
@@ -3473,6 +3475,8 @@ google.com%2fappserve%2fmkt%2fproof%2fimg%2f*.gif
 google.com/appserve/mkt/proof/img/*.gif
 healio.com%2fmedialibrary%2fpixel.png%3ftp%3d
 healio.com/medialibrary/pixel.png?tp=
+hm-f.jp%2fho.php%3ft=
+hm-f.jp/ho.php?t=
 it-recht-kanzlei.de%2flogo%2fcopyright-logo.png%3fi%3d
 it-recht-kanzlei.de/logo/copyright-logo.png?i=
 jolie.de/sites/default/files/google_tag/google_tag_manager/google_tag.script.js
@@ -9061,6 +9065,7 @@ t.yesware.com
 ||raenonx.cc/api/usage
 ||raenonx.cc/g/usage/
 ||raidlight.com/*/index.php?controller=statistics
+||rainbet.com/api/ping
 ||raindrop.io/pb/api/event
 ||raine.accuweather.com/tracker/
 ||raiplay.it/tracking/
