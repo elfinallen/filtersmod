@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-01 01:17:48 UTC
-! Total Rules: 6328
+! Last Updated: 2026-04-01 12:48:22 UTC
+! Total Rules: 6329
 ! Expires: 5 days
 &ag_custom_vlmspot=
 &js_build=iclick-
@@ -220,7 +220,6 @@
 .qidian.com/gamebox.
 .qidian.com/pageops.
 .sinaimg.cn/large/008qc0lfgy1hyp0pc9jz3g30jg01otpp.
-.space/?tid=
 .st/ads/
 .test15./
 .today/process.js?id=
@@ -671,7 +670,6 @@
 /jfjs/ad.js
 /jianpian.obs.cn-
 /jianshen8/images/plan_banner_
-/jquery.adi.js
 /jquery.adx.js?
 /jquery.dfp.min.js?
 /jquery.overlayad.js
@@ -2100,7 +2098,6 @@ yydstxt*.com/js/html
 ||aspku.com/z/
 ||asserts.avple.tv/file/avple-asserts/ad.js
 ||assets-prod.bitcointreasuries.net/partner-images/
-||assets.dimitriu.xyz/prebid-hotnews.js
 ||assets.genius.com/javascripts/compiled/ads-*.js
 ||assets.genius.com/javascripts/compiled/reactads.*.js
 ||assets.moly.hu/system/header_ads/
@@ -3254,6 +3251,7 @@ yydstxt*.com/js/html
 ||fpdisplay.com/templates/default/js/palyflash_
 ||fpdisplay.com/upload/n_ad/
 ||fragment.firefoxchina.cn/html/
+||freecads.com/wp-content/themes/freecads/library/js/ads-dist.js
 ||freecontent.date
 ||freecontent.stream
 ||freedidi.com/wp-content/plugins/death-luhubaoyu/
@@ -3315,7 +3313,6 @@ yydstxt*.com/js/html
 ||game8.vn/partial/all_*advpartial
 ||game8.vn/partial/all_advwidth*partial
 ||gamecopyworld.com/ddd/
-||gamedistribution.com/ads-ng/
 ||gamefy.cn/cookiead.php
 ||gamemale.com/static/js/valida.js
 ||gamersky.com/common/tg/
@@ -3539,6 +3536,7 @@ yydstxt*.com/js/html
 ||hardwarezone.com.sg/ads/ad_site_notice.js
 ||hardwarezone.com.sg/js/hwz/hwz_gam_f.js
 ||hardwarezone.com.sg/js/sphmoverlay.js
+||havysoft.cl/mt_b.png
 ||hb8g86k.mom/mz.js
 ||hboav.com/guga/
 ||hc360.com/images/14826/289x90.jpg
@@ -4548,7 +4546,6 @@ yydstxt*.com/js/html
 ||milimili.tv/js/loadjs/jquery
 ||milimili.tv/template/joeleo/*.js
 ||mima.club/tuijian/speedtest/
-||minecraftskins.com/miscjs/as*.js
 ||minixiazai.com/others/all_soft.js
 ||minixiazai.com/statics/js/soft/index.js
 ||mipcdn.com^*/mip-*ad-
@@ -4943,6 +4940,8 @@ yydstxt*.com/js/html
 ||porngamespass.com/iframes/
 ||pornhd3x.tv/cms_data/sites/admin/files/ads
 ||pornhub.*/_xa/ads
+||pornid.xxx/grt/dev.js
+||pornid.xxx/vager/
 ||pornlib.com/player_*_ads
 ||pornofaps.com/frosty-bread-04ce/
 ||pornone.com/js/combined.js
@@ -5368,6 +5367,7 @@ yydstxt*.com/js/html
 ||slashlook.com/_resource/html/_bloggeradsbottom.html
 ||slashlook.com/_resource/html/_bloggeradsinline1.html
 ||sleazyneasy.com/contents/images-container/*.gif
+||sleazyneasy.com/contents/other/player/candygaby
 ||slickdeals.net/ad-stats/
 ||slit.cn/slimages/
 ||sm.ign.com/zdadkit*.js
@@ -5463,6 +5463,7 @@ yydstxt*.com/js/html
 ||sss777.net/alove-a/
 ||ssyy881.com/zz/
 ||st.chatango.com/js/*/*/rklmodule.js
+||st.motortrend.com/nitrous/
 ||staramuse.com/bmip/showg
 ||starnnews.com/banner/
 ||startpage.com/*/adsense/search/async-ads.js
@@ -5743,6 +5744,7 @@ yydstxt*.com/js/html
 ||twincdn.com/channels/
 ||twincdn.com/special/
 ||twincdn.com/video/
+||twitter.com/*/videoads/
 ||twkan.com/js/otherad
 ||twunbbs.com/images/
 ||txahz.com/static/image/tp/
@@ -6114,7 +6116,6 @@ yydstxt*.com/js/html
 ||xywy.com/gk?a=
 ||xywy.com/zhixing/
 ||xzji.com/data/block_js/softshow_
-||y2mate.*/themes/js/pn.js
 ||y2mate.com/themes/js/common.js
 ||yahoo.com/bidrequest
 ||yahoo.com/embed/tv?site=buzzhand&
