@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-02 01:07:57 UTC
-! Total Rules: 6332
+! Last Updated: 2026-04-02 12:42:48 UTC
+! Total Rules: 6330
 ! Expires: 5 days
 &ag_custom_vlmspot=
 &js_build=iclick-
@@ -1832,6 +1832,7 @@ yydstxt*.com/js/html
 ||a.cnki.net/a/
 ||a.jyeoo.com/js?
 ||a.pemsrv.com/popunder*.js
+||a.spolecznosci.net/pet?
 ||a5xiazai.com/z/
 ||aaaimg.com/images*.gif
 ||aaread.space/images/*0.gif
@@ -2347,7 +2348,6 @@ yydstxt*.com/js/html
 ||biaoge.tv/fa
 ||biblehub.com/botmenu
 ||bigear.cn/cache/htmlcache/
-||bigrock.in/affiliate/
 ||biketo.com/d/file/p/
 ||bilibilijj.com/image/right_bottom.gif
 ||bimiacg*.net/template/joeleo/asset/js/jquery.leeleo.js
@@ -2509,7 +2509,6 @@ yydstxt*.com/js/html
 ||carnoc.com/noticejs/
 ||cartoon18.com/images/friend/
 ||catbox.moe/bb5wdv.jpg
-||catchvideo.net/static/android-banner-full-
 ||cb.com.cn/index/ad/
 ||cbfw.cn/gonggong/chibi/cf_
 ||ccav1.com/wp-content/uploads/an-temp/
@@ -2534,6 +2533,8 @@ yydstxt*.com/js/html
 ||cdn-academy.akamaized.net/letras/ads/
 ||cdn-fc.com/creatives/bar/
 ||cdn.12341234.pl/editag/*/prod/editag.min.js
+||cdn.aznude.com/js/dating.json
+||cdn.aznude.com/player/v*/vast-no-entitlements.js
 ||cdn.bullion.media/custom_units/video-strip-master.js
 ||cdn.cnn.com/ads/
 ||cdn.concert.io/lib/concert-ads/
@@ -2682,6 +2683,7 @@ yydstxt*.com/js/html
 ||cidianwang.com/js/zdtop.js
 ||cilimao.*/amaod/
 ||cilipa.com^*0.js
+||cineby.sc/scripts/ab.js
 ||cineby.sc/scripts/gk.js
 ||citysbs.com/chongqing/*/1920x179-
 ||citysbs.com/no/*/1190x60-
@@ -2774,6 +2776,7 @@ yydstxt*.com/js/html
 ||components2.rcsobjects.it/rcs_anti-adblocker-verticali/
 ||configs.forgecdn.net/adfallback.js
 ||connatix.com/rtb/
+||content-api-*.space/?zones=
 ||content.livesportmedia.eu/api/v1/banners?zone-ids=
 ||content.overwolf.com/curseforge/web/nitro/cursenpinit.js
 ||coolaler.com/index_ads/
@@ -3345,7 +3348,6 @@ yydstxt*.com/js/html
 ||gavbus*.com/assets/common/js/admenu.js
 ||gay.bingo/agent.php
 ||gay4porn.com/ai/
-||gayguide.travel/scripts/images.js
 ||gayporntube.com/spots.php?
 ||gd.ct10000.com/js/ecssstat.js
 ||gd.sina.com.cn/iframe/22/
@@ -4152,7 +4154,6 @@ yydstxt*.com/js/html
 ||k366.com/images/smxs^
 ||k8dm.com/960x70.
 ||kaixin001.com.cn/js/cpm-
-||kaldata.com/img/banners/banners.js
 ||kalvin.cn/page/img/
 ||kan.cc/statics/abs/scripts/abs.
 ||kan98.com/images/*.gif
@@ -4344,6 +4345,7 @@ yydstxt*.com/js/html
 ||live173.com//ad/
 ||live173.com/banner/
 ||liveany.com/images/8d8d.gif
+||livexscores.com/rekban.php
 ||livku.com/g1000/
 ||liwupuba.com/livead/
 ||ll.ibiqiuge.com/m.js
@@ -4684,7 +4686,6 @@ yydstxt*.com/js/html
 ||naughtyblog.org/wp-content/images/k2s/
 ||navigator.az//files/banners/
 ||nb.zol.com.cn/detail_*.html
-||nbastreamswatch.com/z-6229510.js
 ||nbegame.com/nbeos/*.jpg
 ||nczsks.com/scwb/webresource.axd
 ||neets.cc/assets/js/dup.js
@@ -4954,7 +4955,6 @@ yydstxt*.com/js/html
 ||pornpics.de/api/banner/
 ||pornpoppy.com/*/external_pop.js
 ||porntb.com/cdn/cdn_check.js
-||pornvee.com/ads
 ||pornwex.tv/wp.js
 ||pornx.to/wp-content/uploads/ad*x*.png
 ||pornxp.*/spnbf.js
@@ -5451,6 +5451,7 @@ yydstxt*.com/js/html
 ||speedtest.cn/api/v2/show
 ||speedtest.cn/assets/images/ce_
 ||speedy.literotica.com/ntk
+||spolecznosci.net/files/
 ||sportscn.com/js/commerical
 ||spox.com/daznpic/
 ||spqi.xyz/static/tmp/
@@ -5744,9 +5745,6 @@ yydstxt*.com/js/html
 ||tw.buy.yahoo.com/?z=
 ||tw.live/assets/images/fsk-0*.webp
 ||twavtv.com/js/jquery.colorbox
-||twincdn.com/channels/
-||twincdn.com/special/
-||twincdn.com/video/
 ||twitter.com/*/videoads/
 ||twkan.com/js/otherad
 ||twunbbs.com/images/
