@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-01 12:48:22 UTC
-! Total Rules: 6329
+! Last Updated: 2026-04-02 01:07:57 UTC
+! Total Rules: 6332
 ! Expires: 5 days
 &ag_custom_vlmspot=
 &js_build=iclick-
@@ -2357,6 +2357,7 @@ yydstxt*.com/js/html
 ||bio-equip.com/dimgs/
 ||bio-equip.com/uploadimages/peiqing.gif
 ||bioon.com/xy/article/img/zhi_neng_xibao_fenxi.png
+||biovetro.net/wp-content/plugins/*.js
 ||biqgg.com/n.
 ||biqgg.com/w.
 ||biqgg.com/w.js?v=
@@ -2533,6 +2534,7 @@ yydstxt*.com/js/html
 ||cdn-academy.akamaized.net/letras/ads/
 ||cdn-fc.com/creatives/bar/
 ||cdn.12341234.pl/editag/*/prod/editag.min.js
+||cdn.bullion.media/custom_units/video-strip-master.js
 ||cdn.cnn.com/ads/
 ||cdn.concert.io/lib/concert-ads/
 ||cdn.cuty.io/fps.js
@@ -2541,6 +2543,7 @@ yydstxt*.com/js/html
 ||cdn.galacg.me/img/*.gif
 ||cdn.galacg.me/img/*.jpg
 ||cdn.haokongbu1.com^*.js
+||cdn.hotscope.tv/assets/ai/video-
 ||cdn.jsdelivr.net/gh/*/js/adsenseads.min.js
 ||cdn.jsdelivr.net/gh/*/js/arlinablock.js
 ||cdn.jsdelivr.net/gh/adigunawanxd/pluginsgalaxymag@master/seosecretidnblockads.js
@@ -4198,7 +4201,6 @@ yydstxt*.com/js/html
 ||kiees.cn/k1.js
 ||kikinote.net/iframe
 ||kindgirls.com/banners2/
-||kisskh.*/scripts.js
 ||kiwi8.top/media/plugins/jquery_confirm/
 ||kkkkdm.com/js/comic-
 ||kkkkdm.com/mg/show
@@ -5469,6 +5471,7 @@ yydstxt*.com/js/html
 ||startpage.com/*/adsense/search/async-ads.js
 ||static-cdn.spot.im/production/ads/tags/v*/ads/ads.js
 ||static.c4assets.com/all4-ad-code/latest/adverts.js
+||static.cdnpure.com/www/static/script/prebid-
 ||static.chinatimes.com/scripts/2019/ad2019.min.js
 ||static.doyouhike.net/partner/
 ||static.escort.club/banners/

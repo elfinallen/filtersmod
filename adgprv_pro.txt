@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-01 12:48:22 UTC
-! Total Rules: 96343
+! Last Updated: 2026-04-02 01:07:57 UTC
+! Total Rules: 96349
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -82276,6 +82276,7 @@ zonedirector.avadacom.com$image
 ||accounts.ad.nl/gscounters.sendreport
 ||accounts.google.com/gsi/log
 ||accounts.haymarket.media/tracking/drip-event
+||accounts.snapchat.com/accounts/sso?client_id=snapchat-com-metrics
 ||accounts.snapchat.com/accounts/static/scripts/pixel.js
 ||accueil.banque-france.fr/uti/assets/atinternet/core/smarttag.js$script,redirect=ati-smarttag
 ||accuterm.com/data/stat.js
@@ -82442,7 +82443,6 @@ zonedirector.avadacom.com$image
 ||adope.net/external/analytics.js
 ||adora-cdn.com/adora-start.js
 ||adoric-om.com^$third-party
-||adoric.com^$third-party
 ||adpaths.com^$third-party
 ||adpay.ssg.com/adpayapi/pay/send.ssg
 ||adpick.co.kr^$third-party
@@ -83205,6 +83205,8 @@ zonedirector.avadacom.com$image
 ||apis.usonar.jp/alog/alog.php
 ||apkonline.ru^$third-party
 ||apkpure.com/api/v1/get-withdraw-count
+||apkpure.com/static/script/device-*-min.js
+||apkpure.com^$cookie=_qimei
 ||apl.roskomsvoboda.org/js/script.js
 ||aplus.aliexpress.*/ae.pc_click.statweb_ae_click
 ||aplus.aliexpress.*/ae.pc_ctr.statweb_ae_ctr
@@ -83598,6 +83600,8 @@ zonedirector.avadacom.com$image
 ||awfonts.com^$script,third-party
 ||awin1.com^$third-party
 ||aws.amazon.com/csds/collector/
+||aws.api.snapchat.com/snapchat.ab.exposure_service.exposureservice/batchupdateabexposure^
+||aws.api.snapchat.com/snapchat.cdp.cof.circumstancesservice/targetingquery^
 ||awsapprunner.com/api/frontend/client/metrics
 ||awsstatic.com/libra/*/csp/csp-report.js
 ||awstats.cloud^$third-party
@@ -87170,6 +87174,7 @@ zonedirector.avadacom.com$image
 ||gc.onliner.by/js/mediameter/counter.js
 ||gc.zgo.at^$third-party
 ||gcion.com/gcion.ashx?
+||gcp.api.snapchat.com/web-blizzard/web/send^
 ||gcpsmapi.vodafone.com/submit-events
 ||gde.ru/isapi/tracker.dll?
 ||gdeslon.ru^$third-party
@@ -87552,7 +87557,7 @@ zonedirector.avadacom.com$image
 ||googletagmanager.com/ns.html$subdocument,redirect=nooptext,domain=pool.binance.com
 ||googletagmanager.com/ns.html?$third-party
 ||googletagmanager.com/static/service_worker/
-||googletagmanager.com^$app=app.shinagawa.listentonovels.androidapp|com.edadeal.android|com.mysticsense.androidapp
+||googletagmanager.com^$app=app.shinagawa.listentonovels.androidapp|com.edadeal.android|com.mysticsense.androidapp|com.walla.wallasports
 ||googletagservices.com/tag/js/gpt.js$domain=epaper.timesgroup.com,redirect=googletagservices-gpt,important
 ||googletagservices.com/tag/js/gpt.js$domain=sinoptik.ua|gutefrage.net|dt.ua|ngs.ru|unian.net|easybib.com|bohenon.com|linuxtopia.org|newsroom.kh.ua|hclips.com|noticierodigital.com|northumberlandgazette.co.uk|mywebtimes.com|watchuseek.com|telekritika.ua|fontanka.ru|bhub.com.ua|guhoyas.com|rst.ua|hh.ru|buhgalter.com.ua|unocero.com|autonews.com|metropoles.com|okezone.com|m.yeniakit.com.tr|kanalukraina.tv|day.az|knuddels.de
 ||googletagservices.com/tag/js/gpt.js$script,redirect=googletagservices-gpt,domain=dafiti.com.co
@@ -90485,6 +90490,7 @@ zonedirector.avadacom.com$image
 ||nicovideo.jp/analyze/
 ||nicovideo.jp/api/counter/
 ||nicovideo.jp/api/tkas_video_impression
+||nid.barrons.com/prod/sp/nid_sp.js
 ||niftymaps.com^$third-party
 ||nihon-u.ac.jp/*/js/ga.js
 ||nik.io^$third-party

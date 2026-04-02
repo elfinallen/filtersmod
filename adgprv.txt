@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-01 12:48:22 UTC
-! Total Rules: 11581
+! Last Updated: 2026-04-02 01:07:57 UTC
+! Total Rules: 11587
 ! Expires: 5 days
 &&sub19=undefined&sub20=undefined
 &action=js_stats
@@ -3666,6 +3666,7 @@ t.yesware.com
 ||accounts.ad.nl/gscounters.sendreport
 ||accounts.google.com/gsi/log
 ||accounts.haymarket.media/tracking/drip-event
+||accounts.snapchat.com/accounts/sso?client_id=snapchat-com-metrics
 ||accounts.snapchat.com/accounts/static/scripts/pixel.js
 ||accuterm.com/data/stat.js
 ||ace-sync.toast.com/sendid?sid=*&uid=
@@ -4208,6 +4209,7 @@ t.yesware.com
 ||apis.naver.com/videostat/videostat/qoe
 ||apis.usonar.jp/alog/alog.php
 ||apkpure.com/api/v1/get-withdraw-count
+||apkpure.com/static/script/device-*-min.js
 ||apl.roskomsvoboda.org/js/script.js
 ||aplus.aliexpress.*/ae.pc_click.statweb_ae_click
 ||aplus.aliexpress.*/ae.pc_ctr.statweb_ae_ctr
@@ -4471,6 +4473,8 @@ t.yesware.com
 ||avvenire.it/content/js/track.es5.min.js?
 ||awe.sm/conversions/
 ||aws.amazon.com/csds/collector/
+||aws.api.snapchat.com/snapchat.ab.exposure_service.exposureservice/batchupdateabexposure^
+||aws.api.snapchat.com/snapchat.cdp.cof.circumstancesservice/targetingquery^
 ||awsapprunner.com/api/frontend/client/metrics
 ||awsstatic.com/libra/*/csp/csp-report.js
 ||awswaf.com^*/report
@@ -6523,6 +6527,7 @@ t.yesware.com
 ||gc.newsweek.com/front/js/counter.js
 ||gc.onliner.by/js/mediameter/counter.js
 ||gcion.com/gcion.ashx?
+||gcp.api.snapchat.com/web-blizzard/web/send^
 ||gcpsmapi.vodafone.com/submit-events
 ||gde.ru/isapi/tracker.dll?
 ||gecid.com/inc/bstat.php
@@ -8330,6 +8335,7 @@ t.yesware.com
 ||nicovideo.jp/analyze/
 ||nicovideo.jp/api/counter/
 ||nicovideo.jp/api/tkas_video_impression
+||nid.barrons.com/prod/sp/nid_sp.js
 ||nihon-u.ac.jp/*/js/ga.js
 ||nike.com*/trackingconfig?
 ||nike.com/assets/measure/data-capture/
