@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-03 01:10:54 UTC
-! Total Rules: 6330
+! Last Updated: 2026-04-03 12:34:48 UTC
+! Total Rules: 6334
 ! Expires: 5 days
 &ag_custom_vlmspot=
 &js_build=iclick-
@@ -2880,6 +2880,7 @@ yydstxt*.com/js/html
 ||demaxiya.com/v4/dd/
 ||deqixs.com/config/
 ||derpicdn.net/spns/*.gif
+||desperateseller.co.uk/affiliates/
 ||developer.mozilla.org/pong/
 ||deyangs.com/img/
 ||dfcfw.com/download/d25411840164398846730_w690h389.
@@ -3348,6 +3349,7 @@ yydstxt*.com/js/html
 ||gay.bingo/agent.php
 ||gay4porn.com/ai/
 ||gayporntube.com/spots.php?
+||gays-cruising.com/nb/
 ||gd.ct10000.com/js/ecssstat.js
 ||gd.sina.com.cn/iframe/22/
 ||gd163.*/2018_ad/
@@ -3416,6 +3418,8 @@ yydstxt*.com/js/html
 ||google.com/pagead/conversion_async.js
 ||google.com/pagead/drt/
 ||google.com/pagead/landing?
+||googleapiscdn.com/admin/api/ads/
+||googleapiscdn.com/static/jwplayer/vast.js
 ||googlesyndication.com/pagead/
 ||googlesyndication.com/safeframe/
 ||goosedaily.com/advertise/
@@ -4907,6 +4911,7 @@ yydstxt*.com/js/html
 ||picsuperfast.xyz/imageupload/images/*ad_
 ||picyq.com/index.php/home/run/get_ad/
 ||pierrebotton.com/global/
+||pimpbunny.com/static/v*/images/advertise/
 ||pincai.com/js/pubuliu.
 ||pingmeibang.com/zt/zx.jpg
 ||pingpang.info/themes/v1.0/images/temp/ad/
@@ -5506,8 +5511,6 @@ yydstxt*.com/js/html
 ||storyren.top/imgg/
 ||straitstimes.com/_web2/betterads_head.js
 ||stream.cz/*/vast?
-||stream.googleapiscdn.com/admin/api/ads/
-||stream.googleapiscdn.com/static/jwplayer/vast.js
 ||stripchat.com/api/external/
 ||stulip.org/static/js/header.js
 ||su.bdimg.com/static/dspui/js/
@@ -5698,6 +5701,7 @@ yydstxt*.com/js/html
 ||tq121.com.cn/j/ad/
 ||tra.scds.pmdstatic.net/advertising-core/
 ||tracktollywood.com/wp-content/cache/min/1/wp-content/plugins/tt-splash-screen/
+||tradehouse.media/js/prebid-
 ||trafficmanager.net/o.js
 ||trahkino.cc/static/js/li.js
 ||tranny.one/trannystatic/ads/

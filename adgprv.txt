@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-03 01:10:54 UTC
-! Total Rules: 11589
+! Last Updated: 2026-04-03 12:34:48 UTC
+! Total Rules: 11592
 ! Expires: 5 days
 &&sub19=undefined&sub20=undefined
 &action=js_stats
@@ -2344,6 +2344,7 @@
 /rkrt_tracker-viajs.php
 /rm-gtm-google-analytics-for-wordpress/js/gtm-player.js
 /rm.gif?
+/rmkt/collect/*
 /rmntracking.js
 /rnb/events
 /rntracking.js
@@ -8830,6 +8831,7 @@ t.yesware.com
 ||poll-maker.com^*/scpolls.js
 ||polsatsport.pl/templates/interiastats/psport2019/interiastats.js
 ||pons.com/pons-site-website-assets/lib/analytics.min.js
+||poocloud.in/api/event
 ||poool.fr/api/v3/access/event
 ||popai.pro/dfxaf3-sg.js
 ||popin.cc/conversion2.js
@@ -9354,6 +9356,7 @@ t.yesware.com
 ||s.smallpdf.com/static/track-js-*-entrypoint.js
 ||s.sofoot.com/script.js
 ||s.teknolojioku.com/assets/web/js/hitcounter.min.js
+||s.tgrthaber.com/s/js/stats.js
 ||s.turkiyegazetesi.com.tr/s/js/stats.js
 ||s.yimg.*/cv/conversion.js^
 ||s.yimg.com/aaq/benji/benji-*.js

@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-03 01:10:54 UTC
-! Total Rules: 96351
+! Last Updated: 2026-04-03 12:34:48 UTC
+! Total Rules: 96356
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -3301,6 +3301,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /rkrt_tracker-viajs.php
 /rm-gtm-google-analytics-for-wordpress/js/gtm-player.js
 /rm.gif?
+/rmkt/collect/*
 /rmntracking.js
 /rnb/events
 /rntracking.js
@@ -90078,6 +90079,7 @@ zonedirector.avadacom.com$image
 ||mpio.io^$third-party
 ||mplxtms.com^$third-party
 ||mps.nbcuni.com/request/page/json/params/*&adunits=$xmlhttprequest
+||mpsp.mp.br/combo/?$script
 ||mpstat.us^$third-party
 ||mql5.com/st?
 ||mql5.com/tr?
@@ -91394,6 +91396,7 @@ zonedirector.avadacom.com$image
 ||polymorphicads.jp^$third-party
 ||pons.com/pons-site-website-assets/lib/analytics.min.js
 ||pons.com/pons-site-website-int/_astro/website-analytics.$script
+||poocloud.in/api/event
 ||poool.fr/api/v3/access/event
 ||pop.devil.services^$third-party
 ||pop.unitedgate.co.jp^$third-party
@@ -92386,6 +92389,7 @@ zonedirector.avadacom.com$image
 ||s.sofoot.com/script.js
 ||s.srvsynd.com^$third-party
 ||s.teknolojioku.com/assets/web/js/hitcounter.min.js
+||s.tgrthaber.com/s/js/stats.js
 ||s.turkiyegazetesi.com.tr/s/js/stats.js
 ||s.uicdn.com/nav-cdn/trackbar/*/trackbar.js$domain=mail.com
 ||s.uicdn.com/pos-cdn/tracklib/*/tracklib.poly.min.js$domain=mail.com
@@ -95557,6 +95561,7 @@ zonedirector.avadacom.com$image
 ||web-stat.net^$third-party
 ||web-visor.com^$third-party
 ||web.aips-sol.com/v1/events?
+||web.facebook.com^$app=com.teslacoilsw.launcher
 ||web.snapchat.com/web-analytics-v2/web/events
 ||web.snapchat.com/web-blizzard/web/send^
 ||web.snrbox.com/*?tracker=
