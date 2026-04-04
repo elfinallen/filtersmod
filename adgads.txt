@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-04 01:04:31 UTC
-! Total Rules: 6339
+! Last Updated: 2026-04-04 12:27:45 UTC
+! Total Rules: 6344
 ! Expires: 5 days
 &ag_custom_vlmspot=
 &js_build=iclick-
@@ -389,6 +389,7 @@
 /^23\.109\.73\.\d{3}/
 /^94\.242\.247\.(2[0-9]|3[0-2])/
 /_a_ta/s/s/*
+/_adslot/*
 /_ra_lib.php
 /_xa/ads_
 /a-duoduo/add-
@@ -983,6 +984,7 @@
 /websales_push_*_big.php?id=
 /wp-content/plugins/eazy-ad-unblocker/*
 /wp-content/plugins/jet-blocker-anti-ad-blocker-detector/*
+/wp-content/plugins/popupbuilder-adblock/*
 /wp-content/plugins/script-manager/assets/js/script-manager.js?
 /wp-content/themes/imovies/js/tc_
 /wp-content/uploads/useful_banner_manager_banners/*
@@ -1889,7 +1891,6 @@ yydstxt*.com/js/html
 ||affyun.com/wp-content/uploads/*/affffff.png
 ||affyun.com/wp-content/uploads/2018/10/file.gif
 ||afocus.com.cn/s?
-||afternic.com/v1/aftermarket/landers/
 ||afzhan.com/javascript/ad_couplet.js
 ||agefans.top/js/wap2-jm-ms.js
 ||agogo.tv/images//uploads/ad/
@@ -2031,7 +2032,6 @@ yydstxt*.com/js/html
 ||amazonaws.com/s?z=
 ||ammcg.imgscloud.com/toy/
 ||ams.cdn.arkadiumhosted.com/advertisement/
-||anal.media/creatives/
 ||androidauth.wpengine.com/wp-json/api/advanced_placement
 ||angelweb.cn/inc/angelg.js
 ||anhuinews.com/include/
@@ -2505,6 +2505,7 @@ yydstxt*.com/js/html
 ||caoporn.com/templates/frontend/dark-blue/js/caoaa5.js
 ||car.pchome.com.tw/iframe/news_iframe.
 ||caranddriver.com/inventory/
+||careerwebsite.com/distrib_pages/jobs.cfm?
 ||carexpert.com.tw/wp-content/uploads/*800x90.
 ||carnoc.com/noticejs/
 ||cartoon18.com/images/friend/
@@ -2598,6 +2599,7 @@ yydstxt*.com/js/html
 ||centurys.net/promo_
 ||cenyou.net/wp-content/uploads/1200-200.
 ||cesu.ai/uploads/advertimages/
+||cex.io/img/b/
 ||cfzhushou.com^*/king_chance_layer.js
 ||chachefa.com/asdfasdfqwer/
 ||chahua.org/aimg/
@@ -4486,6 +4488,7 @@ yydstxt*.com/js/html
 ||maomaoks.com/1.
 ||maopu.tv/d/file/p/2019/07/6ac50c702cf9e6a9a7910a510c40cb73.jpg
 ||masadora.net/kakusan-
+||massariuscdn.com/pubs/
 ||masturbation22.com/d/
 ||mat.chasedream.com^*.gif
 ||mat1.gtimg.com/2014/vikkydu/ga/haier
@@ -4602,6 +4605,7 @@ yydstxt*.com/js/html
 ||mop.com/newindex/gg.html
 ||moratame.tw/img/contents/banner
 ||mortgagecentres.net/banner.gif
+||moviechat.org/images/aff
 ||moviekhhd.biz/ads/
 ||movshow.com/*portal/
 ||mowenxi.com/1.png
@@ -5164,7 +5168,7 @@ yydstxt*.com/js/html
 ||researchgate.net/delivery/manager.js
 ||resources.faireconomy.media/js.min/resources/js/money/moneyslotmanager.js
 ||revolver.news/wp-content/banners/
-||rezonence.com/pub/*/doubleserve.js
+||rf4-stat.ru/js/adblock.js
 ||rfidworld.com.cn/js/a.js
 ||rfidworld.com.cn/js/b.js
 ||rfidworld.com.cn/js/c.html
@@ -6113,6 +6117,7 @@ yydstxt*.com/js/html
 ||xvideo.cc/wefong2.js
 ||xvideos.com/zoneload/
 ||xvideos.es/zoneload/
+||xwhite-tube.com/js/aobj.js
 ||xxdm.in/js/union/
 ||xxffo.com^*_slett.php
 ||xxhh.com/xh.js
