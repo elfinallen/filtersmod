@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-03 12:34:48 UTC
-! Total Rules: 6334
+! Last Updated: 2026-04-04 01:04:31 UTC
+! Total Rules: 6339
 ! Expires: 5 days
 &ag_custom_vlmspot=
 &js_build=iclick-
@@ -2335,6 +2335,7 @@ yydstxt*.com/js/html
 ||bendibao.com*/tuangou.gif
 ||bendibao.com/mo/adm_iframe.htm?
 ||bestblackhatforum.com/images/my_compas/
+||bestsexpositions.com/pictures/2022/07/bigger-dick-*.gif
 ||bestvogue.com/fans/
 ||bf99.com/user*/ad_
 ||bf99.com/user/images/bg_blued.jpg
@@ -2507,6 +2508,7 @@ yydstxt*.com/js/html
 ||carexpert.com.tw/wp-content/uploads/*800x90.
 ||carnoc.com/noticejs/
 ||cartoon18.com/images/friend/
+||castatic.fengkongcloud.cn/pr/
 ||catbox.moe/bb5wdv.jpg
 ||cb.com.cn/index/ad/
 ||cbfw.cn/gonggong/chibi/cf_
@@ -4440,6 +4442,7 @@ yydstxt*.com/js/html
 ||m.ybstwl.com/public/tpl/m2/js/
 ||m.ygexing.com/d/js/acmsd
 ||m.yhdm.so/bar/yfgg.js
+||m.yichengwlkj.com/ssp_ad_sdk.js
 ||m.ysxs8.com/js/content_db.js
 ||m1905.cn/afp/mdsfw.js
 ||m1905.cn/data/suspension_
@@ -4768,6 +4771,8 @@ yydstxt*.com/js/html
 ||oa.hinews.cn/work/img/
 ||ocdn.eu/workshopinforocdn/infor/misc/taboola-assets/taboola_v*.js
 ||ofweek.com/pop/ad/
+||ogfap.com/_astro/adcontainer
+||ogfap.com/ad/
 ||oh100.com/js/pubuliu.
 ||okbmf.com/imgad/
 ||okbmf.com^*950_120

@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-03 12:34:48 UTC
-! Total Rules: 9925
+! Last Updated: 2026-04-04 01:04:31 UTC
+! Total Rules: 9933
 ! Expires: 5 days
 $cookie=/adb\.key/,domain=expres.cz|televizeseznam.cz|ahaonline.cz|extra.cz|mobilmania.cz|idnes.cz|aktuality.sk|aktualne.cz|blesk.cz|centrum.cz|cnews.cz|e15.cz|karaoketexty.cz|novinky.cz|sport.cz|super.cz|tiscali.cz|zive.cz|antiyoutuber.cz|fights.cz|metro.cz
 $cookie=__adblocker,domain=slate.com|thehindubusinessline.com
@@ -4065,6 +4065,7 @@ yydstxt*.com/js/html
 ||beop.io^$third-party
 ||bestblackhatforum.com/images/my_compas/
 ||bestcontentcost.top^$third-party
+||bestsexpositions.com/pictures/2022/07/bigger-dick-*.gif
 ||bestvogue.com/fans/
 ||bet365affiliates.com^$third-party
 ||betrad.com^$third-party
@@ -4297,6 +4298,7 @@ yydstxt*.com/js/html
 ||carnoc.com/noticejs/
 ||caroda.io^$third-party
 ||cartoon18.com/images/friend/
+||castatic.fengkongcloud.cn/pr/
 ||castoola.tv^*/ads/$domain=sabc-plus.com
 ||catbox.moe/bb5wdv.jpg
 ||cb.com.cn/index/ad/
@@ -4381,6 +4383,9 @@ yydstxt*.com/js/html
 ||cdn.questvert.pl/publishers/*/qpscript.js
 ||cdn.rawgit.com/arlina-design/quasar/*/arlinablock.js
 ||cdn.rekkerd.org/img/a/rkkrdprm/
+||cdn.rrmj.plus/ad_4k.mp4$media,redirect=noopmp3-0.1s,domain=m.yichengwlkj.com
+||cdn.rrmj.plus/c-next/mapp/*/layout-$script,replace=/firstadmaxfreetimes:\d+/firstadmaxfreetimes:30000/,domain=m.yichengwlkj.com
+||cdn.rrmj.plus/c-next/mapp/*/layout-$script,replace=/secondsadmaxtimes:\d+/secondsadmaxtimes:150000/,domain=m.yichengwlkj.com
 ||cdn.shdsp.net/ad
 ||cdn.sinparty.com^$subdocument,third-party
 ||cdn.sportlabs.online^$third-party
@@ -7012,6 +7017,7 @@ yydstxt*.com/js/html
 ||m.ybstwl.com/public/tpl/m2/js/
 ||m.ygexing.com/d/js/acmsd
 ||m.yhdm.so/bar/yfgg.js
+||m.yichengwlkj.com/ssp_ad_sdk.js
 ||m.ysxs8.com/js/content_db.js
 ||m1905.cn/afp/mdsfw.js
 ||m1905.cn/data/suspension_
@@ -7498,6 +7504,8 @@ yydstxt*.com/js/html
 ||ofmweb.wpcdn.pl/dist/*/static/chunks/*.js$replace=/adv:!.\,/adv:!1\,/,domain=open.fm
 ||ofweek.com/pop/ad/
 ||og.zyzjpx.cn^$third-party
+||ogfap.com/_astro/adcontainer
+||ogfap.com/ad/
 ||oh100.com/js/pubuliu.
 ||ojrq.net^$document,badfilter
 ||okbmf.com/imgad/

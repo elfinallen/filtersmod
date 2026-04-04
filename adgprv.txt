@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-03 12:34:48 UTC
-! Total Rules: 11592
+! Last Updated: 2026-04-04 01:04:31 UTC
+! Total Rules: 11593
 ! Expires: 5 days
 &&sub19=undefined&sub20=undefined
 &action=js_stats
@@ -6558,7 +6558,6 @@ t.yesware.com
 ||getglue.com^*/count?
 ||getmetrical.com/storagesync
 ||getnodejs.com/add-event/
-||getpocket.com/web-utilities/public/static/te.js
 ||getpos.de/ext/
 ||getrockerbox.com/pixel?
 ||gets.faz.net/z.aspx
@@ -7712,6 +7711,7 @@ t.yesware.com
 ||lmcdn.ru^*/statistics.js
 ||lmtonline.com/413gkwmt/init.js
 ||lnk.to/~/tr/
+||lnk.to/~/tr/visit
 ||lnkd.in/li/track
 ||load.tm.all3dp.com/rqlevydw.js
 ||localfocuswidgets.net/stats/
@@ -9748,6 +9748,7 @@ t.yesware.com
 ||smarthint.co/scripts/i/smarthinttrack.full.min.js
 ||smarthint.co/track/
 ||smartlink-api.amuse.io/api/analytics/
+||smarturl.it/~/tr/visit
 ||smassets.net/assets/anonweb/anonweb-click-
 ||smassets.net/assets/anonweb/anonweb-click-logger-bundle-
 ||smg.com/etrack/

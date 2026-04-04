@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-03 12:34:48 UTC
-! Total Rules: 96356
+! Last Updated: 2026-04-04 01:04:31 UTC
+! Total Rules: 96357
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -87250,7 +87250,6 @@ zonedirector.avadacom.com$image
 ||getmetrical.com/storagesync
 ||getnodejs.com/add-event/
 ||getnotix.co^$third-party
-||getpocket.com/web-utilities/public/static/te.js
 ||getpos.de/ext/
 ||getpublica.com^$cookie=p_uid
 ||getpush.net^$third-party
@@ -89334,6 +89333,7 @@ zonedirector.avadacom.com$image
 ||lndata.com^$third-party
 ||lngtd.com^$third-party
 ||lnk.to/~/tr/
+||lnk.to/~/tr/visit
 ||lnkd.in/li/track
 ||load.sumome.com^$third-party
 ||load.tm.all3dp.com/rqlevydw.js
@@ -93097,6 +93097,7 @@ zonedirector.avadacom.com$image
 ||smartplugin.youbora.com/*/js/lib/*/npawlib.min.js$domain=go3.lv
 ||smartracker.net^$third-party
 ||smartselling.cz^$third-party
+||smarturl.it/~/tr/visit
 ||smartworld.it^$cookie=__mx_log
 ||smartzonessva.com^$third-party
 ||smassets.net/assets/anonweb/anonweb-click-
