@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-05 01:13:16 UTC
-! Total Rules: 9942
+! Last Updated: 2026-04-05 12:29:45 UTC
+! Total Rules: 9943
 ! Expires: 5 days
 $cookie=/adb\.key/,domain=expres.cz|televizeseznam.cz|ahaonline.cz|extra.cz|mobilmania.cz|idnes.cz|aktuality.sk|aktualne.cz|blesk.cz|centrum.cz|cnews.cz|e15.cz|karaoketexty.cz|novinky.cz|sport.cz|super.cz|tiscali.cz|zive.cz|antiyoutuber.cz|fights.cz|metro.cz
 $cookie=__adblocker,domain=slate.com|thehindubusinessline.com
@@ -917,7 +917,6 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 /adserver3.$image,script
 /adsfactor_ab
 /adsforwp-front.min.css$stylesheet
-/adsimage/*$image,domain=~kamaz-service.kz|~theatreticketsdirect.co.uk
 /adsimages/*$image,domain=~bdjobstoday.com
 /adsimg/*$image
 /adsmanager.css$stylesheet
@@ -2515,7 +2514,6 @@ yydstxt*.com/js/html
 ||10fang.com/static/skin/tfy/layer/layer.js
 ||10play.com.au/js/showsindex.compiled.js$replace=/=this\.props\.disableads\|\|this\._noads/=true/
 ||11.mydrivers.com/drivers/
-||1100ad.com^$third-party
 ||111.90.159.132/wp-content/plugins/catfish-advert-banner/
 ||1112hd.com/wp-content/uploads/*/*/*.gif
 ||111cn.net/gg_ad/
@@ -3455,6 +3453,7 @@ yydstxt*.com/js/html
 ||afocus.com.cn/s?
 ||afp.ai^$third-party
 ||afzhan.com/javascript/ad_couplet.js
+||agat-tech.com^$document
 ||agefans.top/js/wap2-jm-ms.js
 ||agogo.tv/images//uploads/ad/
 ||aguo.com^$third-party
@@ -3754,7 +3753,6 @@ yydstxt*.com/js/html
 ||aspku.com/images/vz360.jpg
 ||aspku.com/z/
 ||asserts.avple.tv/file/avple-asserts/ad.js
-||assets-prod.bitcointreasuries.net/partner-images/
 ||assets.genius.com/javascripts/compiled/ads-*.js
 ||assets.genius.com/javascripts/compiled/reactads.*.js
 ||assets.moly.hu/system/header_ads/
@@ -4133,6 +4131,7 @@ yydstxt*.com/js/html
 ||blog.xuite.net/_public/js/ysmad.js
 ||blogads.com^$third-party
 ||blogger.googleusercontent.com/img/*.gif^$image,domain=idlixku.com
+||blogspot.com^$domain=blogtruyen.vn
 ||blogspot.com^*/s1600/drug.gif
 ||blueidea.com/js/ajs.js
 ||blz105.com/player/ad.html
@@ -4697,6 +4696,7 @@ yydstxt*.com/js/html
 ||contentexchange.me/widget/$third-party
 ||contentexchange.me^$domain=nova.rs
 ||contextads.live^$third-party
+||controlc.com/redact.png
 ||coolaler.com/index_ads/
 ||coolpc.com.tw/home/img/right2.html
 ||coolpc.com.tw/img/topweb.html
@@ -5886,7 +5886,6 @@ yydstxt*.com/js/html
 ||hmwang.icu/skin/images/*.gif
 ||hnonline.sk/*&bust=$replace=/(<vast[\s\s]*?>)[\s\s]*<\/vast>/\$1<\/vast>/,xmlhttprequest
 ||hnyishidengbao.com^$third-party
-||hoerenjs.b-cdn.net/hoer.js
 ||hoes.tube/ai/
 ||holahupa.com^$popup
 ||homad-global-configs-eu-fra.schneevonmorgen.com.s3.amazonaws.com/www.vgtv.no/config.json$replace=/"enabled": true\,/"enabled": false\,/i
@@ -7305,6 +7304,7 @@ yydstxt*.com/js/html
 ||my4700.com/js/*.js
 ||myabandonware.com/media/img/innog/
 ||myabandonware.com/media/img/pwn/
+||myanimelist.net/c/i/images/event/
 ||myanimelist.net/c/img/
 ||myao.adocean.pl/*ad.*?$replace=/(<vast[\s\s]*?>)[\s\s]*?(<extensions>[\s\s]*<\/extensions>)[\s\s]*<\/vast>|(<vast[\s\s]*?>)[\s\s]*<\/vast>/\$1\$2\$3<\/vast>/,xmlhttprequest,domain=tvp.pl,important
 ||mybjx.net/theme/default/js/common/bjx_service_
@@ -7557,6 +7557,7 @@ yydstxt*.com/js/html
 ||oploverz.my/wp-content/uploads/*/*.gif
 ||optable.co^$third-party
 ||optad360.io/*/*.min.js$script,redirect=noopjs,domain=realmadryt.pl
+||opti-digital.com/js/presync.html
 ||opticsky.cn/images/2015/gy-px201
 ||optidigital.com^$third-party
 ||optiklink.com/arlinablock.js
@@ -8181,6 +8182,7 @@ yydstxt*.com/js/html
 ||res.cngoldres.com/web/index/img/*_ad_
 ||res.taotu.org/adimages/
 ||res.vps234.com/resources/images/hosting-promotion/
+||resdata.nftbaoyi.com/images/ad/
 ||researchgate.net/delivery/manager.js
 ||reshare.pm^$replace=/<script type="text\/javascript">/<script class="atscript_0" type="text\/javascript">/,document
 ||resources.faireconomy.media/js.min/resources/js/money/moneyslotmanager.js
@@ -8608,7 +8610,6 @@ yydstxt*.com/js/html
 ||sooopu.com/js/contentad330.js
 ||soorbka.cn^$third-party
 ||soranews24.com/_static/$replace=/(!1|!0!)=?==sco\.imglazyload/1===1/,script
-||sosalkebab.com^$all
 ||souche.com^*.gif
 ||soufunimg.com/imgd/viewimage/*/640x210
 ||souka.me/ad/
@@ -9465,7 +9466,6 @@ yydstxt*.com/js/html
 ||wowfan.net/static/js/index.
 ||woyaoq.com/201904100958_5cad4dbac9c5f.png
 ||wp-pilot-gatsby.wpcdn.pl/*.js$replace=/({adv:).(\,qoeenabled:!0\,advvastduration:)/\$1!1\$2/
-||wp.com/hiphopza.com/wp-content/uploads/*/ad.gif$domain=hiphopza.com
 ||wp.pl^$replace=/(<vast[\s\s]*?>)[\s\s]*<\/vast>/\$1<\/vast>/,xmlhttprequest,other,~script,app=~pl.videostar
 ||wp.pl^$replace=/(\.messdata=.;[\s\s]*?.=function\(\)\{)return 1===.(\}\,)/\$1return\$2/,script
 ||wp.pl^$replace=/(^(wp\.[\s\s]*?\.bodies)=wp\.[\s\s]*?\.bodies\|\|\{\};[\s\s]*)//,script
@@ -9634,6 +9634,7 @@ yydstxt*.com/js/html
 ||xonlines.com/yyh_qp_200_200.png
 ||xozilla.com/player/html.php$subdocument
 ||xp85.com/common/js/allpage.js
+||xpaja.net/views/images/ads/
 ||xpcha.com/js/notice.js
 ||xscp0*xq.com^$script,xmlhttprequest,third-party
 ||xslca.cc/js/pf.js

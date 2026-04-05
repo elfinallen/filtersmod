@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-05 01:13:16 UTC
-! Total Rules: 6346
+! Last Updated: 2026-04-05 12:29:45 UTC
+! Total Rules: 6349
 ! Expires: 5 days
 &ag_custom_vlmspot=
 &js_build=iclick-
@@ -2098,7 +2098,6 @@ yydstxt*.com/js/html
 ||aspku.com/images/vz360.jpg
 ||aspku.com/z/
 ||asserts.avple.tv/file/avple-asserts/ad.js
-||assets-prod.bitcointreasuries.net/partner-images/
 ||assets.genius.com/javascripts/compiled/ads-*.js
 ||assets.genius.com/javascripts/compiled/reactads.*.js
 ||assets.moly.hu/system/header_ads/
@@ -2782,6 +2781,7 @@ yydstxt*.com/js/html
 ||content-api-*.space/?zones=
 ||content.livesportmedia.eu/api/v1/banners?zone-ids=
 ||content.overwolf.com/curseforge/web/nitro/cursenpinit.js
+||controlc.com/redact.png
 ||coolaler.com/index_ads/
 ||coolpc.com.tw/home/img/right2.html
 ||coolpc.com.tw/img/topweb.html
@@ -3628,7 +3628,6 @@ yydstxt*.com/js/html
 ||hmghmg.com/tb
 ||hmoe12.com/wp-content/uploads/202*.gif
 ||hmwang.icu/skin/images/*.gif
-||hoerenjs.b-cdn.net/hoer.js
 ||hoes.tube/ai/
 ||homeschoolmath.net/a/
 ||honglingjin.co.uk/wp-content/uploads/*-homepage-takeover-bg-
@@ -4645,6 +4644,7 @@ yydstxt*.com/js/html
 ||my4700.com/js/*.js
 ||myabandonware.com/media/img/innog/
 ||myabandonware.com/media/img/pwn/
+||myanimelist.net/c/i/images/event/
 ||myanimelist.net/c/img/
 ||mybjx.net/theme/default/js/common/bjx_service_
 ||mybjx.net/theme/default/js/common/duilianchn.js
@@ -4801,6 +4801,7 @@ yydstxt*.com/js/html
 ||oodcd.cn/pan/config/history.
 ||ooqiu.com/ad_js/
 ||oploverz.my/wp-content/uploads/*/*.gif
+||opti-digital.com/js/presync.html
 ||opticsky.cn/images/2015/gy-px201
 ||optiklink.com/arlinablock.js
 ||oremanga.net/wp-content/uploads/*.gif
@@ -5165,6 +5166,7 @@ yydstxt*.com/js/html
 ||res.cngoldres.com/web/index/img/*_ad_
 ||res.taotu.org/adimages/
 ||res.vps234.com/resources/images/hosting-promotion/
+||resdata.nftbaoyi.com/images/ad/
 ||researchgate.net/delivery/manager.js
 ||resources.faireconomy.media/js.min/resources/js/money/moneyslotmanager.js
 ||revolver.news/wp-content/banners/
@@ -6101,6 +6103,7 @@ yydstxt*.com/js/html
 ||xonlines.com/upload/gg/
 ||xonlines.com/yyh_qp_200_200.png
 ||xp85.com/common/js/allpage.js
+||xpaja.net/views/images/ads/
 ||xpcha.com/js/notice.js
 ||xslca.cc/js/pf.js
 ||xstt5.com/skin/v3/js/dibu.js
