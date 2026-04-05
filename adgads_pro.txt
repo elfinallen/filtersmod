@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-04 12:27:45 UTC
-! Total Rules: 9940
+! Last Updated: 2026-04-05 01:13:16 UTC
+! Total Rules: 9942
 ! Expires: 5 days
 $cookie=/adb\.key/,domain=expres.cz|televizeseznam.cz|ahaonline.cz|extra.cz|mobilmania.cz|idnes.cz|aktuality.sk|aktualne.cz|blesk.cz|centrum.cz|cnews.cz|e15.cz|karaoketexty.cz|novinky.cz|sport.cz|super.cz|tiscali.cz|zive.cz|antiyoutuber.cz|fights.cz|metro.cz
 $cookie=__adblocker,domain=slate.com|thehindubusinessline.com
@@ -9239,6 +9239,7 @@ yydstxt*.com/js/html
 ||vdianying.cc/img/youhuiquan250.gif
 ||vdianying.cc/wp-content/plugins/wp-adblock-dedect/
 ||vdo.ai^$third-party
+||veck.io/ads/
 ||velti.com^$third-party
 ||vercel.app/ads/
 ||vfgta.com^$third-party
@@ -9619,6 +9620,7 @@ yydstxt*.com/js/html
 ||xmcdn.com/storages/f651-customerservice/e3/40/gaqhntalzruhaaj3lgotttoz.
 ||xmcimg.com/js/m.js
 ||xmorex.com^$third-party
+||xmoviescdn.online/ads/ads_1.gif
 ||xmrc.com.cn/net/info/html/
 ||xn--p3tv7h.com/imgs/uxuan2.jpg
 ||xng02.com/api.php?mod=ad&

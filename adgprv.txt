@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-04 12:27:45 UTC
-! Total Rules: 11594
+! Last Updated: 2026-04-05 01:13:16 UTC
+! Total Rules: 11595
 ! Expires: 5 days
 &&sub19=undefined&sub20=undefined
 &action=js_stats
@@ -9188,6 +9188,7 @@ t.yesware.com
 ||reklama.lv/services/espy.php
 ||relish.com/api-insights/
 ||relish.com/js/active-campaign-form.js
+||remarkable.com/api/proxy/marker
 ||renotifier.miniclippt.com/rntracking.js
 ||replayapp.io/collect/
 ||replit.app/tap/
