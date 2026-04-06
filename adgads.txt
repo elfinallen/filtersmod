@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-06 01:13:31 UTC
-! Total Rules: 6349
+! Last Updated: 2026-04-06 12:41:48 UTC
+! Total Rules: 6344
 ! Expires: 5 days
 &ag_custom_vlmspot=
 &js_build=iclick-
@@ -396,7 +396,6 @@
 /a-tian/tian-*-good.js
 /a/ipn/js/*
 /a/p?adid=
-/a/pop/js/*
 /ab_my/pc_pf.js
 /ab_res/m/common.js
 /ab_res/pc/fixed/fixed.js
@@ -2086,6 +2085,7 @@ yydstxt*.com/js/html
 ||aqlife.com/data/attachment/portal/
 ||aqy103.com/js/aqy/
 ||arc.msn.com/*/api/selection?placement=*upsell
+||arigl.com/wp-content/uploads/fbeddc/acbeaf.js
 ||ark.le.com/s?vid=
 ||ark.letv.com/s?
 ||arkadiumhosted.com/advertisement/
@@ -2484,9 +2484,6 @@ yydstxt*.com/js/html
 ||caibaojian.com/d/uploads/*0-
 ||caikuu.com/ckimages/*_gg
 ||caikuu.com/ckimages/*_zg
-||caitlin.top/catalog/view/core/adchecker/
-||caitlin.top/catalog/view/core/comic/fc.js
-||caitlin.top/catalog/view/core/comic/fc0.js
 ||caixin.com/s?z=
 ||camsoda.com/promos/
 ||camspacelive.com/widgets/
@@ -3267,6 +3264,7 @@ yydstxt*.com/js/html
 ||freedidi.com/wp-content/plugins/death-luhubaoyu/
 ||freehao123.com/wp-content/uploads/2017/05/mmkdm.png
 ||freejavbt.com/assets/images/banner
+||freemilf.org/nb/
 ||freepopnews.skin/advert/
 ||freeuseporn.com/backdrop.js^
 ||frendz4m.org/arlinablock.js
@@ -4295,8 +4293,8 @@ yydstxt*.com/js/html
 ||lenovo.com.cn/cms/2018-07-20/201807201014498251793.png
 ||lenovo.com.cn/lenovo/bid?clienttype=
 ||lensdump.com/i/*.gif
+||lessemf.com/images/banner-
 ||letemsvetemapplem.eu/*/alzafeed_*.php
-||letsporn.com/qsda/
 ||letv.com/pzt/hyhmzq/index.shtml
 ||lf9-static.bytednsdoc.com/obj/tos-cn-i-0813
 ||lgmi.com/ggimg/
@@ -4544,6 +4542,7 @@ yydstxt*.com/js/html
 ||mh3666.com^*.jsonp
 ||mianbao99.com/a/mianbao
 ||miaoshangmanhua.com/template/pc/skin01/images/250_250.
+||miaoshu6.com/static/js/read.
 ||micaitu.net/js/dibu.js
 ||microcontrol.cn/homeimages/ad/
 ||micropage.cn/images/ad_
@@ -4565,7 +4564,6 @@ yydstxt*.com/js/html
 ||mipengine.baidu.com/common?
 ||missav*/herebyad
 ||missav.to/bn/
-||missav.to/page/300.html
 ||missyuan.com/sy/
 ||mitbbs.*/servicedata/static_ad.php
 ||mitbbs.ca/ad_
@@ -4688,7 +4686,6 @@ yydstxt*.com/js/html
 ||n2.hk/promo/
 ||nairaland.com/vertipics/
 ||nanfengyl.com/static/js/zdad.js
-||nanostatistics.net/static/npw2.js
 ||nanrenfuli.*/zb_users/upload/
 ||nanrenvip2021.com/old.html
 ||natgeomedia.com/js/ads-parallax.
@@ -4848,6 +4845,7 @@ yydstxt*.com/js/html
 ||parade.com/runtime/delta.js
 ||parade.com/runtime/gamma.js
 ||parade.com/runtime/webads.js
+||partner.pcloud.com/media/banners/*300250.png
 ||pasazer.com/_assets/js/ad-connect.js
 ||pbc.pagesix.com/p/nyp/pagesix/pb.js
 ||pbmp.ali213.net/js/
@@ -5267,6 +5265,7 @@ yydstxt*.com/js/html
 ||sd173.com/images/
 ||sd1v.yitongwl.cn/site/
 ||sdbeta.com/statics/mystyle/js/1
+||sdk.apester.com/*.monetization.min.js
 ||sdk.k-words.io/script.js
 ||sdo.com/static/image/mkads/
 ||sdzbcg.com/images/sdfhyl
@@ -5598,7 +5597,6 @@ yydstxt*.com/js/html
 ||taozi888.com/a*.js
 ||taozi888.com/sys
 ||taporn.com/d/
-||tarnow.net.pl/uploads/advert/
 ||tb58.net/plugin.php?id=tb58_
 ||tbcdn.cn/mm/tanxssp-custom/sina_
 ||tbib.org/gaming/
@@ -5711,7 +5709,6 @@ yydstxt*.com/js/html
 ||tptoon.com/skin/js/tjtjkk.
 ||tq121.com.cn/j/ad/
 ||tra.scds.pmdstatic.net/advertising-core/
-||tracktollywood.com/wp-content/cache/min/1/wp-content/plugins/tt-splash-screen/
 ||tradehouse.media/js/prebid-
 ||trafficmanager.net/o.js
 ||trahkino.cc/static/js/li.js
@@ -5844,8 +5841,6 @@ yydstxt*.com/js/html
 ||videosection.com/adv-agent.php
 ||videowood.me/assets/js/popup.js
 ||videowood.tv/popjavascript
-||vidlink.pro/api/mercury
-||vidlink.pro/api/venus
 ||vidmoly.*/static/vastad.js
 ||vidsrc.cc/saas/js/script.min.js?v=
 ||vip.luanren.com/data/*.gif
