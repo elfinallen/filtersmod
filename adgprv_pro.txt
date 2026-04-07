@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-07 01:11:33 UTC
-! Total Rules: 104547
+! Last Updated: 2026-04-07 12:51:54 UTC
+! Total Rules: 104558
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -92398,6 +92398,7 @@ zonedirector.avadacom.com$image
 ||byteoversea.com/monitor_web/
 ||bz-berlin.de/_stats/
 ||bzpics.com/jslib/st.js?
+||c-date.*/customerm/
 ||c-date.at/sites/c-date.ch/modules/tracking
 ||c-date.com/pixel/
 ||c-date.it/tracking?
@@ -92774,6 +92775,7 @@ zonedirector.avadacom.com$image
 ||cdnopw.com^$third-party
 ||cdnplanet.com/static/rum/rum.js
 ||cdns.gigya.com/js/gigyagaintegration.js
+||cdns.ozon.ru/v*/mc|
 ||cdnst.zaycev.net/static/*/countersm.js
 ||cdnweb.avansas.com/_ui/shared/js/analyticsmediator.js
 ||cdon.*/assets/dist/assets-cdonanalytics.js
@@ -93960,6 +93962,7 @@ zonedirector.avadacom.com$image
 ||deszczowce.pl/licznik/licznik.php
 ||deteql.net^$third-party
 ||detmir-stats.ru^$third-party
+||dev.ozon.ru/p-api/tracker/
 ||dev.to/fallback_activity_recorder
 ||dev.visualwebsiteoptimizer.com/*/track-
 ||devatics.com^$third-party
@@ -94625,6 +94628,7 @@ zonedirector.avadacom.com$image
 ||etsy.com/include/tags.js
 ||etwun.com:8080/counter.php?
 ||etyper.com^$third-party
+||eu-data.kameleoon.io^$third-party
 ||eu-survey.com^$third-party
 ||eu.groupondata.com^$third-party
 ||eu.klarnaevt.com^$ping
@@ -97667,6 +97671,9 @@ zonedirector.avadacom.com$image
 ||m.kt.com/js/adobe/
 ||m.kt.com/js/common/global/oms.js
 ||m.kt.com/js/integrate/mklogcode.js
+||m.media-amazon.com/images/g/*/msa/vowels/metrics
+||m.media-amazon.com/images/i/*.js?auiclients/gwmmetricsjs
+||m.media-amazon.com/images/s/sash/*.js?csm_attribution=
 ||m.mobile.de/svc/track/
 ||m.stripe.com^$third-party,domain=~stripe.network
 ||m.vk.com/counters.php
@@ -101431,6 +101438,8 @@ zonedirector.avadacom.com$image
 ||sparklit.com/counter/
 ||sparteo.com^$third-party
 ||spaziogames.it/ajax/player_impression.ashx?
+||spb.docdoc.ru^$cookie=/^_sp_id\./
+||spb.docdoc.ru^$cookie=deviceid
 ||spbvedomosti.ru^$cookie=/^bitrix_/
 ||spclient.wg.spotify.com/ad-logic/
 ||spclient.wg.spotify.com/gabo-receiver-service*/v3/events/
@@ -103289,6 +103298,7 @@ zonedirector.avadacom.com$image
 ||userreport.com^$third-party
 ||users-api.com^$third-party
 ||users.51.la^$third-party
+||users.videasy.net/api/track
 ||usersonline.org/ping.php?
 ||userstatics.com/get/script.js
 ||usertracks.live^$third-party
@@ -103740,6 +103750,7 @@ zonedirector.avadacom.com$image
 ||weather.go.kr/w/resources/js/logger
 ||weatherzone.*/*/scripts/gtmhead.js
 ||weatherzone.*/*/scripts/hotjar.js
+||web-api.napopravku.ru/api-internal/analytics/
 ||web-boosting.net^$third-party
 ||web-counter.net^$third-party
 ||web-g-p.com/info/js/cookie.js

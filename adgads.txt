@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-07 01:11:33 UTC
-! Total Rules: 6344
+! Last Updated: 2026-04-07 12:51:54 UTC
+! Total Rules: 6343
 ! Expires: 5 days
 &ag_custom_vlmspot=
 &js_build=iclick-
@@ -2484,6 +2484,8 @@ yydstxt*.com/js/html
 ||caibaojian.com/d/uploads/*0-
 ||caikuu.com/ckimages/*_gg
 ||caikuu.com/ckimages/*_zg
+||caitlin.top/catalog/view/core/adchecker/
+||caitlin.top/catalog/view/core/comic/fc.js
 ||caixin.com/s?z=
 ||camsoda.com/promos/
 ||camspacelive.com/widgets/
@@ -2505,7 +2507,6 @@ yydstxt*.com/js/html
 ||carexpert.com.tw/wp-content/uploads/*800x90.
 ||carnoc.com/noticejs/
 ||cartoon18.com/images/friend/
-||castatic.fengkongcloud.cn/pr/
 ||catbox.moe/bb5wdv.jpg
 ||cb.com.cn/index/ad/
 ||cbfw.cn/gonggong/chibi/cf_
@@ -3866,6 +3867,7 @@ yydstxt*.com/js/html
 ||imhentai.xxx/js/slider_
 ||imooc.com/open/courselistrandjs
 ||imparteconocimientos.com/recursos/anti-adblocker.js
+||in.com/common/script_catch.js
 ||indiatimes.com/lgads_
 ||indiatimes.com/manageads/
 ||indiatimes.com/toiads_
@@ -3928,7 +3930,6 @@ yydstxt*.com/js/html
 ||itc.cn/base/core/gg_
 ||itc.cn/mdevp/*-advert/
 ||itc.cn/w/u/0/old-insertad-
-||itchygame.com/assets/_ntk/
 ||ithardware.pl/js/mediaexpert-widget.js
 ||itheat.com/?show=
 ||ithome.com.tw/media/serve?
@@ -4117,6 +4118,7 @@ yydstxt*.com/js/html
 ||jsdelivr.net/gh/fzdm/st*/js/fzwap-
 ||jsdelivr.net/gh/interactiveadvertisingbureau/
 ||jsdelivr.net/gh/pizcat/static@master/goods_ad.js
+||jsdelivr.net/gh/qxomer/reklam@master/reklam.js
 ||jsdelivr.net/gh/rockblogger/anti-adblocker@main/
 ||jsdelivr.net/gh/sex169hub/
 ||jsdelivr.net/gh/supfree/supfree/top.gif
@@ -4563,7 +4565,6 @@ yydstxt*.com/js/html
 ||mipcdn.com^*/mip-*ad.
 ||mipengine.baidu.com/common?
 ||missav*/herebyad
-||missav.to/bn/
 ||missyuan.com/sy/
 ||mitbbs.*/servicedata/static_ad.php
 ||mitbbs.ca/ad_
@@ -4641,6 +4642,7 @@ yydstxt*.com/js/html
 ||my0832.com/xyz/xx/
 ||my4700.com/js/*.js
 ||myabandonware.com/media/img/innog/
+||myabandonware.com/media/img/nextrs/hrwrs/
 ||myabandonware.com/media/img/pwn/
 ||myanimelist.net/c/i/images/event/
 ||myanimelist.net/c/img/
@@ -5515,7 +5517,6 @@ yydstxt*.com/js/html
 ||stockstar.com/info/1200x90/
 ||storage.googleapis.com/adtags/
 ||storage.googleapis.com/pravda-ad-script/
-||storage.googleapis.com/vs-scripts/primis/primisslide.js
 ||store.7box.vip/ad/
 ||storm.mg/ad?
 ||storyren.top/imgg/
@@ -5842,7 +5843,6 @@ yydstxt*.com/js/html
 ||videowood.me/assets/js/popup.js
 ||videowood.tv/popjavascript
 ||vidmoly.*/static/vastad.js
-||vidsrc.cc/saas/js/script.min.js?v=
 ||vip.luanren.com/data/*.gif
 ||vip.video.qq.com/rpc/trpc.vip_ad_promotion
 ||vipdage.com/wp-content/uploads/ad/
@@ -6105,7 +6105,6 @@ yydstxt*.com/js/html
 ||xstt5.com/template/js/fx
 ||xtapes.to/ad/
 ||xtits.*/static/js/custom.js
-||xtits.xxx/static/js/ppndr*.js
 ||xuehi.cn/reward/reward
 ||xunsu.cc/js/indexbottom.js
 ||xunyugong.xyz/sitejs/xunyugong.js

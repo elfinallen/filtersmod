@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-07 01:11:33 UTC
-! Total Rules: 11601
+! Last Updated: 2026-04-07 12:51:54 UTC
+! Total Rules: 11609
 ! Expires: 5 days
 &&sub19=undefined&sub20=undefined
 &action=js_stats
@@ -4821,6 +4821,7 @@ t.yesware.com
 ||byteoversea.com/monitor_web/
 ||bz-berlin.de/_stats/
 ||bzpics.com/jslib/st.js?
+||c-date.*/customerm/
 ||c-date.at/sites/c-date.ch/modules/tracking
 ||c-date.com/pixel/
 ||c-date.it/tracking?
@@ -5069,6 +5070,7 @@ t.yesware.com
 ||cdnmaster.com/sitemaster/sm360.js
 ||cdnplanet.com/static/rum/rum.js
 ||cdns.gigya.com/js/gigyagaintegration.js
+||cdns.ozon.ru/v*/mc|
 ||cdnst.zaycev.net/static/*/countersm.js
 ||cdnweb.avansas.com/_ui/shared/js/analyticsmediator.js
 ||cdon.*/assets/dist/assets-cdonanalytics.js
@@ -5734,6 +5736,7 @@ t.yesware.com
 ||dest.modestsunf.com/tag/corejs/*.js
 ||destyy.com/bundles/*/tracking
 ||deszczowce.pl/licznik/licznik.php
+||dev.ozon.ru/p-api/tracker/
 ||dev.to/fallback_activity_recorder
 ||dev.visualwebsiteoptimizer.com/*/track-
 ||developer.mozilla.org/submit/
@@ -7778,6 +7781,9 @@ t.yesware.com
 ||m.kt.com/js/adobe/
 ||m.kt.com/js/common/global/oms.js
 ||m.kt.com/js/integrate/mklogcode.js
+||m.media-amazon.com/images/g/*/msa/vowels/metrics
+||m.media-amazon.com/images/i/*.js?auiclients/gwmmetricsjs
+||m.media-amazon.com/images/s/sash/*.js?csm_attribution=
 ||m.mobile.de/svc/track/
 ||m.vk.com/counters.php
 ||m.xiangce.baidu.com/mobileapp/motu-*?guid=
@@ -10850,6 +10856,7 @@ t.yesware.com
 ||usconcealedcarry.com/scripts/bundles/deltaanalytics/
 ||useblackbox.io/telemetry
 ||user-back.ggcorp.me/statistics
+||users.videasy.net/api/track
 ||usersonline.org/ping.php?
 ||userstatics.com/get/script.js
 ||uservoice.com^*/track.js
@@ -11124,6 +11131,7 @@ t.yesware.com
 ||weather.go.kr/w/resources/js/logger
 ||weatherzone.*/*/scripts/gtmhead.js
 ||weatherzone.*/*/scripts/hotjar.js
+||web-api.napopravku.ru/api-internal/analytics/
 ||web-g-p.com/info/js/cookie.js
 ||web-g-p.com/info/log/
 ||web-g-p.com/info/log_total.cgi
