@@ -1,7 +1,7 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-08 01:13:06 UTC
+! Last Updated: 2026-04-08 12:51:33 UTC
 ! Total Rules: 6344
 ! Expires: 5 days
 &ag_custom_vlmspot=
@@ -1849,6 +1849,7 @@ yydstxt*.com/js/html
 ||abminbuy.com/789.
 ||abminbuy.com/qq
 ||abminbuy.com^*.gif
+||abstream.to/fidel.js^
 ||ac-baidu.90dao.com/inject.js
 ||ac.tc.qq.com/store_file_download?*&dir_path=/admin/swf/
 ||acfun.cn/appspreadcontents/danmuad/
@@ -3163,6 +3164,7 @@ yydstxt*.com/js/html
 ||etxt.biz/images/b/
 ||everyonepiano.cn/public/*0x
 ||excelhome.net/js/banner-
+||exporntoons.net/static/players/*/vast.js
 ||expreview.com/baba/
 ||eyny.com/data/cache/js_show_ads.js
 ||eyusky.net/weixin-img/zhifubao.jpg
@@ -3267,7 +3269,6 @@ yydstxt*.com/js/html
 ||freejavbt.com/assets/images/banner
 ||freemilf.org/nb/
 ||freepopnews.skin/advert/
-||freeuseporn.com/backdrop.js^
 ||frendz4m.org/arlinablock.js
 ||frontendjs.com/api/ad
 ||frprn.com/even/ok.js
@@ -4351,7 +4352,6 @@ yydstxt*.com/js/html
 ||live173.com//ad/
 ||live173.com/banner/
 ||liveany.com/images/8d8d.gif
-||livexscores.com/rekban.php
 ||livku.com/g1000/
 ||liwupuba.com/livead/
 ||ll.ibiqiuge.com/m.js
