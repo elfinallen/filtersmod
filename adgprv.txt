@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-07 12:51:54 UTC
-! Total Rules: 11609
+! Last Updated: 2026-04-08 01:13:06 UTC
+! Total Rules: 11614
 ! Expires: 5 days
 &&sub19=undefined&sub20=undefined
 &action=js_stats
@@ -1902,6 +1902,7 @@
 /neoworx_tracker.php
 /netmining.js
 /netresults.js
+/network-analytics.js
 /neustar.beacon.js
 /new-client/trackers.
 /new-relic.js
@@ -4173,6 +4174,7 @@ t.yesware.com
 ||api.tatadigital.com/analytics-engine/
 ||api.teester.com/data/collect
 ||api.testbook.com/api/*/popup
+||api.tezfiles.com/*/analytics/
 ||api.thefantazy.com/web-vitals
 ||api.tickpick.com/1.0/tracking/pageload
 ||api.tinybird.co/*/events
@@ -4318,6 +4320,7 @@ t.yesware.com
 ||arabnews.com/srpc.js
 ||aramuz.net/frontapi/*/analyticsevent?
 ||araskargo.com.tr/tr/jv_google_analytics.js
+||arbitrarydecisions.com/fingerprint-sw.js
 ||arc.msn.com/*/impression?pid=
 ||arc.nexx.cloud/static/structure/pixel_transparent.png
 ||arc.pub/clavis/training/events
@@ -4815,6 +4818,7 @@ t.yesware.com
 ||buzzurl.jp/api/counter/
 ||byjus.com/byjusweb/js/tracking-2.min.js
 ||byn.kr/main/exec.php?*exec_file=
+||bysefujedu.com/fingerprint-sw.js
 ||bytedance.com/pixel/
 ||byteoversea.com/captcha/report
 ||byteoversea.com/monitor_browser/
@@ -10407,6 +10411,7 @@ t.yesware.com
 ||tes-game.ru/stat/
 ||tetori-colorme.com/share/js/tracking.js
 ||tetori.link/share/js/tracking.js
+||tezfiles.com/log|
 ||thairath.co.th/event/
 ||the-group.net/aether/
 ||the-sun.com/assets/client/analyticslisteners*.js

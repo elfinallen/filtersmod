@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-07 12:51:54 UTC
-! Total Rules: 104558
+! Last Updated: 2026-04-08 01:13:06 UTC
+! Total Rules: 104564
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -648,7 +648,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .cuenote.jp%2fc%2f*.gif$image
 .cuenote.jp/c/*.gif
 .cuenote.jp/c/*.gif$image
-.de/bi/d*$domain=merkur.de|hna.de|serienjunkies.de|fr.de|ovb-online.de|mangfall24.de|wasserburg24.de|bgland24.de|innsalzach24.de|rosenheim24.de|chiemgau24.de
+.de/bi/d*$domain=come-on.de|merkur.de|hna.de|serienjunkies.de|fr.de|ovb-online.de|mangfall24.de|wasserburg24.de|bgland24.de|innsalzach24.de|rosenheim24.de|chiemgau24.de
 .de/l.gif?
 .de/pt.gif?type=
 .delivery-status.com/open?
@@ -2798,6 +2798,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /neoworx_tracker.php
 /netmining.js
 /netresults.js
+/network-analytics.js
 /neustar.beacon.js
 /new-client/trackers.
 /new-relic.js
@@ -91344,6 +91345,7 @@ zonedirector.avadacom.com$image
 ||api.tatadigital.com/analytics-engine/
 ||api.teester.com/data/collect
 ||api.testbook.com/api/*/popup
+||api.tezfiles.com/*/analytics/
 ||api.thefantazy.com/web-vitals
 ||api.tickpick.com/1.0/tracking/pageload
 ||api.tinybird.co/*/events
@@ -91536,6 +91538,7 @@ zonedirector.avadacom.com$image
 ||aralego.net^$third-party
 ||aramuz.net/frontapi/*/analyticsevent?
 ||araskargo.com.tr/tr/jv_google_analytics.js
+||arbitrarydecisions.com/fingerprint-sw.js
 ||arc.io^$third-party
 ||arc.msn.com/*/impression?pid=
 ||arc.nexx.cloud/static/structure/pixel_transparent.png
@@ -92391,6 +92394,7 @@ zonedirector.avadacom.com$image
 ||byjus.com/byjusweb/js/tracking-2.min.js
 ||byn.kr/main/exec.php?*exec_file=
 ||byoviral.com^$third-party
+||bysefujedu.com/fingerprint-sw.js
 ||bytedance.com/pixel/
 ||bytemgdd.com^$third-party
 ||byteoversea.com/captcha/report
@@ -102339,6 +102343,7 @@ zonedirector.avadacom.com$image
 ||techweb.com/beacon/
 ||tedo-stats.de^$third-party
 ||teenage.engineering/_api/mw/track/
+||teenager365.to/player/stats.php?event=$image,redirect=1x1-transparent.gif,domain=teenager365.to
 ||teenporn.ws/zaq/cron.php
 ||teknolojituru.com/api/tracking
 ||tekoki-fuzoku-joho.com/js/alinkprepare*.js
@@ -102403,6 +102408,7 @@ zonedirector.avadacom.com$image
 ||tetoolbox.com^$third-party
 ||tetori-colorme.com/share/js/tracking.js
 ||tetori.link/share/js/tracking.js
+||tezfiles.com/log|
 ||tf1.fr^$cookie=abtasty
 ||tf1.fr^$cookie=abtastysession
 ||tf1.fr^$cookie=atidvisitor
