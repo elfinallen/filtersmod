@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-08 12:51:33 UTC
-! Total Rules: 11615
+! Last Updated: 2026-04-09 01:02:30 UTC
+! Total Rules: 11618
 ! Expires: 5 days
 &&sub19=undefined&sub20=undefined
 &action=js_stats
@@ -3055,6 +3055,7 @@
 /urchin.js
 /usage/clickstream?
 /usage/reportevent?
+/use1-track.atlassian.com/*
 /user-context?referrer=
 /userdata_n?
 /userfly.js
@@ -4085,6 +4086,7 @@ t.yesware.com
 ||api.everyeye.it/endpoint/stats.php
 ||api.facebook.com/method/logging.clientevent
 ||api.fanmatics.com/event
+||api.fboom.me/*/analytics/
 ||api.fool.com/*/events
 ||api.foursquare.com/*/logactions
 ||api.fubo.tv/papi/v1/tracking
@@ -6251,6 +6253,7 @@ t.yesware.com
 ||faz.net/pr/me/
 ||fb.ru/misc/js/global/tracker.js
 ||fb.ru/stat/
+||fboom.me/log|
 ||fbot.me/error
 ||fbot.me/events/
 ||fbsbx.com/paid_ads_pixel/
