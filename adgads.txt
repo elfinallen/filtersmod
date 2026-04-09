@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-09 01:02:30 UTC
-! Total Rules: 6345
+! Last Updated: 2026-04-09 12:54:16 UTC
+! Total Rules: 6339
 ! Expires: 5 days
 &ag_custom_vlmspot=
 &js_build=iclick-
@@ -2037,8 +2037,6 @@ yydstxt*.com/js/html
 ||anhuinews.com/include/
 ||anhuinews.com/zhuyeguanli/*ad/
 ||anime-suba.com/anime-suba/admin/imganadvertisement/
-||animeshqip.org/kira.php
-||animeshqip.org/security_check.php
 ||anjuke.com^*/ajax/business_area_search/
 ||ankangwang.com/js/info.js
 ||anqu.com/b.js
@@ -2485,7 +2483,6 @@ yydstxt*.com/js/html
 ||caibaojian.com/d/uploads/*0-
 ||caikuu.com/ckimages/*_gg
 ||caikuu.com/ckimages/*_zg
-||caitlin.top/catalog/view/core/adchecker/
 ||caitlin.top/catalog/view/core/comic/fc.js
 ||caixin.com/s?z=
 ||camsoda.com/promos/
@@ -2557,7 +2554,6 @@ yydstxt*.com/js/html
 ||cdn.jsdelivr.net/gh/mytoolznet/mab/js/dublocker.js
 ||cdn.jsdelivr.net/gh/prebid/currency-file@1/latest.json
 ||cdn.jsdelivr.net/gh/vli-platform/adb-analytics@*/v1.0.min.js
-||cdn.jsdelivr.net/gh/willthequeencome/adcsh/june.js
 ||cdn.jsdelivr.net/npm/ima-ad-player
 ||cdn.myhentaicomics.com/assets/frames/banner
 ||cdn.onnetwork.tv/js/player*/player_prebidm.js
@@ -2967,7 +2963,6 @@ yydstxt*.com/js/html
 ||doii.cc/mmm/
 ||dongchedi.com/motor/ad/
 ||dongfangtai.com/2018/
-||donghuaworld.com/wp-content/plugins/no-adblock-access/detector.js
 ||douban.com/?unit=dale_movie_trailer_after_play&
 ||douban.com/view/dale-online/dale_ad
 ||douban.com^*/fm_bgad.js
@@ -3243,6 +3238,7 @@ yydstxt*.com/js/html
 ||flash.mycar168.com/data/js/
 ||flasmr.top/leb.
 ||flighty.cn/images/
+||flowplayer.com/releases/ads/
 ||flv2mp3.by/get-rtb-url
 ||flvto.biz/get-rtb-url
 ||flyzy2005.com/wp-content/*/bandwagonhost-top.
@@ -3702,7 +3698,6 @@ yydstxt*.com/js/html
 ||hur.cn/ahurd/*.gif
 ||huya.com*/cache1min.
 ||huyaimg.msstatic.com/cdnimage/roomad/
-||hxfile.co/adbdetect.js
 ||hxsxw.com/hx8899/
 ||hxsxw.com/js/float.js
 ||hy5.com.cn/admin/
@@ -4982,7 +4977,6 @@ yydstxt*.com/js/html
 ||ppshk.com^*banner/
 ||ppsj.com.cn/images/ppsj300.gif
 ||pptv.com/game/aplus/client/gamedetail.html
-||practicequiz.com/responsive/plugins/detectadblock.js
 ||presearch.com/tiles^
 ||prettyvirgin.com/images/banners/
 ||prettyvirgin.com/js/show.html
@@ -5409,6 +5403,7 @@ yydstxt*.com/js/html
 ||sobaigu.com/images/server_tourist.jpg
 ||sobaigu.com/images/tencentcloudamd_1040x100.jpg
 ||sobt8.org/public/static/js/common.js
+||socialmonkee.com/images/
 ||socos.gitee.io/ss/poster/
 ||sodu2020.com/js/ppc.js
 ||soduso.com/js/4
@@ -6024,7 +6019,6 @@ yydstxt*.com/js/html
 ||xdf.cn/v4/js/leyus/
 ||xdnice.com/themes/xdnice/public/assets/images/quna.png
 ||xdnice.com/themes/xdnice/public/assets/images/xdnice.png
-||xfemaledom.com/*/prerolls/
 ||xfvod.pro/images/ad/
 ||xghylt.com/api.php?mod=ad&adid=
 ||xgirls.agency/pg/c/

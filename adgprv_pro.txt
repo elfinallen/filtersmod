@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-09 01:02:30 UTC
-! Total Rules: 104570
+! Last Updated: 2026-04-09 12:54:16 UTC
+! Total Rules: 104573
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -90742,6 +90742,7 @@ zonedirector.avadacom.com$image
 ||afisha.ru^$cookie=_afuid
 ||afisha.ru^$cookie=_eggdeviceuuid
 ||afisha.ru^$cookie=_egguid
+||afisha.ru^$cookie=adtech_uid
 ||afkgaming.com/scooby/api/v1/log/event|
 ||aflt.market.yandex.ru/widgets/metrika
 ||afsanalytics.com^$third-party
@@ -92177,6 +92178,7 @@ zonedirector.avadacom.com$image
 ||bluecounter.de^$third-party
 ||bluekai.com^$third-party
 ||blueknow.com^$third-party
+||blushingbread.com^$~script
 ||blvdstatus.com^$third-party
 ||bm-rx.atatus.com^$third-party
 ||bm.adentifi.com^$third-party
@@ -94140,6 +94142,7 @@ zonedirector.avadacom.com$image
 ||dojomojo.com^$third-party
 ||dojomojo.ninja^$third-party
 ||dojq4kt8ws9iq.cloudfront.net/js/analytics.js
+||dokkandb.com/analytics/
 ||dollartree.com/ccstoreui/*/analytics/
 ||domainit.com/scripts/track.js
 ||domaintools.com/buffer.pgif?
