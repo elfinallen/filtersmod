@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-10 01:13:37 UTC
-! Total Rules: 11628
+! Last Updated: 2026-04-10 12:40:39 UTC
+! Total Rules: 11635
 ! Expires: 5 days
 &&sub19=undefined&sub20=undefined
 &action=js_stats
@@ -5372,6 +5372,7 @@ t.yesware.com
 ||comic.naver.com/ad/flex/stats.nhn
 ||commerce.adobe.com/*/log|
 ||commerce.adobedtm.com/*/ds.min.js
+||common-api.rozetka.*/collect/
 ||common.doosanmagazine.com/recivelogs.php
 ||common.duapps.com/applock/getconf?tk*&vendor=
 ||commoninja.com/api/v1/event/report/
@@ -5602,6 +5603,7 @@ t.yesware.com
 ||d34gglw95p9zsk.cloudfront.net/clipkit_assets/beacon-*.js
 ||d38tudgzjt8cbb.cloudfront.net/log.gif?
 ||d395ev7kdef0wl.cloudfront.net/a.gif?
+||d3b02estmut877.cloudfront.net/grumi-ip.js
 ||d3fdp2ho8z9fyl.cloudfront.net/tracker.min.js
 ||d3hb14vkzrxvla.cloudfront.net/health-check
 ||d3mapax0c3izpi.cloudfront.net/lib/ajax/events.js
@@ -5823,6 +5825,7 @@ t.yesware.com
 ||doclasse.com/b/d/tracklib.js
 ||docomo.ne.jp/js/beacon.js
 ||docomo.ne.jp/scripts/retargeting/retargeting.js
+||docs.amd.com/internal/api/webapp/events
 ||docs.github.com/events
 ||docs.google.com/forms/*/nalogimpressions^
 ||docviewer.yandex.com/monitoring.txt
@@ -6877,6 +6880,8 @@ t.yesware.com
 ||hirtv.hu/ajaxx/_stat/
 ||hirtv.hu/nx_general_stat.jpg?
 ||hisense.com/ta.js
+||hit.*.ru/*?sid=*&t_tid=
+||hitcrypt.
 ||hitfm.ru/*yandex-metrika.js
 ||hitfm.ru/uploads/vk-pixel.js
 ||hits.tv8.com.tr/save_video_event
@@ -8419,6 +8424,8 @@ t.yesware.com
 ||ntmb.de/count.html?
 ||ntunhs.net/js/tracker.js
 ||ntvid.online/cdn-cgi/trace
+||nuance.com/tagserver/incrementality/onevent
+||nuance.com/tagserver/logging/
 ||nude.hu/html/track.js
 ||nuk-widgets.fanhubmedia.com/api/ping
 ||numerama.com/plsbl/api/event

@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-10 01:13:37 UTC
-! Total Rules: 104582
+! Last Updated: 2026-04-10 12:40:39 UTC
+! Total Rules: 104590
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -178,6 +178,7 @@ $cookie=adrcid
 $cookie=adrdel
 $cookie=advcake_click_id
 $cookie=advcake_session_id
+$cookie=advcake_track_id
 $cookie=advcake_track_url
 $cookie=advcake_trackid
 $cookie=advcake_utm_partner
@@ -91418,7 +91419,7 @@ zonedirector.avadacom.com$image
 ||app-bnkr.b-cdn.net/js/lv.js
 ||app-de-na1.niceincontact.com/logger-public
 ||app.abralytics.com/assets/tracker/index.js
-||app.adjust.com^$app=com.microsoft.bing|jp.gocro.smartnews.android|com.daily.health.tracker.monitor|com.glovo|com.edadeal.android|com.dailymotion.dailymotion|com.novoda.dch|com.jotform.v2|com.location.track.proxy.gps|com.magical.smart.alban|com.lenovo.anyshare.gps
+||app.adjust.com^$app=com.microsoft.bing|jp.gocro.smartnews.android|com.daily.health.tracker.monitor|com.glovo|com.edadeal.android|com.dailymotion.dailymotion|com.novoda.dch|com.jotform.v2|com.location.track.proxy.gps|com.magical.smart.alban|com.lenovo.anyshare.gps|com.fileclean.manager.easy
 ||app.adjust.com^$third-party
 ||app.airlift.net/assets/affpix.js
 ||app.avada.io/scripttag/tracking/avada-track.min.js
@@ -93271,6 +93272,7 @@ zonedirector.avadacom.com$image
 ||commerce.adobe.io/recs/$script
 ||commerce.adobedc.net/collector^$third-party
 ||commerce.adobedtm.com/*/ds.min.js
+||common-api.rozetka.*/collect/
 ||common.doosanmagazine.com/js/elogs.js$domain=allurekorea.com
 ||common.doosanmagazine.com/recivelogs.php
 ||common.duapps.com/applock/getconf?tk*&vendor=
@@ -93727,6 +93729,7 @@ zonedirector.avadacom.com$image
 ||d34gglw95p9zsk.cloudfront.net/clipkit_assets/beacon-*.js
 ||d38tudgzjt8cbb.cloudfront.net/log.gif?
 ||d395ev7kdef0wl.cloudfront.net/a.gif?
+||d3b02estmut877.cloudfront.net/grumi-ip.js
 ||d3fdp2ho8z9fyl.cloudfront.net/tracker.min.js
 ||d3hb14vkzrxvla.cloudfront.net/health-check
 ||d3mapax0c3izpi.cloudfront.net/lib/ajax/events.js
@@ -94137,6 +94140,7 @@ zonedirector.avadacom.com$image
 ||docomo-analytics.com^$third-party
 ||docomo.ne.jp/js/beacon.js
 ||docomo.ne.jp/scripts/retargeting/retargeting.js
+||docs.amd.com/internal/api/webapp/events
 ||docs.github.com/events
 ||docs.google.com/forms/*/nalogimpressions^
 ||docviewer.yandex.com/monitoring.txt
@@ -96061,6 +96065,7 @@ zonedirector.avadacom.com$image
 ||hit-counter-download.com^$third-party
 ||hit-counter.info^$third-party
 ||hit-parade.com^$third-party
+||hit.*.ru/*?sid=*&t_tid=
 ||hit.uptrendsdata.com^$third-party
 ||hit100.ro^$third-party
 ||hit2map.com^$third-party
@@ -96069,6 +96074,7 @@ zonedirector.avadacom.com$image
 ||hitcounter.ru$third-party
 ||hitcountersonline.com^$third-party
 ||hitcounterstats.com^$third-party
+||hitcrypt.
 ||hitfm.ru/*yandex-metrika.js
 ||hitfm.ru/uploads/vk-pixel.js
 ||hitgelsin.com^$third-party
@@ -98812,6 +98818,8 @@ zonedirector.avadacom.com$image
 ||ntvid.online/cdn-cgi/trace
 ||ntvk1.ru^$third-party
 ||nu.nl^$cookie=temptation-id
+||nuance.com/tagserver/incrementality/onevent
+||nuance.com/tagserver/logging/
 ||nude.hu/html/track.js
 ||nuggad.net^$third-party
 ||nuk-widgets.fanhubmedia.com/api/ping

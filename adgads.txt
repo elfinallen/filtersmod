@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-10 01:13:37 UTC
-! Total Rules: 6343
+! Last Updated: 2026-04-10 12:40:39 UTC
+! Total Rules: 6342
 ! Expires: 5 days
 &ag_custom_vlmspot=
 &js_build=iclick-
@@ -2483,7 +2483,6 @@ yydstxt*.com/js/html
 ||caikuu.com/ckimages/*_zg
 ||caitlin.top/catalog/view/core/comic/fc.js
 ||caixin.com/s?z=
-||camsoda.com/promos/
 ||camspacelive.com/widgets/
 ||camspic.com/imguang/*.gif
 ||canimgs.com/images/
@@ -2961,6 +2960,7 @@ yydstxt*.com/js/html
 ||doii.cc/mmm/
 ||dongchedi.com/motor/ad/
 ||dongfangtai.com/2018/
+||donghuaworld.com/wp-content/plugins/no-adblock-access/detector.js
 ||douban.com/?unit=dale_movie_trailer_after_play&
 ||douban.com/view/dale-online/dale_ad
 ||douban.com^*/fm_bgad.js
@@ -3168,7 +3168,6 @@ yydstxt*.com/js/html
 ||eyuyao.com/yyad/
 ||ezojs.com/beardeddragon/
 ||ezojs.com/ezoic/
-||ezojs.com/ezoic/sa.min.js
 ||ezprice.com.tw/ezysm/
 ||ezprice.com.tw/js/*_ysm_
 ||f2dsex1.com/public/fb*.png
@@ -3585,7 +3584,6 @@ yydstxt*.com/js/html
 ||hellporno.com/_a_xb/
 ||henan.sina.com.cn/iframe/7/
 ||henan100.com/d/file/indexad/
-||hentai2w.com/templates/default/js/arf-app-
 ||hentaicomic.*/data/ds/
 ||hentaicomic.*/data/game/*/wap.gif
 ||hentaifox.com/js/slider.js
@@ -3848,6 +3846,7 @@ yydstxt*.com/js/html
 ||imghost.top/kita/
 ||imgjiajiao.cn/jiajiao/js/lxonline.js
 ||imglnkx.com/*/*_banner*.gif
+||imglnkx.com/9863/pmkt-1799_design-25431_sexmessenger_resize_1_300650.gif
 ||imgme.me/images/*.gif
 ||imgroom.net/images/*.gif
 ||imgs.cc/images/ad_
@@ -4484,6 +4483,7 @@ yydstxt*.com/js/html
 ||maolihui.com/wp-content/themes/miaonew/images/adb
 ||maomaoks.com/1.
 ||maopu.tv/d/file/p/2019/07/6ac50c702cf9e6a9a7910a510c40cb73.jpg
+||marketbeat.com/scripts/sidebaradnewssites.ashx
 ||masadora.net/kakusan-
 ||massariuscdn.com/pubs/
 ||masturbation22.com/d/
@@ -4970,7 +4970,6 @@ yydstxt*.com/js/html
 ||pornpoppy.com/*/external_pop.js
 ||porntb.com/cdn/cdn_check.js
 ||porntn.com/static/js/custom.js
-||pornwex.tv/wp.js
 ||pornx.to/wp-content/uploads/ad*x*.png
 ||pornxp.*/spnbf.js
 ||pornxp.com/2.js
@@ -5153,6 +5152,7 @@ yydstxt*.com/js/html
 ||redshu.com/js/www/jquerygg.js
 ||redtube.com/_xa/
 ||reef2reef.com/data/siropu/am/user/
+||refershareus.xyz/ads?
 ||refinery89.com/performance/
 ||reiclub.com/templates/interviews/exit_popup/
 ||rentalcars.com/partners/
@@ -5526,7 +5526,6 @@ yydstxt*.com/js/html
 ||stripchat.com/api/external/
 ||stulip.org/static/js/header.js
 ||su.bdimg.com/static/dspui/js/
-||sub-vod.fr/static/monetag2.js
 ||subhd.*/kaiyad.
 ||subhd.com/images/ap/
 ||subserieshd.com/banner/
