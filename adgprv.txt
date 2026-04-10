@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-09 12:54:16 UTC
-! Total Rules: 11619
+! Last Updated: 2026-04-10 01:13:37 UTC
+! Total Rules: 11628
 ! Expires: 5 days
 &&sub19=undefined&sub20=undefined
 &action=js_stats
@@ -502,6 +502,7 @@
 /api.transferwise.com/v1/notification-flow/messages/*/open.gif
 /api/0/stats
 /api/adplogger/*
+/api/ads-bff-client/*
 /api/async.php?t=user&m=pagehits&
 /api/bfb_write_log
 /api/click/*?c=
@@ -3804,6 +3805,7 @@ t.yesware.com
 ||aiv-delivery.net/events/
 ||aiv-delivery.net/v1/reportevent
 ||aixifan.com/acsdk/log.min.js?
+||aizhantj.com*/tjpv/?cc=
 ||ajanimo.com/wp-content/plugins/mashshare-google-analytics/assets/js/mashga.min.js
 ||ajax.pngtree.com/api/statistics/
 ||ajinomoto.co.jp/shared_file/js/header_log.js
@@ -4031,6 +4033,7 @@ t.yesware.com
 ||api.20min.ch/kaia/v*/persist
 ||api.270degrees.nl/*/log?apikey=
 ||api.4lapy.ru/api/v*/events/
+||api.about.me/user/performance/record/views|
 ||api.actagtracker.jp/tag|
 ||api.aio.media/stat?
 ||api.airfind.com/stats/
@@ -4109,6 +4112,7 @@ t.yesware.com
 ||api.job*.ch/public/statistic/teaser/hit
 ||api.k2s.cc/v1/adn/visit
 ||api.k2s.cc/v1/analytics/
+||api.kuper.ru/v*/vendo/track/
 ||api.lessentiel.lu/kaia/v*/persist
 ||api.lit.link/v1/access_logs/
 ||api.litres.ru/tracker/
@@ -5503,6 +5507,7 @@ t.yesware.com
 ||cp.hallo-eltern.de/stats
 ||cp.winfuture.de/stats
 ||cpa.hh.ru/api/tracker/
+||cpa.kuper.ru/api/tracker/
 ||cpb.esprit.*/91405.js
 ||cpt.itv.com/*/event
 ||cpu-api.infor.pl/event
@@ -6172,6 +6177,7 @@ t.yesware.com
 ||expressnews.com/413gkwmt/init.js
 ||expressvpn.com/__px.gif?
 ||ext.chtbl.com/trackable.js
+||ext.clickstream.sberbank.ru/metrics/
 ||extendoffice.com/analytics.js
 ||extole.io/core.js
 ||extole.io^*/core.js
@@ -6708,6 +6714,7 @@ t.yesware.com
 ||gotcha-server.evo.run/log
 ||gotdns.com/track/blank.aspx?
 ||gotmojo.com/track/
+||goto.startracking.ru/api/v1/impression?aff_id=
 ||gotolstoy.com/events/
 ||gowatchit.com/analytics.js
 ||gowatchit.com/events/*.gif?
@@ -9300,6 +9307,8 @@ t.yesware.com
 ||royalcams.com/tools/track.php?
 ||rp-online.de/cre*/tracking^
 ||rpl-static.b-cdn.net/rpl-cdn/scripts/gtm/gtmga.js
+||rs.kuper.ru/v*/batch|
+||rs.kuper.ru/v*/track
 ||rs.mail.ru/bulkstat/
 ||rs.mail.ru/ns.gif?n=
 ||rs.mail.ru/pixel/

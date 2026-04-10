@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-09 12:54:16 UTC
-! Total Rules: 6339
+! Last Updated: 2026-04-10 01:13:37 UTC
+! Total Rules: 6343
 ! Expires: 5 days
 &ag_custom_vlmspot=
 &js_build=iclick-
@@ -1540,7 +1540,6 @@ yydstxt*.com/js/html
 ||4gamers.com.tw/site/iframe-aols/
 ||4gtv.tv/4gtv_ott.json
 ||4hw.com.cn/js/common.js
-||4k69.com/themes/lite/js/mztn.js
 ||4kwu.cc/static/js/tj.js
 ||4taoxs.com/api/accept/
 ||500xxxx.com/go.js
@@ -2143,7 +2142,6 @@ yydstxt*.com/js/html
 ||avkuy.com/wp-content/uploads/*/*.webp
 ||avn.com/server/
 ||avple.video/asset/bann.js
-||avporner.com/themes/lite/js/mztn.js
 ||avseesee.com/amandison.php
 ||avseesee.com/htmls/vlinks.html
 ||avseesee.com/twad
@@ -3144,6 +3142,9 @@ yydstxt*.com/js/html
 ||eporner.com/event.php
 ||eporner.com/xhr/vast/
 ||eprice.com.tw/img/tw_m/ad/
+||ero-labs.*/api/v2/advertise/
+||ero-labs.*/api/v2/system/config?name=partner_mall_url
+||ero-labs.*/assets/js/appbanner.js
 ||eroprofile.com/js/nvbla.js
 ||erowall.com/126.js
 ||es3984.review/02_cn_ad/
@@ -4777,6 +4778,8 @@ yydstxt*.com/js/html
 ||okbmf.com/imgad/
 ||okbmf.com^*950_120
 ||okmp3.ru/js/plears.js
+||okokserver.com/uploads/haigou.
+||okokserver.com/uploads/lesi/
 ||okooo.com/i/?method=system.data.ad&
 ||olehdtv.com/index.php/index/userss|
 ||olelive.com/v1/pub/index/anchor/check/pc/e?
@@ -4966,6 +4969,7 @@ yydstxt*.com/js/html
 ||pornpics.de/api/banner/
 ||pornpoppy.com/*/external_pop.js
 ||porntb.com/cdn/cdn_check.js
+||porntn.com/static/js/custom.js
 ||pornwex.tv/wp.js
 ||pornx.to/wp-content/uploads/ad*x*.png
 ||pornxp.*/spnbf.js

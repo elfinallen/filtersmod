@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-09 12:54:16 UTC
-! Total Rules: 104573
+! Last Updated: 2026-04-10 01:13:37 UTC
+! Total Rules: 104582
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -1208,6 +1208,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /api.transferwise.com/v1/notification-flow/messages/*/open.gif
 /api/0/stats
 /api/adplogger/*
+/api/ads-bff-client/*
 /api/adtracking$xmlhttprequest
 /api/analytics$domain=hotmediahub.com|teralink.me|teraearn.com|terashare.me|fansonlinehub.com|terashare.co
 /api/async.php?t=user&m=pagehits&
@@ -90814,6 +90815,7 @@ zonedirector.avadacom.com$image
 ||aiv-delivery.net/v1/reportevent
 ||aivalabs.com^$third-party
 ||aixifan.com/acsdk/log.min.js?
+||aizhantj.com*/tjpv/?cc=
 ||ajanimo.com/wp-content/plugins/mashshare-google-analytics/assets/js/mashga.min.js
 ||ajax.pngtree.com/api/statistics/
 ||ajinomoto.co.jp/shared_file/js/header_log.js
@@ -91177,6 +91179,7 @@ zonedirector.avadacom.com$image
 ||api.20min.ch/kaia/v*/persist
 ||api.270degrees.nl/*/log?apikey=
 ||api.4lapy.ru/api/v*/events/
+||api.about.me/user/performance/record/views|
 ||api.actagtracker.jp/tag|
 ||api.aio.media/stat?
 ||api.airfind.com/stats/
@@ -91268,6 +91271,7 @@ zonedirector.avadacom.com$image
 ||api.k2s.cc/v1/adn/visit
 ||api.k2s.cc/v1/analytics/
 ||api.keen.io/*/projects/$domain=faceit.com
+||api.kuper.ru/v*/vendo/track/
 ||api.laftel.net/api/*/status/$xmlhttprequest,redirect=noopjs
 ||api.leadpages.io/analytics/$domain=~my.leadpages.net
 ||api.lessentiel.lu/kaia/v*/persist
@@ -93533,6 +93537,7 @@ zonedirector.avadacom.com$image
 ||cp.hallo-eltern.de/stats
 ||cp.winfuture.de/stats
 ||cpa.hh.ru/api/tracker/
+||cpa.kuper.ru/api/tracker/
 ||cpaevent.ru^$third-party
 ||cpb.esprit.*/91405.js
 ||cpcmanager.com^$third-party
@@ -94766,6 +94771,7 @@ zonedirector.avadacom.com$image
 ||expressvpn.com^$cookie=xvid
 ||ext-inv-cdn.presage.io^$third-party
 ||ext.chtbl.com/trackable.js
+||ext.clickstream.sberbank.ru/metrics/
 ||extendoffice.com/analytics.js
 ||extole.com^$third-party
 ||extole.io/core.js
@@ -95782,6 +95788,7 @@ zonedirector.avadacom.com$image
 ||gotdns.com/track/blank.aspx?
 ||gotmojo.com/track/
 ||goto.kz/img.php^$third-party
+||goto.startracking.ru/api/v1/impression?aff_id=
 ||gotolstoy.com/events/
 ||gourmetads.com^$third-party
 ||govisibl.io^$third-party
@@ -100475,6 +100482,8 @@ zonedirector.avadacom.com$image
 ||rp-online.de/cre*/tracking^
 ||rpl-static.b-cdn.net/rpl-cdn/scripts/gtm/gtmga.js
 ||rqtrk.eu^$third-party
+||rs.kuper.ru/v*/batch|
+||rs.kuper.ru/v*/track
 ||rs.mail.ru/*.gif$image,redirect=1x1-transparent.gif,domain=my.mail.ru
 ||rs.mail.ru/bulkstat/
 ||rs.mail.ru/ns.gif?n=
