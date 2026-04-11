@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-10 12:40:39 UTC
-! Total Rules: 104590
+! Last Updated: 2026-04-11 01:08:25 UTC
+! Total Rules: 104595
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -1783,6 +1783,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /dcjs/prod/*
 /dcs.gif?
 /dcs_tag.js
+/dead-clicks-autocapture.js
 /default/panalytics
 /detectincognito.min.js
 /detm-container-ftr.js
@@ -90504,6 +90505,7 @@ zonedirector.avadacom.com$image
 ||actu.fr/assets/js/smarttag5280-1.js
 ||acuityplatform.com^$third-party
 ||acuris.com/wat/v2/data-event
+||acustomizedgift.com^$~xmlhttprequest
 ||acweb.clog.jp^$third-party
 ||acxiom-online.com^$third-party
 ||acxiomapac.com^$third-party
@@ -97561,6 +97563,7 @@ zonedirector.avadacom.com$image
 ||log*-normal-*.tiktokv.com
 ||log-boot.capcutapi.com^$app=com.xt.retouchoversea
 ||log-collector.shopee.
+||log.api-maps.yandex.
 ||log.cognativex.com/pixel.
 ||log.hitsteps.com^$third-party
 ||log.nordot.jp^$~script
@@ -97956,6 +97959,7 @@ zonedirector.avadacom.com$image
 ||mediagauge.com^$third-party
 ||mediaglacier.com^$third-party
 ||mediago.io^$third-party
+||mediagroupnetwork.com/js/ua.js
 ||mediahuis.be/cxense/
 ||mediaite.com^*/track/
 ||mediameter.by^$third-party
@@ -104341,6 +104345,7 @@ zonedirector.avadacom.com$image
 ||yandex.ru/an/rtbcount/
 ||yandex.ru/clck/
 ||yandex.ru/clck/click|
+||yandex.ru/clck/counter/$image
 ||yandex.ru/click/
 ||yandex.ru/cycounter$third-party
 ||yandex.ru/cycounter?
