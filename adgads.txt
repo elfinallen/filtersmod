@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-11 01:08:25 UTC
-! Total Rules: 6343
+! Last Updated: 2026-04-11 12:29:40 UTC
+! Total Rules: 6337
 ! Expires: 5 days
 &ag_custom_vlmspot=
 &js_build=iclick-
@@ -1200,7 +1200,6 @@ ubmcmm.baidustatic.com
 wss://*.top/|
 yydstxt*.com/js/cdn.
 yydstxt*.com/js/html
-|/nbsys3/fsyspp.js
 |http://*.cn/ad/
 |http://*.in/ad/
 |http://*.me/ad/
@@ -2481,7 +2480,6 @@ yydstxt*.com/js/html
 ||caibaojian.com/d/uploads/*0-
 ||caikuu.com/ckimages/*_gg
 ||caikuu.com/ckimages/*_zg
-||caitlin.top/catalog/view/core/comic/fc.js
 ||caixin.com/s?z=
 ||camspacelive.com/widgets/
 ||camspic.com/imguang/*.gif
@@ -4467,14 +4465,10 @@ yydstxt*.com/js/html
 ||mamibuy.com.tw/ad/period.aspx
 ||manai521.com:88/bocai/index.html
 ||manga18.me/usd2023/usd_frontend.js
-||mangabats.com/js/ads/clck-adu-bats.js
-||mangabats.com/js/ads/fly*.js
 ||mangafuna.xyz/static/ads/
 ||mangahax.com/images/ima_
 ||mangahub.io/iframe/
 ||mangakakalot.gg/images/bns/
-||mangakakalove.com/js/ads/clck-adu-kklgg.js
-||manganato.gg/js/ads/clck-adu-ntgg.js
 ||manhwa18.cc/main2023/
 ||manqian.cn/784a6e27-be5b-4442-86e5-9f4adb51894d?
 ||manqian.cn/async/adlocationconfig
@@ -4991,6 +4985,7 @@ yydstxt*.com/js/html
 ||proewildfire.cn/fd.js
 ||proginn.com/cms/10000/
 ||programmer-club.com.tw/images/uuu/
+||projectjav.com/scripts/projectjav_newpu.js
 ||projectorcentral.com/*?bid=
 ||property.hk/js/adside.js
 ||ps0z.com/300x250b
@@ -5444,7 +5439,6 @@ yydstxt*.com/js/html
 ||sonimei.cn/images/gg.png
 ||sonimei.cn/images/llq.png
 ||sonimei.cn/qipai.jpg
-||sonixgvn.net/wp-content/uploads/big_banner.js
 ||sooopu.com/asphtml/plnew.
 ||sooopu.com/js/*950.js
 ||sooopu.com/js/contentad330.js
