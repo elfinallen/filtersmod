@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-11 12:29:40 UTC
-! Total Rules: 11638
+! Last Updated: 2026-04-12 01:17:21 UTC
+! Total Rules: 11639
 ! Expires: 5 days
 &&sub19=undefined&sub20=undefined
 &action=js_stats
@@ -8274,6 +8274,7 @@ t.yesware.com
 ||neg.by/include/ajax/counters.php
 ||neighbourly.co.nz/event-tracking
 ||neko-san.fr/stats
+||nekoweb.org/.nekoweb-api/count-view
 ||nelonenmedia.fi/logger/
 ||neo24.pl/rest/v*/statistics/
 ||neon-lab.com/neonbctracker.js
