@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-12 01:17:21 UTC
-! Total Rules: 9944
+! Last Updated: 2026-04-12 12:32:59 UTC
+! Total Rules: 9943
 ! Expires: 5 days
 $cookie=/adb\.key/,domain=expres.cz|televizeseznam.cz|ahaonline.cz|extra.cz|mobilmania.cz|idnes.cz|aktuality.sk|aktualne.cz|blesk.cz|centrum.cz|cnews.cz|e15.cz|karaoketexty.cz|novinky.cz|sport.cz|super.cz|tiscali.cz|zive.cz|antiyoutuber.cz|fights.cz|metro.cz
 $cookie=__adblocker,domain=slate.com|thehindubusinessline.com
@@ -1240,6 +1240,7 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 /exads-adblock-$image
 /exitpop.js$script
 /exitpopup.js$script
+/exnb/froload.js?$domain=hd-easyporn.com|pornfelix.com|pornblade.com|xnxx-sexfilme.com
 /exoads/*$script
 /exonb/*$script
 /exonob/*$script
@@ -2213,7 +2214,6 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 ://sli.*/imp?s=$image
 ://t.*/s1/$other,subdocument,third-party
 ://widgets.spklw.com/v1/data/?*&widget-id=$replace=/(?<=\[)(\{"image":\{"url":"[\s\s]*?"type":"ad"[\s\s]*?\,"service_version":"[\s\s]*?"\}(\,)?)+|(\,)?\{"image":\{"url":"[\s\s]*?"type":"ad"[\s\s]*?\,"service_version":"[\s\s]*?"\}//
-://www.*.com/*.css|$script,third-party,header=popads-node
 ://www.*.js|$script,third-party,domain=159i.com|r3sub.com|thisav.com
 ://www.*.xyz/script/$script,third-party,domain=jmty.jp|dolldivine.com|knowt.com|thefreebieguy.com|blogmura.com|gruene-zitate.de|myforecast.com|jawapos.com|picks.my|gamewith.jp|motor-talk.de|worldhistory.org|kr-weathernews.com|nikkan-gendai.com|newser.com|zerogpt.com|smithsonianmag.com|slickdeals.net|signupgenius.com|saabcentral.com|reneweconomy.com.au|newser.com|laposte.net|deckshop.pro|auone.jp|emojipedia.org
 ://www3.doubleclick.net^|$xmlhttprequest,redirect=noopjson
@@ -2976,6 +2976,8 @@ yydstxt*.com/js/html
 ||5dmail.net/image/ad_
 ||5dmail.net/image/orf_1000.gif
 ||5dmail.net/js/
+||5dxs.net/themes/jieqi/wap/js/fixed.
+||5dxs.net/themes/jieqi/wap/js/test.
 ||5fz.cc/t/aimg/tao
 ||5icool.org/uploadfile/poster/
 ||5ilinglei.com/gg.html
@@ -3605,6 +3607,7 @@ yydstxt*.com/js/html
 ||aliyuncs.com^$domain=5kym.com
 ||aliyuncs.com^$domain=9xav.cc
 ||allbeauty.com.tw/goldprice/*_cf.php
+||allcuteboys.com^$third-party
 ||allmediadesk.com^$third-party
 ||alloha.tv^$third-party
 ||allsportsflix.
@@ -3858,7 +3861,6 @@ yydstxt*.com/js/html
 ||b168.net^*.*?$image
 ||b477.life^$popup,third-party
 ||b4dg.life/love/
-||b4x6a6x3.ssl.hwcdn.net/k/709010/1ds/ul98hj.js$domain=banglachotikahinii.com
 ||b7yy.com/ad/
 ||babepedia.com/banners/
 ||baby-kingdom.com/reqsads?
@@ -4725,6 +4727,7 @@ yydstxt*.com/js/html
 ||creativeservice-production.scdn.co/mp3-ad/*.mp3$media,~xmlhttprequest,redirect=noopmp4-1s,app=spotify.exe
 ||cricbuzz.com/api/adverts/
 ||criteo.net/design/
+||crlcw.link^$popup
 ||crn77.com^$all
 ||croea.com^$third-party
 ||crptgate.com^$popup
@@ -4851,6 +4854,7 @@ yydstxt*.com/js/html
 ||deqixs.com/config/
 ||derpicdn.net/spns/*.gif
 ||desipearl.com^$third-party
+||desklks.com^$popup
 ||desperateseller.co.uk/affiliates/
 ||dev2pub.com^$third-party
 ||developer.mozilla.org/pong/
@@ -5788,7 +5792,6 @@ yydstxt*.com/js/html
 ||hc360.com/security/201409/201409021830024990.jpg
 ||hcbbsoss.oss-cn-hangzhou.aliyuncs.com^*-banner
 ||hd21.*/templates/base_master/js/jquery.shows.min.js
-||hdblog.it/new_files/ajax/prime_bf.php
 ||hdchina.*/styles/topshow/ad/
 ||hdmoli.pro/a_d/
 ||hdsky.me/adv/
@@ -5814,6 +5817,7 @@ yydstxt*.com/js/html
 ||heiye.cc/js/bf.js
 ||heiye.cc/js/hei
 ||heiye.cc/js/xuanfu.js
+||helicient.com^$popup
 ||hello-jm.com/foot.js
 ||helloavgirls.com/public/hg/
 ||hellocenter.xyz^*.mp4$redirect=noopmp4-1s,domain=localmv1.com
@@ -5903,7 +5907,6 @@ yydstxt*.com/js/html
 ||hoopchina.com.cn/web/widget/partner/*/promote.js
 ||hoopchina.com.cn^*/ad-pc-sdk.
 ||hornygamer.com/play_horny_games/
-||hornyhill.com/ajax/get_ads_suggest?
 ||hotadultvids.com^$third-party
 ||hotavxxx.com/images/*96
 ||hoteastday.com/newspc/show?
@@ -6032,7 +6035,6 @@ yydstxt*.com/js/html
 ||ibaotu.com/revision/js/ad/
 ||ibf.tw/js/jquery.blockui.js
 ||ibmwclub.com/tophub/assets/js/sponsor.
-||ibvpn.com/img/banners/
 ||icaile.com/z.php?id=
 ||icao4.com/uploads/pic/2.jpg
 ||icepbns.com^$popup,domain=iceporn.com
@@ -6180,7 +6182,7 @@ yydstxt*.com/js/html
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,domain=zee5.com,important
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,important,domain=4gtv.tv
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,important,domain=crunchyroll.com|dailymotion.com|einthusan.tv
-||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,important,domain=gamoneinterrupted.com|urochsunloath.com|35volitantplimsoles5.com|antecoxalbobbing1010.com|cyamidpulverulence530.com|guidon40hyporadius9.com|bigclatterhomesguideservice.com|housecardsummerbutton.com|fittingcentermondaysunday.com|un-block-voe.net|voeunblk.com|voeunbl0ck.com|voeunblock2.com|voeunblock.com|voe-unblock.*|voe.sx|phenomenalityuniform.com|kathleenmemberhistory.com|paulkitchendark.com|edwardarriveoften.com|lukecomparetwo.com|kennethofficialitem.com|jamiesamewalk.com|johntryopen.com|morganoperationface.com|jayservicestuff.com|heatherdiscussionwhen.com|robertplacespace.com|alleneconomicmatter.com|josephseveralconcern.com|donaldlineelse.com|bethshouldercan.com|lisatrialidea.com|jessicaglassauthor.com|evelynthankregion.com|lorimuchbenefit.com|susanhavekeep.com|thomasalthoughhear.com|zacharycollectionmight.com|richardstorehalf.com|kimberlyonlocal.com|toddpartneranimal.com|jamessoundcost.com|brittneystandardwestern.com|sandratableother.com|robertordercharacter.com|maxfinishseveral.com|alejandrocenturyoil.com|heatherwholeinvolve.com|kristiesoundsimply.com|adrianmissionminute.com|nathanfromsubject.com|jennifercertaindevelopment.com|richardsignfish.com|sarahnewspaperbeat.com|diananatureforeign.com|jonathansociallike.com|mariatheserepublican.com|johnalwayssame.com|kellywhatcould.com|jilliandescribecompany.com|lukesitturn.com|mikaylaarealike.com|christopheruntilpoint.com|walterprettytheir.com|crystaltreatmenteast.com|lauradaydo.com|lancewhosedifficult.com|dianaavoidthey.com|jefferycontrolmodel.com|jessicaclearout.com
+||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,important,domain=gamoneinterrupted.com|urochsunloath.com|35volitantplimsoles5.com|antecoxalbobbing1010.com|cyamidpulverulence530.com|guidon40hyporadius9.com|bigclatterhomesguideservice.com|housecardsummerbutton.com|fittingcentermondaysunday.com|un-block-voe.net|voeunblk.com|voeunbl0ck.com|voeunblock2.com|voeunblock.com|voe-unblock.*|voe.sx|phenomenalityuniform.com|kathleenmemberhistory.com|paulkitchendark.com|edwardarriveoften.com|lukecomparetwo.com|kennethofficialitem.com|jamiesamewalk.com|johntryopen.com|morganoperationface.com|jayservicestuff.com|heatherdiscussionwhen.com|robertplacespace.com|alleneconomicmatter.com|josephseveralconcern.com|donaldlineelse.com|bethshouldercan.com|lisatrialidea.com|jessicaglassauthor.com|evelynthankregion.com|lorimuchbenefit.com|susanhavekeep.com|thomasalthoughhear.com|zacharycollectionmight.com|richardstorehalf.com|kimberlyonlocal.com|toddpartneranimal.com|jamessoundcost.com|brittneystandardwestern.com|sandratableother.com|robertordercharacter.com|maxfinishseveral.com|alejandrocenturyoil.com|heatherwholeinvolve.com|kristiesoundsimply.com|adrianmissionminute.com|nathanfromsubject.com|jennifercertaindevelopment.com|richardsignfish.com|sarahnewspaperbeat.com|diananatureforeign.com|jonathansociallike.com|mariatheserepublican.com|johnalwayssame.com|kellywhatcould.com|jilliandescribecompany.com|lukesitturn.com|mikaylaarealike.com|christopheruntilpoint.com|walterprettytheir.com|crystaltreatmenteast.com|lauradaydo.com|lancewhosedifficult.com|dianaavoidthey.com|jefferycontrolmodel.com|jessicaclearout.com|marissasharecareer.com
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,important,domain=linetv.tw
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,important,domain=videostar.pl|o2.pl|dobreprogramy.pl|polygamia.pl|genialne.pl|pysznosci.pl|benchmark.pl|wp.pl|jastrzabpost.pl
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=noopjs,domain=upns.online|upns.xyz|upns.one|isekaitube.cfd|upns.live|javlion.xyz|hlsfast.com|ultrastream.online|streamcasthub.store|w1tv.xyz|cdnstream.top|javboys.upn.one|coflix.upn.one|animeshqip.uns.bio|rpmvid.com|onion.upns.blog|securecdn.shop|embed4me.com|jhdanime.com|strp2p.com|playeranimewatch.pl|bigbuttshubvideos.com
@@ -6464,7 +6466,6 @@ yydstxt*.com/js/html
 ||jdwx.info/api.php?mod=ad&
 ||jeepyy.com^$third-party
 ||jeroud.com^$popup
-||jessicaclearout.com^$badfilter
 ||jewishcontentnetwork.com^$third-party
 ||jg1668.com^$third-party
 ||jgstny.com^$third-party
@@ -7065,6 +7066,7 @@ yydstxt*.com/js/html
 ||maper.info^$popup
 ||marfeel.com^$third-party
 ||marfeelcache.com^$third-party
+||marissasharecareer.com^$badfilter
 ||marketbeat.com/scripts/sidebaradnewssites.ashx
 ||marketjs.cdn.start.gg/*/v*/game.js$replace=/this\['rewardedvideoresult'\]\(!0x1\);/this['rewardedvideoresult'](!0x0);/
 ||masadora.net/kakusan-
@@ -7647,6 +7649,7 @@ yydstxt*.com/js/html
 ||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,redirect=noopjs,domain=tvp.pl|swipeto.pl|tvp.info|tvpparlament.pl
 ||pagead2.googlesyndication.com/pagead/js/google_top_exp.js$script,redirect=noopjs,important,domain=ebb.io
 ||pagead2.googlesyndication.com/pagead/show_ads.js$script,redirect=noopjs,domain=herokuapp.com
+||pagead2.googlesyndication.com/pagead/show_ads.js$script,redirect=noopjs,domain=scanner.thetimetube.com
 ||pagechoice.net^$third-party
 ||paid.outbrain.com^$document
 ||paid.outbrain.com^$popup
@@ -7865,7 +7868,7 @@ yydstxt*.com/js/html
 ||pornid.xxx/polstr/$subdocument
 ||pornid.xxx/vager/
 ||pornlib.com/player_*_ads
-||pornofaps.com/frosty-bread-04ce/
+||pornokeep.com/content2/lib/
 ||pornone.com/js/combined.js
 ||pornoxo.com/link/out/
 ||pornoxo.com/pxo/www/js-v*.min.js?url=
@@ -8096,7 +8099,6 @@ yydstxt*.com/js/html
 ||qtmojo.com^$third-party
 ||quanta.la^$third-party
 ||quantumdex.io^$third-party
-||quantumws.net^$third-party
 ||quebecormedia.com/*/lib/cheezwhiz/*index.js
 ||quge66.com/jdjd/
 ||qunar.com/render/*advertisement.jsp?
@@ -8397,6 +8399,7 @@ yydstxt*.com/js/html
 ||sexad.net^$third-party
 ||sexbarss.net/wap/
 ||sexflirtbook.com^$popup
+||sexintheuk.com^$popup
 ||sextvx.com/ads/
 ||sexvid.*/rrt/xd.js
 ||sexvid.*/ysla/
@@ -8566,6 +8569,7 @@ yydstxt*.com/js/html
 ||sobaigu.com/images/tencentcloudamd_1040x100.jpg
 ||sobt8.org/public/static/js/common.js
 ||socialmonkee.com/images/
+||socialsex.com^$popup
 ||socos.gitee.io/ss/poster/
 ||sodu2020.com/js/ppc.js
 ||soduso.com/js/4
@@ -8618,8 +8622,6 @@ yydstxt*.com/js/html
 ||soulauth.com/img/advertisements/
 ||soulu365.com/images/zhuce.jpg
 ||soundcloud.com/audio-ads?
-||sourceforge.net/about/floating_sitewide
-||sourceforge.net/about/top_sitewide
 ||southmoney.com/page/pc/
 ||southmoney.com/page/top
 ||southmoney.com^*/inc/
@@ -8679,7 +8681,6 @@ yydstxt*.com/js/html
 ||st-n.ads*-adnow.com^$third-party
 ||st.1001fonts.net/build/common/ads.*.$script,stylesheet
 ||st.chatango.com/js/*/*/rklmodule.js
-||st.motortrend.com/nitrous/
 ||stake.com/*&clickid=$document
 ||stake.com/*&clickid=$popup
 ||star-media.cn^$third-party
@@ -9182,7 +9183,6 @@ yydstxt*.com/js/html
 ||unpkg.com^$badfilter
 ||uoowu.com/a/zh*.js
 ||uooyoo.com/hz/*str.js
-||uoutube.com^$all
 ||up.qingdaonews.com/up/$object,script
 ||upaiyun.com/system/post_tile/new_web_banners/
 ||upapi.net/pb/ex?w=*&uponit
@@ -9512,7 +9512,6 @@ yydstxt*.com/js/html
 ||wxc.cc/scripts/gg.
 ||wy213.com^$popup,third-party
 ||wykop.pl/api/v*/ads
-||wykop.pl/static/img/pub/
 ||wzbaohe.com/imgadnew/midad.js
 ||x-resource05.com/media_orange/server-img/*_1200_120.
 ||x-trojmiasto.pl/combo/f=/_style/$replace=/(.\$)/\$1.banner-maxia\,.banner-a\,.banner-m\,.banner-mr\,a[target="_blank"][href*=".trojmiasto.pl\/"] > img[width][height][src*=".trojmiasto.pl\/"]\,[data-revive-zoneid]{ display: none !important; }/,stylesheet

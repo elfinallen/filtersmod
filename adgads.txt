@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-12 01:17:21 UTC
-! Total Rules: 6337
+! Last Updated: 2026-04-12 12:32:59 UTC
+! Total Rules: 6332
 ! Expires: 5 days
 &ag_custom_vlmspot=
 &js_build=iclick-
@@ -1637,6 +1637,8 @@ yydstxt*.com/js/html
 ||5dmail.net/image/ad_
 ||5dmail.net/image/orf_1000.gif
 ||5dmail.net/js/
+||5dxs.net/themes/jieqi/wap/js/fixed.
+||5dxs.net/themes/jieqi/wap/js/test.
 ||5fz.cc/t/aimg/tao
 ||5icool.org/uploadfile/poster/
 ||5ilinglei.com/gg.html
@@ -3554,7 +3556,6 @@ yydstxt*.com/js/html
 ||hc360.com/security/201409/201409021830024990.jpg
 ||hcbbsoss.oss-cn-hangzhou.aliyuncs.com^*-banner
 ||hd21.*/templates/base_master/js/jquery.shows.min.js
-||hdblog.it/new_files/ajax/prime_bf.php
 ||hdchina.*/styles/topshow/ad/
 ||hdmoli.pro/a_d/
 ||hdsky.me/adv/
@@ -3637,7 +3638,6 @@ yydstxt*.com/js/html
 ||hoopchina.com.cn/web/widget/partner/*/promote.js
 ||hoopchina.com.cn^*/ad-pc-sdk.
 ||hornygamer.com/play_horny_games/
-||hornyhill.com/ajax/get_ads_suggest?
 ||hotavxxx.com/images/*96
 ||hoteastday.com/newspc/show?
 ||hotpress.info/blog/asian-javdl/wp-content/uploads/irvsxp.js
@@ -3722,7 +3722,6 @@ yydstxt*.com/js/html
 ||ibaotu.com/revision/js/ad/
 ||ibf.tw/js/jquery.blockui.js
 ||ibmwclub.com/tophub/assets/js/sponsor.
-||ibvpn.com/img/banners/
 ||icaile.com/z.php?id=
 ||icao4.com/uploads/pic/2.jpg
 ||iceporn.com/player_right_ntv_
@@ -4954,7 +4953,7 @@ yydstxt*.com/js/html
 ||pornid.xxx/grt/dev.js
 ||pornid.xxx/vager/
 ||pornlib.com/player_*_ads
-||pornofaps.com/frosty-bread-04ce/
+||pornokeep.com/content2/lib/
 ||pornone.com/js/combined.js
 ||pornoxo.com/link/out/
 ||pornoxo.com/pxo/www/js-v*.min.js?url=
@@ -5448,8 +5447,6 @@ yydstxt*.com/js/html
 ||soulauth.com/img/advertisements/
 ||soulu365.com/images/zhuce.jpg
 ||soundcloud.com/audio-ads?
-||sourceforge.net/about/floating_sitewide
-||sourceforge.net/about/top_sitewide
 ||southmoney.com/page/pc/
 ||southmoney.com/page/top
 ||southmoney.com^*/inc/
@@ -5479,7 +5476,6 @@ yydstxt*.com/js/html
 ||sss777.net/alove-a/
 ||ssyy881.com/zz/
 ||st.chatango.com/js/*/*/rklmodule.js
-||st.motortrend.com/nitrous/
 ||staramuse.com/bmip/showg
 ||starnnews.com/banner/
 ||startpage.com/*/adsense/search/async-ads.js
@@ -5985,7 +5981,6 @@ yydstxt*.com/js/html
 ||wx.sina.com.cn/iframe/pdps/
 ||wxc.cc/scripts/gg.
 ||wykop.pl/api/v*/ads
-||wykop.pl/static/img/pub/
 ||wzbaohe.com/imgadnew/midad.js
 ||x-resource05.com/media_orange/server-img/*_1200_120.
 ||x.com/*/videoads/
