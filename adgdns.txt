@@ -1,8 +1,8 @@
 ! Title: AdGuard Domain
 ! Description: DNS Filter composed of other filters (AdGuard DNS & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-13 01:19:09 UTC
-! Total Rules: 70297
+! Last Updated: 2026-04-13 12:55:53 UTC
+! Total Rules: 70331
 ! Expires: 5 days
 ||aa.429men.com^
 ||aa.4wank.com^
@@ -634,6 +634,7 @@
 ||adaos-ads.net^
 ||adapd.com^
 ||adapf.com^
+||adapi*.boomplaymusic.com^
 ||adapi.tuyensinh247.com^
 ||adaptationprodigalevil.com^
 ||adaptconveyperformed.com^
@@ -1631,6 +1632,7 @@
 ||afdads.com^
 ||afecvu.bulevip.com^
 ||afelechvqtcxn.com^
+||afevcgseg.com^
 ||afevxr.guydemarle.com^
 ||aff*.kolektiva.net^
 ||aff-handler.com^
@@ -2164,6 +2166,7 @@
 ||alerts.ironmountain.com^
 ||alerts.wolterskluwerfs.com^
 ||alespeonor.com^
+||alevinmicrohm.com^
 ||alex.coatdefense.com^
 ||alexandria.marfeelcdn.com^
 ||alexatracker.com^
@@ -6194,6 +6197,7 @@
 ||brtsumthree.com^
 ||bruceleadx1.com^
 ||brugesgarner.com^
+||brughsfatima.com^
 ||bruisebaseball.com^
 ||bruisedpaperworkmetre.com^
 ||bruiseentrustcarbonate.com^
@@ -6547,6 +6551,7 @@
 ||bxmo.cn^
 ||bxpryiusu.com^
 ||bxtag.com^
+||bxtmmrjqyctv.com^
 ||bxumze.buckscountycouriertimes.com^
 ||bxumze.chieftain.com^
 ||bxumze.dispatch.com^
@@ -10752,10 +10757,12 @@
 ||cvoddu.getnamenecklace.com^
 ||cvoyrn.astotel.com^
 ||cvpl9qbz6.com^
+||cvpotrpkppdq.com^
 ||cvpthv.vipoutlet.com^
 ||cvsfsqgev.com^
 ||cvvnf.noinsurancemedicalsupplies.com^
 ||cvwdbkfudfbmk.com^
+||cvyvktlakzgbp.com^
 ||cwcdmm.zennioptical.com^
 ||cwchmb.com^
 ||cwfnejlkxro.com^
@@ -12226,6 +12233,7 @@
 ||dcirm.calocurb.com^
 ||dcirxazv.com^
 ||dcjoj.clubmagichour.com^
+||dckhrdhwdenqpap.com^
 ||dckiwt.eataly.com^
 ||dcluc.boxousa.com^
 ||dcmgd.bristlehealth.com^
@@ -12341,6 +12349,7 @@
 ||decideharmpervert.com^
 ||decideinteractive.com^
 ||decidesqueak.com^
+||decimal-impression.com^
 ||decimalair.com^
 ||decimalcursor.com^
 ||decimaldaysloaf.com^
@@ -12413,6 +12422,7 @@
 ||defencelaptop.com^
 ||defensevest.com^
 ||defensivearmpit.com^
+||defensivegrand.com^
 ||defi.hsfdefi.com^
 ||defiantenrage.com^
 ||defiantexemplifytheme.com^
@@ -15938,6 +15948,7 @@
 ||eweconciliate.com^
 ||ewesmedia.com^
 ||ewetrotreset.com^
+||eweyefuujlrvsr.com^
 ||ewfarp.kappa.com^
 ||ewgfxfujz.com^
 ||ewgu.cn^
@@ -16177,6 +16188,7 @@
 ||eyewondermedia.com^
 ||eyhv.cn^
 ||eykcjdmmtsoykl.com^
+||eyknbgdtgsecp.com^
 ||eylxaeyebje.com^
 ||eyqbvz.greysonclothiers.com^
 ||eyxhmwwipjkfjcf.com^
@@ -16764,6 +16776,7 @@
 ||ffz-garena-membership.com^
 ||ffzob.4moms.com^
 ||fg.dokoba.com^
+||fgaxbdtgdia.com^
 ||fgbzr.elvie.com^
 ||fgfecw.rebelle.com^
 ||fgfpj.billabong.com^
@@ -17390,6 +17403,7 @@
 ||floordelirious.com^
 ||flooredviscount.com^
 ||floorforce.streetinteractive.com^
+||floozybalkish.com^
 ||floralrichardapprentice.com^
 ||floraltorn.com^
 ||flossiegorcrow.com^
@@ -23016,6 +23030,7 @@
 ||hwyunboggy.com^
 ||hwyytk.verabradley.com^
 ||hwyyuy.ringcentral.com^
+||hwzuyzwmmnsrgq.com^
 ||hxbgxi.seikousa.com^
 ||hxbt.alading123.com^
 ||hxefvtiqr.net^
@@ -25965,6 +25980,7 @@
 ||jcpjfyikk.dogbonemarket.com^
 ||jcplzp.lancel.com^
 ||jcquhetqcp.com^
+||jcrjlzcl.com^
 ||jcsgu.everythingcatholic.com^
 ||jcsmm.rubios.com^
 ||jculbjoopikfwtq.com^
@@ -28283,6 +28299,7 @@
 ||lfzlb.levasleep.com^
 ||lg-release-tracking-8080.gcld-line.com^
 ||lgaamibxpyuyfv.com^
+||lgaekait.com^
 ||lgaicreal.com^
 ||lgbdxo.azazie.com^
 ||lgdhwyhts.com^
@@ -30504,6 +30521,7 @@
 ||log*-misc-lf.amemv.com^
 ||log*-normal-useast1a.lemon8-app.com^
 ||log*.aliyuncs.com^
+||log*.boomplaymusic.com^
 ||log*.byteoversea.com^
 ||log*.zijieapi.com^
 ||log-*.isnssdk.com^
@@ -35240,6 +35258,7 @@
 ||mwvt.cn^
 ||mwxema.galerieslafayette.com^
 ||mwzbp.iask.com.cn^
+||mwznlpivkknmfn.com^
 ||mx.mywd.com^
 ||mxapis.com^
 ||mxaserver.mxplay.com^
@@ -36776,6 +36795,7 @@
 ||nqaqixlojwdvx.com^
 ||nqbzajlueedt.com^
 ||nqcpwqqo.com^
+||nqdrbwtcsu.com^
 ||nqfem.babor.com^
 ||nqgmcp.chairish.com^
 ||nqiccievugptys.com^
@@ -37086,6 +37106,7 @@
 ||oackoaleftoghat.net^
 ||oackurtodreecm.net^
 ||oacmauthaignum.net^
+||oactgbgf.com^
 ||oacuwoaksaksu.net^
 ||oadsoapsoang.net^
 ||oadsofoucuviy.net^
@@ -38320,6 +38341,7 @@
 ||otherwiserustyvenomous.com^
 ||otices.com^
 ||otieu.com^
+||otihrqtkjjgupic.com^
 ||otiladgyo.com^
 ||otitishanded.com^
 ||otlhn.fentybeauty.com^
@@ -39272,6 +39294,7 @@
 ||pearcryptic.com^
 ||pearlysweepoverface.com^
 ||pearpermitted.com^
+||pearpouch.com^
 ||peasacknowledged.com^
 ||peasantcurbdeceased.com^
 ||peasantratio.com^
@@ -42341,6 +42364,7 @@
 ||qsvsvtdcxiovjfc.com^
 ||qtbci.ikonick.com^
 ||qtbsd.crocs.com^
+||qtcqxssh.com^
 ||qtevriko.com^
 ||qtfnvf.ethika.com^
 ||qtgge.darngoodyarn.com^
@@ -42490,6 +42514,7 @@
 ||qugcc.oakcha.com^
 ||quge5.com^
 ||qugkzc.babyonlinewholesale.com^
+||quguiqugna.com^
 ||quhdnr.musiciansfriend.com^
 ||quichecarib.com^
 ||quick-counter.net^
@@ -49768,6 +49793,7 @@
 ||sig.qoyod.com^
 ||sighcontinenthover.com^
 ||sighhigherapprove.com^
+||siglumroxanne.com^
 ||sigma.litimes.org^
 ||sigmob.cn^
 ||signal.claimyourcare.com^
@@ -50930,6 +50956,7 @@
 ||sorqo.theamethyststore.com^
 ||sorrowdefinedasterisk.com^
 ||sorryfearknockout.com^
+||sortedram.com^
 ||sortexampleposition.com^
 ||sortext.com^
 ||sorthurry.com^
@@ -56929,6 +56956,7 @@
 ||stubsaistur.net^
 ||stucesaumpie.net^
 ||stuckashespassion.com^
+||stuckenfoam.com^
 ||studads.com^
 ||studioibi.ibijus.com^
 ||studious-make.com^
@@ -57698,6 +57726,7 @@
 ||syfsmblwp.net^
 ||syfwnf.society6.com^
 ||syinga.com^
+||sykdkvprmisg.com^
 ||syllablesight.com^
 ||sylxisys.com^
 ||symantec.ecs.arrow.com^
@@ -58950,6 +58979,7 @@
 ||tbbzc.trtltravel.com^
 ||tbeiu658gftk.com^
 ||tbfqspkqykdcljg.com^
+||tbgehesqivycnf.com^
 ||tbihvt.pickawood.com^
 ||tbilz.juiceplus.com^
 ||tbiwtech.com^
@@ -58963,6 +58993,7 @@
 ||tbpot.com^
 ||tbqyl.axparis.com^
 ||tbunkrolo.com^
+||tbwrozbwpsiz.com^
 ||tbwzcos.retreatmentbotanics.com^
 ||tbxdxxfi.com^
 ||tbzku.intimaterose.com^
@@ -60093,6 +60124,7 @@
 ||tlbrj.denmanbrush.com^
 ||tldid.akarskin.com^
 ||tlfdnmipkqp.com^
+||tlgivardfp.com^
 ||tlmtr.org^
 ||tlofl.printfresh.com^
 ||tlootas.org^
@@ -67771,6 +67803,7 @@
 ||wpewsnqnlxvhx.com^
 ||wpeycj.kojitusanso.com^
 ||wpftaxtgdh.com^
+||wpihnwkr.com^
 ||wpjzg.boynemountain.com^
 ||wpkfti.1300k.com^
 ||wpncdn.com^
@@ -69761,6 +69794,7 @@
 ||zbseb.underdoggames.com^
 ||zbtlgd.com^
 ||zbtqcovdv.com^
+||zbyfef74e.com^
 ||zc.adswizz.com^
 ||zceniddd.com^
 ||zcfhi.cn.com^

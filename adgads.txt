@@ -1,7 +1,7 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-13 01:19:09 UTC
+! Last Updated: 2026-04-13 12:55:53 UTC
 ! Total Rules: 6332
 ! Expires: 5 days
 &ag_custom_vlmspot=
@@ -389,8 +389,6 @@
 /^23\.109\.73\.\d{3}/
 /^94\.242\.247\.(2[0-9]|3[0-2])/
 /_a_ta/s/s/*
-/_adslot/*
-/_ra_lib.php
 /_xa/ads_
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -2037,6 +2035,8 @@ yydstxt*.com/js/html
 ||anhuinews.com/include/
 ||anhuinews.com/zhuyeguanli/*ad/
 ||anime-suba.com/anime-suba/admin/imganadvertisement/
+||animeshqip.org/kira.php
+||animewaku.com/up/img/webp/*.webp
 ||anjuke.com^*/ajax/business_area_search/
 ||ankangwang.com/js/info.js
 ||anqu.com/b.js
@@ -3333,6 +3333,7 @@ yydstxt*.com/js/html
 ||ganji.com/content.php
 ||ganjing.com/vast.vpaid.min.js
 ||ganjistatic1.com^*/adm/
+||gannett-cdn.com/partner/vendor/gntx-pbjs.js
 ||gansudaily.com.cn/2017zt/images/*gg
 ||gaofen.com/source/plugin/gaofen_ad/
 ||gaofuwu.org/js/dd.js
@@ -3811,7 +3812,6 @@ yydstxt*.com/js/html
 ||images.sohu.com/ytv/*.jpg
 ||images.whoer.com/image/*.gif
 ||imagespublic.tk/clothes/comeliness.php
-||imagetwist.com/b9ng.js
 ||imdb.com/_json/getads/
 ||imedown.info/03.jpg
 ||imedown.info^*.gif
@@ -4678,6 +4678,7 @@ yydstxt*.com/js/html
 ||n2.hk/apps/car_feed/tb/*/banner.html
 ||n2.hk/promo/
 ||nairaland.com/vertipics/
+||namethatporn.com/assets/prod/fuf4g_*.js
 ||nanfengyl.com/static/js/zdad.js
 ||nanrenfuli.*/zb_users/upload/
 ||nanrenvip2021.com/old.html
@@ -4961,7 +4962,6 @@ yydstxt*.com/js/html
 ||pornpaw.com/never.js
 ||pornpics.de/api/banner/
 ||pornpoppy.com/*/external_pop.js
-||porntb.com/cdn/cdn_check.js
 ||porntn.com/static/js/custom.js
 ||pornx.to/wp-content/uploads/ad*x*.png
 ||pornxp.*/spnbf.js
@@ -5444,7 +5444,6 @@ yydstxt*.com/js/html
 ||souche.com^*.gif
 ||soufunimg.com/imgd/viewimage/*/640x210
 ||souka.me/ad/
-||soulauth.com/img/advertisements/
 ||soulu365.com/images/zhuce.jpg
 ||soundcloud.com/audio-ads?
 ||southmoney.com/page/pc/
@@ -5491,6 +5490,7 @@ yydstxt*.com/js/html
 ||static.hellmoms.com/*/inplaybn-
 ||static.hispanoads.es/ttt.js
 ||static.huaren.live/ads/
+||static.okokserver.com/js/anti/adblocker.js
 ||static.olelive.com/upload/site/*/*.gif
 ||static.opensubtitles.org/libs/js/ray-announcement-bar.js
 ||static.sunmedia.tv/integrations/
