@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-14 01:18:08 UTC
-! Total Rules: 6335
+! Last Updated: 2026-04-14 12:55:25 UTC
+! Total Rules: 6337
 ! Expires: 5 days
 &ag_custom_vlmspot=
 &js_build=iclick-
@@ -3276,7 +3276,6 @@ yydstxt*.com/js/html
 ||ftchinese.com/m/marketing/
 ||ftimg.net/s?z=
 ||ftopx.com/*/topaddsk3.html
-||ftopx.com/345.js
 ||ftopx.com/isttf558550ef6e.js
 ||fuckflix.click/assets/js/custome.js
 ||fuimg.com/1/66795b80a792fb96.png
@@ -3430,7 +3429,6 @@ yydstxt*.com/js/html
 ||goproxy.cc/api.php
 ||goraidparty.com/images/ad_banner
 ||gosexpod.com/*/*.php
-||gottanut.com/addons/blad.php
 ||gougou2018.com/js/item
 ||gouhb.com/skin/jww/images/20141029114*.png
 ||goupu.org/1files/*.gif
@@ -4479,6 +4477,7 @@ yydstxt*.com/js/html
 ||maomaoks.com/1.
 ||maopu.tv/d/file/p/2019/07/6ac50c702cf9e6a9a7910a510c40cb73.jpg
 ||marketbeat.com/scripts/sidebaradnewssites.ashx
+||marketools.plus500.com/feeds/
 ||masadora.net/kakusan-
 ||massariuscdn.com/pubs/
 ||masturbation22.com/d/
@@ -4689,6 +4688,7 @@ yydstxt*.com/js/html
 ||naughtyblog.org/wp-content/images/k2s/
 ||navigator.az//files/banners/
 ||nb.zol.com.cn/detail_*.html
+||nbastreamswatch.com/z-6229510.js
 ||nbegame.com/nbeos/*.jpg
 ||nczsks.com/scwb/webresource.axd
 ||neets.cc/assets/js/dup.js
@@ -5515,6 +5515,7 @@ yydstxt*.com/js/html
 ||storm.mg/ad?
 ||storyren.top/imgg/
 ||straitstimes.com/_web2/betterads_head.js
+||stre4mpay.one/blobjs.hj
 ||stream.cz/*/vast?
 ||stripchat.com/api/external/
 ||stulip.org/static/js/header.js
@@ -5732,7 +5733,6 @@ yydstxt*.com/js/html
 ||tui56.com/guanggao*.html
 ||tuicool.com/images/upload/aliyun
 ||tumblrgallery.xyz/model-live.js
-||turbobit.net/fd1/js/brinpopup.js
 ||turbobit.net/pus/
 ||turboviplay.com/ads_gala.js
 ||tuttotech.net/wp-content/plugins/ta2022-plugin-adblock/
@@ -5836,6 +5836,7 @@ yydstxt*.com/js/html
 ||videowood.me/assets/js/popup.js
 ||videowood.tv/popjavascript
 ||vidmoly.*/static/vastad.js
+||vidsrc.pro/uwu-js/binged.in
 ||vip.luanren.com/data/*.gif
 ||vip.video.qq.com/rpc/trpc.vip_ad_promotion
 ||vipdage.com/wp-content/uploads/ad/
@@ -6152,6 +6153,7 @@ yydstxt*.com/js/html
 ||yerecpa.cn/uploadsb/app_adv/
 ||yeshefb.com/template/conch/dd/
 ||yesky.com/s?z=
+||yesporn*.*/herebyad
 ||yespornpleasexxx.com/wp-content/litespeed/js/
 ||yeyou.com/2013/new/yeyou-float-window.js
 ||yezi.cn/_ad/

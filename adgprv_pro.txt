@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-14 01:18:08 UTC
-! Total Rules: 118003
+! Last Updated: 2026-04-14 12:55:25 UTC
+! Total Rules: 118008
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -104726,6 +104726,7 @@ zonedirector.avadacom.com$image
 ||api.radio.de/*event=
 ||api.rbsmi.ru/site/*/counter/
 ||api.receptivity.io^$third-party
+||api.redgifs.com/v*/metrics/
 ||api.remanga.org/api/logging/
 ||api.reo.dev^$third-party
 ||api.reverso.net/stats/
@@ -107472,6 +107473,7 @@ zonedirector.avadacom.com$image
 ||directcounter.de^$third-party
 ||directcrm.ru^$third-party
 ||directnews.co.uk/feedtrack/
+||directory.cookieyes.com/api/v*/ip
 ||directprimal.com^$third-party
 ||directrix.ru^$third-party
 ||diritalia.com^*/seosensor.js
@@ -110428,6 +110430,7 @@ zonedirector.avadacom.com$image
 ||k-crm.jp/tracking.js
 ||k-crm.jp/web.tracking.js
 ||k.p-n.io/event-stream
+||k2s.cc/log|
 ||k50.ru/tracker/
 ||k50.ru^$third-party
 ||k5a.io/?i=
@@ -116808,6 +116811,8 @@ zonedirector.avadacom.com$image
 ||vantastic-foods.com/dlyx/tms.js
 ||varianty.lviv.ua/counter.php
 ||variti.net^$third-party
+||varta1.com.ua/api/ads-analytics
+||varta1.com.ua/api/analytics
 ||vast.com/vimpressions.js$third-party
 ||vault.gostatera.com/collect/rap
 ||vbanalytics.com^$third-party

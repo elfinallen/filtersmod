@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-14 01:18:09 UTC
-! Total Rules: 11642
+! Last Updated: 2026-04-14 12:55:25 UTC
+! Total Rules: 11647
 ! Expires: 5 days
 &&sub19=undefined&sub20=undefined
 &action=js_stats
@@ -4154,6 +4154,7 @@ t.yesware.com
 ||api.radio.*/info/*/user/log?event
 ||api.radio.de/*event=
 ||api.rbsmi.ru/site/*/counter/
+||api.redgifs.com/v*/metrics/
 ||api.remanga.org/api/logging/
 ||api.reverso.net/stats/
 ||api.rivpoint.com/*/event/
@@ -5797,6 +5798,7 @@ t.yesware.com
 ||dinos.co.jp/js/common/load-fluct.js
 ||dinos.co.jp/js/common/load-tagmanagers.js
 ||directnews.co.uk/feedtrack/
+||directory.cookieyes.com/api/v*/ip
 ||diritalia.com^*/seosensor.js
 ||dis.*.criteo.com/dis/
 ||dis.criteo.com/dis/
@@ -7418,6 +7420,7 @@ t.yesware.com
 ||k-crm.jp/tracking.js
 ||k-crm.jp/web.tracking.js
 ||k.p-n.io/event-stream
+||k2s.cc/log|
 ||k50.ru/tracker/
 ||k5a.io/?i=
 ||kabu-sokuhou.com/js/cpv/
@@ -10933,6 +10936,8 @@ t.yesware.com
 ||vanityfair.com/user-context?referrer
 ||vantastic-foods.com/dlyx/tms.js
 ||varianty.lviv.ua/counter.php
+||varta1.com.ua/api/ads-analytics
+||varta1.com.ua/api/analytics
 ||vault.gostatera.com/collect/rap
 ||vbox7.com/aj/player-stats?
 ||vbr.ru/init-z.bmp
