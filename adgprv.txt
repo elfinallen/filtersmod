@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-14 12:55:25 UTC
-! Total Rules: 11647
+! Last Updated: 2026-04-15 01:15:18 UTC
+! Total Rules: 11655
 ! Expires: 5 days
 &&sub19=undefined&sub20=undefined
 &action=js_stats
@@ -3664,6 +3664,7 @@ t.yesware.com
 ||academia.edu/record_hit
 ||academia.edu/record_hit?
 ||academia.edu/v0/pv?
+||acapi.aol.com/v1/events
 ||acast.com/api/stats
 ||accesstrade.vn/js/trackingtag/
 ||accesswire.com/img.ashx
@@ -5669,6 +5670,7 @@ t.yesware.com
 ||datacore-write.securitytrfx.com/blob/em_cmp_lib_tracking/
 ||datadog-log.clovergames.io
 ||datadoghq.com/assets/dd-browser-logs-rum.js
+||datadome00.id.me/tags.js
 ||datafa.st/js/script.js
 ||datahub-srgssr.ch/tracking/
 ||datahub.zhihu.com/collector/
@@ -6003,6 +6005,7 @@ t.yesware.com
 ||edge.adobedc.net/ee/v1/collect?
 ||edge.curalate.com/api/v1/metrics/
 ||edge.curalate.com/sites/*/experiences/*/experience.min.js
+||edge.sdk.awswaf.com/*/telemetry
 ||edge.surfside.io/id/uid?
 ||edgetrksvc.ebay.
 ||edisound.com/api/p/medias/stats
@@ -6083,6 +6086,7 @@ t.yesware.com
 ||episerver.net/ia.js
 ||epochtimes.de/mp/track/
 ||epoq.de/inbound-servletapi/event?
+||eporner.com/beacon.php
 ||epromote.co.za/track/
 ||epsilon.6sense.com/v3/company/details
 ||equirodi.*/addstat.php
@@ -8696,6 +8700,7 @@ t.yesware.com
 ||paypalobjects.com/web/res/*/js/summary-analytics.js
 ||paypalobjects.com^*/pixel.gif
 ||pbd.yahoo.com/data/analytics
+||pbd.yahoo.com/data/logs/benji
 ||pc.assets-cosme.net/js/ga.js
 ||pc.assets-cosme.net/js/general/pc/cmn-pf-nav-google-analytics.js
 ||pc161021.com/scripts/noui/eventlogger.js
@@ -9865,6 +9870,8 @@ t.yesware.com
 ||spanishdict.com/page-view-metadata
 ||spankbang.com/api/*/events
 ||spankbang.com/api/*/track-impression
+||spankbang.com/api/ab-test/tracking
+||spankbang.com/static/dist/ab_test_click_tracker
 ||spark.cloud.funkedigital.de/agnes.js
 ||sparkasse.de/frontend/settrackingcookie.htm
 ||sparkasse.de/frontend/settrackingcookie.html
@@ -10446,6 +10453,7 @@ t.yesware.com
 ||thairath.co.th/event/
 ||the-group.net/aether/
 ||the-sun.com/assets/client/analyticslisteners*.js
+||the-sun.com/assets/optimizely/
 ||theatlantic.com/assets/static/theatlantic/img/sherlock.gif?
 ||theautopian.com/content/plugins/jzl-core/core/tags/js/events.js
 ||theav.xyz/anyalytics

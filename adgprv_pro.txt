@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-14 12:55:25 UTC
-! Total Rules: 118008
+! Last Updated: 2026-04-15 01:15:18 UTC
+! Total Rules: 118020
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -103849,6 +103849,7 @@ zonedirector.avadacom.com$image
 ||academia.edu/record_hit
 ||academia.edu/record_hit?
 ||academia.edu/v0/pv?
+||acapi.aol.com/v1/events
 ||acast.com/api/stats
 ||acc-hd.de^$third-party
 ||accaii.com^$third-party
@@ -105062,6 +105063,7 @@ zonedirector.avadacom.com$image
 ||assets.rndtech.de/web-vitals/
 ||assets.rpglogs.com/js/global/googleanalytics.*.js
 ||assets.s-bol.com/appmeasurement-
+||assets.sb-cd.com/static/dist/ab_test_click_tracker*.js$domain=spankbang.com
 ||assets.shop.hisense.com/ta.js
 ||assets.sky.com/js/thirdparty/sessioncam5-5.js
 ||assets.thdstatic.com/analytics/core/*/appmeasure$domain=homedepot.com
@@ -106459,6 +106461,7 @@ zonedirector.avadacom.com$image
 ||client-log.box.com/analytics-events/
 ||client.px-cloud.net/*/main.min.js?ver=
 ||clientgear.com^$third-party
+||clik.by^$third-party
 ||clinch.co/a_js/client_pixels/
 ||clipcentric.com^$third-party
 ||clipkit.co/clipkit_assets/beacon-
@@ -107236,6 +107239,7 @@ zonedirector.avadacom.com$image
 ||datadoghq.eu^$third-party
 ||datadome.co^$third-party
 ||datadome.co^$third-party,domain=~paypal.com
+||datadome00.id.me/tags.js
 ||datadsk.com^$third-party
 ||datafa.st/js/script.js
 ||datafa.st^$third-party
@@ -107828,6 +107832,7 @@ zonedirector.avadacom.com$image
 ||edge.bredg.com^$third-party
 ||edge.curalate.com/api/v1/metrics/
 ||edge.curalate.com/sites/*/experiences/*/experience.min.js
+||edge.sdk.awswaf.com/*/telemetry
 ||edge.surfside.io/id/uid?
 ||edgeadx.net^$third-party
 ||edgetrksvc.ebay.
@@ -107979,6 +107984,7 @@ zonedirector.avadacom.com$image
 ||epl.paypal-communication.com^$script
 ||epochtimes.de/mp/track/
 ||epoq.de/inbound-servletapi/event?
+||eporner.com/beacon.php
 ||epromote.co.za/track/
 ||eproof.com^$third-party
 ||eps-analyzer.de^$third-party
@@ -110106,6 +110112,7 @@ zonedirector.avadacom.com$image
 ||intuitcdn.net/analytics/
 ||intuitwebsites.com/tracking/
 ||inven.co.kr/api/banner_tracking/banner_view.php
+||inventorycache.com^$badfilter
 ||investhash.com^$third-party
 ||investigationdiscovery.com/cms/collections/
 ||investigationdiscovery.com/events/
@@ -111473,7 +111480,6 @@ zonedirector.avadacom.com$image
 ||metka.ru/counter/^$third-party
 ||metric.cryptofans.asia/scripts/track_conversion.js
 ||metricode.com^$third-party
-||metricool.com^$third-party
 ||metrics*.fitanalytics.com^$third-party
 ||metrics-logger.spot.im^$third-party
 ||metrics.aktin.*/collect?
@@ -112690,6 +112696,7 @@ zonedirector.avadacom.com$image
 ||pb.ytmp3tube.com/js/script.js$domain=yt1s.com.co
 ||pbbl.co^$third-party
 ||pbd.yahoo.com/data/analytics
+||pbd.yahoo.com/data/logs/benji
 ||pbgrd.com^$third-party
 ||pbjs.sskzlabs.com^$third-party
 ||pbstck.com^$third-party
@@ -114033,6 +114040,7 @@ zonedirector.avadacom.com$image
 ||s.yimg.com/av/yap/ga/yap.js
 ||s.yimg.com/cx/pv/perf-vitals_
 ||s.yimg.com/dy/readmo-pixel.js
+||s.yimg.com/eh/prebid-config/$domain=aol.com
 ||s.yimg.com/jk/aabd/prod/adblockerdetector.umd.js
 ||s.yimg.com/ss/analytics-$script,domain=yahoo.com
 ||s.yimg.com/ss/analytics-*.js
@@ -114874,6 +114882,8 @@ zonedirector.avadacom.com$image
 ||spanishdict.com/page-view-metadata
 ||spankbang.com/api/*/events
 ||spankbang.com/api/*/track-impression
+||spankbang.com/api/ab-test/tracking
+||spankbang.com/static/dist/ab_test_click_tracker
 ||spankbang.com^$cookie=ana_sid
 ||spankbang.com^$cookie=ana_vid
 ||spark.cloud.funkedigital.de/agnes.js
@@ -115241,6 +115251,7 @@ zonedirector.avadacom.com$image
 ||statistx.com^$third-party
 ||statix.business-gazeta.ru/js/components/metrics.js
 ||statix.business-gazeta.ru/js/components/murmur.js
+||statlytic.net^$third-party
 ||statnews.com/wp-content/compiled/js/stat-adobe-analytics.js
 ||statnews.com/wp-content/compiled/js/stat-dfp.js
 ||statnews.com/wp-content/compiled/js/stat-hubspot-tracker.js
@@ -115673,7 +115684,7 @@ zonedirector.avadacom.com$image
 ||tags.qortex.ai^$third-party
 ||tags.soloway.ru^$third-party
 ||tags.stepstone.com/utag/*/prod/utag.js
-||tags.tiqcdn.com/utag/*/prod/utag.js$domain=mcafee.com|help.dropbox.com|radissonhotels.com|post.ch|usnews.com|krymr.com|cnet.com|adidas.co.uk|adidas.nl|adidas.pl|lineadirecta.com|sibreal.org|modernatx.com|louisvuitton.com|simplybusiness.co.uk|uber.com|monroeandmain.com|totaljobs.com|mitsubishi-motors.co.jp|ubereats.com|grubhub.com|talksport.com|truecar.com|hulu.com|qvc.jp|brother-usa.com|mtvema.com|mtv.co.uk|mtv.de|mtv.it|thesun.co.uk|anantara.com|iflscience.com|calvinklein.ca|taylor.com|news.com.au|agoda.com|vodafone.com.tr|huawei.com
+||tags.tiqcdn.com/utag/*/prod/utag.js$domain=mcafee.com|help.dropbox.com|radissonhotels.com|post.ch|usnews.com|krymr.com|cnet.com|adidas.co.uk|adidas.nl|adidas.pl|lineadirecta.com|sibreal.org|modernatx.com|louisvuitton.com|simplybusiness.co.uk|uber.com|monroeandmain.com|totaljobs.com|mitsubishi-motors.co.jp|ubereats.com|grubhub.com|talksport.com|truecar.com|hulu.com|qvc.jp|brother-usa.com|mtvema.com|mtv.co.uk|mtv.de|mtv.it|thesun.co.uk|anantara.com|iflscience.com|calvinklein.ca|taylor.com|news.com.au|agoda.com|vodafone.com.tr|huawei.com|the-sun.com
 ||tags.tiqcdn.com/utag/*/utag.sync.js$domain=yousee.dk|sibreal.org|calvinklein.ca|hosteurope.de|news.com.au
 ||tags.tiqcdn.com/utag/*/utag.v.js
 ||tags.tiqcdn.com^$app=uk.co.thetimes|com.hulu.plus|com.booking
@@ -115865,6 +115876,7 @@ zonedirector.avadacom.com$image
 ||thcdn.com/*/tracking/*.js$domain=myprotein.ru|myprotein.com|myprotein.com.ua|myprotein.sk|myprotein.co.za
 ||the-group.net/aether/
 ||the-sun.com/assets/client/analyticslisteners*.js
+||the-sun.com/assets/optimizely/
 ||theactivetag.com^$third-party
 ||theadex.com^$third-party
 ||theagency.com^$third-party
