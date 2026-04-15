@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-15 01:15:18 UTC
-! Total Rules: 6337
+! Last Updated: 2026-04-15 12:54:34 UTC
+! Total Rules: 6335
 ! Expires: 5 days
 &ag_custom_vlmspot=
 &js_build=iclick-
@@ -2143,6 +2143,7 @@ yydstxt*.com/js/html
 ||avkuy.com/wp-content/uploads/*/*.webp
 ||avn.com/server/
 ||avple.video/asset/bann.js
+||avrebo.com/avrebo-api/v*/advert/
 ||avseesee.com/amandison.php
 ||avseesee.com/htmls/vlinks.html
 ||avseesee.com/twad
@@ -2613,7 +2614,6 @@ yydstxt*.com/js/html
 ||chengtongled.com/gg/
 ||chengtu.com/api.php?mod=ad&adid=
 ||chenjiayu.cn/gg.js
-||chessgames.com/opt.js
 ||chexun.com/delivery?
 ||chexun.net/images/sales//cxgg/
 ||china.chemnet.com/cnbanner/
@@ -2960,7 +2960,6 @@ yydstxt*.com/js/html
 ||doii.cc/mmm/
 ||dongchedi.com/motor/ad/
 ||dongfangtai.com/2018/
-||donghuaworld.com/wp-content/plugins/no-adblock-access/detector.js
 ||douban.com/?unit=dale_movie_trailer_after_play&
 ||douban.com/view/dale-online/dale_ad
 ||douban.com^*/fm_bgad.js
@@ -4216,7 +4215,6 @@ yydstxt*.com/js/html
 ||koyi.pub/wp-content/plugins/dh-anti-adblocker/
 ||koyso.com/aclib.js
 ||koyso.com/static/js/abcd.
-||kpopsingers.com/*.php?t=
 ||kppt.cc/zb_system/script/common.js
 ||kppt.cc/zhifu.jpg
 ||krakenfiles.com/assets/js/adb.js
@@ -5206,6 +5204,7 @@ yydstxt*.com/js/html
 ||ruiwen.com/jscss/
 ||ruiwen.com/sp/
 ||rule34.xxx/images/r34_doll.png
+||rule34.xxx/x/cookiefreead.js
 ||rule34video.com/images/advertisements/
 ||runmang.vip/img/
 ||runoob.com/images/re/
@@ -5547,7 +5546,6 @@ yydstxt*.com/js/html
 ||supfree.net/top.gif
 ||supfree.net/xxx/
 ||sw76r85eda3k.com/need/h5.
-||sweetalert2.github.io/images/sponsors/
 ||swoole.com/_images/kundian
 ||swoole.com/_images/w7.jpg
 ||sxeimg.com/u/20191108/13082210.gif

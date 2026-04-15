@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-15 01:15:18 UTC
-! Total Rules: 11655
+! Last Updated: 2026-04-15 12:54:34 UTC
+! Total Rules: 11658
 ! Expires: 5 days
 &&sub19=undefined&sub20=undefined
 &action=js_stats
@@ -7197,6 +7197,7 @@ t.yesware.com
 ||ingesteer.services-prod.nsvcs.net/rum_collection|
 ||ingestion.sportskeeda.com/logviewedpage
 ||ingress.pressreader.com/services/track
+||ingress.rebelboost.com/_ingest-rbst-stats?
 ||ingwb.com/*/ingwb-webtrekk
 ||init.voz.party/info_hex.js
 ||injapan.com/rest/*/track?*&callback=
@@ -9462,6 +9463,7 @@ t.yesware.com
 ||sankei.co.jp/js/analytics/
 ||sankei.co.jp/js/privacy/sando.js
 ||sanoma.nl/pixel/
+||sante.quebec/dist/client-telemetry*.js
 ||sanyo-railway.co.jp/*/analytics.js
 ||sapo.*/clk?u=
 ||sapo.pt/projects/sapoabd/
@@ -10804,6 +10806,7 @@ t.yesware.com
 ||ubereats.com/_errors
 ||ubereats.com/_events
 ||ubereats.com/_track
+||ubisoft.com/*/global/tracking/
 ||ubt.tracking.shopee.
 ||uc.cn/collect?
 ||uc.shiprocket.in/v1/track/

@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-15 01:15:18 UTC
-! Total Rules: 118020
+! Last Updated: 2026-04-15 12:54:34 UTC
+! Total Rules: 118024
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -106794,6 +106794,7 @@ zonedirector.avadacom.com$image
 ||content.garena.com/shopee/track_config/
 ||content.kaspersky-labs.com/public/analytics-scripts/analytical_functions.js
 ||content.mql5.com/tr?
+||content.powerapps.com/resource/powerappsportal/dist/client-telemetry*.js$domain=sante.quebec
 ||content22.citi.eu^$script
 ||content22.citibank.com.sg^$script
 ||contentdriver.com/api/impression
@@ -110006,6 +110007,7 @@ zonedirector.avadacom.com$image
 ||ingesteer.services-prod.nsvcs.net/rum_collection|
 ||ingestion.sportskeeda.com/logviewedpage
 ||ingress.pressreader.com/services/track
+||ingress.rebelboost.com/_ingest-rbst-stats?
 ||ingwb.com/*/ingwb-webtrekk
 ||inimbus.com.au^$third-party
 ||inistrack.net^$third-party
@@ -114122,6 +114124,7 @@ zonedirector.avadacom.com$image
 ||sankei.co.jp/js/analytics/
 ||sankei.co.jp/js/privacy/sando.js
 ||sanoma.nl/pixel/
+||sante.quebec/dist/client-telemetry*.js
 ||sanyo-railway.co.jp/*/analytics.js
 ||sapha.com^$third-party
 ||sapo.*/clk?u=
@@ -116583,6 +116586,7 @@ zonedirector.avadacom.com$image
 ||ubertags.com^$third-party
 ||ubertracking.info^$third-party
 ||ubiquitousyard.com^$third-party
+||ubisoft.com/*/global/tracking/
 ||ubt.tracking.shopee.
 ||uc-file.at.ua/stat/$third-party
 ||uc.cn/collect?
