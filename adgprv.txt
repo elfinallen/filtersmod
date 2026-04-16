@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-16 01:20:08 UTC
-! Total Rules: 11658
+! Last Updated: 2026-04-16 12:59:09 UTC
+! Total Rules: 11660
 ! Expires: 5 days
 &&sub19=undefined&sub20=undefined
 &action=js_stats
@@ -8829,6 +8829,7 @@ t.yesware.com
 ||player-feedback-mds.glomex.com/pf/?clientname=
 ||player-files.remixd.com/ping.gif
 ||player.hdgay.net/cdn-cgi/trace
+||player.instaread.co/js/inarticle-metrics.js
 ||player.ivideosmart.com/ivsplayer/*/moat-tracker.js
 ||player.javboys.cam/cdn-cgi/trace
 ||player.kwikmotion.com/packages/videojs-stat/
@@ -10984,6 +10985,7 @@ t.yesware.com
 ||vid.me/api/metric
 ||vid.media.cm/m.js
 ||vidads.gr/imp/
+||vidazoo.com/aggregate
 ||vidazoo.com/aggregate?
 ||vidazoo.com/event/
 ||vidazoo.com/report/?

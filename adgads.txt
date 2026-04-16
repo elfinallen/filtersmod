@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-16 01:20:08 UTC
-! Total Rules: 6335
+! Last Updated: 2026-04-16 12:59:09 UTC
+! Total Rules: 6340
 ! Expires: 5 days
 &ag_custom_vlmspot=
 &js_build=iclick-
@@ -1832,6 +1832,7 @@ yydstxt*.com/js/html
 ||a.jyeoo.com/js?
 ||a.pemsrv.com/popunder*.js
 ||a.spolecznosci.net/pet?
+||a1tb.com/300x250ntv
 ||a5xiazai.com/z/
 ||aaaimg.com/images*.gif
 ||aaread.space/images/*0.gif
@@ -2074,6 +2075,7 @@ yydstxt*.com/js/html
 ||apk-01.oss-cn-beijing.aliyuncs.com/dp/
 ||apk.tw/static/js/showpic.js
 ||app-g.39.net/nnn/
+||app.torbobit.net/api/ads/
 ||apple886.com/subs/*.js
 ||apppc.chinaz.com/statics/images/tuan
 ||apptry.easylife.tw/pub/js/common/common.js
@@ -2483,6 +2485,7 @@ yydstxt*.com/js/html
 ||caibaojian.com/d/uploads/*0-
 ||caikuu.com/ckimages/*_gg
 ||caikuu.com/ckimages/*_zg
+||caitlin.top/catalog/view/core/comic/fc.js
 ||caixin.com/s?z=
 ||camspacelive.com/widgets/
 ||camspic.com/imguang/*.gif
@@ -4212,6 +4215,7 @@ yydstxt*.com/js/html
 ||kocpc.com.tw/adsbyso.js
 ||komiic.com/ads/
 ||kostool.cn/screenshot/
+||kovla.com/static/js/popunder
 ||koyi.pub/wp-content/plugins/dh-anti-adblocker/
 ||koyso.com/aclib.js
 ||koyso.com/static/js/abcd.
@@ -4772,7 +4776,6 @@ yydstxt*.com/js/html
 ||okbmf.com/imgad/
 ||okbmf.com^*950_120
 ||okmp3.ru/js/plears.js
-||okokserver.com/uploads/haigou.
 ||okokserver.com/uploads/lesi/
 ||okooo.com/i/?method=system.data.ad&
 ||olehdtv.com/index.php/index/userss|
@@ -4797,6 +4800,7 @@ yydstxt*.com/js/html
 ||opti-digital.com/js/presync.html
 ||opticsky.cn/images/2015/gy-px201
 ||optiklink.com/arlinablock.js
+||orangebuddies.nl/image/banners/
 ||oremanga.net/wp-content/uploads/*.gif
 ||orzx.im/document/recommend/flashpoint.html
 ||orzx.im/document/union/
@@ -5139,6 +5143,7 @@ yydstxt*.com/js/html
 ||rawcdn.githack.com/*/arlinablock.js
 ||rawcdn.githack.com/sanjoy944/jonaki/*/adblockerpupup.js
 ||readcomiconline.li/ads/
+||realmadryt.pl/build/assets/articlegate-*.js
 ||realmadryt.pl/img/banners/
 ||receivefreesms.co.uk/adblk/adblk_enc.js
 ||reddit.com/api/request_promo.json
@@ -5598,7 +5603,6 @@ yydstxt*.com/js/html
 ||tcz.pl/*/reklama*.php
 ||techritual.com/wp-content/uploads/*/hdcource_
 ||techug.com/aatb/
-||templetoons.com/api/ads/
 ||tencent-cloud.com/s9m1/12f70718c866ea3e5f22c68e6a34c54f.
 ||tencent-cloud.com/s9m1/54cb71aff82cfd690619065f2e31c346.
 ||tengfangyun.com/attachment/*/w_1200
@@ -5712,7 +5716,6 @@ yydstxt*.com/js/html
 ||trip.com/partners/ad/
 ||trstx.org/overroll/
 ||truex.com/js/client.js
-||truvidplayer.com/v*/v.php?*&adid=
 ||truyensex*/anh/
 ||trvl-px.com/trvl-px/
 ||tsdm39.com/img01/mp3/gg/
@@ -5749,6 +5752,7 @@ yydstxt*.com/js/html
 ||tw.buy.yahoo.com/?z=
 ||tw.live/assets/images/fsk-0*.webp
 ||twavtv.com/js/jquery.colorbox
+||twincdn.com/video/preroll_
 ||twitter.com/*/videoads/
 ||twkan.com/js/otherad
 ||twunbbs.com/images/
@@ -5995,6 +5999,7 @@ yydstxt*.com/js/html
 ||xbiqu5.com/12345678.
 ||xbiquge99.cc/js/dj
 ||xbiqugela.com/js/basisc.
+||xbooru.com/ex.js^
 ||xbqg6.com/*.php
 ||xcafe.com/*.php
 ||xcafe.com/assets/script.js
