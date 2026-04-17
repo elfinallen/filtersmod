@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-16 12:59:09 UTC
-! Total Rules: 118030
+! Last Updated: 2026-04-17 01:17:44 UTC
+! Total Rules: 118033
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -103911,6 +103911,7 @@ zonedirector.avadacom.com$image
 ||actu.fr/assets/js/smarttag5280-1.js
 ||acuityplatform.com^$third-party
 ||acuris.com/wat/v2/data-event
+||acustomizedgift.com^$redirect=noopjson,xmlhttprequest
 ||acustomizedgift.com^$~xmlhttprequest
 ||acweb.clog.jp^$third-party
 ||acxiom-online.com^$third-party
@@ -105593,7 +105594,6 @@ zonedirector.avadacom.com$image
 ||bluecounter.de^$third-party
 ||bluekai.com^$third-party
 ||blueknow.com^$third-party
-||blushingbread.com^$~script
 ||blvdstatus.com^$third-party
 ||bm-rx.atatus.com^$third-party
 ||bm.adentifi.com^$third-party
@@ -105633,6 +105633,7 @@ zonedirector.avadacom.com$image
 ||bonnieradnetwork.se^$third-party
 ||bonprix.*/ajax/landmarks/
 ||bonprix.*/ajax/marketing-parameters/
+||bonuscake.ru^$third-party
 ||bonuscounter.de^$third-party
 ||book.naver.com/monitor/cc
 ||booking.com/*/track^
@@ -110538,6 +110539,7 @@ zonedirector.avadacom.com$image
 ||kimbino.$cookie=/^kim-tracker/
 ||kimonix.com/analytics/
 ||kindernetz.de/static/tracking/xtclicks.js
+||kindhush.com^$redirect=noopjson,xmlhttprequest
 ||kindhush.com^$~xmlhttprequest
 ||kinja.com/api/analytics/
 ||kino.de/api/core/tracking^
@@ -115199,6 +115201,7 @@ zonedirector.avadacom.com$image
 ||static.qiyi.com/js/pingback/
 ||static.quiq-cdn.com/chat-ui/plugin-google-analytics-*.js
 ||static.read.tools/stats.min.js
+||static.rebelboost.com/tracking/
 ||static.rendeljkinait.hu/plugins/rendeljkinait-base-setup/widgets/package-tracking-widget/
 ||static.republika.co.id/js/tracker.js
 ||static.rtrp.jp/static/js/googletagmanager.*.js
