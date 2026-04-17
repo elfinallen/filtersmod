@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-17 01:17:44 UTC
-! Total Rules: 6340
+! Last Updated: 2026-04-17 12:50:53 UTC
+! Total Rules: 6343
 ! Expires: 5 days
 &ag_custom_vlmspot=
 &js_build=iclick-
@@ -2567,7 +2567,6 @@ yydstxt*.com/js/html
 ||cdn.staticmoly.me/vlock.php?
 ||cdn.tapioni.com/asg_embed.js
 ||cdn.telekomunikace.cz/banners
-||cdn.thrad.ai/ptag.min.js
 ||cdn.uameta.ai/file/bucket-media/image/advertisement/
 ||cdn.viously.com/js/sdk/boot.js
 ||cdn.wo.cc/wo.js
@@ -3478,6 +3477,7 @@ yydstxt*.com/js/html
 ||guangzhoubingqing.com/88888.jpg
 ||gucheng.com/2016/ggimg/
 ||gucheng.com/gcwad/
+||guessthe.game/ads/
 ||guhai.com.cn/ad/
 ||guifun.com/psptool/ad/
 ||guilin-ly.com^*.gif
@@ -3589,7 +3589,6 @@ yydstxt*.com/js/html
 ||hentaicomic.*/data/ds/
 ||hentaicomic.*/data/game/*/wap.gif
 ||hentaifox.com/js/slider.js
-||hentaihand.com/api/featured
 ||hentaivideos.net/imp/
 ||hexun.*/hxpage/index.html
 ||hexun.com*/hx_news/hx_news_finalpage.js
@@ -3973,6 +3972,9 @@ yydstxt*.com/js/html
 ||jandan.net^*/moyu.png
 ||jav.sb/videojs/300x100.php
 ||jav101.com/img5bbb0096f242f.gif
+||jav123hd.com/wp-content/uploads/*ads*.mp4
+||jav123hd.com/wp-content/uploads/game2.mp4
+||jav24hda.com/wp-content/uploads/*.gif
 ||javazhijia.com/skin/
 ||javbooks.com/52toy/
 ||javenglish.cc/terra.js
@@ -4658,7 +4660,6 @@ yydstxt*.com/js/html
 ||mydyxs.com/mpc/
 ||myhack58.com/articleacb0
 ||myhaitang.cc/assets/public/*.js
-||mykadri.tv/preroll/
 ||mylomza.pl/static/files/inline_images/*/inline__
 ||mylust.com/*.jsx
 ||mylust.com/assets/script.js^
@@ -5274,6 +5275,7 @@ yydstxt*.com/js/html
 ||sdzbcg.com/images/sdfhyl
 ||se533.com/template/new/css/*.js
 ||search.brave.com/api/ads/
+||secrets.ai/ads/
 ||secured.dailymail.co.uk/feeds/commercial/topvideos.json
 ||seectech.cn/scm/ad/list
 ||seek68.cn/img/*.gif
@@ -5555,6 +5557,7 @@ yydstxt*.com/js/html
 ||swoole.com/_images/w7.jpg
 ||sxeimg.com/u/20191108/13082210.gif
 ||sxyprn.*/js/fad.json
+||sya.mbuh.my.id/siap/*-ainzscan.js
 ||symbaloo.com/static/banners/*/pwhomepage.js
 ||syri.net/marketing/a.php?
 ||syseen.com/content/uploadfile/*/hongbao.png

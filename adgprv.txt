@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-17 01:17:44 UTC
-! Total Rules: 11661
+! Last Updated: 2026-04-17 12:50:53 UTC
+! Total Rules: 11664
 ! Expires: 5 days
 &&sub19=undefined&sub20=undefined
 &action=js_stats
@@ -4479,6 +4479,7 @@ t.yesware.com
 ||aviasales.*-analytics.
 ||aviasales.*/analytics_pv.
 ||aviasales.*/sentry-replay.
+||avito.ru/clickstream/events/
 ||avito.ru/stat/
 ||avito.st/mstatic/build/legacy/*/fingerprint.*.js
 ||avito.st/s/pixel/script.js
@@ -4962,6 +4963,7 @@ t.yesware.com
 ||cdn.adrise.tv/*/appboy.min.js
 ||cdn.adrise.tv/*/sentry/
 ||cdn.almamedia.tech/esm/geo-client/
+||cdn.amplitude.com/engagement-browser/
 ||cdn.amplitude.com/libs/analytics-browser-*-min.js
 ||cdn.ampproject.org/*/amp-analytics-
 ||cdn.ampproject.org/*/analytics-vendors/metrika.json
@@ -11388,6 +11390,7 @@ t.yesware.com
 ||www.digikey.*/lo2z493j/init.js
 ||www.ebay.*/gh/dfpsvc?
 ||www.google.*/velog/
+||www.history.com/editorial/vendor/
 ||www.mouser.*/4uazuiai/init.js
 ||www.uz/counter/collect?
 ||www002.commutil.kr/adlog/adlog_arrviewset.php
