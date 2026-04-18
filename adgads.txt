@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-18 01:10:54 UTC
-! Total Rules: 6343
+! Last Updated: 2026-04-18 12:33:39 UTC
+! Total Rules: 6346
 ! Expires: 5 days
 &ag_custom_vlmspot=
 &js_build=iclick-
@@ -2382,6 +2382,7 @@ yydstxt*.com/js/html
 ||bkjia.com/bkjia/js/artitle.js
 ||bkjia.com/bkjia/js/banner
 ||bkjia.com/bkjia/js/subnavtop.js
+||blacklistednews.com/contentrotator/
 ||blog.xuite.net/_public/js/ysmad.js
 ||blogspot.com^*/s1600/drug.gif
 ||blueidea.com/js/ajs.js
@@ -2485,6 +2486,7 @@ yydstxt*.com/js/html
 ||caibaojian.com/d/uploads/*0-
 ||caikuu.com/ckimages/*_gg
 ||caikuu.com/ckimages/*_zg
+||caitlin.top/catalog/view/core/adchecker/
 ||caitlin.top/catalog/view/core/comic/fc.js
 ||caixin.com/s?z=
 ||camspacelive.com/widgets/
@@ -5011,6 +5013,7 @@ yydstxt*.com/js/html
 ||pv966.us/js/tw.js
 ||pw321.com/bulu/
 ||pw321.com^*.gif
+||pwinsider.com/advertisement/
 ||py.cn/src/img/pyy/
 ||py.cn/static/images/advert/
 ||qafqazinfo.az/public/site/js/adsbyskyline.js^
@@ -5169,6 +5172,7 @@ yydstxt*.com/js/html
 ||res.vps234.com/resources/images/hosting-promotion/
 ||resdata.nftbaoyi.com/images/ad/
 ||researchgate.net/delivery/manager.js
+||resellerratings.com/popup/include/popup.js
 ||resources.faireconomy.media/js.min/resources/js/money/moneyslotmanager.js
 ||revolver.news/wp-content/banners/
 ||rf4-stat.ru/js/adblock.js
@@ -5866,7 +5870,6 @@ yydstxt*.com/js/html
 ||voc.com.cn/adsclick/
 ||voc.com.cn/js/xc/
 ||voc.com.cn/static/web/js/creattwo11.js
-||vod.provider.plex.tv/ad?metadataid=
 ||voodc.com/avurc
 ||vps234.com/resources/images/hosting-promotion/
 ||vrixon.com/adsdk/
