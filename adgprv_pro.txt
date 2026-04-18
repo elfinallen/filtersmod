@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-17 12:50:53 UTC
-! Total Rules: 118038
+! Last Updated: 2026-04-18 01:10:54 UTC
+! Total Rules: 118047
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -104069,6 +104069,7 @@ zonedirector.avadacom.com$image
 ||adsolutions.com^$third-party
 ||adspsp.com^$third-party
 ||adsrvr.org^$third-party
+||adssistem.com^$third-party
 ||adstat.4u.pl^$third-party
 ||adsystem.dailyissue.co.kr/show/logs.php
 ||adtarget.me^$third-party
@@ -104150,6 +104151,7 @@ zonedirector.avadacom.com$image
 ||affistats.com^$third-party
 ||afftrack.pro^$third-party
 ||afi-b.com^$third-party
+||afilio.com.br^$third-party
 ||afisha.ru^$cookie=_afuid
 ||afisha.ru^$cookie=_eggdeviceuuid
 ||afisha.ru^$cookie=_egguid
@@ -105429,6 +105431,7 @@ zonedirector.avadacom.com$image
 ||betano.de^*?btag=$subdocument,third-party
 ||betarget.com^$third-party
 ||betarget.de^$third-party
+||betsmart.media^$third-party
 ||betteranime.net/js/ga-lite.min.js
 ||bettermeter.com^$third-party
 ||beusable.net^$third-party
@@ -106384,6 +106387,7 @@ zonedirector.avadacom.com$image
 ||classic.comunio.de/external/ct^
 ||classistatic.com^*/js/lib/prebid-7.5.0.min.js$script,domain=kijiji.ca
 ||classy-online.jp/wp-content/plugins/wp-associate-post-r2/js/click-tracking.js
+||claude.ai/api/event_logging/
 ||claude.ai/sentry^
 ||claydar.com^$third-party
 ||clck.dzen.ru/click/$ping
@@ -109659,6 +109663,7 @@ zonedirector.avadacom.com$image
 ||hub.npo-data.nl/tags/tag.min.js
 ||hub.reacti.co/index.js
 ||hubble.netease.com^$third-party
+||hubdigitalads.com^$third-party
 ||hubpages.com/ctracker/
 ||hubpd.com^$third-party
 ||hubrus.com^$third-party
@@ -111183,6 +111188,7 @@ zonedirector.avadacom.com$image
 ||mail.yandex.*/monitoring_liza.txt$domain=mail.yandex.by|mail.yandex.kz|mail.yandex.ru|mail.yandex.com|mail.yandex.com.tr
 ||mail.yandex.*/web-api/journal/v1?_m=do-client-log
 ||mailchimp.com^$cookie=_mcid
+||mailinbox.com.br^$third-party
 ||maillist-manage.com/wa/actionlogger?
 ||maillist-manage.eu/*/actionlogger?
 ||maillist-manage.eu/wa/actionlogger?
@@ -111378,6 +111384,7 @@ zonedirector.avadacom.com$image
 ||mediabong.com/t/
 ||mediabong.net/t/
 ||mediachat.ru/cnt
+||mediaconvertly.com^$third-party
 ||mediadelivery.net/.metrics/
 ||mediadelivery.net/rum.js
 ||mediaforgews.com^$third-party
@@ -114005,6 +114012,7 @@ zonedirector.avadacom.com$image
 ||rv.modanisa.com^$script
 ||rzd-partner.ru/events/
 ||rztrkr.com^$third-party
+||s-cdn.anthropic.com/s.js
 ||s-cdn.phonearena.com/js/ops/taina.js
 ||s-cdn.sportbox.ru/sites/all/libraries/design/*/js/user-tracking.global.js
 ||s-microsoft.com/mscc/$~stylesheet
@@ -117411,6 +117419,7 @@ zonedirector.avadacom.com$image
 ||westjr.co.jp/*/analyze_tag.js
 ||wetpaint.com^*/track?
 ||wetransfer.com/api/web-metrics
+||wewomedia.com^$third-party
 ||wf-box.net/sandboxed_ad_vendor_iframe.html
 ||wfinterface.com/tracking/$domain=wellsfargo.com
 ||wfla.com/cvbtpurj/init.js
