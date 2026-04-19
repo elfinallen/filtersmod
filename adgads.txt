@@ -1,7 +1,7 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-19 01:19:57 UTC
+! Last Updated: 2026-04-19 12:32:31 UTC
 ! Total Rules: 6346
 ! Expires: 5 days
 &ag_custom_vlmspot=
@@ -1085,7 +1085,6 @@
 =sogou_wap_setjsonadslot&
 ?method=baidu.ting.commercial.tactics&
 ?usid=*&utid=
-?wpstealthadsjs=
 _120_600.
 _120_600_
 _120x240.
@@ -5158,7 +5157,6 @@ yydstxt*.com/js/html
 ||reef2reef.com/data/siropu/am/user/
 ||refershareus.xyz/ads?
 ||refinery89.com/performance/
-||reiclub.com/templates/interviews/exit_popup/
 ||rentalcars.com/partners/
 ||rentiyishu.org/*.js
 ||renwai.ren/cdn/pic/ad
@@ -5453,7 +5451,6 @@ yydstxt*.com/js/html
 ||sooopu.com/asphtml/plnew.
 ||sooopu.com/js/*950.js
 ||sooopu.com/js/contentad330.js
-||souche.com^*.gif
 ||soufunimg.com/imgd/viewimage/*/640x210
 ||souka.me/ad/
 ||soulu365.com/images/zhuce.jpg
@@ -5519,6 +5516,7 @@ yydstxt*.com/js/html
 ||stockstar.com/*duilian&t=
 ||stockstar.com/api/?id=
 ||stockstar.com/info/1200x90/
+||storage.googleapis.com/admaxvaluemedia/
 ||storage.googleapis.com/adtags/
 ||storage.googleapis.com/pravda-ad-script/
 ||store.7box.vip/ad/
@@ -5626,6 +5624,7 @@ yydstxt*.com/js/html
 ||thehentaiworld.com/fro_lo*.js
 ||thehun.net/banners/
 ||thekav.co/myexo/
+||themespixel.net/banners/
 ||thephuketnews.com/photo/banner/
 ||theporn.xyz/static/bet365.gif
 ||theporn.xyz/static/tmp/
@@ -5719,6 +5718,7 @@ yydstxt*.com/js/html
 ||tranny.one/trannystatic/ads/
 ||trannygem.com/ai
 ||trans.firm.in/*.js
+||travel.mediaalpha.com/js/serve.js
 ||trendmicro.com.tw/wp-content/uploads/*banner
 ||trip.com/partners/ad/
 ||trstx.org/overroll/

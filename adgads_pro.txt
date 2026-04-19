@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-19 01:19:57 UTC
-! Total Rules: 9973
+! Last Updated: 2026-04-19 12:32:31 UTC
+! Total Rules: 9976
 ! Expires: 5 days
 $cookie=/adb\.key/,domain=expres.cz|televizeseznam.cz|ahaonline.cz|extra.cz|mobilmania.cz|idnes.cz|aktuality.sk|aktualne.cz|blesk.cz|centrum.cz|cnews.cz|e15.cz|karaoketexty.cz|novinky.cz|sport.cz|super.cz|tiscali.cz|zive.cz|antiyoutuber.cz|fights.cz|metro.cz
 $cookie=__adblocker,domain=slate.com|thehindubusinessline.com
@@ -458,7 +458,6 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 .shop/tsk/$third-party
 .sinaimg.cn/large/008qc0lfgy1hyp0pc9jz3g30jg01otpp.
 .site:20443/*.js^$script,third-party
-.so0*koaq.com/$script,xmlhttprequest,third-party
 .st/ads/
 .tech/c/$script,third-party
 .test15./
@@ -731,6 +730,7 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 /^https:\/\/mkvcinemas\.[a-z]+\/data\/cache\/min\/1\/[a-f0-9]{8}\.js/$script,domain=mkvcinemas.*
 /^https:\/\/www\.38ksw\.com\/public\/[0-9]+\.js/$domain=38ksw.com
 /^https:\/\/www\.[0-9a-z-]{6,}\.xyz\/script\/[-.0-9a-za-z]+\.[a-za-z-]{2,30}\.js$/$script,third-party,match-case
+/^https:\/\/www\.[a-z]{8,9}\.com\/[a-z]+\.js$/$domain=pornhoarder.net
 /^https:\/\/www\.xiguashuwu\.com\/[a-z]{15,20}\/[a-z]{15,20}\.js\?v=/$script,domain=xiguashuwu.com
 /^https:\/\/x?1337x\.(?:eu|g3g\.sbs|gd|to|se|unblockit\.name|st)\/(?:css\/)?(?:images\/)?[0-9a-z]+\.(?:gif|jpe?g|png)/$image,~third-party,domain=1337x.st|1337x.to|1337xx.to|x1337x.eu|x1337x.ws|1337x.unblock2.xyz
 /^https:\/\/zz\d{4}bb\d{4}\.com/$third-party,image
@@ -949,7 +949,6 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 /aeiou/*$domain=discuss.com.hk|uwants.com
 /aero_modernv2/js/0.js|$domain=aeroinsta.com
 /afd/entry
-/aff/images/*$image
 /aff_ad?$script
 /affiliate/banner/*$image
 /affiliate/banners/*$image
@@ -2285,7 +2284,6 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 ?service=ad&$script
 ?usid=*&utid=
 ?wppaszoneid=$subdocument
-?wpstealthadsjs=
 ^kklq0*p0i.com/$script,xmlhttprequest,third-party
 ^niu0*jd.top/$script,xmlhttprequest,third-party
 ^ouqo0*luj.com/$script,xmlhttprequest,third-party
@@ -3404,6 +3402,7 @@ yydstxt*.com/js/html
 ||adult-sex-games.com/images/adult-games/
 ||adultfilmdatabase.com/graphics/porndude.png
 ||adultforce.com^$third-party
+||adultfriendfinder.com/banners/$popup,third-party
 ||adultsclips.com^$third-party
 ||adunite.com^$third-party
 ||adup-tech.com^$third-party
@@ -4189,6 +4188,7 @@ yydstxt*.com/js/html
 ||browserscan.net/dist/adspower_zh.
 ||bs.baidu.com/app-ads%
 ||bscscan.com/images/gen/*.gif
+||bstatic.com^$script,domain=abril.com.br
 ||bt-tt.com/ad
 ||bt.cn/bbs/newsimg/
 ||bt.co/adzerk/$app=utorrentie.exe
@@ -4273,6 +4273,7 @@ yydstxt*.com/js/html
 ||caltat.com^$third-party
 ||camghosts.com^$third-party
 ||camonster.io^$domain=hardgif.com
+||campaigns.yad2.co.il^$domain=walla.co.il
 ||cams.imagetwist.com/in/?track=$subdocument
 ||camspacelive.com/widgets/
 ||camspic.com/imguang/*.gif
@@ -4824,6 +4825,7 @@ yydstxt*.com/js/html
 ||dataguru.cn/site_
 ||dataoke.com/api/component/code-info/v1?
 ||datawrkz.com^$third-party
+||datoporn.com^$popup
 ||daweijita.com/201*430.
 ||daweijita.com/201*ad.
 ||daweijita.com/2014/08/ad_head
@@ -4889,7 +4891,6 @@ yydstxt*.com/js/html
 ||dianomi.com^$third-party
 ||dianping.com/mkt/ajax/getnewitems
 ||dianping.com/wedding/pro/jsonppage
-||dianxin.com^$third-party
 ||dianyingim.com/statics/recommend/
 ||diaoyu123.com/cpro/show.js
 ||dict.youdao.com/vip/privilege/show/v*?bannertype=fanyitop$domain=fanyi.youdao.com
@@ -6903,7 +6904,6 @@ yydstxt*.com/js/html
 ||linkslot.ru^$third-party
 ||linksprf.com^$document
 ||linkspy.cc/js/fullpagescript.min.js
-||linkvans.com^$third-party
 ||linkwan.com/gb/broadmeter/speed/cp.js
 ||linkwan.com/gb/javascript/a
 ||linkwan.com/gb/javascript/b4.js
@@ -7066,7 +7066,6 @@ yydstxt*.com/js/html
 ||mainexclkdir.com^$popup
 ||makaidong.com/img/
 ||malavida.com/*/download$document,replace=/\(popupon\)/(false)/
-||malavida.com/jsu_$script
 ||malimali5.com/ad1.png
 ||mall.xinkuaituan.com/zhuanti/
 ||mamecn.com/style/pcjs/bgimg.
@@ -7855,6 +7854,7 @@ yydstxt*.com/js/html
 ||playinfo.gomlab.com^$app=gom.exe
 ||playmatic.video^$third-party
 ||plibcdn.com/templates/base_master/js/jquery.shows2.min.js
+||plinksplanet.com^$document
 ||pluto.tv/*/dash/*/*.mpd$replace=/<period.{1\,100}?><baseurl>.{1\,100}\.plutotv\.net\/.{1\,50}_ad\/.*?<\/baseurl>[\s\s]*?<\/period>//
 ||pluto.tv/*/session.json$jsonprune=\$.adbreak.*
 ||pluto.tv/*/session.json$jsonprune=\$.adbreaklocations.*
@@ -8122,6 +8122,7 @@ yydstxt*.com/js/html
 ||qtmojo.com^$third-party
 ||quanta.la^$third-party
 ||quantumdex.io^$third-party
+||quantumws.net^$third-party
 ||quebecormedia.com/*/lib/cheezwhiz/*index.js
 ||quge66.com/jdjd/
 ||qunar.com/render/*advertisement.jsp?
@@ -8189,7 +8190,6 @@ yydstxt*.com/js/html
 ||refershareus.xyz/ads?
 ||refinery89.com/performance/
 ||registry.api.cnn.io/bundles/fave/latest-*.x/js$replace=/prod:{clips:{enabled:!0/prod:{clips:{enabled:!1/,domain=cnn.com
-||reiclub.com/templates/interviews/exit_popup/
 ||reklama.shinden.eu^$domain=shinden.pl,important
 ||remehealth.net^$third-party
 ||rentalcars.com/partners/
@@ -8422,6 +8422,7 @@ yydstxt*.com/js/html
 ||sex8.cc/plugin-e6-rebate.html
 ||sexad.net^$third-party
 ||sexbarss.net/wap/
+||sexcams-24.com/contents/other/player/$media
 ||sexflirtbook.com^$popup
 ||sexintheuk.com^$popup
 ||sextvx.com/ads/
@@ -8640,7 +8641,6 @@ yydstxt*.com/js/html
 ||sooopu.com/js/contentad330.js
 ||soorbka.cn^$third-party
 ||soranews24.com/_static/$replace=/(!1|!0!)=?==sco\.imglazyload/1===1/,script
-||souche.com^*.gif
 ||soufunimg.com/imgd/viewimage/*/640x210
 ||souka.me/ad/
 ||soulu365.com/images/zhuce.jpg
@@ -8771,6 +8771,7 @@ yydstxt*.com/js/html
 ||stockstar.com/*duilian&t=
 ||stockstar.com/api/?id=
 ||stockstar.com/info/1200x90/
+||storage.googleapis.com/admaxvaluemedia/
 ||storage.googleapis.com/adtags/
 ||storage.googleapis.com/pmd-dev-northamerica-northeast1-asset-ads-pub/$domain=remembering.ca
 ||storage.googleapis.com/pravda-ad-script/
@@ -8943,6 +8944,7 @@ yydstxt*.com/js/html
 ||thehentaiworld.com/fro_lo*.js
 ||thehun.net/banners/
 ||thekav.co/myexo/
+||themespixel.net/banners/
 ||themezon.net^$replace=/window\.open\(/\/\/window.open(/,document
 ||themoneytizer.com^$third-party
 ||thephuketnews.com/photo/banner/
@@ -9085,6 +9087,7 @@ yydstxt*.com/js/html
 ||trannygem.com/ai
 ||trans.firm.in/*.js
 ||transfermarkt.com.tr^$replace=/<tm-consent[\s\s]*?<\/tm-consent>(<!doctype html>)/\$1/,document
+||travel.mediaalpha.com/js/serve.js
 ||travelpayouts.com/widgets/$domain=news.milli.az
 ||trck.wargaming.net^$popup
 ||trebleperfect.com^$third-party
