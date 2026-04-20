@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-20 01:20:08 UTC
-! Total Rules: 11668
+! Last Updated: 2026-04-20 12:59:56 UTC
+! Total Rules: 11678
 ! Expires: 5 days
 &&sub19=undefined&sub20=undefined
 &action=js_stats
@@ -4837,6 +4837,7 @@ t.yesware.com
 ||byteoversea.com/monitor_web/
 ||bz-berlin.de/_stats/
 ||bzpics.com/jslib/st.js?
+||bzrcdn.openai.com/sdk/oaiq.min.js
 ||c-date.*/customerm/
 ||c-date.at/sites/c-date.ch/modules/tracking
 ||c-date.com/pixel/
@@ -5198,6 +5199,8 @@ t.yesware.com
 ||citysearch.com/tracker/
 ||cityzen.io/pixel/
 ||civicscience.com/jot?
+||civitai.*/api/page-view
+||civitai.*/api/trpc/track.addview
 ||civitai.com/api/page-view
 ||civitai.com/api/trpc/track.addview
 ||cjdropshipping.com/common-public/fingerprintjs
@@ -5922,6 +5925,7 @@ t.yesware.com
 ||duckduckgo.com/t.js?q=
 ||duckduckgo.com/t/
 ||duckduckgo.com/y.js?ifu=
+||ducttapeai.com/api/tracking/event
 ||dud.allarknow.online/stat
 ||duer.ca/cdn/shopifycloud/media-analytics/
 ||dugout.co/das2.js
@@ -6088,7 +6092,7 @@ t.yesware.com
 ||epimg.net/js/vr/vrs.
 ||episerver.net/ia.gif?r=
 ||episerver.net/ia.js
-||epochtimes.de/mp/track/
+||epochtimes.de/epoch-mp/epoch_mp.min.js
 ||epoq.de/inbound-servletapi/event?
 ||eporner.com/beacon.php
 ||epromote.co.za/track/
@@ -6313,6 +6317,7 @@ t.yesware.com
 ||filecrypt.cc/bla2.php
 ||filecrypt.cc/muh.php
 ||filecrypt.cc/surething.php
+||fileditchfiles.me/api/plausible
 ||files.cdn.spilcloud.com/*_adomic_hb_analytic.js
 ||files.envoke.com^*_nvk_tracking.js
 ||files.metropoles.com/static/comscore.js
@@ -6905,6 +6910,7 @@ t.yesware.com
 ||hktvmall.com/_ui/shared/common/js/analytics/with-intersection-track.js
 ||hktvmall.com/_ui/shared/common/js/util/jquery.analytics-utils.js
 ||hktvmall.com/api/event
+||hls-beacons-us.xumo.com/hlsstream/v*/beacon?
 ||hltv.org/js/ht.manual.js
 ||hltv.org/js/ht.pageview-props.tagged-events.js
 ||hltv.org/scripts/hltv-tracking.js
@@ -7355,6 +7361,7 @@ t.yesware.com
 ||joann.com/qxtwmr91/init.js
 ||jobkorea.co.kr/net/adbannerapi/adbannerlog
 ||jobs.ch/api/v1/public/product/track/
+||jobs.hanes.com/*/phenomtrack.min.js
 ||jobvite.com/analytics.js
 ||jockey.com/event/
 ||jockey.com/scripts/omt-base.js
@@ -8114,6 +8121,7 @@ t.yesware.com
 ||mollusk.apis.ign.com/metrics/
 ||monetarygoldgroup.com/_ub/
 ||moneycontrol.com/news/services/get_comscore_pageview/
+||moneywise.com/scottie/api/cdp/v1/event|
 ||monipla.com/launch.js
 ||monitor-frontend-collector.a.bybit-aws.com/api/*/batch/
 ||monitor.lifemiles.com/collect
@@ -10627,6 +10635,7 @@ t.yesware.com
 ||toyota.com/analytics/
 ||toyota.jp/pages/contents/include/common/js/tjp_beacon.js
 ||tp-link.com^*/addhits.html
+||tpead.net/stat/
 ||tps.trovaprezzi.it/javascripts/tracking-vanilla.min.js
 ||tpucdn.com/js/ga-*.js
 ||tr.computeruniverse.net/*/hm?p=
@@ -10728,6 +10737,7 @@ t.yesware.com
 ||truthsocial.com/instance/innovid.js
 ||trwl1.com/ascripts/gcrt.js
 ||try.elevenlabs.io/pr/js
+||trygravity.ai/ack?
 ||ts.fi^*/spring.js
 ||tsite.jp/static/analytics/
 ||tsmate.com/api/metrics

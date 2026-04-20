@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-20 01:20:08 UTC
-! Total Rules: 6346
+! Last Updated: 2026-04-20 12:59:56 UTC
+! Total Rules: 6353
 ! Expires: 5 days
 &ag_custom_vlmspot=
 &js_build=iclick-
@@ -488,6 +488,7 @@
 /bbhd_*_kkis.js
 /bcgg/*
 /bg5t4h.oss-
+/bitmovinplayer-advertising-ima.js
 /blgg/*
 /bmqp6001-
 /bmqp6002-
@@ -1878,6 +1879,7 @@ yydstxt*.com/js/html
 ||adult-sex-games.com/images/*.gif
 ||adult-sex-games.com/images/adult-games/
 ||adultfilmdatabase.com/graphics/porndude.png
+||advertising.civitai.
 ||adwordsing.com/img/1.jpg
 ||adwordsing.com/img/2.jpg
 ||aem.three.com.hk/content/three/sosim/app/*/promo-
@@ -2059,6 +2061,7 @@ yydstxt*.com/js/html
 ||api.adultdeepfakes.cam/banners
 ||api.apiimg.com/huaer/xiahe.js
 ||api.bilibili.com/x/ad/
+||api.bo3.gg/api/v*/ad_
 ||api.bo3.gg/api/v1/ad_banners
 ||api.deepai.org/thrad-ad-proxy
 ||api.leakgallery.com/public/lib*.js
@@ -3387,6 +3390,7 @@ yydstxt*.com/js/html
 ||ghost580.com/js/nei4.js
 ||giaoji.com/runtime/js/
 ||gimy.*/images/eee*.png
+||girls-games.org/bnr/
 ||githubusercontent.com/vip888vip/ug/main/*.gif
 ||gjwind.com/xxmh.gif
 ||gk99.com/static/js/a-d-sys.js
@@ -3902,6 +3906,7 @@ yydstxt*.com/js/html
 ||iqiyi.com/show2?cb=
 ||iqnew.com/d/js/m/thea
 ||iqshw.com/d/js/m/thea
+||isekaitube.com/isekaimage.php
 ||ishisetianxia.com/tb.js
 ||ishowx.com/www/2015/js/top.js
 ||isky.ltd/skin/js/ad.js
@@ -4452,6 +4457,7 @@ yydstxt*.com/js/html
 ||m1955.com/template/qq/images/playad/
 ||macd.cn/macd-topads.html
 ||macfans.org/vip/
+||macheforum.com/sponsorship/
 ||macys.com/sitemonetization/v1/sponsored-products/
 ||madnessporn.com/mad/
 ||magedu.com/wp-content/uploads/*/xwzx
@@ -4600,6 +4606,7 @@ yydstxt*.com/js/html
 ||mop.com/newindex/gg.html
 ||moratame.tw/img/contents/banner
 ||mortgagecentres.net/banner.gif
+||motphimr.io/rikvip-
 ||moviechat.org/images/aff
 ||moviekhhd.biz/ads/
 ||movshow.com/*portal/
@@ -4690,7 +4697,6 @@ yydstxt*.com/js/html
 ||natgeomedia.com/js/ads-parallax.
 ||natomanga.com/js/ads/
 ||naughtyblog.org/wp-content/images/k2s/
-||navigator.az//files/banners/
 ||nb.zol.com.cn/detail_*.html
 ||nbastreamswatch.com/z-6229510.js
 ||nbegame.com/nbeos/*.jpg
@@ -5688,6 +5694,7 @@ yydstxt*.com/js/html
 ||tmatch.simba.taobao.com^*&name=tbuad&pid=
 ||tom.com/*tomflashad
 ||tom.com/adsender/
+||tongabonga.com/nudegirls
 ||tonghuacun.com/js/uc.js
 ||tonnn.com/promotion2/*.js
 ||toolbaz.com/assets/js/unblock.js

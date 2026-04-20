@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-20 01:20:08 UTC
-! Total Rules: 118049
+! Last Updated: 2026-04-20 12:59:56 UTC
+! Total Rules: 118064
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -1259,6 +1259,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /api/v3/getpagevisits
 /api/v3/tracksegmentevent
 /api/video/stats/*$xmlhttprequest
+/api/web/v1/tracker$ping
 /api_adlog.php?
 /api_ip_info.php
 /apilog?
@@ -2308,6 +2309,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /hsc/trk/*
 /htdocs/js/admiral/init.js
 /html/js/iter-libraries/iter-statistics.js*$domain=eluniversal.com.co|elcolombiano.com|vanguardia.com.mx
+/https:\/\/www\.fakt\.pl\/[a-za-z0-9_]{40,200}/$xmlhttprequest,~third-party,match-case,domain=fakt.pl
 /hubspot-ga-tracking.js
 /i.gif?
 /i.gif?pageevent=
@@ -105827,6 +105829,7 @@ zonedirector.avadacom.com$image
 ||byteoversea.com/monitor_web/
 ||bz-berlin.de/_stats/
 ||bzpics.com/jslib/st.js?
+||bzrcdn.openai.com/sdk/oaiq.min.js
 ||c-date.*/customerm/
 ||c-date.at/sites/c-date.ch/modules/tracking
 ||c-date.com/pixel/
@@ -106363,6 +106366,8 @@ zonedirector.avadacom.com$image
 ||cityua.net^$third-party
 ||cityzen.io/pixel/
 ||civicscience.com/jot?
+||civitai.*/api/page-view
+||civitai.*/api/trpc/track.addview
 ||civitai.com/api/page-view
 ||civitai.com/api/trpc/track.addview
 ||cjdropshipping.com/common-public/fingerprintjs
@@ -107700,6 +107705,7 @@ zonedirector.avadacom.com$image
 ||duckduckgo.com/t.js?q=
 ||duckduckgo.com/t/
 ||duckduckgo.com/y.js?ifu=
+||ducttapeai.com/api/tracking/event
 ||dud.allarknow.online/stat
 ||duer.ca/cdn/shopifycloud/media-analytics/
 ||dugout.co/das2.js
@@ -107992,7 +107998,7 @@ zonedirector.avadacom.com$image
 ||episerver.net/ia.js
 ||epitrack.com^$third-party
 ||epl.paypal-communication.com^$script
-||epochtimes.de/mp/track/
+||epochtimes.de/epoch-mp/epoch_mp.min.js
 ||epoq.de/inbound-servletapi/event?
 ||eporner.com/beacon.php
 ||epromote.co.za/track/
@@ -108382,6 +108388,7 @@ zonedirector.avadacom.com$image
 ||filecrypt.cc/bla2.php
 ||filecrypt.cc/muh.php
 ||filecrypt.cc/surething.php
+||fileditchfiles.me/api/plausible
 ||files.cdn.spilcloud.com/*_adomic_hb_analytic.js
 ||files.envoke.com^*_nvk_tracking.js
 ||files.metropoles.com/static/comscore.js
@@ -109531,6 +109538,7 @@ zonedirector.avadacom.com$image
 ||hktvmall.com/_ui/shared/common/js/util/jquery.analytics-utils.js
 ||hktvmall.com/api/event
 ||hktvmall.com/yuicombo|$script,~third-party
+||hls-beacons-us.xumo.com/hlsstream/v*/beacon?
 ||hlserve.com^$third-party
 ||hlstatus.com^$third-party
 ||hltv.org/js/ht.manual.js
@@ -110336,6 +110344,7 @@ zonedirector.avadacom.com$image
 ||jobkorea.co.kr^$cookie=/gtm/
 ||jobkorea.co.kr^$cookie=jk_user_uuid
 ||jobs.ch/api/v1/public/product/track/
+||jobs.hanes.com/*/phenomtrack.min.js
 ||jobvite.com/analytics.js
 ||jockey.com/event/
 ||jockey.com/scripts/omt-base.js
@@ -110548,7 +110557,9 @@ zonedirector.avadacom.com$image
 ||kimonix.com/analytics/
 ||kindernetz.de/static/tracking/xtclicks.js
 ||kindhush.com^$redirect=noopjson,xmlhttprequest
+||kindhush.com^$redirect=noopjson,xmlhttprequest,badfilter
 ||kindhush.com^$~xmlhttprequest
+||kindhush.com^$~xmlhttprequest,badfilter
 ||kinja.com/api/analytics/
 ||kino.de/api/core/tracking^
 ||kinokassa.kinoplan24.ru/*/cinema/analytics
@@ -111666,6 +111677,7 @@ zonedirector.avadacom.com$image
 ||monetate.net^$third-party
 ||money.hu^$cookie=useruuid
 ||moneycontrol.com/news/services/get_comscore_pageview/
+||moneywise.com/scottie/api/cdp/v1/event|
 ||mongoosemetrics.com^$third-party
 ||monipla.com/launch.js
 ||monitis.com^$third-party
@@ -116178,6 +116190,7 @@ zonedirector.avadacom.com$image
 ||tp-link.com^*/addhits.html
 ||tp88trk.com^$third-party
 ||tpcs.payu.in/pixelwithcookie.gif$domain=hindustantimes.com
+||tpead.net/stat/
 ||tps.trovaprezzi.it/javascripts/tracking-vanilla.min.js
 ||tpucdn.com/js/ga-*.js
 ||tpwdg.com^$script
@@ -116478,6 +116491,7 @@ zonedirector.avadacom.com$image
 ||trx-hub.com^$third-party
 ||try.abtasty.com/*.js$third-party
 ||try.elevenlabs.io/pr/js
+||trygravity.ai/ack?
 ||trysera.com^$third-party
 ||ts.fi/statistics/log$image
 ||ts.fi^*/spring.js
@@ -116894,6 +116908,7 @@ zonedirector.avadacom.com$image
 ||vergic.com/api/*/batch/
 ||verify.authorize.net^$third-party
 ||verify.safesigned.com^$third-party
+||verisoul.ai^$third-party
 ||vertical-leap.co.uk^$third-party
 ||vertical-leap.net^$third-party
 ||vertical-n.de/scripts/*/immer_oben.js
