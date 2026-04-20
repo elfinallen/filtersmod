@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-19 12:32:31 UTC
-! Total Rules: 118048
+! Last Updated: 2026-04-20 01:20:08 UTC
+! Total Rules: 118049
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -111299,6 +111299,7 @@ zonedirector.avadacom.com$image
 ||mateti.net^$third-party
 ||matheranalytics.com^$third-party
 ||mathtag.com^$third-party
+||matome.xvps.jp/beacon
 ||matomo.cloud^$third-party
 ||matt.mercadolibre.
 ||matterlytics.com^$third-party
