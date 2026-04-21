@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-21 01:17:29 UTC
-! Total Rules: 118065
+! Last Updated: 2026-04-21 12:54:39 UTC
+! Total Rules: 118077
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -106281,6 +106281,8 @@ zonedirector.avadacom.com$image
 ||chat.vica.gov.sg/api/v1/unleash/proxy/client/metrics
 ||chata.quickcep.com/im/behavior/visitor/update
 ||chatfuel.com/cf-analytics/
+||chatgpt.com/backend-api/beacons/
+||chatgpt.com/backend-api/sentinel/ping
 ||chatgpt.com/ces/*/b|$xmlhttprequest
 ||chatgpt.com/ces/statsc/
 ||chatgpt.com/ces/statsc/$xmlhttprequest,redirect=noopjson
@@ -107086,6 +107088,10 @@ zonedirector.avadacom.com$image
 ||customerlobby.com/ctrack-
 ||customfingerprints.bablosoft.com/clientsafe.js
 ||cux.io^$third-party
+||cv-library.co.uk/assets/js/clickstream
+||cv-library.co.uk/assets/js/experiments-amplitude-
+||cv-library.co.uk/assets/js/ext/amplitude-
+||cv-library.co.uk/assets/js/ext/clickstream.
 ||cv.ee/static/stat.php
 ||cvs.com/api/web/vitals/
 ||cvs.com/shop-assets/proxy/criteo^
@@ -109041,7 +109047,10 @@ zonedirector.avadacom.com$image
 ||goaffpro.com/track
 ||goatcounter.com^$third-party
 ||gobankingrates.com/analytics/latest/ct.bundle.js
+||gobankingrates.com/et/
 ||gobankingrates.com/fp/
+||gobankingrates.com/wp-content/themes/rockefeller-lite/assets/build/event-tracking.js
+||gobankingrates.com^$cookie=visitor_id
 ||godaddy.com/js/gdwebbeacon.js
 ||godhat.com^$third-party
 ||gofundme.com/track
@@ -110134,7 +110143,9 @@ zonedirector.avadacom.com$image
 ||intuitwebsites.com/tracking/
 ||invb.ru^$cookie=/^pa_/
 ||inven.co.kr/api/banner_tracking/banner_view.php
+||inventorycache.com^$redirect=noopjson,xmlhttprequest
 ||inventorycache.com^$xmlhttprequest,redirect=noopjson
+||inventorycache.com^$~xmlhttprequest
 ||investhash.com^$third-party
 ||investigationdiscovery.com/cms/collections/
 ||investigationdiscovery.com/events/
@@ -110828,6 +110839,7 @@ zonedirector.avadacom.com$image
 ||lfeeder.com^$third-party
 ||lfov.net^$third-party
 ||lftce.clearstem.com/load
+||lg-chatbot.com/chatbot/v*/api/client_logger
 ||lge.co.kr/lg5-common/js/common/googleheader.js
 ||lgforbes.akamaized.net/rtblog.php?
 ||lgrckt-in.com^$third-party

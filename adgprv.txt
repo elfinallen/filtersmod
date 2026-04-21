@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-21 01:17:29 UTC
-! Total Rules: 11679
+! Last Updated: 2026-04-21 12:54:39 UTC
+! Total Rules: 11688
 ! Expires: 5 days
 &&sub19=undefined&sub20=undefined
 &action=js_stats
@@ -5141,6 +5141,8 @@ t.yesware.com
 ||chat.vica.gov.sg/api/v1/unleash/proxy/client/metrics
 ||chata.quickcep.com/im/behavior/visitor/update
 ||chatfuel.com/cf-analytics/
+||chatgpt.com/backend-api/beacons/
+||chatgpt.com/backend-api/sentinel/ping
 ||chatgpt.com/ces/statsc/
 ||chatgpt.com/ces/v1/i^
 ||chatgpt.com/ces/v1/p|
@@ -5573,6 +5575,10 @@ t.yesware.com
 ||custom.search.yahoo.co.jp/images/window/*.gif
 ||customerlobby.com/ctrack-
 ||customfingerprints.bablosoft.com/clientsafe.js
+||cv-library.co.uk/assets/js/clickstream
+||cv-library.co.uk/assets/js/experiments-amplitude-
+||cv-library.co.uk/assets/js/ext/amplitude-
+||cv-library.co.uk/assets/js/ext/clickstream.
 ||cv.ee/static/stat.php
 ||cvs.com/api/web/vitals/
 ||cvs.com/shop-assets/proxy/criteo^
@@ -6684,7 +6690,9 @@ t.yesware.com
 ||goadv.com^*/track.js
 ||goaffpro.com/track
 ||gobankingrates.com/analytics/latest/ct.bundle.js
+||gobankingrates.com/et/
 ||gobankingrates.com/fp/
+||gobankingrates.com/wp-content/themes/rockefeller-lite/assets/build/event-tracking.js
 ||godaddy.com/js/gdwebbeacon.js
 ||gofundme.com/track
 ||goldapple.ru/front/api/search/analytics/
@@ -7651,6 +7659,7 @@ t.yesware.com
 ||lexus.jp/common/*/js/analytics.js
 ||lf1-cdn-tos.bytegoofy.com/goofy/ttzz/push.js
 ||lftce.clearstem.com/load
+||lg-chatbot.com/chatbot/v*/api/client_logger
 ||lge.co.kr/lg5-common/js/common/googleheader.js
 ||lgforbes.akamaized.net/rtblog.php?
 ||lhinsights.com/collect?

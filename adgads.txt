@@ -1,7 +1,7 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-21 01:17:29 UTC
+! Last Updated: 2026-04-21 12:54:39 UTC
 ! Total Rules: 6354
 ! Expires: 5 days
 &ag_custom_vlmspot=
@@ -2169,6 +2169,7 @@ yydstxt*.com/js/html
 ||b4dg.life/love/
 ||b7yy.com/ad/
 ||babepedia.com/banners/
+||babesandstars.com/img/banners/
 ||baby-kingdom.com/reqsads?
 ||bachashuku.cc/scripts/ad/
 ||back.jauns.lv/api/*/ad-zones/
@@ -3410,6 +3411,8 @@ yydstxt*.com/js/html
 ||go2av.com/js/am.js
 ||go2tutor.com/lifebox.asp
 ||goaloo.*/mn/*.gif
+||gobankingrates.com/products-js/d2c/index.js
+||gobankingrates.com/wp-content/themes/rockefeller-lite/assets/build/native-ads.js
 ||godamanga.online/ad/
 ||gogorenti.wang/js/m_cp
 ||gold678.com/news/js/layer/layer.js
@@ -3868,7 +3871,6 @@ yydstxt*.com/js/html
 ||imhentai.xxx/js/slider_
 ||imooc.com/open/courselistrandjs
 ||imparteconocimientos.com/recursos/anti-adblocker.js
-||in.com/common/script_catch.js
 ||indiatimes.com/lgads_
 ||indiatimes.com/manageads/
 ||indiatimes.com/toiads_
@@ -4754,7 +4756,6 @@ yydstxt*.com/js/html
 ||novipnoad.net/theme/js/sponsor/
 ||nownews.com/assets/js/setads.js
 ||nqbcf.cn/html/top
-||nrl.com/siteassets/sponsorship/
 ||nrl.com^*/sponsors/
 ||nrsfh.com/neirong/
 ||nsfwalbum.com/efds435m432.js
@@ -5728,7 +5729,6 @@ yydstxt*.com/js/html
 ||trans.firm.in/*.js
 ||travel.mediaalpha.com/js/serve.js
 ||trendmicro.com.tw/wp-content/uploads/*banner
-||trip.com/partners/ad/
 ||trstx.org/overroll/
 ||truex.com/js/client.js
 ||truyensex*/anh/
