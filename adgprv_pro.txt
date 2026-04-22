@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-22 01:15:54 UTC
-! Total Rules: 118078
+! Last Updated: 2026-04-22 12:55:15 UTC
+! Total Rules: 118089
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -2420,6 +2420,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /js/_analytics.js
 /js/ad_insight/*
 /js/admiral-
+/js/adobe-analytics.js$domain=moneywise.com|money.ca
 /js/analitics.js
 /js/count.js.
 /js/counter.js?
@@ -3385,6 +3386,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /sayacff.html
 /sayac|$subdocument
 /scmetrics.*/b/ss/*
+/scottie/api/cdp/v1/event|$domain=moneywise.com|money.ca
 /screencount?vcid=
 /scribd_events?
 /script.js|$~third-party,domain=4029tv.com|98online.com|abc-7.com|hearst.com|kcci.com|kcra.com|ketv.com|kmbc.com|koat.com|koco.com|ksbw.com|mor-tv.com|mynbc5.com|nbc-2.com|wapt.com|wbal.com|wbaltv.com|wcvb.com|wdsu.com|wesh.com|wgal.com|wisn.com|wjcl.com|wlky.com|wlwt.com|wmtw.com|wmur.com|wpbf.com|wptz.com|wtae.com|wvtm13.com|wxii12.com|wyff4.com
@@ -103916,6 +103918,7 @@ zonedirector.avadacom.com$image
 ||acuris.com/wat/v2/data-event
 ||acustomizedgift.com^$redirect=noopjs,script
 ||acustomizedgift.com^$redirect=noopjson,xmlhttprequest
+||acustomizedgift.com^$script,redirect=noopjs
 ||acustomizedgift.com^$~xmlhttprequest
 ||acustomizedgift.com^$~xmlhttprequest,badfilter
 ||acweb.clog.jp^$third-party
@@ -107601,6 +107604,7 @@ zonedirector.avadacom.com$image
 ||donnons.org/log.js
 ||donreach.com^$third-party
 ||dontbeevils.de^$third-party
+||doofinder.com/api/v*/stats/
 ||doofinder.com/api/v2/stats/
 ||doomna.com^$third-party
 ||doordash.com/iguazu-edge/
@@ -111689,9 +111693,10 @@ zonedirector.avadacom.com$image
 ||moneroocean.stream^$third-party
 ||monetarygoldgroup.com/_ub/
 ||monetate.net^$third-party
+||money.ca^$cookie=suid
 ||money.hu^$cookie=useruuid
 ||moneycontrol.com/news/services/get_comscore_pageview/
-||moneywise.com/scottie/api/cdp/v1/event|
+||moneywise.com^$cookie=suid
 ||mongoosemetrics.com^$third-party
 ||monipla.com/launch.js
 ||monitis.com^$third-party
@@ -114008,6 +114013,9 @@ zonedirector.avadacom.com$image
 ||rucounter.ru^$third-party
 ||rudder-server-prd.arena.im/v1/track
 ||rudderlabs.com^$third-party
+||rudderstack.com/v1/batch?writekey=
+||rudderstack.com/v1/identify|
+||rudderstack.com/v1/track|
 ||rule34.paheal.net/stat.txt
 ||rum-static.pingdom.net/*-*.js$script,redirect=noopjs,important,domain=leboncoin.fr
 ||rumanalytics.com^$third-party
@@ -114659,6 +114667,7 @@ zonedirector.avadacom.com$image
 ||simpli.fi^$third-party
 ||simplycast.us^$third-party
 ||simplymeasured.com^$third-party
+||simplywall.st/backend/flags/proxy/client/metrics
 ||sina.cn^$cookie=recent_visited
 ||sina.com.cn/view?
 ||sinajs.cn/open/analytics/
@@ -114771,6 +114780,7 @@ zonedirector.avadacom.com$image
 ||smart-pixl.com^$third-party
 ||smart-widget-assets.ekomiapps.de^$third-party
 ||smart.idmnet.pl^$third-party
+||smart.link/imp/
 ||smartclip-services.com^$third-party
 ||smartctr.com^$third-party
 ||smarte.rs/log
@@ -116708,6 +116718,7 @@ zonedirector.avadacom.com$image
 ||unibet.com/orval/tracking/lastclick.min.js
 ||unibet.de/stan/campaign.do?*&affiliateid=$subdocument,third-party
 ||uniconsent.com^$third-party
+||unicreditgroup.eu/content/dam/unicreditgroup-eu/common/analytics/
 ||unid.go.com^$third-party
 ||unidays.world^$third-party,domain=~myunidays.com
 ||unification.useinsider.com/api/event/

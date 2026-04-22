@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-22 01:15:54 UTC
-! Total Rules: 11688
+! Last Updated: 2026-04-22 12:55:15 UTC
+! Total Rules: 11694
 ! Expires: 5 days
 &&sub19=undefined&sub20=undefined
 &action=js_stats
@@ -5863,6 +5863,7 @@ t.yesware.com
 ||dominos.co.uk/qrgaws/
 ||donga.com/proc/ad_history
 ||donnons.org/log.js
+||doofinder.com/api/v*/stats/
 ||doofinder.com/api/v2/stats/
 ||doordash.com/iguazu-edge/
 ||doppiocdn.com/healthcheck
@@ -8131,7 +8132,6 @@ t.yesware.com
 ||mollusk.apis.ign.com/metrics/
 ||monetarygoldgroup.com/_ub/
 ||moneycontrol.com/news/services/get_comscore_pageview/
-||moneywise.com/scottie/api/cdp/v1/event|
 ||monipla.com/launch.js
 ||monitor-frontend-collector.a.bybit-aws.com/api/*/batch/
 ||monitor.lifemiles.com/collect
@@ -9374,6 +9374,9 @@ t.yesware.com
 ||rts.ch^*/boreas_b01.js
 ||ru-mi.com/*/ee_tracking.js
 ||rudder-server-prd.arena.im/v1/track
+||rudderstack.com/v1/batch?writekey=
+||rudderstack.com/v1/identify|
+||rudderstack.com/v1/track|
 ||rule34.paheal.net/stat.txt
 ||rumble.com/l/
 ||run.app/analytics/|
@@ -9761,6 +9764,7 @@ t.yesware.com
 ||simon.com/46scnlxs/init.js
 ||simplelogin.io/custom.js
 ||simplelogin.io/p/api/event
+||simplywall.st/backend/flags/proxy/client/metrics
 ||sina.com.cn/view?
 ||sinajs.cn/open/analytics/
 ||sinajs.cn/open/api/js/wb.js
@@ -9818,6 +9822,7 @@ t.yesware.com
 ||smart-bdash.com/receptions/action/impression
 ||smart-bdash.com/tracking-script/
 ||smart-components-api.redbull.com/report-usage
+||smart.link/imp/
 ||smarte.rs/log
 ||smartertravel.com/ext/pixel/
 ||smarthint.co/scripts/i/smarthinttrack.full.min.js
@@ -10885,6 +10890,7 @@ t.yesware.com
 ||underthesnow.ru/engine/modules/counter-
 ||uni-duesseldorf.de/cgi-bin/nph-count?
 ||unibet.com/orval/tracking/lastclick.min.js
+||unicreditgroup.eu/content/dam/unicreditgroup-eu/common/analytics/
 ||unification.useinsider.com/api/event/
 ||unifyintent.com/analytics/
 ||unileversolutions.com/*/js/trackuser.

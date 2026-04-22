@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-22 01:15:54 UTC
-! Total Rules: 6356
+! Last Updated: 2026-04-22 12:55:15 UTC
+! Total Rules: 6358
 ! Expires: 5 days
 &ag_custom_vlmspot=
 &js_build=iclick-
@@ -2387,6 +2387,7 @@ yydstxt*.com/js/html
 ||bkjia.com/bkjia/js/banner
 ||bkjia.com/bkjia/js/subnavtop.js
 ||blacklistednews.com/contentrotator/
+||blog-uploads.eneba.games/uploads/*/banner_
 ||blog.xuite.net/_public/js/ysmad.js
 ||blogspot.com^*/s1600/drug.gif
 ||blueidea.com/js/ajs.js
@@ -3824,6 +3825,7 @@ yydstxt*.com/js/html
 ||images.sohu.com/ytv/*.jpg
 ||images.whoer.com/image/*.gif
 ||imagespublic.tk/clothes/comeliness.php
+||imagetwist.com/b9ng.js
 ||imdb.com/_json/getads/
 ||imedown.info/03.jpg
 ||imedown.info^*.gif
@@ -5282,7 +5284,6 @@ yydstxt*.com/js/html
 ||sd1v.yitongwl.cn/site/
 ||sdbeta.com/statics/mystyle/js/1
 ||sdk.apester.com/*.monetization.min.js
-||sdk.k-words.io/script.js
 ||sdo.com/static/image/mkads/
 ||sdzbcg.com/images/sdfhyl
 ||se533.com/template/new/css/*.js
@@ -5731,6 +5732,7 @@ yydstxt*.com/js/html
 ||trans.firm.in/*.js
 ||travel.mediaalpha.com/js/serve.js
 ||trendmicro.com.tw/wp-content/uploads/*banner
+||trip.com/partners/ad/
 ||trstx.org/overroll/
 ||truex.com/js/client.js
 ||truyensex*/anh/
