@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-22 12:55:15 UTC
-! Total Rules: 6358
+! Last Updated: 2026-04-23 01:21:07 UTC
+! Total Rules: 6359
 ! Expires: 5 days
 &ag_custom_vlmspot=
 &js_build=iclick-
@@ -4971,6 +4971,7 @@ yydstxt*.com/js/html
 ||pornhub.*/_xa/ads
 ||pornid.xxx/grt/dev.js
 ||pornid.xxx/vager/
+||pornintellect.com/banner/
 ||pornlib.com/player_*_ads
 ||pornokeep.com/content2/lib/
 ||pornone.com/js/combined.js

@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-22 12:55:15 UTC
-! Total Rules: 118089
+! Last Updated: 2026-04-23 01:21:07 UTC
+! Total Rules: 118093
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -108495,6 +108495,7 @@ zonedirector.avadacom.com$image
 ||flux-cdn.com/client/ukiuki/flux_wikiwiki_as_tm_at.min.js
 ||flux-cdn.com/plugin/common/analytics/
 ||flux.com/geo.html?
+||fluxor-wrapper.api.emerios.com/api/v1/tracking/event/track
 ||flx1.com^$third-party
 ||flxpxl.com^$third-party
 ||flya.me/eventtrack
@@ -108536,6 +108537,7 @@ zonedirector.avadacom.com$image
 ||footprintlive.com^$third-party
 ||forbes.com^$cookie=client_id
 ||forbes.com^$cookie=fadvuke2etid
+||forbiddenbodyjewelry.com/wp-json/pys-*/event
 ||force24.co.uk^$third-party
 ||forecast.io/js/app/analytics.js
 ||forensics1000.com^$third-party
@@ -108862,6 +108864,7 @@ zonedirector.avadacom.com$image
 ||genieesspv.jp^$third-party
 ||geniuslinkcdn.com^$third-party
 ||geniusplus.ai/v1/lre-events?
+||genmobile.com/api/log
 ||geo-targetly.com^$third-party
 ||geo.query.yahoo.com^$domain=~mail.yahoo.com
 ||geo.query.yahoo.com^$~xmlhttprequest,domain=~mail.yahoo.com
@@ -112819,7 +112822,7 @@ zonedirector.avadacom.com$image
 ||perfiliate.com^$third-party
 ||perfops.io^$third-party
 ||perfops.net/rom3/
-||performance.radar.cloudflare.com/beacon.js
+||performance.radar.cloudflare.com/beacon.js$domain=~cloudflare.com
 ||performancefirst.jp^$third-party
 ||performancerevenues.com^$third-party
 ||performax.cz^$third-party
@@ -117000,6 +117003,7 @@ zonedirector.avadacom.com$image
 ||vidtech.cbsinteractive.com/*/lib/tracking/adobe/videoheartbeat-
 ||vidtech.cbsinteractive.com/uvpjs/*/lib/tracking/adobe/
 ||vidtech.cbsinteractive.com/uvpjs/*/lib/tracking/mux.js
+||viduro.top/api/heartbeat
 ||vidyard.com/api/metrics
 ||viedtelevizija.lv/js/analytics.smartlib.js
 ||viewar.org^$third-party

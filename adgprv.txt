@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-22 12:55:15 UTC
-! Total Rules: 11694
+! Last Updated: 2026-04-23 01:21:07 UTC
+! Total Rules: 11697
 ! Expires: 5 days
 &&sub19=undefined&sub20=undefined
 &action=js_stats
@@ -6379,6 +6379,7 @@ t.yesware.com
 ||flux-cdn.com/client/ukiuki/flux_wikiwiki_as_tm_at.min.js
 ||flux-cdn.com/plugin/common/analytics/
 ||flux.com/geo.html?
+||fluxor-wrapper.api.emerios.com/api/v1/tracking/event/track
 ||flya.me/eventtrack
 ||fmkorea.com/_call/background_nickname.php
 ||fmnetwork.nl/tracking/
@@ -6408,6 +6409,7 @@ t.yesware.com
 ||foodpanda.sg/ljub4etb/init.js
 ||fool.com/tracking/
 ||footballmedia.com/tracking/
+||forbiddenbodyjewelry.com/wp-json/pys-*/event
 ||forecast.io/js/app/analytics.js
 ||forethought.ai/workflow/tracking-event
 ||forgood.co.za/api/tracking/
@@ -6598,6 +6600,7 @@ t.yesware.com
 ||geni.us/snippet.min.js
 ||genial.guru/metric-collector
 ||geniusplus.ai/v1/lre-events?
+||genmobile.com/api/log
 ||geoproapp.com/api/record
 ||geradovana.lt/gtm/
 ||get-trust-vpn.info/api_ip_info.php?
@@ -8766,7 +8769,6 @@ t.yesware.com
 ||penza-online.ru^*/userstats.pl?
 ||people.cn/js/pa.js
 ||perfops.net/rom3/
-||performance.radar.cloudflare.com/beacon.js
 ||performgroup.com/metrics/
 ||perimeterx.net/api/v1/collector/
 ||perplexity.ai/rest/event/analytics
@@ -11050,6 +11052,7 @@ t.yesware.com
 ||vidtech.cbsinteractive.com/*/lib/tracking/adobe/videoheartbeat-
 ||vidtech.cbsinteractive.com/uvpjs/*/lib/tracking/adobe/
 ||vidtech.cbsinteractive.com/uvpjs/*/lib/tracking/mux.js
+||viduro.top/api/heartbeat
 ||vidyard.com/api/metrics
 ||viedtelevizija.lv/js/analytics.smartlib.js
 ||views.b1tv.ro/track.js

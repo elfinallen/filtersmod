@@ -1,8 +1,8 @@
 ! Title: AdGuard Domain
 ! Description: DNS Filter composed of other filters (AdGuard DNS & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-22 12:55:15 UTC
-! Total Rules: 69836
+! Last Updated: 2026-04-23 01:21:07 UTC
+! Total Rules: 69877
 ! Expires: 5 days
 ||aa.429men.com^
 ||aa.4wank.com^
@@ -5624,6 +5624,7 @@
 ||bmelkellv.com^
 ||bmesl.convertcake.com^
 ||bmfads.com^
+||bmgmnxaloh.com^
 ||bmi.marketing-bmiimaging.com^
 ||bmia.bloomberglp.com^
 ||bmjmse.softsurroundings.com^
@@ -15320,6 +15321,7 @@
 ||escola.escolabrightminds.com^
 ||escortlarbul.com^
 ||escribedas.com^
+||escviyqoekkju.com^
 ||escy55gxubl6.com^
 ||esdykv.com^
 ||esearchvision.com^
@@ -16489,6 +16491,7 @@
 ||feableandworld.com^
 ||feacbookk.com^
 ||feadrope.net^
+||fearerbod.com^
 ||fearfulfish.com^
 ||fearfulmint.com^
 ||fearinvulnerablediagnosis.com^
@@ -18169,6 +18172,7 @@
 ||fxdepo.com^
 ||fxgate.baidu.com^
 ||fxgkhf.ponroy.com^
+||fxiruecly.com^
 ||fxjs.2541.com^
 ||fxlcwwjtagb.com^
 ||fxlpux.nakedcashmere.com^
@@ -18191,6 +18195,7 @@
 ||fyllhdee.com^
 ||fyreball.com^
 ||fyrsbckgi-c.global.ssl.fastly.net^
+||fyuwwosgka.com^
 ||fyvxii.petscy.com^
 ||fyzlfpjn.cclonline.com^
 ||fyzlfpjn.chillblast.com^
@@ -21782,6 +21787,7 @@
 ||heimdall.sexafterretirement.com^
 ||heiressplane.com^
 ||heirserverrecruiting.com^
+||heirstirringsculpture.com^
 ||heiw99ovji.com^
 ||heixidor.com^
 ||hekeroyot.com^
@@ -23720,6 +23726,7 @@
 ||impassioned-vacation.com^
 ||impatientlyastonishing.com^
 ||impbid.com^
+||impdsp.meituan.com^
 ||impeccable-official.com^
 ||impeccablewriter.com^
 ||impededquiina.com^
@@ -25062,6 +25069,7 @@
 ||invitemedia.com^
 ||inviteroot.com^
 ||invitinghonor.com^
+||invitingjanuaryneurotic.com^
 ||invitingpace.com^
 ||inviziads.com^
 ||invoca.net^
@@ -33840,6 +33848,8 @@
 ||moatads.com^
 ||mob*.novanewsapp.com^
 ||moba8.net^
+||mobads-logs.bcebos.com^
+||mobads-pre-config.cdn.bcebos.com^
 ||mobads.baidu.com^
 ||mobagent.com^
 ||mobalives.com^
@@ -36365,6 +36375,7 @@
 ||oajkd.youngla.com^
 ||oakbustrp.com^
 ||oakchokerfumes.com^
+||oamaymbwec.com^
 ||oamoameevee.net^
 ||oangewha.net^
 ||oaox.cn^
@@ -38347,6 +38358,7 @@
 ||pdfad.closertothesun.com^
 ||pdfsearchhq.com^
 ||pdftfe.thekooples.com^
+||pdhtpdinin.com^
 ||pdjdjhpwluh.com^
 ||pdlavr.erwinmueller.com^
 ||pdmap.hawaiianhost.com^
@@ -38928,6 +38940,7 @@
 ||pinchunnecessaryaggregate.com^
 ||pincourse.com^
 ||pinderecphory.com^
+||pinealrulers.com^
 ||pineegypt.com^
 ||pinemonumentssaxophone.com^
 ||ping*.bidease.com^
@@ -41378,9 +41391,11 @@
 ||qnqdpy.edreams.net^
 ||qnqvm.nohohomehawaii.com^
 ||qnrgspmds.com^
+||qnrknnpjreek.com^
 ||qnsr.com^
 ||qnuyqu.ubierzsie.com^
 ||qnuzwe.nomanwalksalone.com^
+||qnvoxiasfk.com^
 ||qnzma.beforeyouspeakcoffee.com^
 ||qoaaa.com^
 ||qoairs.scholl-shoes.com^
@@ -43269,6 +43284,7 @@
 ||rlevlkcvuy.com^
 ||rlftd.staples.com^
 ||rlggasdrisaw.net^
+||rlicuxtdicmy.com^
 ||rlirxmfndbxeevc.net^
 ||rljnwvldhe.com^
 ||rlkx.cn^
@@ -43945,6 +43961,7 @@
 ||rtb.allureanews.com^
 ||rtb.appbid.com^
 ||rtb.clixportal.com^
+||rtb.julang.taobao.com^
 ||rtb.nowsrv.com^
 ||rtb.nuismak.com^
 ||rtb.prnteen.com^
@@ -44076,6 +44093,7 @@
 ||rtubipo.monsieurfuture.com^
 ||rtunitytostaracaree.com^
 ||rtwvcb.kissmyketo.com^
+||rtwyggxb.com^
 ||rtxfeed.com^
 ||rtxlni.doclasse.com^
 ||rtxpx-a.akamaihd.net^
@@ -45036,8 +45054,17 @@
 ||sarver.etouchbd.com^
 ||sarver.khatirajbd.com^
 ||sarver.shobjibazar.com^
+||sas.a.int-nft.peacocktv.com^
+||sas.a.peacocktv.com^
+||sas.a.stable-int.peacocktv.com^
 ||sas.adamasjeans.com^
+||sas.f.int-nft.peacocktv.com^
+||sas.f.peacocktv.com^
+||sas.f.stable-int.peacocktv.com^
+||sas.int-nft.peacocktv.com^
 ||sas.nsm-corp.com^
+||sas.peacocktv.com^
+||sas.stable-int.peacocktv.com^
 ||sascirrtoxxfibs.com^
 ||sashtrizone.com^
 ||sasinsetuid.com^
@@ -54132,6 +54159,7 @@
 ||standardresourcebank.com^
 ||standingbreederpitiful.com^
 ||standpointbluffybluffy.com^
+||stankshedonic.com^
 ||stankyrich.com^
 ||stanzytkyx.com^
 ||stap.atividadescursiva.com^
@@ -63327,6 +63355,7 @@
 ||ultrapay.net^
 ||ultrasoundpurchase.com^
 ||ultravalid.com^
+||uluuggxnhrxord.com^
 ||ulwzinqlh0.com^
 ||ulyvjty4rd.com^
 ||umami.aigenerations.net^
@@ -63353,6 +63382,7 @@
 ||umlkp.snydersfurniture.com^
 ||umlvbe.rucipello.com^
 ||ummertisaridiculou.com^
+||ummfilhjegni.com^
 ||umoopuwhecky.net^
 ||umphek.com^
 ||umqigvethe.com^
@@ -63697,6 +63727,7 @@
 ||upbeatdualyahoo.com^
 ||upbindsswythe.com^
 ||upboresoutar.com^
+||upc.zztfly.com^
 ||upceshop.cn^
 ||upcgu.untamedego.com^
 ||upcityarles.com^
@@ -66154,6 +66185,7 @@
 ||wcmcs.net^
 ||wco.crownpeak.com^
 ||wcowvwhwenmy.com^
+||wcp.taobao.com^
 ||wct-1.com^
 ||wct-2.com^
 ||wct.coolgadgetsinsider.com^
@@ -66674,6 +66706,7 @@
 ||whfcimipoetblih.com^
 ||whfpbc.99.com.cn^
 ||whgugqkhydhg.net^
+||whhdidscdqisdwl.com^
 ||whheyu.saraya.com^
 ||whhfbmceycq.com^
 ||whiboujaix.net^
@@ -67058,6 +67091,7 @@
 ||wmgtr.com^
 ||wmhnx.realdaily.com^
 ||wmippfhmmw.com^
+||wmixxxhuxxsz.com^
 ||wmizdm.relax-job.com^
 ||wmllfxjjnjq.com^
 ||wmmediacorp.com^
@@ -67591,6 +67625,7 @@
 ||wxztfkiga.com^
 ||wyaopp.lacoccinelle.net^
 ||wyb.vitafarmahonduras.com^
+||wydk6zdk2.com^
 ||wydpt.com^
 ||wyelxnbpncckcgm.com^
 ||wyfbm.cos.com^
@@ -67788,6 +67823,7 @@
 ||xhkfpfuliviwq.com^
 ||xhnln.radandhappy.com^
 ||xhowfogabl.com^
+||xhppnesanob.com^
 ||xhsnq.tattilashes.com^
 ||xhunajtipm.com^
 ||xhwojh.nimikoruni.com^
@@ -68728,6 +68764,7 @@
 ||yewsgooney.com^
 ||yext-pixel.com^
 ||yext.com^
+||yfanads.com^
 ||yfaygn.natureetdecouvertes.com^
 ||yfbuocmci.com^
 ||yfdnza.com^
@@ -68993,6 +69030,7 @@
 ||yowzabrr.com^
 ||yoxeha.afloral.com^
 ||yoyadsdom.com^
+||yozenpmo.com^
 ||ypa.focusoftime.com^
 ||ypcdbw.drive2.com^
 ||ypjgkmytgxtasf.com^
@@ -69247,6 +69285,7 @@
 ||zamok911.com^
 ||zampda.net^
 ||zangocash.com^
+||zangraikri.com^
 ||zannv.wearfigs.com^
 ||zanox.com^
 ||zantainet.com^
@@ -69486,6 +69525,7 @@
 ||zismc.trygoomz.com^
 ||zispj.skinlaundry.com^
 ||zisu.cn.com^
+||zitdither.com^
 ||zitem.nilfanbox.com^
 ||zither89.com^
 ||zituz.smartandsexy.com^
@@ -69711,6 +69751,7 @@
 ||ztarkm.johnnie-o.com^
 ||ztavm.apothekenaratgeber.com^
 ||ztcadx.com^
+||ztdksgblbc.com^
 ||ztevents.zaloapp.com^
 ||ztfjtn.liujo.com^
 ||ztfth.betterskintoday.com^
