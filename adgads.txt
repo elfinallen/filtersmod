@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-23 01:21:07 UTC
-! Total Rules: 6359
+! Last Updated: 2026-04-23 12:54:37 UTC
+! Total Rules: 6363
 ! Expires: 5 days
 &ag_custom_vlmspot=
 &js_build=iclick-
@@ -1929,6 +1929,7 @@ yydstxt*.com/js/html
 ||akabebe.com/jgg/*.gif
 ||akamaihd.net^*/gsd.html?d=
 ||akamaihd.net^*/sid.html?p=
+||akamaized.net/mr/popunder.js
 ||akqipai.com/m/tpl/v3/js/indexbottom.js
 ||akuziti.com/tu/*.js
 ||aldtop.com/scrtips/
@@ -2062,7 +2063,6 @@ yydstxt*.com/js/html
 ||api.apiimg.com/huaer/xiahe.js
 ||api.bilibili.com/x/ad/
 ||api.bo3.gg/api/v*/ad_
-||api.bo3.gg/api/v1/ad_banners
 ||api.deepai.org/thrad-ad-proxy
 ||api.leakgallery.com/public/lib*.js
 ||api.live.bilibili.com/*/banner
@@ -3601,6 +3601,7 @@ yydstxt*.com/js/html
 ||hentaicomic.*/data/ds/
 ||hentaicomic.*/data/game/*/wap.gif
 ||hentaifox.com/js/slider.js
+||hentaigo.com/wp-content/themes/gameleon-child/ads-interstitial/
 ||hentaivideos.net/imp/
 ||hexun.*/hxpage/index.html
 ||hexun.com*/hx_news/hx_news_finalpage.js
@@ -3618,6 +3619,7 @@ yydstxt*.com/js/html
 ||hiao.com/node/node_27508.htm
 ||hiaxj.com/dbxf/
 ||hibiquan.com/uploads/images/
+||hide.cx/assets/banners/
 ||hinet.net/radio/getadcode.do
 ||histock.tw/ad/
 ||hitime5.com/skin/css/*.js
@@ -4906,6 +4908,7 @@ yydstxt*.com/js/html
 ||pharmnet.com.cn/js/float_div.js
 ||phb123.com/skin/js/tongji.js
 ||phbkm.com/js/
+||phimmoi.in/storage/images/banner/
 ||photos18.com/images/friend/
 ||php.cn/ad1.
 ||php.cn/hezuo/
@@ -5314,6 +5317,7 @@ yydstxt*.com/js/html
 ||sex3.com/ee/s/s/su
 ||sex8.cc/plugin-e6-rebate.html
 ||sexbarss.net/wap/
+||sexpin.net/ads*.htm
 ||sextvx.com/ads/
 ||sexvid.*/rrt/xd.js
 ||sexvid.*/ysla/
@@ -5733,7 +5737,6 @@ yydstxt*.com/js/html
 ||trans.firm.in/*.js
 ||travel.mediaalpha.com/js/serve.js
 ||trendmicro.com.tw/wp-content/uploads/*banner
-||trip.com/partners/ad/
 ||trstx.org/overroll/
 ||truex.com/js/client.js
 ||truyensex*/anh/
@@ -5949,6 +5952,7 @@ yydstxt*.com/js/html
 ||west.cn/vcp/getjscode/
 ||westca.com/server/
 ||weste.net/js/showpagead.js
+||wetpussy.sexy/js/index-nb.js
 ||wfiles.hcomic.net/indexswiper/*_*x*_*_tc_gif.gif
 ||whdx.cc/js/
 ||whichav.*/qq/qq.js

@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-23 01:21:07 UTC
-! Total Rules: 118093
+! Last Updated: 2026-04-23 12:54:37 UTC
+! Total Rules: 118094
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -103920,7 +103920,6 @@ zonedirector.avadacom.com$image
 ||acustomizedgift.com^$redirect=noopjson,xmlhttprequest
 ||acustomizedgift.com^$script,redirect=noopjs
 ||acustomizedgift.com^$~xmlhttprequest
-||acustomizedgift.com^$~xmlhttprequest,badfilter
 ||acweb.clog.jp^$third-party
 ||acxiom-online.com^$third-party
 ||acxiomapac.com^$third-party
@@ -110152,7 +110151,7 @@ zonedirector.avadacom.com$image
 ||intuitwebsites.com/tracking/
 ||invb.ru^$cookie=/^pa_/
 ||inven.co.kr/api/banner_tracking/banner_view.php
-||inventorycache.com^$redirect=noopjson,xmlhttprequest
+||inventorycache.com^$redirect=noopjs,script
 ||inventorycache.com^$~xmlhttprequest
 ||investhash.com^$third-party
 ||investigationdiscovery.com/cms/collections/
@@ -110577,9 +110576,7 @@ zonedirector.avadacom.com$image
 ||kimonix.com/analytics/
 ||kindernetz.de/static/tracking/xtclicks.js
 ||kindhush.com^$redirect=noopjson,xmlhttprequest
-||kindhush.com^$redirect=noopjson,xmlhttprequest,badfilter
 ||kindhush.com^$~xmlhttprequest
-||kindhush.com^$~xmlhttprequest,badfilter
 ||kinja.com/api/analytics/
 ||kino.de/api/core/tracking^
 ||kinokassa.kinoplan24.ru/*/cinema/analytics
@@ -112503,6 +112500,7 @@ zonedirector.avadacom.com$image
 ||openweb.bid^$third-party
 ||openxcdn.net^$third-party
 ||opera.com^$cookie=opref
+||operationsports.com/wp-json/navy/v1/tag?pid=
 ||ophan.theguardian.com/a.gif
 ||opinary.com/v1/events
 ||oppo.com/api/country
@@ -114706,6 +114704,7 @@ zonedirector.avadacom.com$image
 ||sitemaji.com/nownews.php?
 ||sitemeter.com^$third-party
 ||siteplug.com^$third-party
+||sitereport.netcraft.com/wbtx/
 ||sitereport.org^$third-party
 ||sitescdn.net/ytag/ytag.min.js
 ||sitescout.com^$third-party
@@ -115106,6 +115105,7 @@ zonedirector.avadacom.com$image
 ||sstats.adobe.com/*/collect?configid=
 ||sstats.adobe.com/ee/irl1/v1/interact?requestid=
 ||sstats.adobe.com/ee/v2/interact?datastreamid=
+||sstats.bitdefender.com^$important,redirect=nooptext,xmlhttprequest
 ||sstats.bitdefender.com^$xmlhttprequest,redirect=nooptext,~third-party,important
 ||sstats.economist.com/b/ss/econdarwinproduction/
 ||st-wzb.clarin.com/weizenbock/amazon/min.js
@@ -116647,6 +116647,7 @@ zonedirector.avadacom.com$image
 ||ubereats.com/_track
 ||ubertags.com^$third-party
 ||ubertracking.info^$third-party
+||ubiquitoussea.com^$redirect=noopjs,script
 ||ubiquitousyard.com^$third-party
 ||ubisoft.com/*/global/tracking/
 ||ubt.tracking.shopee.
