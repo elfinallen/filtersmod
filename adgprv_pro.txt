@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-23 12:54:37 UTC
-! Total Rules: 118094
+! Last Updated: 2026-04-24 01:20:50 UTC
+! Total Rules: 118100
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -1240,9 +1240,11 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /api/reqanalytic/*
 /api/rest/analytics/page/rendered$domain=komonews.com|wjactv.com|upnorthlive.com|cnycentral.com|wpde.com|cbs6albany.com|kutv.com|wjla.com|news3lv.com|kmph.com|kfoxtv.com|fox17.com|foxbaltimore.com|foxchattanooga.com|foxillinois.com|foxnebraska.com|foxreno.com|foxrochester.com|foxsanantonio.com|nbcmontana.com|okcfox.com|siouxlandnews.com|wach.com|wchstv.com|wcyb.com|wfxl.com|wgxa.tv|wlos.com|wsbt.com|cbs2iowa.com|fox4beaumont.com|mycbs4.com|mynews4.com|news4sanantonio.com|abc6onyourside.com|wtov9.com|turnto10.com|fox11online.com|mynbc15.com|nbc16.com|fox23maine.com|nbc24.com|fox28savannah.com|myfox28columbus.com|fox42kptm.com|dayton247now.com|fox56.com|katu.com|local12.com|bakersfieldnow.com|ktul.com|22thepoint.com|abc3340.com|abc45.com|abc7amarillo.com|abcnews4.com|cbs12.com|cbs4local.com|cbsaustin.com|chattanoogacw.com|cw14online.com|cwomaha.tv|cw18milwaukee.com|cw23tv.com|cw34.com|cw35.com|cw9tv.com|cwcentralpa.com|cwcincinnati.com|cwcolumbus.com|cwlasvegas.com|cwtreasurevalley.com|fox38corpuschristi.com|fox47.com|fox49.tv|foxkansas.com|foxrichmond.com|idahonews.com|katv.com|kcby.com|kdsm17.com|keprtv.com|kfdm.com|khqa.com|kimatv.com|kmyu.tv|kocb.com|kpic.com|krcgtv.com|krcrtv.com|ktvl.com|ktvo.com|ktxs.com|kunptv.com|kunwtv.com|kval.com|local21news.com|midmichigannow.com|myrdctv.com|mytv30web.com|mytvbaltimore.com|mytvbuffalo.com|mytvcharleston.com|mytvdayton.com|mytvrichmond.com|mytvwichita.com|mytvz.com|nebraska.tv|nevadasportsnet.com|newschannel20.com|newschannel9.com|raleighcw.com|seattlerefined.com|southernoregoncw.com|star64.tv|telemundoaustin.com|thecw38.com|thecw46.com|thecwtc.com|thecwtv.tv|thenationaldesk.com|utv44.com|wabm68.com|watchdaytime.com|wcti12.com|weartv.com|wfgxtv.com|wgme.com|wpgh53.com|wset.com|wtwc40.com|wutv29.com|wwmt.com|13wham.com
 /api/sentry/tunnel$xmlhttprequest
+/api/site/tracking-config/*
 /api/stat?
 /api/statsd|$~third-party,xmlhttprequest
 /api/track?guid
+/api/track|$third-party,xmlhttprequest
 /api/trk?
 /api/v1/activity|$~third-party,xmlhttprequest
 /api/v1/endpointtracker
@@ -110681,6 +110683,7 @@ zonedirector.avadacom.com$image
 ||kustomerapp.com/c/v1/tracking/
 ||kvartirant.ru/counter.php?
 ||kwikmotion.com^*/videojs-kwikstat.min.js
+||kwizly.com/api/log/
 ||kxcdn.com/actor/$third-party
 ||kxcdn.com/assets/js/script.js
 ||kxcdn.com/prj/
@@ -112439,6 +112442,7 @@ zonedirector.avadacom.com$image
 ||oniad.com^$third-party
 ||onlex.de/_counter.php
 ||online-metrix.net^$third-party
+||online-partners.lenta.com/api/tracker/sdk.js
 ||online-umwandeln.de/analytics.js
 ||online.hentai-share.me/templates/anime-share2/js/liveinternet.js
 ||online.hentai-share.me/templates/anime-share2/js/metrika.js
@@ -113778,6 +113782,7 @@ zonedirector.avadacom.com$image
 ||report.23video.com/api/analytics/
 ||report.23video.com/report-batch
 ||reports.adguard.com/-/metrics/
+||reports.sdiapi.com/service/viceevent
 ||repost.aws/api/v*/content/markresourceviewed
 ||reprocautious.com^$third-party
 ||reproio.com^$third-party
@@ -114693,6 +114698,7 @@ zonedirector.avadacom.com$image
 ||sitebro.com^$third-party
 ||sitebro.de^$third-party
 ||sitebro.net^$third-party
+||sitecdn.api.domlenta.ru/assets-dom/scripts/yandex-metrika.js
 ||sitecompass.com^$third-party
 ||sitefinity.com/collect/
 ||siteimprove.com^$third-party

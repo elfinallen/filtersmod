@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-23 12:54:37 UTC
-! Total Rules: 11699
+! Last Updated: 2026-04-24 01:20:50 UTC
+! Total Rules: 11704
 ! Expires: 5 days
 &&sub19=undefined&sub20=undefined
 &action=js_stats
@@ -520,6 +520,7 @@
 /api/pagevisits
 /api/pixel?
 /api/reqanalytic/*
+/api/site/tracking-config/*
 /api/stat?
 /api/track?guid
 /api/trk?
@@ -7575,6 +7576,7 @@ t.yesware.com
 ||kustomerapp.com/c/v1/tracking/
 ||kvartirant.ru/counter.php?
 ||kwikmotion.com^*/videojs-kwikstat.min.js
+||kwizly.com/api/log/
 ||kxcdn.com/assets/js/script.js
 ||kxcdn.com/prj/
 ||kxcdn.com/track.js
@@ -8537,6 +8539,7 @@ t.yesware.com
 ||onet.pl/eclk/
 ||onet.pl^*/tags?
 ||onlex.de/_counter.php
+||online-partners.lenta.com/api/tracker/sdk.js
 ||online-umwandeln.de/analytics.js
 ||online.hentai-share.me/templates/anime-share2/js/liveinternet.js
 ||online.hentai-share.me/templates/anime-share2/js/metrika.js
@@ -9269,6 +9272,7 @@ t.yesware.com
 ||report.23video.com/api/analytics/
 ||report.23video.com/report-batch
 ||reports.adguard.com/-/metrics/
+||reports.sdiapi.com/service/viceevent
 ||repost.aws/api/v*/content/markresourceviewed
 ||repstatic.it^*/nielsen_static_mapping_repubblica_
 ||res-ga.smzdm.com/gtm.js
@@ -9778,6 +9782,7 @@ t.yesware.com
 ||sishik.ru/counter.php?
 ||site.cdnmaster.cn/sitemaster/collect.js
 ||site24x7rum.jp/beacon/
+||sitecdn.api.domlenta.ru/assets-dom/scripts/yandex-metrika.js
 ||sitefinity.com/collect/
 ||sitejabber.com/set-fingerprint/
 ||sitemaji.com/nownews.php?
