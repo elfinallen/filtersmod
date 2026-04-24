@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-24 01:20:50 UTC
-! Total Rules: 118100
+! Last Updated: 2026-04-24 12:53:25 UTC
+! Total Rules: 118101
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -103919,7 +103919,6 @@ zonedirector.avadacom.com$image
 ||acuityplatform.com^$third-party
 ||acuris.com/wat/v2/data-event
 ||acustomizedgift.com^$redirect=noopjs,script
-||acustomizedgift.com^$redirect=noopjson,xmlhttprequest
 ||acustomizedgift.com^$script,redirect=noopjs
 ||acustomizedgift.com^$~xmlhttprequest
 ||acweb.clog.jp^$third-party
@@ -114518,6 +114517,7 @@ zonedirector.avadacom.com$image
 ||shallspark.com/athena/tracking/
 ||shalltry.com/athena/
 ||share-online.biz/affiliate/$third-party
+||share.9cdn.net/share/*/js/tracking/
 ||share.9cdn.net/share/long_cache/js/tracking/
 ||shareaholic.com/analytics_
 ||shareaholic.com/partners.js
@@ -116606,6 +116606,7 @@ zonedirector.avadacom.com$image
 ||tweakers.net/x/scripts/min/ptbo.js
 ||tweakers.net^*&p=$image
 ||tweakers.nl/track/
+||tweaktown.com/cms/mp3_track.php
 ||twgreatdaily.com/site/js/name/stat
 ||twitter.com/1.1/attribution
 ||twitter.com/1.1/jot

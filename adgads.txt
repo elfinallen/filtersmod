@@ -1,7 +1,7 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-24 01:20:50 UTC
+! Last Updated: 2026-04-24 12:53:25 UTC
 ! Total Rules: 6363
 ! Expires: 5 days
 &ag_custom_vlmspot=
@@ -2062,6 +2062,8 @@ yydstxt*.com/js/html
 ||api.adultdeepfakes.cam/banners
 ||api.apiimg.com/huaer/xiahe.js
 ||api.bilibili.com/x/ad/
+||api.bitchute.com/slot1/
+||api.bitchute.com/slot2/
 ||api.bo3.gg/api/v*/ad_
 ||api.deepai.org/thrad-ad-proxy
 ||api.leakgallery.com/public/lib*.js
@@ -2574,7 +2576,6 @@ yydstxt*.com/js/html
 ||cdn.staticaly.com/gh/arlina-design/*/arlinablock.js
 ||cdn.staticmoly.me/vlock.php?
 ||cdn.tapioni.com/asg_embed.js
-||cdn.telekomunikace.cz/banners
 ||cdn.uameta.ai/file/bucket-media/image/advertisement/
 ||cdn.viously.com/js/sdk/boot.js
 ||cdn.wo.cc/wo.js
@@ -4085,7 +4086,6 @@ yydstxt*.com/js/html
 ||jmhfw.com/index.php?/ajax/get_adv/
 ||jmydm.com/jspage/ftt.js
 ||jnlc.com/www/fund/newsmarket
-||jobzhub.store/nt.js
 ||joemonster.org/build/js/prebid_*.js
 ||johojima.com/wp-content/uploads/*/bn_*.jpg
 ||johojima.com/wp-content/uploads/*/bnr_*.jpg
@@ -4391,7 +4391,6 @@ yydstxt*.com/js/html
 ||louimg.com/u/20191214/17512133.jpg
 ||lovek01.com/gif/97-
 ||loveshang.com/api.php?mod=ad&adid=custom_
-||lovingsiren.com/wp-content/uploads/*/click-here.gif
 ||lovingsiren.com/wp-content/uploads/*banner.
 ||lpl.qq.com/*/data/lol_match2_news_recommend_*_info.js
 ||lsforum.net/cam2/*.gif
@@ -5207,6 +5206,7 @@ yydstxt*.com/js/html
 ||rising.cn/rxbox/
 ||rising.cn^*/pic-ad/
 ||rising.com.cn/weblog/
+||riskbird.com/riskbird-api/guest/uniongoods
 ||rjsos.com/channel/laomo_dibu.png
 ||rjzxw.com/include/
 ||rkanr.com/data/cpcache/cp*.js
@@ -5229,6 +5229,7 @@ yydstxt*.com/js/html
 ||ruiwen.com/sp/
 ||rule34.xxx/images/r34_doll.png
 ||rule34.xxx/x/cookiefreead.js
+||rule34gen.com/images/advertisements/
 ||rule34video.com/images/advertisements/
 ||runmang.vip/img/
 ||runoob.com/images/re/
@@ -5411,6 +5412,7 @@ yydstxt*.com/js/html
 ||slickdeals.net/ad-stats/
 ||slit.cn/slimages/
 ||sm.ign.com/zdadkit*.js
+||smartdestinations.com/ai/
 ||smoothpre.com/player/jw8/vast.js
 ||smqzj.com/seo.js
 ||smzy.com/v1/img/
@@ -5513,7 +5515,6 @@ yydstxt*.com/js/html
 ||static.freevideo.cz/static/prbn/
 ||static.gamedistribution.com/ad-block/
 ||static.hellmoms.com/*/inplaybn-
-||static.hispanoads.es/ttt.js
 ||static.huaren.live/ads/
 ||static.okokserver.com/js/anti/adblocker.js
 ||static.olelive.com/upload/site/*/*.gif
@@ -5956,7 +5957,6 @@ yydstxt*.com/js/html
 ||wfiles.hcomic.net/indexswiper/*_*x*_*_tc_gif.gif
 ||whdx.cc/js/
 ||whichav.*/qq/qq.js
-||whitexxxtube.com/eureka/eureka.js
 ||whnews.cn/wh_public/xuxu/
 ||whsir.com/wp-content/themes/wh-blog/js/modal.js
 ||widget.engageya.com/engageya_loader.js
