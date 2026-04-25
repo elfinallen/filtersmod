@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-25 01:14:02 UTC
-! Total Rules: 118104
+! Last Updated: 2026-04-25 12:34:44 UTC
+! Total Rules: 118112
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -104417,6 +104417,7 @@ zonedirector.avadacom.com$image
 ||amazonpay.com/customerinsight?
 ||amazy.ru^$third-party
 ||ambercrow.com^$third-party
+||amboss.com/analytics/
 ||amcdn.vn^$third-party
 ||amd.com/js/analytics/
 ||amd.sellingsimplified.net/wt/resource/js/track.js
@@ -105365,6 +105366,7 @@ zonedirector.avadacom.com$image
 ||bbthat.com^$script,third-party
 ||bbvms.com/zone/js/zonestats.js
 ||bc.geocities.
+||bc.nejm.org/script.js
 ||bc0a.com/api/
 ||bc0a.com/autopilot/
 ||bc0a.com/be_ixf_js_sdk.js
@@ -107240,6 +107242,8 @@ zonedirector.avadacom.com$image
 ||data.joongna.com/log/
 ||data.joongna.com/log/ga
 ||data.liba.com/_.gif
+||data.pendo.io/data/errorlog?
+||data.pendo.io/data/guide.gif/
 ||data.pendo.statista.com/data/ptm.gif
 ||data.product.lastpass.com/data/ptm.gif/
 ||data.qiota.com/api/event
@@ -108441,6 +108445,7 @@ zonedirector.avadacom.com$image
 ||fishki.net/counter/
 ||fitanalytics.com/metrics/
 ||fitanalytics.com^$third-party
+||fittingbox.com/analytics/
 ||fitymi.app/js/script.js
 ||fiverr.com/api/v1/activities
 ||fiverr.com/px/client/pxk3bezzfo/main.min.js
@@ -109901,6 +109906,7 @@ zonedirector.avadacom.com$image
 ||img.lb.wbmdstatic.com/webmd_static_vue/file-explorer/webmd/global-metrics/
 ||img.lb.wbmdstatic.com/webmd_static_vue/file-explorer/webmd/js/mmtrack.js
 ||img.litix.io/a.gif
+||img.medscapestatic.com/pi/scripts/omniture/bi_medscape.js$domain=medscape.com
 ||img.nec.go.kr/js/*/analytics/wcslog.js
 ||img.opentracker.net
 ||img.sportsworldi.com/static/w_sportsworld/common/js/analytics.js
@@ -112006,6 +112012,7 @@ zonedirector.avadacom.com$image
 ||ncdn22.xyz/cdn-cgi/trace
 ||ncom.dk^$third-party
 ||ncp-e.com/typo3conf/ext/leadlab/res/wm_autotrack_v*.js
+||ncregister.com/_swp_analytics?
 ||nd.demdex.net/event?d_mid=$redirect=nooptext,important,domain=9now.com.au
 ||ndg.io^$third-party
 ||ndmais.com.br/tracking-parceiros-ndmais/
@@ -112417,6 +112424,7 @@ zonedirector.avadacom.com$image
 ||on.aws/track?
 ||on.aws/tracking/event
 ||onaudience.com^$third-party
+||onboarding-ui.frontiersin.org/api/onboarding-ui/v1/session/logged
 ||ondigitalocean.app/insight-analytics.js
 ||ondu.ru^$third-party
 ||one.store/v1/analytics/
@@ -112726,6 +112734,7 @@ zonedirector.avadacom.com$image
 ||patched.to^$cookie=mybb[lastvisit]
 ||patched.to^$cookie=mybb[threadread]
 ||patched.to^$cookie=sid
+||patient.info/a31h/
 ||patreon.com/api/tracking
 ||patreon.com/api/tracking^
 ||pautina.net/images/$third-party
@@ -114769,7 +114778,6 @@ zonedirector.avadacom.com$image
 ||slickdeals.net/ajax/stats/
 ||slidedeck.com^$image,third-party
 ||slideplayer.biz.tr/slide/getviewscount/
-||slideshare.net/frontend_tracking/
 ||slideshare.net^$cookie=browser_id
 ||slingpic.com^$third-party
 ||slingshot.io^$third-party

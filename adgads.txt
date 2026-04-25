@@ -1,7 +1,7 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-25 01:14:02 UTC
+! Last Updated: 2026-04-25 12:34:44 UTC
 ! Total Rules: 6364
 ! Expires: 5 days
 &ag_custom_vlmspot=
@@ -397,6 +397,7 @@
 /ab_my/pc_pf.js
 /ab_res/m/common.js
 /ab_res/pc/fixed/fixed.js
+/abdetect.min.js^
 /ad-provider.
 /ad2v1.1.js
 /ad?count=
@@ -420,6 +421,7 @@
 /adpro.js
 /adpuba/*
 /adpv?cn=
+/ads.criteo.com.js
 /ads/acctid=
 /ads/get-ads-by-zones/?zones%
 /ads/targeted|
@@ -2493,8 +2495,6 @@ yydstxt*.com/js/html
 ||caibaojian.com/d/uploads/*0-
 ||caikuu.com/ckimages/*_gg
 ||caikuu.com/ckimages/*_zg
-||caitlin.top/catalog/view/core/adchecker/
-||caitlin.top/catalog/view/core/comic/fc.js
 ||caixin.com/s?z=
 ||campaign-service.datacamp.com/api/v1/banner
 ||camspacelive.com/widgets/
@@ -2548,7 +2548,6 @@ yydstxt*.com/js/html
 ||cdn.concert.io/lib/concert-ads/
 ||cdn.cuty.io/fps.js
 ||cdn.dotaoutpost.com/stable/js/wowhead.js
-||cdn.flightconnections.com/js/before_pubfig.js
 ||cdn.galacg.me/img/*.gif
 ||cdn.galacg.me/img/*.jpg
 ||cdn.haokongbu1.com^*.js
@@ -3602,7 +3601,6 @@ yydstxt*.com/js/html
 ||hentaicomic.*/data/ds/
 ||hentaicomic.*/data/game/*/wap.gif
 ||hentaifox.com/js/slider.js
-||hentaigo.com/wp-content/themes/gameleon-child/ads-interstitial/
 ||hentaivideos.net/imp/
 ||hexun.*/hxpage/index.html
 ||hexun.com*/hx_news/hx_news_finalpage.js
@@ -5254,7 +5252,6 @@ yydstxt*.com/js/html
 ||s2.coinmarketcap.com/static/img/cdp_ad_banner/
 ||s2tu.com/images/*.gif
 ||s3.amazonaws.com^*/f10ac63cd7
-||s3.amazonaws.com^*/secure.js
 ||s7tu.com/images/*.gif
 ||s8bbs.com/ad/
 ||s8bbs.com/g.php?
@@ -5537,6 +5534,7 @@ yydstxt*.com/js/html
 ||storage.googleapis.com/admaxvaluemedia/
 ||storage.googleapis.com/adtags/
 ||storage.googleapis.com/pravda-ad-script/
+||storage.googleapis.com/vs-scripts/primis/primisslide.js
 ||store.7box.vip/ad/
 ||storm.mg/ad?
 ||storyren.top/imgg/
@@ -5573,6 +5571,7 @@ yydstxt*.com/js/html
 ||supfree.net/top.gif
 ||supfree.net/xxx/
 ||sw76r85eda3k.com/need/h5.
+||sweetalert2.github.io/images/sponsors/
 ||swoole.com/_images/kundian
 ||swoole.com/_images/w7.jpg
 ||sxeimg.com/u/20191108/13082210.gif
@@ -5922,6 +5921,7 @@ yydstxt*.com/js/html
 ||wantgoo.com/wantgoofiles/banner/
 ||wanwan.sina.com.cn/third_party/
 ||wasabii.com.tw/float/*.js
+||wcostream.com/inc/js/adblock-detector-hardened.js
 ||wcostream.net/premiumad
 ||wdff.buzz/hengf.
 ||we560.com/js/*.js

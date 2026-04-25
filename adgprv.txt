@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-25 01:14:02 UTC
-! Total Rules: 11709
+! Last Updated: 2026-04-25 12:34:44 UTC
+! Total Rules: 11716
 ! Expires: 5 days
 &&sub19=undefined&sub20=undefined
 &action=js_stats
@@ -3953,6 +3953,7 @@ t.yesware.com
 ||amazonaws.com/webengage-files/
 ||amazonaws.com^*/prod_analytics
 ||amazonpay.com/customerinsight?
+||amboss.com/analytics/
 ||amd.com/js/analytics/
 ||amd.sellingsimplified.net/wt/resource/js/track.js
 ||ameba.jp/cookie/
@@ -4596,6 +4597,7 @@ t.yesware.com
 ||bbstatic.pcmag.com/js/z0wvjcbseegloxixoqvewq.min.js
 ||bbvms.com/zone/js/zonestats.js
 ||bc.geocities.
+||bc.nejm.org/script.js
 ||bc0a.com/api/
 ||bc0a.com/autopilot/
 ||bc0a.com/be_ixf_js_sdk.js
@@ -5670,6 +5672,8 @@ t.yesware.com
 ||data.joongna.com/log/
 ||data.joongna.com/log/ga
 ||data.liba.com/_.gif
+||data.pendo.io/data/errorlog?
+||data.pendo.io/data/guide.gif/
 ||data.pendo.statista.com/data/ptm.gif
 ||data.product.lastpass.com/data/ptm.gif/
 ||data.qiota.com/api/event
@@ -6348,6 +6352,7 @@ t.yesware.com
 ||fireseo.ru/wp-content/*/jquery.iframetracker.js
 ||fishki.net/counter/
 ||fitanalytics.com/metrics/
+||fittingbox.com/analytics/
 ||fitymi.app/js/script.js
 ||fiverr.com/api/v1/activities
 ||fiverr.com/px/client/pxk3bezzfo/main.min.js
@@ -8307,6 +8312,7 @@ t.yesware.com
 ||ncbi.nlm.nih.gov/core/pinger/pinger.js
 ||ncdn22.xyz/cdn-cgi/trace
 ||ncp-e.com/typo3conf/ext/leadlab/res/wm_autotrack_v*.js
+||ncregister.com/_swp_analytics?
 ||ndmais.com.br/tracking-parceiros-ndmais/
 ||neatorama.com/story/view/
 ||needle.com/pageload?
@@ -8528,6 +8534,7 @@ t.yesware.com
 ||omt.shinobi.jp/tsumugi?location=
 ||on.aws/track?
 ||on.aws/tracking/event
+||onboarding-ui.frontiersin.org/api/onboarding-ui/v1/session/logged
 ||ondigitalocean.app/insight-analytics.js
 ||one.store/v1/analytics/
 ||onecount.net/onecount/oc_track/
@@ -8712,6 +8719,7 @@ t.yesware.com
 ||paruvendu.fr/*/stats/
 ||passportnews.co.il/system/js/analytics.js
 ||passportnews.co.il/tag_manager.js
+||patient.info/a31h/
 ||patreon.com/api/tracking
 ||patreon.com/api/tracking^
 ||pavlov-prod.healthline.com/api/metrics|
@@ -9827,7 +9835,6 @@ t.yesware.com
 ||slgnt.us/track
 ||slickdeals.net/ajax/stats/
 ||slideplayer.biz.tr/slide/getviewscount/
-||slideshare.net/frontend_tracking/
 ||sliponline.nl/tracker/
 ||smaero.jp/js/access.js
 ||smallpdf.com/build/track-js.js
