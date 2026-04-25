@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-24 12:53:25 UTC
-! Total Rules: 118101
+! Last Updated: 2026-04-25 01:14:02 UTC
+! Total Rules: 118104
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -106893,6 +106893,7 @@ zonedirector.avadacom.com$image
 ||cosmo.ru/*/.js?i=*&r=
 ||cost1action.com^$third-party
 ||couchsurfing.com/becn7fqx/init.js
+||count.bg/js/script.js
 ||count.fr^$third-party
 ||count.ly^$third-party
 ||count24.de^$third-party
@@ -107261,6 +107262,7 @@ zonedirector.avadacom.com$image
 ||datado.me^$third-party
 ||datadog-log.clovergames.io
 ||datadoghq-browser-agent.com^$third-party
+||datadoghq.com/api/v2/rum
 ||datadoghq.com/assets/dd-browser-logs-rum.js
 ||datadoghq.eu^$third-party
 ||datadome.co^$third-party
@@ -115912,6 +115914,7 @@ zonedirector.avadacom.com$image
 ||teraboxcdn.com/general-conf/fk/dfxaf3-*.js
 ||terabytemedia.com^$third-party
 ||tercept.com^$third-party
+||terminaltrove.com/_t/
 ||termsfeed.com/track/
 ||terra.com.br/coletor/
 ||terra.com.br/metrics/

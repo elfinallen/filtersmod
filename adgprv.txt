@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-24 12:53:25 UTC
-! Total Rules: 11706
+! Last Updated: 2026-04-25 01:14:02 UTC
+! Total Rules: 11709
 ! Expires: 5 days
 &&sub19=undefined&sub20=undefined
 &action=js_stats
@@ -5498,6 +5498,7 @@ t.yesware.com
 ||corvidae.ai/pixel.min.js
 ||cosmo.ru/*/.js?i=*&r=
 ||couchsurfing.com/becn7fqx/init.js
+||count.bg/js/script.js
 ||countly-
 ||countly.
 ||coupang.com/next-api/products/reco-widget?productid=*&vendoritemid=*&itemid=
@@ -5683,6 +5684,7 @@ t.yesware.com
 ||datacomm.ch^*/count.cgi?
 ||datacore-write.securitytrfx.com/blob/em_cmp_lib_tracking/
 ||datadog-log.clovergames.io
+||datadoghq.com/api/v2/rum
 ||datadoghq.com/assets/dd-browser-logs-rum.js
 ||datadome00.id.me/tags.js
 ||datafa.st/js/script.js
@@ -10480,6 +10482,7 @@ t.yesware.com
 ||terabox.fun/api/analytics
 ||terabox.fun/api/getsyscfg?*web_share_ads_adsterra_config
 ||teraboxcdn.com/general-conf/fk/dfxaf3-*.js
+||terminaltrove.com/_t/
 ||termsfeed.com/track/
 ||terra.com.br/coletor/
 ||terra.com.br/metrics/
