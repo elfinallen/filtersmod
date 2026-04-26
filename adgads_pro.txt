@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-26 01:22:50 UTC
-! Total Rules: 10035
+! Last Updated: 2026-04-26 12:36:26 UTC
+! Total Rules: 10028
 ! Expires: 5 days
 $cookie=/adb\.key/,domain=expres.cz|televizeseznam.cz|ahaonline.cz|extra.cz|mobilmania.cz|idnes.cz|aktuality.sk|aktualne.cz|blesk.cz|centrum.cz|cnews.cz|e15.cz|karaoketexty.cz|novinky.cz|sport.cz|super.cz|tiscali.cz|zive.cz|antiyoutuber.cz|fights.cz|metro.cz
 $cookie=__adblocker,domain=slate.com|thehindubusinessline.com
@@ -53,7 +53,6 @@ $script,third-party,denyallow=cdn.yinghuazy.xyz|rsc.cdn77.org|linkvertise.com|fa
 $script,third-party,denyallow=ckeditor.com|fastly.net|statically.io|sharecast.ws|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|recaptcha.net|shrink.pe|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yastatic.net|ytimg.com|zencdn.net|youtube.com|cackle.me|googleoptimize.com|vuukle.com|chatango.com|twimg.com|google-analytics.com|hcaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io,_____,domain=shinden.pl
 $script,third-party,denyallow=cloudflare.net|jquery.com|jsdelivr.net|lulucdn.com,domain=luluvdo.com
 $script,third-party,denyallow=disquscdn.com|disqus.com|fastlylb.net,domain=bluelockmanga.com
-$script,third-party,denyallow=googlvideo.com|doodcdn.io|intensedebate.com|vixcloud.co|cdn.plyr.io|rsc.cdn77.org|fastly.net|statically.io|sharecast.ws|b-cdn.net|bunnycdn.ru|bootstrapcdn.com|cdn.ampproject.org|cloudflare.com|cdn.staticfile.org|disqus.com|disquscdn.com|dmca.com|ebacdn.com|facebook.net|fastlylb.net|fbcdn.net|fluidplayer.com|fontawesome.com|github.io|google.com|googleapis.com|googletagmanager.com|gstatic.com|jquery.com|jsdelivr.net|jwpcdn.com|jwplatform.com|recaptcha.net|twitter.com|ulogin.ru|unpkg.com|userapi.com|vidazoo.com|vk.com|yastatic.net|ytimg.com|zencdn.net|youtube.com|googleoptimize.com|vuukle.com|chatango.com|twimg.com|hcaptcha.com|media-imdb.com|blogger.com|hwcdn.net|instagram.com|wp.com|fastcomments.com|plyr.io|cloudflare.net|rabbitstream.net|x.com|ssl.p.jwpcdn.com,_____,domain=aniwave.se
 $script,third-party,denyallow=gstatic.com|cloudflare.com|jsdelivr.net,_____,domain=lookmovie2.to|lookmovie2.la
 $script,third-party,denyallow=jsdelivr.net|cloudflare.com|unpkg.com|vikingfile.com,domain=vik1ngfile.site
 $script,third-party,denyallow=myqcloud.com|bytecdntp.com|pddpic.com|googletagmanager.com,domain=yjys.me
@@ -645,7 +644,6 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 /80sad/*
 /80x468_
 /83zg/tss.js
-/88/tag.min.js
 /8drama_yahoo/*
 /9115gg/*
 /91_banner/*
@@ -2742,7 +2740,6 @@ yydstxt*.com/js/html
 ||2d4f.com/love/
 ||2hiu.com^$third-party
 ||2kandy.com/js/123/
-||2leep.com^$third-party
 ||2mdn.net/videoplayback/$redirect=noopmp4-1s,domain=laurelberninteriors.com|safeframe.googlesyndication.com
 ||2mdn.net^$~media,third-party
 ||2performant.com^$third-party
@@ -3683,6 +3680,8 @@ yydstxt*.com/js/html
 ||anyshare.icu^*.js
 ||anywlan.com/link/*.gif
 ||aolusb.com/forever/
+||aoneroom.com/wefeed-h5-bff/ad/$xmlhttprequest
+||aoneroom.com/wefeed-h5api-bff/ad/
 ||aoshi.com/rbc.jpg
 ||aotu43.com/templates/defboot/js/duilian.js
 ||api-a.ganjingworld.com/*/adsserver/get-vast-xml/
@@ -3795,6 +3794,7 @@ yydstxt*.com/js/html
 ||audiencerun.com^$third-party
 ||audio-*.scdn.co/audio/$media,redirect=noopmp4-1s,app=spotify.exe
 ||audio-ak*-*.akamaized.net/audio/$media,~xmlhttprequest,redirect=noopmp4-1s,app=spotify.exe
+||audio-ak*-*.akamaized.net/audio/$media,~xmlhttprequest,redirect=noopmp4-1s,domain=spotify.com
 ||audiobookbay.nl^$replace=/window.location.replace\("\/member\/adblock.php"\);/return;/,~script,~stylesheet,~xmlhttprequest
 ||audioz.download/templates/default/img/promo/
 ||auntmia.com/promo/
@@ -4202,7 +4202,6 @@ yydstxt*.com/js/html
 ||browserscan.net/dist/adspower_zh.
 ||bs.baidu.com/app-ads%
 ||bscscan.com/images/gen/*.gif
-||bstatic.com^$script,domain=abril.com.br
 ||bt-tt.com/ad
 ||bt.cn/bbs/newsimg/
 ||bt.co/adzerk/$app=utorrentie.exe
@@ -5962,7 +5961,6 @@ yydstxt*.com/js/html
 ||hqcx.net/images/baidu.jpg
 ||hqcx.net/index.php?m=poster&
 ||hqdoor.com/web/
-||hqfap.com/themes/lite/js/mztn.js
 ||hqmediago.com^$media,domain=xfree.com
 ||hqol.cn/up/ad/
 ||hrjg.com.cn^$third-party
@@ -5988,6 +5986,7 @@ yydstxt*.com/js/html
 ||httpcn.com/m/tg/
 ||httpcn.com^*-120
 ||httpool.com^$third-party
+||httpslink.com/edgeofthefire
 ||httpwwwdcom.com/js/aaa/
 ||htvapps.com/ad_fallback/
 ||huaban.com^*/ads
@@ -6233,7 +6232,6 @@ yydstxt*.com/js/html
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=google-ima3,important,domain=videostar.pl|o2.pl|dobreprogramy.pl|polygamia.pl|genialne.pl|pysznosci.pl|benchmark.pl|wp.pl|jastrzabpost.pl
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=noopjs,domain=upns.online|upns.xyz|upns.one|isekaitube.cfd|upns.live|javlion.xyz|hlsfast.com|ultrastream.online|streamcasthub.store|w1tv.xyz|cdnstream.top|javboys.upn.one|coflix.upn.one|animeshqip.uns.bio|rpmvid.com|onion.upns.blog|securecdn.shop|embed4me.com|jhdanime.com|strp2p.com|playeranimewatch.pl|bigbuttshubvideos.com
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=noopjs,important,domain=claudia.pl|elle.pl|focus.pl|kobieta.pl|mojegotowanie.pl|przyslijprzepis.pl|glamour.pl
-||imasdk.googleapis.com/js/sdkloader/ima3.js$script,redirect=noopjs,important,domain=national-geographic.pl
 ||imasdk.googleapis.com/js/sdkloader/ima3.js$script,xmlhttprequest,subdocument,redirect=google-ima3,domain=ufreegames.com
 ||imasdk.googleapis.com/js/sdkloader/ima3_dai.js$replace=/(function ..\(a\,b\,c\){)return a\+"\/"\+b\+"\/vid\/"\+c\+"\/streams"}/\$1}/,domain=sbs.com.au
 ||imasdk.googleapis.com/pal/sdkloader/pal.js$script,redirect=noopjs,domain=channel5.com
@@ -7156,7 +7154,6 @@ yydstxt*.com/js/html
 ||medsci.cn/images/wyg.jpg
 ||meendocash.com^$third-party
 ||megatube.xxx/atrm^
-||megatube.xxx/sum.js
 ||megaup.net/sw.js
 ||meiju8.cc/js/jquery.p.min.js
 ||meiju8.cc/js/m_ban_
@@ -7598,7 +7595,6 @@ yydstxt*.com/js/html
 ||onnetwork.tv/widget/
 ||onnetwork.tv^$domain=ppe.pl
 ||onnetwork.tv^$domain=telepolis.pl
-||onrender.com/api/ads/
 ||onx8.com/theme/tange/add/
 ||onx8.com/zb_users/theme/ydgreen/style/ad/
 ||oodcd.cn/pan/config/ad.json
@@ -7749,6 +7745,7 @@ yydstxt*.com/js/html
 ||pasazer.com/_assets/js/ad-connect.js
 ||passendo.com^$third-party
 ||passtechusa.com^$popup
+||patakaendymal.top^$all
 ||pbc.pagesix.com/p/nyp/pagesix/pb.js
 ||pbmp.ali213.net/js/
 ||pc6.com/img/
@@ -7865,7 +7862,6 @@ yydstxt*.com/js/html
 ||pixfs.net/module/fullpage/dist/ad-full-page.
 ||pixfuture.com^$third-party
 ||pixlr.com/fad/
-||pjatr.com^$image,script
 ||pjcn.org^$third-party
 ||pjtime.com/js/show_ad
 ||pkvs.com/public/300/
@@ -7893,6 +7889,7 @@ yydstxt*.com/js/html
 ||playoncenter.com^$third-party
 ||plibcdn.com/templates/base_master/js/jquery.shows2.min.js
 ||plinksplanet.com^$document
+||plus.net/images/referrals/
 ||pluto.tv/*/dash/*/*.mpd$replace=/<period.{1\,100}?><baseurl>.{1\,100}\.plutotv\.net\/.{1\,50}_ad\/.*?<\/baseurl>[\s\s]*?<\/period>//
 ||pluto.tv/*/session.json$jsonprune=\$.adbreak.*
 ||pluto.tv/*/session.json$jsonprune=\$.adbreaklocations.*
@@ -7964,6 +7961,7 @@ yydstxt*.com/js/html
 ||predictivdisplay.com^$popup
 ||presearch.com/affiliates|$xmlhttprequest
 ||presearch.com/tiles^
+||press-start.com/affgames/
 ||prettyvirgin.com/images/banners/
 ||prettyvirgin.com/js/show.html
 ||prf.hn^$third-party
@@ -8054,7 +8052,6 @@ yydstxt*.com/js/html
 ||pysznosci.pl^$replace=/(aabv\d[\s\s]*?.=\(\)=>).===.(\,)/\$1{return}\$2/,script
 ||pysznosci.pl^$replace=/(aabv\d[\s\s]*?.=function\(\)\{)return .===.(\}\,)/\$1return\$2/,script
 ||qafqazinfo.az/public/site/js/adsbyskyline.js^
-||qarant.az/banner.js$domain=banker.az
 ||qayqa.com:6868/jquery/
 ||qbox.me/flnvidueio_lrxygiol0ofw0gpa7
 ||qbox.me/fnjnjjhjzlkzegj7qv1aocqusfbf
@@ -8282,7 +8279,6 @@ yydstxt*.com/js/html
 ||rjzxw.com/include/
 ||rkanr.com/data/cpcache/cp*.js
 ||rkxy.com.cn/js/text_
-||rm358.com^$popup
 ||rmf.hit.gemius.pl/gplayer.js$script,redirect=gemius,domain=rmfon.pl
 ||rmf24.pl/j/videojs/ad-setup.js
 ||rmhfrtnd.com^$document
@@ -8612,7 +8608,6 @@ yydstxt*.com/js/html
 ||smartico.one^$third-party
 ||smartkhabrinews.com^$replace=/'https:\/\/tpc\.googlesyndication\.com\/simgad\/[\s\s]*?'/'https:\/\/streama2z.com\/assets\/strlogo.png'/,document
 ||smartyads.com^$third-party
-||smoothpre.com/player/jw8/vast.js
 ||smopy.com^$third-party
 ||smqzj.com/seo.js
 ||smzy.com/v1/img/
@@ -9117,7 +9112,6 @@ yydstxt*.com/js/html
 ||tra.scds.pmdstatic.net/advertising-core/
 ||track.effiliation.com^$image,script
 ||trackad.cz/adtrack.php$script,other,redirect=noopjs,domain=nova.cz
-||trackuity.com^$third-party
 ||trackwilltrk.com^$popup
 ||tradedoubler.com^$third-party
 ||tradehouse.media/js/prebid-
@@ -9276,7 +9270,6 @@ yydstxt*.com/js/html
 ||uploadhouse.com^*.gif$domain=wishct.com
 ||upuplet.net^$popup
 ||usatoday.com/gcdn/ads/
-||usemax.de^$third-party
 ||user.042.cn/adver/adver.js
 ||userscript.zone/s.js
 ||usgo.chucaotang.net/ua.js
@@ -9521,6 +9514,7 @@ yydstxt*.com/js/html
 ||widget.ezprice.com.tw^$third-party
 ||widgets.guppy.live^$third-party
 ||widgets.outbrain.com/outbrain.js
+||widgets.outbrain.com^*/widget.js
 ||wifelovers.com^$third-party
 ||wikihow.com/x/zscsucgm?
 ||williamlong.info/script/sidebar.js
@@ -9619,7 +9613,6 @@ yydstxt*.com/js/html
 ||xbqg6.com/*.php
 ||xcafe.com/*.php
 ||xcafe.com/assets/script.js
-||xcafe.com/js/script_new.js
 ||xcar.com.cn/dsp/ad
 ||xchina.*/ad/
 ||xchina.*/plugins/jquery.modal/

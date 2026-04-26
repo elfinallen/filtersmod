@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-26 01:22:50 UTC
-! Total Rules: 6365
+! Last Updated: 2026-04-26 12:36:26 UTC
+! Total Rules: 6364
 ! Expires: 5 days
 &ag_custom_vlmspot=
 &js_build=iclick-
@@ -371,7 +371,6 @@
 /80sad/*
 /80x468_
 /83zg/tss.js
-/88/tag.min.js
 /8drama_yahoo/*
 /9115gg/*
 /91_banner/*
@@ -2059,6 +2058,7 @@ yydstxt*.com/js/html
 ||anyshare.icu^*.js
 ||anywlan.com/link/*.gif
 ||aolusb.com/forever/
+||aoneroom.com/wefeed-h5api-bff/ad/
 ||aoshi.com/rbc.jpg
 ||aotu43.com/templates/defboot/js/duilian.js
 ||api-a.ganjingworld.com/*/adsserver/get-vast-xml/
@@ -3664,7 +3664,6 @@ yydstxt*.com/js/html
 ||hqcx.net/images/baidu.jpg
 ||hqcx.net/index.php?m=poster&
 ||hqdoor.com/web/
-||hqfap.com/themes/lite/js/mztn.js
 ||hqol.cn/up/ad/
 ||hs.cnfol.com/cm/imgs/load.gif
 ||hs640.com/js/jquery.js
@@ -3677,6 +3676,7 @@ yydstxt*.com/js/html
 ||httpcn.com/images/banner
 ||httpcn.com/m/tg/
 ||httpcn.com^*-120
+||httpslink.com/edgeofthefire
 ||httpwwwdcom.com/js/aaa/
 ||htvapps.com/ad_fallback/
 ||huaban.com^*/ads
@@ -4517,7 +4517,6 @@ yydstxt*.com/js/html
 ||media.swncdn.com/salemads/*/advscript.js
 ||medsci.cn/images/wyg.jpg
 ||megatube.xxx/atrm^
-||megatube.xxx/sum.js
 ||megaup.net/sw.js
 ||meiju8.cc/js/jquery.p.min.js
 ||meiju8.cc/js/m_ban_
@@ -4804,7 +4803,6 @@ yydstxt*.com/js/html
 ||oneinstack.com/images/oneinstack-
 ||onetvb.com/assets/javascripts/
 ||onnetwork.tv/widget/
-||onrender.com/api/ads/
 ||onx8.com/theme/tange/add/
 ||onx8.com/zb_users/theme/ydgreen/style/ad/
 ||oodcd.cn/pan/config/ad.json
@@ -4958,6 +4956,7 @@ yydstxt*.com/js/html
 ||play6111.com/js/
 ||player.globalsun.io/*-player.js
 ||plibcdn.com/templates/base_master/js/jquery.shows2.min.js
+||plus.net/images/referrals/
 ||pmb*.tj.ali213.net/js/
 ||pniao99.com/statics/js/stat.js
 ||poco.cn/v1_1/rank/get_floating_layer_ad
@@ -4995,6 +4994,7 @@ yydstxt*.com/js/html
 ||ppsj.com.cn/images/ppsj300.gif
 ||pptv.com/game/aplus/client/gamedetail.html
 ||presearch.com/tiles^
+||press-start.com/affgames/
 ||prettyvirgin.com/images/banners/
 ||prettyvirgin.com/js/show.html
 ||price.com.hk/dfp_price.php?
@@ -5412,7 +5412,6 @@ yydstxt*.com/js/html
 ||slit.cn/slimages/
 ||sm.ign.com/zdadkit*.js
 ||smartdestinations.com/ai/
-||smoothpre.com/player/jw8/vast.js
 ||smqzj.com/seo.js
 ||smzy.com/v1/img/
 ||so.91ks.online/asset/bd.js
@@ -5963,6 +5962,7 @@ yydstxt*.com/js/html
 ||whsir.com/wp-content/themes/wh-blog/js/modal.js
 ||widget.engageya.com/engageya_loader.js
 ||widgets.outbrain.com/outbrain.js
+||widgets.outbrain.com^*/widget.js
 ||wikihow.com/x/zscsucgm?
 ||williamlong.info/script/sidebar.js
 ||win2008.info/gongyi.gif
@@ -6028,7 +6028,6 @@ yydstxt*.com/js/html
 ||xbqg6.com/*.php
 ||xcafe.com/*.php
 ||xcafe.com/assets/script.js
-||xcafe.com/js/script_new.js
 ||xcar.com.cn/dsp/ad
 ||xchina.*/ad/
 ||xchina.*/plugins/jquery.modal/
