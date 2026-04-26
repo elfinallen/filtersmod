@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-25 12:34:44 UTC
-! Total Rules: 6364
+! Last Updated: 2026-04-26 01:22:50 UTC
+! Total Rules: 6365
 ! Expires: 5 days
 &ag_custom_vlmspot=
 &js_build=iclick-
@@ -2040,6 +2040,7 @@ yydstxt*.com/js/html
 ||anhuinews.com/include/
 ||anhuinews.com/zhuyeguanli/*ad/
 ||anime-suba.com/anime-suba/admin/imganadvertisement/
+||animehay01.site/ad_banner/
 ||animeshqip.org/kira.php
 ||animewaku.com/up/img/webp/*.webp
 ||anjuke.com^*/ajax/business_area_search/

@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-25 12:34:44 UTC
-! Total Rules: 10033
+! Last Updated: 2026-04-26 01:22:50 UTC
+! Total Rules: 10035
 ! Expires: 5 days
 $cookie=/adb\.key/,domain=expres.cz|televizeseznam.cz|ahaonline.cz|extra.cz|mobilmania.cz|idnes.cz|aktuality.sk|aktualne.cz|blesk.cz|centrum.cz|cnews.cz|e15.cz|karaoketexty.cz|novinky.cz|sport.cz|super.cz|tiscali.cz|zive.cz|antiyoutuber.cz|fights.cz|metro.cz
 $cookie=__adblocker,domain=slate.com|thehindubusinessline.com
@@ -3323,6 +3323,7 @@ yydstxt*.com/js/html
 ||adition.com^$third-party
 ||aditude.io^$third-party
 ||adjust.com^$script,third-party
+||adkora.com^$third-party
 ||adlightning.com^$third-party
 ||adlook.me^$third-party
 ||adlooxtracking.com^$third-party
@@ -3653,6 +3654,7 @@ yydstxt*.com/js/html
 ||animahd.com/static/js/main.*.js$replace=/if\(.<2\){const/if(!1){const/
 ||anime-suba.com/anime-suba/admin/imganadvertisement/
 ||anime-suba.com/dist/banner/setkosana/$replace=/({ 'ad': \[)[\s\s]*?(\]\,)/\$1\$2/
+||animehay01.site/ad_banner/
 ||animeshqip.org/kira.php
 ||animewaku.com/up/img/webp/*.webp
 ||anisearch.com/media/js/*/*/*.js$replace=/(\.onerror=\(\)=>\{.\()!0(\);)/\$1!1\$2/
