@@ -1,7 +1,7 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-27 01:23:50 UTC
+! Last Updated: 2026-04-27 13:12:39 UTC
 ! Total Rules: 6364
 ! Expires: 5 days
 &ag_custom_vlmspot=
@@ -670,6 +670,7 @@
 /jfjs/ad.js
 /jianpian.obs.cn-
 /jianshen8/images/plan_banner_
+/jquery.adi.js
 /jquery.adx.js?
 /jquery.dfp.min.js?
 /jquery.overlayad.js
@@ -4238,7 +4239,6 @@ yydstxt*.com/js/html
 ||kppt.cc/zb_system/script/common.js
 ||kppt.cc/zhifu.jpg
 ||krakenfiles.com/assets/js/adb.js
-||krakenfiles.com/assets/js/adpp.js
 ||krx18.com/ads/adsblockx.js
 ||kt51.com/bjl666.gif
 ||kt51.com/images/kt51.gif
