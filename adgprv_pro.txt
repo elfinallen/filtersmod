@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-28 01:30:19 UTC
-! Total Rules: 118114
+! Last Updated: 2026-04-28 13:23:09 UTC
+! Total Rules: 118121
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -104623,6 +104623,7 @@ zonedirector.avadacom.com$image
 ||api.biz.sbs.co.kr/statistics/
 ||api.blink.net/a/
 ||api.blockchain.info/events/tracking/consent
+||api.bluecore.app/api/track/
 ||api.blux.ai/prod/*/applications/*/blux-users/*/collect-events
 ||api.bookvillage.app/analytics/track
 ||api.brunch.co.kr/v1/front-log
@@ -106084,7 +106085,7 @@ zonedirector.avadacom.com$image
 ||cdn.dsmcdn.com/sfint/production/demeter-prod-*.umd.js
 ||cdn.dsmcdn.com/sfx/mergen/
 ||cdn.dzen.ru/pingx
-||cdn.evgnet.com/beacon/homedepotofcainc/engage/scripts/evergage.min.js$script,redirect=noopjs
+||cdn.evgnet.com/beacon/*/scripts/evergage.min.js$script,redirect=noopjs
 ||cdn.fast.beintoo.net/static/tags/beintoo-tag.js
 ||cdn.firstpromoter.com^$third-party
 ||cdn.fugu-it.com/web/script.js
@@ -108571,6 +108572,8 @@ zonedirector.avadacom.com$image
 ||forum.ixbt.com/liveinternet.gif
 ||forum.turkmmo.com/jc/gtm.js
 ||forum.zuvio.com.tw/api/article/finish
+||forums.hardwarezone.com.sg/js/hwz/hwz_permutive.js
+||forums.hardwarezone.com.sg/js/hwz/neuron.js
 ||forums.mmorpg.com//js/count.js
 ||forums.mmorpg.com/applications/vanilla/js/tagging.js
 ||forums.mmorpg.com/settings/analyticstick.json
@@ -111621,6 +111624,7 @@ zonedirector.avadacom.com$image
 ||mirabelsmarketingmanager.com^$third-party
 ||mirakl.net^$third-party
 ||mirtesen.ru/js/ms.js
+||misc.udn.com/record/pageview/
 ||misrepush.com^$third-party
 ||misto.zp.ua/img/reiting_$third-party
 ||misumi-ec.com/api/v1/log/
@@ -112642,6 +112646,7 @@ zonedirector.avadacom.com$image
 ||p.raasnet.com^$third-party
 ||p.sfx.ms/is/invis.gif
 ||p.typekit.net/p.gif
+||p.udn.com.tw/upf/static/common/udn-fingerprint.umd.js
 ||p0.com/1x1
 ||p0.raasnet.com^$third-party
 ||p0y.cn^$third-party
@@ -113756,6 +113761,7 @@ zonedirector.avadacom.com$image
 ||reklama.lv/services/espy.php
 ||relaido.jp^$cookie=relaido_uuid
 ||relap.io^$third-party
+||relatorios.prportais.com.br/storage/cdn-adi/news-tracker-min.js
 ||relaymedia.com/ping?$third-party
 ||relead.com^$third-party
 ||relevant-digital.com^$third-party
@@ -116811,6 +116817,7 @@ zonedirector.avadacom.com$image
 ||urldefense.proofpoint.com^*analytics_insight.min.js
 ||urlscan.io/stats
 ||urstats.de^$third-party
+||us*-prod-direct.*.com/events/$domain=tlc.com|discovery.com
 ||us-central*-shopify-instrumentat-*.cloudfunctions.net/telemetry
 ||us-central1-affilimate.cloudfunctions.net/tracking_
 ||us-central1-terrific-live.cloudfunctions.net/userevents|

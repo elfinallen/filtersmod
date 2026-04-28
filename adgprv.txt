@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-28 01:30:19 UTC
-! Total Rules: 11719
+! Last Updated: 2026-04-28 13:23:09 UTC
+! Total Rules: 11725
 ! Expires: 5 days
 &&sub19=undefined&sub20=undefined
 &action=js_stats
@@ -4058,6 +4058,7 @@ t.yesware.com
 ||api.biz.sbs.co.kr/statistics/
 ||api.blink.net/a/
 ||api.blockchain.info/events/tracking/consent
+||api.bluecore.app/api/track/
 ||api.blux.ai/prod/*/applications/*/blux-users/*/collect-events
 ||api.bookvillage.app/analytics/track
 ||api.brunch.co.kr/v1/front-log
@@ -6433,6 +6434,8 @@ t.yesware.com
 ||forum.ixbt.com/liveinternet.gif
 ||forum.turkmmo.com/jc/gtm.js
 ||forum.zuvio.com.tw/api/article/finish
+||forums.hardwarezone.com.sg/js/hwz/hwz_permutive.js
+||forums.hardwarezone.com.sg/js/hwz/neuron.js
 ||forums.mmorpg.com//js/count.js
 ||forums.mmorpg.com/applications/vanilla/js/tagging.js
 ||forums.mmorpg.com/settings/analyticstick.json
@@ -8112,6 +8115,7 @@ t.yesware.com
 ||minsk-in.net/counter.php?
 ||minutemediacdn.com/campaign-manager-client/
 ||mirtesen.ru/js/ms.js
+||misc.udn.com/record/pageview/
 ||misumi-ec.com/api/v1/log/
 ||misumi-ec.com/vcommon/common/js/karte.js
 ||mixi.net/static/js/build/mixi-analysis
@@ -8669,6 +8673,7 @@ t.yesware.com
 ||p.ost2.fyi/event^
 ||p.sfx.ms/is/invis.gif
 ||p.typekit.net/p.gif
+||p.udn.com.tw/upf/static/common/udn-fingerprint.umd.js
 ||p0.com/1x1
 ||p1.parsely.com/plogger/
 ||p11.techlab-cdn.com/collect
@@ -9271,6 +9276,7 @@ t.yesware.com
 ||rejoiner.com/tracker/
 ||reklama.lv/services/collect.php
 ||reklama.lv/services/espy.php
+||relatorios.prportais.com.br/storage/cdn-adi/news-tracker-min.js
 ||relish.com/api-insights/
 ||relish.com/js/active-campaign-form.js
 ||remarkable.com/api/proxy/marker
