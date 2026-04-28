@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-27 13:12:39 UTC
-! Total Rules: 118110
+! Last Updated: 2026-04-28 01:30:19 UTC
+! Total Rules: 118114
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -106829,7 +106829,6 @@ zonedirector.avadacom.com$image
 ||contentpass.net/stats
 ||contentreveal.net/event/events.js
 ||contents-tracking.beop.io^$third-party
-||contents.kyobobook.co.kr/resources/lib/kbb-js/kbb.stats.js
 ||contentsfeed.com^$third-party
 ||contentspread.net^$third-party
 ||contentsquare.net^$third-party
@@ -110634,6 +110633,8 @@ zonedirector.avadacom.com$image
 ||knotch-cdn.com/ktag/
 ||knotch-cdn.com^$third-party
 ||knowledgevine.net^$third-party
+||knowunity.com/events^
+||knowunity.com/pixels/
 ||ko44.ru^$cookie=uniqueid
 ||kobo.com/trackclicks
 ||kocaeligazetesi.com.tr/stats/
@@ -111168,7 +111169,6 @@ zonedirector.avadacom.com$image
 ||m.kt.com/js/common/global/oms.js
 ||m.kt.com/js/integrate/mklogcode.js
 ||m.media-amazon.com/images/g/*/msa/vowels/metrics
-||m.media-amazon.com/images/i/*.js?auiclients/gwmmetricsjs
 ||m.media-amazon.com/images/s/sash/*.js?csm_attribution=
 ||m.mobile.de/svc/track/
 ||m.stripe.com^$third-party,domain=~stripe.network
@@ -111259,6 +111259,7 @@ zonedirector.avadacom.com$image
 ||manomano.de^$cookie=mm_ab_tests
 ||manomano.de^$cookie=mm_visitor_id
 ||manoramaonline.com/acd/api/*/authorize/json?brand=*&ev_sid=
+||manscaped.com/rud-dataplane/
 ||manua.ls/g/collect?
 ||manua.ls/gtag
 ||manychat.com/analytics/event
@@ -113961,6 +113962,7 @@ zonedirector.avadacom.com$image
 ||rollbar.com^$third-party
 ||rollingcounters.com^$third-party
 ||rome.api.flipkart.com/api/1/fdp
+||roomie.tw/metrics
 ||roomvo.com/services/event/
 ||roosterfirework.com^$third-party
 ||rossmann.com.tr//checkout/analytics/
@@ -114144,6 +114146,8 @@ zonedirector.avadacom.com$image
 ||safe-click.net^$third-party
 ||safe-iplay.com/logger
 ||safeanalytics.net^$third-party
+||safefileku.com/download/*/event|
+||safefileku.com/events.js
 ||safevisit.online^$third-party
 ||safevisit.org/api/v*/c?$redirect=nooptext
 ||sageanalyst.net^$third-party

@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-27 13:12:39 UTC
-! Total Rules: 10034
+! Last Updated: 2026-04-28 01:30:19 UTC
+! Total Rules: 10037
 ! Expires: 5 days
 $cookie=/adb\.key/,domain=expres.cz|televizeseznam.cz|ahaonline.cz|extra.cz|mobilmania.cz|idnes.cz|aktuality.sk|aktualne.cz|blesk.cz|centrum.cz|cnews.cz|e15.cz|karaoketexty.cz|novinky.cz|sport.cz|super.cz|tiscali.cz|zive.cz|antiyoutuber.cz|fights.cz|metro.cz
 $cookie=__adblocker,domain=slate.com|thehindubusinessline.com
@@ -6764,6 +6764,7 @@ yydstxt*.com/js/html
 ||kmplayer.cn/include/jscript/*-a.js
 ||kmw.com/js/adshow
 ||knowmore.cc/style/head.js
+||knowunity.com/ads/
 ||kocpc.com.tw/adsbyso.js
 ||kokojia.com^$third-party
 ||kolsh.cn^$third-party
@@ -6801,6 +6802,7 @@ yydstxt*.com/js/html
 ||kuaileco.com/weishou/
 ||kuaishouba.com/themes/default/images/*.gif
 ||kuaizitech.com^$third-party
+||kuazhi.com/kuazhi_click.
 ||kuazhi.com/zb_users/plugin/allshow/js/main.
 ||kuazhi.com/zb_users/plugin/allshow/js/main.js
 ||kugoucdn.com^*?_t=$xmlhttprequest
@@ -9150,6 +9152,7 @@ yydstxt*.com/js/html
 ||truex.com/js/client.js
 ||trustx.org^$third-party
 ||truthfulsensor.com^$all
+||truthsocial.com^*/ads^
 ||truvidplayer.com^$domain=technews.tw
 ||truyensex*/anh/
 ||trvl-px.com/trvl-px/

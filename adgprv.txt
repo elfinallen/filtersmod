@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-27 13:12:39 UTC
-! Total Rules: 11715
+! Last Updated: 2026-04-28 01:30:19 UTC
+! Total Rules: 11719
 ! Expires: 5 days
 &&sub19=undefined&sub20=undefined
 &action=js_stats
@@ -5465,7 +5465,6 @@ t.yesware.com
 ||contentpass.net/error-tunnel
 ||contentpass.net/stats
 ||contentreveal.net/event/events.js
-||contents.kyobobook.co.kr/resources/lib/kbb-js/kbb.stats.js
 ||contx.net/collect.js
 ||contx.net/ingest/res/i/collect
 ||contx.net/ingest/res/i/tag/trk
@@ -7540,6 +7539,8 @@ t.yesware.com
 ||knewz.com/api/event
 ||knockaround.com/cdn/s/trekkie.storefront.
 ||knotch-cdn.com/ktag/
+||knowunity.com/events^
+||knowunity.com/pixels/
 ||kobo.com/trackclicks
 ||kocaeligazetesi.com.tr/stats/
 ||kodik.cc/stats
@@ -7849,7 +7850,6 @@ t.yesware.com
 ||m.kt.com/js/common/global/oms.js
 ||m.kt.com/js/integrate/mklogcode.js
 ||m.media-amazon.com/images/g/*/msa/vowels/metrics
-||m.media-amazon.com/images/i/*.js?auiclients/gwmmetricsjs
 ||m.media-amazon.com/images/s/sash/*.js?csm_attribution=
 ||m.mobile.de/svc/track/
 ||m.vk.com/counters.php
@@ -7909,6 +7909,7 @@ t.yesware.com
 ||mango-office.ru/track/
 ||manomano.*/api/v1/sp-tracking/
 ||manoramaonline.com/acd/api/*/authorize/json?brand=*&ev_sid=
+||manscaped.com/rud-dataplane/
 ||manua.ls/g/collect?
 ||manua.ls/gtag
 ||manychat.com/analytics/event
@@ -9359,6 +9360,7 @@ t.yesware.com
 ||rokt.com/v2/metrics^
 ||roku.com/api/v1/addressability/heartbeat
 ||rome.api.flipkart.com/api/1/fdp
+||roomie.tw/metrics
 ||roomvo.com/services/event/
 ||rossmann.com.tr//checkout/analytics/
 ||rou.video/js/yd.js
@@ -9479,6 +9481,8 @@ t.yesware.com
 ||sa.torbox.app/append|
 ||saasexch.com/bapi/fe/usd/report/
 ||safe-iplay.com/logger
+||safefileku.com/download/*/event|
+||safefileku.com/events.js
 ||sahibinden.com/ajax/counter
 ||sahibinden.com/sbbi/
 ||sailthru.com/sailthru_spacer_1x1.gif
