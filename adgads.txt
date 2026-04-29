@@ -1,7 +1,7 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-29 01:46:03 UTC
+! Last Updated: 2026-04-29 13:16:25 UTC
 ! Total Rules: 6371
 ! Expires: 5 days
 &ag_custom_vlmspot=
@@ -2396,6 +2396,7 @@ yydstxt*.com/js/html
 ||blog.xuite.net/_public/js/ysmad.js
 ||blogspot.com^*/s1600/drug.gif
 ||blueidea.com/js/ajs.js
+||bluepromocode.com/images/widgets/
 ||blz105.com/player/ad.html
 ||bmp.ali213.net/js/
 ||bmp.ovh/imgs/2020/09/3e4e11ecc19c4bd6.png
@@ -4000,7 +4001,6 @@ yydstxt*.com/js/html
 ||javhd.com/sb/
 ||javhd.com/sb/javhd-970x170.jpg
 ||javhd.icu/ads/
-||javhdporn.net/wp-content/themes/kingtube/assets/js/fun.js
 ||javhoo.net/pop/pop.jpg
 ||javhub.net/av/js/aapp.js
 ||javhub.net/av/js/cpp.js
@@ -5643,6 +5643,7 @@ yydstxt*.com/js/html
 ||thedailycatch.org/wp-content/uploads/2025/12/burnett-white-tower-ad-dec-2025.png
 ||thedailycatch.org/wp-content/uploads/2026/04/spring-is-here-tower-light-1.png
 ||thefreedictionary.com/_/tr.ashx?
+||thefreesite.com/nov99bannov.gif
 ||thehentaiworld.com/fro_lo*.js
 ||thehun.net/banners/
 ||thekav.co/myexo/
@@ -5758,7 +5759,6 @@ yydstxt*.com/js/html
 ||ttks.tw/js/otherad.
 ||tube.hentaistream.com/wp-includes/js/pop4.js
 ||tube8.*/_xa/ads
-||tubeon.*/templates/base_master/js/jquery.shows2.min.js
 ||tui.gtimg.com//res/
 ||tui555.com/public/gong/js/a_
 ||tui56.com/guanggao*.html

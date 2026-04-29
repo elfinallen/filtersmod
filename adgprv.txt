@@ -1,7 +1,7 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-29 01:46:03 UTC
+! Last Updated: 2026-04-29 13:16:25 UTC
 ! Total Rules: 11727
 ! Expires: 5 days
 &&sub19=undefined&sub20=undefined
@@ -4917,7 +4917,6 @@ t.yesware.com
 ||card.nonghyup.com:*/static/88888/
 ||cardinalcommerce.com/prod/log
 ||careermatch.com/ogckki0e/init.js
-||careers.lilly.com/*/phenomtrack.min.js
 ||carfixer.co.kr/log/
 ||cargurus.com/cars/cganalyticspageview.action
 ||cargurus.com/tr/
@@ -5130,6 +5129,7 @@ t.yesware.com
 ||change.org/api-proxy/*/event_tracker?
 ||change.org/api-proxy/-/bandit/pull
 ||change.org/api-proxy/-/et
+||change.org/api-proxy/-/et?
 ||change.org/api-proxy/-/event_tracker
 ||channel-receive.meetbot.biz/sp/callback/user/behavior/data
 ||channel.io/front/v*/channels/*/events
@@ -7383,7 +7383,6 @@ t.yesware.com
 ||joann.com/qxtwmr91/init.js
 ||jobkorea.co.kr/net/adbannerapi/adbannerlog
 ||jobs.ch/api/v1/public/product/track/
-||jobs.hanes.com/*/phenomtrack.min.js
 ||jobvite.com/analytics.js
 ||jockey.com/event/
 ||jockey.com/scripts/omt-base.js
@@ -10187,6 +10186,7 @@ t.yesware.com
 ||stats.mopo.de/cntcc
 ||stats.pcsg-server.de/js/
 ||stats.publitas.com/publitas-stats/track
+||stats.sender.net/ping
 ||stats.zone-annuaire.
 ||stats.zone-telechargement.
 ||stavka.tv/metrika/watch.js
