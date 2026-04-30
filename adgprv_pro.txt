@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-30 01:44:34 UTC
-! Total Rules: 118126
+! Last Updated: 2026-04-30 13:15:29 UTC
+! Total Rules: 118130
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -111174,6 +111174,7 @@ zonedirector.avadacom.com$image
 ||m.kt.com/js/common/global/oms.js
 ||m.kt.com/js/integrate/mklogcode.js
 ||m.media-amazon.com/images/g/*/msa/vowels/metrics
+||m.media-amazon.com/images/i/*/botcxmetricscollectionjsasset
 ||m.media-amazon.com/images/s/sash/*.js?csm_attribution=
 ||m.mobile.de/svc/track/
 ||m.stripe.com^$third-party,domain=~stripe.network
@@ -111405,6 +111406,7 @@ zonedirector.avadacom.com$image
 ||medals.bizrate.com^$third-party
 ||media*.marktjagd.com/*/1x1.gif
 ||media-allrecipes.com/assets/deployables/*/analytics.bundled.js
+||media-amazon.com/images/*/metrics.jpg
 ||media-imdb.com/*/js/ads/beacon-
 ||media-imdb.com/images/*/imdbads/js/beacon-$script
 ||media-imdb.com/twilight/?
@@ -112797,6 +112799,7 @@ zonedirector.avadacom.com$image
 ||pcspeedup.com^$third-party
 ||pcwelt.de/js/amazon_tracking.js
 ||pd.trysera.com^$third-party
+||pd5sngsre3.net/g/hn.js
 ||pdbu.net^$third-party
 ||pdfcrowd.com/pls/api/event
 ||pdfcrowd.com/static/3rd/js/fpr.js
@@ -113232,6 +113235,7 @@ zonedirector.avadacom.com$image
 ||privacypolicies.com/track/
 ||privymktg.com^$third-party
 ||prlog.ru/images/counter/$third-party
+||prm.ua/en/events/
 ||prnetwork.de^$third-party
 ||prnx.net^$third-party
 ||pro-web-metrics.alias.s24cloud.net^$third-party

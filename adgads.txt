@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-30 01:44:34 UTC
-! Total Rules: 6371
+! Last Updated: 2026-04-30 13:15:29 UTC
+! Total Rules: 6372
 ! Expires: 5 days
 &ag_custom_vlmspot=
 &js_build=iclick-
@@ -1193,7 +1193,6 @@ _naimabdd_
 _popads.
 _tm11_pmt_
 _yad_jsonp_
-ad.broadstreetads.com
 banner468x60
 meijutt.*/js/pcjs/
 ubmcmm.baidustatic.com
@@ -2030,6 +2029,7 @@ yydstxt*.com/js/html
 ||alu.cn/ashx/ajaxguanggao.
 ||alypw.com/zb_users/plugin/zf_tanchuang/
 ||amazon.com/aan/
+||amazon.com/cdp/getvideoads
 ||amazonaws.com.cn/static-documents/marketing/uda_banner_
 ||amazonaws.com/91/ads_
 ||amazonaws.com/s?z=
@@ -2569,6 +2569,7 @@ yydstxt*.com/js/html
 ||cdn.jsdelivr.net/npm/ima-ad-player
 ||cdn.myhentaicomics.com/assets/frames/banner
 ||cdn.onnetwork.tv/js/player*/player_prebidm.js
+||cdn.productreview.com.au/assets/public/gnisitrevda_*.js
 ||cdn.questvert.pl/publishers/*/qpscript.js
 ||cdn.rawgit.com/arlina-design/quasar/*/arlinablock.js
 ||cdn.rekkerd.org/img/a/rkkrdprm/
@@ -2692,7 +2693,6 @@ yydstxt*.com/js/html
 ||cilimao.*/amaod/
 ||cilipa.com^*0.js
 ||cineby.sc/scripts/ab.js
-||cineby.sc/scripts/gk.js
 ||citysbs.com/chongqing/*/1920x179-
 ||citysbs.com/no/*/1190x60-
 ||citysbs.com/no/*/650x50-
@@ -3750,6 +3750,8 @@ yydstxt*.com/js/html
 ||icnkr.com/data/attachment/portal/
 ||icws.jb51.net/good/arc2019.js
 ||id-msp.newsbreak.com
+||idlixku.com/api/watch/vast
+||idlixku.com/idlix.xml
 ||idv.st/dns/bar.htm
 ||ieforex.com/r/cms/www/red/red2/images/*0.
 ||ifeng.com/a_if/
@@ -4799,7 +4801,6 @@ yydstxt*.com/js/html
 ||olelive.com/v1/pub/index/anchor/check/pc/e?
 ||olgame.tw/home/attachment/
 ||om.cn/api/ad-om/
-||omonoia24.com/wp-content/uploads/*.gif
 ||one101.xyz/data/images/*.gif
 ||onedala.tv/uploads/banner/
 ||onegreen.net/myfile/
@@ -4966,7 +4967,6 @@ yydstxt*.com/js/html
 ||poco.cn^*_info_banner
 ||popcdn.day/magnitude.js
 ||popin.cc/ads/
-||porcore.com/plugins/nads/
 ||porn87.com/static/stream_ads/
 ||porndoe.com/views/footer/banners.html
 ||porndoe.com/wp-contents/channel?
@@ -5575,6 +5575,7 @@ yydstxt*.com/js/html
 ||supfree.net/xxx/
 ||sw76r85eda3k.com/need/h5.
 ||sweetalert2.github.io/images/sponsors/
+||sweeva.com/images/banner250.gif
 ||swoole.com/_images/kundian
 ||swoole.com/_images/w7.jpg
 ||sxeimg.com/u/20191108/13082210.gif

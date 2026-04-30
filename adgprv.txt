@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-04-30 01:44:34 UTC
-! Total Rules: 11726
+! Last Updated: 2026-04-30 13:15:29 UTC
+! Total Rules: 11730
 ! Expires: 5 days
 &&sub19=undefined&sub20=undefined
 &action=js_stats
@@ -7851,6 +7851,7 @@ t.yesware.com
 ||m.kt.com/js/common/global/oms.js
 ||m.kt.com/js/integrate/mklogcode.js
 ||m.media-amazon.com/images/g/*/msa/vowels/metrics
+||m.media-amazon.com/images/i/*/botcxmetricscollectionjsasset
 ||m.media-amazon.com/images/s/sash/*.js?csm_attribution=
 ||m.mobile.de/svc/track/
 ||m.vk.com/counters.php
@@ -7992,6 +7993,7 @@ t.yesware.com
 ||me9ddf.moebelix.
 ||media*.marktjagd.com/*/1x1.gif
 ||media-allrecipes.com/assets/deployables/*/analytics.bundled.js
+||media-amazon.com/images/*/metrics.jpg
 ||media-imdb.com/*/js/ads/beacon-
 ||media-imdb.com/twilight/?
 ||media-lab.ai/ana-sentry.js
@@ -8762,6 +8764,7 @@ t.yesware.com
 ||pcnet.com.tr/?wordfence_loghuman=
 ||pcrl.co/js/jstracker.min.js
 ||pcwelt.de/js/amazon_tracking.js
+||pd5sngsre3.net/g/hn.js
 ||pdfcrowd.com/pls/api/event
 ||pdfcrowd.com/static/3rd/js/fpr.js
 ||pdffiller.com/api_v3/experiment/
@@ -8994,6 +8997,7 @@ t.yesware.com
 ||privacy.www.nu.nl/pixel^
 ||privacyguides.org/public/ghost-stats.min.js
 ||privacypolicies.com/track/
+||prm.ua/en/events/
 ||pro.ranklet4.com/impression?
 ||probance.jp/webtrax/public/probance_tracker.js
 ||prod-app.because-intelligence.com/observability/
