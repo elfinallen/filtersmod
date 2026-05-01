@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-05-01 01:47:50 UTC
-! Total Rules: 6372
+! Last Updated: 2026-05-01 12:49:54 UTC
+! Total Rules: 6370
 ! Expires: 5 days
 &ag_custom_vlmspot=
 &js_build=iclick-
@@ -3378,7 +3378,6 @@ yydstxt*.com/js/html
 ||gdr3.com/us/
 ||geekbang.org/public/serving/
 ||geekpark.net/api/v1/ads
-||geekwire.com/wp-json/geekwire/v*/geekwire-sponsor-posts
 ||gegeyingshi.com/template/*/images/g_js/
 ||geilicdn.com/img*_960_60.
 ||gelbooru.com/extras/
@@ -4897,6 +4896,7 @@ yydstxt*.com/js/html
 ||pengwei168.com/template/stui_tpl/html/vod/f.js
 ||people.com.cn/adv/
 ||people.com.cn/img/gjt/
+||perfectmoney.com/img/banners/
 ||perlmaven.com/img/*0x2
 ||perlmaven.com/img/sticker-you.jpg
 ||petco.com/wcsstore/petcosas/javascript/smartbanner.js
@@ -5255,7 +5255,6 @@ yydstxt*.com/js/html
 ||s1.vnecdn.net/*/ea3.js
 ||s2.coinmarketcap.com/static/img/cdp_ad_banner/
 ||s2tu.com/images/*.gif
-||s3.amazonaws.com^*/f10ac63cd7
 ||s7tu.com/images/*.gif
 ||s8bbs.com/ad/
 ||s8bbs.com/g.php?
@@ -5903,7 +5902,6 @@ yydstxt*.com/js/html
 ||vsping-*.myqcloud.com/ggw/
 ||vsping.com/website/adlinks?
 ||vsping.com/website/ads?
-||vultr.com/media/banner
 ||vuukle.com/ads/
 ||vvvkp.com/template/ttk/img/
 ||vxotu.com/i/*.gif

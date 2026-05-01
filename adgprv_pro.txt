@@ -1,7 +1,7 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-05-01 01:47:50 UTC
+! Last Updated: 2026-05-01 12:49:54 UTC
 ! Total Rules: 118128
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
@@ -108252,6 +108252,7 @@ zonedirector.avadacom.com$image
 ||ezneering.com/wp-content/plugins/hashbar-wp-notification-bar/assets/js/analytics.js
 ||ezodn.com^$third-party
 ||ezoic.net/ezqlog?
+||ezoicanalytics.com/analytics.js
 ||ezstat.ru^$third-party
 ||ezytrack.com^$third-party
 ||f-counter.jp^$third-party
@@ -113106,7 +113107,6 @@ zonedirector.avadacom.com$image
 ||polsatsport.pl/templates/interiastats/psport2019/interiastats.js
 ||polymorphicads.jp^$third-party
 ||pons.com/pons-site-website-assets/lib/analytics.min.js
-||pons.com/pons-site-website-int/_astro/website-analytics.$script
 ||poocloud.in/api/event
 ||poool.fr/api/v3/access/event
 ||pop.devil.services^$third-party
