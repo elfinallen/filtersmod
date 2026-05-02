@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-05-02 01:25:28 UTC
-! Total Rules: 10043
+! Last Updated: 2026-05-02 12:40:35 UTC
+! Total Rules: 10037
 ! Expires: 5 days
 $cookie=/adb\.key/,domain=expres.cz|televizeseznam.cz|ahaonline.cz|extra.cz|mobilmania.cz|idnes.cz|aktuality.sk|aktualne.cz|blesk.cz|centrum.cz|cnews.cz|e15.cz|karaoketexty.cz|novinky.cz|sport.cz|super.cz|tiscali.cz|zive.cz|antiyoutuber.cz|fights.cz|metro.cz
 $cookie=__adblocker,domain=slate.com|thehindubusinessline.com
@@ -748,7 +748,6 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 /^https?:\/\/([0-9a-z\-]+\.)?(9anime|animeland|animenova|animeplus|animetoon|animewow|gamestorrent|goodanime|gogoanime|igg-games|kimcartoon|mangapanda|mangareader|memecenter|readcomiconline|toonget|toonova|watchcartoononline)\.[a-z]{2,4}\/(?!([ss]cripts|[uu]ploads|[ii]mages|assets|combined|content|cover|img|static|thumbs|wp-content|wp-includes))(.*)/$image,other,script,~third-party,xmlhttprequest,badfilter
 /^https?:\/\/([0-9a-z\-]+\.)?(9anime|animeland|animenova|animeplus|animetoon|animewow|gamestorrent|goodanime|gogoanime|igg-games|kimcartoon|memecenter|readcomiconline|toonget|toonova|watchcartoononline)\.[a-z]{2,4}\/(?!([ss]cripts|[uu]ploads|[ii]mages|assets|combined|content|cover|img|static|thumbs|wp-content|wp-includes))(.*)/$image,other,script,~third-party,xmlhttprequest,badfilter
 /^https?:\/\/([0-9a-z\-]+\.)?(9anime|animeland|animenova|animeplus|animetoon|animewow|gamestorrent|goodanime|gogoanime|igg-games|kimcartoon|memecenter|readcomiconline|toonget|toonova|watchcartoononline)\.[a-z]{2,4}\/(?!([ss]cripts|[uu]ploads|[ii]mages|combined|content|cover|img|static|thumbs|wp-content|wp-includes))(.*)/$image,other,script,~third-party,xmlhttprequest,badfilter
-/^https?:\/\/.*\.(club|bid|biz|xyz|site|pro|info|online|icu|monster|buzz|website|biz|re|casa|top|one|space|network|live|systems|ml|world|life|co)\/.*/$~image,~media,~subdocument,third-party,domain=1cloudfile.com|adblockstreamtape.art|adblockstreamtape.site|bowfile.com|clipconverter.cc|desiupload.co|dood.la|dood.pm|dood.so|dood.to|dood.watch|dood.ws|dopebox.to|downloadpirate.com|drivebuzz.icu|embedstream.me|eplayvid.net|fmovies.ps|gospeljingle.com|kissanimes.net|movies2watch.tv|myflixer.today|myflixertv.to|powvideo.net|scloud.online|skidrowcodex.net|streamtape.com|theproxy.ws|vidembed.cc|vidembed.io|vidlii.com|vidoo.org|vipbox.lc
 /^https?:\/\/.*\.(club|bid|biz|xyz|site|pro|info|online|icu|monster|buzz|website|biz|re|casa|top|one|space|network|live|systems|ml|world|life|co)\/.*/$~image,~media,~subdocument,third-party,domain=streamz.ws,badfilter
 /^https?:\/\/.*\.(club|news|live|online|store|tech|guru|cloud|bid|xyz|site|pro|info|online|icu|monster|buzz|fun|website|photos|re|casa|top|today|space|network|live|work|systems|ml|world|life)\/.*/$~media,domain=1vag.com|4tube.com|asianpornmovies.com|getsex.xxx|glam0ur.com|hclips.com|hdzog.com|homemadevids.org|hotmovs.com|justthegays.com|milfzr.com|porn555.com|pornforrelax.com|pornj.com|pornl.com|puporn.com|see.xxx|shemalez.com|sss.xxx|streanplay.cc|thegay.com|thegay.porn|tits-guru.com|tubepornclassic.com|tuberel.com|txxx.com|txxx.tube|upornia.com|vjav.com|voyeurhit.com|xozilla.com
 /^https?:\/\/.*\.(jpg|gif|png|php|svg|ico|js|txt|css)/$popup,domain=mixdrop.*|mixdrop.ag|mixdrop.nu,badfilter
@@ -1054,6 +1053,7 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 /banner-ad.$~script,~xmlhttprequest
 /banner-ads-rotator/*$script,stylesheet
 /banner-ads/*$image,domain=~1agosto.com
+/banner-affiliate-$image
 /banner.cgi?$image
 /banner.js$domain=28188.net
 /banner.php$~xmlhttprequest,domain=~research.hchs.hc.edu.tw
@@ -1867,7 +1867,6 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 /showbanner.js$script
 /showpage2.asp?u=$script,third-party
 /side-ads-$~xmlhttprequest
-/sidead1.js$script
 /sideads.js$script
 /sinaloginreward2014.
 /sinaloginreward2014_comment.
@@ -2196,6 +2195,7 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 ://banner.$third-party
 ://banners.$third-party
 ://btt*/runtime/js/psdata.
+://creative.*/widgets/player?
 ://creative.*/widgets/spot/lib.js$third-party
 ://creative.*/widgets/v4/universal?$subdocument,third-party
 ://dmhy.gate.*/*.*?$image
@@ -2657,6 +2657,7 @@ yydstxt*.com/js/html
 ||1ppt.com/ad$image
 ||1pwx.com/js/ck.js
 ||1s8pj.cn^$third-party
+||1ts17.top^$popup
 ||1winpb.com^$popup
 ||1x6666.com/img/
 ||200218.com^$third-party
@@ -3726,12 +3727,12 @@ yydstxt*.com/js/html
 ||app.easycontent.com/css/app.css$replace=/(\.block-ads-wrapper)/\$1_/
 ||app.easycontent.com/css/app.css$replace=/(\.block\.-ads\{)[\s\s]*?\}/\$1display:none;}/
 ||app.mps.vsnt.net/fetch/ext/load-rottentomatoes-web.js$domain=rottentomatoes.com
-||app.torbobit.net/api/ads/
 ||appcms-gxr.asset.viewlift.com/build/*/client.*.js$replace=/throw error\(.\(418\)\);/null;/,domain=gxr.world
 ||apple886.com/subs/*.js
 ||applinzi.com^$domain=soyunpan.com
 ||applixir.com^$third-party
 ||apppc.chinaz.com/statics/images/tuan
+||apps.fourthwall.app^$third-party
 ||apptry.easylife.tw/pub/js/common/common.js
 ||apsgo.com/assets/js/union.
 ||apsgo.com/go/
@@ -3790,6 +3791,7 @@ yydstxt*.com/js/html
 ||aty.sohu.com/v?
 ||atyun.com/wp-content/themes/xmag/js/ad.js
 ||au.adhacker.online^$third-party
+||aucdn.net^$media,domain=vxxx.com
 ||audiencerun.com^$third-party
 ||audio-*.scdn.co/audio/$media,redirect=noopmp4-1s,app=spotify.exe
 ||audio-ak*-*.akamaized.net/audio/$media,~xmlhttprequest,redirect=noopmp4-1s,app=spotify.exe
@@ -4143,6 +4145,7 @@ yydstxt*.com/js/html
 ||blcdog.com^$document
 ||bliink.io^$third-party
 ||blog-uploads.eneba.games/uploads/*/banner_
+||blog.media.io/images/images2021/pixcut-entry.png
 ||blog.xuite.net/_public/js/ysmad.js
 ||blogads.com^$third-party
 ||blogger.googleusercontent.com/img/*.gif^$image,domain=idlixku.com
@@ -4369,7 +4372,6 @@ yydstxt*.com/js/html
 ||cdn.gallery^$third-party
 ||cdn.haokongbu1.com^*.js
 ||cdn.holmesmind.com^$third-party
-||cdn.hotscope.tv/assets/ai/video-
 ||cdn.jsdelivr.net/gh/*/js/adsenseads.min.js
 ||cdn.jsdelivr.net/gh/*/js/arlinablock.js
 ||cdn.jsdelivr.net/gh/adigunawanxd/pluginsgalaxymag@master/seosecretidnblockads.js
@@ -5509,7 +5511,6 @@ yydstxt*.com/js/html
 ||games.ifeng.com^*.shtml?v=
 ||gamessumo.com^$app=backiee.exe
 ||gamezhero.com/get-game-code/$replace=/(config\.set\(embedapiconfig\.app_ads\,[\s\s]*?)true\);/\$1false\);/
-||gamezon.top^$popup
 ||gamme.com.tw/ga/
 ||gamme.com.tw/uploads/*?2
 ||gangjuw.com/style/lmjs/
@@ -5519,7 +5520,6 @@ yydstxt*.com/js/html
 ||ganjing.com/vast.vpaid.min.js
 ||ganjistatic1.com^*/adm/
 ||gannett-cdn.com/partner/vendor/gntx-pbjs.js
-||gannett-player.ex.co^$domain=play.usatoday.com
 ||gansudaily.com.cn/2017zt/images/*gg
 ||gaofen.com/source/plugin/gaofen_ad/
 ||gaofuwu.org/js/dd.js
@@ -5537,7 +5537,6 @@ yydstxt*.com/js/html
 ||gay.bingo/agent.php
 ||gay4porn.com/ai/
 ||gayporntube.com/spots.php?
-||gays-cruising.com/nb/
 ||gd.189.cn*/push/$popup
 ||gd.189.cn/ad/$popup,third-party
 ||gd.189.cn/gz/promotion/$popup,third-party
@@ -7805,8 +7804,6 @@ yydstxt*.com/js/html
 ||pg.ignimgs.com/pogoadkit.js
 ||pgammedia.com^$third-party
 ||pgdt.gtimg.cn/gdt/$domain=info.3g.qq.com
-||ph-files.imgix.net/381feabc-7331-4b7e-a5be-1d606cf38c06.png$domain=producthunt.com
-||ph-files.imgix.net/c160f39d-096a-4679-a8ef-eb68c537359c.png$domain=producthunt.com
 ||pharmnet.com.cn/cnbanner/
 ||pharmnet.com.cn/js/float_div.js
 ||phb123.com/skin/js/tongji.js
@@ -7929,9 +7926,7 @@ yydstxt*.com/js/html
 ||pornhd3x.tv/cms_data/sites/admin/files/ads
 ||pornhub.*/_xa/ads
 ||pornhub.*/view_video.php?viewkey=$replace=/vastxml/_vastxml/,important,~third-party
-||pornid.xxx/grt/dev.js
 ||pornid.xxx/polstr/$subdocument
-||pornid.xxx/vager/
 ||pornintellect.com/banner/
 ||pornlib.com/player_*_ads
 ||pornokeep.com/content2/lib/
@@ -8762,7 +8757,6 @@ yydstxt*.com/js/html
 ||static-css.pencdn.cz/javascript/www/mafra/*/mafra-pcz-nojq.js$domain=penize.cz
 ||static.ads-twitter.com/uwt.js$xmlhttprequest,redirect=noopjs
 ||static.c4assets.com/all4-ad-code/latest/adverts.js
-||static.cdnpure.com/www/static/script/prebid-
 ||static.chilli.ee^$domain=kava.ee
 ||static.chinatimes.com/scripts/2019/ad2019.min.js
 ||static.criteo.net/js/$script,redirect=noopjs,domain=wp.pl|money.pl|o2.pl|pudelek.pl|komorkomania.pl|gadzetomania.pl|fotoblogia.pl|autokult.pl|abczdrowie.pl|parenting.pl|videostar.pl|autocentrum.pl

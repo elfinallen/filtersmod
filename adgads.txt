@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-05-02 01:25:28 UTC
-! Total Rules: 6372
+! Last Updated: 2026-05-02 12:40:35 UTC
+! Total Rules: 6368
 ! Expires: 5 days
 &ag_custom_vlmspot=
 &js_build=iclick-
@@ -1039,6 +1039,7 @@
 ://adserving.
 ://adsrv.
 ://btt*/runtime/js/psdata.
+://creative.*/widgets/player?
 ://dreemdmbabys.oss-cn-
 ://m.*.cn/*/*.js?ssid=_
 ://m.*.pw/*.js?ssid=_
@@ -2083,7 +2084,6 @@ yydstxt*.com/js/html
 ||apk-01.oss-cn-beijing.aliyuncs.com/dp/
 ||apk.tw/static/js/showpic.js
 ||app-g.39.net/nnn/
-||app.torbobit.net/api/ads/
 ||apple886.com/subs/*.js
 ||apppc.chinaz.com/statics/images/tuan
 ||apptry.easylife.tw/pub/js/common/common.js
@@ -2394,6 +2394,7 @@ yydstxt*.com/js/html
 ||bkjia.com/bkjia/js/subnavtop.js
 ||blacklistednews.com/contentrotator/
 ||blog-uploads.eneba.games/uploads/*/banner_
+||blog.media.io/images/images2021/pixcut-entry.png
 ||blog.xuite.net/_public/js/ysmad.js
 ||blogspot.com^*/s1600/drug.gif
 ||blueidea.com/js/ajs.js
@@ -2554,7 +2555,6 @@ yydstxt*.com/js/html
 ||cdn.galacg.me/img/*.gif
 ||cdn.galacg.me/img/*.jpg
 ||cdn.haokongbu1.com^*.js
-||cdn.hotscope.tv/assets/ai/video-
 ||cdn.jsdelivr.net/gh/*/js/adsenseads.min.js
 ||cdn.jsdelivr.net/gh/*/js/arlinablock.js
 ||cdn.jsdelivr.net/gh/adigunawanxd/pluginsgalaxymag@master/seosecretidnblockads.js
@@ -3367,7 +3367,6 @@ yydstxt*.com/js/html
 ||gay.bingo/agent.php
 ||gay4porn.com/ai/
 ||gayporntube.com/spots.php?
-||gays-cruising.com/nb/
 ||gd.ct10000.com/js/ecssstat.js
 ||gd.sina.com.cn/iframe/22/
 ||gd163.*/2018_ad/
@@ -4974,8 +4973,6 @@ yydstxt*.com/js/html
 ||porngamespass.com/iframes/
 ||pornhd3x.tv/cms_data/sites/admin/files/ads
 ||pornhub.*/_xa/ads
-||pornid.xxx/grt/dev.js
-||pornid.xxx/vager/
 ||pornintellect.com/banner/
 ||pornlib.com/player_*_ads
 ||pornokeep.com/content2/lib/
@@ -5508,7 +5505,6 @@ yydstxt*.com/js/html
 ||startpage.com/*/adsense/search/async-ads.js
 ||static-cdn.spot.im/production/ads/tags/v*/ads/ads.js
 ||static.c4assets.com/all4-ad-code/latest/adverts.js
-||static.cdnpure.com/www/static/script/prebid-
 ||static.chinatimes.com/scripts/2019/ad2019.min.js
 ||static.doyouhike.net/partner/
 ||static.escort.club/banners/
