@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-05-03 01:29:09 UTC
-! Total Rules: 6368
+! Last Updated: 2026-05-03 12:39:41 UTC
+! Total Rules: 6364
 ! Expires: 5 days
 &ag_custom_vlmspot=
 &js_build=iclick-
@@ -808,6 +808,7 @@
 /pc/tpl/baibaipc/js/*
 /pcgg/*.js
 /pcswf/pcswf.js
+/phoenix-share/js/code.123.bg.
 /php/home/kakaxiaikakaxi.php
 /piaofu.js
 /pic/ad/*
@@ -2609,7 +2610,7 @@ yydstxt*.com/js/html
 ||cesu.ai/uploads/advertimages/
 ||cex.io/img/b/
 ||cfzhushou.com^*/king_chance_layer.js
-||chachefa.com/asdfasdfqwer/
+||chachefa.com^*.js?v=
 ||chahua.org/aimg/
 ||chakd.com/images/xitie160x60.gif
 ||changsha.cn/front_js/site_ad/4/site_ad_284.js
@@ -2693,7 +2694,6 @@ yydstxt*.com/js/html
 ||cidianwang.com/js/zdtop.js
 ||cilimao.*/amaod/
 ||cilipa.com^*0.js
-||cineby.sc/scripts/ab.js
 ||citysbs.com/chongqing/*/1920x179-
 ||citysbs.com/no/*/1190x60-
 ||citysbs.com/no/*/650x50-
@@ -2785,7 +2785,6 @@ yydstxt*.com/js/html
 ||components2.rcsobjects.it/rcs_anti-adblocker-verticali/
 ||configs.forgecdn.net/adfallback.js
 ||connatix.com/rtb/
-||content-api-*.space/?zones=
 ||content.livesportmedia.eu/api/v1/banners?zone-ids=
 ||content.overwolf.com/curseforge/web/nitro/cursenpinit.js
 ||controlc.com/redact.png
@@ -2891,7 +2890,6 @@ yydstxt*.com/js/html
 ||demaxiya.com/v4/dd/
 ||deqixs.com/config/
 ||derpicdn.net/spns/*.gif
-||desperateseller.co.uk/affiliates/
 ||developer.mozilla.org/pong/
 ||deyangs.com/img/
 ||dfcfw.com/download/d25411840164398846730_w690h389.
@@ -3068,7 +3066,6 @@ yydstxt*.com/js/html
 ||e3c7.com/dh/
 ||e3c7.com/love/
 ||e3ol.com/inc/
-||earn-bitcoins.net/banner_
 ||easou.com/brandimage/ad/
 ||easou.com/online/banner/
 ||eastday.com/assets/js/dftongjiad.js
@@ -3800,7 +3797,6 @@ yydstxt*.com/js/html
 ||igamepark.biz/ads_output.php
 ||igao17.com/need/h5.js
 ||igg-games.*/maven/
-||igg-games.*/wp-content/uploads/*/hh1.gif
 ||igg-games.com/sw.js
 ||ign.com/s/js/zad.js
 ||ih336.com^*a.js
@@ -5485,7 +5481,6 @@ yydstxt*.com/js/html
 ||speedtest.cn/api/v2/show
 ||speedtest.cn/assets/images/ce_
 ||speedy.literotica.com/ntk
-||spolecznosci.net/files/
 ||sportscn.com/js/commerical
 ||spox.com/daznpic/
 ||spqi.xyz/static/tmp/
@@ -5741,6 +5736,7 @@ yydstxt*.com/js/html
 ||trans.firm.in/*.js
 ||travel.mediaalpha.com/js/serve.js
 ||trendmicro.com.tw/wp-content/uploads/*banner
+||trip.com/partners/ad/
 ||trstx.org/overroll/
 ||truex.com/js/client.js
 ||truthsocial.com^*/ads^
