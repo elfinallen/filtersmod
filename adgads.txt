@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-05-04 01:28:07 UTC
-! Total Rules: 6364
+! Last Updated: 2026-05-04 13:17:11 UTC
+! Total Rules: 6359
 ! Expires: 5 days
 &ag_custom_vlmspot=
 &js_build=iclick-
@@ -2035,6 +2035,7 @@ yydstxt*.com/js/html
 ||amazonaws.com.cn/static-documents/marketing/uda_banner_
 ||amazonaws.com/91/ads_
 ||amazonaws.com/s?z=
+||amdvids.com/vmap/
 ||ammcg.imgscloud.com/toy/
 ||ams.cdn.arkadiumhosted.com/advertisement/
 ||androidauth.wpengine.com/wp-json/api/advanced_placement
@@ -2069,7 +2070,6 @@ yydstxt*.com/js/html
 ||api.apiimg.com/huaer/xiahe.js
 ||api.bilibili.com/x/ad/
 ||api.bitchute.com/slot1/
-||api.bitchute.com/slot2/
 ||api.bo3.gg/api/v*/ad_
 ||api.leakgallery.com/public/lib*.js
 ||api.live.bilibili.com/*/banner
@@ -2345,7 +2345,6 @@ yydstxt*.com/js/html
 ||bendibao.com*/tuangou.gif
 ||bendibao.com/mo/adm_iframe.htm?
 ||bestblackhatforum.com/images/my_compas/
-||bestsexpositions.com/pictures/2022/07/bigger-dick-*.gif
 ||bestvogue.com/fans/
 ||bf99.com/user*/ad_
 ||bf99.com/user/images/bg_blued.jpg
@@ -3265,6 +3264,7 @@ yydstxt*.com/js/html
 ||for-iwara-tools.tyamahori.com/ninjafillter/
 ||forabodiesonly.com/mopar/sidebarbanners/
 ||forum.ge/trash/ads_down.gif
+||forumrowerowe.org/vendor/scripts/app/js/adblockdetectaction.js
 ||fpb1.chinacar.
 ||fpbsnc.com/runtime/js/psdata.js
 ||fpdisplay.com/templates/default/js/palyflash_
@@ -3560,7 +3560,6 @@ yydstxt*.com/js/html
 ||hardwarezone.com.sg/ads/ad_site_notice.js
 ||hardwarezone.com.sg/js/hwz/hwz_gam_f.js
 ||hardwarezone.com.sg/js/sphmoverlay.js
-||havysoft.cl/mt_b.png
 ||hb8g86k.mom/mz.js
 ||hboav.com/guga/
 ||hc360.com/images/14826/289x90.jpg
@@ -3635,6 +3634,7 @@ yydstxt*.com/js/html
 ||hktvmall.com/api/preroll/getlist?
 ||hltoon.com/hanman/static/dist/ppm/js/foot
 ||hltv.org/img/*&s=
+||hmama.tv/wp-content/custom_assets/jwplayer/*/vast.js
 ||hmghmg.com/tb
 ||hmoe12.com/wp-content/uploads/202*.gif
 ||hmwang.icu/skin/images/*.gif
@@ -4784,8 +4784,6 @@ yydstxt*.com/js/html
 ||oa.hinews.cn/work/img/
 ||ocdn.eu/workshopinforocdn/infor/misc/taboola-assets/taboola_v*.js
 ||ofweek.com/pop/ad/
-||ogfap.com/_astro/adcontainer
-||ogfap.com/ad/
 ||oh100.com/js/pubuliu.
 ||okbmf.com/imgad/
 ||okbmf.com^*950_120
@@ -5180,7 +5178,6 @@ yydstxt*.com/js/html
 ||res.cngoldres.com/web/index/img/*_ad_
 ||res.taotu.org/adimages/
 ||res.vps234.com/resources/images/hosting-promotion/
-||resdata.nftbaoyi.com/images/ad/
 ||researchgate.net/delivery/manager.js
 ||resellerratings.com/popup/include/popup.js
 ||resources.faireconomy.media/js.min/resources/js/money/moneyslotmanager.js
@@ -5403,7 +5400,6 @@ yydstxt*.com/js/html
 ||slashlook.com/_resource/html/_bloggeradsbottom.html
 ||slashlook.com/_resource/html/_bloggeradsinline1.html
 ||sleazyneasy.com/contents/images-container/*.gif
-||sleazyneasy.com/contents/other/player/candygaby
 ||slickdeals.net/ad-stats/
 ||slit.cn/slimages/
 ||sm.ign.com/zdadkit*.js
@@ -5541,7 +5537,6 @@ yydstxt*.com/js/html
 ||subhd.*/kaiyad.
 ||subhd.com/images/ap/
 ||subserieshd.com/banner/
-||succeedscene.com/openads/
 ||sucloud.xyz/js/tou.js
 ||sudugu.com/config/v7.js
 ||sudupan.com^*.gif
