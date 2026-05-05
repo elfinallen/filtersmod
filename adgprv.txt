@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-05-04 13:17:11 UTC
-! Total Rules: 11732
+! Last Updated: 2026-05-05 01:28:00 UTC
+! Total Rules: 11736
 ! Expires: 5 days
 &&sub19=undefined&sub20=undefined
 &action=js_stats
@@ -3983,7 +3983,7 @@ t.yesware.com
 ||analytics.streamfab.
 ||analytics.supplyframe.com/trackingservlet/impression?
 ||analytics.ticketmaster.
-||analytics.twitter.com/i/adsct?
+||analytics.twitter.com/*/adsct?
 ||analytics.vgtimes.
 ||anapixel.elmundo.es/ter.gif
 ||ancestry.com/core.js
@@ -8084,6 +8084,7 @@ t.yesware.com
 ||metroweekly.com/tools/blog_add_visitor/
 ||meucdn.vip/cdn-cgi/trace
 ||mewe.com/ubk4jrxn.js
+||mexc.com/staticjs/tag.js
 ||mfasa.chase.com/auth/js/jpmc_bb_check.js
 ||mgmlcdn.com/stats/
 ||mgntrn.nl/api/event
@@ -10125,6 +10126,9 @@ t.yesware.com
 ||static.lefigaro.fr/figanalytics/
 ||static.me.me/static/versions/js/external/google_analytics-*.js
 ||static.metro.co.uk/rta2/
+||static.mocortech.com/mx-fingerprintjs/
+||static.mocortech.com/mx-remote-packages/mxc-web-remote-script/lib/tag_ww.js
+||static.mocortech.com/mx-remote-packages/mxc-web-remote-script/lib/ytag.js
 ||static.myshlf.us/affiliates/sms_aff_clicktrack-deciem.js
 ||static.narrativ.com/tags/narrativ-pub.
 ||static.nrk.no/*/serum.experimenttracking.js
@@ -10378,8 +10382,8 @@ t.yesware.com
 ||t-online.de/t.gif
 ||t-online.de/to/web/click?
 ||t-online.de/toi/html/de/img/transp.bmp?
+||t.co/*/adsct?
 ||t.co/i/adsct*tw_sale_amount=
-||t.co/i/adsct?
 ||t.delfi.
 ||t.enuygun.com/assets/tracker.js
 ||t.hulu.com/beacon/
