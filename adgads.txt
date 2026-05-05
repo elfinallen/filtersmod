@@ -1,7 +1,7 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-05-05 01:28:00 UTC
+! Last Updated: 2026-05-05 13:04:19 UTC
 ! Total Rules: 6360
 ! Expires: 5 days
 &ag_custom_vlmspot=
@@ -964,6 +964,7 @@
 /uploads/setting/ad/*
 /ut.js?cb=
 /uu114/ad/*
+/vast.php?*&idzone=
 /vast.php?idzone=
 /vast/?zid=
 /vbvb_*_pmpm.js
@@ -1491,6 +1492,7 @@ yydstxt*.com/js/html
 ||3boys2girls.com/templates/default/2013/life/160b5.js
 ||3boys2girls.com/templates/default/2013/randlinks.js
 ||3czol.com/ad/
+||3d-hentai.co/ad.xml
 ||3dmax8.com/atu4/
 ||3dmax8.com/jiaoche
 ||3dmgame.com/img/a/640-
@@ -1834,7 +1836,6 @@ yydstxt*.com/js/html
 ||a.cnki.net/a/
 ||a.jyeoo.com/js?
 ||a.pemsrv.com/popunder*.js
-||a.spolecznosci.net/pet?
 ||a1tb.com/300x250ntv
 ||a5xiazai.com/z/
 ||aaaimg.com/images*.gif
@@ -2607,7 +2608,6 @@ yydstxt*.com/js/html
 ||centurys.net/promo_
 ||cenyou.net/wp-content/uploads/1200-200.
 ||cesu.ai/uploads/advertimages/
-||cex.io/img/b/
 ||cfzhushou.com^*/king_chance_layer.js
 ||chachefa.com^*.js?v=
 ||chahua.org/aimg/
@@ -2786,7 +2786,6 @@ yydstxt*.com/js/html
 ||connatix.com/rtb/
 ||content.livesportmedia.eu/api/v1/banners?zone-ids=
 ||content.overwolf.com/curseforge/web/nitro/cursenpinit.js
-||controlc.com/redact.png
 ||coolaler.com/index_ads/
 ||coolpc.com.tw/home/img/right2.html
 ||coolpc.com.tw/img/topweb.html
@@ -3279,6 +3278,7 @@ yydstxt*.com/js/html
 ||freemilf.org/nb/
 ||freepopnews.skin/advert/
 ||frendz4m.org/arlinablock.js
+||freshbooks.com/images/banners/
 ||frontendjs.com/api/ad
 ||frprn.com/even/ok.js
 ||fsclzs.com/ad_user/
@@ -4614,7 +4614,6 @@ yydstxt*.com/js/html
 ||moratame.tw/img/contents/banner
 ||mortgagecentres.net/banner.gif
 ||motphimr.io/rikvip-
-||moviechat.org/images/aff
 ||moviekhhd.biz/ads/
 ||movshow.com/*portal/
 ||mowenxi.com/1.png
@@ -5183,7 +5182,6 @@ yydstxt*.com/js/html
 ||resellerratings.com/popup/include/popup.js
 ||resources.faireconomy.media/js.min/resources/js/money/moneyslotmanager.js
 ||revolver.news/wp-content/banners/
-||rf4-stat.ru/js/adblock.js
 ||rfidworld.com.cn/js/a.js
 ||rfidworld.com.cn/js/b.js
 ||rfidworld.com.cn/js/c.html
@@ -5532,6 +5530,7 @@ yydstxt*.com/js/html
 ||straitstimes.com/_web2/betterads_head.js
 ||stre4mpay.one/blobjs.hj
 ||stream.cz/*/vast?
+||streamex.sh/pop.js
 ||stripchat.com/api/external/
 ||stulip.org/static/js/header.js
 ||su.bdimg.com/static/dspui/js/
@@ -5623,6 +5622,7 @@ yydstxt*.com/js/html
 ||tengzhihh.com/image/*-950x277.
 ||terabox.app/api/ad/
 ||terabox.com/api/ad/
+||terbit21.gdn/ads/
 ||texnet.com.cn/images/cnbanner/
 ||tfg2.com/images/upfile/ad/
 ||tgb.cn/res/js/tgbgg/
@@ -5844,7 +5844,6 @@ yydstxt*.com/js/html
 ||variflight.com/carnoc/ad/
 ||vdianying.cc/img/youhuiquan250.gif
 ||vdianying.cc/wp-content/plugins/wp-adblock-dedect/
-||veck.io/ads/
 ||vercel.app/ads/
 ||vgao.xyz/images/*.gif
 ||vidcrunch.com/api/adserver/
@@ -5955,6 +5954,7 @@ yydstxt*.com/js/html
 ||whichav.*/qq/qq.js
 ||whnews.cn/wh_public/xuxu/
 ||whsir.com/wp-content/themes/wh-blog/js/modal.js
+||whvx.net/ads.js
 ||widget.engageya.com/engageya_loader.js
 ||widgets.outbrain.com/outbrain.js
 ||widgets.outbrain.com^*/widget.js
@@ -6031,6 +6031,7 @@ yydstxt*.com/js/html
 ||xchina.*/service/assets/core-state.
 ||xchina.click/upload/*.webp
 ||xchina.co/scripts/push_*.js
+||xcitypass.com/wp-content/themes/newspulse/images/banner728.jpg
 ||xcmfu.com/cp.
 ||xcum.com/_a_xb/
 ||xdcad.net/source/plugin/disad/disad.js
@@ -6102,7 +6103,6 @@ yydstxt*.com/js/html
 ||xlpu.cc/adv/
 ||xmcdn.com/storages/f651-customerservice/e3/40/gaqhntalzruhaaj3lgotttoz.
 ||xmcimg.com/js/m.js
-||xmoviescdn.online/ads/ads_1.gif
 ||xmrc.com.cn/net/info/html/
 ||xn--p3tv7h.com/imgs/uxuan2.jpg
 ||xng02.com/api.php?mod=ad&

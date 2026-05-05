@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-05-05 01:28:00 UTC
-! Total Rules: 118136
+! Last Updated: 2026-05-05 13:04:19 UTC
+! Total Rules: 118142
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -73,6 +73,8 @@ $cookie=__utmt
 $cookie=__utmt_sfga
 $cookie=__utmv
 $cookie=__utmz
+$cookie=_ain_cid
+$cookie=_ain_uid
 $cookie=_algolia
 $cookie=_awl;maxage=30,domain=nypost.com|al.com|9news.com
 $cookie=_cb
@@ -222,6 +224,7 @@ $cookie=cqcid,domain=~nintendo.com
 $cookie=cric_adid,domain=gazeta.pl|sport.pl|tokfm.pl
 $cookie=cric_pubid,domain=gazeta.pl|sport.pl|tokfm.pl
 $cookie=crl8.fpcuid
+$cookie=cs_fpid
 $cookie=cto_bidid
 $cookie=cto_bundle
 $cookie=cx_g
@@ -108445,6 +108448,7 @@ zonedirector.avadacom.com$image
 ||first-id.fr^$third-party
 ||firstpromoter.com^$third-party
 ||fishhoo.com^$third-party
+||fishingtoolsbox.com^$redirect=noopjs,script
 ||fishki.net/counter/
 ||fitanalytics.com/metrics/
 ||fitanalytics.com^$third-party
@@ -108455,6 +108459,7 @@ zonedirector.avadacom.com$image
 ||fixcounter.com^$third-party
 ||fixwap.net^$third-party
 ||fiylo.de/typo3conf/ext/of_design/resources/public/javascript/libs/smarttag_live.js
+||fjordsand.com^$redirect=noopjs,script
 ||fkondate.com^$third-party
 ||flag.lab.amplitude.com^$third-party
 ||flagcounter.com^$third-party
@@ -113750,6 +113755,7 @@ zonedirector.avadacom.com$image
 ||refix.ai^$third-party
 ||reflow.tv/pixels/
 ||reformal.ru/log.php
+||regfiles.net/0/|$script
 ||register.boostymark.com/a/reg
 ||registercitizen.com/413gkwmt/init.js
 ||regmedia.co.uk/*/tp.gif
@@ -114391,7 +114397,7 @@ zonedirector.avadacom.com$image
 ||securegw.paytm.in/ui/uilogger/log?
 ||securepaths.com^$third-party
 ||secureprovide1.com/*=tracking$image
-||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect=googletagservices-gpt,domain=~golf.com|~today.line.me|~inmuebles24.com|~inside.com.tw|~investing.com|~olx.com.eg|~eksisozluk.com|~heycar.co.uk|~gizmodo.jp|~dexerto.com|~makorrishon.co.il
+||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect=googletagservices-gpt,domain=~golf.com|~today.line.me|~inmuebles24.com|~inside.com.tw|~investing.com|~olx.com.eg|~eksisozluk.com|~heycar.co.uk|~gizmodo.jp|~dexerto.com|~makorrishon.co.il|~mensjournal.com
 ||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect=googletagservices-gpt,important,domain=turbo.pt
 ||secureserver.net/t/
 ||securestudies.com^$third-party
