@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-05-05 13:04:19 UTC
-! Total Rules: 6360
+! Last Updated: 2026-05-06 01:26:35 UTC
+! Total Rules: 6366
 ! Expires: 5 days
 &ag_custom_vlmspot=
 &js_build=iclick-
@@ -2519,6 +2519,7 @@ yydstxt*.com/js/html
 ||caranddriver.com/inventory/
 ||careerwebsite.com/distrib_pages/jobs.cfm?
 ||carexpert.com.tw/wp-content/uploads/*800x90.
+||carlowlive.ie/js/bannerinterstitial.js
 ||carnoc.com/noticejs/
 ||cartoon18.com/images/friend/
 ||catbox.moe/bb5wdv.jpg
@@ -2790,6 +2791,7 @@ yydstxt*.com/js/html
 ||coolpc.com.tw/home/img/right2.html
 ||coolpc.com.tw/img/topweb.html
 ||copyfuture.com/images/zhifubao.jpg
+||corklive.ie/js/bannerinterstitial.js
 ||cornpic.com/images/*.gif
 ||cosmic*.co/wp-content/uploads/*.gif|
 ||cover.ydgal.com/axfile/
@@ -4340,6 +4342,7 @@ yydstxt*.com/js/html
 ||lihuasoft.net/images/ad_
 ||liisex.com/images/banners/
 ||limeiptv.to/static/b1.gif
+||limerickleader.ie/js/bannerinterstitial.js
 ||linecg.com/uploads/banner/
 ||lingdianshuwu.com/js/content
 ||link114.cn/template/js/showpics_
@@ -4783,6 +4786,7 @@ yydstxt*.com/js/html
 ||nzherald.co.nz/pf/resources/dist/scripts/global-ad-script.js
 ||oa.hinews.cn/work/img/
 ||ocdn.eu/workshopinforocdn/infor/misc/taboola-assets/taboola_v*.js
+||offalyexpress.ie/js/bannerinterstitial.js
 ||ofweek.com/pop/ad/
 ||oh100.com/js/pubuliu.
 ||okbmf.com/imgad/
@@ -5686,6 +5690,7 @@ yydstxt*.com/js/html
 ||tingroom.com/images/z923.js
 ||tingroom.com/skin/dy/images/enread.jpg
 ||tingroom.com/tingroom/ad/
+||tipperarylive.ie/js/bannerinterstitial.js
 ||tiscali.it/export/system/modules/*/resources/script/planner.js
 ||titan007.com/ad/
 ||titan007.com/js/indexshow.
@@ -5704,6 +5709,7 @@ yydstxt*.com/js/html
 ||tonnn.com/promotion2/*.js
 ||toolbaz.com/assets/js/unblock.js
 ||toolfk.com/common/zfb.jpg
+||toolxox.com/js/sweet_alert.js
 ||toots-a.akamaihd.net/priority/*sponsor
 ||topmba.mobi/ad/
 ||topthink.com/api/basic/
