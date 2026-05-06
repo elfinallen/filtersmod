@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-05-06 01:26:35 UTC
-! Total Rules: 6366
+! Last Updated: 2026-05-06 13:23:52 UTC
+! Total Rules: 6362
 ! Expires: 5 days
 &ag_custom_vlmspot=
 &js_build=iclick-
@@ -2070,7 +2070,6 @@ yydstxt*.com/js/html
 ||api.adultdeepfakes.cam/banners
 ||api.apiimg.com/huaer/xiahe.js
 ||api.bilibili.com/x/ad/
-||api.bitchute.com/slot1/
 ||api.bo3.gg/api/v*/ad_
 ||api.leakgallery.com/public/lib*.js
 ||api.live.bilibili.com/*/banner
@@ -2517,7 +2516,6 @@ yydstxt*.com/js/html
 ||caoporn.com/templates/frontend/dark-blue/js/caoaa5.js
 ||car.pchome.com.tw/iframe/news_iframe.
 ||caranddriver.com/inventory/
-||careerwebsite.com/distrib_pages/jobs.cfm?
 ||carexpert.com.tw/wp-content/uploads/*800x90.
 ||carlowlive.ie/js/bannerinterstitial.js
 ||carnoc.com/noticejs/
@@ -3433,7 +3431,6 @@ yydstxt*.com/js/html
 ||google.com/adsense/search/ads.js
 ||google.com/adsense/search/async-ads.js
 ||google.com/pagead/1p-user-list/
-||google.com/pagead/conversion_async.js
 ||google.com/pagead/drt/
 ||google.com/pagead/landing?
 ||googleapiscdn.com/admin/api/ads/
@@ -4259,6 +4256,7 @@ yydstxt*.com/js/html
 ||kuazhi.com/kuazhi_click.
 ||kuazhi.com/zb_users/plugin/allshow/js/main.
 ||kuazhi.com/zb_users/plugin/allshow/js/main.js
+||kutchuday.in/wp-content/uploads/*/ku-add
 ||kwflvcdn.000dn.com^*.flv
 ||kwongwah.com.my/wp-content/plugins/dibs_engine/js/dibs_popup.js
 ||kxd56.com/qq.js
@@ -4309,7 +4307,6 @@ yydstxt*.com/js/html
 ||lenovo.com.cn/cms/2018-07-20/201807201014498251793.png
 ||lenovo.com.cn/lenovo/bid?clienttype=
 ||lensdump.com/i/*.gif
-||lessemf.com/images/banner-
 ||letemsvetemapplem.eu/*/alzafeed_*.php
 ||letv.com/pzt/hyhmzq/index.shtml
 ||lf9-static.bytednsdoc.com/obj/tos-cn-i-0813
@@ -4657,7 +4654,6 @@ yydstxt*.com/js/html
 ||myabandonware.com/media/img/innog/
 ||myabandonware.com/media/img/nextrs/hrwrs/
 ||myabandonware.com/media/img/pwn/
-||myanimelist.net/c/i/images/event/
 ||myanimelist.net/c/img/
 ||mybjx.net/theme/default/js/common/bjx_service_
 ||mybjx.net/theme/default/js/common/duilianchn.js

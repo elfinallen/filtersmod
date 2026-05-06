@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-05-06 01:26:35 UTC
-! Total Rules: 11737
+! Last Updated: 2026-05-06 13:23:52 UTC
+! Total Rules: 11742
 ! Expires: 5 days
 &&sub19=undefined&sub20=undefined
 &action=js_stats
@@ -3550,6 +3550,7 @@ t.yesware.com
 ||20min.ch/ana/
 ||20minutes.fr/js/piano-*.js
 ||216.18.176.4/logger/
+||247wallst.com/wp-content/plugins/fwp-247-analytics-old/js/dist/fwp-analytics-main.js
 ||24sata.hr/static/scripts/utils/tracking.min.js
 ||24ur.com/bin/player/?mod=statistics&
 ||2ch-c.net/click.php
@@ -4643,6 +4644,7 @@ t.yesware.com
 ||biggylabs.com.br/track-api/v2/track/site?
 ||bigw.com.au/api/event/
 ||bigw.com.au/events/
+||bikemag.com/.api/admiral
 ||bilanx.dcard.tw/*/configs
 ||bilanx.dcard.tw/*/events
 ||bilanx.dtto.com/*/configs
@@ -8566,6 +8568,7 @@ t.yesware.com
 ||onlyfans.com/*/stats-collect
 ||onlyfree.de^*/counterservice/
 ||onnetwork.tv/cnt/
+||onrender.com/health
 ||onscreens.me/js/st2.js
 ||onscreens.me/js/statistics.js
 ||onsugar.com/static/ck.php?
@@ -8704,6 +8707,7 @@ t.yesware.com
 ||panasonic.jp/etc/designs/panasonic/standardpage-clientlibs/ec-tracker.js
 ||pandora.com/ping.txt
 ||papoto.com/api*/network/stats
+||paradehomeandgarden.com/.api/admiral
 ||paramount.tech/lookup/
 ||paramountplus.com/*/build/*event*-aggregate*.js
 ||paramountplus.com/*/build/logging-*.js
@@ -8879,6 +8883,7 @@ t.yesware.com
 ||player.instaread.co/js/inarticle-metrics.js
 ||player.ivideosmart.com/ivsplayer/*/moat-tracker.js
 ||player.javboys.cam/cdn-cgi/trace
+||player.kinoton.cc/api/events
 ||player.kwikmotion.com/packages/videojs-stat/
 ||player.mangomolo.com/stats/
 ||player.ooyala.com/errors/report?

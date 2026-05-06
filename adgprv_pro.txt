@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-05-06 01:26:35 UTC
-! Total Rules: 118145
+! Last Updated: 2026-05-06 13:23:52 UTC
+! Total Rules: 118151
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -103655,6 +103655,8 @@ zonedirector.avadacom.com$image
 ||2222.ro^$third-party
 ||247-inc.com^$third-party
 ||247ilabs.com^$third-party
+||247wallst.com/b66d/|$script
+||247wallst.com/wp-content/plugins/fwp-247-analytics-old/js/dist/fwp-analytics-main.js
 ||24counter.com^$third-party
 ||24log.com^$third-party
 ||24log.de^$third-party
@@ -105490,6 +105492,7 @@ zonedirector.avadacom.com$image
 ||bigw.com.au/api/event/
 ||bigw.com.au/events/
 ||bigw.com.au^$cookie=ir-clickid
+||bikemag.com/.api/admiral
 ||bilanx.dcard.tw/*/configs
 ||bilanx.dcard.tw/*/events
 ||bilanx.dcard.tw^$app=com.sparkslab.dcardreader
@@ -112486,6 +112489,7 @@ zonedirector.avadacom.com$image
 ||onlyfans.com/*/stats-collect
 ||onlyfree.de^*/counterservice/
 ||onnetwork.tv/cnt/
+||onrender.com/health
 ||onscreens.me/js/st2.js
 ||onscreens.me/js/statistics.js
 ||onsugar.com/static/ck.php?
@@ -112717,6 +112721,7 @@ zonedirector.avadacom.com$image
 ||pap.qualityunit.com^$third-party
 ||papoto.com/api*/network/stats
 ||papoto.com^$third-party
+||paradehomeandgarden.com/.api/admiral
 ||parameter.dk^$third-party
 ||parametre.online^$third-party
 ||paramount.tech/lookup/
@@ -113039,6 +113044,7 @@ zonedirector.avadacom.com$image
 ||player.instaread.co/js/inarticle-metrics.js
 ||player.ivideosmart.com/ivsplayer/*/moat-tracker.js
 ||player.javboys.cam/cdn-cgi/trace
+||player.kinoton.cc/api/events
 ||player.kwikmotion.com/packages/videojs-stat/
 ||player.mangomolo.com/stats/
 ||player.ooyala.com/errors/report?
