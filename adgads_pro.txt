@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-05-07 01:31:00 UTC
-! Total Rules: 10034
+! Last Updated: 2026-05-07 13:23:29 UTC
+! Total Rules: 10020
 ! Expires: 5 days
 $cookie=/adb\.key/,domain=expres.cz|televizeseznam.cz|ahaonline.cz|extra.cz|mobilmania.cz|idnes.cz|aktuality.sk|aktualne.cz|blesk.cz|centrum.cz|cnews.cz|e15.cz|karaoketexty.cz|novinky.cz|sport.cz|super.cz|tiscali.cz|zive.cz|antiyoutuber.cz|fights.cz|metro.cz
 $cookie=__adblocker,domain=slate.com|thehindubusinessline.com
@@ -1037,6 +1037,7 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 /assets/jquery/api.js?type=adult$~third-party
 /assets/jquery/api100.js?type=$~third-party
 /assets/jquery/app100.js?type=$~third-party
+/assets/jquery/static.js?type=mainstream$~third-party
 /assets/jquery/style*.js$domain=fsdcmo.sbs|flaswish.com
 /assets/jwplayer-*/vast.js$script,~third-party
 /assets/sidebar/*$domain=v2ex.com
@@ -2869,7 +2870,6 @@ yydstxt*.com/js/html
 ||4gamers.com.tw/ads-
 ||4gamers.com.tw/site/api/aols/media?
 ||4gamers.com.tw/site/iframe-aols/
-||4gforkh4.icu^$popup
 ||4gtv.tv/4gtv_ott.json
 ||4hw.com.cn/js/common.js
 ||4khd.com/content/$replace=/^((?!<style>)[\s\s])*<\/style>\n<style/<style/,document
@@ -3296,7 +3296,6 @@ yydstxt*.com/js/html
 ||adalliance.io^$third-party
 ||adamatic.co^$third-party
 ||adapex.io^$third-party
-||adbeacon.com^$third-party
 ||adbetnetwork.com^$third-party
 ||adbit.biz^$third-party
 ||adbottw.net^$third-party
@@ -3426,13 +3425,11 @@ yydstxt*.com/js/html
 ||advertsource.co.uk^$third-party
 ||advertur.ru^$third-party
 ||adviad.com^$third-party
-||advnet.xyz^$third-party
 ||adword.ge^$third-party
 ||adwordsing.com/img/1.jpg
 ||adwordsing.com/img/2.jpg
 ||adx.adform.net/adx/$replace=/(<vast[\s\s]*?>)[\s\s]*?(<extensions>[\s\s]*<\/extensions>)[\s\s]*<\/vast>|(<vast[\s\s]*?>)[\s\s]*<\/vast>/\$1\$2\$3<\/vast>/,xmlhttprequest,domain=tvp.pl,important
 ||adx.ws^$third-party
-||adxfire.com^$third-party
 ||adxxx.com^$third-party
 ||adxxx.info^$domain=avgle.com
 ||adyun.com^$third-party
@@ -3612,7 +3609,6 @@ yydstxt*.com/js/html
 ||aliyuncs.com^$domain=5kym.com
 ||aliyuncs.com^$domain=9xav.cc
 ||allbeauty.com.tw/goldprice/*_cf.php
-||allcuteboys.com^$third-party
 ||allmediadesk.com^$third-party
 ||alloha.tv^$third-party
 ||allprivatekeys.com/static/banners/$third-party
@@ -3747,7 +3743,6 @@ yydstxt*.com/js/html
 ||aqy103.com/js/aqy/
 ||arc.msn.com/*/api/selection?placement=*upsell
 ||argrowlitheor.com^$document
-||arigl.com/wp-content/uploads/fbeddc/acbeaf.js
 ||ark.le.com/s?vid=
 ||ark.letv.com/s?
 ||ark.tubi.video/*.mp4$redirect=noopmp4-1s
@@ -4739,7 +4734,6 @@ yydstxt*.com/js/html
 ||cr173.com/skinb/
 ||crazyrocket.io^$third-party
 ||crcdn.org^$image,domain=uiil.ink
-||crdefault2.com^$popup
 ||crdroid.net/js/adblock-checker.min.js
 ||creaders.net*/ad_func.js
 ||creative*.simulmedia-apis.com$media,redirect=noopmp4-1s,domain=play.geforcenow.com
@@ -6074,7 +6068,6 @@ yydstxt*.com/js/html
 ||iask.cn^*/qiye.
 ||iask.cn^*commercial.
 ||iask.cn^*model.
-||ibannerexchange.com^$third-party
 ||ibaotu.com/revision/js/ad/
 ||ibf.tw/js/jquery.blockui.js
 ||ibmwclub.com/tophub/assets/js/sponsor.
@@ -6253,6 +6246,7 @@ yydstxt*.com/js/html
 ||img.masoffer.net^$domain=congtruongit.com
 ||img.mbalib.com/common/servicespicture/prom.js
 ||img.medscapestatic.com/medscape-core/ads/$domain=medscape.com
+||img.medscapestatic.com/pi/scripts/ads/build-ad-tag.js$domain=medscape.com
 ||img.meituan.net/video/$domain=338i.com
 ||img.mikudm.net/img01/mp3/gg/20240415_cps_960x75_general.gif
 ||img.scupio.com$domain=briian.com
@@ -7086,7 +7080,6 @@ yydstxt*.com/js/html
 ||mail.pchome.com.tw/img/classifieds/300120.gif
 ||mail.qq.com/lview?
 ||mainexclkdir.com^$document
-||mainexclkdir.com^$popup
 ||makaidong.com/img/
 ||malavida.com/*/download$document,replace=/\(popupon\)/(false)/
 ||malimali5.com/ad1.png
@@ -7573,8 +7566,6 @@ yydstxt*.com/js/html
 ||olopruy.com^$document
 ||om.cn/api/ad-om/
 ||omni-dex.io^$third-party
-||omuzaani.me^$replace=/(window\.location\.(replace|href))/\/\/\$1/,document,subdocument
-||omuzaani.me^$replace=/forcekillplayer\(/\/\/forcekillplayer(/,document,subdocument
 ||onclckpop.com^$document
 ||onclickperformance.com^$document
 ||one101.xyz/data/images/*.gif
@@ -7626,7 +7617,6 @@ yydstxt*.com/js/html
 ||osiaffiliate.com^$third-party
 ||oss-ap-southeast-1.aliyuncs.com/js/copy.js
 ||otaserve.net^$third-party
-||otieu.com^$popup
 ||otm-r.com^$third-party
 ||otoadom.com^$document
 ||otomi-games.com/wp-content/uploads/*-ad-728-
@@ -7732,7 +7722,6 @@ yydstxt*.com/js/html
 ||parenting.pl^$replace=/^var wp_gaf_rv[\s\s]*?\n.*"spin".*"dfpconfig".*"slots?".*//,script
 ||partner-ads.com^$third-party
 ||partner.googleadservices.com^$third-party
-||partner.pcloud.com/media/banners/*300250.png
 ||partnerstack.com^$third-party
 ||parts.akibablog.net^$subdocument
 ||partypoker.com^$third-party
@@ -7921,6 +7910,7 @@ yydstxt*.com/js/html
 ||pornhub.*/_xa/ads
 ||pornhub.*/view_video.php?viewkey=$replace=/vastxml/_vastxml/,important,~third-party
 ||pornid.xxx/polstr/$subdocument
+||pornid.xxx/vager/
 ||pornintellect.com/banner/
 ||pornlib.com/player_*_ads
 ||pornokeep.com/content2/lib/
@@ -8255,7 +8245,6 @@ yydstxt*.com/js/html
 ||rfidworld.com.cn/notice/home
 ||riaway.com/statics/idea.jpg
 ||richaudience.com^$third-party
-||richmediaads.com^$third-party
 ||rigengjihua.cn/banner/
 ||right.com.cn/forum/static/image/common/logo
 ||right.com.cn/forum/static/image/common/logo*.gif
@@ -8912,7 +8901,6 @@ yydstxt*.com/js/html
 ||taboola.com^$domain=wgrz.com
 ||tagdeliver.com^$third-party
 ||tagdelivery.com^$third-party
-||taginova.xyz^$popup
 ||tagtoo.co^$third-party
 ||taijuba.com/js/*_
 ||taijuba.com/js/tj
@@ -9368,7 +9356,6 @@ yydstxt*.com/js/html
 ||vidsrc.pro/uwu-js/binged.in
 ||vidverto.io^$third-party
 ||viensvoircesite.com^$popup
-||viidedss.com^$all
 ||viously.com^$domain=9gag.com
 ||vip.luanren.com/data/*.gif
 ||vip.ludu319.com^$third-party
@@ -9556,6 +9543,7 @@ yydstxt*.com/js/html
 ||wowfan.net/static/js/index.
 ||woyaoq.com/201904100958_5cad4dbac9c5f.png
 ||wp-pilot-gatsby.wpcdn.pl/*.js$replace=/({adv:).(\,qoeenabled:!0\,advvastduration:)/\$1!1\$2/
+||wp.com/mawtoload.com/wp-content/uploads/*.webp$domain=mawtoload.com
 ||wp.pl^$replace=/(<vast[\s\s]*?>)[\s\s]*<\/vast>/\$1<\/vast>/,xmlhttprequest,other,~script,app=~pl.videostar
 ||wp.pl^$replace=/(\.messdata=.;[\s\s]*?.=function\(\)\{)return 1===.(\}\,)/\$1return\$2/,script
 ||wp.pl^$replace=/(^(wp\.[\s\s]*?\.bodies)=wp\.[\s\s]*?\.bodies\|\|\{\};[\s\s]*)//,script
@@ -9743,7 +9731,6 @@ yydstxt*.com/js/html
 ||xvideo.cc/wefong2.js
 ||xvideos.com/zoneload/
 ||xvideos.es/zoneload/
-||xwhite-tube.com/js/aobj.js
 ||xxdm.in/js/union/
 ||xxffo.com^*_slett.php
 ||xxhh.com/xh.js
@@ -9825,7 +9812,6 @@ yydstxt*.com/js/html
 ||yii666.com/ad/dynamic-
 ||yijuxie.com^$third-party
 ||yikeyz.com/pm.js
-||yimg.com/aaq/benji/benji-
 ||yimg.com/cv/ae/default/*_static-jpeg_
 ||yimg.com/cv/api/hk/fp_czy_ad/
 ||yimg.com/dy/ads/native.js

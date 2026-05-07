@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-05-07 01:31:00 UTC
-! Total Rules: 11742
+! Last Updated: 2026-05-07 13:23:29 UTC
+! Total Rules: 11743
 ! Expires: 5 days
 &&sub19=undefined&sub20=undefined
 &action=js_stats
@@ -4387,7 +4387,6 @@ t.yesware.com
 ||assets.adsttc.com/insights/tracker.js
 ||assets.alicdn.com/g/alilog/
 ||assets.alicdn.com/g/alilog/aplus_plugin_xwj/index.js
-||assets.alicdn.com/g/lzd_sec/epssw/*/epssw.js
 ||assets.aliexpress-media.com/g/??alilog/aplus_plugin_aefront/index.js,alilog/mlog/aplus_int.js
 ||assets.aliexpress-media.com/g/ae-fe/cosmos/*/pc/gep-sdk.js
 ||assets.aliexpress-media.com/g/ae-fe/cosmos/*/pc/local-data.js
@@ -6677,6 +6676,7 @@ t.yesware.com
 ||global.honda/jp/common/beacon/web_beacon.js
 ||global.ketchcdn.com/web/v2/log?
 ||global.localizecdn.com/api/lib/*.gif?
+||global.one.yomiuri.co.jp/ssc-ym-client.v*.js
 ||global.ssl.fastly.net/native/
 ||global.toyota/include/js/tgn_webbeacon.js
 ||globalbunjang.com/scripts/*_pixel.js
@@ -8050,6 +8050,7 @@ t.yesware.com
 ||melhorplano.net/scripts/tracker/
 ||melonstube.com/js/analytics
 ||memonotepad.com/js/modules/google-analytics-bundle.js
+||mensjournal.com/.api/admiral
 ||mensjournal.com/.bootscripts/analytics.min.js
 ||mentimeter.com/performance-metrics
 ||mercadolibre.com/tracks^

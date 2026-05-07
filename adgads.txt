@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-05-07 01:31:00 UTC
-! Total Rules: 6363
+! Last Updated: 2026-05-07 13:23:29 UTC
+! Total Rules: 6360
 ! Expires: 5 days
 &ag_custom_vlmspot=
 &js_build=iclick-
@@ -2095,7 +2095,6 @@ yydstxt*.com/js/html
 ||aqlife.com/data/attachment/portal/
 ||aqy103.com/js/aqy/
 ||arc.msn.com/*/api/selection?placement=*upsell
-||arigl.com/wp-content/uploads/fbeddc/acbeaf.js
 ||ark.le.com/s?vid=
 ||ark.letv.com/s?
 ||arkadiumhosted.com/advertisement/
@@ -4857,7 +4856,6 @@ yydstxt*.com/js/html
 ||parade.com/runtime/delta.js
 ||parade.com/runtime/gamma.js
 ||parade.com/runtime/webads.js
-||partner.pcloud.com/media/banners/*300250.png
 ||pasazer.com/_assets/js/ad-connect.js
 ||pbc.pagesix.com/p/nyp/pagesix/pb.js
 ||pbmp.ali213.net/js/
@@ -4969,6 +4967,7 @@ yydstxt*.com/js/html
 ||porngamespass.com/iframes/
 ||pornhd3x.tv/cms_data/sites/admin/files/ads
 ||pornhub.*/_xa/ads
+||pornid.xxx/vager/
 ||pornintellect.com/banner/
 ||pornlib.com/player_*_ads
 ||pornokeep.com/content2/lib/
@@ -6135,7 +6134,6 @@ yydstxt*.com/js/html
 ||xvideo.cc/wefong2.js
 ||xvideos.com/zoneload/
 ||xvideos.es/zoneload/
-||xwhite-tube.com/js/aobj.js
 ||xxdm.in/js/union/
 ||xxffo.com^*_slett.php
 ||xxhh.com/xh.js
@@ -6201,7 +6199,6 @@ yydstxt*.com/js/html
 ||yigujin.cn/wp-content/themes/three/js/yierlin
 ||yii666.com/ad/dynamic-
 ||yikeyz.com/pm.js
-||yimg.com/aaq/benji/benji-
 ||yimg.com/cv/ae/default/*_static-jpeg_
 ||yimg.com/cv/api/hk/fp_czy_ad/
 ||yimg.com/dy/ads/native.js
