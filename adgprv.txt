@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-05-07 13:23:29 UTC
-! Total Rules: 11743
+! Last Updated: 2026-05-08 01:47:48 UTC
+! Total Rules: 11744
 ! Expires: 5 days
 &&sub19=undefined&sub20=undefined
 &action=js_stats
@@ -8080,6 +8080,7 @@ t.yesware.com
 ||metrics.amd.com/b/ss/
 ||metro.co.uk/base/rta/
 ||metro.co.uk/cvx/client/sync/fpc?
+||metro.co.uk/wp-content/client-mu-plugins/dist/metro-analytics/
 ||metro.co.uk/wp-content/themes/metro-parent/dist/components/measurement.min.js
 ||metro.tokyo.lg.jp/shared/js/g_tag.js
 ||metro.tokyo.lg.jp/shared/js/gtag.js
