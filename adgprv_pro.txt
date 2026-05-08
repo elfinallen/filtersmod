@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-05-08 01:47:48 UTC
-! Total Rules: 118153
+! Last Updated: 2026-05-08 13:03:39 UTC
+! Total Rules: 118152
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -1950,6 +1950,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /events/view?
 /events?rpid=
 /eventsbeacon?
+/eventstream|$domain=autoguide.com|motorcycle.com|upgradedhome.com
 /eventtracker.js
 /eventtracking-
 /eventtracking.
@@ -105179,6 +105180,7 @@ zonedirector.avadacom.com$image
 ||autoaffiliatenetwork.com^$third-party
 ||autoaudience.com^$third-party
 ||autoblog.com/.api/admiral
+||autoguide.com/api/posts/*/impressions
 ||autohome.com.cn/impress?
 ||autoid.com^$third-party
 ||autoline-top.com/counter.php?
@@ -111641,7 +111643,6 @@ zonedirector.avadacom.com$image
 ||minsk-in.net/counter.php?
 ||minutemediacdn.com/campaign-manager-client/
 ||mirabelsmarketingmanager.com^$third-party
-||mirakl.net^$third-party
 ||mirtesen.ru/js/ms.js
 ||misc.udn.com/record/pageview/
 ||misrepush.com^$third-party
@@ -115860,6 +115861,7 @@ zonedirector.avadacom.com$image
 ||target.com/rum_analytics/
 ||target.com/telemetry_data/
 ||target.mixi.media^$third-party
+||target2sell.mirakl.net^$third-party
 ||targetads.io^$third-party
 ||targetfuel.com^$third-party
 ||targetix.net^$third-party
@@ -117744,9 +117746,6 @@ zonedirector.avadacom.com$image
 ||wwgate.ru^$third-party
 ||www-backend.strinova.com/api/common/uid
 ||www-backend.strinova.com/api/common/uid|
-||www-direct.autoguide.com/eventstream
-||www-direct.motorcycle.com/eventstream
-||www-direct.upgradedhome.com/eventstream
 ||www-google-analytics.l.google.com^$third-party
 ||www-path.com^$third-party
 ||www.digikey.*/lo2z493j/init.js

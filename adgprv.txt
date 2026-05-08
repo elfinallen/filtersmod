@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-05-08 01:47:48 UTC
-! Total Rules: 11744
+! Last Updated: 2026-05-08 13:03:39 UTC
+! Total Rules: 11742
 ! Expires: 5 days
 &&sub19=undefined&sub20=undefined
 &action=js_stats
@@ -4466,6 +4466,7 @@ t.yesware.com
 ||auto-motor-und-sport.de/js/sophus3/logging.js
 ||auto.ru/cookiesync/
 ||autoblog.com/.api/admiral
+||autoguide.com/api/posts/*/impressions
 ||autohome.com.cn/impress?
 ||autoline-top.com/counter.php?
 ||automobile.it/fb/
@@ -11464,9 +11465,6 @@ t.yesware.com
 ||wurking.global.ssl.fastly.net/ingestly-ingest/
 ||www-backend.strinova.com/api/common/uid
 ||www-backend.strinova.com/api/common/uid|
-||www-direct.autoguide.com/eventstream
-||www-direct.motorcycle.com/eventstream
-||www-direct.upgradedhome.com/eventstream
 ||www.digikey.*/lo2z493j/init.js
 ||www.ebay.*/gh/dfpsvc?
 ||www.google.*/velog/

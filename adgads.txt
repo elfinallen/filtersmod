@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-05-08 01:47:48 UTC
-! Total Rules: 6360
+! Last Updated: 2026-05-08 13:03:39 UTC
+! Total Rules: 6361
 ! Expires: 5 days
 &ag_custom_vlmspot=
 &js_build=iclick-
@@ -483,6 +483,7 @@
 /avple-images/ad.
 /avple-images/ad_
 /avshow_cn1.gif
+/banner.go?spaceid=
 /banner468x60_live173.
 /bannerpop/uploads/*
 /banners*swf
@@ -1852,7 +1853,6 @@ yydstxt*.com/js/html
 ||abminbuy.com/789.
 ||abminbuy.com/qq
 ||abminbuy.com^*.gif
-||abstream.to/fidel.js^
 ||ac-baidu.90dao.com/inject.js
 ||ac.tc.qq.com/store_file_download?*&dir_path=/admin/swf/
 ||acfun.cn/appspreadcontents/danmuad/
@@ -2026,6 +2026,7 @@ yydstxt*.com/js/html
 ||aliyuncs.com/wjy99re/
 ||allbeauty.com.tw/goldprice/*_cf.php
 ||allsportsflix.
+||alrincon.com/2022/varios/crazyshit.jpg
 ||alu.cn*/aluad/
 ||alu.cn/alutg/
 ||alu.cn/alutrade/fragments/listadvertisementproductshandler.
@@ -2130,6 +2131,7 @@ yydstxt*.com/js/html
 ||auto.am/static/azd/
 ||autoembed.cc/vast/
 ||autofan.com.cn/uploadfiles/images/badimg.jpg
+||autoguide.com/resources/combined/js/prebid-new-full.
 ||autohome.com.cn/api/platformdata/getfinancebanner
 ||autohome.com.cn/topic/robotvideo?
 ||autoimg.cn/club/v1content/images/heycar1111.jpg
@@ -3279,7 +3281,6 @@ yydstxt*.com/js/html
 ||freemilf.org/nb/
 ||freepopnews.skin/advert/
 ||frendz4m.org/arlinablock.js
-||freshbooks.com/images/banners/
 ||frontendjs.com/api/ad
 ||frprn.com/even/ok.js
 ||fsclzs.com/ad_user/
@@ -3601,6 +3602,7 @@ yydstxt*.com/js/html
 ||hentaicomic.*/data/game/*/wap.gif
 ||hentaifox.com/js/slider.js
 ||hentaivideos.net/imp/
+||hetlmedia.com/1025.js
 ||hexun.*/hxpage/index.html
 ||hexun.com*/hx_news/hx_news_finalpage.js
 ||hexun.com/gphqtc/
@@ -4129,7 +4131,6 @@ yydstxt*.com/js/html
 ||jsdelivr.net/gh/fzdm/st*/js/fzwap-
 ||jsdelivr.net/gh/interactiveadvertisingbureau/
 ||jsdelivr.net/gh/pizcat/static@master/goods_ad.js
-||jsdelivr.net/gh/qxomer/reklam@master/reklam.js
 ||jsdelivr.net/gh/rockblogger/anti-adblocker@main/
 ||jsdelivr.net/gh/sex169hub/
 ||jsdelivr.net/gh/supfree/supfree/top.gif
