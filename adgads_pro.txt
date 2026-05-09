@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-05-08 13:03:39 UTC
-! Total Rules: 10020
+! Last Updated: 2026-05-09 01:43:36 UTC
+! Total Rules: 10022
 ! Expires: 5 days
 $cookie=/adb\.key/,domain=expres.cz|televizeseznam.cz|ahaonline.cz|extra.cz|mobilmania.cz|idnes.cz|aktuality.sk|aktualne.cz|blesk.cz|centrum.cz|cnews.cz|e15.cz|karaoketexty.cz|novinky.cz|sport.cz|super.cz|tiscali.cz|zive.cz|antiyoutuber.cz|fights.cz|metro.cz
 $cookie=__adblocker,domain=slate.com|thehindubusinessline.com
@@ -3850,6 +3850,7 @@ yydstxt*.com/js/html
 ||avseesee.com/htmls/vlinks.html
 ||avseesee.com/twad
 ||avspda.xyz^$third-party
+||avweb.com/wp-content/plugins/advanced-ads-pro/modules/extended-adblocker/
 ||awifi.cn^$third-party
 ||awin1.com/cshow.php$third-party
 ||ax1x.com/2020/06/14/nsoyhe.png
@@ -5403,6 +5404,7 @@ yydstxt*.com/js/html
 ||freecamsexposed.com^$popup
 ||freecontent.date
 ||freecontent.stream
+||freedidi.com/wp-content/plugins/abn-wall/assets/abn-wall.
 ||freedidi.com/wp-content/plugins/death-luhubaoyu/
 ||freedomadnetwork.com^$third-party
 ||freehao123.com/wp-content/uploads/2017/05/mmkdm.png

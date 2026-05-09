@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-05-08 13:03:39 UTC
-! Total Rules: 6361
+! Last Updated: 2026-05-09 01:43:36 UTC
+! Total Rules: 6363
 ! Expires: 5 days
 &ag_custom_vlmspot=
 &js_build=iclick-
@@ -2161,6 +2161,7 @@ yydstxt*.com/js/html
 ||avseesee.com/amandison.php
 ||avseesee.com/htmls/vlinks.html
 ||avseesee.com/twad
+||avweb.com/wp-content/plugins/advanced-ads-pro/modules/extended-adblocker/
 ||ax1x.com/2020/06/14/nsoyhe.png
 ||axjbt.com/dbxf/pctc.js
 ||axutongxue.*/js/yes.
@@ -3275,6 +3276,7 @@ yydstxt*.com/js/html
 ||freecads.com/wp-content/themes/freecads/library/js/ads-dist.js
 ||freecontent.date
 ||freecontent.stream
+||freedidi.com/wp-content/plugins/abn-wall/assets/abn-wall.
 ||freedidi.com/wp-content/plugins/death-luhubaoyu/
 ||freehao123.com/wp-content/uploads/2017/05/mmkdm.png
 ||freejavbt.com/assets/images/banner
