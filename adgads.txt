@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-05-09 01:43:36 UTC
-! Total Rules: 6363
+! Last Updated: 2026-05-09 12:46:15 UTC
+! Total Rules: 6362
 ! Expires: 5 days
 &ag_custom_vlmspot=
 &js_build=iclick-
@@ -3173,7 +3173,6 @@ yydstxt*.com/js/html
 ||etxt.biz/images/b/
 ||everyonepiano.cn/public/*0x
 ||excelhome.net/js/banner-
-||exporntoons.net/static/players/*/vast.js
 ||expreview.com/baba/
 ||eyny.com/data/cache/js_show_ads.js
 ||eyusky.net/weixin-img/zhifubao.jpg
@@ -5283,7 +5282,6 @@ yydstxt*.com/js/html
 ||sd173.com/images/
 ||sd1v.yitongwl.cn/site/
 ||sdbeta.com/statics/mystyle/js/1
-||sdk.apester.com/*.monetization.min.js
 ||sdo.com/static/image/mkads/
 ||sdzbcg.com/images/sdfhyl
 ||se533.com/template/new/css/*.js
@@ -6162,6 +6160,7 @@ yydstxt*.com/js/html
 ||yanu.qiniudn.com/*x60.
 ||yanu.qiniudn.com/270300.jpg
 ||yaojingweiba.com/inc/
+||yaokanwx.com/tongji/
 ||yaoyl.com/js/ds.js
 ||yaseok.com//static/src/images/loading.gif
 ||yaseok.com/uploads/20*.gif
