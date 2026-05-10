@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-05-10 01:44:15 UTC
-! Total Rules: 10019
+! Last Updated: 2026-05-10 12:47:00 UTC
+! Total Rules: 10010
 ! Expires: 5 days
 $cookie=/adb\.key/,domain=expres.cz|televizeseznam.cz|ahaonline.cz|extra.cz|mobilmania.cz|idnes.cz|aktuality.sk|aktualne.cz|blesk.cz|centrum.cz|cnews.cz|e15.cz|karaoketexty.cz|novinky.cz|sport.cz|super.cz|tiscali.cz|zive.cz|antiyoutuber.cz|fights.cz|metro.cz
 $cookie=__adblocker,domain=slate.com|thehindubusinessline.com
@@ -1035,7 +1035,6 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 /assets/jquery/api.js?type=adult$~third-party
 /assets/jquery/api100.js?type=$~third-party
 /assets/jquery/app100.js?type=$~third-party
-/assets/jquery/static.js?type=mainstream$~third-party
 /assets/jquery/style*.js$domain=fsdcmo.sbs|flaswish.com
 /assets/jwplayer-*/vast.js$script,~third-party
 /assets/sidebar/*$domain=v2ex.com
@@ -2858,7 +2857,6 @@ yydstxt*.com/js/html
 ||4438x*.com/runtime/js/
 ||445nan.com/ad/
 ||44pd.com^*xds/
-||44x.io^$script
 ||4567.org^$third-party
 ||47.100.0.249/js/thea
 ||470kk.com/js/config.js
@@ -4924,7 +4922,6 @@ yydstxt*.com/js/html
 ||dioimg.net^$domain=18board.com|18board.net|18p2p.com
 ||direct-specific.com
 ||directadvert.ru^$third-party
-||directone.xyz^$all
 ||dirtyvideo.fun/js/script_
 ||discomax.com/adtech/
 ||discuss.com.hk/dfp_forum.php?au=discuss_web_
@@ -5222,7 +5219,6 @@ yydstxt*.com/js/html
 ||eporner.com^$subdocument,~third-party,badfilter
 ||eprice.com.tw/img/tw_m/ad/
 ||ergeapp.com^$third-party
-||ero-labs.*/api/v2/advertise/
 ||ero-labs.*/api/v2/system/config?name=partner_mall_url
 ||ero-labs.*/assets/js/appbanner.js
 ||eroadvertising.com^$third-party
@@ -7134,6 +7130,7 @@ yydstxt*.com/js/html
 ||media.stiripesurse.ro/assets/img/ads_img^
 ||media.swncdn.com/salemads/*/advscript.js
 ||mediad2.jp^$third-party
+||mediaplex.com/ad/
 ||mediatradecraft.com^$third-party
 ||mediav.com^$third-party
 ||mediav.com^$third-party,domain=~dev.360.cn|~g.360.cn
@@ -7389,7 +7386,6 @@ yydstxt*.com/js/html
 ||n2.hk/apps/car_feed/tb/*/banner.html
 ||n2.hk/promo/
 ||nairaland.com/vertipics/
-||nakedly.ai^$third-party
 ||namastedharma.com^$third-party
 ||namethatporn.com/assets/prod/fuf4g_*.js
 ||nanfengyl.com/static/js/zdad.js
@@ -8195,7 +8191,6 @@ yydstxt*.com/js/html
 ||realclick.co.kr^$third-party
 ||realmadryt.pl/build/assets/articlegate-*.js
 ||realmadryt.pl/img/banners/
-||realsrv.com/ad-provider.js$script,redirect=noopjs,domain=aznude.com
 ||realssp.co.kr^$third-party
 ||receivefreesms.co.uk/adblk/adblk_enc.js
 ||reddit.com/api/request_promo.json
@@ -8613,7 +8608,6 @@ yydstxt*.com/js/html
 ||sobaigu.com/images/server_tourist.jpg
 ||sobaigu.com/images/tencentcloudamd_1040x100.jpg
 ||sobt8.org/public/static/js/common.js
-||socialmonkee.com/images/
 ||socialsex.com^$popup
 ||socos.gitee.io/ss/poster/
 ||sodu2020.com/js/ppc.js
@@ -8679,7 +8673,6 @@ yydstxt*.com/js/html
 ||spankbang.com/api/*?ad_zone=
 ||spankbang.com/official/serve_
 ||spanking.wiki/morning-bread-
-||sparrowcanned.com^$all
 ||sparteo.com^$third-party
 ||speakol.com^$third-party
 ||speedtest.cn/api/v2/show
@@ -8963,6 +8956,7 @@ yydstxt*.com/js/html
 ||thcdy.co/baidu2/index_top.js
 ||theappstore.org/script.js$replace=/(result\.length > 10000 \? "no" : ")yes(";)/\$1no\$2/
 ||theappstore.org/script.js$replace=/ab = "yes";/ab = "no";/
+||theautopian.com/content/plugins/jzl-autopian/js/htl-ad-placement.js
 ||thedailycatch.org/wp-content/uploads/2025/12/burnett-white-tower-ad-dec-2025.png
 ||thedailycatch.org/wp-content/uploads/2026/04/spring-is-here-tower-light-1.png
 ||thefreedictionary.com/_/tr.ashx?
@@ -9077,7 +9071,6 @@ yydstxt*.com/js/html
 ||toptoon03.xyz/app/tuijian.html
 ||torrindex.net/images/ads/
 ||torrindex.net/images/epv/
-||tossoffads.com^$third-party
 ||totaladblock.com^$badfilter
 ||totaladblock.com^$document,badfilter
 ||totaladblock.com^$popup
@@ -9108,12 +9101,10 @@ yydstxt*.com/js/html
 ||traffic.ru^$third-party
 ||trafficbass.com^$popup
 ||traffichaus.com^$third-party
-||trafficholder.com^$third-party
 ||trafficjam.cn^$third-party
 ||trafficjunky.com^$third-party
 ||trafficmanager.net/o.js
 ||trafficstars.com^$third-party
-||trafficundercontrol.com^$third-party
 ||trafmag.com^$third-party
 ||trahkino.cc/static/js/li.js
 ||tranny.one/trannystatic/ads/

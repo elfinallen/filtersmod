@@ -1,7 +1,7 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-05-10 01:44:15 UTC
+! Last Updated: 2026-05-10 12:47:00 UTC
 ! Total Rules: 6362
 ! Expires: 5 days
 &ag_custom_vlmspot=
@@ -3154,7 +3154,6 @@ yydstxt*.com/js/html
 ||eporner.com/event.php
 ||eporner.com/xhr/vast/
 ||eprice.com.tw/img/tw_m/ad/
-||ero-labs.*/api/v2/advertise/
 ||ero-labs.*/api/v2/system/config?name=partner_mall_url
 ||ero-labs.*/assets/js/appbanner.js
 ||eroprofile.com/js/nvbla.js
@@ -4519,6 +4518,7 @@ yydstxt*.com/js/html
 ||media.notthebee.com/ads/
 ||media.stiripesurse.ro/assets/img/ads_img^
 ||media.swncdn.com/salemads/*/advscript.js
+||mediaplex.com/ad/
 ||medsci.cn/images/wyg.jpg
 ||megatube.xxx/atrm^
 ||megaup.net/sw.js
@@ -5421,7 +5421,6 @@ yydstxt*.com/js/html
 ||sobaigu.com/images/server_tourist.jpg
 ||sobaigu.com/images/tencentcloudamd_1040x100.jpg
 ||sobt8.org/public/static/js/common.js
-||socialmonkee.com/images/
 ||socos.gitee.io/ss/poster/
 ||sodu2020.com/js/ppc.js
 ||soduso.com/js/4
@@ -5630,6 +5629,7 @@ yydstxt*.com/js/html
 ||tgb.cn/res/js/tgbgg/
 ||thcdy.co/baidu2/foot.js
 ||thcdy.co/baidu2/index_top.js
+||theautopian.com/content/plugins/jzl-autopian/js/htl-ad-placement.js
 ||thedailycatch.org/wp-content/uploads/2025/12/burnett-white-tower-ad-dec-2025.png
 ||thedailycatch.org/wp-content/uploads/2026/04/spring-is-here-tower-light-1.png
 ||thefreedictionary.com/_/tr.ashx?
