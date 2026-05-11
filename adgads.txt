@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-05-11 01:51:41 UTC
-! Total Rules: 6363
+! Last Updated: 2026-05-11 14:17:17 UTC
+! Total Rules: 6365
 ! Expires: 5 days
 &ag_custom_vlmspot=
 &js_build=iclick-
@@ -3272,7 +3272,6 @@ yydstxt*.com/js/html
 ||fpdisplay.com/templates/default/js/palyflash_
 ||fpdisplay.com/upload/n_ad/
 ||fragment.firefoxchina.cn/html/
-||freecads.com/wp-content/themes/freecads/library/js/ads-dist.js
 ||freecontent.date
 ||freecontent.stream
 ||freedidi.com/wp-content/plugins/abn-wall/assets/abn-wall.
@@ -3862,7 +3861,6 @@ yydstxt*.com/js/html
 ||imghost.top/kita/
 ||imgjiajiao.cn/jiajiao/js/lxonline.js
 ||imglnkx.com/*/*_banner*.gif
-||imglnkx.com/9863/pmkt-1799_design-25431_sexmessenger_resize_1_300650.gif
 ||imgme.me/images/*.gif
 ||imgroom.net/images/*.gif
 ||imgs.cc/images/ad_
@@ -4498,7 +4496,6 @@ yydstxt*.com/js/html
 ||maolihui.com/wp-content/themes/miaonew/images/adb
 ||maomaoks.com/1.
 ||maopu.tv/d/file/p/2019/07/6ac50c702cf9e6a9a7910a510c40cb73.jpg
-||marketbeat.com/scripts/sidebaradnewssites.ashx
 ||marketools.plus500.com/feeds/
 ||masadora.net/kakusan-
 ||massariuscdn.com/pubs/
@@ -4548,6 +4545,7 @@ yydstxt*.com/js/html
 ||mesh.if.iqiyi.com/player/lw/lwplay/accelerator.js
 ||mesh.if.iqiyi.com/tvg/v2/lw/base_info?entity_id=*&ad_ext=
 ||mestrip.com/widgets/
+||meteologix.com/*/ajax/xclickslayer
 ||meteor.today/ad/
 ||metvb.com/js/bofangwei.js
 ||mfacelive.com/scripts/social/openchannel_min.js
@@ -4699,6 +4697,7 @@ yydstxt*.com/js/html
 ||n2.hk/apps/car_feed/tb/*/banner.html
 ||n2.hk/promo/
 ||nairaland.com/vertipics/
+||namethatporn.com/assets/dev_popscript.js^
 ||namethatporn.com/assets/prod/fuf4g_*.js
 ||nanfengyl.com/static/js/zdad.js
 ||nanrenfuli.*/zb_users/upload/
@@ -5920,6 +5919,7 @@ yydstxt*.com/js/html
 ||wantgoo.com/wantgoofiles/banner/
 ||wanwan.sina.com.cn/third_party/
 ||wasabii.com.tw/float/*.js
+||watchporn.to/contents/djifbwwmsrbs/player/seduced_vast.mp4
 ||wcostream.com/inc/js/adblock-detector-hardened.js
 ||wcostream.net/premiumad
 ||wdff.buzz/hengf.
@@ -6103,6 +6103,7 @@ yydstxt*.com/js/html
 ||xkyn.com/imgs/js/xx.js
 ||xkzzz.com/zb_users/plugin/morelinks*/show.
 ||xkzzz.com/zb_users/plugin/morelinks/morelinks.
+||xl02.com.de/zzzzz
 ||xl720.com/tmp/
 ||xlmp4.cc/js/wcount.js
 ||xlpu.cc/adv/
@@ -6125,6 +6126,7 @@ yydstxt*.com/js/html
 ||xstt5.com/template/js/fx
 ||xtapes.to/ad/
 ||xtits.*/static/js/custom.js
+||xtits.xxx/static/js/ppndr*.js
 ||xuehi.cn/reward/reward
 ||xunsu.cc/js/indexbottom.js
 ||xunyugong.xyz/sitejs/xunyugong.js

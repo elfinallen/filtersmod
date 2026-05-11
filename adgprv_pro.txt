@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-05-11 01:51:41 UTC
-! Total Rules: 118154
+! Last Updated: 2026-05-11 14:17:17 UTC
+! Total Rules: 118158
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -105783,6 +105783,7 @@ zonedirector.avadacom.com$image
 ||btvnovinite.bg/js/bg/shared/js/bweb-gpt.js
 ||btvnovinite.bg/js/bg/shared/js/bweb.js
 ||bubblestat.com^$third-party
+||bubilet.com.tr/metrics/
 ||bucklemail.com/a/$image
 ||bugherd.com^$third-party
 ||bugsnag.com^$third-party
@@ -105903,6 +105904,7 @@ zonedirector.avadacom.com$image
 ||cafe24.com/weblog.js
 ||cafemedia.com/topics/clickstream-event
 ||cafenews.pl/mpl/static/static.js?
+||caido.io/stats/
 ||caitlin.top/counter.php
 ||caixabank.es/util/pixel.png?
 ||calameo-beacon.global.ssl.fastly.net^$third-party
@@ -111773,6 +111775,7 @@ zonedirector.avadacom.com$image
 ||movable-ink-397.com^$third-party
 ||movable-ink-6710.com^$third-party
 ||movad.de/c.ount?
+||movavi.com/proxysss/index.php
 ||movementventures.com/_uid.gif
 ||movetv.com/sa-events
 ||moviefone.com/click?
@@ -112721,6 +112724,7 @@ zonedirector.avadacom.com$image
 ||panasonic.jp/etc/designs/panasonic/standardpage-clientlibs/ec-tracker.js
 ||panda.kasika.io^$third-party
 ||pandanetwork.club/le/in.php^$third-party
+||pandaproxy.production.cafemedia.com/topics/clickstream-event
 ||pandora.com/ping.txt
 ||pap.pl^$cookie=/incap_/
 ||pap.qualityunit.com^$third-party

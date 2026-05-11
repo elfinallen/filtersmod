@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-05-11 01:51:41 UTC
-! Total Rules: 11744
+! Last Updated: 2026-05-11 14:17:17 UTC
+! Total Rules: 11748
 ! Expires: 5 days
 &&sub19=undefined&sub20=undefined
 &action=js_stats
@@ -4805,6 +4805,7 @@ t.yesware.com
 ||btravel.com/falcon/api/hits/
 ||btvnovinite.bg/js/bg/shared/js/bweb-gpt.js
 ||btvnovinite.bg/js/bg/shared/js/bweb.js
+||bubilet.com.tr/metrics/
 ||build.com/2ztkihy4/init.js
 ||builder.io/api/v1/track
 ||bukalapak.com/banner-redirector/impression
@@ -4876,6 +4877,7 @@ t.yesware.com
 ||cafe24.com/weblog.js
 ||cafemedia.com/topics/clickstream-event
 ||cafenews.pl/mpl/static/static.js?
+||caido.io/stats/
 ||caitlin.top/counter.php
 ||caixabank.es/util/pixel.png?
 ||calc.ru/js/metrics.js
@@ -8175,6 +8177,7 @@ t.yesware.com
 ||motorsport.com/stat/
 ||mov.t-mobile.com/p/js/1.js
 ||movad.de/c.ount?
+||movavi.com/proxysss/index.php
 ||movementventures.com/_uid.gif
 ||movetv.com/sa-events
 ||moviefone.com/click?
@@ -8710,6 +8713,7 @@ t.yesware.com
 ||pan.baidu.com/pcloud/counter/refreshcount?
 ||pan.baidu.com/recent/report?
 ||panasonic.jp/etc/designs/panasonic/standardpage-clientlibs/ec-tracker.js
+||pandaproxy.production.cafemedia.com/topics/clickstream-event
 ||pandora.com/ping.txt
 ||papoto.com/api*/network/stats
 ||paradehomeandgarden.com/.api/admiral
