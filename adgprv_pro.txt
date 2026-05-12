@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-05-12 01:46:40 UTC
-! Total Rules: 118158
+! Last Updated: 2026-05-12 13:31:08 UTC
+! Total Rules: 118164
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -105708,6 +105708,7 @@ zonedirector.avadacom.com$image
 ||box.com/data/ptm.gif/
 ||box.com/index.php?rm=box_gen204_batch_record
 ||boy18tube.com/analytics.js
+||boyner.com.tr/1eus/
 ||bp01.net^$third-party
 ||bpath.com/count.dll?
 ||bpi.zip.co/trx/
@@ -109015,6 +109016,8 @@ zonedirector.avadacom.com$image
 ||glassboxcdn.com^$third-party
 ||glassboxdigital.io^$third-party
 ||glassdoor.*/geb/events/
+||glassesusa.com/bff/dynamicyield/pageview
+||glassesusa.com/scripts/|
 ||glbimg.com/vendor/libs/comscore-*.min.js
 ||glbtracker.com^$third-party
 ||gleam.io/seen?
@@ -114553,6 +114556,7 @@ zonedirector.avadacom.com$image
 ||sf-syn.com/conversion_outbound_tracker$subdocument,domain=sourceforge.net
 ||sf14g.com^$third-party
 ||sfchronicle.com/413gkwmt/init.js
+||sfchronicle.com/api/client-logs
 ||sfgame.net/tracking_ggs.php
 ||sfgate.com/413gkwmt/init.js
 ||sfstatic.net/build/js/basicmetricstracking.
@@ -115980,6 +115984,7 @@ zonedirector.avadacom.com$image
 ||terra.com^*/td.asp?bstat
 ||terrific.live/shopify-analytics-sdk.min.js
 ||tes-game.ru/stat/
+||test-api.ajansspor.xyz/analytics/
 ||testin.cn^$third-party
 ||testingmetriksbre.ru^$third-party
 ||tetigi.com^$third-party
@@ -116011,6 +116016,7 @@ zonedirector.avadacom.com$image
 ||theatlantic.com^$cookie=/atl_uuid|kppid/
 ||theautopian.com/content/plugins/jzl-core/core/tags/js/events.js
 ||theav.xyz/anyalytics
+||thebell.io/o4e1/
 ||thebestlinks.com^$third-party
 ||theblock.co/api/analytics
 ||thebookseller.com/afositeanalysis/

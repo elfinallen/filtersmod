@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-05-12 01:46:40 UTC
-! Total Rules: 11748
+! Last Updated: 2026-05-12 13:31:08 UTC
+! Total Rules: 11754
 ! Expires: 5 days
 &&sub19=undefined&sub20=undefined
 &action=js_stats
@@ -4771,6 +4771,7 @@ t.yesware.com
 ||box.com/data/ptm.gif/
 ||box.com/index.php?rm=box_gen204_batch_record
 ||boy18tube.com/analytics.js
+||boyner.com.tr/1eus/
 ||bpath.com/count.dll?
 ||bpi.zip.co/trx/
 ||bpt.webedia-group.com/pixel.png?
@@ -6671,6 +6672,8 @@ t.yesware.com
 ||glami.gr/js/compiled/pt.js
 ||glamour.com/hotzones/src/pixelpropagate.js
 ||glassdoor.*/geb/events/
+||glassesusa.com/bff/dynamicyield/pageview
+||glassesusa.com/scripts/|
 ||glbimg.com/vendor/libs/comscore-*.min.js
 ||gleam.io/seen?
 ||global-media.de^*/track/ai.img
@@ -9707,6 +9710,7 @@ t.yesware.com
 ||seznam.cz/*/hit/?
 ||sezzle.com/v1/event/log
 ||sfchronicle.com/413gkwmt/init.js
+||sfchronicle.com/api/client-logs
 ||sfgame.net/tracking_ggs.php
 ||sfgate.com/413gkwmt/init.js
 ||sfstatic.net/build/js/basicmetricstracking.
@@ -10533,6 +10537,7 @@ t.yesware.com
 ||terra.com^*/td.asp?bstat
 ||terrific.live/shopify-analytics-sdk.min.js
 ||tes-game.ru/stat/
+||test-api.ajansspor.xyz/analytics/
 ||tetori-colorme.com/share/js/tracking.js
 ||tetori.link/share/js/tracking.js
 ||tezfiles.com/log|
@@ -10543,6 +10548,7 @@ t.yesware.com
 ||theatlantic.com/assets/static/theatlantic/img/sherlock.gif?
 ||theautopian.com/content/plugins/jzl-core/core/tags/js/events.js
 ||theav.xyz/anyalytics
+||thebell.io/o4e1/
 ||theblock.co/api/analytics
 ||thebookseller.com/afositeanalysis/
 ||theconversation.com/javascripts/lib/content_tracker_hook.js

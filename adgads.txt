@@ -1,7 +1,7 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-05-12 01:46:40 UTC
+! Last Updated: 2026-05-12 13:31:08 UTC
 ! Total Rules: 6366
 ! Expires: 5 days
 &ag_custom_vlmspot=
@@ -170,6 +170,7 @@
 .com:91/runtime/js/pscreat.js
 .com:9120/discor_list.js
 .fun/ad/
+.go?pid=*&spaceid=*&ctrlid=
 .html?clicktag=
 .icu/ads/
 .in/js/ads/
@@ -4973,7 +4974,6 @@ yydstxt*.com/js/html
 ||pornid.xxx/vager/
 ||pornintellect.com/banner/
 ||pornlib.com/player_*_ads
-||pornokeep.com/content2/lib/
 ||pornone.com/js/combined.js
 ||pornoxo.com/link/out/
 ||pornoxo.com/pxo/www/js-v*.min.js?url=
@@ -5004,7 +5004,6 @@ yydstxt*.com/js/html
 ||proewildfire.cn/fd.js
 ||proginn.com/cms/10000/
 ||programmer-club.com.tw/images/uuu/
-||projectjav.com/scripts/projectjav_newpu.js
 ||projectorcentral.com/*?bid=
 ||property.hk/js/adside.js
 ||ps0z.com/300x250b
@@ -5708,6 +5707,7 @@ yydstxt*.com/js/html
 ||tonnn.com/promotion2/*.js
 ||toolbaz.com/assets/js/unblock.js
 ||toolfk.com/common/zfb.jpg
+||tools.pdf24.org/static/js/ads.js
 ||toolxox.com/js/sweet_alert.js
 ||toots-a.akamaihd.net/priority/*sponsor
 ||topmba.mobi/ad/
@@ -5777,7 +5777,6 @@ yydstxt*.com/js/html
 ||tw.live/assets/images/fsk-0*.webp
 ||twavtv.com/js/jquery.colorbox
 ||twincdn.com/video/preroll_
-||twitter.com/*/videoads/
 ||twkan.com/js/otherad
 ||twunbbs.com/images/
 ||txahz.com/static/image/tp/
@@ -5861,6 +5860,7 @@ yydstxt*.com/js/html
 ||videosection.com/adv-agent.php
 ||videowood.me/assets/js/popup.js
 ||videowood.tv/popjavascript
+||vidlink.pro/api/mercury
 ||vidmoly.*/static/vastad.js
 ||vidsrc.pro/uwu-js/binged.in
 ||vip.luanren.com/data/*.gif
