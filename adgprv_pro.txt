@@ -1,7 +1,7 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-05-12 13:31:08 UTC
+! Last Updated: 2026-05-13 01:52:01 UTC
 ! Total Rules: 118164
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
@@ -1223,6 +1223,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /api/cake/*$domain=nordstrom.com|nordstromrack.com
 /api/checkout/web/metrics|$domain=nordstrom.com|nordstromrack.com
 /api/click/*?c=
+/api/client-logs$domain=theridgefieldpress.com|thetelegraph.com|beaumontenterprise.com|bigrapidsnews.com|chron.com|ctinsider.com|ctpost.com|darientimes.com|seattlepi.com|expressnews.com|fuelfix.com|greenwichtime.com|houstonchronicle.com|lakecountystar.com|lmtonline.com|manisteenews.com|michigansthumb.com|middletownpress.com|milfordmirror.com|mrt.com|myjournalcourier.com|myplainview.com|mysanantonio.com|ncadvertiser.com|newstimes.com|nhregister.com|ourmidland.com|recordpatriot.com|registercitizen.com|seattlepi.com|sfchronicle.com|sfgate.com|sheltonherald.com|smallbusiness.chron.com|stamfordadvocate.com|theheraldreview.com|thehour.com|theintelligencer.com|timesunion.com|trumbulltimes.com|weekand.com|wiltonbulletin.com|work.chron.com|yourconroenews.com
 /api/cmp_tracker|
 /api/collect|$ping,xmlhttprequest
 /api/datafast/*
@@ -114556,7 +114557,6 @@ zonedirector.avadacom.com$image
 ||sf-syn.com/conversion_outbound_tracker$subdocument,domain=sourceforge.net
 ||sf14g.com^$third-party
 ||sfchronicle.com/413gkwmt/init.js
-||sfchronicle.com/api/client-logs
 ||sfgame.net/tracking_ggs.php
 ||sfgate.com/413gkwmt/init.js
 ||sfstatic.net/build/js/basicmetricstracking.

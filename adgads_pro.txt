@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-05-12 13:31:08 UTC
-! Total Rules: 10012
+! Last Updated: 2026-05-13 01:52:01 UTC
+! Total Rules: 10027
 ! Expires: 5 days
 $cookie=/adb\.key/,domain=expres.cz|televizeseznam.cz|ahaonline.cz|extra.cz|mobilmania.cz|idnes.cz|aktuality.sk|aktualne.cz|blesk.cz|centrum.cz|cnews.cz|e15.cz|karaoketexty.cz|novinky.cz|sport.cz|super.cz|tiscali.cz|zive.cz|antiyoutuber.cz|fights.cz|metro.cz
 $cookie=__adblocker,domain=slate.com|thehindubusinessline.com
@@ -3440,6 +3440,7 @@ yydstxt*.com/js/html
 ||af29.com/banner/
 ||affcpatrk.com^$document
 ||affec.tv^$third-party
+||affidavitheadfirstonward.com^$popup
 ||affiliate-b.com^$third-party
 ||affiliate-cdn.raptive.com^$third-party
 ||affiliate.klook.com^$third-party
@@ -3502,6 +3503,7 @@ yydstxt*.com/js/html
 ||akamaihd.net^*/sid.html?p=
 ||akamaized.net/mr/popunder.js
 ||akavita.com^$third-party
+||akhoondathecae.shop^$popup
 ||aklamator.com^$third-party
 ||akqipai.com/m/tpl/v3/js/indexbottom.js
 ||akutapro.com^$popup
@@ -3982,6 +3984,7 @@ yydstxt*.com/js/html
 ||bannerconnect.com^$third-party
 ||bannerflow.com^$third-party
 ||bannersnack.com^$third-party,domain=~bannersnack.dev
+||bannisterflaskputdown.com^$popup
 ||banzhu*.com/js/cdn.
 ||banzhu*.com/js/cdn.js$~third-party
 ||banzhu*.com/js/html
@@ -4141,6 +4144,7 @@ yydstxt*.com/js/html
 ||bkjia.com/bkjia/js/banner
 ||bkjia.com/bkjia/js/subnavtop.js
 ||blacklistednews.com/contentrotator/
+||blahlivedsnowdrop.com^$popup
 ||blcdog.com^$document
 ||bliink.io^$third-party
 ||blog-uploads.eneba.games/uploads/*/banner_
@@ -4200,6 +4204,7 @@ yydstxt*.com/js/html
 ||breakdownexpress.com/js/ads
 ||bricks-co.com^$third-party
 ||brid.tv^$script,domain=67hailhail.com|deepdaledigest.com|forevergeek.com|geordiebootboys.com|hammers.news|hitc.com|molineux.news|nottinghamforest.news|rangersnews.uk|realitytitbit.com|spin.com|tbrfootball.com|thechelseachronicle.com|thefocus.news|thepinknews.com
+||brisknessdebtordismiss.com^$popup
 ||broadstreetads.com^$third-party
 ||browserscan.net/dist/adspower_zh.
 ||bs.baidu.com/app-ads%
@@ -4292,6 +4297,7 @@ yydstxt*.com/js/html
 ||camspacelive.com/widgets/
 ||camspic.com/imguang/*.gif
 ||camvideos.tv^$subdocument
+||candellume.shop^$popup
 ||canimgs.com/images/
 ||canton8.com/adphoto/
 ||cao0001.com/vip/js/
@@ -4308,6 +4314,7 @@ yydstxt*.com/js/html
 ||carambo.la^$third-party
 ||caranddriver.com/inventory/
 ||carbonads.com^$third-party
+||cardboardcrispyrover.com^$popup
 ||carexpert.com.tw/wp-content/uploads/*800x90.
 ||carlowlive.ie/js/bannerinterstitial.js
 ||carnoc.com/noticejs/
@@ -4745,6 +4752,7 @@ yydstxt*.com/js/html
 ||crn77.com^$all
 ||crn77.com^$popup
 ||croea.com^$third-party
+||crummydevioussucculent.com^$popup
 ||crxs.me/service/assets/core-state.
 ||cryptocoinsad.com^$third-party
 ||cs.37see.com^$third-party
@@ -5752,6 +5760,7 @@ yydstxt*.com/js/html
 ||hackhome.com/js/zt.js
 ||hackhw.com/ckjs/
 ||hackp.com/im/
+||hai8g.com^$popup
 ||haishuxs.com/js/
 ||haiwainet.cn*/k.js
 ||haiwaiyy.com/b970x90.gif
@@ -7100,6 +7109,7 @@ yydstxt*.com/js/html
 ||maopu.tv/d/file/p/2019/07/6ac50c702cf9e6a9a7910a510c40cb73.jpg
 ||marfeel.com^$third-party
 ||marfeelcache.com^$third-party
+||marketdeathly.com^$popup
 ||marketjs.cdn.start.gg/*/v*/game.js$replace=/this\['rewardedvideoresult'\]\(!0x1\);/this['rewardedvideoresult'](!0x0);/
 ||marketools.plus500.com/feeds/
 ||maryspecialwatch.com^$badfilter
@@ -7885,6 +7895,7 @@ yydstxt*.com/js/html
 ||poco.cn/v1_1/rank/get_floating_layer_ad
 ||poco.cn^*_info_banner
 ||poczta.interia.pl/next/adv,advkeyword$subdocument,important
+||polosanitizertrusting.com^$popup
 ||polsatnews.pl^$replace=/(\,vast: ?")[\s\s]*?\/ad\.xml\?[\s\s]*?("\,)/\$1\$2/,~script,~stylesheet,~xmlhttprequest,~other
 ||polsatsport.pl^$replace=/(\,vast: ?")[\s\s]*?\/ad\.xml\?[\s\s]*?("\,)/\$1\$2/,~script,~stylesheet,~xmlhttprequest,~other
 ||polygamia.pl^$replace=/(<vast[\s\s]*?>)[\s\s]*<\/vast>/\$1<\/vast>/,xmlhttprequest,other,~script
@@ -8206,6 +8217,7 @@ yydstxt*.com/js/html
 ||redshu.com/js/www/jquerygg.js
 ||redtram.com^$script,third-party
 ||redtube.com/_xa/
+||reduau.top^$popup
 ||reef2reef.com/data/siropu/am/user/
 ||refershareus.xyz/ads?
 ||refinery89.com/performance/
@@ -9010,6 +9022,7 @@ yydstxt*.com/js/html
 ||tigtag.com/images/pic1/
 ||tigtag.com/styles/phpcms/js/tigtag/ads.js
 ||tiimg.com^$domain=678cn.com
+||tikva-1.com^$popup
 ||timeanddate.com/common/prebidtad.
 ||timecn.cn/image/alipay.jpg
 ||timeout.*/static/js/ads-
@@ -9542,8 +9555,10 @@ yydstxt*.com/js/html
 ||wp.pl^$replace=/^\n.*"spin".*"dfpconfig".*"slot".*//,script
 ||wp.pl^$replace=/^var wp_gaf_rv[\s\s]*?\n.*"spin".*"dfpconfig".*"slots?".*//,script
 ||wpdaxue.com/img/*/txy-
+||wpengine.com/wp-json/api/advanced_placement/new-in-article/?type=placement^$domain=androidauthority.com
 ||wpimg.pl/a/i/stg/wpjslib_*.js$replace=/((display:\\s\*)none(\\s\*!important)|((\.hostname;function .\(\)|\,.=function\(\))\{return) .===[\s]*?(\}))/\$2\$3\$4\$6/,script
 ||wples.com/pc/common.js
+||wriestunvote.com^$popup
 ||ws.amazon.*/widgets/$third-party
 ||ws.kora-api.top/api/ads
 ||wshufa.com^$third-party
