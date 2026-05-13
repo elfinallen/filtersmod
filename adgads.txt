@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-05-13 01:52:01 UTC
-! Total Rules: 6366
+! Last Updated: 2026-05-13 13:59:51 UTC
+! Total Rules: 6371
 ! Expires: 5 days
 &ag_custom_vlmspot=
 &js_build=iclick-
@@ -1422,6 +1422,9 @@ yydstxt*.com/js/html
 ||250sy.cc/gg/
 ||256856.com/fei-ad/
 ||268de.com/js/
+||26img.com/nnn2/188.js
+||26img.com/nnn2/189guding.js
+||26img.com/nnn2/accd.js
 ||2898.com/index/flowexchange/getgoods?
 ||28hse.com/adsman/www/images/
 ||28kys.com/92kviptupian/
@@ -2034,6 +2037,7 @@ yydstxt*.com/js/html
 ||alu.cn/alutrade/fragments/listadvertisementproductshandler.
 ||alu.cn/ashx/ajaxguanggao.
 ||alypw.com/zb_users/plugin/zf_tanchuang/
+||amateursubs.com/wp-content/special/
 ||amazon.com/aan/
 ||amazon.com/cdp/getvideoads
 ||amazonaws.com.cn/static-documents/marketing/uda_banner_
@@ -2048,7 +2052,6 @@ yydstxt*.com/js/html
 ||anhuinews.com/zhuyeguanli/*ad/
 ||anime-suba.com/anime-suba/admin/imganadvertisement/
 ||animehay01.site/ad_banner/
-||animeshqip.org/kira.php
 ||animewaku.com/up/img/webp/*.webp
 ||anjuke.com^*/ajax/business_area_search/
 ||ankangwang.com/js/info.js
@@ -2505,6 +2508,7 @@ yydstxt*.com/js/html
 ||caibaojian.com/d/uploads/*0-
 ||caikuu.com/ckimages/*_gg
 ||caikuu.com/ckimages/*_zg
+||caitlin.top/catalog/view/core/adchecker/
 ||caixin.com/s?z=
 ||campaign-service.datacamp.com/api/v1/banner
 ||camspacelive.com/widgets/
@@ -2864,6 +2868,7 @@ yydstxt*.com/js/html
 ||dailysabah.com/ajax/get-ads-ajax?
 ||dajiadu8.com/17mb/script/gg.
 ||dajiazhao.com/login/reg.js
+||daleelerah.info
 ||dalipan.com/api/taobao
 ||dalmatinskiportal.hr/*/baneri/
 ||dangbei.net/2022/dbhezi.
@@ -3340,6 +3345,7 @@ yydstxt*.com/js/html
 ||gamemale.com/static/js/valida.js
 ||gamersky.com/common/tg/
 ||gamersky.com/g/gamerskyflash.js
+||gamersky.com^*/getadpositionincdetail?
 ||games.ifeng.com^*.shtml?v=
 ||gamme.com.tw/ga/
 ||gamme.com.tw/uploads/*?2
@@ -3602,6 +3608,7 @@ yydstxt*.com/js/html
 ||hentaicomic.*/data/ds/
 ||hentaicomic.*/data/game/*/wap.gif
 ||hentaifox.com/js/slider.js
+||hentaiocean.com/assets/aa/
 ||hentaivideos.net/imp/
 ||hetlmedia.com/1025.js
 ||hexun.*/hxpage/index.html
@@ -5702,7 +5709,6 @@ yydstxt*.com/js/html
 ||tmatch.simba.taobao.com^*&name=tbuad&pid=
 ||tom.com/*tomflashad
 ||tom.com/adsender/
-||tongabonga.com/nudegirls
 ||tonghuacun.com/js/uc.js
 ||tonnn.com/promotion2/*.js
 ||toolbaz.com/assets/js/unblock.js
@@ -5862,7 +5868,6 @@ yydstxt*.com/js/html
 ||videowood.tv/popjavascript
 ||vidlink.pro/api/mercury
 ||vidmoly.*/static/vastad.js
-||vidsrc.pro/uwu-js/binged.in
 ||vip.luanren.com/data/*.gif
 ||vip.video.qq.com/rpc/trpc.vip_ad_promotion
 ||vipdage.com/wp-content/uploads/ad/

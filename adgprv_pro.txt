@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-05-13 01:52:01 UTC
-! Total Rules: 118164
+! Last Updated: 2026-05-13 13:59:51 UTC
+! Total Rules: 118167
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -107437,6 +107437,7 @@ zonedirector.avadacom.com$image
 ||dest.modestsunf.com/tag/corejs/*.js
 ||destyy.com/bundles/*/tracking
 ||deszczowce.pl/licznik/licznik.php
+||detector404.$cookie=tag
 ||deteql.net^$third-party
 ||detmir-stats.ru^$third-party
 ||dev.ozon.ru/p-api/tracker/
@@ -109960,7 +109961,6 @@ zonedirector.avadacom.com$image
 ||impression.link^$third-party
 ||impressionmedia.cz/statistics/
 ||improvely.com^$third-party
-||imptrack.intoday.in/impression_tracker.php
 ||imrk.net^$third-party
 ||imrtrack.com^$third-party
 ||imrworldwide.com^$domain=cnet.com,important
@@ -113366,6 +113366,8 @@ zonedirector.avadacom.com$image
 ||pubimgs.net/main.gif?
 ||public.cobrowse.oraclecloud.com/rely/storage/
 ||public.fbot.me/track/
+||public.tableau.com/inst?v=
+||public.tableau.com/public/apis/audit-event
 ||publicbroadcasting.net/analytics/
 ||publicgood.com^$third-party
 ||publicidees.com^$third-party
@@ -114814,6 +114816,7 @@ zonedirector.avadacom.com$image
 ||slant.co/js/track.min.js
 ||slashdot.org/country.js
 ||slashdot.org/images/js.gif
+||slate.com/analytics?
 ||slc.cbssports.com/events
 ||sleeknotestaticcontent.sleeknote.com/production/package-tracker.js
 ||slgnt.eu/frontend/api/track

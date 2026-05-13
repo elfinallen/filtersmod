@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-05-13 01:52:01 UTC
-! Total Rules: 11753
+! Last Updated: 2026-05-13 13:59:51 UTC
+! Total Rules: 11755
 ! Expires: 5 days
 &&sub19=undefined&sub20=undefined
 &action=js_stats
@@ -7173,7 +7173,6 @@ t.yesware.com
 ||impdesk.com/smartpix/
 ||impel.io/releases/analytics/
 ||impressionmedia.cz/statistics/
-||imptrack.intoday.in/impression_tracker.php
 ||imstream.jp/analytics/js/
 ||imwalking.de/servlet/landmarkservlet?clientid
 ||inbox.lv^*/ga.js
@@ -9063,6 +9062,8 @@ t.yesware.com
 ||pubimgs.net/main.gif?
 ||public.cobrowse.oraclecloud.com/rely/storage/
 ||public.fbot.me/track/
+||public.tableau.com/inst?v=
+||public.tableau.com/public/apis/audit-event
 ||publicbroadcasting.net/analytics/
 ||publicwww.com/mtm/mtm.js
 ||publish.vuukle.com/bq-publish
@@ -9860,6 +9861,7 @@ t.yesware.com
 ||slant.co/js/track.min.js
 ||slashdot.org/country.js
 ||slashdot.org/images/js.gif
+||slate.com/analytics?
 ||slc.cbssports.com/events
 ||sleeknotestaticcontent.sleeknote.com/production/package-tracker.js
 ||slgnt.eu/frontend/api/track
