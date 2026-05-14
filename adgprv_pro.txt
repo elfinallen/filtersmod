@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-05-13 13:59:51 UTC
-! Total Rules: 118167
+! Last Updated: 2026-05-14 01:54:33 UTC
+! Total Rules: 118166
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -2540,7 +2540,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /link_track.js
 /linkinformer.js
 /linkpulse.js
-/links.gitlab.com/s/eo/*$image
 /links1.strava.com/*$image
 /linktrack.js
 /linktracker.js
@@ -5881,7 +5880,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ://l.*/script.php?i=$script,~third-party
 ://lightning.*/launch/
 ://line.karte.io/ci0/$image
-://links.flickr.com/s/eo/$image
+://links.*/s/eo/$image
 ://links.paypal.*/eos/$image
 ://load.*.js?st=$~third-party
 ://mail01.monex.co.jp/bin/checker?
@@ -108514,7 +108513,6 @@ zonedirector.avadacom.com$image
 ||flowgpt.com/*/track|
 ||flowgpt.com/api/trpc/prompt.createpromptimpressionrecord
 ||fls.doubleclick.net/activityi
-||fluctuo.com^$third-party
 ||fluencymedia.com^$third-party
 ||fluidsurveys.com^$third-party
 ||flurry.com^$third-party
@@ -114629,6 +114627,7 @@ zonedirector.avadacom.com$image
 ||shonretimus.com^$third-party
 ||shoop.de/mgtrx/
 ||shop-apotheke.com/conversational-api/analytics
+||shop-apotheke.com/te/
 ||shop.app/pay/hop?analytics_trace_id=
 ||shop.pe/pixel.png?
 ||shop.post.japanpost.jp/js/analytics_cookie.js
