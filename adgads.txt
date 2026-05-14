@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-05-14 01:54:33 UTC
-! Total Rules: 6372
+! Last Updated: 2026-05-14 13:24:11 UTC
+! Total Rules: 6370
 ! Expires: 5 days
 &ag_custom_vlmspot=
 &js_build=iclick-
@@ -3295,7 +3295,6 @@ yydstxt*.com/js/html
 ||ftchinese.com/a.html
 ||ftchinese.com/m/marketing/
 ||ftimg.net/s?z=
-||ftopx.com/*/topaddsk3.html
 ||ftopx.com/isttf558550ef6e.js
 ||fuckflix.click/assets/js/custome.js
 ||fuimg.com/1/66795b80a792fb96.png
@@ -4707,7 +4706,6 @@ yydstxt*.com/js/html
 ||n2.hk/promo/
 ||nairaland.com/vertipics/
 ||namethatporn.com/assets/dev_popscript.js^
-||namethatporn.com/assets/prod/fuf4g_*.js
 ||nanfengyl.com/static/js/zdad.js
 ||nanrenfuli.*/zb_users/upload/
 ||nanrenvip2021.com/old.html
@@ -4979,7 +4977,6 @@ yydstxt*.com/js/html
 ||porngamespass.com/iframes/
 ||pornhd3x.tv/cms_data/sites/admin/files/ads
 ||pornhub.*/_xa/ads
-||pornid.xxx/vager/
 ||pornintellect.com/banner/
 ||pornlib.com/player_*_ads
 ||pornone.com/js/combined.js
@@ -5515,6 +5512,7 @@ yydstxt*.com/js/html
 ||static.okokserver.com/js/anti/adblocker.js
 ||static.olelive.com/upload/site/*/*.gif
 ||static.opensubtitles.org/libs/js/ray-announcement-bar.js
+||static.purexbox.com/javascript/gn/prebid*.js
 ||static.sunmedia.tv/integrations/
 ||static.tohomh123.com/js/funasd.js
 ||static.videezy.com/assets/underpop-*.js
