@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-05-15 01:52:29 UTC
-! Total Rules: 118169
+! Last Updated: 2026-05-15 13:22:53 UTC
+! Total Rules: 118172
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -108537,6 +108537,7 @@ zonedirector.avadacom.com$image
 ||folderz.nl/clickstream/
 ||followercounter.com^$third-party
 ||followistic.com/widget/stat/
+||fomo.azurewebsites.net/activity/batchtrack
 ||fontanka.ru/api/metrics/
 ||fonts.net/t/trackingcode.js
 ||food4less.com/atlas/v*/clickstream/
@@ -113134,6 +113135,7 @@ zonedirector.avadacom.com$image
 ||polarcdn-pentos.com^$third-party
 ||polarmobile.com^$third-party
 ||politico.com/resource/assets/js.min/video-tracking.
+||politiken.dk/proxy/pza
 ||poll-maker.com^*/scpolls.js
 ||pollster.pl^$third-party
 ||polsatsport.pl/templates/interiastats/psport2019/interiastats.js
@@ -115455,6 +115457,7 @@ zonedirector.avadacom.com$image
 ||steamprices.com/analytics^
 ||steelhousemedia.com^$third-party
 ||stellaservice.com^$third-party
+||stepik.org/api/metrics/
 ||sterlingwoods.com^$third-party
 ||stetic.com^$third-party
 ||steuertipps.de/scripts/tracking/

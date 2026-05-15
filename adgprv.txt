@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-05-15 01:52:29 UTC
-! Total Rules: 11758
+! Last Updated: 2026-05-15 13:22:53 UTC
+! Total Rules: 11761
 ! Expires: 5 days
 &&sub19=undefined&sub20=undefined
 &action=js_stats
@@ -6402,6 +6402,7 @@ t.yesware.com
 ||fns.modanisa.com/*/analytics.js
 ||folderz.nl/clickstream/
 ||followistic.com/widget/stat/
+||fomo.azurewebsites.net/activity/batchtrack
 ||fontanka.ru/api/metrics/
 ||fonts.net/t/trackingcode.js
 ||food4less.com/atlas/v*/clickstream/
@@ -8940,6 +8941,7 @@ t.yesware.com
 ||polarbyte.com/scripts/latest/reach/pb-reach.iife.min.js
 ||polarbyte.com/scripts/latest/survey/pb-survey.iife.min.js
 ||politico.com/resource/assets/js.min/video-tracking.
+||politiken.dk/proxy/pza
 ||poll-maker.com^*/scpolls.js
 ||polsatsport.pl/templates/interiastats/psport2019/interiastats.js
 ||pons.com/pons-site-website-assets/lib/analytics.min.js
@@ -10233,6 +10235,7 @@ t.yesware.com
 ||steamchina.com/events/
 ||steampowered.com/default/usabilitytracking
 ||steamprices.com/analytics^
+||stepik.org/api/metrics/
 ||steuertipps.de/scripts/tracking/
 ||stg.truvidplayer.com/*/v.php?st=
 ||stilanzeigen.net/track/

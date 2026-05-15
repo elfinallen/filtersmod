@@ -1,7 +1,7 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-05-15 01:52:29 UTC
+! Last Updated: 2026-05-15 13:22:53 UTC
 ! Total Rules: 6370
 ! Expires: 5 days
 &ag_custom_vlmspot=
@@ -2445,6 +2445,7 @@ yydstxt*.com/js/html
 ||brand.sogou.com/micro?yyid=
 ||bravoporn.com/v/if2
 ||bravoteens.com/ta/
+||brazzers.com/ads/
 ||breakdownexpress.com/js/ads
 ||browserscan.net/dist/adspower_zh.
 ||bs.baidu.com/app-ads%
@@ -2468,6 +2469,7 @@ yydstxt*.com/js/html
 ||btschool.net/images/*/hdygr
 ||btwuji.com/jsj1/
 ||bug.hr/ads/
+||bulnews.bg/images.inbet/
 ||bumimi.com/money/
 ||buy.sina.com.tw/js/sina_popup.php
 ||bvlang.com/ad/
@@ -2565,6 +2567,7 @@ yydstxt*.com/js/html
 ||cdn.galacg.me/img/*.gif
 ||cdn.galacg.me/img/*.jpg
 ||cdn.haokongbu1.com^*.js
+||cdn.hotscope.tv/assets/ai/video-
 ||cdn.jsdelivr.net/gh/*/js/adsenseads.min.js
 ||cdn.jsdelivr.net/gh/*/js/arlinablock.js
 ||cdn.jsdelivr.net/gh/adigunawanxd/pluginsgalaxymag@master/seosecretidnblockads.js
@@ -4504,7 +4507,6 @@ yydstxt*.com/js/html
 ||maolihui.com/wp-content/themes/miaonew/images/adb
 ||maomaoks.com/1.
 ||maopu.tv/d/file/p/2019/07/6ac50c702cf9e6a9a7910a510c40cb73.jpg
-||marketools.plus500.com/feeds/
 ||masadora.net/kakusan-
 ||massariuscdn.com/pubs/
 ||masturbation22.com/d/
@@ -5535,7 +5537,6 @@ yydstxt*.com/js/html
 ||storm.mg/ad?
 ||storyren.top/imgg/
 ||straitstimes.com/_web2/betterads_head.js
-||stre4mpay.one/blobjs.hj
 ||stream.cz/*/vast?
 ||streamex.sh/pop.js
 ||stripchat.com/api/external/
@@ -5567,7 +5568,6 @@ yydstxt*.com/js/html
 ||supfree.net/top.gif
 ||supfree.net/xxx/
 ||sw76r85eda3k.com/need/h5.
-||sweetalert2.github.io/images/sponsors/
 ||sweeva.com/images/banner250.gif
 ||swoole.com/_images/kundian
 ||swoole.com/_images/w7.jpg

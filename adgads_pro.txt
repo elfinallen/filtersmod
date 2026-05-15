@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-05-15 01:52:29 UTC
-! Total Rules: 10048
+! Last Updated: 2026-05-15 13:22:53 UTC
+! Total Rules: 10038
 ! Expires: 5 days
 $cookie=/adb\.key/,domain=expres.cz|televizeseznam.cz|ahaonline.cz|extra.cz|mobilmania.cz|idnes.cz|aktuality.sk|aktualne.cz|blesk.cz|centrum.cz|cnews.cz|e15.cz|karaoketexty.cz|novinky.cz|sport.cz|super.cz|tiscali.cz|zive.cz|antiyoutuber.cz|fights.cz|metro.cz
 $cookie=__adblocker,domain=slate.com|thehindubusinessline.com
@@ -42,7 +42,6 @@ $replace=/head>/head><meta charset="utf-8">/,document,to=podhale24.pl|copycenter
 $replace=/opennewtab\(".*?".{0\,10}\)/null/,document,subdocument,to=turbovidhls.com|trailerhg.xyz|turboplayers.xyz|javggvideo.xyz|turtleviplay.xyz|findjav.com|stbturbo.xyz|emturbovid.com|turbovid.vip
 $replace=/window\.location\.replace\(urlrandom\);//,document,domain=pelisplus-oficial.com|magnetdl.app|magnetdl.co
 $script,redirect-rule=noopjs,domain=7tv.app
-$script,redirect-rule=noopjs,domain=api-dashboard.search.brave.com
 $script,redirect-rule=noopjs,domain=kbjfree.com
 $script,redirect-rule=noopjs,domain=oko.sh|tii.la
 $script,redirect-rule=noopjs,domain=vidmoly.biz|vidmoly.me|vidmoly.net|vidmoly.to
@@ -1027,7 +1026,6 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 /asset/js/gglms.
 /assets/*.min.js?*=*&$domain=streamsss.net|faptiti.com|anigogo.net|mm9844.*|sbbrisk.com|sbhight.com|rbtstream.info|sbface.com|streamsb.click|sbrity.com
 /assets/ads/*$~image,domain=~outlook.live.com
-/assets/adv/*$domain=sia.az|axar.az
 /assets/banners/600x100/*
 /assets/dayu/ainfiniteactivity-
 /assets/jquery/*.js?type=adult^$script
@@ -1036,7 +1034,6 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 /assets/jquery/api.js?type=adult$~third-party
 /assets/jquery/api100.js?type=$~third-party
 /assets/jquery/app100.js?type=$~third-party
-/assets/jquery/static.js?type=mainstream$~third-party
 /assets/jquery/style*.js$domain=fsdcmo.sbs|flaswish.com
 /assets/jwplayer-*/vast.js$script,~third-party
 /assets/script|$~third-party,domain=9anime-hub.com
@@ -1441,7 +1438,6 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 /includes/ads/*$script
 /index.php/customize/list?params=
 /index.php/statistics/ads_show?
-/index_ad/*$image
 /indexpc.html?agent=$popup,third-party
 /infinity.js.aspx?$script
 /insertads.js$script
@@ -4208,6 +4204,7 @@ yydstxt*.com/js/html
 ||brand.sogou.com/micro?yyid=
 ||bravoporn.com/v/if2
 ||bravoteens.com/ta/
+||brazzers.com/ads/
 ||breakdownexpress.com/js/ads
 ||bricks-co.com^$third-party
 ||brid.tv^$script,domain=67hailhail.com|deepdaledigest.com|forevergeek.com|geordiebootboys.com|hammers.news|hitc.com|molineux.news|nottinghamforest.news|rangersnews.uk|realitytitbit.com|spin.com|tbrfootball.com|thechelseachronicle.com|thefocus.news|thepinknews.com
@@ -4236,9 +4233,9 @@ yydstxt*.com/js/html
 ||btschool.net/images/*/hdygr
 ||btwuji.com/jsj1/
 ||bug.hr/ads/
+||bulnews.bg/images.inbet/
 ||bumimi.com/money/
 ||buy.sina.com.tw/js/sina_popup.php
-||buybox.click^$domain=benchmark.pl
 ||buysellads.com^$third-party
 ||buysellads.net^$third-party
 ||buzzhand.com/images/$subdocument
@@ -4385,6 +4382,7 @@ yydstxt*.com/js/html
 ||cdn.gallery^$third-party
 ||cdn.haokongbu1.com^*.js
 ||cdn.holmesmind.com^$third-party
+||cdn.hotscope.tv/assets/ai/video-
 ||cdn.jsdelivr.net/gh/*/js/adsenseads.min.js
 ||cdn.jsdelivr.net/gh/*/js/arlinablock.js
 ||cdn.jsdelivr.net/gh/adigunawanxd/pluginsgalaxymag@master/seosecretidnblockads.js
@@ -5631,7 +5629,6 @@ yydstxt*.com/js/html
 ||gold678.com/news/js/layer/layer.js
 ||goldtraders.or.th/*/advertisement.gif
 ||goldtraders.or.th/uploads/banner/
-||gomakemerich1.com^$third-party
 ||gome.com.cn/flight?
 ||gongshe99.com/d/js/gongshe/gsw
 ||good8866.com/js/*.js
@@ -6369,7 +6366,6 @@ yydstxt*.com/js/html
 ||investing.com/jp.php
 ||invol.co^$document
 ||iocoder.cn/alert/js/alert.js
-||ip-adress.com^$third-party
 ||ip.sb/assets/images/*_ads.
 ||ip138.com/banana/
 ||ip138.com/banner/
@@ -7127,7 +7123,6 @@ yydstxt*.com/js/html
 ||marketdeathly.com^$document
 ||marketdeathly.com^$popup
 ||marketjs.cdn.start.gg/*/v*/game.js$replace=/this\['rewardedvideoresult'\]\(!0x1\);/this['rewardedvideoresult'](!0x0);/
-||marketools.plus500.com/feeds/
 ||masadora.net/kakusan-
 ||massariuscdn.com/pubs/
 ||masturbation22.com/d/
@@ -8458,6 +8453,7 @@ yydstxt*.com/js/html
 ||services.brid.tv/player/build/brid.min.js$domain=android-x86.org|blitz.gg|ultrasurfing.com|boundingintocomics.com
 ||services.postimees.ee/rest/v1/articles/multiple?ids=
 ||servrapp.com^$third-party
+||servrg.com^$third-party
 ||sese277.info/photo/
 ||sesefu8.com/index.php?m=poster&
 ||sesefu8.com/statics/js/layer/layer.js
@@ -8471,7 +8467,6 @@ yydstxt*.com/js/html
 ||sexbarss.net/wap/
 ||sexcams-24.com/contents/other/player/$media
 ||sexdatecash.com^$third-party
-||sexintheuk.com^$popup
 ||sexpin.net/ads*.htm
 ||sextvx.com/ads/
 ||sexvid.*/rrt/xd.js
@@ -8673,7 +8668,6 @@ yydstxt*.com/js/html
 ||sojson.com/ps/list.
 ||sojson.com/ui/images/upyun
 ||somanhua.com/smh/
-||sometired.com^$third-party
 ||songsongyun.com/ads/
 ||sonic-ui.highereducation.com^$third-party
 ||sonimei.cn/images/gg.png
@@ -8821,7 +8815,6 @@ yydstxt*.com/js/html
 ||storyren.top/imgg/
 ||straitstimes.com/_web2/betterads_head.js
 ||strap.domain.com.au^$domain=theage.com.au
-||stre4mpay.one/blobjs.hj
 ||stream.cz/*/vast?
 ||stream.miku-box.com/assets/js/base*.js$replace=/"ads":\[[\s\s]*?\]/"ads":[]/
 ||streama2z.com^$replace=/'https:\/\/tpc\.googlesyndication\.com\/simgad\/[\s\s]*?'/'https:\/\/streama2z.com\/assets\/strlogo.png'/,document
@@ -8871,7 +8864,6 @@ yydstxt*.com/js/html
 ||svonm.com/www.katsomo.fi/config.json$replace=/"enabled": true\,/"enabled": false\,/i,domain=mtv.fi,important
 ||sw76r85eda3k.com/need/h5.
 ||swarm.video/uhdstream.js$replace=/_wm\.format\.popunder/a/
-||sweetalert2.github.io/images/sponsors/
 ||sweeva.com/images/banner250.gif
 ||swoole.com/_images/kundian
 ||swoole.com/_images/w7.jpg
@@ -9177,7 +9169,6 @@ yydstxt*.com/js/html
 ||tube8.*/_xa/ads
 ||tubeadv.com^$third-party
 ||tubeadvertising.eu^$third-party
-||tubecorporate.com^$third-party
 ||tui.gtimg.com//res/
 ||tui555.com/public/gong/js/a_
 ||tui56.com/guanggao*.html
@@ -9349,7 +9340,6 @@ yydstxt*.com/js/html
 ||vid.springserve.com/vast/*einthusan.tv$replace=/(<vast[\s\s]*?>)[\s\s]*<\/vast>/\$1<\/vast>/,important
 ||vid123.net^$third-party
 ||vidcrunch.com/api/adserver/
-||vidcrunch.com/integrations/$script,third-party
 ||vidcrunch.com/integrations/*_responsive_*_dfp_$domain=discuss.com.hk
 ||video.flirtify.com^$domain=xhamster.com
 ||video.flirtify.com^$redirect-rule=nooptext,domain=xhamster.com
