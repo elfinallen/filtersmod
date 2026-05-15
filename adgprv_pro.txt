@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-05-14 13:24:11 UTC
-! Total Rules: 118166
+! Last Updated: 2026-05-15 01:52:29 UTC
+! Total Rules: 118169
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -339,6 +339,7 @@ $cookie=remixscreen_width
 $cookie=remixscreen_winzoom
 $cookie=remixseenads
 $cookie=revico-visitor-id
+$cookie=rmstoregateway
 $cookie=rsci_vid
 $cookie=rtbhouseuid,domain=wp.pl
 $cookie=rubiconuid,domain=wp.pl
@@ -104596,6 +104597,7 @@ zonedirector.avadacom.com$image
 ||api-location-prd.pelcro.com^$domain=newsweek.com
 ||api-onedio-lambda-production.onedio.com/srv/counters/
 ||api-pf.nw18.com/cdp-api/api/data
+||api-prod.xboostapp.io/xboost_webhook/
 ||api-register.ujoygames.com/logs/
 ||api-router.kaspersky-labs.com/logger2/metrics/
 ||api-router.kaspersky-labs.com/logger2^
@@ -106177,6 +106179,7 @@ zonedirector.avadacom.com$image
 ||cdn.shopify.com/extensions/*/trueprofit-profit-analytics*/assets/embedded.js
 ||cdn.shopify.com/s*/trekkie*.js
 ||cdn.shopify.com/s/files/*/ba_tracking.js
+||cdn.shopify.com/shopifycloud/arrive-server/pay/vite-pay/assets/analyticsprovider-*.js
 ||cdn.sift.com/s.js
 ||cdn.skypack.dev/uuid
 ||cdn.sophi.io^$third-party

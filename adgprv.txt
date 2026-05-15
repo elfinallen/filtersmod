@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-05-14 13:24:11 UTC
-! Total Rules: 11756
+! Last Updated: 2026-05-15 01:52:29 UTC
+! Total Rules: 11758
 ! Expires: 5 days
 &&sub19=undefined&sub20=undefined
 &action=js_stats
@@ -4028,6 +4028,7 @@ t.yesware.com
 ||api-kit.snapchat.com/com.snap.camerakit.v3.metrics^
 ||api-onedio-lambda-production.onedio.com/srv/counters/
 ||api-pf.nw18.com/cdp-api/api/data
+||api-prod.xboostapp.io/xboost_webhook/
 ||api-register.ujoygames.com/logs/
 ||api-router.kaspersky-labs.com/logger2/metrics/
 ||api-router.kaspersky-labs.com/logger2^
@@ -5056,6 +5057,7 @@ t.yesware.com
 ||cdn.shopify.com/extensions/*/trueprofit-profit-analytics*/assets/embedded.js
 ||cdn.shopify.com/s*/trekkie*.js
 ||cdn.shopify.com/s/files/*/ba_tracking.js
+||cdn.shopify.com/shopifycloud/arrive-server/pay/vite-pay/assets/analyticsprovider-*.js
 ||cdn.sift.com/s.js
 ||cdn.skypack.dev/uuid
 ||cdn.sourcesync.io/open-pixel/source-pixel.js
