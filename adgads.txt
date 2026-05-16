@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-05-16 01:45:13 UTC
-! Total Rules: 6370
+! Last Updated: 2026-05-16 12:52:33 UTC
+! Total Rules: 6364
 ! Expires: 5 days
 &ag_custom_vlmspot=
 &js_build=iclick-
@@ -2064,6 +2064,7 @@ yydstxt*.com/js/html
 ||antpedia.com/include/js/view_news/l_banner_js.js
 ||antpedia.com/viewnewsrightboxtop.
 ||anyporn.com/aa/
+||anyporn.com/if2/
 ||anysex.com/js/initsite.js
 ||anysex.com/static/js/initsite.min.js
 ||anyshare.icu^*.js
@@ -2162,7 +2163,6 @@ yydstxt*.com/js/html
 ||avkuy.com/wp-content/uploads/*/*.webp
 ||avn.com/server/
 ||avple.video/asset/bann.js
-||avrebo.com/avrebo-api/v*/advert/
 ||avseesee.com/amandison.php
 ||avseesee.com/htmls/vlinks.html
 ||avseesee.com/twad
@@ -2849,6 +2849,7 @@ yydstxt*.com/js/html
 ||cyberscore.live/images/bnrk-res/
 ||cycyw.com/mf/
 ||cycyw.com/qdj/
+||czech-craft.eu/static/uploads/abanners/
 ||czsp12.com/api/*=advert&
 ||czsp12.com/api/*=announce&
 ||cztv.com/201506/02/124d35111e8f180c96f99acbcbdf5de6.jpg
@@ -3260,7 +3261,6 @@ yydstxt*.com/js/html
 ||flash.mycar168.com/data/js/
 ||flasmr.top/leb.
 ||flighty.cn/images/
-||flowplayer.com/releases/ads/
 ||flv2mp3.by/get-rtb-url
 ||flvto.biz/get-rtb-url
 ||flyzy2005.com/wp-content/*/bandwagonhost-top.
@@ -3347,7 +3347,6 @@ yydstxt*.com/js/html
 ||gamemale.com/static/js/valida.js
 ||gamersky.com/common/tg/
 ||gamersky.com/g/gamerskyflash.js
-||gamersky.com^*/getadpositionincdetail?
 ||games.ifeng.com^*.shtml?v=
 ||gamme.com.tw/ga/
 ||gamme.com.tw/uploads/*?2
@@ -4715,7 +4714,6 @@ yydstxt*.com/js/html
 ||natomanga.com/js/ads/
 ||naughtyblog.org/wp-content/images/k2s/
 ||nb.zol.com.cn/detail_*.html
-||nbastreamswatch.com/z-6229510.js
 ||nbegame.com/nbeos/*.jpg
 ||nczsks.com/scwb/webresource.axd
 ||neets.cc/assets/js/dup.js
@@ -5175,7 +5173,6 @@ yydstxt*.com/js/html
 ||redshu.com/js/www/jquerygg.js
 ||redtube.com/_xa/
 ||reef2reef.com/data/siropu/am/user/
-||refershareus.xyz/ads?
 ||refinery89.com/performance/
 ||rentalcars.com/partners/
 ||rentiyishu.org/*.js
@@ -5619,7 +5616,6 @@ yydstxt*.com/js/html
 ||tbib.org/gaming/
 ||tbib.org/tbib.
 ||tcmap.com.cn/js/b_
-||tcz.pl/*/reklama*.php
 ||techritual.com/wp-content/uploads/*/hdcource_
 ||techug.com/aatb/
 ||tencent-cloud.com/s9m1/12f70718c866ea3e5f22c68e6a34c54f.
@@ -5985,8 +5981,6 @@ yydstxt*.com/js/html
 ||wnacg.com/game/
 ||wnimg1.ru/data/game/*/*-*x*.gif
 ||woaidu.org/images/20180802/3.jpg
-||wodeshucheng.com^*/0
-||wodeshucheng.com^*/1
 ||wokao.co/qq/qq.js
 ||woozooo.com/img/*.js
 ||wowfan.net/static/js/index.
