@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-05-17 01:49:34 UTC
-! Total Rules: 6364
+! Last Updated: 2026-05-17 12:50:00 UTC
+! Total Rules: 6356
 ! Expires: 5 days
 &ag_custom_vlmspot=
 &js_build=iclick-
@@ -988,7 +988,6 @@
 /websales_push_*_big.php?id=
 /wp-content/plugins/eazy-ad-unblocker/*
 /wp-content/plugins/jet-blocker-anti-ad-blocker-detector/*
-/wp-content/plugins/popupbuilder-adblock/*
 /wp-content/plugins/script-manager/assets/js/script-manager.js?
 /wp-content/themes/imovies/js/tc_
 /wp-content/uploads/useful_banner_manager_banners/*
@@ -1842,7 +1841,6 @@ yydstxt*.com/js/html
 ||a.cnki.net/a/
 ||a.jyeoo.com/js?
 ||a.pemsrv.com/popunder*.js
-||a1tb.com/300x250ntv
 ||a5xiazai.com/z/
 ||aaaimg.com/images*.gif
 ||aaread.space/images/*0.gif
@@ -2510,7 +2508,6 @@ yydstxt*.com/js/html
 ||caibaojian.com/d/uploads/*0-
 ||caikuu.com/ckimages/*_gg
 ||caikuu.com/ckimages/*_zg
-||caitlin.top/catalog/view/core/adchecker/
 ||caixin.com/s?z=
 ||campaign-service.datacamp.com/api/v1/banner
 ||camspacelive.com/widgets/
@@ -2827,6 +2824,7 @@ yydstxt*.com/js/html
 ||creative.myasian.live/widgets/
 ||cricbuzz.com/api/adverts/
 ||criteo.net/design/
+||crocotube.com/pop/
 ||crxs.me/service/assets/core-state.
 ||csdn.net/ggmm/
 ||csdn.net/msg.popup.js
@@ -4241,7 +4239,6 @@ yydstxt*.com/js/html
 ||kocpc.com.tw/adsbyso.js
 ||komiic.com/ads/
 ||kostool.cn/screenshot/
-||kovla.com/static/js/popunder
 ||koyi.pub/wp-content/plugins/dh-anti-adblocker/
 ||koyso.com/aclib.js
 ||koyso.com/static/js/abcd.
@@ -4507,7 +4504,6 @@ yydstxt*.com/js/html
 ||maomaoks.com/1.
 ||maopu.tv/d/file/p/2019/07/6ac50c702cf9e6a9a7910a510c40cb73.jpg
 ||masadora.net/kakusan-
-||massariuscdn.com/pubs/
 ||masturbation22.com/d/
 ||mat.chasedream.com^*.gif
 ||mat1.gtimg.com/2014/vikkydu/ga/haier
@@ -4820,7 +4816,6 @@ yydstxt*.com/js/html
 ||opti-digital.com/js/presync.html
 ||opticsky.cn/images/2015/gy-px201
 ||optiklink.com/arlinablock.js
-||orangebuddies.nl/image/banners/
 ||oremanga.net/wp-content/uploads/*.gif
 ||orzx.im/document/recommend/flashpoint.html
 ||orzx.im/document/union/
@@ -5164,7 +5159,6 @@ yydstxt*.com/js/html
 ||rawcdn.githack.com/*/arlinablock.js
 ||rawcdn.githack.com/sanjoy944/jonaki/*/adblockerpupup.js
 ||readcomiconline.li/ads/
-||realmadryt.pl/build/assets/articlegate-*.js
 ||realmadryt.pl/img/banners/
 ||receivefreesms.co.uk/adblk/adblk_enc.js
 ||reddit.com/api/request_promo.json
@@ -5777,7 +5771,6 @@ yydstxt*.com/js/html
 ||tw.buy.yahoo.com/?z=
 ||tw.live/assets/images/fsk-0*.webp
 ||twavtv.com/js/jquery.colorbox
-||twincdn.com/video/preroll_
 ||twkan.com/js/otherad
 ||twunbbs.com/images/
 ||txahz.com/static/image/tp/
@@ -6023,7 +6016,6 @@ yydstxt*.com/js/html
 ||xbiqu5.com/12345678.
 ||xbiquge99.cc/js/dj
 ||xbiqugela.com/js/basisc.
-||xbooru.com/ex.js^
 ||xbqg6.com/*.php
 ||xcafe.com/*.php
 ||xcafe.com/assets/script.js

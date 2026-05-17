@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-05-17 01:49:33 UTC
-! Total Rules: 10028
+! Last Updated: 2026-05-17 12:50:00 UTC
+! Total Rules: 10017
 ! Expires: 5 days
 $cookie=/adb\.key/,domain=expres.cz|televizeseznam.cz|ahaonline.cz|extra.cz|mobilmania.cz|idnes.cz|aktuality.sk|aktualne.cz|blesk.cz|centrum.cz|cnews.cz|e15.cz|karaoketexty.cz|novinky.cz|sport.cz|super.cz|tiscali.cz|zive.cz|antiyoutuber.cz|fights.cz|metro.cz
 $cookie=__adblocker,domain=slate.com|thehindubusinessline.com
@@ -1023,7 +1023,6 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 /asset/js/gglms.
 /assets/*.min.js?*=*&$domain=streamsss.net|faptiti.com|anigogo.net|mm9844.*|sbbrisk.com|sbhight.com|rbtstream.info|sbface.com|streamsb.click|sbrity.com
 /assets/ads/*$~image,domain=~outlook.live.com
-/assets/adv/*$domain=sia.az|axar.az
 /assets/banners/600x100/*
 /assets/dayu/ainfiniteactivity-
 /assets/jquery/*.js?type=adult^$script
@@ -1032,6 +1031,7 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 /assets/jquery/api.js?type=adult$~third-party
 /assets/jquery/api100.js?type=$~third-party
 /assets/jquery/app100.js?type=$~third-party
+/assets/jquery/static.js?type=mainstream$~third-party
 /assets/jquery/style*.js$domain=fsdcmo.sbs|flaswish.com
 /assets/jwplayer-*/vast.js$script,~third-party
 /assets/script|$~third-party,domain=9anime-hub.com
@@ -1187,6 +1187,7 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 /detroitchicago/augusta.js$script
 /detroitchicago/birmingham.js$script
 /detroitchicago/boise.js$script
+/detroitchicago/ezconfig$xmlhttprequest
 /detroitchicago/houston.js$script
 /detroitchicago/kenai.js$script
 /detroitchicago/memphis.js$script
@@ -2063,7 +2064,6 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 /wp-content/plugins/m-wp-popup/*$script
 /wp-content/plugins/pmc-plugins/pmc-adm-v2/build/display-ads.js$domain=billboard.com|wwd.com|sportico.com
 /wp-content/plugins/pmc-plugins/pmc-adm-v2/build/setup-ads.js$domain=billboard.com|wwd.com|sportico.com
-/wp-content/plugins/popupbuilder-adblock/*
 /wp-content/plugins/script-manager/assets/js/script-manager.js$domain=hentaihaven.xxx|watchhentai.xxx
 /wp-content/plugins/script-manager/assets/js/script-manager.js?
 /wp-content/plugins/wp-ad-guru/*$script,stylesheet
@@ -3202,6 +3202,7 @@ yydstxt*.com/js/html
 ||9ya.net/con/ad
 ||9ye.com/files/editor/ad/
 ||9zvip.net/hi5asd/
+||a-static.com^$third-party
 ||a.adtng.com/get/$xmlhttprequest,redirect=noopvast-2.0,important,domain=peekvids.com|influencersgonewild.com
 ||a.breaktime.com.tw^$third-party
 ||a.cnki.net/a/
@@ -3213,7 +3214,6 @@ yydstxt*.com/js/html
 ||a.pemsrv.com/popunder*.js
 ||a1714.com^$popup
 ||a1tb.com/300x250$subdocument
-||a1tb.com/300x250ntv
 ||a2zapk.com^$script,subdocument,third-party,xmlhttprequest,badfilter
 ||a2zapk.com^$script,third-party,badfilter
 ||a2zapk.io^$replace=/'https:\/\/tpc\.googlesyndication.com\/simgad\/[\s\s]*?'/'https:\/\/a2zapk\.com\/images\/ajax-loader\.gif'/
@@ -4285,7 +4285,6 @@ yydstxt*.com/js/html
 ||caibaojian.com/d/uploads/*0-
 ||caikuu.com/ckimages/*_gg
 ||caikuu.com/ckimages/*_zg
-||caitlin.top/catalog/view/core/adchecker/
 ||caixin.com/s?z=
 ||caltat.com^$third-party
 ||cam4.com^*&utm_source=$popup
@@ -4753,6 +4752,7 @@ yydstxt*.com/js/html
 ||criteo.net/design/
 ||crn77.com^$all
 ||crn77.com^$popup
+||crocotube.com/pop/
 ||croea.com^$third-party
 ||crummydevioussucculent.com^$popup
 ||crxs.me/service/assets/core-state.
@@ -5487,7 +5487,6 @@ yydstxt*.com/js/html
 ||gaglxx.com/5_
 ||galacg.me/wp-content/uploads/*750x
 ||galaxymedia.xyz/app/images/banner.gif
-||galaxypush.com^$popup
 ||galleries-pornstar.com/thumb_top/
 ||gamazi.com^$document
 ||gamcore.com/ajax/abc?
@@ -5603,7 +5602,6 @@ yydstxt*.com/js/html
 ||go.inxxx.cam^$xmlhttprequest,domain=inxxx.com
 ||go.kbnmnl.com/api/models/vast
 ||go.linkwi.se/delivery/
-||go.nsfwlivechat.com^$popup
 ||go.trvdp.com^$domain=~canaltech.com.br|~ig.com.br|~monitordomercado.com.br|~noataque.com.br|~oantagonista.com.br|~olhardigital.com.br|~omelete.com.br
 ||go.xlivrdr.com^$removeheader=location
 ||go.xxxjmp.com^$all
@@ -5639,7 +5637,6 @@ yydstxt*.com/js/html
 ||google.com/pagead/landing?
 ||googleadapis.l.google.com^$third-party
 ||googleads.g.doubleclick.net/pagead/ads$subdocument,redirect=noopframe,domain=rjno1.com,important
-||googleads.g.doubleclick.net/pagead/js/adsbygoogle.js$domain=topsporter.net,redirect=nooptext
 ||googleapiscdn.com/admin/api/ads/
 ||googleapiscdn.com/static/jwplayer/vast.js
 ||googles.video^$media,redirect=noopmp3-0.1s,domain=anime-suba.com
@@ -5884,7 +5881,6 @@ yydstxt*.com/js/html
 ||hgyouxi.net/source/plugin/hgyouxiad/
 ||hh010.com/static/image/fff/
 ||hhba0*kdh.com^$script,xmlhttprequest,third-party
-||hhbypdoecp.com^$popup
 ||hiao.com/node/node_27508.htm
 ||hiaxj.com/dbxf/
 ||hibiquan.com/uploads/images/
@@ -6281,6 +6277,7 @@ yydstxt*.com/js/html
 ||imgdrive.net/xb02673583fb.js
 ||imghost.top/kita/
 ||imgjiajiao.cn/jiajiao/js/lxonline.js
+||imglnkd.com^$domain=amateurporn.me
 ||imglnkx.com/*/*_banner*.gif
 ||imgme.me/images/*.gif
 ||imgmega.com/i/*.gif$domain=18avtube.com|mm-cg.com
@@ -6311,7 +6308,6 @@ yydstxt*.com/js/html
 ||imjtv.cc^$third-party
 ||imkirh.com^$document
 ||imnks.com/ad2023/$image
-||imonomy.com^$third-party
 ||imooc.com/open/courselistrandjs
 ||impact-ad.jp^$third-party
 ||impactify.io^$third-party
@@ -6777,7 +6773,6 @@ yydstxt*.com/js/html
 ||komorkomania.pl^$replace=/(aabv\d[\s\s]*?.=function\(\)\{)return .===.(\}\,)/\$1return\$2/,script
 ||kontera.com/javascript/$third-party
 ||kostool.cn/screenshot/
-||kovla.com/static/js/popunder
 ||koyi.pub/wp-content/plugins/dh-anti-adblocker/
 ||koyso.com/aclib.js
 ||koyso.com/static/js/abcd.
@@ -7118,7 +7113,6 @@ yydstxt*.com/js/html
 ||marketdeathly.com^$popup
 ||marketjs.cdn.start.gg/*/v*/game.js$replace=/this\['rewardedvideoresult'\]\(!0x1\);/this['rewardedvideoresult'](!0x0);/
 ||masadora.net/kakusan-
-||massariuscdn.com/pubs/
 ||masturbation22.com/d/
 ||mat.chasedream.com^*.gif
 ||mat1.gtimg.com/2014/vikkydu/ga/haier
@@ -7594,7 +7588,6 @@ yydstxt*.com/js/html
 ||oodcd.cn/pan/config/copy.
 ||oodcd.cn/pan/config/history.
 ||oogala.com^$third-party
-||ooproxy.azurewebsites.net^$xmlhttprequest,domain=imasdk.googleapis.com
 ||ooqiu.com/ad_js/
 ||open.fm^$replace=/(<vast[\s\s]*?>)[\s\s]*<\/vast>/\$1<\/vast>/,xmlhttprequest,other,~script
 ||open.fm^$replace=/(^(wp\.[\s\s]*?\.bodies)=wp\.[\s\s]*?\.bodies\|\|\{\};[\s\s]*)//,script
@@ -7613,7 +7606,6 @@ yydstxt*.com/js/html
 ||optmnstr.com^$third-party
 ||optnx.com^$popup
 ||optvz.com^$document
-||orangebuddies.nl/image/banners/
 ||orangeclickmedia.com^$third-party
 ||oremanga.net/wp-content/uploads/*.gif
 ||orzx.im/document/recommend/flashpoint.html
@@ -7916,7 +7908,6 @@ yydstxt*.com/js/html
 ||popin.cc/popin_discovery$badfilter
 ||porn300.com^$third-party
 ||porn87.com/static/stream_ads/
-||porncomics.pics/ad*.php$subdocument
 ||porndoe.com/views/footer/banners.html
 ||porndoe.com/wp-contents/channel?
 ||porngamespass.com/iframes/
@@ -8206,7 +8197,6 @@ yydstxt*.com/js/html
 ||readpeak.com^$third-party
 ||realbig.media^$third-party
 ||realclick.co.kr^$third-party
-||realmadryt.pl/build/assets/articlegate-*.js
 ||realmadryt.pl/img/banners/
 ||realssp.co.kr^$third-party
 ||rebeccasciencestreet.com^$badfilter
@@ -9190,7 +9180,6 @@ yydstxt*.com/js/html
 ||twads.gg^$third-party
 ||twavtv.com/js/jquery.colorbox
 ||twincdn.com/special^$third-party
-||twincdn.com/video/preroll_
 ||twinrdengine.com^$popup
 ||twinrdsrv.com/preroll.engine$xmlhttprequest,redirect=nooptext
 ||twinrdsrv.com^$domain=tnaflix.com
@@ -9272,6 +9261,7 @@ yydstxt*.com/js/html
 ||userscript.zone/s.js
 ||usgo.chucaotang.net/ua.js
 ||ustv123.com/images/axd.js
+||utherverse.com^$third-party
 ||utility.rogersmedia.com/wrapper.js
 ||utlove02.com^$third-party
 ||uugtv.com/x/app/videospread?
@@ -9608,7 +9598,6 @@ yydstxt*.com/js/html
 ||xbiqu5.com/12345678.
 ||xbiquge99.cc/js/dj
 ||xbiqugela.com/js/basisc.
-||xbooru.com/ex.js^
 ||xbqg6.com/*.php
 ||xcafe.com/*.php
 ||xcafe.com/assets/script.js
