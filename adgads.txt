@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-05-18 01:59:04 UTC
-! Total Rules: 6356
+! Last Updated: 2026-05-18 14:49:01 UTC
+! Total Rules: 6352
 ! Expires: 5 days
 &ag_custom_vlmspot=
 &js_build=iclick-
@@ -2049,6 +2049,7 @@ yydstxt*.com/js/html
 ||anhuinews.com/include/
 ||anhuinews.com/zhuyeguanli/*ad/
 ||anime-suba.com/anime-suba/admin/imganadvertisement/
+||animefrenzy.net/static/jquery.js?v=
 ||animehay01.site/ad_banner/
 ||animewaku.com/up/img/webp/*.webp
 ||anjuke.com^*/ajax/business_area_search/
@@ -3496,7 +3497,6 @@ yydstxt*.com/js/html
 ||guangzhoubingqing.com/88888.jpg
 ||gucheng.com/2016/ggimg/
 ||gucheng.com/gcwad/
-||guessthe.game/ads/
 ||guhai.com.cn/ad/
 ||guifun.com/psptool/ad/
 ||guilin-ly.com^*.gif
@@ -3924,7 +3924,6 @@ yydstxt*.com/js/html
 ||iqiyi.com/show2?cb=
 ||iqnew.com/d/js/m/thea
 ||iqshw.com/d/js/m/thea
-||isekaitube.com/isekaimage.php
 ||ishisetianxia.com/tb.js
 ||ishowx.com/www/2015/js/top.js
 ||isky.ltd/skin/js/ad.js
@@ -3996,9 +3995,6 @@ yydstxt*.com/js/html
 ||jandan.net^*/moyu.png
 ||jav.sb/videojs/300x100.php
 ||jav101.com/img5bbb0096f242f.gif
-||jav123hd.com/wp-content/uploads/*ads*.mp4
-||jav123hd.com/wp-content/uploads/game2.mp4
-||jav24hda.com/wp-content/uploads/*.gif
 ||javazhijia.com/skin/
 ||javbooks.com/52toy/
 ||javenglish.cc/terra.js
@@ -4813,7 +4809,6 @@ yydstxt*.com/js/html
 ||oodcd.cn/pan/config/history.
 ||ooqiu.com/ad_js/
 ||oploverz.my/wp-content/uploads/*/*.gif
-||opti-digital.com/js/presync.html
 ||opticsky.cn/images/2015/gy-px201
 ||optiklink.com/arlinablock.js
 ||oremanga.net/wp-content/uploads/*.gif
@@ -5564,7 +5559,6 @@ yydstxt*.com/js/html
 ||swoole.com/_images/w7.jpg
 ||sxeimg.com/u/20191108/13082210.gif
 ||sxyprn.*/js/fad.json
-||sya.mbuh.my.id/siap/*-ainzscan.js
 ||symbaloo.com/static/banners/*/pwhomepage.js
 ||syri.net/marketing/a.php?
 ||syseen.com/content/uploadfile/*/hongbao.png
@@ -5771,6 +5765,7 @@ yydstxt*.com/js/html
 ||tw.buy.yahoo.com/?z=
 ||tw.live/assets/images/fsk-0*.webp
 ||twavtv.com/js/jquery.colorbox
+||twitter.com/*/videoads/
 ||twkan.com/js/otherad
 ||twunbbs.com/images/
 ||txahz.com/static/image/tp/
@@ -5978,6 +5973,7 @@ yydstxt*.com/js/html
 ||woozooo.com/img/*.js
 ||wowfan.net/static/js/index.
 ||woyaoq.com/201904100958_5cad4dbac9c5f.png
+||wp.com/assets.sheetmusicplus.com/banner/
 ||wpdaxue.com/img/*/txy-
 ||wples.com/pc/common.js
 ||ws.kora-api.top/api/ads
