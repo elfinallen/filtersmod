@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-05-17 12:50:00 UTC
-! Total Rules: 118176
+! Last Updated: 2026-05-18 01:59:04 UTC
+! Total Rules: 118177
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -4306,6 +4306,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /wp-content/plugins/google-analytics-for-wordpress/*
 /wp-content/plugins/google-analytics-premium/*
 /wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-events-provider-contact-form-
+/wp-content/plugins/jetpack/jetpack_vendor/automattic/woocommerce-analytics/*
 /wp-content/plugins/pageviews-counter/*
 /wp-content/plugins/pageviews/pageviews.js
 /wp-content/plugins/pageviews/pageviews.min.js

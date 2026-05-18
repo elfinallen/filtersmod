@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-05-17 12:50:00 UTC
-! Total Rules: 11764
+! Last Updated: 2026-05-18 01:59:04 UTC
+! Total Rules: 11765
 ! Expires: 5 days
 &&sub19=undefined&sub20=undefined
 &action=js_stats
@@ -3241,6 +3241,7 @@
 /wp-content/plugins/google-analytics-for-wordpress/*
 /wp-content/plugins/google-analytics-premium/*
 /wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-events-provider-contact-form-
+/wp-content/plugins/jetpack/jetpack_vendor/automattic/woocommerce-analytics/*
 /wp-content/plugins/pageviews-counter/*
 /wp-content/plugins/pageviews/pageviews.js
 /wp-content/plugins/pageviews/pageviews.min.js
