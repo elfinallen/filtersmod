@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-06-14 03:44:16 UTC
-! Total Rules: 5807
+! Last Updated: 2026-06-14 13:57:13 UTC
+! Total Rules: 5806
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -34,7 +34,6 @@
 /adpro.js
 /adpuba/*
 /adpv?cn=
-/ads.criteo.com.js
 /ads/acctid=
 /ads/get-ads-by-zones/?zones%
 /ads/targeted|
@@ -634,7 +633,6 @@
 /ysm.ezprice.net/*
 /yunfile/offline_banner/*
 /yy_transv/js/cmp.js
-/zone?pub=*&zone_id=
 /zpp/zpp4.js
 /zz/*_box2.txt
 /zz/wenzi2.txt
@@ -1490,7 +1488,6 @@
 ||antpedia.com/include/js/view_news/l_banner_js.js
 ||antpedia.com/viewnewsrightboxtop.
 ||anyporn.com/aa/
-||anyporn.com/if2/
 ||anysex.com/js/initsite.js
 ||anysex.com/static/js/initsite.min.js
 ||anysex.com/static/js/script_new.js
@@ -1809,6 +1806,7 @@
 ||biquge96.com/123.
 ||biqugie.com/js/wap.
 ||bitauto.com/js/sense*.js
+||bitbond.com/affiliate-program/
 ||bitchesgirls.com/libs/adloaders/
 ||bitscn.com/js/a2
 ||bixingjia.com/js/hf.
@@ -1865,7 +1863,6 @@
 ||brand.sogou.com/micro?yyid=
 ||bravoporn.com/v/if2
 ||bravoteens.com/ta/
-||brazzers.com/ads/
 ||breakdownexpress.com/js/ads
 ||browserscan.net/dist/adspower_zh.
 ||bs.baidu.com/app-ads%
@@ -2270,7 +2267,6 @@
 ||cyberscore.live/images/bnrk-res/
 ||cycyw.com/mf/
 ||cycyw.com/qdj/
-||czech-craft.eu/static/uploads/abanners/
 ||czsp12.com/api/*=advert&
 ||czsp12.com/api/*=announce&
 ||cztv.com/201506/02/124d35111e8f180c96f99acbcbdf5de6.jpg
@@ -2571,6 +2567,7 @@
 ||elecfans.com/webapi/advertisement/
 ||embedsports.top/ad.html
 ||emoney.cn/www/officalwebstatic/js/slidead.js
+||empflix.com/mew.php
 ||en8848.com.cn/js/ad
 ||en8848.com.cn/js/content.
 ||en8848.com.cn/js/lianxi.js
@@ -4790,6 +4787,7 @@
 ||short-wave.info/html/adsense-
 ||shouji.com.cn/static/v1/js/appinfo.js
 ||shouyoutv.com/assets/api/web/v4/js/global_head.js
+||shrinkme.io/js/full-page-script.js
 ||shuakongbao.com/resource/images/banner/
 ||shuhaoxs.com/public/
 ||shui5.cn^*/ima/gg
@@ -4849,6 +4847,7 @@
 ||slickdeals.net/ad-stats/
 ||slit.cn/slimages/
 ||sm.ign.com/zdadkit*.js
+||smartdestinations.com/ai/
 ||smqzj.com/seo.js
 ||smzy.com/v1/img/
 ||so.91ks.online/asset/bd.js
@@ -4954,7 +4953,6 @@
 ||static.okokserver.com/js/anti/adblocker.js
 ||static.olelive.com/upload/site/*/*.gif
 ||static.opensubtitles.org/libs/js/ray-announcement-bar.js
-||static.purexbox.com/javascript/gn/prebid*.js
 ||static.sunmedia.tv/integrations/
 ||static.tohomh123.com/js/funasd.js
 ||static.videezy.com/assets/underpop-*.js
@@ -5116,6 +5114,7 @@
 ||tigtag.com/images/*1000x
 ||tigtag.com/images/pic1/
 ||tigtag.com/styles/phpcms/js/tigtag/ads.js
+||tii.la/js/fps.js
 ||timeanddate.com/common/prebidtad.
 ||timecn.cn/image/alipay.jpg
 ||timeout.*/static/js/ads-

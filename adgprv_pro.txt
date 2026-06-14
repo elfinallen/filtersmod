@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-06-14 03:44:16 UTC
-! Total Rules: 118907
+! Last Updated: 2026-06-14 13:57:13 UTC
+! Total Rules: 118910
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -105863,6 +105863,7 @@ zonedirector.avadacom.com$image
 ||assets.papegames.com/libs/monitor.js
 ||assets.pixlee.com/assets/fp.js
 ||assets.pixlee.com/shopify/pixlee.shopify.v2.prod.js
+||assets.poool.fr/engage.min.js
 ||assets.poxo.com/jet/jet.js
 ||assets.prod.abebookscdn.com/*/scripts/digitaldata/analytics-
 ||assets.prod.abebookscdn.com/*/scripts/utilities/pixelrenderer-
@@ -108208,6 +108209,7 @@ zonedirector.avadacom.com$image
 ||dev.ozon.ru/p-api/tracker/
 ||dev.to/fallback_activity_recorder
 ||dev.visualwebsiteoptimizer.com/*/track-
+||dev.visualwebsiteoptimizer.com/ping_tpc.php
 ||devatics.com^$third-party
 ||devatics.io^$third-party
 ||developer.mozilla.org/submit/
@@ -117658,6 +117660,7 @@ zonedirector.avadacom.com$image
 ||usetrmnl.com^$cookie=/^intercom-/
 ||usimsa.com/_nuxt/kakaopixel.
 ||usimsa.com/_nuxt/naveradsscript.
+||usine-digitale.fr/pf/resources/newrelic.js
 ||usizy.com/external/pageview
 ||usnews.com/static/esi/usn-geo.json
 ||usnews.com^$cookie=usn_visitor_id

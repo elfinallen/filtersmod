@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-06-14 03:44:16 UTC
-! Total Rules: 11261
+! Last Updated: 2026-06-14 13:57:13 UTC
+! Total Rules: 11264
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -3979,6 +3979,7 @@
 ||assets.papegames.com/libs/monitor.js
 ||assets.pixlee.com/assets/fp.js
 ||assets.pixlee.com/shopify/pixlee.shopify.v2.prod.js
+||assets.poool.fr/engage.min.js
 ||assets.poxo.com/jet/jet.js
 ||assets.prod.abebookscdn.com/*/scripts/digitaldata/analytics-
 ||assets.prod.abebookscdn.com/*/scripts/utilities/pixelrenderer-
@@ -5329,6 +5330,7 @@
 ||dev.ozon.ru/p-api/tracker/
 ||dev.to/fallback_activity_recorder
 ||dev.visualwebsiteoptimizer.com/*/track-
+||dev.visualwebsiteoptimizer.com/ping_tpc.php
 ||developer.mozilla.org/submit/
 ||developers.google.com/_d/analytics-iframe
 ||developers.miro.com/pageview
@@ -10520,6 +10522,7 @@
 ||userway.org/api/v1/stats
 ||usimsa.com/_nuxt/kakaopixel.
 ||usimsa.com/_nuxt/naveradsscript.
+||usine-digitale.fr/pf/resources/newrelic.js
 ||usizy.com/external/pageview
 ||usnews.com/static/esi/usn-geo.json
 ||usolie.info/bs/sm
