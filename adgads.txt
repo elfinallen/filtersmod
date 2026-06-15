@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-06-15 03:59:57 UTC
-! Total Rules: 5806
+! Last Updated: 2026-06-15 17:12:00 UTC
+! Total Rules: 5804
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -1470,6 +1470,7 @@
 ||amazonaws.com/s?z=
 ||ammcg.imgscloud.com/toy/
 ||ams.cdn.arkadiumhosted.com/advertisement/
+||analyticsinsight.b-cdn.net/wp-content/uploads/*-300x250px
 ||androidauth.wpengine.com/wp-json/api/advanced_placement
 ||angelweb.cn/inc/angelg.js
 ||anhuinews.com/include/
@@ -1886,7 +1887,6 @@
 ||btschool.net/images/*/hdygr
 ||btwuji.com/jsj1/
 ||bug.hr/ads/
-||bulnews.bg/images.inbet/
 ||bumimi.com/money/
 ||buy.sina.com.tw/js/sina_popup.php
 ||bvlang.com/ad/
@@ -4303,6 +4303,7 @@
 ||parade.com/runtime/webads.js
 ||partwithner.com/partners/
 ||pasazer.com/_assets/js/ad-connect.js
+||paxnews.com/data/pageads
 ||pbc.pagesix.com/p/nyp/pagesix/pb.js
 ||pbmp.ali213.net/js/
 ||pc6.com/img/
@@ -4387,7 +4388,6 @@
 ||pixabay.com/static/img/publisher/*_ad_
 ||pixfs.net/js/mib.min.js
 ||pixfs.net/js/mib_falcon
-||pixfs.net/js/sticky-sidebar-ad.min.js
 ||pixfs.net/module/fullpage/dist/ad-full-page-enter-fly.
 ||pixfs.net/module/fullpage/dist/ad-full-page.
 ||pixlr.com/fad/
@@ -4582,10 +4582,8 @@
 ||qy1.ru/data/game/
 ||qyun.vip/pic/*.gif
 ||qzone.la/scripts/m.js
-||r3sub.com/images/ccc/
-||r3sub.com/posters/0069810.jpg
+||r3sub.com/nb/
 ||r3sub.com/posters/00698128.jpg
-||r3sub.com^*0.gif
 ||rabbitstream.net/ajax/*/banners
 ||rainpat.com/content/1360x55/
 ||rainpat.com/scripts/jquery.superslide.

@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-06-15 03:59:57 UTC
-! Total Rules: 11264
+! Last Updated: 2026-06-15 17:12:00 UTC
+! Total Rules: 11269
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -6406,6 +6406,7 @@
 ||hd.mirdrujbajvachka.ru/stat
 ||hdmz.co/site/user_geo
 ||hdnux.com/hnp/stats/page_view?
+||hdrezka.ax/api/logs/event
 ||health.com/*googletagmanager.com*gtm.js
 ||healthline.com/api/metrics
 ||hearstnp.com/log?
@@ -8534,6 +8535,8 @@
 ||primicias.ec/track/pageviews/
 ||princetonreview.com/logging/
 ||print24.com/api/*/analytics/
+||prisjakt.no/_next/monitoring
+||prisjakt.no/rbr9/
 ||prisjakt.nu/js.php?p=trafikfonden
 ||prisma.io/gastats.js
 ||prismaconnect.fr/prd/ping
@@ -8824,6 +8827,7 @@
 ||relish.com/js/active-campaign-form.js
 ||remarkable.com/api/proxy/marker
 ||renotifier.miniclippt.com/rntracking.js
+||rent.com/api/analytics|
 ||replayapp.io/collect/
 ||replit.app/tap/
 ||replyat.com/gadgetpagecounter.asp?
@@ -9219,6 +9223,7 @@
 ||services.wiseadvice.ru/tracker/js/*/wa.min.js
 ||servizi.unionesarda.it/controlli/
 ||servo-report.dvdfab.
+||session-api.cloud.pji.nu/sessions/*/events
 ||sex-studentki.pro/system/stat/
 ||sexhd.pics/x/x.js
 ||sexu.com/api/events

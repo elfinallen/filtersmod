@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-06-15 03:59:57 UTC
-! Total Rules: 118910
+! Last Updated: 2026-06-15 17:12:00 UTC
+! Total Rules: 118895
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -104378,7 +104378,6 @@ zonedirector.avadacom.com$image
 ||103bees.com^$third-party
 ||105app.com/report/?
 ||105app.com^$third-party
-||109.169.66.161^$third-party,domain=~adult-site.ip
 ||10haber.net/cu1m/
 ||10xlaunch.ai^$third-party
 ||110.93.143.144^$third-party
@@ -104406,10 +104405,8 @@ zonedirector.avadacom.com$image
 ||17173.com/pv?
 ||17track.net/externalcall.js
 ||180.76.2.18^$third-party
-||180.76.2.18^$third-party,domain=~baidu.ip
 ||1800cnt.com^$third-party
 ||18comic.vip/templates/frontend/airav/js/td_js/td_ga_tracker.js
-||193.197.158.209^$third-party,domain=~statistik.lubw.baden-wuerttemberg.de.ip
 ||199.116.177.156^$domain=~fc2.jp.ip
 ||199.19.203.46/js
 ||1abzar.ir/abzar/tools/stat/
@@ -104432,7 +104429,6 @@ zonedirector.avadacom.com$image
 ||206solutions.com^$third-party
 ||20min.ch/ana/
 ||20minutes.fr/js/piano-*.js
-||212.95.32.75^$third-party,domain=~ipcounter.de.ip
 ||216.18.176.4/logger/
 ||21buttons.com^$cookie=21b.user.generated.id
 ||220-volt.ru^$cookie=_userguid
@@ -104448,7 +104444,6 @@ zonedirector.avadacom.com$image
 ||24log.com^$third-party
 ||24log.de^$third-party
 ||24log.es^$third-party
-||24log.fr^$third-party
 ||24log.it^$third-party
 ||24log.ru^$third-party
 ||24sata.hr/static/scripts/utils/tracking.min.js
@@ -105021,7 +105016,6 @@ zonedirector.avadacom.com$image
 ||airbrake.io^$third-party
 ||airgreenland.com/tracking/
 ||airlogak.com^$third-party
-||airlogs.ru^$third-party
 ||airlytics-web.airlock.twcmobile.weather.com/eventproxy/track
 ||airportinfo.live^$cookie=adblocker
 ||airportinfo.live^$cookie=adsplit
@@ -105324,7 +105318,6 @@ zonedirector.avadacom.com$image
 ||animegoods.co.kr^$cookie=ec_ipad_device
 ||animember.net/js/access.js
 ||anizmplayer.com/gmetrics/
-||announcement.ru^$third-party
 ||anonm.io^$third-party
 ||anonymised.io^$third-party
 ||anormal-tracker.de^$third-party
@@ -107847,7 +107840,6 @@ zonedirector.avadacom.com$image
 ||csi.gstatic.com^$domain=promiflash.de,redirect=nooptext,important
 ||csp.godaddy.com/eventbus
 ||cstream.wi-fi.ru/csc-event$domain=wi-fi.ru
-||cszz.ru^$third-party
 ||ct.itbusinessedge.com^$third-party
 ||ct.pinterest.com^$subdocument,redirect=noopframe
 ||ct.thegear-box.com^$third-party
@@ -108039,6 +108031,7 @@ zonedirector.avadacom.com$image
 ||data.taschen.com/gtm.js
 ||data.terabox.com/issue/terabox/terabox_cdn_resource\pic\bg_video_quality_privilege.gif
 ||data.terabox.com/issue/terabox/terabox_cdn_resource\pic\video_accelerate_guide_new.gif
+||data.u.software^$third-party
 ||data.wiris.cloud/telemetry/
 ||databrain.com^$third-party
 ||databreakers.com^$third-party
@@ -109441,7 +109434,6 @@ zonedirector.avadacom.com$image
 ||freeprivacypolicy.com/track/
 ||freesitemapgenerator.com^$third-party
 ||freestat.ws^$third-party
-||freestats.biz^$third-party
 ||freestats.com^$third-party
 ||freestats.net^$third-party
 ||freestats.tv^$third-party
@@ -109450,8 +109442,6 @@ zonedirector.avadacom.com$image
 ||freeusersonline.com^$third-party
 ||freevisitorcounters.com^$third-party
 ||freeweblogger.com^$third-party
-||freihit.de^$third-party
-||fremaks.net^$third-party
 ||fresh.inlinkz.com^$third-party
 ||freshclip.tv/tracking/
 ||freshcounter.com^$third-party
@@ -110205,6 +110195,7 @@ zonedirector.avadacom.com$image
 ||hd.mirdrujbajvachka.ru/stat
 ||hdmz.co/site/user_geo
 ||hdnux.com/hnp/stats/page_view?
+||hdrezka.ax/api/logs/event
 ||hdslb.com/bfs/cm/cm-sdk/static/js/bili-collect.js$script,redirect=noopjs,domain=bilibili.com,important
 ||he2d.com^$third-party
 ||headshot.monster^$all
@@ -110551,7 +110542,6 @@ zonedirector.avadacom.com$image
 ||i.s-microsoft.com/wedcs/ms.js
 ||i.snssdk.com^$domain=~i.snssdk.com
 ||i1.vivocha.com/a/*/api/vvct.gif?ev=
-||i22lo.com^$third-party
 ||i2ad.jp^$third-party
 ||i2i.jp/bin/
 ||i2i.jp^$third-party
@@ -112653,7 +112643,6 @@ zonedirector.avadacom.com$image
 ||mxradon.com^$third-party
 ||my-best.com^$cookie=mybest_uuid
 ||my-ranking.de^$third-party
-||my-stats.info^$third-party
 ||my.club^$cookie=my_club_guestid
 ||my.club^$cookie=my_club_guestuuid
 ||my.kapook.com/asset/js/track.js
@@ -113007,7 +112996,6 @@ zonedirector.avadacom.com$image
 ||nofraud.com^*/customer_code.js
 ||noibu.com^$third-party
 ||nojscontainer.pepperjam.com^$third-party
-||nokaut.link^$third-party
 ||non.li^$third-party
 ||noodlemagazine.com/api/stats?
 ||noodshare.pics^$all
@@ -113294,7 +113282,6 @@ zonedirector.avadacom.com$image
 ||openstat.net^$third-party
 ||opensubtitles.org/gfx/banners_campaigns/2x2.gif
 ||opentracker.net^$third-party
-||opentracking.ru^$third-party
 ||openvenue.com^$third-party
 ||openway.deepseeksvc.com/v*/write/rum
 ||openweb.bid^$third-party
@@ -113589,7 +113576,6 @@ zonedirector.avadacom.com$image
 ||pdffiller.com/mpages/track/
 ||pdfforge.org/api/kd-gdpr-cc
 ||pdmntn.com^$third-party
-||pdmp.jp^$third-party
 ||pdrnetwork.112.2o7.net/b/ss/pdrnetworkpdrnetprod/$image,redirect=2x2-transparent.png,important
 ||pdst.fm^$script,third-party
 ||peach-static.ebu.io/pipe-*.min.js
@@ -114001,6 +113987,8 @@ zonedirector.avadacom.com$image
 ||primicias.ec/track/pageviews/
 ||princetonreview.com/logging/
 ||print24.com/api/*/analytics/
+||prisjakt.no/_next/monitoring
+||prisjakt.no/rbr9/
 ||prisjakt.nu/js.php?p=trafikfonden
 ||prism.app-us1.com^$script,third-party
 ||prisma.io/gastats.js
@@ -114567,6 +114555,7 @@ zonedirector.avadacom.com$image
 ||remind.me^$third-party
 ||renderbetter.net^$third-party
 ||renotifier.miniclippt.com/rntracking.js
+||rent.com/api/analytics|
 ||rentracks.jp^$third-party
 ||rep0pkgr.com^$third-party
 ||repixel.co^$third-party
@@ -115213,7 +115202,6 @@ zonedirector.avadacom.com$image
 ||semiocast.com^$third-party
 ||semnicneposilejte.cz^$third-party
 ||sempra.pro/stat/
-||semtracker.de^$third-party
 ||sendpulse.com^$third-party
 ||sendsay.ru/js/target/tracking.js
 ||sendtonews.com/player/loggingajax.php?
@@ -115287,6 +115275,7 @@ zonedirector.avadacom.com$image
 ||servizi.unionesarda.it/controlli/
 ||servo-report.dvdfab.
 ||servustats.com^$third-party
+||session-api.cloud.pji.nu/sessions/*/events
 ||sessioncam.com^$third-party
 ||sessionstack.com^$third-party
 ||sex-studentki.pro/system/stat/
@@ -116797,7 +116786,6 @@ zonedirector.avadacom.com$image
 ||themanual.com^$cookie=dtpageviewid
 ||themescientist.app/*/event.json
 ||themesltd.com/online-users-counter/$third-party
-||thench.net^$third-party
 ||thenextweb.com/geppetto/s.js
 ||theoplayer.com/t?
 ||theporn.cc/anyalytics?
@@ -116997,7 +116985,6 @@ zonedirector.avadacom.com$image
 ||topolino.it^*/omniture.php?
 ||topsem.com^$third-party
 ||topshop.com/wcsstore/consumerdirectstorefrontassetstore/images/trans_pixel.gif
-||topsite.lv^$third-party
 ||topstat.cn^$third-party
 ||topstat.com^$third-party
 ||toptracker.ru/buttons/counter.gif
@@ -117354,7 +117341,6 @@ zonedirector.avadacom.com$image
 ||tsukuba.ac.jp/assets/js/ga4.js
 ||tt.ttarget.ru^$third-party
 ||ttic.ru/counter^$third-party
-||ttrace.ru^$third-party
 ||tubedupe.com/js/kernelteam$script
 ||tubedupe.com/js/td_track.js
 ||tubemogul.com^$third-party
@@ -117989,7 +117975,6 @@ zonedirector.avadacom.com$image
 ||voxmedia.com/beacon-min.js
 ||voxus.com.br^$third-party
 ||voyeur-house.tv/js/track.js
-||vpn-access.site^$third-party
 ||vprza.com^$third-party
 ||vpsbenchmarks.com/plausible.vpsb.js
 ||vrbo.com/edap/elo/v1/event/beacon
