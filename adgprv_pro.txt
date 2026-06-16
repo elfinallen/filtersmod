@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-06-15 17:12:00 UTC
-! Total Rules: 118895
+! Last Updated: 2026-06-16 03:51:02 UTC
+! Total Rules: 118897
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -110203,6 +110203,7 @@ zonedirector.avadacom.com$image
 ||healf.com^$cookie=/^ph_phc_/
 ||healte.de^$third-party
 ||health.com/*googletagmanager.com*gtm.js
+||health.ems.onet.pl/*/metric/collector
 ||healthline.com/api/metrics
 ||heapanalytics.com^$third-party
 ||hearstmags.com^*/hdm-lib_hearstuser_proxy.html$third-party
@@ -115219,6 +115220,7 @@ zonedirector.avadacom.com$image
 ||sentry-cdn.com^$third-party,domain=~sentry.dev|~sentry.io
 ||sentry-cdn.top^$third-party
 ||sentry.io^$third-party
+||senvio.ai/api/*/events/
 ||seo-master.net^$third-party
 ||seoab.io^$third-party
 ||seogift.ru^$third-party
