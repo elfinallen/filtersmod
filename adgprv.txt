@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-06-16 03:51:02 UTC
-! Total Rules: 11271
+! Last Updated: 2026-06-16 16:46:31 UTC
+! Total Rules: 11273
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -2841,7 +2841,6 @@
 /vendor/cedexis/*
 /vestigo/v1/measure
 /vglnk.js
-/via/o?h=
 /video-ga.js
 /video.counters.
 /video.counters.2.js?
@@ -5337,6 +5336,7 @@
 ||developpez.com/public/js/log.js
 ||devicebind.ebay.com/signin/sub/log
 ||devtribu.fr/t.php?
+||dex.hu/x.php
 ||df.cfp.microsoft.com/images/clear.png
 ||df.infra.shopee.
 ||df.infra.sz.shopee.
@@ -5573,6 +5573,7 @@
 ||ebookers.com/cl/2x2.gif?
 ||ebs.co.kr/js/weblogs/nethru/wlo.js
 ||ec-apis.newegg.com/amber3/tracking
+||economx.hu/ident-fingerprint/
 ||ecranlarge.com/stat
 ||edge-hls.doppiocdn.com/ping
 ||edge-hls.doppiocdn.live/ping
@@ -6291,6 +6292,7 @@
 ||google.com/gsi/log?
 ||google.com/images/phd/gfl.gif
 ||google.com/images/phd/px.gif
+||google.com/measurement/
 ||google.com/pagead/1p-conversion/
 ||googleadservices.com/pagead/conversion_async.js
 ||googleapis.com/aam.js

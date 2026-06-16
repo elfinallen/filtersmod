@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-06-16 03:51:02 UTC
-! Total Rules: 5804
+! Last Updated: 2026-06-16 16:46:31 UTC
+! Total Rules: 5805
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -1973,13 +1973,13 @@
 ||cdn.autoevolution.com/_js/prebid*.js
 ||cdn.aznude.com/js/dating.json
 ||cdn.aznude.com/player/v*/vast-no-entitlements.js
-||cdn.bullion.media/custom_units/video-strip-master.js
 ||cdn.cnn.com/ads/
 ||cdn.concert.io/lib/concert-ads/
 ||cdn.cuty.io/fps.js
 ||cdn.dotaoutpost.com/stable/js/wowhead.js
 ||cdn.galacg.me/img/*.gif
 ||cdn.galacg.me/img/*.jpg
+||cdn.gsmarena.com/vv/assets*/js/_pf-*.js
 ||cdn.haokongbu1.com^*.js
 ||cdn.hotscope.tv/assets/ai/video-
 ||cdn.jsdelivr.net/gh/*/js/adsenseads.min.js
@@ -2004,7 +2004,6 @@
 ||cdn.shdsp.net/ad
 ||cdn.statically.io/gh/ad-shield/
 ||cdn.staticaly.com/gh/arlina-design/*/arlinablock.js
-||cdn.staticmoly.me/vlock.php?
 ||cdn.tapioni.com/asg_embed.js
 ||cdn.uameta.ai/file/bucket-media/image/advertisement/
 ||cdn.viously.com/js/sdk/boot.js
@@ -2119,6 +2118,7 @@
 ||cilimao.*/amaod/
 ||cilipa.com^*0.js
 ||cineby.*/scripts/os.js
+||cinesrc.st/burger.js
 ||citysbs.com/chongqing/*/1920x179-
 ||citysbs.com/no/*/1190x60-
 ||citysbs.com/no/*/650x50-
@@ -2629,7 +2629,6 @@
 ||fang.com/house/ajaxrequest/advertlget.
 ||fang99.com^*/advjs/
 ||fanhaodang.org/runtime/js/
-||fanmtl.com/*/js/ad/*.js
 ||fanquanwang.com/uploads/ad/
 ||fans.*.space/fans/*.php
 ||fanyi.baidu.com/wise/afd
@@ -3097,6 +3096,7 @@
 ||hoopchina.com.cn/web/channel/voice/*/beforelogin/beforelogin.js
 ||hoopchina.com.cn/web/widget/partner/*/promote.js
 ||hoopchina.com.cn^*/ad-pc-sdk.
+||hornygamer.com/play_horny_games/
 ||hornysimp.com/style-core.js
 ||hotavxxx.com/images/*96
 ||hoteastday.com/newspc/show?
@@ -4845,6 +4845,7 @@
 ||slickdeals.net/ad-stats/
 ||slit.cn/slimages/
 ||sm.ign.com/zdadkit*.js
+||smaki.pl/_static/ads-*.js
 ||smartdestinations.com/ai/
 ||smqzj.com/seo.js
 ||smzy.com/v1/img/
@@ -4938,6 +4939,7 @@
 ||starnnews.com/banner/
 ||startpage.com/*/adsense/search/async-ads.js
 ||static-cdn.spot.im/production/ads/tags/v*/ads/ads.js
+||static.android.com.pl/plugins/acp-campaigns/
 ||static.androidiani.com/wp-content/themes/androidianiv*/js/fckblock.js
 ||static.c4assets.com/all4-ad-code/latest/adverts.js
 ||static.chinatimes.com/scripts/2019/ad2019.min.js
@@ -5301,7 +5303,6 @@
 ||videowood.tv/popjavascript
 ||vidlink.pro/api/mercury
 ||vidlink.pro/api/venus
-||vidmoly.*/static/vastad.js
 ||vip.luanren.com/data/*.gif
 ||vip.video.qq.com/rpc/trpc.vip_ad_promotion
 ||vipdage.com/wp-content/uploads/ad/

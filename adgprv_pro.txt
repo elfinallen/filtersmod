@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-06-16 03:51:02 UTC
-! Total Rules: 118897
+! Last Updated: 2026-06-16 16:46:31 UTC
+! Total Rules: 118447
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -495,39 +495,10 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 $domain=nzherald.co.nz,permissions=geolocation=()
 $ping,third-party
 $third-party,xmlhttprequest,domain=opensubtitles.org
-%2f%2flinks.*.com%2fe%2feo%3f_t%3d$image
-%2f%2flinks1.*.com%2fq%2f*$image
-%2f%2fp.liadm.com%2fimp%3fs%3d$image
-%2fa360%2fpublic%2fstatistic%2f$image
-%2famsweb.php%3f
-%2fci0%2f0$image
-%2fe%2ffooterimages%2f$image
-%2fe3t%2fcto%2f$image
-%2feos%2fv1%2f$image
 %2fevent.gif%3f
-%2fgp%2fr.html%3fc%3d*%26ref_%3dpe_*_open$image
-%2fo.gif%3fmi_u%3d$image
 %2fo.gif&
-%2foo%2f*%2fe.gif$image
-%2fopen.aspx$image
 %2fopen.aspx%3f
-%2fpix.gif%3f$image
-%2fpixel%3fc%3d$image
-%2fpub%2fas%3f_ri_%3d$image
-%2fq%2f*~~%2f$image
-%2fr%2f%3fid%3d$image
 %2frw%2fbeacon_
-%2fs%2feo%2f$image
-%2fsenp.png%3f$image
-%2fss%2fo%2f*%2fho.gif$image
-%2ft%*%2fa^$image
-%2ftf%2fo%2f$image
-%2ftrack%2fopen.php%3fu%3d$image
-%2fvia%2fo%3fh%3d
-%2fwf%2fopen%3fupn%3d$image
-%3a%2f%2fe.*%2fopen%3f$image
-%3a%2f%2fline.karte.io%2fci0%2f$image
-%3a%2f%2ft.paypal.com%2fts%3fv%3d$image
 &&sub19=undefined&sub20=undefined
 &action=js_stats
 &cx=c&gtm=
@@ -612,7 +583,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .arcor.de/pixel/
 .arnostat.nl/click.
 .aveda.com/t/$image
-.awstrack.me$image
 .awstrack.me/$image
 .ay.delivery^
 .backblaze.com/e2t/$image
@@ -625,9 +595,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .bluekai.com/*?e_id_
 .bmetrack.com/c/$image
 .bosch-homecomfort.com/op/$image
-.bzzgroup.cn$image
-.cc.rs6.net%2fon.jsp$image
-.cc.rs6.net/on.jsp$image
 .cf/gif/impression?
 .cloudfront.net/br?tid=
 .cmail19.com/t/$image
@@ -636,13 +603,10 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .cn/b.gif?
 .co/gc?id=$domain=nzma.org.nz
 .co/gr?id=
-.com%2f_t%2fopen%2f$image
-.com%2fe%2fo%2f$image
 .com.br/cliente/trackremote^|
 .com.br/tracking.set^|
 .com/?rb=$xmlhttprequest
 .com/_.gif?
-.com/_t/open/$image
 .com/a.gif?
 .com/api/stats?t=$xmlhttprequest,ping
 .com/b.gif?
@@ -652,7 +616,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .com/count?
 .com/counter?
 .com/dc.gif?
-.com/e/o/$image
 .com/g.gif?
 .com/hit$ping
 .com/i.gif?
@@ -666,9 +629,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .content_tracking.js
 .crsend.com/stats/$image
 .ct.sendgrid.net/$image
-.cuenote.jp%2fc%2f*.gif$image
 .cuenote.jp/c/*.gif
-.cuenote.jp/c/*.gif$image
 .de/bi/d*$domain=come-on.de|merkur.de|hna.de|serienjunkies.de|fr.de|ovb-online.de|mangfall24.de|wasserburg24.de|bgland24.de|innsalzach24.de|rosenheim24.de|chiemgau24.de
 .de/l.gif?
 .de/pt.gif?type=
@@ -679,8 +640,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .doctolib.de/tr/op/$image
 .doubleclick.net/$image
 .duolingo.com/open/
-.e-mailnews.de%2fi%2f$image
-.e-mailnews.de/i/$image
 .efeedbacktrk.com/$third-party
 .elaine-asp.de/action/view/$image
 .eloqua.js
@@ -691,16 +650,12 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .eurowings.com/cl.aspx?$image
 .eventim.de/op/$image
 .eventtracking.
-.everestengagement.com%2fea%2f$image
 .everestengagement.com/$image
-.everestengagement.com/ea/$image
 .eviq.org.au/cmsmodules/$image
-.exponea.com%2f*%2fopen$image
 .exponea.com/*/open$image
 .facebook.com/tr/$image
 .facebook.com/tr?$image
 .file-downloads.outbound-links.js
-.fiverr.com%2fjs_event_tracking%2fv1%2ftrack_email_open%2f$image
 .fiverr.com/js_event_tracking/v1/track_email_open/$image
 .flipboard.com/usage?
 .gatracking.js
@@ -730,8 +685,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .intercom-mail.com/via/$image
 .inxmail-commerce.com/tracking/$image
 .inxserver.com/transparent.gif
-.io%2fe%2fo%2f$image
-.io/e/o/$image
 .jp/analyze/
 .jp/b.gif?
 .jp/c.gif?
@@ -785,9 +738,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .na1.hs-sales-engage.com/$image
 .na1.hubspotlinks.com/$image
 .ne16.com/do/
-.net%2fe%2fo%2f$image
 .net/api/stats?t=$xmlhttprequest,ping
-.net/e/o/$image
 .net/l.gif?
 .netcologne.de/-open2/$image
 .no/app/aas/a
@@ -815,7 +766,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .providesupport.com/cmd/*?ps_t=
 .pstmrk.it/open^
 .publish0x.com/t/
-.pulse-stat.com$image
 .qualtrics.com/subscription/watermark.gif?
 .quora.com/qemail/mark_read?
 .recolution.de/tools/emails/open/$image
@@ -827,10 +777,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 .secureserver.net/bbimage.aspx?
 .sendcloud.net/track/$image
 .sendemail.gate.io/o/$image
-.sendibm1.com%2fmk%2fop%2f$image
 .sendibm1.com/*.gif?
 .sendibm1.com/mk/
-.sendibm1.com/mk/op/$image
 .sendibt2.com/tr/op/$image
 .sendibt3.com/tr/op/$image
 .sharecounter.$third-party
@@ -990,7 +938,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /a.gif?
 /a/elevar/static/*
 /a/performance_timing/*
-/a360/public/statistic/*$image
 /a8c-analytics.js
 /aap/stats
 /ab_track.js
@@ -1111,7 +1058,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /amp/pingback?
 /amp_pingback/*
 /amplitude-*-min.gz.js
-/amsweb.php?$image
 /analyse.js
 /analysis-logger/*
 /analysis/accesslog?
@@ -1869,8 +1815,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /dynatracemonitor?
 /e.customeriomail.com/e/o/*$image
 /e.gif?
-/e/footerimages/*$image
-/e3t/cto/*$image
 /e_stat?g_id=
 /eatms.js
 /ecanalytics.js
@@ -1920,7 +1864,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /ent_counter?
 /entry_stats?
 /eo?_t=$image
-/eos/v1/*$image
 /err/js/?url=
 /err0r/rum/*
 /error/js/log?
@@ -2244,7 +2187,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /googletracking.js
 /gosquared.js$script
 /gp/r.html?$image
-/gp/r.html?c=*&ref_=pe_*_open$image
 /gp/video/acquisition/utilities/monitoring|$domain=primevideo.com|amazon.*
 /grabify.link\/[0-9a-z]{6,8}$/$domain=grabify.link,all
 /graphql/track-pageview$xmlhttprequest
@@ -2806,7 +2748,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /mormont.js
 /mpel/mpel.js
 /mpixel.js
-/mpss/o/*$image
 /mpulse.js
 /mpulse.min.js
 /mrlitelogger.$image,script
@@ -2877,7 +2818,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /ntrack.asp?
 /null.gif?
 /o.gif?
-/o.gif?mi_u=$image
 /o/o.gif
 /o_code.js
 /o_tealium.js
@@ -2904,7 +2844,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /onetag/*
 /onl/track.php?
 /onlinecount.php
-/oo/*/e.gif$image
 /oo/*/l.js
 /oo/*/l.js|$~third-party
 /oo/*/lsync.
@@ -2917,10 +2856,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /op/op1.js?v=$script
 /opdc.js
 /ope-adalliance.js
-/open.aspx$image
 /open.aspx?
 /open.html?$image
-/open.html?x=$image
 /open/?ot=$image
 /open/log/*
 /open?token=$image
@@ -3069,7 +3006,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /pix-ddc-fp.min.js
 /pix.fcg?
 /pix.gif?
-/pix.gif?$image
 /pixall.min.js
 /pixel-caffeine/build/frontend.js
 /pixel-manager.js?
@@ -3096,7 +3032,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /pixel/view?
 /pixel/visit?
 /pixel2.gif?
-/pixel?c=$image
 /pixel?cid=
 /pixel?tag=
 /pixel_identifier.js
@@ -3273,7 +3208,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /pxrc.php
 /pxre.php
 /pxtrack.js
-/q/*~~/*$image
 /qapcore.js
 /qlitics.js
 /qlog/add?userid=
@@ -3284,7 +3218,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /quotaservice.recordevent?
 /r.gif?
 /r.rnc?
-/r/?id=$image
 /r/collect?
 /radar/trace?
 /radioanalytics.js
@@ -3401,7 +3334,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /s-pcjs.php
 /s.gif?
 /s.png?event=
-/s/eo/*$image
 /s/js/ta-2.3.js?
 /s/s/js/m/om.js?v=
 /s/vestigo/measure
@@ -3463,7 +3395,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /sendlogs?cid
 /sendmail.backerupdate.com/t/*
 /sendy/t/*$image
-/senp.png?$image
 /sensor.modern.ncl.min.js
 /sensor/statistic?
 /sensorsdata-
@@ -3607,7 +3538,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /srp.gif?
 /srpc.js?ssss
 /ss/o/*.gif
-/ss/o/*/ho.gif$image
 /ssl-intgr-net/*
 /ssocore/update?
 /sst8.js
@@ -3778,7 +3708,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /t.notificationmail.microsoft.com/r/?id=$image
 /t.paypal.com/*$image
 /t.yesware.com/t/*$image
-/t/*/a^$image,domain=~permies.com
 /t/event.js?
 /t/event?
 /t/ofc4/*$image
@@ -3823,7 +3752,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /tealiumanalytics.js
 /tealiumtagsdata.js
 /tenant.min.js
-/tf/o/*$image
 /thermostat.js
 /thetracker.js
 /thixel.js
@@ -3900,7 +3828,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /track/impression?
 /track/impressions?
 /track/open.php?
-/track/open.php?u=$image
 /track/open/*$image
 /track/open?
 /track/pageview?
@@ -4177,7 +4104,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /vendor/cedexis/*
 /vestigo/v1/measure
 /vglnk.js
-/via/o?h=
 /video-ga.js
 /video.counters.
 /video.counters.2.js?
@@ -5358,7 +5284,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 30788.ftp-qa1.marketingcloudqaops.com$image
 30798.connector-qa1.marketingcloudqaapis.com$image
 3088.connector-qa1.marketingcloudqaapis.com$image
-30menu.com/_t/$image
 3102.sock-qa1.marketingcloudqaops.com$image
 31106.sock-qa1.marketingcloudqaops.com$image
 31153.ftp-qa1.marketingcloudqaops.com$image
@@ -5404,8 +5329,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 3369.sock-qa1.marketingcloudqaops.com$image
 3395.connector-qa1.marketingcloudqaapis.com$image
 3395.sock-qa1.marketingcloudqaops.com$image
-33mail.com%2fpage%2fopened$image
-33mail.com/page/opened$image
 343.sock-qa1.marketingcloudqaops.com$image
 3438.connector-qa1.marketingcloudqaapis.com$image
 3518.connector-qa1.marketingcloudqaapis.com$image
@@ -5916,7 +5839,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ://l.*/counter.php?id=$script,~third-party
 ://l.*/script.php?i=$script,~third-party
 ://lightning.*/launch/
-://line.karte.io/ci0/$image
 ://links.*/s/eo/$image
 ://links.paypal.*/eos/$image
 ://load.*.js?st=$~third-party
@@ -5950,9 +5872,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ://stats.*/code/e.js
 ://t.*/open^$image
 ://t.order.*/r/?id=$image
-://t.paypal.com/ts?v=$image
 ://t.targito.
-://t1.*.sbs.com.au/r/$image
 ://tagging.*.js?aw=
 ://tagging.*.js?id=gtm-
 ://tagging.*/settings.js
@@ -6045,7 +5965,6 @@ a2email.sharpchad.com$image
 a2email.yourknifeguy.com$image
 a2email.yourknifeguyrobert.com$image
 a51lixg3ujtwar7v.johnnymurray.com$image
-aa.agkn.com$image
 aaa.avadacom.com$image
 aatyu.livedoor.blog#?#.article > div.plugin-memo:has(> div.side > div.ninja-recommend-block)
 abc.net.au#%#//scriptlet('set-local-storage-item', 'snowplowoutqueue_presentation layer', '$remove$')
@@ -6054,7 +5973,6 @@ abema.tv#%#//scriptlet('remove-node-text', 'script', 'nreum')
 abema.tv#%#//scriptlet('ubo-rmnt', 'script', 'nreum')
 abema.tv$$script:contains(nreum)
 abilbao.mg.abilbao.cl$image
-ablink.hi.channel4.com$image
 abp?type=js&session$domain=prosieben.de|sat1.de|kabeleins.de|sixx.de|prosiebenmaxx.de
 abyoc-test2.venafi.testqa.02022024.sfmc-tlsprovisioningqa.com$image
 ac-email-tracking.1105hdybcgxcms-email.addcomm.io$image
@@ -6085,7 +6003,6 @@ accuweather.com,acmemarkets.com,aiskillsnavigator.microsoft.com,boston.com,capez
 aceee.org#%#//scriptlet('prevent-canvas', '2d')
 action.mail.ys983.com$image
 activate.avadacom.com$image
-ad.doubleclick.net*trackimp$image
 ad2.avadacom.com$image
 ada.moseasia.com$image
 addons.mozilla.org#%#//scriptlet('href-sanitizer', 'a[href^="https://prod.outgoing.prod.webservices.mozgcp.net/"]:not([title]')
@@ -6233,8 +6150,6 @@ ae.medicalaffairs.kalvista.com$image
 ae.medisonpharma.com$image
 ae.medpro.lorealactivecosmetics.com$image
 ae.mg.santis.de$image
-ae.mmstat.com%2fae.edm.edm_open%3f$image
-ae.mmstat.com/ae.edm.edm_open?$image
 ae.mr.takeda.com$image
 ae.nam.jazzpharma.com$image
 ae.namail.bavarian-nordic.com$image
@@ -6325,8 +6240,6 @@ al.com,attackofthefanboy.com,destructoid.com,edmontonsun.com,gamepur.com,gamerjo
 alba.alalikexpress.com$image
 album.moseasia.com$image
 alert.avadacom.com$image
-alicrm.alibaba.com%2fouter%2femail%2fsetreadstatus.html
-alicrm.alibaba.com/outer/email/setreadstatus.html
 all.videocdn.moseasia.com$image
 allegro.moseasia.com$image
 allrecipes.com#%#//scriptlet('set-local-storage-item', '/_fpi|_duid/', '$remove$')
@@ -6364,20 +6277,11 @@ antispam.mg.razock.com$image
 antispam.pottsalat.happycustomer.io$image
 antispam.qof.happycustomer.io$image
 anubis.webspecmail.com$image
-aozorabank.co.jp%2fr%2f*%2fopen%2f$image
-aozorabank.co.jp/r/*/open/$image
 ap1.webspecmail.com$image
 apache.avadacom.com$image
 apc.avadacom.com$image
 aphrodite.avadacom.com$image
-api-euo.temu.com%2fcallback%2fdoha%2fopen%2ftrack%3f
-api-euo.temu.com/callback/doha/open/track?
 api-stg.click.s11.sfmc-osl.com$image
-api.mixpanel.com/track$image
-api.peeper.plus.yandex.net%2fv1%2fp%2f$image
-api.peeper.plus.yandex.net/v1/p/$image
-api.transferwise.com%2fv1%2fnotification-flow%2f$image
-api.transferwise.com/v1/notification-flow/$image
 apinto.avadacom.com$image
 apinto.moseasia.com$image
 apisix.avadacom.com$image
@@ -6386,18 +6290,7 @@ apkpure.*#%#//scriptlet('set-constant', '$$.analytics.send', 'noopfunc')
 apkpure.com#%#//scriptlet('remove-node-text', 'script', '/deviceid|__apkpurefirstinteractiontype|fingerprintjs|pvid/i')
 apkpure.com#%#//scriptlet('set-local-storage-item', '__beacon_deviceid', '$remove$')
 apnews.com,artforum.com,artnews.com,billboard.com,calgaryherald.com,calgarysun.com,crooksandliars.com,deadline.com,dpreview.com,driving.ca,financialpost.com,goldderby.com,golfdigest.com,hollywoodreporter.com,indiewire.com,lfpress.com,nationalpost.com,nbcsports.com,ottawasun.com,robbreport.com,rollingstone.com,sherdog.com,sidereel.com,superherohype.com,techcrunch.com,torontosun.com,vancouversun.com,variety.com,vibe.com,windsorstar.com,wwd.com#%#//scriptlet('ubo-acs', 'document.getelementsbytagname', '.pubads')
-apo-prod.adobe.io%2fpo-server%2flink%2fopen$image
-apo-prod.adobe.io/po-server/link/open$image
-app.businessmaking.progress.net%2fe%2f*%3felq%3d$image
-app.businessmaking.progress.net/e/*?elq=$image
-app.c.bloomberg.com$image
-app.frontapp.com%2fapi%2f1%2fnoauth%2fcompanies%2falternstiveto%2fseen%2fmsg_$image
-app.frontapp.com/api/1/noauth/companies/alternstiveto/seen/msg_$image
-app.growave.io*statimg$image
 app.mellstroy.website$image
-app.outreach.io$image
-app.relateiq.com/t.png$image
-app.site123.com$image
 app.spectacularacademy.com$image
 app.tirelocator.ca#%#//scriptlet("set-constant", "googleanalyticsenhancedtrackevent", "noopfunc")
 app.tirelocator.ca#%#//scriptlet("set-constant", "googleanalyticsenhancedtrackpageview", "noopfunc")
@@ -6497,7 +6390,6 @@ astra.avadacom.com$image
 astro.webspecmail.com$image
 athabascau.ca#%#//scriptlet("set-constant", "wurfl", "emptyobj")
 atlantic.avadacom.com$image
-atlassian-trk.prd.msg.ss-inf.net$image
 ats-mail.eqt.com$image
 audio.avadacom.com$image
 audiobb.com##.sidebar > #custom_html-4
@@ -6539,8 +6431,6 @@ autodiscover.admin.avadacom.com$image
 automesseweb.jp#?##_popin_ranking:upward(.code_php_in_widget)
 aww.e.aremedia.com.au$image
 azrhymes.com#%#//scriptlet('set-local-storage-item', 'visitor_hash', '$remove$')
-b.k3r.jp%2f%3fa=$image
-b.k3r.jp/?a=$image
 b.kyodo.co.jp##.banner-area-entry + h3.category-title
 babyhorizon.zola.com$image
 babylink.zola.com$image
@@ -6578,7 +6468,6 @@ bismarck.townsquaremedia.info$image
 bitdefender.com#$#body[style="opacity: 0;"] { opacity: 1 !important; }
 biteki.com#$?#.slick-slide > div[id] + script:upward(1) { remove: true; }
 bizjournals.com##.c1-ad-sticky
-bl-1.com$image
 blog.fc2.com#?#.side-menu > div.sidebar-style > script[src^="//counter1.fc2.com/"]:upward(2)
 blog.fc2.com#?#div[class$="_outline"] > div > div.plugin-counter:upward(2)
 blog.jp#?#.plugin-memo > div.side > div > div[id^="blz_rss"]:upward(3)
@@ -6586,10 +6475,8 @@ blog.livedoor.jp##a[href="http://analyzer.fc2.com"]
 blogterest.net#?#.blockside > div.blockwrapper > div > div.ninja-recommend-block:upward(2)
 bloomberg.com#%#//scriptlet('set-local-storage-item', '/statsig|youboradeviceuuid/', '$remove$')
 bm.tuplemarketing.com$image
-bmo.mercari.jp/?s$image
 bmqn8teqat5mh8ce.beta.mercury.ai$image
 bolighub.dk#%#//scriptlet('ubo-acs', 'document.getelementsbytagname', 'gtm.js')
-bolt.im/t/$image
 bon.chanceaufkredit.com$image
 boredpanda.*#%#//scriptlet('set-local-storage-item', 'bp-analytics', '$remove$')
 borfilm.com,hronika.info##.count
@@ -6614,9 +6501,6 @@ businessinsider.jp##div[class^="article_specialfeature_"]
 businessinsider.jp##div[class^="displayhandler"]:has(> div[class^="premiumrecommend"])
 businessinsider.jp##div[class^="premiumrecommend_articles__"]
 businessinsider.jp##div[class^="recommendarticleslist_recommend__"]
-c.crm-em.com$image
-c.groovehq.com%2f*.gif$image
-c.groovehq.com/*.gif$image
 c.kbb.com$image
 c.mail.relevanceai.com$image
 c.tyb.xyz$image
@@ -6644,8 +6528,6 @@ cccp.es.relay.walmart.com$image
 cccp.relay.walmart.ca$image
 cccp.relay.walmart.com.mx$image
 cd.quickpage.email$image
-cdn.shopify.com%2fshopifycloud%2fshopify%2fassets%2fthemes_support%2fnotifications%2fspacer-$image
-cdn.shopify.com/shopifycloud/shopify/assets/themes_support/notifications/spacer-$image
 cemail.thnks.com$image
 cend.baygardensresorts.com$image
 cerbahealthcare.it#%#//scriptlet('set-constant', 'pa', 'emptyobj')
@@ -6785,11 +6667,8 @@ cl.email.zuai.co$image
 cl.exactt.com$image
 cl.hotels.exactt.net$image
 cl.info.lululemon.com$image
-cl.melonbooks.co.jp$image
 cl.messages.hannaford.com$image
 cl.mittanbud.no$image
-cl.mos.jp%2fq%2f$image
-cl.mos.jp/q/$image
 cl.response2.bestbuy.com$image
 cl.softwaresubscription2.bestbuy.com$image
 cleverfit.fitness-konzepte.de#%#//scriptlet('set-local-storage-item', 'one_stats_metadata', '$remove$')
@@ -6800,7 +6679,6 @@ click-email.evergreendisposalrecycling.com$image
 click-email.multnomahcountydropbox.com$image
 click-email.tcd.us.com$image
 click-old.email.realestate.com.au$image
-click.*.mc.philips.com$image
 click.013.tmmsg.com$image
 click.1-800-tocover.com$image
 click.a.amaysim.com.au$image
@@ -6997,7 +6875,6 @@ click.contact.alaska.edu$image
 click.contact.disneystore.com$image
 click.contact.ethnikiasfalistiki.gr$image
 click.contact.flycorsair.com$image
-click.contact.kamalaharris.com$image
 click.contact.wkar.org$image
 click.contactmyeasysante.com$image
 click.contacto.volkswagen.mx$image
@@ -7048,7 +6925,6 @@ click.digital.bv.com.br$image
 click.digital.govia.com.au$image
 click.digital.halldata.com$image
 click.directa.buenosaires.gob.ar$image
-click.discord.com$image
 click.discover.nyit.edu$image
 click.disneydebit.com$image
 click.divulga.mktsebrae.com.br$image
@@ -7081,7 +6957,6 @@ click.e.bbcmail.co.uk$image
 click.e.business.officedepot.com$image
 click.e.carnet.vw.com$image
 click.e.carsguide.com.au$image
-click.e.change.org$image
 click.e.chicosofftherack.com$image
 click.e.clifbar.com$image
 click.e.coh.org$image
@@ -7330,7 +7205,6 @@ click.email.allenedmonds.com$image
 click.email.americastestkitchen.com$image
 click.email.amfamconnect.com$image
 click.email.anaconda.com.au$image
-click.email.ancestry.com$image
 click.email.anesthesiapartners.com$image
 click.email.anico.com$image
 click.email.anthem.com$image
@@ -7410,7 +7284,6 @@ click.email.ct.hearstdigitalnews.com$image
 click.email.cuponation.com$image
 click.email.dallascowboys.com$image
 click.email.davidjones.com.au$image
-click.email.deadline.com$image
 click.email.deltadentalwa.com$image
 click.email.deltaemag.com$image
 click.email.dewalt.com.au$image
@@ -7643,7 +7516,6 @@ click.email.vanorden4congress.com$image
 click.email.vans.com$image
 click.email.vantislife.com$image
 click.email.verybestbaking.com$image
-click.email.vimeo.com$image
 click.email.vit.vic.edu.au$image
 click.email.vivalon.org$image
 click.email.vonage.com$image
@@ -7690,7 +7562,6 @@ click.emails.mancity.com$image
 click.emails.marshallheadphones.com$image
 click.emails.orange-business.com$image
 click.emails.patelco.org$image
-click.emails.paypal.com$image
 click.emails.pcinsurance.ca$image
 click.emails.playtex.fr$image
 click.emails.plumbenefits.com$image
@@ -7872,7 +7743,6 @@ click.i.aramex.com$image
 click.i.auctionaccess.com$image
 click.i.hepsiburada.com$image
 click.i.southwesternrailway.com$image
-click.icptrack.com/icp/$image
 click.ie.abbvie.com$image
 click.ifp.uhc.com$image
 click.iloqal.com$image
@@ -7956,7 +7826,6 @@ click.inside.subbyx.com$image
 click.insideindianabusiness.news$image
 click.insider.mastersofthestockmarket.com$image
 click.insights.spotwebinars.com$image
-click.instahyre.com$image
 click.insurance.bmsgroup.com$image
 click.intu.tmmsg.com$image
 click.ironworksvenue.tmmsg.com$image
@@ -8161,7 +8030,6 @@ click.mailer.lemonaidhealth.com$image
 click.mailer.mixmeister.com$image
 click.mailer.mojo.nl$image
 click.mailer.sgcarmart.com$image
-click.mailersend.net$image
 click.mailing.culligan.com$image
 click.mailing.guiabolso.com.br$image
 click.mailing.leenbakker.nl$image
@@ -8476,8 +8344,6 @@ click.offers.53.com$image
 click.offers.neteller.com$image
 click.offersbahiaprinciperesidences.com$image
 click.officeliveemail.com$image
-click.official.infomaniak.com%2fo%2f
-click.official.infomaniak.com/o/$image
 click.official.nike.com$image
 click.oglobojn.com.br$image
 click.ohiobaremail.org$image
@@ -8572,7 +8438,6 @@ click.rag-bone-email.com$image
 click.raumanlukko.net$image
 click.recallalerts.mopar.com$image
 click.recruiting.captainu.com$image
-click.redditmail.com$image
 click.redvw.mx$image
 click.refer.mail.fidelity.com$image
 click.regions.sncf.com$image
@@ -8604,7 +8469,6 @@ click.respond.imshealth.com$image
 click.response.ebags.com$image
 click.response2.bestbuy.com$image
 click.responsiblesourcing.walmart.com$image
-click.revolut.com$image
 click.rewardpoints.53.com$image
 click.rewardzonecerts2.bestbuy.com$image
 click.rimsmail.tr.mufg.jp$image
@@ -8649,8 +8513,6 @@ click.send.demio.com$image
 click.send.grammarly.com$image
 click.send.ohsu.edu$image
 click.send.therecoveryvillage.com$image
-click.sender.yandex.ru%2fpx%2f$image
-click.sender.yandex.ru/px/$image
 click.sendmespark.com$image
 click.service-nestle.com.tw$image
 click.service-obdesign.com.tw$image
@@ -8925,11 +8787,9 @@ clicks.divihn.com$image
 clicks.emails.newsnow.co.uk$image
 clicks.emails.united.com$image
 clicks.holistic-partners.com$image
-clicks.hungryroot.com$image
 clicks.iic.com$image
 clicks.ktekresourcing.com$image
 clicks.lorventech.com$image
-clicks.meetup.com$image
 clicks.meschterfinancial.com$image
 clicks.metalrecruiters.com$image
 clicks.mg.absoluting.com$image
@@ -9011,8 +8871,6 @@ clicks.mg3.ceipalmm.com$image
 clicks.mg4.ceipalmm.com$image
 clicks.mg5.ceipalmm.com$image
 clicks.mg6.ceipalmm.com$image
-clicks.mlsend.com$image
-clicks.mlsend2.com$image
 clicks.momentousa.com$image
 clicks.mouritech.com$image
 clicks.newsletters1.patreon.com$image
@@ -9037,12 +8895,10 @@ clicks.vbeyond.com$image
 clicks.vision-us.com$image
 clicks.workcog.com$image
 clicks.workforce.ceipalmail.com$image
-client-data.knak.io$image
 client.virtuo.com$image
 clientportallobalid3.click.s11.sfmc-osl.com$image
 clientweblobalid3.click.s11.sfmc-osl.com$image
 clk.email.lyft.com$image
-close.io/email_opened$image
 cloud-qa1s1-apr2620241.sfmc-tlsprovisioningqa.com$image
 cloud-qa1s1-mar142024.sfmc-tlsprovisioningqa.com$image
 cloud.365equipment-supply.com$image
@@ -9795,12 +9651,9 @@ cmail.bitcasino.io$image
 cmail.cardahealth.com$image
 cmail.carezone.com$image
 cmail.sportsbet.io$image
-cmail1.com%2ft$image
-cmail1.com/t$image
 cms-demolobalid3.click.s11.sfmc-osl.com$image
 cnbctv18.com###postdetail > div[style][class^="jsx-"]:has(> .taboola_section)
 cnn.com##.zn-story-bottom
-cnt.mail.netbk.co.jp$image
 codemy.de$image
 college.click.s11.sfmc-osl.com$image
 colliers.com#%#//scriptlet('set-local-storage-item', 'visitorid', '$remove$')
@@ -9816,11 +9669,8 @@ configurator.ducati.com#%#//scriptlet("set-constant", "wurfl", "emptyobj")
 connect.de#%#//scriptlet("abort-on-property-read", "trconfig")
 connect.hyundaiauto.in$image
 connect.reply.cupidondate.com$image
-conquerclub.com%2fstat.php%3ftype%3d$image
-conquerclub.com/stat.php?type=$image
 contact.mys-tyler.com$image
 contact.truewesthorsemanship.com$image
-contactmonkey.com/api/v1/tracker$image
 content.barclayswealth.com$image
 content.info.barclayswealth.com$image
 contest.marks.com$image
@@ -9838,8 +9688,6 @@ corporate.netiq.com$image
 correspondence.smartclinicuk.com$image
 countrystyle.e.aremedia.com.au$image
 coupang.com#%#//scriptlet('json-prune-xhr-response', 'tracking', 'feeds', 'n-api/recommend/feeds')
-cp.edison.tech%2fapi%2fmailer%2fm%2fimg%2f$image
-cp.edison.tech/api/mailer/m/img/$image
 cp1rameshqa1s1.cp-sap.sfmc-contentqa.com$image
 cpanel-www.click.s11.sfmc-osl.com$image
 cpanel.alliedhousing.com$image
@@ -9850,10 +9698,6 @@ crea.bunshun.jp##.module-recommend
 crm.mg.eit.edu.au$image
 crm.sumitomo-pharma.co.jp$image
 ct.intervarsity.org$image
-ct.klclick.com$image
-ct.sendgrid.net$image
-ctrk.klclick*.com%2fo%2f$image
-ctrk.klclick*.com/o/$image
 ctvnews.ca##img[alt="comscorebeacon"]
 culture.ru###page-error-modal
 cusmx.100ms.live$image
@@ -9887,7 +9731,6 @@ d4?appid*type*
 dailyrecord.co.uk##div[data-testid^="non-commercial-"]
 dailyrecord.co.uk##div[data-testid^="recommended-"]
 dashboard.quickpage.email$image
-data-cdn.theatlantic.com/email.gif
 data.level.telex.hu$image
 db01lobalid3.click.s11.sfmc-osl.com$image
 dbadmin-14.cloud.s11.sfmc-osl.com$image
@@ -9895,13 +9738,7 @@ dds-globalid3.click.s11.sfmc-osl.com$image
 dealdoktor.de##img[src*="//vg09.met.vgwort.de/"]
 dealsonwheels.e.bauertrader.co.nz$image
 decrypt.co#%#//scriptlet('set-local-storage-item', 'spindl_persistent_id', '$remove$')
-deepl.qualtrics.com%2fsubscription%2fwatermark.gif%3f
-deepl.qualtrics.com/subscription/watermark.gif?
 demae-can.com#%#//scriptlet('remove-attr', 'data-trm-action|data-trm-category|data-trm-label', '.trm_event')
-demdex.net%2fevent%3fd_event%3d$image
-demdex.net%2fevent%3fd_src%3d$image
-demdex.net/event?d_event=$image
-demdex.net/event?d_src=$image
 denis.click.s11.sfmc-osl.com$image
 desglobalid3.click.s11.sfmc-osl.com$image
 dev.news.generali.de$image
@@ -9911,23 +9748,17 @@ diamond.jp###contents > div.sub-column > div.title:has(+ #cx-recommed)
 diamond.jp###cx-recommed
 diamond.jp###main-column > article > div.main-special
 digi.no##img[src^="https://ish.tumedia.no/ish_tracker.gif"]
-digital-eliteboard.com%2fb%2fimage.gif%3fp%3d
-digital-eliteboard.com/b/image.gif?p=
 digital.neoseguradora.com.br$image
 digitalspy.com##.inline-content-module:has(.cx-flex-module)
 direct.vodafone.com.au$image
 directtrack.*.js
 disabled.click.s11.sfmc-osl.com$image
-discord.com%2fapi%2fscience%2f*.gif%3fproperties%3d$image
-discord.com/api/science/*.gif?properties=$image
 discover.ferris.edu$image
 discover.hubpages.com#%#//scriptlet('adjust-settimeout', 'beacon failed', '*', '0.001')
 disqus.com#%#//scriptlet('href-sanitizer', 'a[href*="://disq.us/url?url="]', '?url')
 dj.click.s11.sfmc-osl.com$image
 dlsdk.appsflyer.com^
 dlsdk.appsflyersdk.com^
-dm-sg.aliyuncs.com%2ftrace%2f*%2freport$image
-dm-sg.aliyuncs.com/trace/*/report$image
 dn.pt#%#//scriptlet('set-local-storage-item', 'altair', '$remove$')
 dn.pt#%#//scriptlet('set-local-storage-item', 'aries__uuid', '$remove$')
 dns12globalid3.click.s11.sfmc-osl.com$image
@@ -9935,8 +9766,6 @@ documentacion.mnyl.com.mx$image
 dogdrip.net#%#//scriptlet('href-sanitizer', 'a[href^="/link.php?url="]', '?url')
 dokonline.com###counters
 dokonline.com###counters + div[class="block"]
-dominos.*%2fo%2fo.gif$image
-dominos.*/o/o.gif$image
 dominos.jp###_vis_opt_path_hides
 donanimhaber.com#%#//scriptlet('href-sanitizer', 'a[href^="/externallinkredirect?"]', '?url')
 doorblog.jp,pachinkopachisro.com,blog.livedoor.jp,blog.jp#?#.plugin-memo > div.side > div.ninja-recommend-block:upward(2)
@@ -9946,7 +9775,6 @@ dragonnest.com#%#//scriptlet('trusted-replace-node-text', 'script', 'setgaoutbou
 dream.team.onetake.ai$image
 dreamprogs.net##td[width="88"][height="31"]
 drip.mtaupdate.com$image
-dripemail2$image
 drive2.ru##.js-page > * > .dv-post-header > [class] > [class] > [id] > [class][id]
 drive2.ru##.o-columns > .o-columns__side > [class] > [class][id] > [class][id]
 drive2.ru,drive2.com##.is-tracked[data-metrika="recomm"]
@@ -9988,29 +9816,20 @@ dvdrev.com#?#.side_menu:has(> div > div.plugin-freearea > div.ninja-recommend-bl
 dynamic-report-api.appsflyersdk.com^
 dzen.ru#%#//scriptlet('json-prune', 'ssrdata.exportresponse.feeddata.adpixelsdata')
 dzen.ru#%#//scriptlet('json-prune', 'ssrdata.exportresponse.feeddata.adpixelslink')
-e-bedwettingstore.com$image
 e-begin.jp#$#.inviewsection:not(.is-show) { transform: translatey(0) !important; opacity: 1 !important; }
 e.algidcards.co.uk$image
 e.atlantamagazine.com$image
 e.car.co.uk$image
 e.cio.1w-cdpsender.com$image
-e.customeriomail.com$image
 e.dayspring.com$image
 e.delawareonline.com$image
 e.delmarvanow.com$image
 e.desmoinesregister.com$image
-e.dhgate.com%2fa%2f*%2fspacer.gif$image
-e.dhgate.com/a/*/spacer.gif$image
 e.easyapplication.rizecu.com$image
-e.email.forbes.com$image
-e.emails.huffpost.com/o/p/$image
 e.floridatoday.com$image
 e.getinvoicesimple.com$image
 e.guampdn.com$image
-e.healio.com%2f*.php%3fid%3d$image
-e.healio.com/*.php?id=$image
 e.insiderintelligence.com$image
-e.mail.cnn.com$image
 e.mail.coachcommunity.co$image
 e.mail.definitapublicity.com$image
 e.mail.myconfinedspace.com$image
@@ -10039,8 +9858,6 @@ e.z.teachablemail.com$image
 e2.thedailybeast.com$image
 e2.wlessin.com$image
 eastus2-10.cloud.s11.sfmc-osl.com$image
-ebayadservices.com%2fmarketingtracking%2fv1%2fimpression%3f$image
-ebayadservices.com/marketingtracking/v1/impression?$image
 ebcmail.eaglebrookchurch.com$image
 eclick.animaljam.com$image
 eclick.lyft.com$image
@@ -10069,13 +9886,11 @@ edm.propertyfox.com.au$image
 edm.wpire.com.au$image
 eduscho.at#%#//scriptlet("set-constant", "exactagtrack", "noopfunc")
 eemail.homealliance.com$image
-egbgaig.r.*.d.sendibt$image
 ehorizon.thedailybeast.com$image
 eiga.com#%#//scriptlet('set-local-storage-item', '_yjsu_yjad', '$remove$')
 elcomercio.es#$##engagement-top { display: none !important; }
 elcomercio.es#$#body { overflow: auto !important; }
 elib-globalid3.click.s11.sfmc-osl.com$image
-elink.clickdimensions.com$image
 elink.dotcom-monitor.com$image
 elink.fabletics.fr$image
 elink.joinkiaora.com$image
@@ -10107,13 +9922,10 @@ email-greenhouse.magicleap.com$image
 email-hypotheekadvies.consumentenbond.nl$image
 email-int.babycenter.com$image
 email-interact.kaizenams.com$image
-email-link.adtidy.org%2fopen%2f$image
-email-link.adtidy.org/open/$image
 email-link.gong.io$image
 email-link.patstedman.com$image
 email-link.priority.gong.io$image
 email-link.radicaltempo.com$image
-email-links.buffer.com$image
 email-links.shadowpages.io$image
 email-links.techkings.org$image
 email-mailgun.laasociacion.com.pe$image
@@ -10139,8 +9951,6 @@ email-tracking.gumtree.com$image
 email-tracking.myjshops.com$image
 email-tracking.sayweee.com$image
 email-us.babycenter.com$image
-email.*.com%2fo%2f$image
-email.*.com/o/$image
 email.0.centralregistrodigital.shop$image
 email.0.md$image
 email.0.nolostsales.cc$image
@@ -10217,7 +10027,6 @@ email.123.grandcafe-eemland.nl$image
 email.123.horecamarketingacademy.nl$image
 email.123.mailrichtingnoord.nl$image
 email.123doi.com$image
-email.123formbuilder.com$image
 email.123imprim.com$image
 email.123linked.colins.nu$image
 email.123planten.nl$image
@@ -12195,7 +12004,6 @@ email.aodaonline.com$image
 email.aodd-pumps-spares.co.in$image
 email.aogf.com$image
 email.aokpawn.com$image
-email.aol.net$image
 email.aotrading.xyz$image
 email.aovtw.garena.com$image
 email.aoyus.com$image
@@ -13280,7 +13088,6 @@ email.azubud.com$image
 email.azulis.com.br$image
 email.azur-casino.com$image
 email.azura.net.au$image
-email.azurareborn.com$image
 email.azurelib.com$image
 email.azwholesalemopar.com$image
 email.azzopardiautoaesthetics.com$image
@@ -14180,7 +13987,6 @@ email.bisrm.com$image
 email.bita.bitacathq.com$image
 email.bitappcloud.com$image
 email.bitavox.com$image
-email.bitbank.cc$image
 email.bitcasino.io$image
 email.bitcluster.ru$image
 email.bite.exmaglobal.com$image
@@ -14937,7 +14743,6 @@ email.budget.hu$image
 email.budgetmastery.app$image
 email.budgetmotels.com.au$image
 email.budgetseo.com$image
-email.budovideos.com$image
 email.budsandblossomstoo.florist-mail.com$image
 email.budsproduce.com$image
 email.bufetefiscal.net$image
@@ -16788,7 +16593,6 @@ email.cloud.aibots4pros.com$image
 email.cloud.nephrosys.com.br$image
 email.cloud.openalpr.com$image
 email.cloud.polar3d.com$image
-email.cloud2.secureclick.net$image
 email.cloud66.com$image
 email.cloudbilling.acronis.com$image
 email.clouddigitalmedia.com$image
@@ -56219,7 +56023,6 @@ email.mailgun.openai.com$image
 email.mailgun.parejas.net$image
 email.mailgun.partnermarketing.com$image
 email.mailgun.patient.page$image
-email.mailgun.patreon.com$image
 email.mailgun.pfotenassistenz.at$image
 email.mailgun.pingproxies.com$image
 email.mailgun.placassolares.es$image
@@ -65780,7 +65583,6 @@ email.mix.bluemedical.org$image
 email.mixcityinc.com$image
 email.mixlrmail.com$image
 email.mixmashrecords.com$image
-email.mixmax.com/e/o$image
 email.mixybox.com$image
 email.mizwiz.com$image
 email.mizzentoporg.myenotice.com$image
@@ -68902,7 +68704,6 @@ email.ninkijaponesonline.com.br$image
 email.nipowerlifting.co.uk$image
 email.nipponconnection.com$image
 email.nirakara.org$image
-email.nirandfar.com$image
 email.nird45ac.tokeetmail.com$image
 email.nirvanatech.biz$image
 email.nisafoundation.ca$image
@@ -81422,7 +81223,6 @@ email.send.ahvina.com$image
 email.send.aihype-academy.com$image
 email.send.airplantsupplyco.com$image
 email.send.alanmartin.es$image
-email.send.aliyana.in$image
 email.send.allspeech.net$image
 email.send.alpino.store$image
 email.send.amazonerodeelite.com$image
@@ -91947,7 +91747,6 @@ email.westwork.siouxfallsfitbody.com$image
 email.wesurvri.com$image
 email.weterynarzeradza.pl$image
 email.wetid.de$image
-email.wetransfer.com$image
 email.wetzel.ch$image
 email.weusegreenboxstorage.com$image
 email.wevents.cc$image
@@ -93499,7 +93298,6 @@ emailbt.bettertracker.com$image
 emailc.skillful.ly$image
 emailcatsone.talentsphere.ca$image
 emailcio.prolific.co$image
-emailcontent.rockstargames.com$image
 emailcu.taleez.com$image
 emailcustomer.blueenergy.dk$image
 emailcustomerio.gorgias.io$image
@@ -93536,8 +93334,6 @@ emailgun.biomedigen.gr$image
 emailgun.renta4.cl$image
 emailing.agencetsi.fr$image
 emailio.redx.com$image
-emaillabs.info.pl%2fopen%2f%3fot%3d$image
-emaillabs.info.pl/open/?ot=$image
 emaillilly.psplillymelhorparavoce.com.br$image
 emaillinks.vanishingincmagic.com$image
 emailmailgun.fr.clara.net$image
@@ -93573,7 +93369,6 @@ emailtrack.lotto24.de$image
 emailtrack.m.fintechconnector.com$image
 emailtrack.meritincentives.com$image
 emailtrack.mg.unz.com$image
-emailtracking.cashstar.com$image
 emailtracking.ccgs.nsw.edu.au$image
 emailtracking.danebank.nsw.edu.au$image
 emailtracking.jpc.qld.edu.au$image
@@ -93596,15 +93391,12 @@ emailviamailgun.cpapman.com$image
 emailviamailgun.respshop.com$image
 embed.rtl.hu#%#//scriptlet('set-constant', 'gemiusstream', 'emptyobj')
 embed.rtl.hu#%#//scriptlet('set-constant', 'gemiusstream.event', 'noopfunc')
-emea.focusvision.com%2ftracker%2f$image
-emea.focusvision.com/tracker/$image
 emio.streetauthority.com$image
 eml.brueggers.com$image
 eml.cariboucoffee.com$image
 eml.einsteinbros.com$image
 eml.infogr.am$image
 eml.noahs.com$image
-emltrk.com$image
 employee.gocorp.gojek.com$image
 emt.ecu.de$image
 emtracking.skyswitch.com$image
@@ -93615,7 +93407,6 @@ enews.walmart.com$image
 entapark.jp##div[id$="-pickup"][style^="height"]
 entrilia-email.losangefinance.com$image
 entrilia-email.svalneratlas.com$image
-eotrx.substackcdn.com$image
 epay.click.s11.sfmc-osl.com$image
 epicurious.com#%#//scriptlet('set-cookie', 'fp_visitorid', '1', '/', 'epicurious.com')
 epost.linasmatkasse.se$image
@@ -93626,9 +93417,6 @@ erostopics.net###related-box
 erp.alalikexpress.com$image
 erp.envoyermail.com$image
 espreso.tv##.wrap-footer .counter
-esputnik.com$image
-esputnik.com%2frepository%2fapplications%2fcommons%2fhidden.png
-esputnik.com/repository/applications/commons/hidden.png
 et.shopeefood.vn$image
 etek.newsletter.etek.org.cy$image
 etrack.hireflix.com$image
@@ -93643,7 +93431,6 @@ event.nafas.co.id$image
 eventemail.fora.travel$image
 events.icnclst.com$image
 events.info.mandirikartukredit.com$image
-events.jotform.com*email$image
 events.marketing.bankmandiri.co.id$image
 events.promo.mandirikartukredit.com$image
 eventslobalid3.click.s11.sfmc-osl.com$image
@@ -93674,8 +93461,6 @@ faz.net#%#//scriptlet('set-session-storage-item', 'com.adobe.reactor.core.visito
 faz.net#%#//scriptlet('set-session-storage-item', 'com.adobe.reactor.core.visitortracking.landingtime', '$remove$')
 faz.net#%#//scriptlet('set-session-storage-item', 'com.adobe.reactor.core.visitortracking.pagesviewed', '$remove$')
 faz.net#%#//scriptlet('set-session-storage-item', 'com.adobe.reactor.core.visitortracking.trafficsource', '$remove$')
-fdske.com%2feo%2f$image
-fdske.com/eo/$image
 fedex.com#%#//scriptlet('ubo-set-local-storage-item', 'fdx_enable_new_detail_page', 'true')
 feedback.a2g.no$image
 feedback.aarreha.ch$image
@@ -93850,8 +93635,6 @@ feedback.sandaren.se$image
 feedback.sbnorge.no$image
 feedback.schnorr.de$image
 feedback.scream.se$image
-feedback.send.yandex.ru%2fpx%2f$image
-feedback.send.yandex.ru/px/$image
 feedback.sgfleet.co.uk$image
 feedback.siaglass.se$image
 feedback.skogsindustrierna.se$image
@@ -93961,9 +93744,6 @@ fenbi.com,cib.com.cn,pconline.pcvideo.com.cn#%#//scriptlet('set-constant', 'sens
 ferra.ru##div[data-widget="plista_widget_belowarticle_desktop_nocss"]+div[class^="_"] > svg
 ferra.ru##div[data-widget="plista_widget_webapp_mobile_nocss"]+div[class^="_"] > svg
 fh.click.s11.sfmc-osl.com$image
-files.fm%2fl%2femail-pix$image
-files.fm/l/email-pix$image
-filetransfer.io*pixel$image
 finders.me##.__popin
 finders.me##.__recommendedposts
 fintables.com#%#//scriptlet('set-local-storage-item', '/_mpq|_mixpanel/', '$remove$')
@@ -93974,7 +93754,6 @@ fkcmail.edplan.com.au$image
 fkcmail.inspiredmoney.com.au$image
 fkcmail.lighthousefinancial.com.au$image
 fkcmail.spcpl.com.au$image
-flask.us.nextdoor.com$image
 flo.com.tr#%#//scriptlet('set-local-storage-item', '__anon_id', '$remove$')
 flux-globalid3.click.s11.sfmc-osl.com$image
 fmg.americafirst.com$image
@@ -94108,7 +93887,6 @@ gcdsdk.appsflyersdk.com^
 geinoukame.com##.ninja-recommend-block + br
 geinoukame.com##.ninja-recommend-block + hr
 gendai.media#?#.elementsectionheadingswithsuffix:has(+ div[id^="taboola-below-article-thumbnails-gendai_biz-desktop"])
-geteml.com$image
 getstarted.itstwofold.com$image
 ggoerlibalid3.click.s11.sfmc-osl.com$image
 gh-email.digit.co$image
@@ -94122,10 +93900,6 @@ ghmail.iemfg.com$image
 giga.chat#%#//scriptlet('set-local-storage-item', '/device_id/', '$remove$')
 gio.com.au#%#//scriptlet('set-constant', 'webanalytics', 'emptyobj')
 gio.com.au#%#//scriptlet('set-constant', 'webanalytics.publish', 'noopfunc')
-github.com%2fnotifications%2fbeacon%2f$image
-github.com%2fnotifications%2fbeacon%3d*.gif$image
-github.com/notifications/beacon/$image
-github.com/notifications/beacon=*.gif$image
 glaptestalid3.click.s11.sfmc-osl.com$image
 glbellbalid3.click.s11.sfmc-osl.com$image
 glconsultingalid3.click.s11.sfmc-osl.com$image
@@ -94565,14 +94339,12 @@ glwww.streamalid3.click.s11.sfmc-osl.com$image
 glwww.ticketsalid3.click.s11.sfmc-osl.com$image
 glwww.wikialid3.click.s11.sfmc-osl.com$image
 glyqalid3.click.s11.sfmc-osl.com$image
-gm.mmstat.com$image
 gmarket.co.kr#%#//scriptlet('fingerprintjs2')
 gmi-email.genomemedical.com$image
 gmsemail.foodbooking.com$image
 gmx.com##div[data-mod-name="taboolateasers"]
 gmx.com#?#.content-wrapper > div[data-mod-name="container"]:has(> div.taboola-teasers)
 go.bluetarp.com$image
-go.lanet.click$image
 go.letsenhancemail.io$image
 go.mail.escrime-occasion.com$image
 go.mailing.cvents.ch$image
@@ -94581,9 +94353,6 @@ go.meetical.io$image
 go.newgiza.com$image
 go.pennymodern.com$image
 go.politicoemail.com$image
-go.rjmetrics.com$image
-go.smartinsights.com*gif$image
-go.toutapp.com$image
 go.vip.tuscanylvmail.com$image
 go2.audatex.ch$image
 go2.audatex.lt$image
@@ -94594,9 +94363,6 @@ goldmansachs.com#%#//scriptlet('prevent-fetch', 'edge.adobedc.net')
 goodnovel.com#%#//scriptlet('set-local-storage-item', 'uuid', '$remove$')
 goodsign.email$image
 goodwillfinds.com#%#//scriptlet("set-constant", "_etmc", "emptyarr")
-google-analytics.com%2fcollect
-google.com%2fappserve%2fmkt%2fproof%2fimg%2f*.gif
-google.com/appserve/mkt/proof/img/*.gif
 gourmettraveller.e.aremedia.com.au$image
 gprincebalid3.click.s11.sfmc-osl.com$image
 greenhouse.manypets.com$image
@@ -94618,8 +94384,6 @@ gwcsbalid3.click.s11.sfmc-osl.com$image
 gwirebalid3.click.s11.sfmc-osl.com$image
 hannah.teamspotlite.com$image
 harmony.click.s11.sfmc-osl.com$image
-healio.com%2fmedialibrary%2fpixel.png%3ftp%3d
-healio.com/medialibrary/pixel.png?tp=
 heartland.webspecmail.com$image
 heartsdesireintl.heartsdesireintl.com$image
 hejlobalid3.click.s11.sfmc-osl.com$image
@@ -94638,8 +94402,6 @@ hindustantimes.com#%#//scriptlet('set-local-storage-item', '/^_c(b|hartbeat)/', 
 hindustantimes.com#%#//scriptlet('set-local-storage-item', 'ht_cdp', '$remove$')
 hitkino.org#?#td[valign="top"] > table.white_text > tbody > tr:has(> td[background] > b:contains(статистика))
 hitkino.org#?#td[valign="top"] > table.white_text > tbody > tr:has(> td[background] > b:contains(статистика)) + tr
-hm-f.jp%2fho.php%3ft=
-hm-f.jp/ho.php?t=
 hmangamatome.net###text-39
 hobbylog.jp##.pbancut
 hochi.news###ohtani-pickup
@@ -94793,16 +94555,9 @@ hpplus.jp#%#//scriptlet('set-local-storage-item', 'fw_se', '$remove$')
 hpplus.jp#%#//scriptlet('set-local-storage-item', 'fw_uid', '$remove$')
 hq.mg.everplans.com$image
 hr.hr.onlinekabelshop.nl$image
-hubspotlinks.com$image
 huntress.com#%#//scriptlet('set-local-storage-item', 'buildervisitorid', '$remove$')
 huntress.com#%#//scriptlet('set-local-storage-item', 'snowplowoutqueue_cf', '$remove$')
 hx360.himss.org$image
-i.groovehq.com%2f*%40groovehq.com.gif$image
-i.groovehq.com%2f*.comment*%40groovehq.com.gif$image
-i.groovehq.com/*.comment*@groovehq.com.gif$image
-i.groovehq.com/*@groovehq.com.gif$image
-i.hh.ru%2fmailing%2f$image
-i.hh.ru/mailing/$image
 i2lobalid3.click.s11.sfmc-osl.com$image
 ici.radio-canada.ca#%#//scriptlet('set-local-storage-item', 'rc_player_user_id', '$remove$')
 id.condenast.com#%#//scriptlet('set-constant', 'appinfo.snowplow.trackselfdescribingevent', 'noopfunc')
@@ -94814,12 +94569,8 @@ idnes.cz#%#//scriptlet('set-local-storage-item', '_cx_segmentinfo', '$remove$')
 idnes.cz#%#//scriptlet('set-local-storage-item', '_ls_ttl', '$remove$')
 iemail.theiconic.com.au$image
 ils.click.s11.sfmc-osl.com$image
-image-sap.sfmc-content.com$image
-image.read.forbes.com$image
 image.s1.qa1.inboundtestdomain.com$image
 images.emails.united.com$image
-images.harmony.epsilon.com%2fcontenthandler%2fimages%3fid%3d$image
-images.harmony.epsilon.com/contenthandler/images?id=$image
 imap.addressusa.ca$image
 imap.axocom.happycustomer.io$image
 imap.email.oneassessment.com$image
@@ -94848,8 +94599,6 @@ imap2.pureheavenly.happycustomer.io$image
 imap2.townsquaremedia.info$image
 imdb.com#%#//scriptlet("set-constant", "dowithads", "noopfunc")
 img.promio-connect.com$image
-img.srv2.de%2fassets%2fbm%2fimh%2f*.gif%3futm_$image
-img.srv2.de/assets/bm/imh/*.gif?utm_$image
 immo.helvetia.ch$image
 indianexpress.com#%#//scriptlet('set-local-storage-item', 'ev_did', '$remove$')
 indianexpress.com#%#//scriptlet('set-local-storage-item', 'ev_sid', '$remove$')
@@ -94871,8 +94620,6 @@ info.diffusionews.it$image
 info.drivehui.com$image
 info.email.newham.gov.uk$image
 info.email.walsall.gov.uk$image
-info.kansaimiraibank.co.jp%2fc%*.gif$image
-info.kansaimiraibank.co.jp/c/*.gif$image
 info.leobank.az$image
 info.mktg-atlasparts.ca$image
 info.yogaloftboulder.com$image
@@ -94880,12 +94627,8 @@ infokam.su#?#aside > section.bot-post:has(> center > a[href^="https://www.livein
 infoorel.ru##a[href="http://www.infoorel.ru/stat/stat.php"]
 infoseek.co.jp#$#.co-widget[style="min-height: 6000px;"] { min-height: auto !important; }
 inftrack.infinitrac.com$image
-infusionsoft.com/app/emailopened$image
 inside-games.jp##.cx-subhead
 insideout.e.aremedia.com.au$image
-intercom-mail-100.com/o$image
-intercom-mail.com/q/$image
-intercom-mail.com/via/o?$image
 interfootball.heraldcorp.com#%#//scriptlet('abort-on-stack-trace', 'console', '_0x')
 intranet2.click.s11.sfmc-osl.com$image
 investor-web.hdfcfund.com#%#//scriptlet('set-constant', 'smartech', 'noopfunc')
@@ -94895,8 +94638,6 @@ iprmail.ipressroom.com$image
 iqemail.stolaf.edu$image
 irclobalid3.click.s11.sfmc-osl.com$image
 israelnationalnews.com,insider.com##.taboola
-it-recht-kanzlei.de%2flogo%2fcopyright-logo.png%3fi%3d
-it-recht-kanzlei.de/logo/copyright-logo.png?i=
 item.gmarket.co.kr#%#//scriptlet('set-constant', 'pdsclicklog', 'noopfunc')
 itmedia.co.jp##.format--subheading:has(+ .is-recommend:empty)
 itmedia.co.jp##.is-recommend:empty
@@ -94967,7 +94708,6 @@ larocheposay.co.kr#%#//scriptlet('set-constant', 'wptg_tagscript.exec', 'noopfun
 lasisa.net,president.jp##.recommend
 lastminute.com.au/api/uisprime/track
 latam.underarmour.com$image
-launchbit.com/taz-pixel$image
 launchpad-email.swapcard.com$image
 lcwaikiki.com#%#//scriptlet("set-constant", "datalayer", "emptyarr")
 leads.nrgadmin.com$image
@@ -94976,13 +94716,9 @@ lemail.fpacademy.ca$image
 lemail.hetetschoolofmaoriart.com$image
 lessentiel.lu#%#//scriptlet('set-local-storage-item', 'clientid', '$remove$')
 letterboxd.com#%#//scriptlet('href-sanitizer', 'a[href^="https://click.justwatch.com/"]', '?r')
-liens.newsletters.jeuxvideo.com%2fm%2fopening%2f$image
-liens.newsletters.jeuxvideo.com/m/opening/$image
 life.ru##.read-next
 lifehacker.jp###maincontent > div[class^="articles_particles_title_"]:has(+ div[class^="displayhandler_"] > div > div[id^="cxmore"])
 lightrun.com#%#//scriptlet('set-constant', 'gtag', 'noopfunc')
-line.my.salesforce.com%2fservlet%2fservlet.imageserver%3foid=*%26esid=$image
-line.my.salesforce.com/servlet/servlet.imageserver?oid=*&esid=$image
 link-dev.biopharmadive.com$image
 link-dev.customerexperiencedive.com$image
 link-dev.greetz.nl$image
@@ -95318,8 +95054,6 @@ link.discovery.com$image
 link.disneydining.com$image
 link.disneyfanatic.com$image
 link.disneytips.com$image
-link.dissh.com%2fmo%2f$image
-link.dissh.com/mo/$image
 link.diynetwork.com$image
 link.dl-online.com$image
 link.doco.com$image
@@ -95716,8 +95450,6 @@ link.magellan.partners$image
 link.magic983.com$image
 link.magnoliabakery.com$image
 link.magshop.com.au$image
-link.mail.beehiiv.com%2fss%2f*.gif$image
-link.mail.beehiiv.com/ss/*.gif$image
 link.mail.bloombergbusiness.com$image
 link.mail.bloombergindices.com$image
 link.mail.cautiousoptimism.news$image
@@ -95924,7 +95656,6 @@ link.popsugar.com$image
 link.popularmechanics.com$image
 link.porthosp.nhs.uk$image
 link.postbulletin.com$image
-link.posteml.com$image
 link.postmedia.com$image
 link.praiserichmond.com$image
 link.precisionmedicineonline.com$image
@@ -96073,7 +95804,6 @@ link.sdtoday.6amcity.com$image
 link.seatoday.6amcity.com$image
 link.seattlepi.com$image
 link.secondariesinvestor.com$image
-link.seguno-mail.com$image
 link.self.com$image
 link.sendmailer.email$image
 link.service95.com$image
@@ -96383,7 +96113,6 @@ linkcouk.info.brooksrunning.com$image
 linkde.info.brooksrunning.com$image
 linkdev.trends.co$image
 linkdi.nymag.com$image
-linkedin.com*emimp$image
 linkem.calpers.ca.gov$image
 linkes.info.brooksrunning.com$image
 linkfo.toryburch.com$image
@@ -96406,7 +96135,6 @@ linkmktg.propertycasualty360.com$image
 linkmktg.thinkadvisor.com$image
 linkmx.hola.com$image
 linknl.info.brooksrunning.com$image
-links.*.com/e/eo?_t=$image
 links.acuityscheduling.com$image
 links.capterra.com$image
 links.customer.io$image
@@ -96414,7 +96142,6 @@ links.dealcircle.com$image
 links.decisionvault.com$image
 links.email.bigcartel.com$image
 links.email.careforkids.com.au$image
-links.email.digg.com$image
 links.email.healthywage.com$image
 links.email.lancome.in$image
 links.email.prepdoc.com$image
@@ -96424,7 +96151,6 @@ links.getsha.pe$image
 links.glennbeck.com$image
 links.hioscar.com$image
 links.info.vertoeducation.org$image
-links.kahoot.com$image
 links.luggagefree.com$image
 links.mail.arrivedhomes.com$image
 links.mail.glasgowsciencecentre.org$image
@@ -96434,19 +96160,14 @@ links.mg.alvinailey.org$image
 links.mg.giftcardstonaira.com$image
 links.michigansthumb.com$image
 links.mrwfinancial.email$image
-links.newsletter.fortune.com$image
 links.ourmidland.com$image
 links.pokerskill.com$image
 links.pr.inspirebrands.com$image
 links.schoolhouse.com$image
-links.skillbox.ru%2fo%2f$image
-links.skillbox.ru/o/$image
 links.softwareadvice.com$image
 links.telemundo.com$image
-links.theskimm.com$image
 links.topps.com$image
 links.usanetwork.com$image
-links1.*.com/q/*$image
 links1.alerts.getflex.com$image
 links1.care.seed.com$image
 links1.em.secretescapes.com$image
@@ -96476,7 +96197,6 @@ linkst.thecut.com$image
 linkst.vulture.com$image
 linkto.highschoolot.com$image
 linkto.wral.com$image
-list-manage.com*track$image
 livedoor.biz,ldblog.jp#?#.plugin-memo > div.side > a[href$="ziyu.net/"]:upward(2)
 livemint.com#%#//scriptlet('set-constant', 'daptracker', 'emptyobj')
 livemint.com#%#//scriptlet('set-constant', 'daptracker.track', 'noopfunc')
@@ -96487,7 +96207,6 @@ lnk.auth.lovable-app.email$image
 lnk.mail.lovable-app.email$image
 lnk.md.lovable-app.email$image
 lnk.news.penntech.co.uk$image
-log.bntrace.com$image
 login.brokermail.co.uk$image
 longhorn.click.s11.sfmc-osl.com$image
 lr.dailyom.com$image
@@ -96942,7 +96661,6 @@ macufmg.macu.com$image
 madewell.com#%#//scriptlet('ubo-cookie-remover', 'dns_cookie')
 magshop.e.aremedia.co.nz$image
 magshop.e.aremedia.com.au$image
-mail-count.matsui.co.jp$image
 mail-link.nofluffjobs.com$image
 mail-mg.redstarpoker.com$image
 mail-track.sinohope.com$image
@@ -97018,8 +96736,6 @@ mail.erioninsurance.com$image
 mail.exceedacademiestrust.co.uk$image
 mail.falabella.intelibpo.com$image
 mail.fedbidspeed.com$image
-mail.ferret-one.com%2fbeacon$image
-mail.ferret-one.com/beacon$image
 mail.fiatgrowth.com$image
 mail.fidelityfundingcorp.com$image
 mail.fierro.com.ar$image
@@ -97097,7 +96813,6 @@ mail.moodyins.com$image
 mail.mployeradvisor.com$image
 mail.mtrl.me$image
 mail.muddest.com$image
-mail.nationalgeographic.com$image
 mail.newenglandland.com$image
 mail.novut.com$image
 mail.odfw.com$image
@@ -97188,8 +96903,6 @@ mail.wsp.com.au$image
 mail.yandex.*#@%#//scriptlet('set-constant', 'navigator.getbattery', 'nooppromiseresolve')
 mail.yonelle.happycustomer.io$image
 mail01.happycustomer.io$image
-mail01.monex.co.jp%2fbin%2fchecker%3f$image
-mail01.monex.co.jp/bin/checker?$image
 mail1.avalst.com$image
 mail1.axocom.happycustomer.io$image
 mail1.email.oneassessment.com$image
@@ -97210,10 +96923,7 @@ mail21.stage.personifyhealth.com$image
 mail7.alliedhousing.com$image
 mailbox.gdft.happycustomer.io$image
 mailbox.mailbox.tendopay.ph$image
-mailchimp.com%2fmctx%2fopens$image
-mailchimp.com/mctx/opens$image
 mailer.brmobile.com.br$image
-mailer.eip.telegraph.co.uk$image
 mailer.france-case.happycustomer.io$image
 mailer.happycustomer.io$image
 mailer.heads.email.oneassessment.com$image
@@ -97234,7 +96944,6 @@ mailers.mofos.com$image
 mailers.seancody.com$image
 mailers.transangels.com$image
 mailers.twistys.com$image
-mailfoogae.appspot.com$image
 mailg.fedweek.com$image
 mailg.modfie.com$image
 mailg.ukservers.com$image
@@ -97251,7 +96960,6 @@ mailgun-tracking.checkrpay.com$image
 mailgun-tracking.forecastapp.com$image
 mailgun-tracking.harvestapp.com$image
 mailgun-tracking.paqresearch.cz$image
-mailgun-tracking.ridi.com$image
 mailgun.alluviumcellars.com$image
 mailgun.bafta.org$image
 mailgun.cdha.ca$image
@@ -97341,10 +97049,7 @@ mailing.ballejaune.co$image
 mailing.hervest.ng$image
 mailing.homebyme.com$image
 mailing.parlem.com$image
-mailing.pbank.com.ua$image
 mailio.sportsdata.io$image
-mailmag.hhcross.hankyu-hanshin.jp%2fc%2f*.gif$image
-mailmag.hhcross.hankyu-hanshin.jp/c/*.gif$image
 mailo.mailer-g.newrelic.com$image
 mailout.email.oneassessment.com$image
 mailout.envoyermail.com$image
@@ -97367,10 +97072,8 @@ mailserver.percentage.happycustomer.io$image
 mailservice.karls.de$image
 mailsid3.click.s11.sfmc-osl.com$image
 mailsrv.mtrl.me$image
-mailstat.us/tr$image
 mailstats.jndla.com$image
 mailtrace.surepass.io$image
-mailtrack.io/trace/$image
 mailtrack.luz.fr$image
 mailtrack.remax-quebec.com$image
 mailtrack.tocalivros.com$image
@@ -97390,15 +97093,8 @@ maintenance-7.cloud.s11.sfmc-osl.com$image
 mais.sbt.com.br#%#//scriptlet('set-local-storage-item', 'youbora.youboradeviceuuid', '$remove$')
 makemytrip.com#%#//scriptlet('set-local-storage-item', 'marketingcloudvisitorid', '$remove$')
 makemytrip.com#%#//scriptlet('set-local-storage-item', 'personal_flight_emperiaresponse', '$remove$')
-makeup.com.ua%2famazon%2fopened%2f$image
-makeup.com.ua/amazon/opened/$image
 mamibuy.com.tw#%#window.ga = function() {};
-manage.turing.pe%2fanalytics%2fopen%2f$image
-manage.turing.pe/analytics/open/$image
-mandrillapp.com/track$image
 marieclaire.e.aremedia.com.au$image
-marketing.1password.co%2ftrk%3ft$image
-marketing.1password.co/trk?t$image
 marketing.birdirx.com$image
 marketing.crgdining.com$image
 marketing.elmwoodagency.com$image
@@ -97424,8 +97120,6 @@ mca46a12.view-qa1.sfmc-marketingqa.com$image
 mca46a2d.view-qa1.sfmc-marketingqa.com$image
 mca46a31.view-qa1.sfmc-marketingqa.com$image
 mdpr.jp#?#.p-articlelist__heading:has(+ div#taboola-below-article-thumbnails-desktop)
-medallia.*%2f%3f*%26invite-opened%3dyes$image
-medallia.*/?*&invite-opened=yes$image
 mediamarkt.de#%#//scriptlet('abort-on-property-write', 'ftr__startscriptload')
 megalifez.net##img[height="40"][width="88"]
 megatorrents.kg##a[href^="http://www.net.kg/stat.php"]
@@ -97825,13 +97519,11 @@ migratelobalid3.click.s11.sfmc-osl.com$image
 minnyuu.jp#?#div[class$="blockbase"] > div > div > div.plugin-freearea > div.ninja-recommend-block:upward(4)
 mirrormedia.mg#%#//scriptlet("set-constant", "datalayer", "emptyarr")
 misterworker.com##.custom_text_home:has(> #mw-clerk-sliderhp)
-mjt.lu$image
 mkt-email.servbay.com$image
 mkt.gitlab.cn$image
 mkt.mw.cnrgp.com$image
 mktcloud.imagin.com$image
 mlinks.truckingoffice.com$image
-mltrk.io/pixel$image
 mobile-rest.click.s11.sfmc-osl.com$image
 mockmaprcommunications.store$image
 model1.hedgeye.com$image
@@ -97879,8 +97571,6 @@ movements.mg.movements.mov$image
 movie.flixster.com$image
 moz.de#%#//scriptlet('set-local-storage-item', '/^snowplow/', '$remove$')
 moz.de#%#//scriptlet('set-local-storage-item', 'avoinstallationid', '$remove$')
-mpse.jp%2f*%2frw%2fbeacon_$image
-mpse.jp/*/rw/beacon_$image
 mr.postman.storyworth.com$image
 msg.mg.ticketsmanager.ch$image
 msg.mg.totaalvers.nl$image
@@ -97915,7 +97605,6 @@ mx1.happycustomer.io$image
 mx1.mailgun.multoweb.nl$image
 mx1.mtrl.me$image
 mx1.refinerymail.com$image
-mx11.tildacdn.com^*img/pixel/$image
 mx2.avalst.com$image
 mx2.email.oneassessment.com$image
 mx2.happycustomer.io$image
@@ -97951,13 +97640,10 @@ ncbi.nlm.nih.gov#%#//scriptlet('set-constant', 'ncbi.sg.ping', 'noopfunc')
 ncbi.nlm.nih.gov#%#//scriptlet('ubo-set', 'ncbi.sg', '{}')
 ncbi.nlm.nih.gov#%#//scriptlet('ubo-set', 'ncbi.sg.ping', 'noopfunc')
 nekochan.jp###main > aside:has(> div.outbrain)
-nethunt.com/api/v1/track/email/$image
 netigate.feedback.sbk.org$image
 netigate.teleservice.net$image
 nettiauto.com#%#//scriptlet("set-constant", "listinggoogleeetracking", "noopfunc")
 newegg.com#%#//scriptlet('set-constant', 'ga4lphandler', 'noopfunc')
-newegg.com%2fmr%2f*.gif%3fr%3d
-newegg.com/mr/*.gif?r=
 newidea.e.aremedia.com.au$image
 newideafood.e.aremedia.com.au$image
 newmail.hindujahospital.com$image
@@ -97967,15 +97653,12 @@ news.audee.jp###taxelbox
 news.mynavi.jp##.articlelist-along
 news.mynavi.jp##.articlelist-attention
 news.naver.com#%#//scriptlet('set-constant', 'nclk', 'noopfunc')
-news.samsung.com%2fus%2f%3fnoti%3d$image
-news.samsung.com/us/?noti=$image
 news.tokimeki-s.com##div[style]:has(> script[src^="https://rranking3.ziyu.net/"])
 news.webike.net###custom_html-5
 newsdig.tbs.co.jp#%#//scriptlet('set-constant', 'ismlib', 'emptyobj')
 newsdig.tbs.co.jp#?#.l-contents-wrap > div[v-scope^="recommend"]:upward(1)
 newslab.ru##.r-recommend
 newsletter.b105sports.com$image
-newsletter.goodgoodgood.co$image
 newsletters.decider.com$image
 newsletters.zencare.co$image
 newslink.breakingviews.com$image
@@ -98012,20 +97695,13 @@ nine.com.au#%#//scriptlet('prevent-element-src-loading', 'script', 'share.9cdn.n
 nintendolife.com#$?#input[name=fingerprint] { remove: true; }
 nl.reckon.news$image
 nlab.itmedia.co.jp##div[id^="logly-"] + div.h10px.colboxclear
-nnw.soundestlink.com$image
 no-reply.advertise.gojek.com$image
 no-reply.postman.gobiz.co.id$image
-node.bolt.eu*pixel$image
 norisoku.com###random
 nos.national.aaa.com$image
 noted.e.bauermedia.co.nz$image
-notices.rei.com$image
 notificaciones.fraccional.cl$image
 notifications.fcpareport.com$image
-notifications.google.com%2fg%2fimg%2f*.gif
-notifications.google.com/g/img/*.gif
-notifications.googleapis.com%2femail%2ft%2f*%2fa.gif
-notifications.googleapis.com/email/t/*/a.gif
 notifications.inframationgroup.com$image
 notifications.mergermarket.com$image
 notifications.parr-global.com$image
@@ -98165,7 +97841,6 @@ nxslink.wvnstv.com$image
 nxslink.wwlp.com$image
 nxslink.wytv.com$image
 nxslink.yourerie.com$image
-nyb.soundestlink.com*track$image
 nytimes.com#%#//scriptlet("set-constant", "navigator.prototype.joinparakeetinterestgroup", "noopfunc")
 oceans-nadia.com##.gtm-bnr-rensai
 oct.click.s11.sfmc-osl.com$image
@@ -98178,28 +97853,19 @@ ohmynews.com#%#//scriptlet('set-constant', 'ga_event', 'noopfunc')
 okazuch.site###custom_html-30
 okko.tv#%#//scriptlet('set-local-storage-item', 'sbid_loguid', '$remove$')
 olympics.com##section[data-cy="story-parts-wrapper"] > div:not([data-cy]):has(rect[clip-path="url(#loading)"])
-omeclk.com$image
 omlete.mg.liebesleinwand.de$image
 omni.soundestlink.com$image
 onboarding.compass.com$image
 onefootball.com##section[class^="xpataboolaplaceholder_"]
-onelink.soundcloud.com%2fv1%2femailopen$image
-onelink.soundcloud.com/v1/emailopen$image
 onyx.15.nz$image
-open.convertkit-mail*.com$image
 open.rye.com$image
 openapilobalid3.click.s11.sfmc-osl.com$image
-openedlog.smart-bdash.com%2fopened%3faid%3d$image
-openedlog.smart-bdash.com/opened?aid=$image
-openrate.aweber.com$image
 order.theiconic.com.au$image
 otekomachi.yomiuri.co.jp###_popin_right
 otekomachi.yomiuri.co.jp##.p-ads
 out-c.equip.co$image
 out-globalid3.click.s11.sfmc-osl.com$image
 outpostemail.notify.readtangle.com$image
-outrch.com/api/mailings/opened$image
-p.liadm.com/imp?s=$image
 p.mail.dnalc.org$image
 page-internal.click.s11.sfmc-osl.com$image
 page.e.moneris.com$image
@@ -99889,12 +99555,7 @@ phileweb.com#%#//scriptlet('ubo-set-attr', 'span[class] img.lazyload[width]', 's
 phys.org##.news-related
 pikabu.ru#%#//scriptlet('href-sanitizer', 'a[href^="https://pikabu.ru/"][href*="?u="]', '?u')
 ping.mg.apexpay.org$image
-pinterest.com%2femail%2fopen%2f$image
-pinterest.com%2femail%2ftracking.gif$image
-pinterest.com/email/open/$image
-pinterest.com/email/tracking.gif$image
 pioneer.eu#%#//scriptlet('remove-attr', 'onclick', 'a[href][onclick^="trackoutboundlink"]')
-pixel.monitor*.returnpath.net$image
 platform.autods.com#%#//scriptlet('set-constant', '_conv_q', 'emptyobj')
 platform.autods.com#%#//scriptlet('set-constant', '_conv_q.push', 'noopfunc')
 play.xumo.com#%#//scriptlet('set-local-storage-item', '_xumo_ifaid', '$remove$')
@@ -99915,7 +99576,6 @@ poczta.orrdugulasellen.happycustomer.io$image
 poczta.percentage.happycustomer.io$image
 policy.click.s11.sfmc-osl.com$image
 politring.com##a[href="https://metrika.yandex.ru/"]
-polymail.io/v2/z$image
 pop.alliedhousing.com$image
 pop.alrifai.happycustomer.io$image
 pop.happycustomer.io$image
@@ -99940,8 +99600,6 @@ post.dovetails.happycustomer.io$image
 post.edr.co$image
 post.envoyermail.com$image
 post.mtrl.me$image
-post.pinterestmail.com%2fo%2f$image
-post.pinterestmail.com/o/$image
 postman.postman.legacyfa-asia.com$image
 postmaster.asteriabd.com$image
 postmaster.cyamotor.happycustomer.io$image
@@ -99953,8 +99611,6 @@ postmaster.mailgun.multoweb.nl$image
 postmaster.mg.hotelhead.de$image
 postmaster.mistersmoke.happycustomer.io$image
 postmaster.mtrl.me$image
-postoffice.adobe.com%2fpo-server%2flink%2fopen$image
-postoffice.adobe.com/po-server/link/open$image
 powerhousefamily.xyz$image
 ppomppu.co.kr#%#//scriptlet('href-sanitizer', 'a[href^="https://s.ppomppu.co.kr?"][href*="&target="]', '?target', 'base64decode')
 pracuj.pl#%#//scriptlet('set-cookie-reload', 'gptrackcookie', '1')
@@ -99962,8 +99618,6 @@ prcommunications.dunkinbrands.com$image
 prd.api.bleacherreport.com^
 pre.click.s11.sfmc-osl.com$image
 preferences.e.therealreal.com$image
-preview.ab0.jp%2fstatic%2fstarbucks%2fma%2f*%2frewards_img%2f*scenario*img-*.gif$image
-preview.ab0.jp/static/starbucks/ma/*/rewards_img/*scenario*img-*.gif$image
 price.click.s11.sfmc-osl.com$image
 pricose.notificacion.pricose.com$image
 pridelobalid3.click.s11.sfmc-osl.com$image
@@ -99971,9 +99625,7 @@ prjaga.ru#?##right > div#right_nav > h3:contains(онлайн статистик
 prm.com#%#//scriptlet('set-local-storage-item', '/deviceid/', '$remove$')
 pro.kerastase-usa.com$image
 pro.pureology.com$image
-probe.zalando.com$image
 problemtracker.click.s11.sfmc-osl.com$image
-production.k-trk.com$image
 profile.funimation.com$image
 programmes.uic.es$image
 project.click.s11.sfmc-osl.com$image
@@ -99982,8 +99634,6 @@ proto-2.click.s11.sfmc-osl.com$image
 proxy1.click.s11.sfmc-osl.com$image
 pryamoj-efir.ru#?#.layout-post-right > h1.playmaker-list:contains(статистика)
 psp.click.s11.sfmc-osl.com$image
-pstmrk.it%2fopen$image
-pstmrk.it/open$image
 pub-bankcommunication.capitalone.com$image
 pub.a.e.monash.edu$image
 pub.airasthelpdesk.org$image
@@ -100145,7 +99795,6 @@ pub.uberdebitcard.com$image
 pub.updates.cambridge.org$image
 pub.uq.uniqlo.com.my$image
 pub.venpro.abbvie.com$image
-public-cis.exponea.com$image
 pullandbear.com#%#//scriptlet('prevent-element-src-loading', 'script', 'widget.fitanalytics.com/widget.js')
 pureheavenly.happycustomer.io$image
 pusatporn18.com###html1
@@ -100165,11 +99814,6 @@ qledvideosupport.com$image
 qpp.caq.org.cn#%#//scriptlet('prevent-element-src-loading', 'script', 'hm.baidu.com/hm.js')
 quizlet.com#%#//scriptlet('abort-current-inline-script', 'document.createelement', 'snowplow')
 r.gleam.io$image
-r.ml.reverso.net%2ftr%2fop$image
-r.ml.reverso.net/tr/op$image
-r.rakuten.co.jp%2f*.gif%3fmpe%3d
-r.rakuten.co.jp/*.gif?mpe=
-r.superhuman.com$image
 rabota.click.s11.sfmc-osl.com$image
 radioprofusion.com##.revolvermaps
 radioprofusion.com##footer > div.counter
@@ -100181,14 +99825,12 @@ raycast.com#%#//scriptlet('set-local-storage-item', '/ph_phc_/', '$remove$')
 raycast.com#%#//scriptlet('set-session-storage-item', '/ph_phc_/', '$remove$')
 rdpid3.click.s11.sfmc-osl.com$image
 read.edm.aif.tw$image
-read.sendsay.ru$image
 realbluespruce.com$image
 realliving.e.aremedia.com.au$image
 recruit.email.seasoned.co$image
 recruiting.caesars.com$image
 reddit.com#%#//scriptlet('set-constant', 'navigator.sendbeacon', 'noopfunc')
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##a[href="#pixel"]
-referrer.disqus.com$image
 registrationid3.click.s11.sfmc-osl.com$image
 regroup.du.edu$image
 relay.actionsecuritylock.com$image
@@ -100331,7 +99973,6 @@ rnd-email.workatthrive.com$image
 rnd-email.workbetter.bg$image
 rnd-email.yukonstruct.com$image
 rollout1.click.s11.sfmc-osl.com$image
-rs-stripe.vox.com$image
 rs.realself.com$image
 rsvpify.airfrance.fr$image
 rsvpify.beeple-crap.com$image
@@ -100346,18 +99987,11 @@ rsvpify.mubadalahospitality.ae$image
 rsvpify.sevensevensix.com$image
 rsvpify.solve.mit.edu$image
 rwvtest.hippinopages.com$image
-s-pt.jp%2fmail%2finfo%2f*%2fimg%2f_.gif$image
-s-pt.jp/mail/info/*/img/_.gif$image
 s.response.jp##.aside-box-relation-arti
 s.sbnation.com$image
-s2.washingtonpost.com/beacon/$image
 s5sender.usertesting.com$image
 s7vuvj55c5ruzkxm.cloud.s11.sfmc-osl.com$image
 sahibinden.com#%#//scriptlet('set-constant', 'gatrackdata', 'truefunc')
-sahibinden.com%2fmail%2freadstatistics%2f$image
-sahibinden.com%2ftrace%2femail%2fread%2f$image
-sahibinden.com/mail/readstatistics/$image
-sahibinden.com/trace/email/read/$image
 saiganak.com#%#//scriptlet('prevent-element-src-loading', 'script', 'clarity.ms')
 sailthru.dbuy.se$image
 sailthru.emagazines.com$image
@@ -100368,7 +100002,6 @@ sailthrulink.parcelmonkey.com$image
 sailthrulink.si.com$image
 sailthruredirect.icetrends.com$image
 sales.gilsbar.com$image
-salesforceiq.com/t.png$image
 samsung.com#%#//scriptlet('prevent-element-src-loading', 'script', 'mpsnare.iesnare.com/snare.js')
 samuraisoccer.doorblog.jp##.plugin-l-t:last-child
 sandbox-finops.cloud.s11.sfmc-osl.com$image
@@ -100377,14 +100010,11 @@ sandbox-hotfix.cloud.s11.sfmc-osl.com$image
 sandbox-qa2.cloud.s11.sfmc-osl.com$image
 sandbox-trk.cloud.s11.sfmc-osl.com$image
 sankei.com##div[id^="piano_special_top_"]
-sbs-mkt-stage1-res.adobe-campaign.com$image
 sbs.co.kr#%#//scriptlet('set-cookie', '__suuid', '1', '/', '.sbs.co.kr')
 sc-email.londontechweek.com$image
 scarfilm.org##.footer-col-3
 scottlobalid3.click.s11.sfmc-osl.com$image
 screenov.eu#?#.container > div.box:has(> a[href^="https://www.liveinternet.ru/click"])
-sealfit.ontraport.net%2fo%3f$image
-sealfit.ontraport.net/o?$image
 search.brave.com#%#//scriptlet('set-local-storage-item', 'app.usagemetricsoptout', 'true')
 seclub.org##a[href^="http://waplog.net/"]
 secure.axocom.happycustomer.io$image
@@ -100410,10 +100040,6 @@ send.happycustomer.io$image
 send.hullo.com$image
 send.opportunity-dc.org$image
 sender.email.superpopi.com$image
-sendfox.com%2ftrk%2fopen%2f$image
-sendfox.com/trk/open/$image
-sendpul.se*8080$image
-sendpul.se*image$image
 seorinexpress.com#%#//scriptlet('set-constant', 'am_product', 'noopfunc')
 server.avalst.com$image
 server.buyersparadise.happycustomer.io$image
@@ -100428,8 +100054,6 @@ setafi.com##.footer_bl-3
 sfalobalid3.click.s11.sfmc-osl.com$image
 sfmc.cashback.net$image
 shockwave.com#%#(function(){window.swua={swevent:function(){}}})();
-shop.yushakobo.jp%2f_t%2fopen%2f$image
-shop.yushakobo.jp/_t/open/$image
 shop2.click.s11.sfmc-osl.com$image
 shueisha.online##.g-a-recommend
 sidismail.mail.sidis.ai$image
@@ -100437,8 +100061,6 @@ signup-globalid3.click.s11.sfmc-osl.com$image
 signup.bloggers.hqstories.co.uk$image
 signup.bloggers.millsandboon.co.uk$image
 signup.collins.co.uk$image
-signup.com%2fimp%3f$image
-signup.com/imp?$image
 signup.harpercollins.co.uk$image
 signup.harperinsider.co.uk$image
 signup.thelockedlibrary.co.uk$image
@@ -100446,14 +100068,9 @@ signup1.millsandboon.co.uk$image
 sinoptik.ua###bigmirtop
 sinoptik.ua##img[src^="//counter.ukr.net/"]
 site.email.oberlo.com$image
-site123.com*openedmessages.php$image
 sjpconsultancylinks.net$image
 skemail.lpl.com$image
 sky.pro#%#//scriptlet('set-local-storage-item', '/^(sales-ninja|snj)/', '$remove$')
-sli.*.com%2fimp%3fs%3d$image
-sli.*.com/imp?s=$image
-sli.fortune.com$image
-sli.thedailybeast.com$image
 slobodnadalmacija.hr,meconomynews.com,brandbrief.co.kr,motorgraph.com#%#//scriptlet('abort-current-inline-script', 'atob', 'eval(decodeuricomponent(escape(window.atob("kcgppt5')
 slobodnadalmacija.hr,meconomynews.com,brandbrief.co.kr,motorgraph.com#%#//scriptlet('prevent-eval-if', '/07c225f3\.online|content-loader\.com|css-load\.com|html-load\.com/')
 smail.keeprecipes.com$image
@@ -100600,13 +100217,8 @@ smtps.meta.happycustomer.io$image
 smtps.sportlife.ua$image
 smtpseguro.blackafrican.co.za$image
 snl.staging.libertatea.ro$image
-socauth.privatbank.ua*pixel.php$image
 social.memberemail.com$image
 southpark.*,southparkstudios.*#%#//scriptlet('set-constant', 'vtg', 'emptyobj')
-sp.e2.theathletic.com%2fq%2f$image
-sp.e2.theathletic.com/q/$image
-sp.plex.tv%2fq%2f$image
-sp.plex.tv/q/$image
 spam.alliedhousing.com$image
 spam.avalst.com$image
 spam.buyersparadise.happycustomer.io$image
@@ -100682,7 +100294,6 @@ spb.click.s11.sfmc-osl.com$image
 specialcom.net#?##sidebar > div.widget:has(span#openstat1)
 splashemail.6sense.com$image
 spletnik.ru#%#//scriptlet('set-local-storage-item', 'adrcid', '$remove$')
-spmailtechnol.com$image
 spoki.lv##.popular.piano
 sports.goo.ne.jp###taboola-below-sokuho-thumbnails
 sports.yahoo.com#%#//scriptlet('set-constant', 'rapidinstance.addmoduleprogression', 'noopfunc')
@@ -100749,19 +100360,9 @@ streem-email.opposition.vic.gov.au$image
 studytube.growwithessent.nl$image
 suara.com##.dailymotion-widget
 success.interactivehailmaps.com$image
-supersender.yandex.net%2fv1%2f$image
-supersender.yandex.net/v1/$image
-support-*.sandisk.com%2frd%2f*.gif$image
-support-*.sandisk.com/rd/*.gif$image
-support-*.wd.com%2frd%2f*.gif$image
-support-*.wd.com/rd/*.gif$image
 support.gatesentry.com$image
 support.slotessentials.com$image
-support.yahoo-net.jp%2fformly%2fservlet%2fservlet.imageserver$image
-support.yahoo-net.jp/formly/servlet/servlet.imageserver$image
 supportersindex.fun$image
-surveys.zendesk.com%2fsubscription%2fwatermark.gif$image
-surveys.zendesk.com/subscription/watermark.gif$image
 sv-email.craftjack.com$image
 sv-email.generatorsupercenter.com$image
 sv-email.kount.com$image
@@ -100788,10 +100389,6 @@ t.email.unicity.com$image
 t.email.yourlibrary.vic.gov.au$image
 t.getthru.mail.appcues.com$image
 t.ghost.platformer.news$image
-t.gutefrage.net%2fop%2f$image
-t.gutefrage.net/op/$image
-t.hsms06.com$image
-t.hubspotemail.net/e2t/o$image
 t.humareso.com$image
 t.mail.emporiaresearch.com$image
 t.mail.fig.io$image
@@ -100800,17 +100397,10 @@ t.marketing.casablanca.at$image
 t.mg.apacta.com$image
 t.mg.engineeringdata.it$image
 t.mgx.cabify.com$image
-t.mp*.tripadvisor.com$image
 t.notifications.casablanca.at$image
 t.r.emporiaresearch.com$image
-t.senal$image
-t.sidekickopen$image
-t.signaux$image
-t.sigopn$image
 t.techsmith.mail.appcues.com$image
-t.yesware.com
 t1.e1.bwlegal.co.uk$image
-t1.mp1.tripadvisor.com$image
 t2email.22bet.com$image
 ta.alamo.com#%#(()=>{window.cq_analytics={segmentmgr:{loadsegments(){}},clientcontextutils:{init(){}}}})();
 take5mag.e.aremedia.com.au$image
@@ -100859,8 +100449,6 @@ thatslife.e.aremedia.com.au$image
 the-ans.jp##.side-reccomend
 the-japan-news.com#%#//scriptlet('set-cookie-reload', 'fp', '1')
 the-sun.com,nypost.com#%#//scriptlet('set-local-storage-item', 'ow/social-browser-storage', '$remove$')
-thebell.io%2fadmin%2fimages%2femail%2fblank.gif$image
-thebell.io/admin/images/email/blank.gif$image
 thegentlemansjournal.com#%#//scriptlet('set-local-storage-item', '__anon_id', '$remove$')
 thehill.com###block-thehill-blocks-amp-outbrain
 thehindu.com###sectiondivicymi
@@ -100875,9 +100463,7 @@ tieba.baidu.com#%#//scriptlet('set-constant', 'passfingerprint', 'noopfunc')
 tilt.pages.s11.sfmc-osl.com$image
 times.abema.tv##.ad-taboola-mid-article-thumbnails
 timesnownews.com#%#//scriptlet("set-constant", "ga", "noopfunc")
-tinyletterapp.com$image
 tk.mail.pointspot.co$image
-tk.seasungame.com$image
 tl-0yyhyx5c3xzy8jqhzyrvq2jy0.view-sap.sfmc-marketing.com$image
 tl-2h6sp5fd1tb0tqwp9n3b62ljy.click-sap.sfmc-marketing.com$image
 tl-6y3k4hcgpwjw1xw4jnrkpfkq0.click-sap.sfmc-marketing.com$image
@@ -101147,7 +100733,6 @@ tlqrwj-49z-dz4pxb5893sxk80-1.click-sap.sfmc-marketing.com$image
 tlqwxlrq520q-8t3k1yrvdgcx620.view-sap.sfmc-marketing.com$image
 tlqxqdc8n38x2gqmg3ldy7j0jb4q.view-sap.sfmc-marketing.com$image
 tlqxtykwnvhznq2zr5ddh91fvw2y.click-sap.sfmc-marketing.com$image
-tlr.stripocdn.email$image
 tlr144jw2-mk0b42z4lf4n92dgyy.cp-sap.sfmc-content.com$image
 tlr1tvylsdmx-8pblks3v2p9jj08.cp-sap.sfmc-content.com$image
 tlr356v73gngqlg4sgr9krlvp71q.cp-sap.sfmc-content.com$image
@@ -101231,8 +100816,6 @@ trace.mail.myifashop.com$image
 track-email.matrixcare.com$image
 track-email.zenhub.com$image
 track-inc.mailer.incrementacrm.com$image
-track-mmp.navercorp.com%2freceived%2f*.gif$image
-track-mmp.navercorp.com/received/*.gif$image
 track.a.mbz.io$image
 track.app.fasttrackclub.de$image
 track.base2services.co$image
@@ -101240,7 +100823,6 @@ track.bettingexpert.com$image
 track.bildirim.courself.com.tr$image
 track.bluerecruit.us$image
 track.campaign.resultbull.ai$image
-track.canva.com$image
 track.carlock.co$image
 track.ceh.15k.bet$image
 track.ceh.academicplus.co.uk$image
@@ -101374,7 +100956,6 @@ track.ctx.wielkapowtorka.pl$image
 track.ctx.womengotech.lt$image
 track.ctx.wpkurzus.hu$image
 track.ctx.wspapsych.org$image
-track.customer.io$image
 track.donald.bet$image
 track.email.causaly.com$image
 track.email.flyroyalbrunei.com$image
@@ -101383,7 +100964,6 @@ track.email.gononclinical.com$image
 track.email.lazarusmethod.com$image
 track.email.morningcoach.com$image
 track.email.regalweightloss.com$image
-track.email.stackcommerce.com/q/$image
 track.emails.hgcultivo.com$image
 track.envios.tec.mx$image
 track.evostock.com$image
@@ -101495,8 +101075,6 @@ track.mg.mightymicro.net$image
 track.mg.pamatz.dev$image
 track.mg.panneauxsandwichdirect.com$image
 track.mg.routinehub.co$image
-track.mixmax.com/api$image
-track.msg.fortune.com$image
 track.my.pelicanplus.email$image
 track.network.marketingops.com$image
 track.news.edupar.it$image
@@ -101523,7 +101101,6 @@ track.refinerymail.com$image
 track.send.postdrop.io$image
 track.smartsupp.email$image
 track.spolecznosc.skillweb.pl$image
-track.team.kahoot.com$image
 track.teamway-io.co$image
 track.tournaments.superbru.email$image
 track.tripleten.com$image
@@ -101665,7 +101242,6 @@ track123-mail.tryfemlush.com$image
 track123-mail.us.celeste-dor.com$image
 track123-mail.vincaccio.it$image
 track123-mail.xtrasteps.com$image
-trackedlink.net$image
 tracker.email.goskyai.com$image
 trackgun.alrajhi-capital.com$image
 tracking.aessenai.org.br$image
@@ -101680,7 +101256,6 @@ tracking.bhgre.com.au$image
 tracking.blackbean.cloud$image
 tracking.caravelinvest.com$image
 tracking.cecassessoria.email$image
-tracking.cirrusinsight.com$image
 tracking.concertstudio.com$image
 tracking.core-plus.com.au$image
 tracking.documentplatform.loreal.co.uk$image
@@ -101714,7 +101289,6 @@ tracking.mail.influence.id$image
 tracking.mail.kaavyaalaya.org$image
 tracking.mail.muval.com.au$image
 tracking.mail.sertifier.com$image
-tracking.mail.shopee.$image
 tracking.mail.swag.live$image
 tracking.mail1.giox.com.br$image
 tracking.mailer.tabletopgaymers.org$image
@@ -101730,7 +101304,6 @@ tracking.mg.truney.com$image
 tracking.mg.xupe.hu$image
 tracking.moreyoga.co.uk$image
 tracking.myprivacyassist.com$image
-tracking.newsletter.m6.fr$image
 tracking.noties.xt.com$image
 tracking.nucleuslabs.com$image
 tracking.oneclicklife.com.au$image
@@ -101746,7 +101319,6 @@ tracking.spengabloomingdale.com$image
 tracking.spengadallas.com$image
 tracking.spengalittleton.com$image
 tracking.spengaroswell.com$image
-tracking.srv2.de$image
 tracking.sweat-yoga.com$image
 tracking.sweathouz.com$image
 tracking.swthz.com$image
@@ -101781,12 +101353,6 @@ trendyol-milla.com#%#//scriptlet('set-constant', 'process', 'emptyobj')
 trendyol-milla.com#%#//scriptlet('set-constant', 'process.env', '')
 trendyol.com#%#//scriptlet('set-constant', 'process', 'emptyobj')
 trendyol.com#%#//scriptlet('set-constant', 'process.env', 'emptyobj')
-tripadvisor.com%2fimg%2fcdsi%2fpartner%2ftransparent_pixel$image
-tripadvisor.com%2fmpturl%3fp%3d$image
-tripadvisor.com/img/cdsi/partner/transparent_pixel$image
-tripadvisor.com/mpturl?p=$image
-trk.*.com%2fo%2f$image
-trk.*.com/o/$image
 trk.bonpote.com$image
 trk.djrj.dowjones.com$image
 trk.e.helpanseoout.com$image
@@ -101802,7 +101368,6 @@ trmail.price.com.hk$image
 trrprnjroaadfpe9.kdpwizard.app$image
 tst0-0.cloud.s11.sfmc-osl.com$image
 ttemail.stjamesliveatl.com$image
-tucsontopia.com/?mailpoet_router$image
 tuincondominio.tuincondominio.it$image
 turkifsalar7.space#%#//scriptlet('remove-node-text', 'script', 'monsterinsightsdualtracker')
 tv2.no##.article-recommended
@@ -101823,16 +101388,11 @@ tweakers.net#%#//scriptlet('abort-on-property-read', 'snowplow')
 tweakers.net#%#//scriptlet('abort-on-property-write', 'webtrekkconfig')
 tweakers.net#%#//scriptlet('set-constant', 'tweakersconfig.wtconfig.scripturl', '')
 tweakers.net#%#//scriptlet('set-constant', 'webtrekkclickmap', 'noopfunc')
-twitter.com%2fscribe%2fibis%3ft%3d$image
-twitter.com/scribe/ibis?t=$image
 typelink.mg.type.link$image
-u.pcloud.com*trackmail$image
 unews.pro#?##banner > div.rightcolumn:has(> a[href^="//www.liveinternet.ru/"])
 unilad.co.uk###sidebar > #text-64 > .block-title
 uniongang.net##a[href^="http://whos.amung.us/stats/"]
 uniongang.org#?#td[align="center"][height="27"]:contains(счётчики)
-unisender.solar-staff.com%2f*%2fgo1_read_tracker%2f$image
-unisender.solar-staff.com/*/go1_read_tracker/$image
 unito.life#%#//scriptlet('abort-current-inline-script', 'keentracking')
 unito.life$$script:contains(keentracking)
 unn.com.ua##.b-footer-counters
@@ -101998,7 +101558,6 @@ verify99252.usedcars.bmw.co.uk$image
 versii.com##img[style="width: 88px; height: 31px; border: 0"]
 vesti-ua.net,udaff.com##.counters
 vgroup.mailgun.vgroup.cl$image
-via.intercom.io/o$image
 videos.click.s11.sfmc-osl.com$image
 viero.smtp.vierovantagens.com.br$image
 view-old.email.realcommercial.com.au$image
@@ -104163,10 +103722,8 @@ washingtontimes.com##.piano-end-article-reco
 washingtontimes.com##.piano-in-article-reco
 washingtontimes.com##.piano-right-rail-reco
 watch.nbc.com$image
-wattpad.com/et?c=$image
 web.audi.it$image
 web.e.equifax.com$image
-web.frontapp.com/api$image
 web.iulm.it$image
 web.mitsubishi-motors.it$image
 web.volkswagen-veicolicommerciali.it$image
@@ -104181,15 +103738,11 @@ webmail.meta.happycustomer.io$image
 webmail.mg.hotelhead.de$image
 webviewer.interstuhlnet.de#%#//scriptlet('set-constant', 'wurfl', 'emptyobj')
 weekly-economist.mainichi.jp##iframe[id^="cxwidget_"]
-welovepg.polymail.io$image
 westeuropeid3.click.s11.sfmc-osl.com$image
 westnews.com.ua##a[href="http://www.bigmir.net/"]
-whiteclouddrive.com$image
 who.e.aremedia.com.au$image
 wiki.memberlandingpages.com$image
 wikiid3.click.s11.sfmc-osl.com$image
-willap.jp%2ft%3fr=$image
-willap.jp/t?r=$image
 windowscentral.com#%#//scriptlet('set-local-storage-item', 'vf.analytics.ppid', '$remove$')
 windowscentral.com#%#//scriptlet('set-local-storage-item', 'vf.analytics.section', '$remove$')
 windowscentral.com#%#//scriptlet('set-local-storage-item', 'vf.analytics.up', '$remove$')
@@ -104197,7 +103750,6 @@ windowscentral.com#%#//scriptlet('set-local-storage-item', 'vf.analytics.us', '$
 wing.wingshackwings.com$image
 wired.com,self.com,allure.com,pitchfork.com,gq.com#%#//scriptlet('set-local-storage-item', '/^avoinspector/', '$remove$')
 wirkaufens.de#%#//scriptlet('trusted-replace-fetch-response', '/"ip":".*?"/', '"ip":""', 'api.ipify.org')
-wizrocketmail.net$image
 woman.excite.co.jp#%#//scriptlet('remove-attr', 'data-woman-ex', 'a[href][data-woman-ex]')
 womansday.e.aremedia.com.au$image
 womensweeklyfood.e.aremedia.com.au$image
@@ -104319,10 +103871,7 @@ xinshuru.com#%#//scriptlet('set-constant', 'radar_monitor.setproject', 'emptyobj
 xn--r8jwklh769h2mc880dk1o431a.com##.topbox2 > div.”smanone”
 xn--r8jwklh769h2mc880dk1o431a.com##.underbox
 xxibanorte.xxibanorte.com$image
-yahoocs.my.salesforce.com%2fs.gif$image
-yahoocs.my.salesforce.com/s.gif$image
 yakutia.info##.popular:has(> .js-relap-anchor)
-yamm-track.appspot$image
 yappli.plus#%#(()=>{window.ga=function(){const a=arguments.length;if(0===a)return;const b=arguments[a-1];let c;b instanceof object&&null!==b&&"function"==typeof b.hitcallback?c=b.hitcallback:"function"==typeof b&&(c=()=>{b(ga.create())});try{settimeout(c,1)}catch(a){}}})();
 yc.mailgun.com$image
 yelp28ouuwj7prjr.cloud.s11.sfmc-osl.com$image
@@ -104341,7 +103890,6 @@ zoiper.com#%#//scriptlet('remove-class', 'track-click', 'a')
 zonedirector.avadacom.com$image
 |a.klaviyo.com^
 |c.blue.*.com^|
-|esv2.com^$third-party
 |http://a.pr-cy.ru^$third-party
 |http://r.i.ua^
 |http://x.o2.pl^
@@ -104351,7 +103899,6 @@ zonedirector.avadacom.com$image
 |load.sgtm.
 |load.ss.
 |load.sst.
-|mailgun.org^$third-party
 |piwik.
 ||*report.wc.yahoodns.net/cs/
 ||0.0.0.0^$third-party,domain=~0.0.0.0|~127.0.0.1|~[::1]|~[::]|~local|~localhost
@@ -108215,6 +107762,7 @@ zonedirector.avadacom.com$image
 ||deviceprotect.eu^$third-party
 ||devphp.org.ua^$third-party
 ||devtribu.fr/t.php?
+||dex.hu/x.php
 ||df-srv.de^$third-party
 ||df.cfp.microsoft.com/images/clear.png
 ||df.infra.shopee.
@@ -108634,6 +108182,7 @@ zonedirector.avadacom.com$image
 ||ecomm.events^$third-party
 ||ecommstats.com^$third-party
 ||econda-monitor.de^$third-party
+||economx.hu/ident-fingerprint/
 ||ecranlarge.com/stat
 ||ecustomeropinions.com^$third-party
 ||edge-hls.doppiocdn.com/ping
@@ -109938,6 +109487,7 @@ zonedirector.avadacom.com$image
 ||google.com/images/phd/px.gif
 ||google.com/log?$redirect=nooptext
 ||google.com/log^$domain=~accounts.google.com
+||google.com/measurement/
 ||google.com/pagead/1p-conversion/
 ||googleadservices.com/pagead/conversion_async.js
 ||googleadservices.com/pagead/conversion_async.js$redirect=noopjs,domain=ffm.to,important
@@ -115156,7 +114706,7 @@ zonedirector.avadacom.com$image
 ||securegw.paytm.in/ui/uilogger/log?
 ||securepaths.com^$third-party
 ||secureprovide1.com/*=tracking$image
-||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect=googletagservices-gpt,domain=~golf.com|~today.line.me|~inmuebles24.com|~inside.com.tw|~investing.com|~olx.com.eg|~eksisozluk.com|~heycar.co.uk|~gizmodo.jp|~dexerto.com|~makorrishon.co.il|~mensjournal.com
+||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect=googletagservices-gpt,domain=~golf.com|~today.line.me|~inmuebles24.com|~inside.com.tw|~investing.com|~olx.com.eg|~eksisozluk.com|~heycar.co.uk|~gizmodo.jp|~dexerto.com|~makorrishon.co.il|~mensjournal.com|~thesun.co.uk
 ||securepubads.g.doubleclick.net/tag/js/gpt.js$script,redirect=googletagservices-gpt,important,domain=turbo.pt
 ||secureserver.net/t/
 ||securestudies.com^$third-party
