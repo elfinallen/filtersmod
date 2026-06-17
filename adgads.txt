@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-06-17 03:52:28 UTC
-! Total Rules: 5805
+! Last Updated: 2026-06-17 15:24:07 UTC
+! Total Rules: 5808
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -564,7 +564,6 @@
 /tongji/ad.js
 /tops/fmt.js?v=
 /tourl.html?url=
-/tp/filter.php?pro=
 /tt1-1367073066.cos.
 /ttj?id=
 /tuiguang366.oss-
@@ -1489,6 +1488,7 @@
 ||antpedia.com/include/js/view_news/l_banner_js.js
 ||antpedia.com/viewnewsrightboxtop.
 ||anyporn.com/aa/
+||anyporn.com/if2/
 ||anysex.com/js/initsite.js
 ||anysex.com/static/js/initsite.min.js
 ||anysex.com/static/js/script_new.js
@@ -2135,6 +2135,7 @@
 ||ck180.net/mitao
 ||ckxxbao.com/templets/default/js/wx.js
 ||clash.gg/embed-ad/
+||classicgames.me/ads/*.html
 ||clb.biz/public/static/js/common-v2.js
 ||cloud.tencent.com/developer/api/common/getads
 ||cloud.tencent.com/developer/api/common/getoneads
@@ -4237,6 +4238,7 @@
 ||olelive.com/v1/pub/index/anchor/check/pc/e?
 ||olgame.tw/home/attachment/
 ||om.cn/api/ad-om/
+||omguk.com/impression/
 ||one101.xyz/data/images/*.gif
 ||onedala.tv/uploads/banner/
 ||onegreen.net/myfile/
@@ -4384,6 +4386,7 @@
 ||pinlue.com/error/bangolike.js
 ||pipi.cn/player/
 ||pipix.cc/gg.gif
+||piratebay.live/static/ads/
 ||pites.cc/js/top.php
 ||pixabay.com/static/img/publisher/*_ad_
 ||pixfs.net/js/mib.min.js
@@ -4423,6 +4426,7 @@
 ||pornpics.de/api/banner/
 ||pornpoppy.com/*/external_pop.js
 ||pornstargold.com/af8b32fc37c0.js
+||porntn.com/static/js/custom.js
 ||pornx.to/wp-content/uploads/ad*x*.png
 ||pornxp.*/spnbf.js
 ||pornxp.com/2.js
@@ -4780,6 +4784,7 @@
 ||shfq.com/wuyue
 ||shihuo.cn/alibtn_
 ||shimo.im^*/ads?
+||shink.in/js/script.js
 ||shipin188.com/66
 ||shitouxs.com/static/042417.js
 ||short-wave.info/html/adsense-
@@ -5114,7 +5119,6 @@
 ||tigtag.com/images/*1000x
 ||tigtag.com/images/pic1/
 ||tigtag.com/styles/phpcms/js/tigtag/ads.js
-||tii.la/js/fps.js
 ||timeanddate.com/common/prebidtad.
 ||timecn.cn/image/alipay.jpg
 ||timeout.*/static/js/ads-
@@ -5424,7 +5428,6 @@
 ||woozooo.com/img/*.js
 ||wowfan.net/static/js/index.
 ||woyaoq.com/201904100958_5cad4dbac9c5f.png
-||wp.com/assets.sheetmusicplus.com/banner/
 ||wpdaxue.com/img/*/txy-
 ||wples.com/pc/common.js
 ||ws.kora-api.top/api/ads

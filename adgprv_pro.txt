@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-06-17 03:52:28 UTC
-! Total Rules: 118447
+! Last Updated: 2026-06-17 15:24:07 UTC
+! Total Rules: 118453
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -140,6 +140,7 @@ $cookie=_scor_uid
 $cookie=_sharedid
 $cookie=_sharedid_cst
 $cookie=_shopify_analytics
+$cookie=_shopify_marketing
 $cookie=_shopify_y
 $cookie=_sotmpid
 $cookie=_sotmsid
@@ -213,7 +214,11 @@ $cookie=browserid_sec
 $cookie=btacv3
 $cookie=c,domain=wp.pl|money.pl|o2.pl|pudelek.pl|komorkomania.pl|gadzetomania.pl|fotoblogia.pl|autokult.pl|abczdrowie.pl|parenting.pl|videostar.pl|autocentrum.pl|benchmark.pl
 $cookie=camps,domain=wp.pl|money.pl|o2.pl|pudelek.pl|komorkomania.pl|gadzetomania.pl|fotoblogia.pl|autokult.pl|abczdrowie.pl|parenting.pl|videostar.pl|autocentrum.pl|benchmark.pl
+$cookie=cfz_adobe
+$cookie=cfz_facebook
+$cookie=cfz_facebook-pixel
 $cookie=cfz_google-analytics_v4
+$cookie=cfz_reddit
 $cookie=cfzs_google-analytics_v4
 $cookie=classy-session-id
 $cookie=classy-user-id
@@ -6260,7 +6265,6 @@ analytics.mail1.badpups.com$image
 analyticsmgun.raidrive.com$image
 android-tools.ru###text-8
 android.webspecmail.com$image
-androplus.org##a[href^="https://px.a8.net/"]
 angels.webspecmail.com$image
 anikore.jp#$#html[class^="loading"] { visibility: visible !important; }
 anime-drama.jp###block-11
@@ -106840,7 +106844,6 @@ zonedirector.avadacom.com$image
 ||cloudflare.com/_cf/analytics.js
 ||cloudflare.com/ajax/libs/fingerprintjs2/$script,redirect=fingerprintjs2,domain=gamebox.gesoten.com,important
 ||cloudflare.com/cdn-cgi/trace$third-party,domain=~isbgpsafeyet.com|~wyndhamdestinations.com
-||cloudflare.com^$cookie=cfz_facebook-pixel
 ||cloudflareinsights.com^$third-party
 ||cloudfront.net*/keywee.min.js
 ||cloudfront.net*/sp.js|
@@ -107056,6 +107059,7 @@ zonedirector.avadacom.com$image
 ||comparis.ch/comparis/tracking/
 ||compendiumblog.com/sp.js
 ||competitoor.com/analytics/
+||compo-de.frontnow.app/api/event|
 ||components.justanswer.com/v3/main-tracking-script@released.js
 ||components2.*.it/rcs_tealium/
 ||components2.corriereobjects.it/rcs_data-tracking/
@@ -108052,6 +108056,7 @@ zonedirector.avadacom.com$image
 ||dud.allarknow.online/stat
 ||duer.ca/cdn/shopifycloud/media-analytics/
 ||dugout.co/das2.js
+||dugun.com^$cookie=uniqueid
 ||duhnet.tv/*/*/stats/init.min.js
 ||dulo.tv/api/ping
 ||dumbingofage.com/?feed-stats-post-id=
@@ -115852,6 +115857,7 @@ zonedirector.avadacom.com$image
 ||stuttgarter-nachrichten.de/cre-1.0/tracking/device.js
 ||stuttgarter-zeitung.de/cms/hitcount
 ||stw.extreme-down.
+||stw.zone-telechargement.
 ||stylitics.com/api/engagements
 ||stytch.com/sdk/v1/events
 ||su.pr/hosted_js$third-party
