@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-06-18 03:39:36 UTC
-! Total Rules: 118454
+! Last Updated: 2026-06-18 15:18:12 UTC
+! Total Rules: 118458
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -100461,6 +100461,7 @@ thekrazycouponlady.com#%#//scriptlet('set-local-storage-item', '__anon_id', '$re
 themirror.com##reach-topbox
 theplanet.ws##a[href="http://mycounter.com.ua/"]
 theqoo.net##.theqoo-counter
+thestar.com.my#%#//scriptlet('set-local-storage-item', 'nx_anon_id_v1', '$remove$')
 thg.ru#?#td[valign="top"] > table > tbody > tr:has(> td > table[cellpadding="0"] a[href^="http://top100.rambler.ru/"])
 threads.net#%#//scriptlet('href-sanitizer', 'a[href*="?xmt="]', '[href]', 'removeparam:xmt')
 tieba.baidu.com#%#//scriptlet('set-constant', 'passfingerprint', 'noopfunc')
@@ -105216,6 +105217,7 @@ zonedirector.avadacom.com$image
 ||app.link/_r?sdk=*&callback=branch_callback
 ||app.link^$cookie=_s
 ||app.mediaexpert.pl/spark-data/
+||app.nicealts.com/user/referral/visit
 ||app.notipack.com/pixel-track?
 ||app.notipack.com/pixel/
 ||app.octaneai.com/get_analytics_engine/
@@ -113192,6 +113194,7 @@ zonedirector.avadacom.com$image
 ||pghub.io^$third-party
 ||pgs.io^$third-party
 ||pgs.io^$third-party,domain=~publicgood.com
+||ph.givebutter.com^$ping
 ||philo.com/evr/in/adimp?enc=
 ||phlic.top/log/
 ||phoenix-widget.com^$third-party
@@ -115465,6 +115468,7 @@ zonedirector.avadacom.com$image
 ||sstats.bitdefender.com^$important,redirect=nooptext,xmlhttprequest
 ||sstats.bitdefender.com^$xmlhttprequest,redirect=nooptext,~third-party,important
 ||sstats.economist.com/b/ss/econdarwinproduction/
+||st-a.cdp.asia/insight.js
 ||st-wzb.clarin.com/weizenbock/amazon/min.js
 ||st.mngbcn.com/scripts/tagmanager.js
 ||st.onlygip.tech^$third-party

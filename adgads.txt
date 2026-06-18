@@ -1,7 +1,7 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-06-18 03:39:36 UTC
+! Last Updated: 2026-06-18 15:18:12 UTC
 ! Total Rules: 5808
 ! Expires: 5 days
 /a-duoduo/add-
@@ -1488,7 +1488,6 @@
 ||antpedia.com/include/js/view_news/l_banner_js.js
 ||antpedia.com/viewnewsrightboxtop.
 ||anyporn.com/aa/
-||anyporn.com/if2/
 ||anysex.com/js/initsite.js
 ||anysex.com/static/js/initsite.min.js
 ||anysex.com/static/js/script_new.js
@@ -1504,7 +1503,6 @@
 ||api.bilibili.com/x/ad/
 ||api.bitchute.com/slot1/
 ||api.bitchute.com/slot2/
-||api.leakgallery.com/public/lib*.js
 ||api.live.bilibili.com/*/banner
 ||api.wudizuqiu.com/72nba
 ||api.wudizuqiu.com/bocai.js
@@ -1689,7 +1687,6 @@
 ||banma.com/get_ad/
 ||banma.com/js/adi.js
 ||banma.com/statics/scripts/common/dialogadjs.js
-||banner-api.grouphfm.com/banner/
 ||banzhu*.com/js/cdn.
 ||banzhu*.com/js/html
 ||banzhu33333.net/js/cdn.
@@ -1925,6 +1922,7 @@
 ||caibaojian.com/d/uploads/*0-
 ||caikuu.com/ckimages/*_gg
 ||caikuu.com/ckimages/*_zg
+||caitlin.top/catalog/view/core/adchecker/
 ||caixin.com/s?z=
 ||camhub.*/static/js/cc-kvs.js
 ||camspacelive.com/widgets/
@@ -1993,6 +1991,8 @@
 ||cdn.jsdelivr.net/gh/mytoolznet/m-adblocker/2.0/code.min.js
 ||cdn.jsdelivr.net/gh/mytoolznet/mab/js/dublocker.js
 ||cdn.jsdelivr.net/gh/prebid/currency-file@1/latest.json
+||cdn.jsdelivr.net/gh/streamcorner/adcsh/
+||cdn.jsdelivr.net/gh/streamcorner/popads/
 ||cdn.jsdelivr.net/gh/vli-platform/adb-analytics@*/v1.0.min.js
 ||cdn.myhentaicomics.com/assets/frames/banner
 ||cdn.onepiecechapters.com/file/cdn-m-a-n/bannerv3.png
@@ -2245,7 +2245,6 @@
 ||cricbuzz.com/api/adverts/
 ||criteo.net/design/
 ||crn.com/scripts/delayed.js
-||crocotube.com/pop/
 ||crxs.me/service/assets/core-state.
 ||csdn.net/ggmm/
 ||csdn.net/msg.popup.js
@@ -2630,6 +2629,7 @@
 ||fang.com/house/ajaxrequest/advertlget.
 ||fang99.com^*/advjs/
 ||fanhaodang.org/runtime/js/
+||fanmtl.com/*/js/ad/*.js
 ||fanquanwang.com/uploads/ad/
 ||fans.*.space/fans/*.php
 ||fanyi.baidu.com/wise/afd
@@ -5156,7 +5156,6 @@
 ||tools.pdf24.org/static/js/ads.js
 ||toots-a.akamaihd.net/priority/*sponsor
 ||topagrar.pl/files/js/ado.js
-||topfaps.com/tantaly4.gif.mp4
 ||topmba.mobi/ad/
 ||topthink.com/api/basic/
 ||toptoon03.xyz/app/tuijian.html
@@ -5413,6 +5412,7 @@
 ||win2008.info/gongyi.gif
 ||windows.net/732d.js
 ||windowszj.net/d/js/list/click
+||winporn.*/templates/base_master/js/jquery.shows2.min.js
 ||winwin7.com/statics/js/pos_js/
 ||winwin7.com/statics/js/user/xz.
 ||wiocha.pl/js/placements.js
