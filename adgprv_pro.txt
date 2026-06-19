@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-06-18 15:18:12 UTC
-! Total Rules: 118458
+! Last Updated: 2026-06-19 04:02:40 UTC
+! Total Rules: 118460
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -104942,6 +104942,7 @@ zonedirector.avadacom.com$image
 ||api.aio.media/stat?
 ||api.airfind.com/stats/
 ||api.all-internet.jp^$third-party
+||api.anyembed.xyz/api/user/event|
 ||api.atlassian.com/metal/ingest
 ||api.auchan.fr/tracking/
 ||api.audio.com/analytics/event
@@ -107768,7 +107769,7 @@ zonedirector.avadacom.com$image
 ||deviceprotect.eu^$third-party
 ||devphp.org.ua^$third-party
 ||devtribu.fr/t.php?
-||dex.hu/x.php
+||dex.hu/x.php$xmlhttprequest
 ||df-srv.de^$third-party
 ||df.cfp.microsoft.com/images/clear.png
 ||df.infra.shopee.
@@ -108207,6 +108208,7 @@ zonedirector.avadacom.com$image
 ||edigitalsurvey.com^$third-party
 ||edisound.com/api/p/medias/stats
 ||edisound.com/api/p/stats
+||edit-api-*.capcut.com/lv/v1/event/
 ||edit-document.com/click-event/
 ||edith.xiaohongshu.com/api/sns/web/v1/note/metrics_report
 ||edococounter.de^$third-party
