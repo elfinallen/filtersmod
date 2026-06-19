@@ -1,7 +1,7 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-06-19 04:02:40 UTC
+! Last Updated: 2026-06-19 14:59:06 UTC
 ! Total Rules: 5808
 ! Expires: 5 days
 /a-duoduo/add-
@@ -55,6 +55,7 @@
 /advert/youxi.js
 /advpic/*
 /afd/entry
+/affiliates/vast/?campaign=
 /agetsou.js
 /aipai/player/game_video/videoadvert_
 /ajds/*
@@ -578,6 +579,7 @@
 /ut.js?cb=
 /uu114/ad/*
 /vast.php?*&idzone=
+/vast.php?t=*&tags=exoxvideostargetting
 /vast/?zid=
 /vbvb_*_pmpm.js
 /vendors~ads.
@@ -2871,7 +2873,6 @@
 ||google.com/pagead/1p-user-list/
 ||google.com/pagead/drt/
 ||google.com/pagead/landing?
-||googleapiscdn.com/admin/api/ads/
 ||googleapiscdn.com/static/jwplayer/vast.js
 ||googlesyndication.com/pagead/
 ||googlesyndication.com/safeframe/
@@ -3597,6 +3598,7 @@
 ||juxia.com/jxtp/indexbg.jpg
 ||juzi6.com/js/dp.js
 ||juzi6.com/js/gd.js
+||jvzoo.com/assets/widget/
 ||jwpcdn.com/player/*/googima.js
 ||jwpcdn.com/player/plugins/bidding/
 ||jwpcdn.com/player/plugins/googima/
@@ -3677,7 +3679,6 @@
 ||koyi.pub/wp-content/plugins/dh-anti-adblocker/
 ||koyso.com/aclib.js
 ||koyso.com/static/js/abcd.
-||kpopsingers.com/*.php?t=
 ||kppt.cc/zb_system/script/common.js
 ||kppt.cc/zhifu.jpg
 ||krakenfiles.com/assets/js/adb.js
@@ -4011,7 +4012,6 @@
 ||mil.news.sina.com.cn/iframe/109/2012/1024/photo.html
 ||mil.news.sina.com.cn/iframe/109/2013/1015/hotpic.html
 ||milffox.com/ai/
-||milffox.com/sum.js
 ||milimili.tv/js/loadjs/jquery
 ||milimili.tv/template/joeleo/*.js
 ||mima.club/tuijian/speedtest/
@@ -4140,6 +4140,7 @@
 ||n2.hk/apps/car_feed/tb/*/banner.html
 ||n2.hk/promo/
 ||nairaland.com/vertipics/
+||namecheap.com/graphics/linkus/
 ||nanfengyl.com/static/js/zdad.js
 ||nanrenfuli.*/zb_users/upload/
 ||nanrenvip2021.com/old.html
@@ -4246,6 +4247,7 @@
 ||onejailbreak.com/site/templates/scripts/slots.js
 ||onetvb.com/assets/javascripts/
 ||onnetwork.tv/widget/
+||onrender.com/api/ads/
 ||onworks.net/images/*-small-banner*.jpg
 ||onx8.com/theme/tange/add/
 ||onx8.com/zb_users/theme/ydgreen/style/ad/
@@ -4416,7 +4418,6 @@
 ||porngamespass.com/iframes/
 ||pornhd3x.tv/cms_data/sites/admin/files/ads
 ||pornhub.*/_xa/ads
-||pornid.xxx/vager/
 ||pornlib.com/player_*_ads
 ||pornohans.net/*==/
 ||pornone.com/js/combined.js
@@ -5066,7 +5067,6 @@
 ||tbib.org/tbib.
 ||tcmap.com.cn/js/b_
 ||tcptest.cn/prod-api/web/adlinks/
-||tech426.com/pub/
 ||techritual.com/wp-content/uploads/*/hdcource_
 ||techug.com/aatb/
 ||tencent-cloud.com/s9m1/12f70718c866ea3e5f22c68e6a34c54f.
@@ -5622,7 +5622,6 @@
 ||yemancomic.com/static/maoshuang.js
 ||yemancomic.com/static/xiaomage.js
 ||yeniemlak.az/img/banner/
-||yeptube.*/yeptube_right_ads.php
 ||yerecpa.cn/uploadsb/app_adv/
 ||yeshefb.com/template/conch/dd/
 ||yesky.com/s?z=
@@ -5739,6 +5738,7 @@
 ||zdcj.net/html/weibo
 ||zdcj.net^*/ad
 ||zdqx.com/statics/v1/images/gif/
+||zero.pl/api/be/config/sponsor?
 ||zhainanba.org/ac/
 ||zhanqi.tv/api/static/v2.1/actives.lists/
 ||zhaofuli.*/data/content
