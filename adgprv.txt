@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-06-19 14:59:06 UTC
-! Total Rules: 11281
+! Last Updated: 2026-06-20 03:26:05 UTC
+! Total Rules: 11284
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -6204,6 +6204,7 @@
 ||gitlab.com/assets/webpack/analytics.*.js
 ||gitpod.io/api/collect-data
 ||givefreely.com/ingest/
+||gizbot.com/images/tracker.jpg?tracker=
 ||gizmodo.com/x-kinja-static/assets/*/trackers.
 ||gizmodo.com/x-kinja-static/assets/new-client/*~trackers
 ||gizmodo.jp/api/surveycountcollection
@@ -6788,6 +6789,7 @@
 ||inn.co.il/controls/hpjs.ashx?act=log
 ||innogamescdn.com/media/js/metrics-
 ||inphonic.com/tracking/
+||inpost.pl/v1/inpostpay/widget/analytics
 ||inq.com/tagserver/*/onevent
 ||inq.com/tagserver/logging/
 ||inq.com/tagserver/logging/logline
@@ -10246,6 +10248,7 @@
 ||toyokeizai.net/op/analytics.js
 ||toyota.com/analytics/
 ||toyota.jp/pages/contents/include/common/js/tjp_beacon.js
+||tp-em.com/collect
 ||tp-link.com^*/addhits.html
 ||tpead.net/stat/
 ||tps.trovaprezzi.it/javascripts/tracking-vanilla.min.js
