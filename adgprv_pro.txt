@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-06-20 03:26:05 UTC
-! Total Rules: 118465
+! Last Updated: 2026-06-20 13:56:45 UTC
+! Total Rules: 118470
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -104588,6 +104588,7 @@ zonedirector.avadacom.com$image
 ||ajinomoto.co.jp/shared_file/js/log.js
 ||ajur.info^$third-party
 ||ak-s-cw.tripcdn.com/modules/ibu/gtm-loader/
+||aka.asiae.co.kr/scripts/akacollect.js
 ||akakce.com/*/clickheat/
 ||akamai.com/crs/lgsitewise.js
 ||akamai.net/*.babylon.com/trans_box/
@@ -109490,6 +109491,7 @@ zonedirector.avadacom.com$image
 ||google.com/async/ddllog
 ||google.com/ccm/
 ||google.com/ccm/collect?
+||google.com/ccm/form-data/
 ||google.com/dssw.js
 ||google.com/gen_204?
 ||google.com/gmp/
@@ -109499,7 +109501,9 @@ zonedirector.avadacom.com$image
 ||google.com/log?$redirect=nooptext
 ||google.com/log^$domain=~accounts.google.com
 ||google.com/measurement/
+||google.com/pagead/
 ||google.com/pagead/1p-conversion/
+||google.com/rmkt/collect/
 ||googleadservices.com/pagead/conversion_async.js
 ||googleadservices.com/pagead/conversion_async.js$redirect=noopjs,domain=ffm.to,important
 ||googleadservices.com/pagead/conversion_async.js$script,redirect=noopjs,domain=orcd.co
@@ -111713,6 +111717,7 @@ zonedirector.avadacom.com$image
 ||mcdonalds.com/tags/js/*/mparticle.js
 ||mcdonalds.com/webevents/
 ||mci1.co.kr^$third-party
+||mcjs.prd.a.intuit.com/assets/pixel-reporting-sdk/
 ||mcloudglobal.com^$third-party
 ||mcrypto.club/track
 ||mcssl.com^*/track.ashx?

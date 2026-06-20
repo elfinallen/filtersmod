@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-06-20 03:26:05 UTC
-! Total Rules: 5812
+! Last Updated: 2026-06-20 13:56:45 UTC
+! Total Rules: 5810
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -1983,7 +1983,6 @@
 ||cdn.galacg.me/img/*.jpg
 ||cdn.gsmarena.com/vv/assets*/js/_pf-*.js
 ||cdn.haokongbu1.com^*.js
-||cdn.hotscope.tv/assets/ai/video-
 ||cdn.jsdelivr.net/gh/*/js/adsenseads.min.js
 ||cdn.jsdelivr.net/gh/*/js/arlinablock.js
 ||cdn.jsdelivr.net/gh/adigunawanxd/pluginsgalaxymag@master/seosecretidnblockads.js
@@ -2591,7 +2590,6 @@
 ||eporner.com/event.php
 ||eporner.com/xhr/vast/
 ||eprice.com.tw/img/tw_m/ad/
-||ero-labs.*/api/v2/system/config?name=partner_mall_url
 ||ero-labs.*/assets/js/appbanner.js
 ||eroprofile.com/js/nvbla.js
 ||erowall.com/126.js
@@ -2760,7 +2758,6 @@
 ||galleries-pornstar.com/thumb_top/
 ||gamcore.com/ajax/abc?
 ||gamcore.com/z0mb24.js
-||game-tournaments.com/banners
 ||game-tournaments.com/media/a/banner*.gif
 ||game.eroge.xyz/*.gif
 ||game333.net/aainset/
@@ -3501,6 +3498,7 @@
 ||jinman4.com/ad/
 ||jinnanyq.com/js/zmjw.
 ||jinti.com^*/aspx/*gg
+||jinx.com/content/banner/
 ||jinyici.com/qq.js
 ||jishulink.com/jishulink/searching/ad/get?
 ||jishuqq.com/images/haodian.gif
@@ -4125,6 +4123,7 @@
 ||mylomza.pl/static/files/inline_images/*/inline__
 ||mylust.com/*.jsx
 ||mylust.com/b/
+||mylust.com/static/js/initsite.min.js
 ||myparcels.net/images/b/
 ||myqcloud.com/ad/
 ||myqcloud.com/wp-content/uploads/huoxingyun.
@@ -4455,6 +4454,7 @@
 ||projectorcentral.com/*?bid=
 ||promote.pair.com/88x31.pl
 ||property.hk/js/adside.js
+||proxy6.net/static/img/b/
 ||ps0z.com/300x250b
 ||ps123.net/myfile/
 ||ps557.com/link/
@@ -4749,6 +4749,7 @@
 ||serengeseba.com/static/view.js
 ||service.hotstar.com^*/midroll
 ||service.iwara.tv/*/*.php?zones=
+||service.iwara.tv/z/z.php
 ||services.postimees.ee/rest/v1/articles/multiple?ids=
 ||sese277.info/photo/
 ||sesefu8.com/index.php?m=poster&
@@ -4985,6 +4986,7 @@
 ||storyren.top/imgg/
 ||straitstimes.com/_web2/betterads_head.js
 ||stream.cz/*/vast?
+||stream.offidocs.com/images/*-banner
 ||streambtwp.b-cdn.net/aclib.js
 ||streamed.pk/static/rainbet3.webp
 ||stripchat.com/api/external/
@@ -5162,7 +5164,6 @@
 ||topmba.mobi/ad/
 ||topthink.com/api/basic/
 ||toptoon03.xyz/app/tuijian.html
-||torrindex.net/images/ads/
 ||torrindex.net/images/epv/
 ||totalmedia2.ynet.co.il/new_gpt/
 ||totheglory.im/pic/business/
@@ -5190,7 +5191,6 @@
 ||truex.com/js/client.js
 ||truyensex*/anh/
 ||trvl-px.com/trvl-px/
-||ts.icrypto.media/_offer_promt/
 ||tsdm39.com/img01/mp3/gg/
 ||tt1069.com/bbs/page20_top.php
 ||tt1069.com/bbs/zgg_
@@ -5564,7 +5564,6 @@
 ||xp85.com/common/js/allpage.js
 ||xpaja.net/views/images/ads/
 ||xpcha.com/js/notice.js
-||xpee.com/bnr/
 ||xqishen.com^*/0
 ||xqishen.com^*/1
 ||xslca.cc/js/pf.js
@@ -5742,7 +5741,6 @@
 ||zdcj.net/html/weibo
 ||zdcj.net^*/ad
 ||zdqx.com/statics/v1/images/gif/
-||zero.pl/api/be/config/sponsor?
 ||zhainanba.org/ac/
 ||zhanqi.tv/api/static/v2.1/actives.lists/
 ||zhaofuli.*/data/content

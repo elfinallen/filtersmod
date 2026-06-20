@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-06-20 03:26:05 UTC
-! Total Rules: 11284
+! Last Updated: 2026-06-20 13:56:45 UTC
+! Total Rules: 11289
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -3386,6 +3386,7 @@
 ||ajinomoto.co.jp/shared_file/js/header_log.js
 ||ajinomoto.co.jp/shared_file/js/log.js
 ||ak-s-cw.tripcdn.com/modules/ibu/gtm-loader/
+||aka.asiae.co.kr/scripts/akacollect.js
 ||akakce.com/*/clickheat/
 ||akamai.com/crs/lgsitewise.js
 ||akamai.net/*.babylon.com/trans_box/
@@ -6291,6 +6292,7 @@
 ||google.com/async/ddllog
 ||google.com/ccm/
 ||google.com/ccm/collect?
+||google.com/ccm/form-data/
 ||google.com/dssw.js
 ||google.com/gen_204?
 ||google.com/gmp/
@@ -6298,7 +6300,9 @@
 ||google.com/images/phd/gfl.gif
 ||google.com/images/phd/px.gif
 ||google.com/measurement/
+||google.com/pagead/
 ||google.com/pagead/1p-conversion/
+||google.com/rmkt/collect/
 ||googleadservices.com/pagead/conversion_async.js
 ||googleapis.com/aam.js
 ||googleapis.com/gadasource/gada.js
@@ -7536,6 +7540,7 @@
 ||mcdn.tubitv.com/tubitv-assets/js/braze/
 ||mcdonalds.com/tags/js/*/mparticle.js
 ||mcdonalds.com/webevents/
+||mcjs.prd.a.intuit.com/assets/pixel-reporting-sdk/
 ||mcrypto.club/track
 ||mcssl.com^*/track.ashx?
 ||mcsvc.samsung.com/statistics/
