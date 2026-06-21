@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-06-21 03:55:57 UTC
-! Total Rules: 118470
+! Last Updated: 2026-06-21 14:04:02 UTC
+! Total Rules: 118475
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -3379,7 +3379,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /scroll-track.js
 /scroll-tracker.js
 /sdaanalytics.js
-/sdc.js
+/sdc.js|
 /sdc1.js
 /sdc2.js
 /sdctag1.js
@@ -105109,6 +105109,7 @@ zonedirector.avadacom.com$image
 ||api.taboola.com/2.0/json/*/recommendations.$redirect=nooptext,domain=azby.fmworld.net
 ||api.tacotax.fr/v2/amplitude_trackers
 ||api.takealot.com^$ping
+||api.tally.so/forms/*/events
 ||api.target.com/consumers/*/ttms/events
 ||api.target.com/consumers/*_debugevent=
 ||api.target.com/firefly_events/*/events/
@@ -105979,6 +105980,7 @@ zonedirector.avadacom.com$image
 ||bol.com/tracking/
 ||bol.com/tracking/*.gif
 ||boldem.cz^$third-party
+||boldin.com/rails/arrival
 ||bolt.com/v1/log?
 ||bomp.odmedia.net^$domain=fcb.tv
 ||bongacams*.com/track?$document,image
@@ -113368,6 +113370,7 @@ zonedirector.avadacom.com$image
 ||player.sbs.co.kr/log/
 ||player.svc.litv.tv/pixel/
 ||player.target-video.com/player/build/plugins/googleanalytics/
+||player.videasy.to/scripts/ab.js
 ||player.vimeo.com/log
 ||player.vzaar.com/libs/googleanalytics/vzaargoogleanalytics.js
 ||playerserver.walkme.com/statistics/
@@ -116142,6 +116145,7 @@ zonedirector.avadacom.com$image
 ||taiwanplus.com/api/video/startvideo
 ||talkingdata.com^*/sdk_release.js
 ||talkingpointsmemo.com/whoami
+||tally.so/api/forms/*/events
 ||talpa-analytics.$third-party
 ||talpa-analytics.com^$third-party
 ||tamgrt.com^$third-party
@@ -117206,6 +117210,7 @@ zonedirector.avadacom.com$image
 ||users-api.com^$third-party
 ||users.51.la^$third-party
 ||users.videasy.*/api/track
+||users.videasy.to/api/track
 ||usersonline.org/ping.php?
 ||userstatics.com/get/script.js
 ||usertracks.live^$third-party

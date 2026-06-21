@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-06-21 03:55:57 UTC
-! Total Rules: 5810
+! Last Updated: 2026-06-21 14:04:02 UTC
+! Total Rules: 5815
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -2871,6 +2871,7 @@
 ||google.com/adsense/search/async-ads.js
 ||google.com/pagead/1p-user-list/
 ||google.com/pagead/drt/
+||google.com/pagead/form-data/
 ||google.com/pagead/landing?
 ||googleapiscdn.com/static/jwplayer/vast.js
 ||googlesyndication.com/pagead/
@@ -3791,6 +3792,7 @@
 ||linecg.com/uploads/banner/
 ||lingdianshuwu.com/js/content
 ||link114.cn/template/js/showpics_
+||linkconnector.com/tr.php
 ||linkedin.com/tscp-serving/
 ||linkhelper.cn/mmshow
 ||links.cn/mmshow
@@ -4769,6 +4771,7 @@
 ||sf2.net/a/index.
 ||sfnmt.com/dq/
 ||sgk.xyz/static/js/pc.js
+||sgtreport.com/wp-content/uploads/*banner
 ||sh.sina.com.cn/iframe/522/
 ||sh.sina.com.cn/js/441/zwyarticle_commo_23.js
 ||shandian.biz/wp-content/themes/inove/js/comment.js
@@ -4923,6 +4926,7 @@
 ||sozi.cn/images/tj/hukead.gif
 ||sozi.cn/images/tj/szdown
 ||sozi.cn/templets/sozi/js/js.js
+||sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://pley.gg/wp-content/uploads/2024/11/frame-427321538-2.png
 ||sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://pley.gg/wp-content/uploads/2025/10/frame-427321551-1.png
 ||spankbang.com/api/*?ad_zone=
 ||spankbang.com/official/serve_
@@ -5583,6 +5587,7 @@
 ||xvideo.cc/wefong2.js
 ||xvideos.com/zoneload/
 ||xvideos.es/zoneload/
+||xwcm.net/caches/ahm.
 ||xxdm.in/js/union/
 ||xxffo.com^*_slett.php
 ||xxhh.com/xh.js

@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-06-21 03:55:57 UTC
-! Total Rules: 11289
+! Last Updated: 2026-06-21 14:04:02 UTC
+! Total Rules: 11294
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -2178,7 +2178,7 @@
 /scroll-track.js
 /scroll-tracker.js
 /sdaanalytics.js
-/sdc.js
+/sdc.js|
 /sdc1.js
 /sdc2.js
 /sdctag1.js
@@ -3747,6 +3747,7 @@
 ||api.streamelements.com/science/
 ||api.syg.ma/page_view
 ||api.tacotax.fr/v2/amplitude_trackers
+||api.tally.so/forms/*/events
 ||api.target.com/consumers/*/ttms/events
 ||api.target.com/consumers/*_debugevent=
 ||api.target.com/firefly_events/*/events/
@@ -4301,6 +4302,7 @@
 ||bol.com/click/
 ||bol.com/tracking/
 ||bol.com/tracking/*.gif
+||boldin.com/rails/arrival
 ||bolt.com/v1/log?
 ||bonmed.se/monitoring?
 ||bonprix.*/ajax/landmarks/
@@ -8441,6 +8443,7 @@
 ||player.sbs.co.kr/log/
 ||player.svc.litv.tv/pixel/
 ||player.target-video.com/player/build/plugins/googleanalytics/
+||player.videasy.to/scripts/ab.js
 ||player.vimeo.com/log
 ||player.vzaar.com/libs/googleanalytics/vzaargoogleanalytics.js
 ||playerserver.walkme.com/statistics/
@@ -9995,6 +9998,7 @@
 ||taiwanplus.com/api/video/startvideo
 ||talkingdata.com^*/sdk_release.js
 ||talkingpointsmemo.com/whoami
+||tally.so/api/forms/*/events
 ||tamgrt.com^*&pixel_version=
 ||tamindir.com/cdn-cgi/pe/bag2?r[]=
 ||tamindir.com/stats.iz
@@ -10537,6 +10541,7 @@
 ||useblackbox.io/telemetry
 ||user-back.ggcorp.me/statistics
 ||users.videasy.*/api/track
+||users.videasy.to/api/track
 ||usersonline.org/ping.php?
 ||userstatics.com/get/script.js
 ||uservoice.com^*/track.js
