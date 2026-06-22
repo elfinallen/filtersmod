@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-06-21 14:04:02 UTC
-! Total Rules: 34199
+! Last Updated: 2026-06-22 03:57:29 UTC
+! Total Rules: 34201
 ! Expires: 5 days
 $$div[style="display: none !important;"]:contains(!function(){function a(a){var _idx=)
 $$div[style="display: none !important;"]:contains('ed2k://)
@@ -7128,6 +7128,7 @@ cloudfam.io#%#//scriptlet('abort-current-inline-script', 'eventtarget.prototype.
 cloudfam.io#%#//scriptlet('abort-on-stack-trace', 'document.createelement', 'openadwithfallback')
 cloudfam.io#%#//scriptlet('prevent-element-src-loading', 'script', '/adsbygoogle|doubleclick/')
 cloudfam.io#%#//scriptlet('prevent-fetch', '/pagead|adserve|adsbygoogle/')
+cloudfam.io#%#//scriptlet('prevent-fetch', 'method:head')
 cloudfam.io#%#//scriptlet('prevent-window-open')
 cloudgallery.net,imgair.net#%#//scriptlet("abort-current-inline-script", "document.getelementbyid", "shouldfire")
 cloudgallery.net,imgair.net#%#//scriptlet("prevent-window-open", "/tripedrated\.xyz|salaure\.pro|imgair\.net\/vip\//")
@@ -24059,6 +24060,7 @@ uploadmall.com#%#//scriptlet('trusted-replace-outbound-text', 'atob', '//pagead2
 uploadmall.com#@#.adsense
 uploadmall.com#@#iframe[width="728"][height="90"]
 uploadrar.com##.card.border-warning
+uploadrar.com##center > a[href][target="_blank"]
 uploadvr.com##.ai-sticky-widget
 uploadvr.com##.force-load-ad
 uploady.io##.download-page > a[target="_blank"] > img
