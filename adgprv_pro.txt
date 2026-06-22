@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-06-22 03:57:29 UTC
-! Total Rules: 118476
+! Last Updated: 2026-06-22 16:51:14 UTC
+! Total Rules: 118480
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -106227,6 +106227,8 @@ zonedirector.avadacom.com$image
 ||cadreon.com^$third-party
 ||caesarsgames.com/dynamic/resources/common/js/functions/iframetracker.js
 ||caesarsgames.com/dynamic/resources/common/js/functions/tracking.js
+||caf.fr/*/stormcaster.js
+||caf.fr/sites/default/files/smarttag/
 ||cafe24.com/cfa.js
 ||cafe24.com/weblog.js
 ||cafemedia.com/topics/clickstream-event
@@ -111131,6 +111133,7 @@ zonedirector.avadacom.com$image
 ||lecho.be/tag/tag-
 ||lecturas.com/content/*/js/trackpopup.js
 ||lederer.nl/incl/stats.js.php?
+||ledevoir.com/js/analytics/
 ||ledevoir.com/js/pianoanalyticstags.js
 ||legacy.com/globalscripts/tracking/
 ||legacy.com^*/unicaclicktracking.js?
@@ -111859,7 +111862,6 @@ zonedirector.avadacom.com$image
 ||mercury.jd.com/log.gif
 ||merklesearch.com/merkle_track.js
 ||merkur.de/_cua.html
-||merlininkazani.com/sayac
 ||merriam-webster.com/lapi/v1/mwol-search/stats/lookup
 ||messagebird.com/assets/fp.min.js
 ||messagebird.com/metrics.js
@@ -112320,6 +112322,7 @@ zonedirector.avadacom.com$image
 ||native.ai^$third-party
 ||nativesubscribe.pro^$third-party
 ||natpal.com^$third-party
+||naturallieplantbased.com/?*&ver=$script,~third-party
 ||naturaltracking.com^$third-party
 ||nature.com/platform/track/
 ||naukatv.ru/nauka/statistics/
@@ -116987,6 +116990,7 @@ zonedirector.avadacom.com$image
 ||tweakers.nl/track/
 ||tweaktown.com/cms/mp3_track.php
 ||twgreatdaily.com/site/js/name/stat
+||twinfinite.net/*/gamurs-group-analytics/
 ||twitter.com/1.1/attribution
 ||twitter.com/1.1/jot
 ||twitter.com/1.1/jot/client_event.json

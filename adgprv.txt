@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-06-22 03:57:29 UTC
-! Total Rules: 11294
+! Last Updated: 2026-06-22 16:51:14 UTC
+! Total Rules: 11297
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -4436,6 +4436,8 @@
 ||cadena100.es/exjs/comscore-js-*.min.js
 ||caesarsgames.com/dynamic/resources/common/js/functions/iframetracker.js
 ||caesarsgames.com/dynamic/resources/common/js/functions/tracking.js
+||caf.fr/*/stormcaster.js
+||caf.fr/sites/default/files/smarttag/
 ||cafe24.com/cfa.js
 ||cafe24.com/weblog.js
 ||cafemedia.com/topics/clickstream-event
@@ -7193,6 +7195,7 @@
 ||lecho.be/tag/tag-
 ||lecturas.com/content/*/js/trackpopup.js
 ||lederer.nl/incl/stats.js.php?
+||ledevoir.com/js/analytics/
 ||ledevoir.com/js/pianoanalyticstags.js
 ||legacy.com/globalscripts/tracking/
 ||legacy.com^*/unicaclicktracking.js?
@@ -7618,7 +7621,6 @@
 ||mercury.jd.com/log.gif
 ||merklesearch.com/merkle_track.js
 ||merkur.de/_cua.html
-||merlininkazani.com/sayac
 ||merriam-webster.com/lapi/v1/mwol-search/stats/lookup
 ||messagebird.com/assets/fp.min.js
 ||messagebird.com/metrics.js
@@ -10414,6 +10416,7 @@
 ||tweakers.nl/track/
 ||tweaktown.com/cms/mp3_track.php
 ||twgreatdaily.com/site/js/name/stat
+||twinfinite.net/*/gamurs-group-analytics/
 ||twitter.com/1.1/attribution
 ||twitter.com/1.1/jot
 ||twitter.com/1.1/jot/client_event.json

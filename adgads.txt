@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-06-22 03:57:29 UTC
-! Total Rules: 5815
+! Last Updated: 2026-06-22 16:51:14 UTC
+! Total Rules: 5810
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -1505,6 +1505,7 @@
 ||api.bilibili.com/x/ad/
 ||api.bitchute.com/slot1/
 ||api.bitchute.com/slot2/
+||api.leakgallery.com/m/decide
 ||api.live.bilibili.com/*/banner
 ||api.wudizuqiu.com/72nba
 ||api.wudizuqiu.com/bocai.js
@@ -1975,6 +1976,7 @@
 ||cdn.autoevolution.com/_js/prebid*.js
 ||cdn.aznude.com/js/dating.json
 ||cdn.aznude.com/player/v*/vast-no-entitlements.js
+||cdn.bullion.media/custom_units/video-strip-master.js
 ||cdn.cnn.com/ads/
 ||cdn.concert.io/lib/concert-ads/
 ||cdn.cuty.io/fps.js
@@ -2219,6 +2221,7 @@
 ||connatix.com/rtb/
 ||content.livesportmedia.eu/api/v1/banners?zone-ids=
 ||content.overwolf.com/curseforge/web/nitro/cursenpinit.js
+||content.viralize.tv/display/
 ||coolaler.com/index_ads/
 ||coolpc.com.tw/home/img/right2.html
 ||coolpc.com.tw/img/topweb.html
@@ -2803,8 +2806,6 @@
 ||gay4porn.com/ai/
 ||gayforfans.com/proud-sun-bc20/
 ||gayporntube.com/spots.php?
-||gayxnow.com/bn/
-||gayxnow.com/static/js/promo-
 ||gd.ct10000.com/js/ecssstat.js
 ||gd.sina.com.cn/iframe/22/
 ||gd163.*/2018_ad/
@@ -2928,14 +2929,6 @@
 ||guangzhoubingqing.com/88888.jpg
 ||gucheng.com/2016/ggimg/
 ||gucheng.com/gcwad/
-||guessthe.house/ads/
-||guesstheangle.wtf/ads/
-||guesstheaudio.com/ads/
-||guessthebook.app/ads/
-||guessthegrid.xyz/ads/
-||guessthelogo.wtf/ads/
-||guessthemovie.name/ads/
-||guessthephrase.xyz/ads/
 ||guhai.com.cn/ad/
 ||guifun.com/psptool/ad/
 ||guilin-ly.com^*.gif
@@ -3743,6 +3736,7 @@
 ||ld0766.com/*20*a/
 ||ldb.cc/js/top.js
 ||leadfamly.com/campaign/sdk/popup.min.js
+||leakgallery.com/leakifyhub/banner
 ||lecai.com/page/zhuanti/baidu/
 ||leiphone.com/uploads/new/category/pic/*/740x140/
 ||leju.com/abp/cmslead_new.v2.js
@@ -3914,6 +3908,7 @@
 ||m1955.com/template/qq/images/playad/
 ||macd.cn/macd-topads.html
 ||macfans.org/vip/
+||machineseeker.com/data/ofni/
 ||macys.com/sitemonetization/v1/sponsored-products/
 ||madnessporn.com/mad/
 ||magedu.com/wp-content/uploads/*/xwzx
@@ -3957,6 +3952,7 @@
 ||maxroll.gg/js/sponsor.js
 ||maxthonimg.com/v6/festival/
 ||mbalib.com/common/a_mbalib/
+||mcc.godaddy.com/park/
 ||mcmod.cn/editor/upload/20221126/1669399546_2_onbt.
 ||mddcloud.*/oweapi/ad/
 ||me680.com/js/*.js
@@ -4125,7 +4121,6 @@
 ||mylomza.pl/static/files/inline_images/*/inline__
 ||mylust.com/*.jsx
 ||mylust.com/b/
-||mylust.com/static/js/initsite.min.js
 ||myparcels.net/images/b/
 ||myqcloud.com/ad/
 ||myqcloud.com/wp-content/uploads/huoxingyun.
