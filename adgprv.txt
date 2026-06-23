@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-06-23 02:56:08 UTC
-! Total Rules: 11297
+! Last Updated: 2026-06-23 14:42:50 UTC
+! Total Rules: 11308
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -3708,6 +3708,8 @@
 ||api.parsely.com/v2/profile?uuid=*&apikey=
 ||api.patienten.helios-gesundheit.de/api/unleash/client/metrics
 ||api.pcid.ca/v1/client/logs
+||api.pearcommerce.com/v1/client_request_log?
+||api.pearcommerce.com/v1/page_load?
 ||api.phnx.click/js/article-stat-
 ||api.phoenix-widget.com/c?wid=
 ||api.pico.tools/metrics/
@@ -4052,6 +4054,7 @@
 ||autotrader.com/pixall/
 ||auxin.g123.jp/external/*/refund_campaign/game/g123/status
 ||avaz.ba/update/hits/
+||aviakassa.com/api/v*/logger
 ||aviasales.*-analytics.
 ||aviasales.*/analytics_pv.
 ||aviasales.*/sentry-replay.
@@ -6154,6 +6157,7 @@
 ||geckofoot.com/gfcounterimg.aspx?
 ||geckofoot.com/gfvisitormap.aspx?
 ||geekchart.net/req.php
+||geeky-gadgets.net/api/event
 ||gegenstimme.tv/tracker/
 ||geico.com/insite/dynatracemonitor
 ||geico.com/sale/metrics?
@@ -9396,7 +9400,10 @@
 ||skysa.com/tracker/
 ||skyscanner.*/*/collector
 ||skyscanner.*/*/metrics/
+||skyscanner.*/g/aps/public/api/v1/
+||skyscanner.*/g/banana-tallyman/tallyman/track/
 ||skyscanner.*/rf8vapwa/init.js
+||skyscanner.*/slipstream/
 ||skyscanner.*/slipstream/view
 ||skyscanner.co.kr/g/aps/public/api/v1/pixel/
 ||skyscanner.co.kr/slipstream/grp/*/custom/public/*/funnel_events/
@@ -11029,12 +11036,16 @@
 ||www002.commutil.kr/adlog/adlog_arrviewset.php
 ||wzzm13.com/taboola_
 ||x.com/1.1/attribution
+||x.com/1.1/graphql/app_context.json
 ||x.com/1.1/graphql/error_log.json
 ||x.com/1.1/graphql/user_flow.json
+||x.com/1.1/graphql/viewer_context.json
 ||x.com/1.1/jot
 ||x.com/9/measurement/
+||x.com/i/api/1.1/graphql/app_context.json
 ||x.com/i/api/1.1/graphql/error_log.json
 ||x.com/i/api/1.1/graphql/user_flow.json
+||x.com/i/api/1.1/graphql/viewer_context.json
 ||x.com/i/api/1.1/jot
 ||x.com/i/api/1.1/jot/client_event.json
 ||x.com/i/csp_report
