@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-06-23 14:42:50 UTC
-! Total Rules: 118493
+! Last Updated: 2026-06-24 02:56:58 UTC
+! Total Rules: 118495
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -6241,7 +6241,7 @@ airlift.net#%#//scriptlet('abort-on-property-read', 'posthog')
 akali.webspecmail.com$image
 akamai.webspecmail.com$image
 akshare.moseasia.com$image
-al.com,attackofthefanboy.com,destructoid.com,edmontonsun.com,gamepur.com,gamerjournalist.com,gameskinny.com,lgbtqnation.com,macwelt.de,mlive.com,news8000.com,nj.com,pcwelt.de,primagames.com,siliconera.com,syracuse.com,themarysue.com,touchtapplay.com,wegotthiscovered.com#%#//scriptlet('ubo-aost', 'decodeuri', '/(?=^(?!.*\.js))/')
+al.com,attackofthefanboy.com,destructoid.com,edmontonsun.com,gamepur.com,gamerjournalist.com,gameskinny.com,lehighvalleylivecom,lgbtqnation.com,macwelt.de,mlive.com,news8000.com,nj.com,pcwelt.de,primagames.com,siliconera.com,syracuse.com,themarysue.com,touchtapplay.com,wegotthiscovered.com#%#//scriptlet('ubo-aost', 'decodeuri', '/(?=^(?!.*\.js))/')
 alba.alalikexpress.com$image
 album.moseasia.com$image
 alert.avadacom.com$image
@@ -93758,7 +93758,6 @@ fkcmail.edplan.com.au$image
 fkcmail.inspiredmoney.com.au$image
 fkcmail.lighthousefinancial.com.au$image
 fkcmail.spcpl.com.au$image
-flo.com.tr#%#//scriptlet('set-local-storage-item', '__anon_id', '$remove$')
 flux-globalid3.click.s11.sfmc-osl.com$image
 fmg.americafirst.com$image
 fmg.arlexinsurance.com$image
@@ -99927,7 +99926,7 @@ rgrp.alert.uwaterloo.ca$image
 rgrp.bankerstrust.com$image
 rgrp.digipen.edu$image
 rgrp.fffenterprises.com$image
-ricardocuisine.com#%#//scriptlet('set-local-storage-item', '__anon_id', '$remove$')
+ricardocuisine.com,thegentlemansjournal.com,thekrazycouponlady.com,flo.com.tr#%#//scriptlet('set-local-storage-item', '__anon_id', '$remove$')
 ridgemerino.com#%#//scriptlet('set-local-storage-item', 'kl-uid', '$remove$')
 rm.lsj.com$image
 rmsmail.houstonjamaat.com$image
@@ -100455,15 +100454,14 @@ thatslife.e.aremedia.com.au$image
 the-ans.jp##.side-reccomend
 the-japan-news.com#%#//scriptlet('set-cookie-reload', 'fp', '1')
 the-sun.com,nypost.com#%#//scriptlet('set-local-storage-item', 'ow/social-browser-storage', '$remove$')
-thegentlemansjournal.com#%#//scriptlet('set-local-storage-item', '__anon_id', '$remove$')
 thehill.com###block-thehill-blocks-amp-outbrain
 thehindu.com###sectiondivicymi
 thekrazycouponlady.com#%#//scriptlet('set-local-storage-item', '/^ab\.storage\./', '$remove$')
-thekrazycouponlady.com#%#//scriptlet('set-local-storage-item', '__anon_id', '$remove$')
 themirror.com##reach-topbox
 theplanet.ws##a[href="http://mycounter.com.ua/"]
 theqoo.net##.theqoo-counter
 thestar.com.my#%#//scriptlet('set-local-storage-item', 'nx_anon_id_v1', '$remove$')
+thesun.co.uk#%#//scriptlet('set-local-storage-item', '/^optimizely_data/', '$remove$')
 thg.ru#?#td[valign="top"] > table > tbody > tr:has(> td > table[cellpadding="0"] a[href^="http://top100.rambler.ru/"])
 threads.net#%#//scriptlet('href-sanitizer', 'a[href*="?xmt="]', '[href]', 'removeparam:xmt')
 tieba.baidu.com#%#//scriptlet('set-constant', 'passfingerprint', 'noopfunc')
@@ -106434,6 +106432,7 @@ zonedirector.avadacom.com$image
 ||cdn.evgnet.com/beacon/*/scripts/evergage.min.js$script,redirect=noopjs
 ||cdn.fast.beintoo.net/static/tags/beintoo-tag.js
 ||cdn.firstpromoter.com^$third-party
+||cdn.flowplayer.com/releases/native/3/stable/plugins/ga4.min.js
 ||cdn.fugu-it.com/web/script.js
 ||cdn.gamedock.io/gamedock-web-tracker/
 ||cdn.gamer-network.net/*/scripts/mormont
@@ -107670,6 +107669,7 @@ zonedirector.avadacom.com$image
 ||dcmn.com^$third-party
 ||dcmn.io^$third-party
 ||ddiamond.com.tr/tom8/
+||dditsadn.com^$domain=livesex.com
 ||dditscdn.com/*fingerprints
 ||dditscdn.com/?a=
 ||dditscdn.com/log/
@@ -112801,6 +112801,7 @@ zonedirector.avadacom.com$image
 ||onet.pl^*/tags?
 ||onetag-sys.com^$third-party
 ||onetrust.com^$ping
+||onetwotrip.com/_avia/statistics/
 ||ongsono.com^$third-party
 ||oniad.com^$third-party
 ||onlex.de/_counter.php
@@ -118306,6 +118307,7 @@ zonedirector.avadacom.com$image
 ||yldr.io^$third-party
 ||ymetrica.com^$third-party
 ||ymetrica1.com^$third-party
+||ynet-pic1.yit.co.il/common/api/scripts/ga4/ga4-ynetnews-*.js
 ||yoast-schema-graph.com^$third-party
 ||yodalytics.com^$third-party
 ||yodayo.com/scripts/pixel.js

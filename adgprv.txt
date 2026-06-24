@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-06-23 14:42:50 UTC
-! Total Rules: 11308
+! Last Updated: 2026-06-24 02:56:58 UTC
+! Total Rules: 11311
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -4567,6 +4567,7 @@
 ||cdn.dsmcdn.com/sfx/mergen/
 ||cdn.dzen.ru/pingx
 ||cdn.fast.beintoo.net/static/tags/beintoo-tag.js
+||cdn.flowplayer.com/releases/native/3/stable/plugins/ga4.min.js
 ||cdn.fugu-it.com/web/script.js
 ||cdn.gamedock.io/gamedock-web-tracker/
 ||cdn.gamer-network.net/*/scripts/mormont
@@ -8117,6 +8118,7 @@
 ||onesignal.com/webpushanalytics
 ||onet.pl/eclk/
 ||onet.pl^*/tags?
+||onetwotrip.com/_avia/statistics/
 ||onlex.de/_counter.php
 ||online-partners.lenta.com/api/tracker/sdk.js
 ||online-umwandeln.de/analytics.js
@@ -11179,6 +11181,7 @@
 ||yimg.com/rx/ev/lib/comscore-
 ||yimg.com/ss/vops.js
 ||yimg.com/wi/ytc.js
+||ynet-pic1.yit.co.il/common/api/scripts/ga4/ga4-ynetnews-*.js
 ||yodayo.com/scripts/pixel.js
 ||yotpo.com/widget-assets/yotpo-pixel/
 ||yottaa.com/rapid.min.js

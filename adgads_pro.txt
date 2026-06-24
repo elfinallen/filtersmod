@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-06-23 14:42:50 UTC
-! Total Rules: 34323
+! Last Updated: 2026-06-24 02:56:58 UTC
+! Total Rules: 34333
 ! Expires: 5 days
 $$div[style="display: none !important;"]:contains(!function(){function a(a){var _idx=)
 $$div[style="display: none !important;"]:contains('ed2k://)
@@ -4260,7 +4260,6 @@ allevents.in##.ads_place_right
 allevents.in##.advt-text
 alliancex.org#%#//scriptlet('prevent-settimeout', 'offsetheight===0')
 alliancex.org#@#.ad-spot
-alliedwindow.com,isewanferry.co.jp,jreu-h.jp,junkmail.co.za,nexco-hoken.co.jp,version2.dk#@#.ad-text
 allindiabullion.com#%#//scriptlet('remove-node-text', 'script', '/adscripts|bait/')
 allindiabullion.com#@#.ad-unit:not(.textads)
 allinonedownloader.com#%#//scriptlet('abort-current-inline-script', '$', 'modalwidth')
@@ -4927,6 +4926,7 @@ as.com,desdelinux.net,tutiempo.net,ubunlog.com##.publi
 as.com,gokunming.com##.prom
 ascelibrary.org##.pb-las__label
 ascii.jp#@#.adrect
+ascopost.com,fermanaghherald.com##.ad-text
 asd.ink,asd.pics,asd.homes##body > center > a[target="_blank"]
 asd.ink,asd.pics,asd.homes#$#.watch__area { display: block !important; }
 asd.ink,asd.pics,asd.homes#$#body > .ad-container { display: block !important; }
@@ -8560,6 +8560,7 @@ dowfutures.org,comexlive.org,sgxnifty.org#%#//scriptlet('prevent-addeventlistene
 down.ali213.net,patch.ali213.net##.picbg
 downbank.cn##.speed-downlist
 downbank.cn,greenxf.com###speed-download
+downdetector.com##div[data-service-list-ad]
 downforeveryoneorjustme.com###bsa
 downforeveryoneorjustme.com###carbondiv
 downforeveryoneorjustme.com##.rounded-t-md:has(> a[rel="sponsored"])
@@ -9781,6 +9782,7 @@ feng.com##.dd305
 feng.com##div[class^="ad_90"]
 fenghuo.in##.mimi
 fengniao.com,zhiding.cn##div[id^="ad"]
+fermanaghherald.com##.ad-spaces
 ferrarichat.com##.funzone
 ferrarichat.com##.node_sponsor
 fetcheveryone.com#%#//scriptlet('remove-node-text', 'script', 'ab.php')
@@ -10721,6 +10723,7 @@ gamemonetize.video#@#.companion-ads
 gameofbay.org,pirateproxy.yt$$script[src="//go.oclasrv.com/apu.php?"][onerror="()"]
 gamepadla.com##.pmain:has(div[class^="asd_"])
 gamepadla.com##.pmain:has(div[title="partner placement"])
+gamepadla.com#?#.pmain:contains(partner)
 gamepedia.com##body div#content > div#btflb
 gamepix.com##div[id^="gpx-banner"]
 gamer.com.tw###bh-bigbanner
@@ -14271,9 +14274,13 @@ justthegays.com###site-content div[style^="padding-bottom:"]
 justthegays.com##.wpb_raw_code
 justthegays.tv##.zd-slot
 justthenews.com##.view--breaking-news-sponsored
+justwatch.com##.buybox-selector > div[class="offer-container"]
 justwatch.com##.offers-grid
 justwatch.com##.offers-list
+justwatch.com##.offers.buybox-selector
 justwatch.com##.promoted-buybox
+justwatch.com##.sponsored-recommendation
+justwatch.com##div[class*="sr-campaign"]
 justwatch.com#$#.pub_300x250.pub_300x250m.pub_728x90.text-ad.textad.text_ad.text_ads.text-ads.text-ad-links { display:block!important; }
 justwatch.com#$#.wrapper { padding-top: 0!important; }
 jutarnji.hr##.container--break[class*="break_"]
@@ -14562,6 +14569,8 @@ koding.work#?#.sidebar > .widget_text:has(> .textwidget > .adsbygoogle)
 kogama.com###main-content div[class]:has(> div[id^="kogama"]:first-child + div[class]:last-child)
 kogan.com#?#._2eeer:contains(sponsored)
 kogan.com#?#.rs-infinite-scroll > div:contains(sponsored)
+koha.net##.reklama_holder
+koha.net##body > div.container:has(> div.d-flex > div.reklame_live)
 kohls.com###kmn-featured-carousel
 kohls.com###kmncarousel-add_buy_carousel-anchor:has(.kmnproductslider__sponsored)
 kohls.com###kmncarousel-page-anchor:has(.kmnproductslider__sponsored)
@@ -22212,6 +22221,7 @@ studio55.fi#@#.column-ad
 studygolang.com###ad-right1
 studyis.xyz#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 studylib.net#?#.sidebar-top-content > span:contains(advertisement)
+stuff.co.nz##.header-container
 stuff.co.nz##.min-h-\[133px\]
 stuff.co.nz,thepost.co.nz,thepress.co.nz,waikatotimes.co.nz##.header-ads-block
 stuff.tv##.c-squirrel-embed
@@ -22612,7 +22622,6 @@ techradar.com###widgetarea17 > #sidebar-top
 techradar.com##div[class^="slot-mpu"][style^="position: relative; box-sizing: border-box; height:"]
 techradar.com##div[class^="slot-single-height-"][style^="position: relative; box-sizing: border-box; height:"]
 techradar.com#@#[href^="https://www.hostg.xyz/aff_c"]
-techradar.com,toimitilat.kauppalehti.fi#@#.sponsored-article
 techrepublic.com###leader-bottom
 techrepublic.com##.ad-container
 techrepublic.com##.prose > div.has-data-empty\:hidden
@@ -23043,6 +23052,7 @@ thestudentroom.co.uk#$#header.muiappbar-positionfixed { position: static !import
 thestudentroom.co.uk#$#img[src*="logo-colour.svg"] { margin-top: 14px !important; }
 thestudentroom.co.uk#@#.fixed_ad
 thesun.co.uk###article-footer div[id*="-ads-"]
+thesun.co.uk##.article-boxout
 thesun.co.uk##.article-sidebar .widget-sticky:has([class*="ad_widget"])
 thesun.co.uk##.article__content > .has-text-align-center:has(> strong > a[href])
 thesun.co.uk##.article__footer
