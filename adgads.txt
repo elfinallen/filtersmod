@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-06-24 02:56:58 UTC
-! Total Rules: 5815
+! Last Updated: 2026-06-24 14:28:58 UTC
+! Total Rules: 5818
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -579,7 +579,7 @@
 /ut.js?cb=
 /uu114/ad/*
 /vast.php?*&idzone=
-/vast.php?t=*&tags=exoxvideostargetting
+/vast.php?*&tags=exoxvideostargetting
 /vast/?zid=
 /vbvb_*_pmpm.js
 /vendors~ads.
@@ -2572,7 +2572,6 @@
 ||elecfans.com/skin-*ad_
 ||elecfans.com/static/home_ad/
 ||elecfans.com/webapi/advertisement/
-||embedsports.top/ad.html
 ||emoney.cn/www/officalwebstatic/js/slidead.js
 ||empflix.com/mew.php
 ||en8848.com.cn/js/ad
@@ -4056,6 +4055,7 @@
 ||moonbbs.com/data/attachment/portal/
 ||mop.com/js/common/watermark.js
 ||mop.com/newindex/gg.html
+||mopo.de/view-resources/dachser2/public/mopo/adshield.js
 ||moratame.tw/img/contents/banner
 ||mortgagecentres.net/banner.gif
 ||moviekhhd.biz/ads/
@@ -4379,6 +4379,7 @@
 ||picsuperfast.xyz/imageupload/images/*ad_
 ||picyq.com/index.php/home/run/get_ad/
 ||pierrebotton.com/global/
+||pimpandhost.com/mikakoku/
 ||pimpbunny.com/static/v*/images/advertise/
 ||pincai.com/js/pubuliu.
 ||pingmeibang.com/zt/zx.jpg
@@ -4852,6 +4853,7 @@
 ||slashdot.org/ajax.pl?op=nel|
 ||slashlook.com/_resource/html/_bloggeradsbottom.html
 ||slashlook.com/_resource/html/_bloggeradsinline1.html
+||sleazyneasy.com/contents/images-banners/
 ||sleazyneasy.com/contents/images-container/*.gif
 ||slickdeals.net/ad-stats/
 ||slit.cn/slimages/
@@ -5596,6 +5598,7 @@
 ||xxxbox.me/vcrtlrvw
 ||xxxdl.net/nothing.aspx?
 ||xxxshake.com/assets/f_load.js
+||xxxshake.com/static/js/script.js
 ||xygwh.cc/js/p
 ||xygwh.cc/js/x
 ||xywy.com/gk?a=

@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-06-24 02:56:58 UTC
-! Total Rules: 11311
+! Last Updated: 2026-06-24 14:28:58 UTC
+! Total Rules: 11316
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -5777,6 +5777,7 @@
 ||express.co.uk/analytics.config.json
 ||expressnews.com/413gkwmt/init.js
 ||expressvpn.com/__px.gif?
+||ext-api.perfluence.net/pixel?
 ||ext.chtbl.com/trackable.js
 ||ext.clickstream.sberbank.ru/metrics/
 ||extendoffice.com/analytics.js
@@ -5852,6 +5853,7 @@
 ||fast.wistia.net/assets/external/googleads.js
 ||fastcdn.co/js/sptw.
 ||fastcmp.com/1px.png?origin=
+||fastly.com/metrics/gtm/
 ||fastly.net/i?
 ||fastly.net/sp.js
 ||fastmail.com/api/event/
@@ -7064,6 +7066,8 @@
 ||khanacademy.org/api/internal/_analytics/
 ||kia.ru/bitrix/templates/.default/js/jquery.gatrack.dpack.js
 ||kick.com/*&loaderversion=
+||kick.com/149e9513-01fa-4fb0-aad4-566afd725d1b/
+||kick.com/ucggfnr2hnhlcwlf/
 ||kickass.cd/analyze*.js
 ||kickass.immunicity.gold/analyze*.js
 ||kickass.unlockproj.party/analyze*.js
@@ -9386,6 +9390,7 @@
 ||sitest.jp/tracking/
 ||skalnik.pl/static/*/js/tracking.min.js
 ||skat.com.ua/api/collect
+||skateboarding.com/.api/admiral
 ||skechers.com/dl6gosf9/init.js
 ||skeepers.io/data/collect
 ||sketchfab.com/a/ramen

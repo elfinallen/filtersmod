@@ -1,8 +1,8 @@
 ! Title: AdGuard Domain
 ! Description: DNS Filter composed of other filters (AdGuard DNS & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-06-24 02:56:58 UTC
-! Total Rules: 36533
+! Last Updated: 2026-06-24 14:28:58 UTC
+! Total Rules: 36548
 ! Expires: 5 days
 ||adacado.com^
 ||adactioner.com^
@@ -1337,7 +1337,6 @@
 ||amplitude.bandlab.com^
 ||amplitude.chess.com^
 ||ampmhcbehnapwt.com^
-||ampscamp.net^
 ||amptrack-dailymail-co-uk.cdn.ampproject.org^
 ||ampxchange.com^
 ||amqbl.ballarddesigns.com^
@@ -7382,6 +7381,7 @@
 ||dkjwikrkrf.com^
 ||dklhflksd.com^
 ||dkljj.eikonikos.com^
+||dklnskds.com^
 ||dklvhfrnvr.com^
 ||dknd.cocottebistro.com^
 ||dkngfkgbc.com^
@@ -7811,6 +7811,7 @@
 ||dsamfe.com^
 ||dsapdf.com^
 ||dsaxgy.com^
+||dsaywi.com^
 ||dsbcks.com^
 ||dsbdyr.com^
 ||dsbexk.com^
@@ -7851,6 +7852,7 @@
 ||dsefow.com^
 ||dseiqr.com^
 ||dsejzd.com^
+||dsekhf.com^
 ||dsekhn.com^
 ||dseopf.com^
 ||dseyzk.com^
@@ -7882,8 +7884,10 @@
 ||dsikyf.com^
 ||dsimnq.com^
 ||dsincy.com^
+||dsivor.com^
 ||dsjggm.com^
 ||dsjofl.com^
+||dsjtel.com^
 ||dsjvjv.com^
 ||dsjzsw.com^
 ||dskbcl.com^
@@ -10050,6 +10054,7 @@
 ||fhhnx.madamsew.com^
 ||fhiwyq.axiory.com^
 ||fhktjawlsvng.com^
+||fhlalggotbpx.com^
 ||fhlch.signals.com^
 ||fhnahnad.com^
 ||fhngty.vetsecurite.com^
@@ -10252,7 +10257,6 @@
 ||fjikn.buttergoods.com^
 ||fjjkh.thelostestate.com^
 ||fjkauoicph.com^
-||fjordsand.com^
 ||fjortk.braun-hamburg.com^
 ||fjpopxgyfrlxvc.com^
 ||fjqtg.resthavenokc.com^
@@ -11535,6 +11539,7 @@
 ||gexq.cn^
 ||gezinti.com^
 ||gfbjcjdbfh.com^
+||gfditxjqxeo.com^
 ||gfdlnadm.georgjensen-damask.com^
 ||gfdpjfngu.com^
 ||gfdru.diarrablu.com^
@@ -12747,6 +12752,7 @@
 ||hchlqx.ghbass.com^
 ||hcjwq.cn^
 ||hcklqa.ichiranstore.com^
+||hclgbntmci.com^
 ||hclspy.gourmetencasa-tcm.com^
 ||hcrjyrvbwbgluii.com^
 ||hcsbbnilecce.com^
@@ -13487,6 +13493,7 @@
 ||hridjrvfzh.com^
 ||hridoy.niyeci.com^
 ||hriy.cn^
+||hriybnmi.com^
 ||hrlmn.lorex.com^
 ||hrm.healthgrades.com^
 ||hrmiruedsaawv.com^
@@ -16140,6 +16147,7 @@
 ||kkmjv.certapet.com^
 ||kknka.tndetoxcenter.com^
 ||kkovyosebeha.com^
+||kkpeioqgeo.com^
 ||kkqbi.takeyausa.com^
 ||kkrcv.wineexpress.com^
 ||kkrvwlmknqs.com^
@@ -19234,6 +19242,7 @@
 ||mortgage.inform.equifax.com^
 ||mortgage.velocify.com^
 ||mortifiedcourse.com^
+||mortifiedpace.com^
 ||mortimeracquire.com^
 ||mortimersmiles.com^
 ||mortypush.com^
@@ -21468,6 +21477,7 @@
 ||onoztg.ultimate-guitar.com^
 ||onpetropica.com^
 ||onpluslean.com^
+||onrpgdtytflxcna.com^
 ||onscroll.com^
 ||onsetblouselampshade.com^
 ||onsetcab.com^
@@ -26093,6 +26103,7 @@
 ||roeduchess.com^
 ||roedwy.imidapeptide.com^
 ||roemoss.com^
+||roeveskyagclwh.com^
 ||rofant.com^
 ||rogerouch.com^
 ||rogpddrrqaok.com^
@@ -28580,6 +28591,7 @@
 ||spicy-two.com^
 ||spicycopy.com^
 ||spicyram.com^
+||spicyrtb.com^
 ||spider-mich.com^
 ||spider-tracker.xiaohongshu.com^
 ||spider.capricciocolumbus.org^
@@ -33377,6 +33389,7 @@
 ||vole.contemporaryartlibrary.org^
 ||vole.sonicrida.com^
 ||vole.tsttechnology.com^
+||voltaly.net^
 ||volts.shopping.naver.com^
 ||volumesundue.com^
 ||volumntime.com^
@@ -34104,6 +34117,7 @@
 ||westgarybank.com^
 ||wet-judge.com^
 ||wetnesstommer.com^
+||wetnmjjbulnyru.com^
 ||wetrackgames.com^
 ||wevegvybfsgilp.com^
 ||wew.dushiwenxue.net^
@@ -34746,6 +34760,7 @@
 ||wqmnbjmb.com^
 ||wqmrlthbr.com^
 ||wqoterdswjkkl.com^
+||wqqoxwngxsfedym.com^
 ||wqsbkvlehqipsec.com^
 ||wqtrndlf.com^
 ||wqudcrjnid.com^
