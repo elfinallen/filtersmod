@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-06-25 02:56:39 UTC
-! Total Rules: 11316
+! Last Updated: 2026-06-25 14:26:48 UTC
+! Total Rules: 11320
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -3192,6 +3192,7 @@
 ||a.europaplus.ru/*/event?p2=
 ||a.flux.jp/analytics.collect.v1.collectservice/collect
 ||a.fsdn.com/con/js/sftheme/vendor/bizx-prebid.js
+||a.klaviyo.com/forms/api/v3/geo-ip
 ||a.klaviyo.com/onsite/track-analytics
 ||a.nytimes.com/svc/nyt/data-layer?sourceapp
 ||a.poki-cdn.com/t2.js
@@ -4692,6 +4693,7 @@
 ||cfm.kt.com/js/common/global/oms.js
 ||cfm.kt.com/js/ga/staticslogcodebuilder.js
 ||cfmediaview.com/api/mv_visit.ashx
+||cfparequest.pcpartpicker.com/api/event
 ||cgeimage.commutil.kr/jscomm/*/logger.js
 ||cgmagonline.com/wp-content/plugins/perfmatters/js/analytics-minimal-v*.js
 ||cgtn.com/api/collect/
@@ -7321,6 +7323,7 @@
 ||live.visually-io.com/api/allocator/
 ||live.visually-io.com/api/s?token=
 ||live2support.com^*/js_lstrk.
+||liveball.sx/albert
 ||livechatinc.com^*/control.cgi?
 ||livedoor.com/counter/
 ||livedoor.jp/js/c2.js
@@ -8424,6 +8427,7 @@
 ||pixlee.com/assets/pixlee_events.js
 ||pji.nu/libs/pjpixel/
 ||pla.atlasos.net/api/event
+||plantet.pl/products/ping/
 ||platform-eu.cloud.coveo.com/rest/*/analytics/view?
 ||platform.datazoom.io/beacon/
 ||platform.loyaltylion.com/analytics/

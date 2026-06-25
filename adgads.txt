@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-06-25 02:56:39 UTC
-! Total Rules: 5819
+! Last Updated: 2026-06-25 14:26:48 UTC
+! Total Rules: 5827
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -1533,6 +1533,7 @@
 ||ark.le.com/s?vid=
 ||ark.letv.com/s?
 ||arkadiumhosted.com/advertisement/
+||ashemaletube.com/api/tiles
 ||ashemaletube.com/ast/b/
 ||ashemaletube.com/ast/paysite
 ||asiav.cyou/myupdatelist.
@@ -1547,6 +1548,7 @@
 ||assets.moly.hu/system/header_ads/
 ||assets.msn.com/bundles/*/weather/latest/river-feed.
 ||assets.presearch.com/backgrounds/
+||assets.stuff.co.nz/static/stuff-adtech-sdk/ads-sdk/
 ||assets.systemrequirementslabs.net/srl/wwwroot/js/stake-takeover.js
 ||assetscdn.jable.tv/assets/images/*-760x70.
 ||astrill.com/bnrs/
@@ -2870,6 +2872,7 @@
 ||google.com/adsense/search/ads.js
 ||google.com/adsense/search/async-ads.js
 ||google.com/pagead/1p-user-list/
+||google.com/pagead/conversion_async.js
 ||google.com/pagead/drt/
 ||google.com/pagead/form-data/
 ||google.com/pagead/landing?
@@ -3424,6 +3427,7 @@
 ||jandan.net^*/3kbw2.png
 ||jandan.net^*/699pic/
 ||jandan.net^*/moyu.png
+||jauns.lv/js/ad-zone.js
 ||jav.sb/videojs/300.php
 ||jav.sb/videojs/300x100.php
 ||jav101.com/img5bbb0096f242f.gif
@@ -3925,12 +3929,15 @@
 ||mamibuy.com.tw/ad/period.aspx
 ||manai521.com:88/bocai/index.html
 ||manga18.me/usd2023/usd_frontend.js
+||mangabats.com/js/ads/clck-adu-bats.js
 ||mangafuna.xyz/static/ads/
 ||mangahax.com/images/ima_
 ||mangahub.io/iframe/
 ||mangakakalot.gg/images/bns/
 ||mangakakalot.gg/js/ads/admaven.js
 ||mangakakalot.gg/js/ads/clck-adu-kklgg.js
+||manganato.gg/images/bns/common/shirley.png
+||manganato.gg/js/ads/
 ||manhwa18.cc/main2023/
 ||manqian.cn/784a6e27-be5b-4442-86e5-9f4adb51894d?
 ||manqian.cn/async/adlocationconfig
@@ -4256,6 +4263,7 @@
 ||oodcd.cn/pan/config/history.
 ||ooqiu.com/ad_js/
 ||oploverz.my/wp-content/uploads/*/*.gif
+||opti-digital.com/js/presync.html
 ||opticsky.cn/images/2015/gy-px201
 ||optiklink.com/arlinablock.js
 ||orangepix.is/b_pics/*.gif
@@ -4419,6 +4427,7 @@
 ||porngamespass.com/iframes/
 ||pornhd3x.tv/cms_data/sites/admin/files/ads
 ||pornhub.*/_xa/ads
+||pornid.xxx/vager/
 ||pornlib.com/player_*_ads
 ||pornohans.net/*==/
 ||pornone.com/js/combined.js
@@ -5637,7 +5646,6 @@
 ||yerecpa.cn/uploadsb/app_adv/
 ||yeshefb.com/template/conch/dd/
 ||yesky.com/s?z=
-||yesporn*.*/herebyad
 ||yespornpleasexxx.com/wp-content/litespeed/js/
 ||yeyou.com/2013/new/yeyou-float-window.js
 ||yezi.cn/_ad/

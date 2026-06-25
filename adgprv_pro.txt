@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-06-25 02:56:39 UTC
-! Total Rules: 118499
+! Last Updated: 2026-06-25 14:26:48 UTC
+! Total Rules: 118505
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -104128,6 +104128,7 @@ zonedirector.avadacom.com$image
 ||a.europaplus.ru/*/event?p2=
 ||a.flux.jp/analytics.collect.v1.collectservice/collect
 ||a.fsdn.com/con/js/sftheme/vendor/bizx-prebid.js
+||a.klaviyo.com/forms/api/v3/geo-ip
 ||a.klaviyo.com/onsite/track-analytics
 ||a.mt.ru^$third-party
 ||a.myfidevs.io^$third-party
@@ -105373,6 +105374,7 @@ zonedirector.avadacom.com$image
 ||asistanaliz.com/api/hit/
 ||askanydifference.com/beardeddragon/gilamonster.js
 ||askdoctors.jp/assets/packs/js/impression_tracker-
+||askdriver.com^$redirect=noopjs,script
 ||aspservice.jp^$third-party
 ||asset*.coupangcdn.com/customjs/coupang-web-log/*/web-log.umd.min.js$domain=login.coupang.com
 ||asset*.coupangcdn.com/customjs/mycoupang/fingerprint2/
@@ -106603,6 +106605,7 @@ zonedirector.avadacom.com$image
 ||cfm.kt.com/js/ga/staticslogcodebuilder.js
 ||cfmediaview.com/api/mv_visit.ashx
 ||cfmediaview.com^$third-party
+||cfparequest.pcpartpicker.com/api/event
 ||cftrack.com^$third-party
 ||cgeimage.commutil.kr/jscomm/*/logger.js
 ||cgmagonline.com/wp-content/plugins/perfmatters/js/analytics-minimal-v*.js
@@ -111315,6 +111318,7 @@ zonedirector.avadacom.com$image
 ||live.visually-io.com/api/allocator/
 ||live.visually-io.com/api/s?token=
 ||live2support.com^*/js_lstrk.
+||liveball.sx/albert
 ||livechatinc.com^*/control.cgi?
 ||livecounter.dk^$third-party
 ||livedoor.com/counter/
@@ -113344,6 +113348,7 @@ zonedirector.avadacom.com$image
 ||pla.atlasos.net/api/event
 ||placemypixel.com^$third-party
 ||pladform.ru^$third-party
+||plantet.pl/products/ping/
 ||platform-eu.cloud.coveo.com/rest/*/analytics/view?
 ||platform.datazoom.io/beacon/
 ||platform.loyaltylion.com/analytics/
@@ -117143,6 +117148,7 @@ zonedirector.avadacom.com$image
 ||unitymedia.de/beacon/
 ||unleash-edge-prod.penpencil.co/api/frontend/client/metrics
 ||unleash-edge.wrtn.ai/api/frontend/client/metrics|
+||unloadyourself.com^$redirect=noopjs,script
 ||unpkg.com/@topsort/analytics.js
 ||unpkg.com/web-vitals
 ||unpkg.com/web-vitals?
