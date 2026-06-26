@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-06-25 14:26:48 UTC
-! Total Rules: 5827
+! Last Updated: 2026-06-26 03:26:37 UTC
+! Total Rules: 5830
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -2574,6 +2574,7 @@
 ||elecfans.com/skin-*ad_
 ||elecfans.com/static/home_ad/
 ||elecfans.com/webapi/advertisement/
+||embed.st/ad.html
 ||emoney.cn/www/officalwebstatic/js/slidead.js
 ||empflix.com/mew.php
 ||en8848.com.cn/js/ad
@@ -4858,6 +4859,7 @@
 ||skeimg.com/i/*.gif
 ||skeyword.browser.qq.com/gethotrank
 ||skijumping.pl/content/images/banner/
+||skygg.lat/ads/lib.js
 ||sl.al/gdrive/pic/*.gif
 ||slashdot.org/ajax.pl?op=nel|
 ||slashlook.com/_resource/html/_bloggeradsbottom.html
@@ -5436,6 +5438,7 @@
 ||winwin7.com/statics/js/pos_js/
 ||winwin7.com/statics/js/user/xz.
 ||wiocha.pl/js/placements.js
+||wispbyte.com/client/scripts/wisp-cmp-bridge.js
 ||wlrjy.com/assets/images/*.gif
 ||wlrjy.com/assets/images/tuidc.png
 ||wnacg.*/data/ds/
