@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-06-26 03:26:37 UTC
-! Total Rules: 118507
+! Last Updated: 2026-06-26 14:19:03 UTC
+! Total Rules: 118511
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -1972,6 +1972,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /fbevents.min.js
 /fbpix-events-
 /fbpixel.js
+/fcp/v1/i
 /fdmg-tag-manager/tags.js
 /fe_logger?
 /feature/metrics$xmlhttprequest
@@ -2208,6 +2209,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /gtag/js?
 /gtag/js?id=
 /gtagv4.js
+/gtgcore/?id=
 /gtm-*.js$domain=livingtraditionally.com|myhealthgazette.com|koinbulteni.com|teknop.net
 /gtm-data-layer-$script
 /gtm-listeners.js
@@ -109748,6 +109750,7 @@ zonedirector.avadacom.com$image
 ||hao123.com^$cookie=traceid
 ||happycow.net/analytics_socket|
 ||happysex.ch/app_jquery/tracking.js
+||harant-test.ru/statistics.php
 ||hardwarezone.com.sg/js/hwz/hwzgtm.js
 ||hariken.co^$third-party
 ||harryrosen.com/analytics/
@@ -114905,6 +114908,7 @@ zonedirector.avadacom.com$image
 ||share-online.biz/affiliate/$third-party
 ||share.9cdn.net/share/*/js/tracking/
 ||share.9cdn.net/share/long_cache/js/tracking/
+||share.9cdn.net/share/short_cache/js/tracking/$domain=nine.com.au
 ||shareaholic.com/analytics_
 ||shareaholic.com/partners.js
 ||shareasale-analytics.com^$third-party

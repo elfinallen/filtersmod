@@ -1,7 +1,7 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-06-26 03:26:37 UTC
+! Last Updated: 2026-06-26 14:19:03 UTC
 ! Total Rules: 5830
 ! Expires: 5 days
 /a-duoduo/add-
@@ -927,7 +927,6 @@
 ||3boys2girls.com/templates/default/2013/life/160b5.js
 ||3boys2girls.com/templates/default/2013/randlinks.js
 ||3czol.com/ad/
-||3d-porn.org/ad.xml
 ||3dmax8.com/atu4/
 ||3dmax8.com/jiaoche
 ||3dmgame.com/img/a/640-
@@ -2224,6 +2223,7 @@
 ||connatix.com/rtb/
 ||content.livesportmedia.eu/api/v1/banners?zone-ids=
 ||content.overwolf.com/curseforge/web/nitro/cursenpinit.js
+||content.spmediacdn.com/site/banner.html
 ||content.viralize.tv/display/
 ||coolaler.com/index_ads/
 ||coolpc.com.tw/home/img/right2.html
@@ -4280,7 +4280,6 @@
 ||otomi-games.com/wp-content/uploads/*-ad-728-
 ||outlook.live.com/ows/*/outlookoptions/adsaggregate
 ||ouyaoxiazai.com/static/img/cqthree.gif
-||oversteer48.com/wp-content/uploads/*/nurblife-ad-
 ||ownedcore.com/forums/ocpbanners/
 ||owo.lewd.ninja/j2.js
 ||oyksoft.com/assets/images/*.gif
@@ -4602,6 +4601,7 @@
 ||r3sub.com/nb/
 ||r3sub.com/posters/00698128.jpg
 ||rabbitstream.net/ajax/*/banners
+||racedepartment.com/js/rd/blockdetect.min.js
 ||rainmaker.production-public.tubi.io/*/web?app_id=tubitv*&pub_id=*&*vpaid_enabled=
 ||rainpat.com/content/1360x55/
 ||rainpat.com/scripts/jquery.superslide.
@@ -4697,6 +4697,7 @@
 ||s.go.sohu.com^*/?callback=
 ||s.weibo.com/widget.html
 ||s.yimg.com/cv/apiv2/tw/bwchou25/
+||s.yimg.com/du/site/pqhdvmrpsxksshgt.js
 ||s.yimg.com/ja/ap/tw/js/
 ||s.yimg.com/uv/dm/scripts/syndication.js
 ||s0.cdn3x.com/jb/js/jb.vast.min.js
@@ -5004,7 +5005,6 @@
 ||stream.cz/*/vast?
 ||stream.offidocs.com/images/*-banner
 ||streambtwp.b-cdn.net/aclib.js
-||streamed.pk/static/rainbet3.webp
 ||stripchat.com/api/external/
 ||stulip.org/static/js/header.js
 ||su.bdimg.com/static/dspui/js/
@@ -5385,7 +5385,7 @@
 ||wanwan.sina.com.cn/third_party/
 ||wasabii.com.tw/float/*.js
 ||watchporn.to/banners/
-||wcostream.com/inc/js/adblock-detector-hardened.js
+||watchporn.to/contents/djifbwwmsrbs/player/seduced_vast.mp4
 ||wcostream.net/premiumad
 ||wdff.buzz/hengf.
 ||we560.com/js/*.js
