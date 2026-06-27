@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-06-27 02:51:08 UTC
-! Total Rules: 118511
+! Last Updated: 2026-06-27 13:27:01 UTC
+! Total Rules: 118514
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -105872,6 +105872,7 @@ zonedirector.avadacom.com$image
 ||birdsend.co/assets/static/js/pixel/
 ||birdsend.email/pixel
 ||birdsend.net/pixel
+||bis.org/metrics/web.gif?
 ||bit.ly/stats?
 ||bitcdp.ru/tracker/
 ||bitchute.com/data/script.js
@@ -112099,6 +112100,7 @@ zonedirector.avadacom.com$image
 ||morevisits.info^$third-party
 ||morgenpost.de/resources/*/js/webtrekk
 ||morinaga.co.jp/assets/js/ga.js
+||morningstar.com/api/v1/analytics
 ||moshimo.com^$third-party
 ||moshimo.com^*/impression?
 ||mosoah.com/analytics.js
@@ -114779,6 +114781,7 @@ zonedirector.avadacom.com$image
 ||segmetrics.io^$third-party
 ||segs.jp^$third-party
 ||seguridad.compensar.com/lib/js/fingerprint2.js$script,redirect=fingerprintjs2
+||seismic.com/playerservice/api/v1/log?
 ||seitwert.de^$third-party
 ||selaris.com^$third-party
 ||selectika.com/selectika-pixel.min.js

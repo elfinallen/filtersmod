@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-06-27 02:51:08 UTC
-! Total Rules: 11325
+! Last Updated: 2026-06-27 13:27:01 UTC
+! Total Rules: 11328
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -4247,6 +4247,7 @@
 ||birdsend.co/assets/static/js/pixel/
 ||birdsend.email/pixel
 ||birdsend.net/pixel
+||bis.org/metrics/web.gif?
 ||bit.ly/stats?
 ||bitcdp.ru/tracker/
 ||bitchute.com/data/script.js
@@ -7740,6 +7741,7 @@
 ||montgomerycountymd.gov/common/scripts/googleanalytics.js
 ||morgenpost.de/resources/*/js/webtrekk
 ||morinaga.co.jp/assets/js/ga.js
+||morningstar.com/api/v1/analytics
 ||moshimo.com^*/impression?
 ||mosoah.com/analytics.js
 ||motogonki.ru/js/google_service.js
@@ -9214,6 +9216,7 @@
 ||seesaawiki.jp/img/rainman.gif?
 ||segment.psg.nexstardigital.net/adobeanalytics.js
 ||segmentapis.com/v1/t
+||seismic.com/playerservice/api/v1/log?
 ||selectika.com/selectika-pixel.min.js
 ||selenagomez.com/*/umg-analytics/
 ||seller-log-collector.shopee.

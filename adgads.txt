@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-06-27 02:51:08 UTC
-! Total Rules: 5831
+! Last Updated: 2026-06-27 13:27:01 UTC
+! Total Rules: 5834
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -1847,7 +1847,6 @@
 ||books.com.tw/web/apactivitystick?
 ||booktxt.net/js/easyad
 ||booktxt.net/js/mangoindexbanner.js
-||boomplaymusic.com/boomplayer/ad/
 ||bootcss.com/assets/js/and
 ||bosw.net/js/bos/*960
 ||botcm.com/zhanqun/
@@ -1930,6 +1929,8 @@
 ||caikuu.com/ckimages/*_gg
 ||caikuu.com/ckimages/*_zg
 ||caitlin.top/catalog/view/core/adchecker/
+||caitlin.top/catalog/view/core/comic/fc.js
+||caitlin.top/catalog/view/core/comic/fc0.js
 ||caixin.com/s?z=
 ||camhub.*/static/js/cc-kvs.js
 ||camspacelive.com/widgets/
@@ -1949,6 +1950,7 @@
 ||caranddriver.com/inventory/
 ||carexpert.com.tw/wp-content/uploads/*800x90.
 ||carnoc.com/noticejs/
+||cartometro.com/abd.js
 ||cartoon18.com/images/friend/
 ||catbox.moe/bb5wdv.jpg
 ||cb.com.cn/index/ad/
@@ -2596,6 +2598,7 @@
 ||eporner.com/event.php
 ||eporner.com/xhr/vast/
 ||eprice.com.tw/img/tw_m/ad/
+||ero-labs.*/assets/js/appbanner.js
 ||eroprofile.com/js/nvbla.js
 ||erowall.com/126.js
 ||es3984.review/02_cn_ad/
@@ -3319,6 +3322,7 @@
 ||imooc.com/open/courselistrandjs
 ||imparteconocimientos.com/recursos/anti-adblocker.js
 ||in.com/common/script_catch.js
+||indianexpress.com/wp-content/themes/indianexpress/js/min/in_article_ad.js
 ||indiatimes.com/lgads_
 ||indiatimes.com/manageads/
 ||indiatimes.com/toiads_
@@ -4230,6 +4234,7 @@
 ||nyaa.land/static/p2.jpg
 ||nyahentai.pw/js/check_cat.js
 ||nychinaren.com/houbei/
+||nylonsbeauty.com/med/
 ||nz04com.com/aabdd/
 ||nzherald.co.nz/pf/resources/dist/scripts/global-ad-script.js
 ||oa.hinews.cn/work/img/
@@ -4251,7 +4256,6 @@
 ||onedala.tv/uploads/banner/
 ||onegreen.net/myfile/
 ||oneinstack.com/images/oneinstack-
-||onejailbreak.com/site/templates/scripts/slots.js
 ||onetvb.com/assets/javascripts/
 ||onlinemschool.com/pictures/stb.png
 ||onnetwork.tv/widget/
@@ -5401,7 +5405,6 @@
 ||webkaka.com/info/script/articlead.js
 ||webkaka.com/script/cp.js
 ||webkaka.com^*x50.
-||webtorrent.io/img/supporters/express-vpn-banner.png
 ||wecima.click/static/js/adblock.js
 ||wei2008.com/js/*0.
 ||wei2008.com/js/t_
