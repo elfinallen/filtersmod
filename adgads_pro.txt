@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-06-26 14:19:03 UTC
-! Total Rules: 34398
+! Last Updated: 2026-06-27 02:51:08 UTC
+! Total Rules: 34410
 ! Expires: 5 days
 $$div[style="display: none !important;"]:contains(!function(){function a(a){var _idx=)
 $$div[style="display: none !important;"]:contains('ed2k://)
@@ -708,6 +708,7 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 /^https:\/\/[a-z0-9-]{3,12}\.[a-z0-9]+\.com\/([a-za-z0-9.]+)(?:\/([a-za-z0-9.]+))?\.\d{4}\.(doc|docx|html|jpeg|jpg|js|json|odf|pdf|png|ppt|psd|rtf|shtml|sxml|txt|wedp|wps|xml|xps)\?\d{13}$/$third-party,match-case
 /^https:\/\/[a-z0-9]+\.[a-z0-9]+\.[a-z]{2,3}:\d{1,6}\/[a-z]{1,3}\/\d+\?is_not=/$all
 /^https:\/\/[a-z0-9]+\.[a-z0-9]+\.[a-z]{2,3}:\d{1,6}\/bug\?i=\d+$/
+/^https:\/\/[a-z]+[0-9]+\.[a-z]+\.cfd\/\?[a-z]+=[a-za-z0-9:_=-]+/$all,match-case
 /^https:\/\/[a-z]+[0-9]+\.host[0-9]+[a-z]\.cfd\/\?[a-z]+=[a-za-z0-9:_=-]+/$all,match-case
 /^https:\/\/[a-z]{10,12}\.com\/[a-z\/]{2,}\?id=[12]\d{6}$/$script,third-party,match-case
 /^https:\/\/[a-z]{12,20}\.com\/script\/[a-za-z0-9]+_[a-za-z0-9]+\.js$/$script,third-party,match-case,domain=variety.com
@@ -3542,6 +3543,10 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 91porna.com,evgpopxb.cc##.modal-backdrop
 91porny.com##.container-fluid.p-0[class*="mb-"]
 91porny.com##.jsv-g1
+91porny.com,91porn.fans###main > div[class][id] > .mb-0
+91porny.com,91porn.fans##.videoplaycontainer > style + div[data-nosnippet]
+91porny.com,91porn.fans#?##main > div[class][id]:has(>style)
+91porny.com,91porn.fans#?#.colvideolist:has(>.video-elem>.d-block[href^="http"])
 91rb99.com##.top
 91wii.com#%#window.ad = window.ads = window.dzad = window.dzads = true;
 91xx133.cc##div[id].is-multiline > .is-one-quarter-tablet:has(> .is-shadowless a[target="_blank"])
@@ -6366,6 +6371,7 @@ businesstoday.com.tw##.article__mainevent[style^="min-height:"]
 businesstoday.in##.itgdadsplaceholder
 businesstoday.in##.outer-add-section
 businesstoday.in##.secondadposition
+businesstoday.in##.storysecondads
 businesstoday.in##.stoybday-ad
 businesstoday.in,aajtak.in##.right-side-tabola
 businessweekly.com.tw##.mainr_content:nth-child(5)
@@ -6775,6 +6781,8 @@ charlieintel.com,dexerto.com##.top-0.justify-center
 chatelaine.com##.assmbly-ad-text
 chatgpt.com##.border-token-border-default.mt-2.border-t:has(button[aria-label="ad options"])
 chatgpt.com##div[class]:has(> div.flex > button[aria-label="ad options"])
+chatgpt.com##div[data-testid] div[class^="max-"] > div[data-ad-card-root]
+chatgpt.com#%#//scriptlet('trusted-json-set', 'weakmap.prototype.set', '$[?(@.ads_response_id)].*', '$remove$', '', 'arg:1')
 chattanoogan.com##.displayphoto
 chaturflix.cam#$#.adsbox.doubleclick.ad-placement { display: block !important; }
 chaturflix.cam#%#//scriptlet('prevent-settimeout', '"none"===getcomputedstyle')
@@ -18883,7 +18891,7 @@ playhop.com##.google-sticky-adv-banner
 playhop.com#$#.app__wrapper [style*="width: calc(100% - 300px);"] { width: 100% !important; }
 playhop.com#$#.google-sticky-adv-banner__desktop-wrapper { display: none !important; }
 playmods.net##.recommend-container
-playmogo.com,thotchicks.com,gelbooru.com,lewdzone.com,r-34.xyz,simply-hentai.com,turbo.cr,upload18.com,luluvids.top,paipancon.com,verhentai.top,muchohentai.com,mangago.me,turbovid.*,javx357.com,animebr.org,celebritydeeplink.com,japaneseholes.com,javlab.net,javmeta.com,vipserije.com,javideo.net,advertape.net,cyberdrop.*,popjav.in,vevocloud.com,x-fetish.tube,myvidplay.com,arigl.com,saint2.*,imgbox.com,mens1069.com,simpcity.*,javfan.one,jmanga.rent,javfc2.xyz,nukibooks.com,jpg6.su,luluvid.com,jav.si,javtiful.com,pornslash.com,hentai2w.com,javpas.com,nsfwr34.com,luluvdoo.com,tojav.net,ekasiwap.com,xxgasm.com,javmenu.com,porntin.com,asianporn.li,javfor.tv,shinshi-manga.net,asmr18.fans,b-hentai.com,jav-fun.cc,rawkuma.net,spoilerplus.tv,daftporn.com,thefappeningblog.com,javboys.com,empressleak.biz,ddd-smart.net,rule34.*,archivebate.*,apkhosto.com,jpg5.su,nsfwyoutube.com,thefappening.pro,javhd.*,javhdz.today,fapeza.com,xmalay1.net,animeworld.*,natomanga.com,play.playkrx18.site,missavtv.com,poapan.xyz,nudogram.com,watchadsontape.com,streamtape.com,18comic.vip,18comic-gquu.vip,mitaku.net,hitomi.la,klmanga.app,mangarawjp.tv,javmix.tv,hentai2read.com,sxyprn.com,xmoviesforyou.com,fapfappy.com,jav.direct,syosetu.*,telorku.xyz,kissjav.li,lovingsiren.com,mesex.pro,xanimeporn.com#%#//scriptlet('abort-current-inline-script', 'webassembly', 'atob')
+playmogo.com,thotchicks.com,gelbooru.com,lewdzone.com,r-34.xyz,simply-hentai.com,turbo.cr,upload18.com,luluvids.top,paipancon.com,verhentai.top,muchohentai.com,mangago.me,turbovid.*,javx357.com,animebr.org,celebritydeeplink.com,japaneseholes.com,javlab.net,javmeta.com,vipserije.com,javideo.net,advertape.net,cyberdrop.*,popjav.in,vevocloud.com,x-fetish.tube,myvidplay.com,arigl.com,saint2.*,imgbox.com,mens1069.com,simpcity.*,javfan.one,jmanga.casa,javfc2.xyz,nukibooks.com,jpg6.su,luluvid.com,jav.si,javtiful.com,pornslash.com,hentai2w.com,javpas.com,nsfwr34.com,luluvdoo.com,tojav.net,ekasiwap.com,xxgasm.com,javmenu.com,porntin.com,asianporn.li,javfor.tv,shinshi-manga.net,asmr18.fans,b-hentai.com,jav-fun.cc,rawkuma.net,spoilerplus.tv,daftporn.com,thefappeningblog.com,javboys.com,empressleak.biz,ddd-smart.net,rule34.*,archivebate.*,apkhosto.com,jpg5.su,nsfwyoutube.com,thefappening.pro,javhd.*,javhdz.today,fapeza.com,xmalay1.net,animeworld.*,natomanga.com,play.playkrx18.site,missavtv.com,poapan.xyz,nudogram.com,watchadsontape.com,streamtape.com,18comic.vip,18comic-gquu.vip,mitaku.net,hitomi.la,klmanga.app,mangarawjp.tv,javmix.tv,hentai2read.com,sxyprn.com,xmoviesforyou.com,fapfappy.com,jav.direct,syosetu.*,telorku.xyz,kissjav.li,lovingsiren.com,mesex.pro,xanimeporn.com#%#//scriptlet('abort-current-inline-script', 'webassembly', 'atob')
 playmyopinion.com#%#//scriptlet("set-constant", "canrunads", "true")
 playno1.com###frame8i822e
 playno1.com###m12
@@ -21762,9 +21770,12 @@ sourceforge.net###nels
 sourceforge.net##.l-side-column .m-sidebar-widget:has(> .body > .standard > div[data-dest*="bannerid="])
 sourceforge.net##.main-nav-link
 sourceforge.net##.projects > li.nel[data-cid]
-sourceforge.net##body > div[id][data-nosnippet]:has(> button.sticky-close + .sticky-inner)
+sourceforge.net##body > * > div[id][data-nosnippet]:has(> button[class*="-close"]+ div[class*="sticky"])
+sourceforge.net##body > div[id][data-mobile-name]:not(#style_important):has(> span.close + .linkrow)
+sourceforge.net##body > div[id][data-nosnippet]:has(> button[class*="-close"] + div[class*="sticky"])
 sourceforge.net##body > div[id^="at-bottom-"]
 sourceforge.net##body > div[id^="mdb"]
+sourceforge.net##body div[id][data-banner-name]:not(#style_important)
 sourceforge.net##body div[id^="vibe-main-row"]:not(#style_important)
 sourceforge.net##div[id*="-coding-bar"]
 sourceforge.net##section.m-project-search-results > ul.projects > li.nel:not([itemprop])
@@ -25793,9 +25804,6 @@ xineurope.com###qmenu_menu + .wp
 xineurope.com##.adft
 xing.com##div[data-qa="jobs-inline-ad"]
 xingkbjm.com##.d_textbanner
-xinhua348.com,jstv42.site,91porny.org,jstv600.com###main > div[id^="rd"]
-xinhua348.com,jstv42.site,91porny.org,jstv600.com##.footer + .block
-xinhua348.com,jstv42.site,91porny.org,jstv600.com#?#.card:has(>.card-image>a[href^="http"])
 xinhuanet.com##.adv-column2
 xinhuanet.com##.adv3
 xinhuanet.com##.columbox.book
@@ -26015,6 +26023,7 @@ yahoo.com##.col-fullbleed.md\:invisible.md\:overflow-hidden
 yahoo.com##.darla-container
 yahoo.com##.darla-lrec-ad
 yahoo.com##.darla_ad
+yahoo.com##.dynamic-inline-ad
 yahoo.com##.feedback
 yahoo.com##.geminiportalstreamad_handleviewport
 yahoo.com##.ntk-ad-item
@@ -26022,7 +26031,9 @@ yahoo.com##.pointer-events-auto.h-\[91px\]
 yahoo.com##.pointer-events-auto:has(> .ad-container:only-child)
 yahoo.com##.pointer-events-none > .sticky:has(> div[id^="sda-"][id$="-iframe"]:only-child)
 yahoo.com##.searchcenterbottomads
+yahoo.com##.searchcenterbottomadspla
 yahoo.com##.searchcentertopads
+yahoo.com##.searchsupertopads
 yahoo.com##.sticky.bottom-0:has(.ad-container)
 yahoo.com##.stream-responsive-ad-item
 yahoo.com##.sys_shopleguide
@@ -33401,6 +33412,7 @@ zzzyk.com###tinfo
 ||topthink.com/uploads/assistant/$image,domain=doc.thinkphp.cn
 ||toptoon03.xyz/app/tuijian.html
 ||torrindex.net/images/epv/
+||tosshub.com/sites/businesstoday/admanager/
 ||totaladblock.com^$badfilter
 ||totaladblock.com^$document,badfilter
 ||totaladblock.com^$popup
