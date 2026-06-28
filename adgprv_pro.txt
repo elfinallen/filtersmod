@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-06-27 13:27:01 UTC
-! Total Rules: 118514
+! Last Updated: 2026-06-28 03:33:20 UTC
+! Total Rules: 118513
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -107857,6 +107857,7 @@ zonedirector.avadacom.com$image
 ||dircont3.com^$third-party
 ||directcounter.de^$third-party
 ||directcrm.ru^$third-party
+||directg.jp/js/fingerprint2.js$script,redirect=fingerprintjs2
 ||directnews.co.uk/feedtrack/
 ||directory.cookieyes.com/api/v*/ip
 ||directprimal.com^$third-party
@@ -110918,8 +110919,6 @@ zonedirector.avadacom.com$image
 ||khanacademy.org/api/internal/_analytics/
 ||kia.ru/bitrix/templates/.default/js/jquery.gatrack.dpack.js
 ||kick.com/*&loaderversion=
-||kick.com/149e9513-01fa-4fb0-aad4-566afd725d1b/
-||kick.com/ucggfnr2hnhlcwlf/
 ||kickass.cd/analyze*.js
 ||kickass.immunicity.gold/analyze*.js
 ||kickass.unlockproj.party/analyze*.js
