@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-06-28 03:33:20 UTC
-! Total Rules: 11326
+! Last Updated: 2026-06-28 13:40:59 UTC
+! Total Rules: 11330
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -450,6 +450,7 @@
 /busting/facebook-tracking/*
 /busting/google-tracking/*
 /bv-analytics.js
+/bydataanalytics.js
 /bypassma.js
 /c.gif?
 /c.wrating.com/*
@@ -939,6 +940,7 @@
 /fingerprint3.min.js
 /fingerprintjs2/fpt2.js
 /firebase-performance-compat.js
+/firebase-performance-standalone-compat.js
 /firebase-performance-standalone.js
 /firestats/js/fs.js.php
 /firm_tracking.js
@@ -3517,6 +3519,7 @@
 ||amazonaws.com/searchdiscovery-satellite-production/
 ||amazonaws.com/snowplow-zitcha.js
 ||amazonaws.com/storejs/a/jkrhrqg/ge.js
+||amazonaws.com/telemetry.bydata/
 ||amazonaws.com/umg-analytics/
 ||amazonaws.com/v1/apps/*/events
 ||amazonaws.com/webengage-files/
@@ -8633,6 +8636,7 @@
 ||publicbroadcasting.net/analytics/
 ||publicwww.com/mtm/mtm.js
 ||publish.vuukle.com/bq-publish
+||publisher-services.amazon.dev/v1/recordvendorsloaded
 ||pubsub.googleapis.com/*/projects/mailfoogae/topics/events
 ||pudra.co/counter/
 ||pullandbear.com/integration/zenit/events/hit

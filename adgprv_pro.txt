@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-06-28 03:33:20 UTC
-! Total Rules: 118513
+! Last Updated: 2026-06-28 13:40:59 UTC
+! Total Rules: 118518
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -1433,6 +1433,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /busting/facebook-tracking/*
 /busting/google-tracking/*
 /bv-analytics.js
+/bydataanalytics.js
 /bypassma.js
 /c.gif?
 /c.vialoops.com/*$image
@@ -1991,6 +1992,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /fingerprintjs2/fpt2.js
 /firebase-analytics.js$domain=furunavi.jp|mt.co.kr|hanatour.com|modetour.com
 /firebase-performance-compat.js
+/firebase-performance-standalone-compat.js
 /firebase-performance-standalone.js
 /firestats/js/fs.js.php
 /firm_tracking.js
@@ -104755,6 +104757,7 @@ zonedirector.avadacom.com$image
 ||amazonaws.com/searchdiscovery-satellite-production/
 ||amazonaws.com/snowplow-zitcha.js
 ||amazonaws.com/storejs/a/jkrhrqg/ge.js
+||amazonaws.com/telemetry.bydata/
 ||amazonaws.com/umg-analytics/
 ||amazonaws.com/v1/apps/*/events
 ||amazonaws.com/webengage-files/
@@ -113379,6 +113382,7 @@ zonedirector.avadacom.com$image
 ||play.tv3.lt/static/scripts/trackdb/events.gif$image,redirect=1x1-transparent.gif
 ||play.vidyard.com/api/metrics
 ||playbrain.io/analytics/
+||playdigo.com^$third-party
 ||playep.pro/pl/vendor/stat.min.js
 ||player-api.instaread.co/api/metrics/
 ||player-cdn.com/cdn-cgi/trace
@@ -113709,6 +113713,7 @@ zonedirector.avadacom.com$image
 ||publish-int.se^$third-party
 ||publish.vuukle.com/bq-publish
 ||publisher-assets.spot.im/ad/event-tracking/$xmlhttprequest,redirect=noopjs
+||publisher-services.amazon.dev/v1/recordvendorsloaded
 ||publishflow.com^$third-party
 ||publytics.net^$third-party
 ||pubperf.com^$third-party

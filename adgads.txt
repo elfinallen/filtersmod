@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-06-28 03:33:20 UTC
-! Total Rules: 5834
+! Last Updated: 2026-06-28 13:40:59 UTC
+! Total Rules: 5828
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -1980,6 +1980,7 @@
 ||cdn.autoevolution.com/_js/prebid*.js
 ||cdn.aznude.com/js/dating.json
 ||cdn.aznude.com/player/v*/vast-no-entitlements.js
+||cdn.bullion.media/custom_units/video-strip-master.js
 ||cdn.cnn.com/ads/
 ||cdn.concert.io/lib/concert-ads/
 ||cdn.cuty.io/fps.js
@@ -2392,7 +2393,6 @@
 ||dj97.com/api.php?mod=ad&
 ||djdedu.net/static/*.gif
 ||djicdn.com/uploads/ad_image_file/
-||dlhd.pk/rs4k-adbanner.html
 ||dlkoo.cc/down/copy
 ||dlkoo.com/down/copy
 ||dmzj.com/js/ad/
@@ -2539,6 +2539,7 @@
 ||eastmoney.com/trade/hqb_hq.html
 ||easyai.tech/wp-content/uploads/*-576x1024.
 ||easyicon.net/gg2019/
+||easytechguides.com/b/
 ||ebay.com/scl/js/scandalloader.js
 ||ebaystatic.com/rs/c/scandal/
 ||ebaystatic.com^*/scandaljs-
@@ -3063,7 +3064,6 @@
 ||hiao.com/node/node_27508.htm
 ||hiaxj.com/dbxf/
 ||hibiquan.com/uploads/images/
-||hide.cx/assets/banners/
 ||hinet.net/radio/getadcode.do
 ||histock.tw/ad/
 ||hitime5.com/skin/css/*.js
@@ -3335,7 +3335,6 @@
 ||instagram.com/api/v*/injected_story_units/
 ||instant-gaming.com/affgames/
 ||instant-gaming.com/api/banner/partner/loader.js
-||instapeep.com/static/ads.js
 ||inszu.com/js/qian/
 ||internationalsexguide.nl/banners/
 ||intporn.com/js/siropu/
@@ -4260,7 +4259,6 @@
 ||onlinemschool.com/pictures/stb.png
 ||onnetwork.tv/widget/
 ||onrender.com/api/ads/
-||onworks.net/images/*-small-banner*.jpg
 ||onx8.com/theme/tange/add/
 ||onx8.com/zb_users/theme/ydgreen/style/ad/
 ||oodcd.cn/pan/config/ad.json
@@ -4611,7 +4609,6 @@
 ||rainpat.com/scripts/jquery.superslide.
 ||rakuya.com.tw/position?task=
 ||randalls.com/abs/pub/xapi/search/sponsored-carousel?
-||rapidgator.net/images/pics/510_468%d1%8560_1.gif
 ||rarbt.cc/js/index960_
 ||rat.xxx/blsrv/
 ||ratedxbiz.com/d/
@@ -4653,7 +4650,6 @@
 ||rfidworld.com.cn/js/rfidexec.js
 ||rfidworld.com.cn/notice/home
 ||riaway.com/statics/idea.jpg
-||ridomovies.*/js/plib/
 ||rigengjihua.cn/banner/
 ||right.com.cn/forum/static/image/common/logo
 ||right.com.cn/forum/static/image/common/logo*.gif
@@ -5395,8 +5391,6 @@
 ||wdff.buzz/hengf.
 ||we560.com/js/*.js
 ||weathercn.com/m_mobile/ad_image/
-||webapi.*/v1/seo_inter_network
-||webapi.*/v1/seo_trending
 ||webapi.dantri.com.vn/bn/list-pos
 ||webcamtests.com/myshowroom/view.php
 ||webconf.douyucdn.cn/resource/common/giftphotos_w.json
