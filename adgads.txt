@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-06-29 03:38:09 UTC
-! Total Rules: 5832
+! Last Updated: 2026-06-29 15:42:28 UTC
+! Total Rules: 5835
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -848,8 +848,6 @@
 ||241hs.com/js/jquery.js
 ||249999.xyz^*.gif
 ||24cmm.com:8888/js
-||24live.com/api/ads
-||24live.com/api/banners
 ||2500sz.com/site/
 ||250sy.cc/gg/
 ||256856.com/fei-ad/
@@ -1895,6 +1893,7 @@
 ||bug.hr/ads/
 ||bumimi.com/money/
 ||buy.sina.com.tw/js/sina_popup.php
+||buzzer.xhamster*
 ||bvlang.com/ad/
 ||bw66.cn/template/default_pc/bbs/
 ||bxw666.com/storage/*.gif
@@ -3664,6 +3663,8 @@
 ||kelehut.cc/js/m.
 ||kewaishu.org/m-
 ||key8.com/cache/www/banner_
+||keyforsteam.de/wp-admin/admin-ajax.php?action=background_get_campaigns
+||keyforsteam.de/wp-content/plugins/aks-background/assets/static/campaigns*.js
 ||keywin.org/templates/kw_v2/images/youbianad.png
 ||kiees.cn/img/
 ||kiees.cn/jm.png
@@ -3923,6 +3924,7 @@
 ||macys.com/sitemonetization/v1/sponsored-products/
 ||madnessporn.com/mad/
 ||magedu.com/wp-content/uploads/*/xwzx
+||magesy.net/juan.js
 ||mahoupao.com/api.php?mod=ad&
 ||mahua.com/www/default/js/mahua_show.js
 ||mahua.com/www/default/js/replace_ab.js
@@ -4366,6 +4368,7 @@
 ||pharmnet.com.cn/js/float_div.js
 ||phb123.com/skin/js/tongji.js
 ||phbkm.com/js/
+||phncdn.com/*/pics/skins/
 ||photos18.com/images/friend/
 ||php.cn/ad1.
 ||php.cn/hezuo/
@@ -4433,7 +4436,6 @@
 ||porngamespass.com/iframes/
 ||pornhd3x.tv/cms_data/sites/admin/files/ads
 ||pornhub.*/_xa/ads
-||pornid.xxx/vager/
 ||pornlib.com/player_*_ads
 ||pornohans.net/*==/
 ||pornone.com/js/combined.js
@@ -5454,6 +5456,7 @@
 ||wowfan.net/static/js/index.
 ||woyaoq.com/201904100958_5cad4dbac9c5f.png
 ||wpdaxue.com/img/*/txy-
+||wpengine.com/wp-json/api/advanced_placement/api-in-article-ad/
 ||wples.com/pc/common.js
 ||ws.kora-api.top/api/ads
 ||wsimg.com/parking-lander/

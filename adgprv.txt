@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-06-29 03:38:09 UTC
-! Total Rules: 11331
+! Last Updated: 2026-06-29 15:42:28 UTC
+! Total Rules: 11339
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -3821,6 +3821,7 @@
 ||app-api.vidjet.io/track-event
 ||app-bnkr.b-cdn.net/js/lv.js
 ||app-de-na1.niceincontact.com/logger-public
+||app-web-server.imagen-ai-op.com/analytics/
 ||app.abralytics.com/assets/tracker/index.js
 ||app.airlift.net/assets/affpix.js
 ||app.avada.io/scripttag/tracking/avada-track.min.js
@@ -6481,6 +6482,7 @@
 ||heyday.io/idx/
 ||heyflow.co/pixel/
 ||hh.ru/anatskytics?
+||hh.ru/shards/banner_real_view_analytics
 ||hh.ru/shards/stat
 ||hh.ru/stat?
 ||hh.ru/stat?url=
@@ -6637,6 +6639,7 @@
 ||i.computer-bild.de/i/ab/*.gif?r
 ||i.computer-bild.de/i/blind.gif
 ||i.eight.sl/track/
+||i.hh.ru/js/external/targetads_websdk.js
 ||i.jsrdn.com/i/1.gif?
 ||i.milliyet.com.tr/d/j/molatik/googleanalit.js
 ||i.posthog.com/*/?ip=
@@ -7068,6 +7071,7 @@
 ||kentaku.co.jp/js/gtm.js
 ||kerastase-usa.com/iz/pxxiuo7qtj/init.js
 ||kerch.fm/templates/fm/js/analytic.js
+||keyforsteam.de/analytics/script.js
 ||kfzteile24.de/*_tracking.js
 ||kget.com/cvbtpurj/init.js
 ||kgnews.co.kr/weblog/gtracker.
@@ -7856,6 +7860,7 @@
 ||mysdcc.sdccd.edu^*/.log/
 ||mysexgames.com/statstracker.php
 ||myshopify.com/api/collect
+||myshows.me/v3/rpc/stat/
 ||mysociety.org/track/
 ||myspace.com/beacon/
 ||mytoys.ru/ka_z.jpg?
@@ -8384,6 +8389,7 @@
 ||pg.totaaltv.nl/api/metrics
 ||philo.com/evr/in/adimp?enc=
 ||phlic.top/log/
+||phncdn.com/www-static/js/lib/user-clogs.js
 ||phoenix.de/php/mediaplayer/conf/tracking_
 ||phonearena.com/_track.php
 ||phoneclaim.com/api/*/logger/
@@ -8439,6 +8445,7 @@
 ||plantet.pl/products/ping/
 ||platform-eu.cloud.coveo.com/rest/*/analytics/view?
 ||platform.datazoom.io/beacon/
+||platform.grcv.io/json/rum
 ||platform.loyaltylion.com/analytics/
 ||platform.twitter.com/impressions.js
 ||plausible.cgmagonline.com/api/event|
@@ -8529,6 +8536,7 @@
 ||pornbox.com/stats/
 ||porneq.com/lib/ajax/track.php
 ||pornhd.com/pinky.gif
+||pornhub.com/_i?
 ||pornhub.com/js/eht.js
 ||pornhub.com/pix.php?s=
 ||pornhublive.com/api/metrics

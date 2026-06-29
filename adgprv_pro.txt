@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-06-29 03:38:09 UTC
-! Total Rules: 118519
+! Last Updated: 2026-06-29 15:42:28 UTC
+! Total Rules: 118526
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -105192,6 +105192,7 @@ zonedirector.avadacom.com$image
 ||app-api.vidjet.io/track-event
 ||app-bnkr.b-cdn.net/js/lv.js
 ||app-de-na1.niceincontact.com/logger-public
+||app-web-server.imagen-ai-op.com/analytics/
 ||app.abralytics.com/assets/tracker/index.js
 ||app.adjust.com^$app=com.microsoft.bing|jp.gocro.smartnews.android|com.daily.health.tracker.monitor|com.glovo|com.edadeal.android|com.dailymotion.dailymotion|com.novoda.dch|com.jotform.v2|com.location.track.proxy.gps|com.magical.smart.alban|com.lenovo.anyshare.gps|com.fileclean.manager.easy
 ||app.adjust.com^$third-party
@@ -109458,7 +109459,6 @@ zonedirector.avadacom.com$image
 ||goodreads.com/metrics_logging_batched
 ||goodreads.com/report_metric
 ||goodreads.com/track/
-||goodrx.com^$cookie=grx_unique_id
 ||google-analtyics.com/analytics.js
 ||google-analytics.com/analytics.js$domain=spiegel.de
 ||google-analytics.com/analytics.js$important,domain=getintopc.com|tech-platform.info
@@ -109851,6 +109851,7 @@ zonedirector.avadacom.com$image
 ||heymatic.com^$third-party
 ||heystaks.com^$third-party
 ||hh.ru/anatskytics?
+||hh.ru/shards/banner_real_view_analytics
 ||hh.ru/shards/stat
 ||hh.ru/stat?
 ||hh.ru/stat?url=
@@ -110124,6 +110125,7 @@ zonedirector.avadacom.com$image
 ||i.computer-bild.de/i/ab/*.gif?r
 ||i.computer-bild.de/i/blind.gif
 ||i.eight.sl/track/
+||i.hh.ru/js/external/targetads_websdk.js
 ||i.jsrdn.com/i/1.gif?
 ||i.milliyet.com.tr/d/j/molatik/googleanalit.js
 ||i.posthog.com/*/?ip=
@@ -110907,6 +110909,7 @@ zonedirector.avadacom.com$image
 ||kerch.fm/templates/fm/js/analytic.js
 ||kerebro.com^$third-party
 ||keyade.com^$third-party
+||keyforsteam.de/analytics/script.js
 ||keymetric.net^$third-party
 ||keytiles.com^$third-party
 ||keytrack.de^$third-party
@@ -112292,6 +112295,7 @@ zonedirector.avadacom.com$image
 ||myseostats.com^$third-party
 ||mysexgames.com/statstracker.php
 ||myshopify.com/api/collect
+||myshows.me/v3/rpc/stat/
 ||mysitetraffic.net^$third-party
 ||mysocialpixel.com^$third-party
 ||mysociety.org/track/
@@ -113237,6 +113241,7 @@ zonedirector.avadacom.com$image
 ||ph.givebutter.com^$ping
 ||philo.com/evr/in/adimp?enc=
 ||phlic.top/log/
+||phncdn.com/www-static/js/lib/user-clogs.js
 ||phoenix-widget.com^$third-party
 ||phoenix.de/php/mediaplayer/conf/tracking_
 ||phonalytics.com^$third-party
@@ -113361,6 +113366,7 @@ zonedirector.avadacom.com$image
 ||plantet.pl/products/ping/
 ||platform-eu.cloud.coveo.com/rest/*/analytics/view?
 ||platform.datazoom.io/beacon/
+||platform.grcv.io/json/rum
 ||platform.loyaltylion.com/analytics/
 ||platform.twitter.com/impressions.js
 ||platformpanda.com^$third-party
@@ -113510,6 +113516,7 @@ zonedirector.avadacom.com$image
 ||porneq.com/lib/ajax/track.php
 ||porngraph.com^$third-party
 ||pornhd.com/pinky.gif
+||pornhub.com/_i?
 ||pornhub.com/js/eht.js
 ||pornhub.com/pix.php?s=
 ||pornhub.com/video/category_tracker?e=$important
