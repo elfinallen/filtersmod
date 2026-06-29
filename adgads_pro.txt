@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-06-28 13:40:59 UTC
-! Total Rules: 34365
+! Last Updated: 2026-06-29 03:38:09 UTC
+! Total Rules: 34358
 ! Expires: 5 days
 $$div[style="display: none !important;"]:contains(!function(){function a(a){var _idx=)
 $$div[style="display: none !important;"]:contains('ed2k://)
@@ -376,6 +376,7 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 .icu/*?ssid=_$third-party
 .icu/ads/
 .in/js/ads/
+.in/js/footer_ad.js
 .info/ad.js
 .info/ad/
 .info/js/ads/
@@ -776,6 +777,7 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 /aclib.js^$script
 /acmsd/*$script
 /ad-blocking-advisor/*$script,stylesheet
+/ad-blocking-detector/assets/js/adblock-detector.min.js
 /ad-choices-$image
 /ad-choices.png$image
 /ad-provider.
@@ -812,7 +814,6 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 /adblock-detect.$script
 /adblock_detector2.$script
 /adblock_logger.$script
-/adblockdetect.js$script
 /adblockdetector/*$script
 /adblocker.js$domain=hindimearticles.net|solution-hub.com
 /adcg/*
@@ -849,7 +850,6 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 /adr/*/*.webp$~third-party,image,domain=odmiana.net|dowcip.net|antonim.net|krzyzowka.net|synonim.net|zagadkidladzieci.net
 /adrecover.js$script
 /adright.$~xmlhttprequest,domain=~aaahaltontaxi.ca|~adright.com
-/ads-async.$script
 /ads-blocking-detector.$script
 /ads-common.$image,script
 /ads-front.min.js$script
@@ -895,7 +895,6 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 /adscontroller.js$script
 /adscpc/*
 /adscroll.js$script
-/adserv.$script
 /adserve/*$popup
 /adserve/*$script
 /adserver.$~stylesheet,~xmlhttprequest,domain=~konograma.com
@@ -1001,7 +1000,6 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 /apps/misc.php?action=advert&
 /apstag.js$script
 /apu.php?$script
-/arcads.js$script
 /as/d/*.js$~third-party,domain=137.175.73.220
 /aser_$domain=9gui.net|miejw.com
 /ashow.aspx?aid=
@@ -1113,7 +1111,6 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 /clys.js?2020
 /cm-pop-up-banners-
 /cms-gg.js
-/cms_ads.js$script
 /cnki/js/addetail1124.js
 /code/cpc.asp?
 /code/cpm.asp?
@@ -1131,7 +1128,6 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 /conch/asset/js/atop.js
 /conch/asset/js/open-vb.
 /content*(com?
-/content-ads.js$script
 /content.php?id=148&type=g|$xmlhttprequest
 /content/ads/*$~xmlhttprequest
 /content/clyscontent.js
@@ -1196,7 +1192,6 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 /dm78ad/*
 /dmcads_$script
 /dngz.net\/g\d+.js/$domain=dngz.net
-/doubleclick.min$script
 /doubleserve.js$badfilter
 /download-link-js/?v=$script,~third-party
 /downloads/nmgg.mp4
@@ -1254,7 +1249,6 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 /flr.js$domain=8boobs.com|angelgals.com|babesinporn.com|fooxybabes.com|hotbabeswanted.com|hotstunners.com|mainbabes.com|nakedbabes.club|pleasuregirl.net|rabbitsfun.com|silkengirl.com|silkengirl.net
 /fn666/shouye.php
 /fontyukle.net\/js\/\w+.js/$domain=fontyukle.net
-/footer_ad.js$script,domain=~streamruby.com
 /fourapi/api/data/money?date=$xmlhttprequest
 /frame.php$domain=imgadult.com|imgdrive.net|imgtaxi.com|imgwallet.com
 /fret/meow4/*$script,third-party
@@ -1437,7 +1431,6 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 /js/aa.htm$script
 /js/aahome.htm
 /js/ad.js$domain=69shuba.com
-/js/ad_common.js$script
 /js/ad_tv.js
 /js/ads/*0.js
 /js/ads/*2.js
@@ -1467,6 +1460,7 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 /js/cpv_dl.js
 /js/cpv_fm_
 /js/dfp.js$script
+/js/doubleclick.min.js?v=
 /js/dyguosj/*
 /js/easyad.js
 /js/easyad2.js
@@ -1899,7 +1893,6 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 /static/js/pop_promotion.js?v=
 /statics/recommend/bense.gif
 /stickyad.js$script
-/stickyads.js$script
 /stui_ads/xyz456e/*
 /stuia004/statics/asd/*
 /submit.min.js?abvar=$all
@@ -2000,6 +1993,7 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 /vast.php?idzone=$xmlhttprequest
 /vast/?zid=
 /vbvb_*_pmpm.js
+/vendor/doubleclick.min.js
 /vendors~ads.
 /video_ads.$script
 /videoad.$~xmlhttprequest,domain=~videoad.in
@@ -2347,9 +2341,6 @@ $xmlhttprequest,third-party,redirect-rule=noopjs,domain=bizjournals.com
 115cdn.com##a[href="https://vip.115.com/"] > img
 11alive.com,12news.com,12newsnow.com,13newsnow.com,13wmaz.com,5newsonline.com,9news.com,abc10.com,abovethelaw.com,adelaidenow.com.au,adtmag.com,aero-news.net,airportia.com,aiscoop.com,al.com,americanprofile.com,ans.org,appleinsider.com,arazu.io,architecturaldigest.com,arstechnica.com,as.com,asianwiki.com,askmen.com,associationsnow.com,attheraces.com,autoevolution.com,autoguide.com,automation.com,autotrader.com.au,bab.la,barchart.com,bdnews24.com,beinsports.com,biometricupdate.com,boats.com,bobvila.com,booksourcemagazine.com,bostonglobe.com,bradleybraves.com,briskoda.net,btimesonline.com,businessdailyafrica.com,businessinsider.com,businesstech.co.za,businessworld.in,c21media.net,carcomplaints.com,cbc.ca,cbs19.tv,celebdigs.com,celebified.com,ch-aviation.com,chargedevs.com,chemistryworld.com,cknxnewstoday.ca,cleveland.com,cnn.com,colourlovers.com,computerhope.com,couriermail.com.au,cracked.com,createtv.com,crn.com,crossmap.com,crosswalk.com,cyberscoop.com,dailycaller.com,dailylobo.com,dailyparent.com,dailytarheel.com,dcist.com,dealnews.com,defenseone.com,defensescoop.com,discordbotlist.com,downdetector.co.nz,downdetector.co.uk,downdetector.co.za,downdetector.com,downdetector.in,downdetector.sg,dpreview.com,driving.ca,dynamicwallpaper.club,earlygame.com,edmontonjournal.com,edscoop.com,elpais.com,emoji.gg,eurosport.com,excellence-mag.com,familydoctor.org,fanpop.com,fedscoop.com,femalefirst.co.uk,filehippo.com,filerox.com,finance.yahoo.com,firstcoastnews.com,flightglobal.com,flowermanga.net,fox6now.com,foxbusiness.com,foxnews.com,funeraltimes.com,gamepressure.com,gamesadshopper.com,gayvegas.com,geelongadvertiser.com.au,gmanetwork.com,go.com,godtube.com,golfweather.com,greasyfork.org,gtplanet.net,heraldnet.com,heraldsun.com.au,hodinkee.com,homebeautiful.com.au,hoodline.com,huckmag.com,indiatvnews.com,infobyip.com,inhabitat.com,interfax.com.ua,joc.com,jscompress.com,kagstv.com,kanogoma.com,kare11.com,kcentv.com,kens5.com,kgw.com,khou.com,kiiitv.com,king5.com,kpopstarz.com,krem.com,ksdk.com,ktvb.com,kvue.com,lagom.nl,leaderpost.com,leaf.tv,lehighvalleylive.com,letsgodigital.org,lifezette.com,liga.net,lonestarlive.com,looktothestars.org,m.famousfix.com,mangarockteam.com,marieclaire.com.au,marketwatch.com,masslive.com,maxpreps.com,mcpmag.com,mlb.com,mlive.com,modernretail.co,monkeytype.com,motherjones.com,mprnews.org,mybroadband.co.za,myfox8.com,myfoxzone.com,mygaming.co.za,myrecipes.com,namibtimes.net,nejm.org,neowin.net,newbeauty.com,news.com.au,news.sky.com,newscentermaine.com,newsday.com,newstatesman.com,newsweek.com,newyorkupstate.com,nj.com,nowtolove.co.nz,nowtolove.com.au,nst.com.my,nymag.com,nytimes.com,nzherald.co.nz,oregonlive.com,patch.com,patheos.com,pcgamebenchmark.com,pcgamesn.com,pennlive.com,petfinder.com,pharmaceutical-journal.com,picmix.com,pitchfork.com,planelogger.com,playsnake.org,playtictactoe.org,pokertube.com,politico.com,politico.eu,powernationtv.com,pressgazette.co.uk,proremodeler.com,quackit.com,ranker.com,ratemds.com,ratemyprofessors.com,redmondmag.com,refinery29.com,revolver.news,roadsideamerica.com,salisburypost.com,scholarlykitchen.sspnet.org,scworld.com,seattletimes.com,segmentnext.com,silive.com,simpledesktops.com,slippedisc.com,sltrib.com,smartcompany.com.au,softpedia.com,soranews24.com,spryliving.com,statenews.com,statescoop.com,statscrop.com,straight.com,streetinsider.com,stv.tv,syracuse.com,the-decoder.com,thecut.com,thedigitalfix.com,thedp.com,theeastafrican.co.ke,thefader.com,thefirearmblog.com,thegrocer.co.uk,them.us,themercury.com.au,theringreport.com,thestarphoenix.com,thv11.com,time.com,timeshighereducation.com,tntsports.co.uk,today.com,toonado.com,townhall.com,tracker.gg,tribalfootball.com,triblive.com,tripadvisor.*,tweaktown.com,ultimatespecs.com,ultiworld.com,untappedcities.com,uptodown.com,usmagazine.com,usnews.com,vancouversun.com,vogue.in,vulture.com,wamu.org,washingtonexaminer.com,washingtontimes.com,watzatsong.com,wbir.com,wcnc.com,wdhafm.com,weatheronline.co.uk,webestools.com,webmd.com,weeklytimesnow.com.au,wfaa.com,wfmynews2.com,wgntv.com,wgrz.com,whas11.com,who.com.au,windsorstar.com,winnipegfreepress.com,wkyc.com,wltx.com,wnep.com,worthplaying.com,wqad.com,wral.com,wrif.com,wtsp.com,wusa9.com,wwltv.com,wyff4.com,wzzm13.com,x17online.com,xatakaon.com,yorkpress.co.uk##.ad
 120ask.com##.b_right > div[style]
-123-bt.cn###mianze_fixed
-123-bt.cn###mianze_mask
-123-bt.cn##.sd
 123-hd.com###banner_top
 123.chinaso.com##.right-list6
 123.com.cn##.img-banner
@@ -13165,6 +13156,7 @@ index.hr##div.js-carousel-campaign
 index.hr#%#(()=>{const e={apply:(e,t,o)=>{try{o[0].src?.includes?.("html-load.com")&&(o[0]=document.createelement("script"))}catch(e){}return reflect.apply(e,t,o)}};window.node.prototype.insertbefore=new proxy(window.node.prototype.insertbefore,e)})();
 index.hr#?#.categories > div.cube-holder:has(> div[data-css-class="google-box center-aligner"])
 index.hr,thingiverse.com,programme-tv.net#%#//scriptlet('set-constant', 'as_retry', '0')
+indexclix.com##[id^="promo"]
 indexsubtitle.cc#%#//scriptlet('abort-current-inline-script', 'document.onreadystatechange', '{return _0x')
 indexsubtitle.cc#%#//scriptlet('abort-current-inline-script', 'eventtarget.prototype.addeventlistener', 'adsbygoogle.js')
 indexsubtitle.cc#%#//scriptlet('prevent-settimeout', '/-0x|window\.__/')
@@ -15494,7 +15486,6 @@ m.lelekan.com#$#body { padding-top: 0!important; }
 m.lwxs.com#%#//scriptlet('abort-current-inline-script', 'document.write', '_0x')
 m.lwxs.com#%#//scriptlet('abort-current-inline-script', 'eval', '_0x')
 m.mobile01.com##.u-gapnextv--lg.u-height280
-m.motonet.fi#@#.productad
 m.moyareklama.ru#@#.single_ad
 m.mydrivers.com###content > .ab
 m.mydrivers.com###content > .bb
@@ -22044,6 +22035,7 @@ startmag.it#%#//scriptlet('abort-on-property-read', 'wpsite_clickable_data')
 startpage.com#%#//scriptlet('spoof-css', '.ad.a-bg', 'display', 'block')
 startpage.com#%#//scriptlet('trusted-set-constant', 's1pxyadstag', '"01234567890123456789"')
 startpage.com,startpagel6srwcjlue4zgq3zevrujfaow726kjytqbbjyrswwmjzcqd.onion##.a-bg-result
+startpage.com,startpagel6srwcjlue4zgq3zevrujfaow726kjytqbbjyrswwmjzcqd.onion##a[href^="https://ww44.affinity.net/"]
 startribune.com###highimpactad
 startribune.com##[class*="htlad-"]
 startribune.com##div[data-testid$="-ad"]
@@ -30548,6 +30540,7 @@ zzzyk.com###tinfo
 ||in.com/common/script_catch.js
 ||increaserev.com^$third-party
 ||independent.co.uk/_build/main.*.js$replace=/(checkadblocker[\s\s]*?:..=).\.sent/\$1true/
+||indexclix.com/js/cpmbanners.js
 ||indexhu.adocean.pl/*ad.json$xmlhttprequest,redirect=nooptext,domain=embed.indavideo.hu
 ||indianexpress.com/wp-content/themes/indianexpress/js/min/in_article_ad.js
 ||indiatimes.com/lgads_

@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-06-28 13:40:59 UTC
-! Total Rules: 5828
+! Last Updated: 2026-06-29 03:38:09 UTC
+! Total Rules: 5832
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -11,6 +11,7 @@
 /ab_my/pc_pf.js
 /ab_res/m/common.js
 /ab_res/pc/fixed/fixed.js
+/ad-blocking-detector/assets/js/adblock-detector.min.js
 /ad-provider.
 /ad2v1.1.js
 /ad?count=
@@ -317,6 +318,7 @@
 /js/cpc_i.js
 /js/cpv_dl.js
 /js/cpv_fm_
+/js/doubleclick.min.js?v=
 /js/dyguosj/*
 /js/easyad.js
 /js/easyad2.js
@@ -582,6 +584,7 @@
 /vast.php?*&tags=exoxvideostargetting
 /vast/?zid=
 /vbvb_*_pmpm.js
+/vendor/doubleclick.min.js
 /vendors~ads.
 /videojs/video-conrtib-ads.js
 /view/image/ngps1.gif
@@ -3322,6 +3325,7 @@
 ||imooc.com/open/courselistrandjs
 ||imparteconocimientos.com/recursos/anti-adblocker.js
 ||in.com/common/script_catch.js
+||indexclix.com/js/cpmbanners.js
 ||indianexpress.com/wp-content/themes/indianexpress/js/min/in_article_ad.js
 ||indiatimes.com/lgads_
 ||indiatimes.com/manageads/
