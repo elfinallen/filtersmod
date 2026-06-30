@@ -1,8 +1,8 @@
 ! Title: AdGuard Domain
 ! Description: DNS Filter composed of other filters (AdGuard DNS & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-06-30 03:26:08 UTC
-! Total Rules: 32176
+! Last Updated: 2026-06-30 14:13:07 UTC
+! Total Rules: 32200
 ! Expires: 5 days
 ||adacado.com^
 ||adactioner.com^
@@ -53,6 +53,7 @@
 ||adblock-360.com^
 ||adblock-guru.com^
 ||adblock-zen.com^
+||adblock.sina.cn^
 ||adblockermax.com^
 ||adblockeromega.com^
 ||adblockerprofessional.com^
@@ -2218,6 +2219,7 @@
 ||bafem.juiceplus.com^
 ||bafircvoj.com^
 ||bafpfsxcio.com^
+||bafvhdnsctdd.com^
 ||bag.emberpurse.com^
 ||bagbeam.com^
 ||baggageconservationcaught.com^
@@ -3329,6 +3331,7 @@
 ||boycottcelebrityheirloom.com^
 ||boyerulans.com^
 ||boyunakylie.com^
+||bpahyyjwjwcd.com^
 ||bpaoj.jettylife.com^
 ||bpb.bikalpabazar.com^
 ||bpeauv.blingjewelry.com^
@@ -3559,6 +3562,7 @@
 ||bsptz.shopthemint.com^
 ||bst.chainacart.com^
 ||bst.primebazaarbd.com^
+||bstrvqdwuytk.com^
 ||bstyjo.reelflyrod.com^
 ||bszss.tylerchildersmusic.com^
 ||btagmedia.com^
@@ -7231,6 +7235,7 @@
 ||dsqcfy.com^
 ||dsqdbi.com^
 ||dsqgyn.com^
+||dsqjkc.com^
 ||dsqnnx.com^
 ||dsqpog.com^
 ||dsqvcm.com^
@@ -7796,6 +7801,7 @@
 ||ejrbgi.tous.com^
 ||ejrls.celebrations.com^
 ||ejunshi.com^
+||ejxfetghjdmm.com^
 ||ekamsply.com^
 ||ekclickei.ekclickei.com^
 ||ekcnyrabadtq.com^
@@ -9957,6 +9963,7 @@
 ||fvcwqkkqmuv.com^
 ||fvdm.le-petit-hotel.com^
 ||fvfcf.bugmd.com^
+||fvmfdzpwbm.com^
 ||fvmpm.fromrebel.com^
 ||fvmw.maggieoakes.com^
 ||fvpvietnam.com^
@@ -12560,6 +12567,7 @@
 ||ikaot.wisdomofthewombonline.com^
 ||ikbqsd.lachambreparis.com^
 ||ikcor.orukayak.com^
+||ikhgxaeobmbb.com^
 ||ikibg.sleefs.com^
 ||ikiif.com^
 ||ikkms.blkandbold.com^
@@ -14519,6 +14527,7 @@
 ||kqpol.heroesvillains.com^
 ||kqxrw.newenglishteas.com^
 ||kqzbph.zerohedge.com^
+||kqzyfj.com^
 ||kraaloomiacs.com^
 ||krankenwagenmotor.com^
 ||krbulhb.com^
@@ -15023,6 +15032,7 @@
 ||lfemz.campsaver.com^
 ||lfercl.tcb-beauty.net^
 ||lfew.cn^
+||lfezjmxldv.com^
 ||lfhpe.planttherapy.com^
 ||lfkesv.seeplaces.com^
 ||lfmhcb.sefamerve.com^
@@ -15215,6 +15225,7 @@
 ||lists-tracking.komando.com^
 ||lists.ccmbg.com^
 ||lit.connatix.com^
+||litags.feedblitz.com^
 ||litebeach.com^
 ||literacyfigured.com^
 ||literallycircumscribetome.com^
@@ -17372,6 +17383,7 @@
 ||muhttw.spotlightstores.com^
 ||muigejwkogwuxb.com^
 ||mujjb.babor.com^
+||mukevdrs.com^
 ||mukkoiigam.com^
 ||mulchimbiber.com^
 ||mule.caddyserver.com^
@@ -20578,6 +20590,7 @@
 ||politeplanes.com^
 ||political-effort.com^
 ||politicalfill.com^
+||politicallygreek.com^
 ||politicallyhoistawesome.com^
 ||politicalpiano.com^
 ||politicalplanets.com^
@@ -21718,6 +21731,7 @@
 ||qnokjaheaegr.com^
 ||qnqdpy.edreams.net^
 ||qnqvm.nohohomehawaii.com^
+||qnsioinigkdgnal.com^
 ||qnsr.com^
 ||qnuyqu.ubierzsie.com^
 ||qnuzwe.nomanwalksalone.com^
@@ -25339,6 +25353,7 @@
 ||spcode.baidu.com^
 ||spdate.com^
 ||spdcdnmpg.com^
+||spea.eko.com^
 ||speakclash.com^
 ||speaker.paco-benitez.com^
 ||speakmalthe.com^
@@ -26617,6 +26632,7 @@
 ||tbaqje.zadig-et-voltaire.com^
 ||tbbvb.lyleandscott.com^
 ||tbbzc.trtltravel.com^
+||tbcwxfln.com^
 ||tbihvt.pickawood.com^
 ||tbilz.juiceplus.com^
 ||tbiwtech.com^
@@ -27249,6 +27265,7 @@
 ||tkmedia-cache.aotter.net^
 ||tkmedia.aotter.net^
 ||tkmftc.aotter.net^
+||tkpenntaispfdm.com^
 ||tkpopp.com^
 ||tkportal.aotter.net^
 ||tkrecorder.aotter.net^
@@ -27312,6 +27329,7 @@
 ||tmvtp.com^
 ||tmwheidhghdphay.com^
 ||tmz.vo.llnwd.net^
+||tmztsogzhbbwg.com^
 ||tnbjek.indekskitap.com^
 ||tnc*.tiktokv.com^
 ||tnc*.zijieapi.com^
@@ -28300,6 +28318,7 @@
 ||uftis.vitaminshoppe.com^
 ||uftokromta.com^
 ||ufuhdpxhmsiwqi.com^
+||ufurlokhqd.com^
 ||ufuspv.nucific.com^
 ||ufwsfi.magasins-u.com^
 ||ufxs.cn^
@@ -28754,6 +28773,7 @@
 ||upgradeyoga.com^
 ||upholdbrilliancerecast.com^
 ||upiykoefg.com^
+||upjmnvnvb.com^
 ||uplift-platform.com^
 ||upliftsearch.com^
 ||uplog.inews.qq.com^
@@ -29856,6 +29876,7 @@
 ||vxydbok.com^
 ||vyanda.bonparfumeur.com^
 ||vyblc.houseofswim.com^
+||vycfhdxoxrmxskl.com^
 ||vyczp.cn^
 ||vyecpfypnwu.net^
 ||vyis.net^
@@ -30982,6 +31003,7 @@
 ||xcowuheclvwryh.com^
 ||xcultur.com^
 ||xcvfqnxr.net^
+||xcwpapxg.com^
 ||xcxmfcqehr.net^
 ||xda.xiaodutv.com^
 ||xdaoxa.footasylum.com^
@@ -31177,6 +31199,7 @@
 ||xsrs.com^
 ||xsswcg.moglix.com^
 ||xsvirldugvltc.net^
+||xswsyaoglxtbxe.com^
 ||xsyhy.cn^
 ||xszcdn.com^
 ||xtcpby.skechers.com^
@@ -31548,6 +31571,7 @@
 ||yqqhbd.yotsuyaotsuka.com^
 ||yqsu.cn^
 ||yqtwaijdussajr.com^
+||yqvfdaeufolcqmr.com^
 ||yrfnjvrlyt.com^
 ||yrnv.cn^
 ||yronesefurther.org^
