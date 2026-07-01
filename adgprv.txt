@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-06-30 14:13:07 UTC
-! Total Rules: 11344
+! Last Updated: 2026-07-01 03:33:41 UTC
+! Total Rules: 11350
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -4586,6 +4586,7 @@
 ||cdn.iol.pt/js/utils/modules/iolanalytics/dist/iol.analytics.js
 ||cdn.iterwebcms.com/*/mas-tracker-min.js
 ||cdn.iyosa.com/src/report.js
+||cdn.iz.ru/profiles/portal/themes/purple/js/statistics/custom_criteo*.js
 ||cdn.jp1media.com/js/v1/dmp.min.js
 ||cdn.jsdelivr.net/countly-sdk-web/
 ||cdn.jsdelivr.net/gh/unib0ts/
@@ -5139,6 +5140,7 @@
 ||crunchyroll.com/tracker
 ||crunchyroll.com/tracker?
 ||cs.*/pixeljs|
+||cs.rambler.ru/api/v*/events
 ||csdn.net^*/counter.js
 ||csp.godaddy.com/eventbus
 ||ctinsider.com/413gkwmt/init.js
@@ -6153,6 +6155,7 @@
 ||gayfuckporn.tv/analytics.js
 ||gaysuperman.com/analytics.js
 ||gazeta-unp.ru/viewcounter/increment
+||gazeta.ru/atlas/metrics/
 ||gazetevatan.com/d/j/analytics.min.js
 ||gazetkapromocyjna.com.pl/api/track
 ||gazisoft.com/alexa/
@@ -7960,6 +7963,7 @@
 ||news.com.au/tracking/
 ||news.de/empty.txt
 ||news.de/track.php
+||news.gnezdo2.ru/gnezdo_news_tracker_new.js
 ||news.google.com/_/v
 ||news.kbs.co.kr/js/common/generatepageeventid.js
 ||news.nate.com/js/today/useragent
@@ -9719,6 +9723,7 @@
 ||static.funshion.com/*/common/log/
 ||static.gala.games/gal/fp/loader_v*.js
 ||static.gazeta.pl/info/http/xgemius-min.jsgz
+||static.gazeta.ru/nm*/js/block_counter_v*.js
 ||static.gazeta.ru/nm2021/js/block_counter.
 ||static.hankyung.com/js/ga/googletagmanager.js
 ||static.hepsiburada.net/scripts/webtrekk*.js
@@ -9829,6 +9834,7 @@
 ||stockanalysis.com/cfa/
 ||stockx.com/16ud0kof/init.js
 ||stol.it/pcookie?
+||storage.eko.com/efu/ekoanalytics/
 ||storage.googleapis.com/afs-prod/tags
 ||storage.googleapis.com/builder-preview/iframe/pixel.js
 ||storage.googleapis.com/cdn2.guard.io/webflow/tracking-grd.js

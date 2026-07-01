@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-06-30 14:13:07 UTC
-! Total Rules: 118538
+! Last Updated: 2026-07-01 03:33:41 UTC
+! Total Rules: 118543
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -104273,7 +104273,6 @@ zonedirector.avadacom.com$image
 ||acuityplatform.com^$third-party
 ||acuris.com/wat/v2/data-event
 ||acustomizedgift.com^$redirect=noopjs,script
-||acustomizedgift.com^$script,redirect=noopjs
 ||acustomizedgift.com^$~xmlhttprequest
 ||acweb.clog.jp^$third-party
 ||acxiom-online.com^$third-party
@@ -106458,6 +106457,7 @@ zonedirector.avadacom.com$image
 ||cdn.iol.pt/js/utils/modules/iolanalytics/dist/iol.analytics.js
 ||cdn.iterwebcms.com/*/mas-tracker-min.js
 ||cdn.iyosa.com/src/report.js
+||cdn.iz.ru/profiles/portal/themes/purple/js/statistics/custom_criteo*.js
 ||cdn.jp1media.com/js/v1/dmp.min.js
 ||cdn.jsdelivr.net/countly-sdk-web/
 ||cdn.jsdelivr.net/gh/bmhtech07/adtorch/js/collect.min.js$script,domain=propanefitness.com
@@ -107411,6 +107411,7 @@ zonedirector.avadacom.com$image
 ||cryptobara.com^$third-party
 ||cryptonoter.com^$third-party
 ||cs.*/pixeljs|
+||cs.rambler.ru/api/v*/events
 ||csdata1.com^$third-party
 ||csdn.net^*/counter.js
 ||cshield.io^$third-party
@@ -109184,6 +109185,7 @@ zonedirector.avadacom.com$image
 ||gayfuckporn.tv/analytics.js
 ||gaysuperman.com/analytics.js
 ||gazeta-unp.ru/viewcounter/increment
+||gazeta.ru/atlas/metrics/
 ||gazetevatan.com/d/j/analytics.min.js
 ||gazetkapromocyjna.com.pl/api/track
 ||gazisoft.com/alexa/
@@ -112493,6 +112495,7 @@ zonedirector.avadacom.com$image
 ||news.com.au/tracking/
 ||news.de/empty.txt
 ||news.de/track.php
+||news.gnezdo2.ru/gnezdo_news_tracker_new.js
 ||news.google.com/_/v
 ||news.kbs.co.kr/js/common/generatepageeventid.js
 ||news.kbs.co.kr^$cookie=stat_weblog_token
@@ -115652,6 +115655,7 @@ zonedirector.avadacom.com$image
 ||static.funshion.com/*/common/log/
 ||static.gala.games/gal/fp/loader_v*.js
 ||static.gazeta.pl/info/http/xgemius-min.jsgz
+||static.gazeta.ru/nm*/js/block_counter_v*.js
 ||static.gazeta.ru/nm2021/js/block_counter.
 ||static.hankyung.com/js/ga/googletagmanager.js
 ||static.hepsiburada.net/scripts/webtrekk*.js
@@ -115836,6 +115840,7 @@ zonedirector.avadacom.com$image
 ||stol.it/pcookie?
 ||stonecalcom.com^$third-party
 ||stopify.co^$all
+||storage.eko.com/efu/ekoanalytics/
 ||storage.googleapis.com/afs-prod/tags
 ||storage.googleapis.com/builder-preview/iframe/pixel.js
 ||storage.googleapis.com/cdn2.guard.io/webflow/tracking-grd.js
