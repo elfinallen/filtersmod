@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-01 03:33:41 UTC
-! Total Rules: 11350
+! Last Updated: 2026-07-01 14:29:22 UTC
+! Total Rules: 11354
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -3663,6 +3663,7 @@
 ||api.elysium.opera.com/api/elysium/log_session_info
 ||api.epicgames.dev/telemetry/
 ||api.everyeye.it/endpoint/stats.php
+||api.experte.com/t/
 ||api.facebook.com/method/logging.clientevent
 ||api.fanmatics.com/event
 ||api.fboom.me/*/analytics/
@@ -4969,6 +4970,8 @@
 ||cologger.shopping.naver.com/api/*/collect/
 ||comcast.net/measurements/
 ||comeon.com/tracking.php
+||comfy.ua/api/analytics/
+||comfy.ua/api/auth/v*/gtm/
 ||comic-rocket.com/metrics.js
 ||comic.naver.com/ad/flex/stats.nhn
 ||commerce.adobe.com/*/log|
@@ -5699,6 +5702,7 @@
 ||escapistmagazine.com/*/gamurs-group-analytics/js/openweb-tracking.js
 ||esfbs.com/site/stat?
 ||esgazete.com/service/social-counter.json
+||esim.io/monitoring
 ||esmas.com/scripts/esmas_stats.js
 ||espncdn.com/*/js/espn-analytics.js
 ||espncdn.com/js/omniture/tracking.js

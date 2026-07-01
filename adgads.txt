@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-01 03:33:41 UTC
-! Total Rules: 5843
+! Last Updated: 2026-07-01 14:29:22 UTC
+! Total Rules: 5842
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -1517,7 +1517,6 @@
 ||apk-01.oss-cn-beijing.aliyuncs.com/dp/
 ||apk.tw/static/js/showpic.js
 ||app-g.39.net/nnn/
-||app.torbobit.net/api/ads/
 ||apple886.com/subs/*.js
 ||apppc.chinaz.com/statics/images/tuan
 ||apptry.easylife.tw/pub/js/common/common.js
@@ -3346,6 +3345,7 @@
 ||investing.com/jp.php
 ||iocoder.cn/alert/js/alert.js
 ||ip.sb/assets/images/*_ads.
+||ip.sb/banner.html
 ||ip138.com/banana/
 ||ip138.com/banner/
 ||ip138.com/idc/
@@ -4478,6 +4478,7 @@
 ||promote.pair.com/88x31.pl
 ||property.hk/js/adside.js
 ||proxy6.net/static/img/b/
+||prydwen.gg/api/banners/
 ||ps0z.com/300x250b
 ||ps123.net/myfile/
 ||ps557.com/link/
@@ -5003,7 +5004,6 @@
 ||stats.chinaz.com/tool_img/
 ||stay22.com/api/sponsors/
 ||steelcn.cn/img/bj_*_146_315.jpg
-||sterra.web.id/stera4/
 ||stg.truvidplayer.com/p.php
 ||stheadline.com/images/heading-jm
 ||stockstar.com/*duilian&t=
@@ -5661,7 +5661,6 @@
 ||yerecpa.cn/uploadsb/app_adv/
 ||yeshefb.com/template/conch/dd/
 ||yesky.com/s?z=
-||yesporn*.*/herebyad
 ||yespornpleasexxx.com/wp-content/litespeed/js/
 ||yeyou.com/2013/new/yeyou-float-window.js
 ||yezi.cn/_ad/

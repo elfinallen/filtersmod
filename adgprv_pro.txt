@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-01 03:33:41 UTC
-! Total Rules: 118543
+! Last Updated: 2026-07-01 14:29:22 UTC
+! Total Rules: 118547
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -105007,6 +105007,7 @@ zonedirector.avadacom.com$image
 ||api.emailprivacytester.com/callback^$third-party
 ||api.epicgames.dev/telemetry/
 ||api.everyeye.it/endpoint/stats.php
+||api.experte.com/t/
 ||api.facebook.com/method/logging.clientevent
 ||api.fanmatics.com/event
 ||api.fboom.me/*/analytics/
@@ -107059,6 +107060,8 @@ zonedirector.avadacom.com$image
 ||comagic.ru^$third-party
 ||comcast.net/measurements/
 ||comeon.com/tracking.php
+||comfy.ua/api/analytics/
+||comfy.ua/api/auth/v*/gtm/
 ||comic-rocket.com/metrics.js
 ||comic.naver.com/ad/flex/stats.nhn
 ||comitiumanalytics.com^$third-party
@@ -108405,6 +108408,7 @@ zonedirector.avadacom.com$image
 ||esearchvision.com^$third-party
 ||esfbs.com/site/stat?
 ||esgazete.com/service/social-counter.json
+||esim.io/monitoring
 ||esm1.net^$third-party
 ||esmas.com/scripts/esmas_stats.js
 ||esomniture.com^$third-party
