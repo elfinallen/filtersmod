@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-02 02:58:32 UTC
-! Total Rules: 5845
+! Last Updated: 2026-07-02 13:53:33 UTC
+! Total Rules: 5847
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -1468,6 +1468,7 @@
 ||amazonaws.com/s?z=
 ||ammcg.imgscloud.com/toy/
 ||ams.cdn.arkadiumhosted.com/advertisement/
+||anal.media/creatives/
 ||analyticsinsight.b-cdn.net/wp-content/uploads/*-300x250px
 ||androidauth.wpengine.com/wp-json/api/advanced_placement
 ||angelweb.cn/inc/angelg.js
@@ -1517,6 +1518,7 @@
 ||apk-01.oss-cn-beijing.aliyuncs.com/dp/
 ||apk.tw/static/js/showpic.js
 ||app-g.39.net/nnn/
+||app.torbobit.net/api/ads/
 ||apple886.com/subs/*.js
 ||apppc.chinaz.com/statics/images/tuan
 ||apptry.easylife.tw/pub/js/common/common.js
@@ -3044,7 +3046,6 @@
 ||helloavgirls.com/public/hg/
 ||hellogithub.com/v1/advert/
 ||hellporno.com/_a_xb/
-||helpers.publisherdesk.com/main.js
 ||henan.sina.com.cn/iframe/7/
 ||henan100.com/d/file/indexad/
 ||hentaicomic.*/data/ds/
@@ -4033,6 +4034,7 @@
 ||mil.news.sina.com.cn/iframe/109/2012/1024/photo.html
 ||mil.news.sina.com.cn/iframe/109/2013/1015/hotpic.html
 ||milffox.com/ai/
+||milffox.com/sum.js
 ||milimili.tv/js/loadjs/jquery
 ||milimili.tv/template/joeleo/*.js
 ||mima.club/tuijian/speedtest/
@@ -4144,6 +4146,7 @@
 ||mylomza.pl/static/files/inline_images/*/inline__
 ||mylust.com/*.jsx
 ||mylust.com/b/
+||mylust.com/static/js/initsite.min.js
 ||myparcels.net/images/b/
 ||myqcloud.com/ad/
 ||myqcloud.com/wp-content/uploads/huoxingyun.
@@ -4257,7 +4260,6 @@
 ||okmp3.ru/js/plears.js
 ||okokserver.com/uploads/lesi/
 ||okooo.com/i/?method=system.data.ad&
-||oldgamesdownload.com/wp-content/plugins/placement-manager/
 ||olehdtv.com/index.php/index/userss|
 ||olelive.com/v1/pub/index/anchor/check/pc/e?
 ||olgame.tw/home/attachment/
@@ -4456,7 +4458,6 @@
 ||pornx.to/wp-content/uploads/ad*x*.png
 ||pornxp.*/spnbf.js
 ||pornxp.com/2.js
-||pornzog.com/assets/inpage/banner.js
 ||portal.librus.pl/ad|
 ||postimg.cc^*-960x60.
 ||poxiao.com/template/default/images/12345.js
@@ -4790,6 +4791,7 @@
 ||sexvid.*/rrt/xd.js
 ||sexvid.*/ysla/
 ||sexvid.pro/rrt/
+||sexvid.xxx/ghjk/
 ||sexyfuckgames.com/includes/*.php
 ||sexyno1.com/mk-banner/
 ||sf2.net/a/index.
@@ -5207,7 +5209,6 @@
 ||toutiaoyule.com/n/dspshow.
 ||townnews.com/tucson.com/content/tncms/live/libraries/flex/components/ads_dfp/
 ||toyhax.com/tfwiki/banner.html
-||tporn.xxx/static/da/
 ||tptoon.com/skin/js/tjtjkk.
 ||tq121.com.cn/j/ad/
 ||tra.scds.pmdstatic.net/advertising-core/
@@ -5618,6 +5619,7 @@
 ||xvideo.cc/wefong2.js
 ||xvideos.com/zoneload/
 ||xvideos.es/zoneload/
+||xvideos.name/istripper.jpg
 ||xwcm.net/caches/ahm.
 ||xxdm.in/js/union/
 ||xxffo.com^*_slett.php

@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-02 02:58:32 UTC
-! Total Rules: 118556
+! Last Updated: 2026-07-02 13:53:33 UTC
+! Total Rules: 118560
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -9764,6 +9764,7 @@ disabled.click.s11.sfmc-osl.com$image
 discover.ferris.edu$image
 discover.hubpages.com#%#//scriptlet('adjust-settimeout', 'beacon failed', '*', '0.001')
 disqus.com#%#//scriptlet('href-sanitizer', 'a[href*="://disq.us/url?url="]', '?url')
+disqus.com#%#//scriptlet('set-cookie', 'disqus_tracking_optout', '1')
 dj.click.s11.sfmc-osl.com$image
 dlsdk.appsflyer.com^
 dlsdk.appsflyersdk.com^
@@ -106852,6 +106853,7 @@ zonedirector.avadacom.com$image
 ||clipcentric.com^$third-party
 ||clipkit.co/clipkit_assets/beacon-
 ||clipkit.de/metrics?
+||clipro.tv/v*/events
 ||clipsyndicate.com/cs_api/cliplog?
 ||clixgalore.com^$third-party
 ||clixpy.com^$third-party
@@ -109682,6 +109684,7 @@ zonedirector.avadacom.com$image
 ||groupon.com/analytic/
 ||groupon.com/api/v*/logs
 ||groupon.com/v*/datapoint
+||groupon.de/mobilenextapi/v*/logs
 ||groupon.it/tracky|
 ||groupondata.com/tracky
 ||groupondata.com/trest
@@ -114032,6 +114035,7 @@ zonedirector.avadacom.com$image
 ||rbc.ru/rightarror.gif
 ||rbc.ua/enghits/
 ||rbl.ms/res/users/tracking/
+||rbl.ms/spacer.gif?
 ||rcp.evolok.net^$third-party
 ||rcs.mako.co.il/js/neo/hpstats.js
 ||rcs.mako.co.il/js/scripts/metrics.js

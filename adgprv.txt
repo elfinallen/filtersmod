@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-02 02:58:32 UTC
-! Total Rules: 11357
+! Last Updated: 2026-07-02 13:53:33 UTC
+! Total Rules: 11360
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -4834,6 +4834,7 @@
 ||clinch.co/a_js/client_pixels/
 ||clipkit.co/clipkit_assets/beacon-
 ||clipkit.de/metrics?
+||clipro.tv/v*/events
 ||clipsyndicate.com/cs_api/cliplog?
 ||clixtell.com/track.js
 ||cloud.weborama.design/nonio.js
@@ -6384,6 +6385,7 @@
 ||groupon.com/analytic/
 ||groupon.com/api/v*/logs
 ||groupon.com/v*/datapoint
+||groupon.de/mobilenextapi/v*/logs
 ||groupon.it/tracky|
 ||groupondata.com/tracky
 ||groupondata.com/trest
@@ -8816,6 +8818,7 @@
 ||rbc.ru/rightarror.gif
 ||rbc.ua/enghits/
 ||rbl.ms/res/users/tracking/
+||rbl.ms/spacer.gif?
 ||rcs.mako.co.il/js/neo/hpstats.js
 ||rcs.mako.co.il/js/scripts/metrics.js
 ||rcsobjects.it/rcs_tracking-service/v1/distro/html/trservice.shtml
