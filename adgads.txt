@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-01 14:29:22 UTC
-! Total Rules: 5842
+! Last Updated: 2026-07-02 02:58:32 UTC
+! Total Rules: 5845
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -4501,6 +4501,7 @@
 ||pw321.com^*.gif
 ||py.cn/src/img/pyy/
 ||py.cn/static/images/advert/
+||qafqazinfo.az/public/site/js/reklam.js
 ||qayqa.com:6868/jquery/
 ||qbox.me/flnvidueio_lrxygiol0ofw0gpa7
 ||qbox.me/fnjnjjhjzlkzegj7qv1aocqusfbf
@@ -5232,6 +5233,8 @@
 ||tube.hentaistream.com/wp-includes/js/pop4.js
 ||tube8.*/_xa/ads
 ||tubeon.*/templates/base_master/js/jquery.shows2.min.js
+||tubeon.com/templates/base_master/js/jquery.ppdr2.min.js
+||tubeon.net/templates/base_master/js/jquery.ppdr2.min.js
 ||tubi.io/api/v*/ad_override?
 ||tui.gtimg.com//res/
 ||tui555.com/public/gong/js/a_

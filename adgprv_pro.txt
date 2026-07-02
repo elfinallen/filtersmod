@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-01 14:29:22 UTC
-! Total Rules: 118547
+! Last Updated: 2026-07-02 02:58:32 UTC
+! Total Rules: 118556
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -105026,6 +105026,7 @@ zonedirector.avadacom.com$image
 ||api.gleap.io/sessions/ping
 ||api.globalbunjang.com/api/log/
 ||api.goodbarber.net/statsapi/
+||api.headliner.link/api/v1/b/receive
 ||api.hisavana.com/hisavana/eventtracking/
 ||api.honeycomb.io/*/traces
 ||api.idg.zone/intextlinks-tracking/
@@ -109812,8 +109813,13 @@ zonedirector.avadacom.com$image
 ||heg-cp.com/upm/$third-party
 ||heidy.makeup^$third-party
 ||heise.de/*/webtrekk
+||heise.de/hlt/statistics/$xmlhttprequest
 ||heise.de/ivw-bin/ivw/cp/
 ||heise.de/js/ho/mbmedien-reporting.js
+||heise.de/positions|$xmlhttprequest
+||heise.de/pw/metrics/$xmlhttprequest
+||heise.de/recommendation/m/impression$xmlhttprequest
+||heise.de/recommendation/m/view$xmlhttprequest
 ||heise.de/video/video_gesehen.html?mmbid=
 ||heizoel24.de/scripts/g_tracking.js
 ||hello.myfonts.net/count/
@@ -112462,6 +112468,7 @@ zonedirector.avadacom.com$image
 ||netmng.com^$third-party
 ||netmonitor.fi^$third-party
 ||netne.net/stats/
+||netpoint-media.de^$third-party
 ||netquattro.com/stats/
 ||netratings.com^$third-party
 ||netrefer.com^$third-party
@@ -114879,6 +114886,7 @@ zonedirector.avadacom.com$image
 ||service.geico.com/insite/js/mbox2.js
 ||service.giosg.com^$cookie=gid
 ||service.giosg.com^$cookie=sgid
+||service.iz.ru/api/*/view/inc?sourceid=
 ||service.smarthint.co/track/
 ||service.webgoto.net/*?wanalytics
 ||services.account.adobe.com/log/message
@@ -116428,6 +116436,7 @@ zonedirector.avadacom.com$image
 ||themesltd.com/online-users-counter/$third-party
 ||thenextweb.com/geppetto/s.js
 ||theoplayer.com/t?
+||thepoorswiss.com/tps/cfwa-collect
 ||theporn.cc/anyalytics?
 ||thequin.ai^$third-party
 ||therealreal.com/ev56my37/init.js
