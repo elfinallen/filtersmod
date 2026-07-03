@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-02 13:53:33 UTC
-! Total Rules: 118560
+! Last Updated: 2026-07-03 02:42:36 UTC
+! Total Rules: 118564
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -103883,6 +103883,7 @@ xinshuru.com#%#//scriptlet('set-constant', 'radar_monitor.setproject', 'emptyobj
 xn--r8jwklh769h2mc880dk1o431a.com##.topbox2 > div.”smanone”
 xn--r8jwklh769h2mc880dk1o431a.com##.underbox
 xxibanorte.xxibanorte.com$image
+ya.ru#%#//scriptlet('abort-on-property-write', 'ya.clck')
 yakutia.info##.popular:has(> .js-relap-anchor)
 yappli.plus#%#(()=>{window.ga=function(){const a=arguments.length;if(0===a)return;const b=arguments[a-1];let c;b instanceof object&&null!==b&&"function"==typeof b.hitcallback?c=b.hitcallback:"function"==typeof b&&(c=()=>{b(ga.create())});try{settimeout(c,1)}catch(a){}}})();
 yc.mailgun.com$image
@@ -114201,6 +114202,7 @@ zonedirector.avadacom.com$image
 ||report-uri.io^$third-party
 ||report.23video.com/api/analytics/
 ||report.23video.com/report-batch
+||reportmyads.com^$third-party
 ||reports.adguard.com/-/metrics/
 ||reports.sdiapi.com/service/viceevent
 ||repost.aws/api/v*/content/markresourceviewed
@@ -116690,6 +116692,7 @@ zonedirector.avadacom.com$image
 ||tr.lfeeder.com^$third-party
 ||tr.webantenna.info^$third-party
 ||tra.scds.pmdstatic.net/sourcepoint/
+||trabalho.amazon.com.br/resources/js/adobe_analytics.js
 ||tracdelight.com^$third-party
 ||tracdelight.io^$third-party
 ||trace-2000.com^$third-party
@@ -118261,6 +118264,7 @@ zonedirector.avadacom.com$image
 ||y.aram.zone/pageview
 ||y2down.cc/cdn-cgi/trace
 ||ya.ru/clck/
+||ya.ru/search/_crpd/*/*/$ping
 ||yaanimail.com/assets/js/facebook/pageview.js
 ||yachtingnetwork.it/stat/
 ||yag.redefine.pl/events/
