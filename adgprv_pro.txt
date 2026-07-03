@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-03 02:42:36 UTC
-! Total Rules: 118564
+! Last Updated: 2026-07-03 13:57:11 UTC
+! Total Rules: 118571
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -103883,7 +103883,6 @@ xinshuru.com#%#//scriptlet('set-constant', 'radar_monitor.setproject', 'emptyobj
 xn--r8jwklh769h2mc880dk1o431a.com##.topbox2 > div.”smanone”
 xn--r8jwklh769h2mc880dk1o431a.com##.underbox
 xxibanorte.xxibanorte.com$image
-ya.ru#%#//scriptlet('abort-on-property-write', 'ya.clck')
 yakutia.info##.popular:has(> .js-relap-anchor)
 yappli.plus#%#(()=>{window.ga=function(){const a=arguments.length;if(0===a)return;const b=arguments[a-1];let c;b instanceof object&&null!==b&&"function"==typeof b.hitcallback?c=b.hitcallback:"function"==typeof b&&(c=()=>{b(ga.create())});try{settimeout(c,1)}catch(a){}}})();
 yc.mailgun.com$image
@@ -109611,6 +109610,7 @@ zonedirector.avadacom.com$image
 ||googleusercontent.com/*/wf/open?upn=$image
 ||googleusercontent.com/tracker/
 ||gooo.al^$third-party
+||gopay.sh/collect
 ||gopjn.com^$third-party
 ||goprediction.com^$third-party
 ||gopuff.com/api/v1/track/impression/
@@ -113024,6 +113024,8 @@ zonedirector.avadacom.com$image
 ||ownpage.fr^$third-party
 ||ox-bio.com^$third-party
 ||oxidy.com^$third-party
+||ozon.ru/p-api/tracker/
+||ozon.ru/pop-stats-collector/
 ||ozon.ru/tracker/
 ||ozone.ru/graphics/client-metrics/
 ||p-analytics.life^$third-party
@@ -115559,6 +115561,7 @@ zonedirector.avadacom.com$image
 ||st-wzb.clarin.com/weizenbock/amazon/min.js
 ||st.mngbcn.com/scripts/tagmanager.js
 ||st.onlygip.tech^$third-party
+||st.ozone.ru/s*/client-metrics/
 ||st.ozone.ru/s3/ozon-tag-manager/
 ||st.pba.xl.pt/pbasitetracker/pbasitetracker.min.js
 ||st.sooplive.com/api/da_block_api.php
@@ -118151,6 +118154,7 @@ zonedirector.avadacom.com$image
 ||www-backend.strinova.com/api/common/uid|
 ||www-google-analytics.l.google.com^$third-party
 ||www-path.com^$third-party
+||www.awin1.com/cread.php?*ued=$urltransform=/^https?:\/\/(?:[a-z0-9-]+\.)*?.*\.awin1\.com.*[?&]ued=([^&]*).*/\$1/|pct
 ||www.digikey.*/lo2z493j/init.js
 ||www.ebay.*/gh/dfpsvc?
 ||www.google.*/velog/
@@ -118192,6 +118196,9 @@ zonedirector.avadacom.com$image
 ||x.t-idr.com/api/v1/identify
 ||xaas3.jp/tracking/$third-party
 ||xapi.ozon.by/perf-metrics-collector/
+||xapi.ozon.ru/api/logs-gateway/
+||xapi.ozon.ru/api/logs-shredder/
+||xapi.ozon.ru/perf-metrics-collector/
 ||xapi.ozon.ru^$ping
 ||xboxservices.com/xboxcomfd/experimentation?
 ||xc3.services.livejournal.com/ljcounter/

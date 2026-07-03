@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-03 02:42:36 UTC
-! Total Rules: 5849
+! Last Updated: 2026-07-03 13:57:11 UTC
+! Total Rules: 5840
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -177,7 +177,6 @@
 /dzwww/ad_dzw_inner.js
 /e/ecmsshop/zhuanpan/js/*
 /eis/diy/ad/*
-/embed/*?c=object_container*&psid=
 /emwappopads/*
 /ettoday/gemini/*
 /eucjhfxh/*.js
@@ -1490,7 +1489,6 @@
 ||anyporn.com/aa/
 ||anysex.com/js/initsite.js
 ||anysex.com/static/js/initsite.min.js
-||anysex.com/static/js/script_new.js
 ||anyshare.icu^*.js
 ||anywlan.com/link/*.gif
 ||aolusb.com/forever/
@@ -1508,6 +1506,7 @@
 ||api.leakgallery.com/m/decide
 ||api.live.bilibili.com/*/banner
 ||api.redgifs.com/v*/feeds/modules
+||api.wikia.nocookie.net/*/wikia.php?controller=adengine*apicontroller&method=getbtcode
 ||api.wudizuqiu.com/72nba
 ||api.wudizuqiu.com/bocai.js
 ||apic.91bixin.net/api/thirdadv/
@@ -2621,6 +2620,7 @@
 ||excelhome.net/js/banner-
 ||exe.io/files/p*.js
 ||exmoo.com/js/ad-position/
+||exporntoons.net/static/players/*/vast.js
 ||expreview.com/baba/
 ||eyny.com/data/cache/js_show_ads.js
 ||eyusky.net/weixin-img/zhifubao.jpg
@@ -2648,7 +2648,6 @@
 ||fans.*.space/fans/*.php
 ||fanyi.baidu.com/wise/afd
 ||fapality.com/js/initsite.js
-||fapturbo.com/testoid/
 ||faquanya.com/weixin/
 ||faselhd.center/v.mp4
 ||fast8.cc/skin/default/images/630652.png
@@ -2723,7 +2722,6 @@
 ||freehao123.com/wp-content/uploads/2017/05/mmkdm.png
 ||freejavbt.com/assets/images/banner
 ||freepopnews.skin/advert/
-||freeporn8.com/frd5/
 ||freeuseporn.com/bnrmanage/
 ||frendz4m.org/arlinablock.js
 ||frontendjs.com/api/ad
@@ -3765,7 +3763,6 @@
 ||lenovo.com.cn/cms/2018-07-20/201807201014498251793.png
 ||lenovo.com.cn/lenovo/bid?clienttype=
 ||lensdump.com/i/*.gif
-||lesbian8.com/frd5/
 ||letemsvetemapplem.eu/*/alzafeed_*.php
 ||letsporn.com/abrk/
 ||letsporn.com/npadm/
@@ -4146,8 +4143,6 @@
 ||mylomza.pl/static/files/inline_images/*/inline__
 ||mylust.com/*.jsx
 ||mylust.com/b/
-||mylust.com/static/js/initsite.min.js
-||myparcels.net/images/b/
 ||myqcloud.com/ad/
 ||myqcloud.com/wp-content/uploads/huoxingyun.
 ||mysteel.com/ads/
@@ -4253,6 +4248,7 @@
 ||nz04com.com/aabdd/
 ||nzherald.co.nz/pf/resources/dist/scripts/global-ad-script.js
 ||oa.hinews.cn/work/img/
+||obf-io.deobfuscate.io/nexus_banner.webp
 ||ocdn.eu/workshopinforocdn/infor/misc/taboola-assets/taboola_v*.js
 ||ofweek.com/pop/ad/
 ||oh100.com/js/pubuliu.
@@ -4432,7 +4428,6 @@
 ||playgama.com/ads/
 ||playzip.com/static/js/abcd.js
 ||plibcdn.com/templates/base_master/js/jquery.shows2.min.js
-||plista.com/async_lib.js?
 ||pmb*.tj.ali213.net/js/
 ||pniao99.com/statics/js/stat.js
 ||poco.cn/v1_1/rank/get_floating_layer_ad
@@ -4447,7 +4442,6 @@
 ||pornhd3x.tv/cms_data/sites/admin/files/ads
 ||pornhub.*/_xa/ads
 ||pornlib.com/player_*_ads
-||pornohans.net/*==/
 ||pornone.com/js/combined.js
 ||pornoxo.com/link/out/
 ||pornpapa.com/extension/
@@ -4644,7 +4638,6 @@
 ||redtube.com/_xa/
 ||reef2reef.com/data/siropu/am/user/
 ||refinery89.com/performance/
-||reiclub.com/templates/interviews/exit_popup/
 ||rentalcars.com/partners/
 ||rentiyishu.org/*.js
 ||renwai.ren/cdn/pic/ad
@@ -4984,7 +4977,6 @@
 ||startpage.com/*/adsense/search/async-ads.js
 ||static-cdn.spot.im/production/ads/tags/v*/ads/ads.js
 ||static.android.com.pl/plugins/acp-campaigns/
-||static.androidiani.com/wp-content/themes/androidianiv*/js/fckblock.js
 ||static.c4assets.com/all4-ad-code/latest/adverts.js
 ||static.chinatimes.com/scripts/2019/ad2019.min.js
 ||static.doyouhike.net/partner/
@@ -5306,7 +5298,6 @@
 ||upapi.net/pb/ex?w=*&uponit
 ||upload.cc/i1/2020/07/13/8bgjil.gif
 ||upload.xchina.biz/ad/
-||uploady.io/sw.js
 ||usatoday.com/gcdn/ads/
 ||user.042.cn/adver/adver.js
 ||userscript.zone/s.js

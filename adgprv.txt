@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-03 02:42:36 UTC
-! Total Rules: 11361
+! Last Updated: 2026-07-03 13:57:11 UTC
+! Total Rules: 11368
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -6343,6 +6343,7 @@
 ||googletagmanager.com/gtm/
 ||googletagmanager.com/static/service_worker/
 ||googleusercontent.com/tracker/
+||gopay.sh/collect
 ||gopuff.com/api/v1/track/impression/
 ||gordonua.com/actions/stat/
 ||goroost.com/api/pageview
@@ -8263,6 +8264,8 @@
 ||ovyerus.com/js/script.js
 ||owata-net.com/js/ga.js
 ||owlcation.com/.bootscripts/hubpages*tracker.min.js
+||ozon.ru/p-api/tracker/
+||ozon.ru/pop-stats-collector/
 ||ozon.ru/tracker/
 ||ozone.ru/graphics/client-metrics/
 ||p-api.vortexgaming.io/api/log/
@@ -9652,6 +9655,7 @@
 ||st-a.cdp.asia/insight.js
 ||st-wzb.clarin.com/weizenbock/amazon/min.js
 ||st.mngbcn.com/scripts/tagmanager.js
+||st.ozone.ru/s*/client-metrics/
 ||st.ozone.ru/s3/ozon-tag-manager/
 ||st.pba.xl.pt/pbasitetracker/pbasitetracker.min.js
 ||st.sooplive.com/api/da_block_api.php
@@ -11107,6 +11111,9 @@
 ||x.kinja-static.com/assets/packaged-js/*trackers
 ||x.t-idr.com/api/v1/identify
 ||xapi.ozon.by/perf-metrics-collector/
+||xapi.ozon.ru/api/logs-gateway/
+||xapi.ozon.ru/api/logs-shredder/
+||xapi.ozon.ru/perf-metrics-collector/
 ||xboxservices.com/xboxcomfd/experimentation?
 ||xc3.services.livejournal.com/ljcounter/
 ||xcar.com.cn/exp/
