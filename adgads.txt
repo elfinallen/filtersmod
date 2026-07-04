@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-04 02:38:57 UTC
-! Total Rules: 5841
+! Last Updated: 2026-07-04 13:18:36 UTC
+! Total Rules: 5840
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -2881,7 +2881,6 @@
 ||google.com/adsense/search/ads.js
 ||google.com/adsense/search/async-ads.js
 ||google.com/pagead/1p-user-list/
-||google.com/pagead/conversion_async.js
 ||google.com/pagead/drt/
 ||google.com/pagead/form-data/
 ||google.com/pagead/landing?
@@ -2900,7 +2899,6 @@
 ||goupu.org/1files/guidebar/
 ||gp123.cc/20*ad/
 ||gpxz.com/js2/
-||greatandhra.com/wp-content/plugins/sortd-homepage-promo/
 ||greenxf.com/js/2019/
 ||greenxiazai.com/d/js/v/
 ||grow.gab.com/galahad/
@@ -3185,6 +3183,7 @@
 ||ibaotu.com/revision/js/ad/
 ||ibf.tw/js/jquery.blockui.js
 ||ibmwclub.com/tophub/assets/js/sponsor.
+||ibvpn.com/img/banners/
 ||icaile.com/z.php?id=
 ||icao4.com/uploads/pic/2.jpg
 ||iceporn.com/player_right_ntv_
@@ -4486,6 +4485,7 @@
 ||psyzg.com/public/home/images/tuhe_240_236.gif
 ||ptbus.com/s.js
 ||ptyw.yiche.com/ssp/
+||punishworld.com/prerolls/
 ||pupudy.com/images/wxrj.gif
 ||purevpn.com/affiliates/
 ||putaoys.com/static/js/acb1.js
@@ -4639,6 +4639,7 @@
 ||redtube.com/_xa/
 ||reef2reef.com/data/siropu/am/user/
 ||refinery89.com/performance/
+||reiclub.com/templates/interviews/exit_popup/
 ||rentalcars.com/partners/
 ||rentiyishu.org/*.js
 ||renwai.ren/cdn/pic/ad
@@ -5014,7 +5015,6 @@
 ||straitstimes.com/_web2/betterads_head.js
 ||stream.cz/*/vast?
 ||stream.offidocs.com/images/*-banner
-||streambtwp.b-cdn.net/aclib.js
 ||streamfree.top/analytics.js
 ||stripchat.com/api/external/
 ||stulip.org/static/js/header.js
@@ -5022,7 +5022,6 @@
 ||subhd.*/kaiyad.
 ||subhd.com/images/ap/
 ||subserieshd.com/banner/
-||subtitlecat.com/assets/images/gomakego_ad_*.webp
 ||subtitledb.org/js/adblockcheck.js
 ||sucloud.xyz/js/tou.js
 ||sudugu.com/config/v7.js
