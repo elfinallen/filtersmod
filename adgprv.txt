@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-03 13:57:11 UTC
-! Total Rules: 11368
+! Last Updated: 2026-07-04 02:38:57 UTC
+! Total Rules: 11371
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -4322,6 +4322,7 @@
 ||bonprix.*/ajax/landmarks/
 ||bonprix.*/ajax/marketing-parameters/
 ||book.naver.com/monitor/cc
+||bookcabin.com/api/log-browser
 ||booking.com/87sduif98q3rijax
 ||booking.com/c360/v1/track
 ||booking.com/collector/
@@ -6787,6 +6788,7 @@
 ||indiegogo.com/speclayer/stdfp.js
 ||indigitall.com/v1/browser?
 ||indoleads.com/api/pixel-content/
+||indonesiadefense.com/metrikgtg
 ||industrystock.de/ajax/track.php
 ||inetstatic.com/tracking/
 ||inews.co.uk/rta2/
@@ -10066,6 +10068,7 @@
 ||tamindir.com/cdn-cgi/pe/bag2?r[]=
 ||tamindir.com/stats.iz
 ||tanks.lv/top/stats.php
+||tanstack.com/_a/gtag.js
 ||tantifilm.top^*/ping
 ||tanweb.net/wordpress/?rest_route=/sng/v1/page-count
 ||taobao.com/tracker.
