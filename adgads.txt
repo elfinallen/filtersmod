@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-05 02:48:48 UTC
-! Total Rules: 5840
+! Last Updated: 2026-07-05 13:24:57 UTC
+! Total Rules: 5842
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -1536,7 +1536,6 @@
 ||arkadiumhosted.com/advertisement/
 ||ashemaletube.com/api/tiles
 ||ashemaletube.com/ast/b/
-||ashemaletube.com/ast/paysite
 ||asiav.cyou/myupdatelist.
 ||asp300.*/2012adimg/
 ||asp300.*/2012js/
@@ -1980,7 +1979,6 @@
 ||cdn-academy.akamaized.net/letras/ads/
 ||cdn-fc.com/creatives/bar/
 ||cdn.12341234.pl/editag/*/prod/editag.min.js
-||cdn.autoevolution.com/_js/prebid*.js
 ||cdn.aznude.com/js/dating.json
 ||cdn.aznude.com/player/v*/vast-no-entitlements.js
 ||cdn.bullion.media/custom_units/video-strip-master.js
@@ -2697,7 +2695,6 @@
 ||flash.mycar168.com/data/js/
 ||flasmr.top/leb.
 ||flighty.cn/images/
-||flixbaba.net/utilsminhill.js
 ||flv2mp3.by/get-rtb-url
 ||flvto.biz/get-rtb-url
 ||flyzy2005.com/wp-content/*/bandwagonhost-top.
@@ -3043,8 +3040,10 @@
 ||helloavgirls.com/public/hg/
 ||hellogithub.com/v1/advert/
 ||hellporno.com/_a_xb/
+||helpers.publisherdesk.com/main.js
 ||henan.sina.com.cn/iframe/7/
 ||henan100.com/d/file/indexad/
+||hentaiasmr.moe/b4b8.js
 ||hentaicomic.*/data/ds/
 ||hentaicomic.*/data/game/*/wap.gif
 ||hentaifox.com/js/slider.js
@@ -3960,7 +3959,6 @@
 ||maolihui.com/wp-content/themes/miaonew/images/adb
 ||maomaoks.com/1.
 ||maopu.tv/d/file/p/2019/07/6ac50c702cf9e6a9a7910a510c40cb73.jpg
-||marketbeat.com/scripts/moreonmarketbeatbelowpost.aspx
 ||masadora.net/kakusan-
 ||massariuscdn.com/pubs/
 ||masturbation22.com/d/
@@ -4143,6 +4141,8 @@
 ||mylomza.pl/static/files/inline_images/*/inline__
 ||mylust.com/*.jsx
 ||mylust.com/b/
+||mylust.com/static/js/initsite.min.js
+||myp1p.eu/js/sun.js
 ||myqcloud.com/ad/
 ||myqcloud.com/wp-content/uploads/huoxingyun.
 ||mysteel.com/ads/
@@ -4261,6 +4261,7 @@
 ||olelive.com/v1/pub/index/anchor/check/pc/e?
 ||olgame.tw/home/attachment/
 ||om.cn/api/ad-om/
+||omguk.com/i/
 ||omguk.com/impression/
 ||one101.xyz/data/images/*.gif
 ||onedala.tv/uploads/banner/
@@ -4448,7 +4449,6 @@
 ||pornpaw.com/never.js
 ||pornpics.de/api/banner/
 ||pornpoppy.com/*/external_pop.js
-||pornstargold.com/af8b32fc37c0.js
 ||porntn.com/static/js/custom.js
 ||pornx.to/wp-content/uploads/ad*x*.png
 ||pornxp.*/spnbf.js
@@ -4638,6 +4638,7 @@
 ||redshu.com/js/www/jquerygg.js
 ||redtube.com/_xa/
 ||reef2reef.com/data/siropu/am/user/
+||reelsmunkey.com/_next/static/media/*-banner.
 ||refinery89.com/performance/
 ||reiclub.com/templates/interviews/exit_popup/
 ||rentalcars.com/partners/
@@ -5098,6 +5099,7 @@
 ||tbib.org/tbib.
 ||tcmap.com.cn/js/b_
 ||tcptest.cn/prod-api/web/adlinks/
+||tdpri.com/render-ad.php
 ||techritual.com/wp-content/uploads/*/hdcource_
 ||techug.com/aatb/
 ||tencent-cloud.com/s9m1/12f70718c866ea3e5f22c68e6a34c54f.
