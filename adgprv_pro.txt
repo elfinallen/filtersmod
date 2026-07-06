@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-05 13:24:57 UTC
-! Total Rules: 118583
+! Last Updated: 2026-07-06 02:55:09 UTC
+! Total Rules: 118582
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -1611,6 +1611,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /cnvtr.js
 /cocoon-master/lib/analytics/access.
 /cocoon-master/lib/analytics/access.php?
+/code/e.js|$~third-party
 /codesters-analytics.
 /cofinahits.js
 /cogi-etracker.js
@@ -5835,7 +5836,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ://elqtrk.
 ://email.*/o/$image
 ://emailtracking.$image
-://estats.*/code/e.js
 ://fallback.*/collector
 ://fathom.$domain=~fathom.care|~fathom.co.za|~fathom.fm|~fathom.info|~fathom.io|~fathom.lib.uchicago.edu|~fathom.org|~fathom.video|~fathom.world|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
 ://gtm.*.js?id=gtm-
@@ -5878,7 +5878,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ://ssgtm.
 ://sst.*.js?id=gtm-
 ://stat.*/pageview/$xmlhttprequest
-://stats.*/code/e.js
 ://t.*/open^$image
 ://t.order.*/r/?id=$image
 ://t.targito.
