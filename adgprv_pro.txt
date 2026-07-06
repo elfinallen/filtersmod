@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-06 02:55:09 UTC
-! Total Rules: 118582
+! Last Updated: 2026-07-06 15:25:47 UTC
+! Total Rules: 118587
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -6535,6 +6535,7 @@ cccp.es.relay.walmart.com$image
 cccp.relay.walmart.ca$image
 cccp.relay.walmart.com.mx$image
 cd.quickpage.email$image
+cdnperf.com#%#//scriptlet('prevent-element-src-loading', 'script', 'cdn.perfops.net/rom3/rom3.min.js')
 cemail.thnks.com$image
 cend.baygardensresorts.com$image
 cerbahealthcare.it#%#//scriptlet('set-constant', 'pa', 'emptyobj')
@@ -105204,7 +105205,7 @@ zonedirector.avadacom.com$image
 ||app-de-na1.niceincontact.com/logger-public
 ||app-web-server.imagen-ai-op.com/analytics/
 ||app.abralytics.com/assets/tracker/index.js
-||app.adjust.com^$app=com.microsoft.bing|jp.gocro.smartnews.android|com.daily.health.tracker.monitor|com.glovo|com.edadeal.android|com.dailymotion.dailymotion|com.novoda.dch|com.jotform.v2|com.location.track.proxy.gps|com.magical.smart.alban|com.lenovo.anyshare.gps|com.fileclean.manager.easy
+||app.adjust.com^$app=com.microsoft.bing|jp.gocro.smartnews.android|com.daily.health.tracker.monitor|com.glovo|com.edadeal.android|com.dailymotion.dailymotion|com.novoda.dch|com.jotform.v2|com.location.track.proxy.gps|com.magical.smart.alban|com.lenovo.anyshare.gps|com.fileclean.manager.easy|com.avito.android
 ||app.adjust.com^$third-party
 ||app.airlift.net/assets/affpix.js
 ||app.avada.io/scripttag/tracking/avada-track.min.js
@@ -106429,6 +106430,7 @@ zonedirector.avadacom.com$image
 ||cdn.c-i.as^$script,third-party
 ||cdn.calibermind.com/a.js
 ||cdn.calltrk.com/companies/
+||cdn.cardcluster.com/ma/j.js
 ||cdn.clerk.io/clerk.js
 ||cdn.clkmc.com/cmc.js
 ||cdn.cohesionapps.com/cohesion/xs1.html?xsid=
@@ -108341,6 +108343,7 @@ zonedirector.avadacom.com$image
 ||emol.com/bt/ping
 ||emp.de/on/demandware.store/*/__analytics-tracking
 ||ems.youku.com/event?
+||emule-security.org/tracker.js
 ||emxdgt.com^$third-party
 ||en2.elvenar.com/game/tracking
 ||endorsal.io/check/
@@ -117697,6 +117700,8 @@ zonedirector.avadacom.com$image
 ||walla.co.il/stats/
 ||wallapop.com^$cookie=device_id
 ||wallapop.com^$cookie=rl_anonymous_id
+||wallethacks.com/js/t/|
+||wallethacks.com/js/w
 ||wallkit.net^*/user/event
 ||walmart.ca/api/bsp/logger
 ||walmart.ca/api/home-page/logger

@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-06 02:55:09 UTC
-! Total Rules: 5842
+! Last Updated: 2026-07-06 15:25:47 UTC
+! Total Rules: 5845
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -258,7 +258,6 @@
 /iframe_pfbad/*
 /ikanfan/b.js
 /ikanfan/i.js
-/im/im.js?sk=
 /images//ads/*
 /images/masha*.gif
 /images/masha*.png
@@ -974,6 +973,7 @@
 ||4hw.com.cn/js/common.js
 ||4kwu.cc/static/js/tj.js
 ||4taoxs.com/api/accept/
+||4up.pics/assets/js/anti-adblock.js
 ||500xxxx.com/go.js
 ||5054399.com/js/rice/m.js
 ||5068.com/*gg
@@ -1475,7 +1475,6 @@
 ||anhuinews.com/include/
 ||anhuinews.com/zhuyeguanli/*ad/
 ||anime-suba.com/anime-suba/admin/imganadvertisement/
-||animehub.ac/api/pop.php
 ||animewaku.com/up/img/webp/*.webp
 ||anjuke.com^*/ajax/business_area_search/
 ||ankangwang.com/js/info.js
@@ -1536,6 +1535,7 @@
 ||arkadiumhosted.com/advertisement/
 ||ashemaletube.com/api/tiles
 ||ashemaletube.com/ast/b/
+||ashemaletube.com/ast/paysite
 ||asiav.cyou/myupdatelist.
 ||asp300.*/2012adimg/
 ||asp300.*/2012js/
@@ -1618,6 +1618,7 @@
 ||bad.news/scripts?
 ||bad996.com/dakaads.js
 ||badmintoncn.com/cbo_include/js/cboaaa.js
+||badvault.com/api/ads?type=hilltop
 ||bahamut.com.tw/js/ad.js
 ||baidu-taobao-av.com/js/
 ||baidu-taobao-av.com^*.gif
@@ -3427,7 +3428,6 @@
 ||jable.tv/assets/images/*-slider.
 ||jadxs.org/themes/*/js/fixed.js
 ||jadxs.org/themes/*/js/test.js
-||jagledam.com/js/ad-placement.js
 ||jamanetwork.com/ama/adtag
 ||jandan.net/static/sos/recreate-games.gif
 ||jandan.net/static/ss/
@@ -3469,6 +3469,7 @@
 ||jd100.com/cwmpc/
 ||jdbstatic.com/ads/
 ||jdwx.info/api.php?mod=ad&
+||jelonka.com/static/jelonka/js/news-ad-access-gate.js
 ||jia.com/js/common/article_home_adv.js
 ||jialingmm.net/dm/tj.js
 ||jialingmm.net/img/gdw.jpg
@@ -3708,7 +3709,6 @@
 ||kuazhi.com/kuazhi_click.
 ||kuazhi.com/zb_users/plugin/allshow/js/main.
 ||kuazhi.com/zb_users/plugin/allshow/js/main.js
-||kuwaittimes.com/uploads/ads/
 ||kwflvcdn.000dn.com^*.flv
 ||kwongwah.com.my/wp-content/plugins/dibs_engine/js/dibs_popup.js
 ||kxd56.com/qq.js
@@ -3822,6 +3822,7 @@
 ||live173.com//ad/
 ||live173.com/banner/
 ||liveany.com/images/8d8d.gif
+||livescore.com/media/ad_configs/
 ||livku.com/g1000/
 ||liwupuba.com/livead/
 ||ll.ibiqiuge.com/m.js
@@ -4165,6 +4166,7 @@
 ||nanrenfuli.*/zb_users/upload/
 ||nanrenvip2021.com/old.html
 ||natgeomedia.com/js/ads-parallax.
+||natomanga.com/images/bns/
 ||natomanga.com/js/ads/
 ||naughtyblog.org/wp-content/images/k2s/
 ||nb.zol.com.cn/detail_*.html
@@ -4231,6 +4233,7 @@
 ||ntdtv.com/assets/themes/ntd/js/article_ads.js
 ||ntimg.cn/original/images/www_ads.jpg
 ||ntv.cx/assets/stake/
+||nubiles.net/webmasters/promo/
 ||nulltm.com/adv.js
 ||nupload.me/uuu.php
 ||nvdst.com/adx_
@@ -4450,6 +4453,7 @@
 ||pornpics.de/api/banner/
 ||pornpoppy.com/*/external_pop.js
 ||porntn.com/static/js/custom.js
+||pornv.xxx/static/js/abb.js
 ||pornx.to/wp-content/uploads/ad*x*.png
 ||pornxp.*/spnbf.js
 ||pornxp.com/2.js
@@ -4628,7 +4632,6 @@
 ||rawcdn.githack.com/*/arlinablock.js
 ||rawcdn.githack.com/sanjoy944/jonaki/*/adblockerpupup.js
 ||readcomiconline.li/ads/
-||realmadryt.pl/build/assets/adblockdetector-*.js
 ||realmadryt.pl/build/assets/articlegate-*.js
 ||realmadryt.pl/img/banners/
 ||receivefreesms.co.uk/adblk/adblk_enc.js

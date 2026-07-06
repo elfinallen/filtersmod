@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-06 02:55:09 UTC
-! Total Rules: 11379
+! Last Updated: 2026-07-06 15:25:47 UTC
+! Total Rules: 11383
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -4570,6 +4570,7 @@
 ||cdn.builder.io/api/v1/pixel
 ||cdn.calibermind.com/a.js
 ||cdn.calltrk.com/companies/
+||cdn.cardcluster.com/ma/j.js
 ||cdn.clerk.io/clerk.js
 ||cdn.clkmc.com/cmc.js
 ||cdn.cohesionapps.com/cohesion/xs1.html?xsid=
@@ -5676,6 +5677,7 @@
 ||emol.com/bt/ping
 ||emp.de/on/demandware.store/*/__analytics-tracking
 ||ems.youku.com/event?
+||emule-security.org/tracker.js
 ||en2.elvenar.com/game/tracking
 ||endorsal.io/check/
 ||eneba.com/metrics/
@@ -10853,6 +10855,8 @@
 ||walla.co.il/countshp.asp?
 ||walla.co.il/impression/
 ||walla.co.il/stats/
+||wallethacks.com/js/t/|
+||wallethacks.com/js/w
 ||wallkit.net^*/user/event
 ||walmart.ca/api/bsp/logger
 ||walmart.ca/api/home-page/logger
