@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-06 15:25:47 UTC
-! Total Rules: 5845
+! Last Updated: 2026-07-07 02:49:58 UTC
+! Total Rules: 5850
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -1543,6 +1543,7 @@
 ||aspku.com/images/vz360.jpg
 ||aspku.com/z/
 ||asserts.avple.tv/file/avple-asserts/ad.js
+||assets.fanpage.it/ciaoprebid-js/*/adstack/sdk/doprebid.js
 ||assets.genius.com/javascripts/compiled/ads-*.js
 ||assets.genius.com/javascripts/compiled/reactads.*.js
 ||assets.moly.hu/system/header_ads/
@@ -2024,6 +2025,7 @@
 ||cdn3x.com/xxxdan/js/xxxdan.vast.
 ||cdn77.ashemaletube.com/ast/www/js-v*.min.js?url=
 ||cdn77.org^*.mp4|
+||cdn77.pornoxo.com/pxo/www/js-v*/vast.min.js
 ||cdncg.com^*/aepku
 ||cdncg.com^*/fcpxku.
 ||cdncg.com^*/kangmey
@@ -2395,6 +2397,8 @@
 ||dj97.com/api.php?mod=ad&
 ||djdedu.net/static/*.gif
 ||djicdn.com/uploads/ad_image_file/
+||dlhd.*/rs4k-adbanner.html
+||dlhd.st/rs4k-adbanner.html
 ||dlkoo.cc/down/copy
 ||dlkoo.com/down/copy
 ||dmzj.com/js/ad/
@@ -3245,6 +3249,7 @@
 ||igg-games.*/maven/
 ||igg-games.com/sw.js
 ||ign.com/s/js/zad.js
+||igniteandship.com/js/adcashign.js
 ||ih336.com^*a.js
 ||ihhmh.com/mg/show
 ||ii.apl*.me/js/pop.js
@@ -3459,7 +3464,6 @@
 ||jb51.net/imgby/logo_
 ||jbzyw.com/application/m/adv/
 ||jc001.cn/ci/jad/fix.
-||jcdf99.com/hzz/scripts/new
 ||jcodecraeer.com/plus/fuckblok.
 ||jd-bbs.com^*/gif/
 ||jd.com/bottom/cps
@@ -4447,6 +4451,7 @@
 ||pornhub.*/_xa/ads
 ||pornlib.com/player_*_ads
 ||pornone.com/js/combined.js
+||pornoxo.com/api/tiles?*&advertisername=faphouse
 ||pornoxo.com/link/out/
 ||pornpapa.com/extension/
 ||pornpaw.com/never.js
