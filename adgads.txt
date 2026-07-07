@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-07 02:49:58 UTC
-! Total Rules: 5850
+! Last Updated: 2026-07-07 14:26:29 UTC
+! Total Rules: 5846
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -1561,6 +1561,7 @@
 ||att.ydss.cn/attachments/portal/
 ||aty.sohu.com/v?
 ||atyun.com/wp-content/themes/xmag/js/ad.js
+||audiobookbay.*/images/bz.jpg
 ||audioz.download/templates/default/img/promo/
 ||auntmia.com/promo/
 ||auto-online.com.tw/vendor_data/
@@ -1937,6 +1938,7 @@
 ||caitlin.top/catalog/view/core/comic/fc0.js
 ||caixin.com/s?z=
 ||camhub.*/static/js/cc-kvs.js
+||camsaim.com/in/
 ||camspacelive.com/widgets/
 ||camspic.com/imguang/*.gif
 ||canimgs.com/images/
@@ -2384,7 +2386,6 @@
 ||discuss.com.hk/oath/
 ||discuss.com.hk^*_prod.html
 ||discuz.gtimg.cn/cloud/scripts/discuz_tips.js
-||disqus.com/listpromoted?
 ||distrowatch.com/images/cpxtu/
 ||distrowatch.com/images/k/
 ||divcss5.com*/ibeifeng/
@@ -2405,7 +2406,6 @@
 ||dmzj.com/js/m_btmapp.js
 ||dmzj1.com/js/ad/
 ||dngz.net/x/
-||dnscloud.github.io/js/waypoints.min.js
 ||dnvod.tv/listprovider/ajaxlist.async.ashx
 ||dnvodcdn.me/fast/*.mp4
 ||dnwx.com/pic/*_978x60.
@@ -2622,9 +2622,7 @@
 ||etxt.biz/images/b/
 ||everyonepiano.cn/public/*0x
 ||excelhome.net/js/banner-
-||exe.io/files/p*.js
 ||exmoo.com/js/ad-position/
-||exporntoons.net/static/players/*/vast.js
 ||expreview.com/baba/
 ||eyny.com/data/cache/js_show_ads.js
 ||eyusky.net/weixin-img/zhifubao.jpg
@@ -2816,7 +2814,6 @@
 ||gavbus*.com/assets/common/js/admenu.js
 ||gay.bingo/agent.php
 ||gay4porn.com/ai/
-||gayforfans.com/proud-sun-bc20/
 ||gayporntube.com/spots.php?
 ||gd.ct10000.com/js/ecssstat.js
 ||gd.sina.com.cn/iframe/22/
@@ -3197,7 +3194,6 @@
 ||icnkr.com/data/attachment/portal/
 ||icws.jb51.net/good/arc2019.js
 ||id-msp.newsbreak.com
-||idhubs.app/core.v3.js
 ||idv.st/dns/bar.htm
 ||ieforex.com/r/cms/www/red/red2/images/*0.
 ||ifeng.com/a_if/
@@ -3751,10 +3747,10 @@
 ||lcxw.cn/i/*dl.js
 ||ld0766.com/*20*a/
 ||ldb.cc/js/top.js
-||leadfamly.com/campaign/sdk/popup.min.js
 ||leakgallery.com/leakifyhub/banner
 ||lecai.com/page/zhuanti/baidu/
 ||leeapk.com/wp-content/plugins/leeapk-adblock-detector/
+||leftnewsex.com/fb/fb_hilltopads.php
 ||leiphone.com/uploads/new/category/pic/*/740x140/
 ||leju.com/abp/cmslead_new.v2.js
 ||leju.com/scripts/app/pc/indexlayer/v1/indexlayer.js
@@ -4729,6 +4725,7 @@
 ||s7tu.com/images/*.gif
 ||s8bbs.com/ad/
 ||s8bbs.com/g.php?
+||safelinku.com/js/web-script.js
 ||samfw.com/js/script.js
 ||saohu*.com/config/json/cctv.json?
 ||sasadown.cn/ad/
@@ -4960,7 +4957,6 @@
 ||sozi.cn/images/tj/szdown
 ||sozi.cn/templets/sozi/js/js.js
 ||sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://pley.gg/wp-content/uploads/2024/11/frame-427321538-2.png
-||sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://pley.gg/wp-content/uploads/2025/10/frame-427321551-1.png
 ||spankbang.com/api/*?ad_zone=
 ||spankbang.com/official/serve_
 ||spanking.wiki/morning-bread-

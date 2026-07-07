@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-07 02:49:58 UTC
-! Total Rules: 118586
+! Last Updated: 2026-07-07 14:26:29 UTC
+! Total Rules: 118588
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -116918,6 +116918,7 @@ zonedirector.avadacom.com$image
 ||trilogyed.com^$third-party
 ||trinitymedia.ai/api/collect?
 ||trinklink1.s3.amazonaws.com/trinklink.js
+||trip.com/*/monitor/log
 ||trip.com/bee/collect
 ||trip.com/bf.gif?
 ||trip.com/restapi/soa2/*/clog
@@ -116932,6 +116933,7 @@ zonedirector.avadacom.com$image
 ||tripadvisor.*/wm/record
 ||tripadvisor.com.tr/metricsajax
 ||tripcdn.com/bee/collect$domain=trip.com
+||tripcdn.com/modules/ibu/xtracker/
 ||triptease.io^$third-party
 ||triptease.net^$third-party
 ||tritondigital.com/ondemand/impression?
