@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-08 02:27:07 UTC
-! Total Rules: 5849
+! Last Updated: 2026-07-08 13:58:27 UTC
+! Total Rules: 5846
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -565,7 +565,6 @@
 /tongji/ad.js
 /tops/fmt.js?v=
 /tourl.html?url=
-/tt1-1367073066.cos.
 /ttj?id=
 /tuiguang366.oss-
 /ty684.oss-
@@ -1071,8 +1070,6 @@
 ||5dmail.net/image/ad_
 ||5dmail.net/image/orf_1000.gif
 ||5dmail.net/js/
-||5dxs.net/themes/jieqi/wap/js/fixed.
-||5dxs.net/themes/jieqi/wap/js/test.
 ||5fz.cc/t/aimg/tao
 ||5icool.org/uploadfile/poster/
 ||5ilinglei.com/gg.html
@@ -1469,7 +1466,6 @@
 ||ammcg.imgscloud.com/toy/
 ||ams.cdn.arkadiumhosted.com/advertisement/
 ||anal.media/creatives/
-||analyticsinsight.b-cdn.net/wp-content/uploads/*-300x250px
 ||androidauth.wpengine.com/wp-json/api/advanced_placement
 ||angelweb.cn/inc/angelg.js
 ||anhuinews.com/include/
@@ -1785,6 +1781,7 @@
 ||bendibao.com/mo/adm_iframe.htm?
 ||bestblackhatforum.com/images/my_compas/
 ||bestvogue.com/fans/
+||bettingoffer.xyz/ads.php
 ||bf99.com/user*/ad_
 ||bf99.com/user/images/bg_blued.jpg
 ||bfpgf.com/wp-content/uploads/2015/08/360dxs.jpg
@@ -2152,7 +2149,6 @@
 ||cjx111.com/ads/
 ||ck180.net/mitao
 ||ckxxbao.com/templets/default/js/wx.js
-||clash.gg/embed-ad/
 ||classicgames.me/ads/*.html
 ||clb.biz/public/static/js/common-v2.js
 ||cloud.tencent.com/developer/api/common/getads
@@ -4333,6 +4329,7 @@
 ||parade.com/runtime/delta.js
 ||parade.com/runtime/gamma.js
 ||parade.com/runtime/webads.js
+||partner.pcloud.com/media/banners/*300250.png
 ||partwithner.com/partners/
 ||pasazer.com/_assets/js/ad-connect.js
 ||paxnews.com/data/pageads
@@ -4531,7 +4528,6 @@
 ||qingkong.net/skin/htcs/images/980.jpg
 ||qingsedhh.com/images/gg.gif
 ||qingxinwx.*/static/xbiquge/js/wap.
-||qiqiuges.com/mk.
 ||qishula.com/css/wap.
 ||qiuw.com/static/xin-ad.js
 ||qiuyi.cn/baojian/
@@ -5107,6 +5103,8 @@
 ||tcmap.com.cn/js/b_
 ||tcptest.cn/prod-api/web/adlinks/
 ||tdpri.com/render-ad.php
+||tdxs5.cc/m
+||tech426.com/pub/
 ||techritual.com/wp-content/uploads/*/hdcource_
 ||techug.com/aatb/
 ||tencent-cloud.com/s9m1/12f70718c866ea3e5f22c68e6a34c54f.
@@ -5137,6 +5135,7 @@
 ||thisav.com/player/video-js-banner/
 ||thisav.video/v3/nb/
 ||thisvid.com/enblk/
+||thisvid.com/zvrk/
 ||thjfcs.cn/hc237/uploads/default/other/2025-12-10/81a0f876800ea81616864d841f102ef4.
 ||thscore.fun/mn/
 ||thumbzilla.com/_xa/ads
@@ -5236,7 +5235,6 @@
 ||ttks.tw/js/otherad.
 ||tube.hentaistream.com/wp-includes/js/pop4.js
 ||tube8.*/_xa/ads
-||tubeon.*/templates/base_master/js/jquery.shows2.min.js
 ||tubeon.com/templates/base_master/js/jquery.ppdr2.min.js
 ||tubeon.net/templates/base_master/js/jquery.ppdr2.min.js
 ||tubi.io/api/v*/ad_override?
@@ -5307,7 +5305,6 @@
 ||upapi.net/pb/ex?w=*&uponit
 ||upload.cc/i1/2020/07/13/8bgjil.gif
 ||upload.xchina.biz/ad/
-||usatoday.com/gcdn/ads/
 ||user.042.cn/adver/adver.js
 ||userscript.zone/s.js
 ||usgo.chucaotang.net/ua.js
@@ -5469,6 +5466,7 @@
 ||woozooo.com/img/*.js
 ||wowfan.net/static/js/index.
 ||woyaoq.com/201904100958_5cad4dbac9c5f.png
+||wp.com/vfxdownload.com/wp-content/uploads/*-ads-
 ||wpdaxue.com/img/*/txy-
 ||wpengine.com/wp-json/api/advanced_placement/api-in-article-ad/
 ||wples.com/pc/common.js
@@ -5482,7 +5480,6 @@
 ||wujinyuzhou.top/ny/*00x
 ||wujinyuzhou.top/ny/ny852x116.
 ||wujinzy.com/images/ok.gif
-||wuxianxs.net/m
 ||wuxingruoyin.top/public/*/plugins/
 ||wuyunks.com/1.
 ||ww7814.win/pic

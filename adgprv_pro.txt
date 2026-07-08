@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-08 02:27:07 UTC
-! Total Rules: 118592
+! Last Updated: 2026-07-08 13:58:27 UTC
+! Total Rules: 118594
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -115742,6 +115742,7 @@ zonedirector.avadacom.com$image
 ||static.tacdn.com/js3/taevents-c.js
 ||static.talpanetwork.com/prod/js/components/talpa-analytics/
 ||static.target2sell.com^$third-party
+||static.tblcontent.com/libtrc/tr5?type=loaderpixel
 ||static.teimg.com/analytics.js
 ||static.tonkosti.ru/tonkosti/www/js/snvars.js
 ||static.toss.im/lex/
@@ -116225,7 +116226,7 @@ zonedirector.avadacom.com$image
 ||tags.qortex.ai^$third-party
 ||tags.soloway.ru^$third-party
 ||tags.stepstone.com/utag/*/prod/utag.js
-||tags.tiqcdn.com/utag/*/prod/utag.js$domain=mcafee.com|help.dropbox.com|radissonhotels.com|post.ch|usnews.com|krymr.com|cnet.com|adidas.co.uk|adidas.nl|adidas.pl|lineadirecta.com|sibreal.org|modernatx.com|louisvuitton.com|simplybusiness.co.uk|uber.com|monroeandmain.com|totaljobs.com|mitsubishi-motors.co.jp|ubereats.com|grubhub.com|talksport.com|truecar.com|hulu.com|qvc.jp|brother-usa.com|mtvema.com|mtv.co.uk|mtv.de|mtv.it|thesun.co.uk|anantara.com|iflscience.com|calvinklein.ca|taylor.com|news.com.au|agoda.com|vodafone.com.tr|huawei.com|the-sun.com|lavazza.com
+||tags.tiqcdn.com/utag/*/prod/utag.js$domain=mcafee.com|help.dropbox.com|radissonhotels.com|post.ch|usnews.com|krymr.com|cnet.com|adidas.co.uk|adidas.nl|adidas.pl|lineadirecta.com|sibreal.org|modernatx.com|louisvuitton.com|simplybusiness.co.uk|uber.com|monroeandmain.com|totaljobs.com|mitsubishi-motors.co.jp|ubereats.com|grubhub.com|talksport.com|truecar.com|hulu.com|qvc.jp|brother-usa.com|mtvema.com|mtv.co.uk|mtv.de|mtv.it|thesun.co.uk|anantara.com|iflscience.com|calvinklein.ca|taylor.com|news.com.au|agoda.com|vodafone.com.tr|huawei.com|the-sun.com|lavazza.com|greenmangamingbundles.com
 ||tags.tiqcdn.com/utag/*/utag.sync.js$domain=yousee.dk|sibreal.org|calvinklein.ca|hosteurope.de|news.com.au|lavazza.com
 ||tags.tiqcdn.com/utag/*/utag.v.js
 ||tags.tiqcdn.com^$app=uk.co.thetimes|com.hulu.plus|com.booking
@@ -116368,6 +116369,7 @@ zonedirector.avadacom.com$image
 ||tencentcs.com/structuredlog?
 ||tend-table.com/cgi-bin/weblog.dll
 ||tend.io^$third-party
+||tengrinews.kz/build/assets/analytic-
 ||tenmax.io^$third-party
 ||tenping.kr^$third-party
 ||tentaculos.net^$third-party

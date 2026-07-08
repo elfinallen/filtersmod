@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-08 02:27:07 UTC
-! Total Rules: 11386
+! Last Updated: 2026-07-08 13:58:27 UTC
+! Total Rules: 11388
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -9792,6 +9792,7 @@
 ||static.stylight.net/js_external/trackjs.*.js
 ||static.tacdn.com/js3/taevents-c.js
 ||static.talpanetwork.com/prod/js/components/talpa-analytics/
+||static.tblcontent.com/libtrc/tr5?type=loaderpixel
 ||static.teimg.com/analytics.js
 ||static.tonkosti.ru/tonkosti/www/js/snvars.js
 ||static.toss.im/lex/
@@ -10138,6 +10139,7 @@
 ||temu.com/api/faas-abtest-server/firefly-api/exp-config
 ||tencentcs.com/structuredlog?
 ||tend-table.com/cgi-bin/weblog.dll
+||tengrinews.kz/build/assets/analytic-
 ||terabox.app/api/analytics?
 ||terabox.app/issue/terabox/ts_ad/
 ||terabox.app/nodeapi/reporterror?*htmlscriptelement
