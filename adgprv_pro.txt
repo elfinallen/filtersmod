@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-07 14:26:29 UTC
-! Total Rules: 118588
+! Last Updated: 2026-07-08 02:27:07 UTC
+! Total Rules: 118592
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -106451,6 +106451,7 @@ zonedirector.avadacom.com$image
 ||cdn.dsmcdn.com/sfint/production/demeter-prod-*.umd.js
 ||cdn.dsmcdn.com/sfx/mergen/
 ||cdn.dzen.ru/pingx
+||cdn.eu.amplitude.com/libs/analytics-browser-
 ||cdn.evgnet.com/beacon/*/scripts/evergage.min.js$script,redirect=noopjs
 ||cdn.fast.beintoo.net/static/tags/beintoo-tag.js
 ||cdn.firstpromoter.com^$third-party
@@ -109343,6 +109344,7 @@ zonedirector.avadacom.com$image
 ||girlsofdesire.org/images/girlsofdesire.org/analytics.js
 ||gismeteo.ru/stat.js
 ||gitbook.com/v1/integrations/googleanalytics/
+||gitfut.com/*/view
 ||github.com/_private/browser/stats
 ||github.com/_stats
 ||github.com/hydro_browser_events
@@ -109670,6 +109672,8 @@ zonedirector.avadacom.com$image
 ||gratis.com/ccstoreui/*/analytics/visitorsmetric
 ||gravitec.net^$third-party
 ||gravity4.com^$third-party
+||greatandhra.com^$cookie=uid-s
+||greatandhra.com^$cookie=vsid
 ||greatviews.de^$third-party
 ||greenbids.ai^$third-party
 ||greg.app/web/analytics/

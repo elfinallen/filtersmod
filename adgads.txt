@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-07 14:26:29 UTC
-! Total Rules: 5846
+! Last Updated: 2026-07-08 02:27:07 UTC
+! Total Rules: 5849
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -1707,6 +1707,8 @@
 ||baomidou.com/_astro/checkadblocked.*.js
 ||baomihua.com/yy/
 ||baomitu.duapp.com/js/layer.js
+||bartamanpatrika.com/_astro/adblockguard.*.js
+||bartamanpatrika.com/_astro/adslot.*.js
 ||bavei.com/img/*.png
 ||bb1nn.com/js/i.js
 ||bb999.net/pic/n/agents/c-79.gif
@@ -2224,6 +2226,7 @@
 ||colamanga.com/sw.js
 ||colonist.io/dist/images/ab_
 ||comefromchina.com/images/128bestbuy
+||comick.*/images/ads/
 ||commondisplay-a.akamaihd.net/cri/*.htm?cat=
 ||components2.*.it/rcs_tealium/
 ||components2.gazzettaobjects.it/rcs_anti-adblocker/
@@ -4166,13 +4169,13 @@
 ||nanrenfuli.*/zb_users/upload/
 ||nanrenvip2021.com/old.html
 ||natgeomedia.com/js/ads-parallax.
-||natomanga.com/images/bns/
 ||natomanga.com/js/ads/
 ||naughtyblog.org/wp-content/images/k2s/
 ||nb.zol.com.cn/detail_*.html
 ||nbegame.com/nbeos/*.jpg
 ||nczsks.com/scwb/webresource.axd
 ||neets.cc/assets/js/dup.js
+||nelomanga.net/videos/*.mp4
 ||nen.com.cn/eap/
 ||nen.com.cn/service/js/beitou
 ||netded.com/templets/gfan/js/global.js
