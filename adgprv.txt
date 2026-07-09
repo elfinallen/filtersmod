@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-08 13:58:27 UTC
-! Total Rules: 11388
+! Last Updated: 2026-07-09 02:42:04 UTC
+! Total Rules: 11390
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -4588,6 +4588,7 @@
 ||cdn.eu.amplitude.com/libs/analytics-browser-
 ||cdn.fast.beintoo.net/static/tags/beintoo-tag.js
 ||cdn.flowplayer.com/releases/native/3/stable/plugins/ga4.min.js
+||cdn.fonts.net/t/1.css?
 ||cdn.fugu-it.com/web/script.js
 ||cdn.gamedock.io/gamedock-web-tracker/
 ||cdn.gamer-network.net/*/scripts/mormont
@@ -7254,6 +7255,7 @@
 ||lendingtree.com/path/api/track/
 ||lendingtree.com/pixel/
 ||lenovo.com/_ui/desktop/common/js/common/youtubevideoanalytic.js
+||lenovo.com/gemets/
 ||lenovo.com/portalpacks/web/js/analyticsservicefactory*.js
 ||lensdirect.com/page-tracking/
 ||leparking-moto.fr/jsv155/tracker.js

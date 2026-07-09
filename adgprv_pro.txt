@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-08 13:58:27 UTC
-! Total Rules: 118594
+! Last Updated: 2026-07-09 02:42:04 UTC
+! Total Rules: 118600
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -919,6 +919,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /_blazor/*$ping
 /_cpix/art
 /_events/api/setevent$xmlhttprequest
+/_events|$domain=uber.com|ubereats.com|uberhealth.com
 /_ga?send&
 /_ga?sponsor_pixel=
 /_gz/counter.php?
@@ -937,6 +938,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /_static/deliver.js?nonce=$script,~third-party
 /_t/open/*$image
 /_tracking/*
+/_track|$domain=uber.com|ubereats.com|uberhealth.com
 /_vercel/insights/script.js
 /_vercel/speed-insights/script.js
 /_visitcount?
@@ -9669,6 +9671,7 @@ collinsdictionary.com#%#(()=>{const t={detect:()=>({bot:!1})},e={apply:(e,o,n)=>
 coloradoan.com#%#//scriptlet('set-local-storage-item', 'user_insights', '$remove$')
 com-com-i-sub-demo-p-pro-bhyktzus.email.rycofilters.com$image
 comichara.com,movient.net###text-6
+compo.de#%#//scriptlet('set-local-storage-item', 'rid', '$remove$')
 compute.click.s11.sfmc-osl.com$image
 computerbild.de##.articleadditional > .mehrthema
 computerweekly.com#%#//scriptlet('set-local-storage-item', 'anonusertrackingid', '$remove$')
@@ -105622,6 +105625,7 @@ zonedirector.avadacom.com$image
 ||b0e8.com^$third-party
 ||b1img.com^$third-party
 ||b1js.com^$third-party
+||b2.mail.ru/count/$image
 ||b2b.ainews.kz/script/v*/ainews-click.js
 ||b2b.rocketcrm.bz^$domain=fitness-pro.ru
 ||b2c.com^$third-party
@@ -106456,6 +106460,7 @@ zonedirector.avadacom.com$image
 ||cdn.fast.beintoo.net/static/tags/beintoo-tag.js
 ||cdn.firstpromoter.com^$third-party
 ||cdn.flowplayer.com/releases/native/3/stable/plugins/ga4.min.js
+||cdn.fonts.net/t/1.css?
 ||cdn.fugu-it.com/web/script.js
 ||cdn.gamedock.io/gamedock-web-tracker/
 ||cdn.gamer-network.net/*/scripts/mormont
@@ -111210,6 +111215,7 @@ zonedirector.avadacom.com$image
 ||lendingtree.com/path/api/track/
 ||lendingtree.com/pixel/
 ||lenovo.com/_ui/desktop/common/js/common/youtubevideoanalytic.js
+||lenovo.com/gemets/
 ||lenovo.com/portalpacks/web/js/analyticsservicefactory*.js
 ||lensdirect.com/page-tracking/
 ||lenta.ru^$cookie=lid

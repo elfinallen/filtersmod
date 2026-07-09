@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-08 13:58:27 UTC
-! Total Rules: 5846
+! Last Updated: 2026-07-09 02:42:04 UTC
+! Total Rules: 5848
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -1172,6 +1172,7 @@
 ||88ys.cc/js/abcd.js
 ||8d8d.me/images/dealer.gif
 ||8h93.com^*.gif
+||8kporner.com/themes/lite/js/mztn.js
 ||8mg050.n3cdn1.secureserver.net^*.gif
 ||8mg050.n3cdn1.secureserver.net^*/960
 ||8s8s.com/data/banner/
@@ -5114,6 +5115,7 @@
 ||tengzhihh.com/image/*-950x277.
 ||terabox.app/api/ad/
 ||terabox.com/api/ad/
+||testingcf.jsdelivr.net/gh/softwaredefinevehicle/static/lozad.min.js
 ||texnet.com.cn/images/cnbanner/
 ||tfg2.com/images/upfile/ad/
 ||tgb.cn/res/js/tgbgg/
