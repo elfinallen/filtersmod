@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-09 02:42:04 UTC
-! Total Rules: 11390
+! Last Updated: 2026-07-09 14:52:28 UTC
+! Total Rules: 11391
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -1391,6 +1391,7 @@
 /library/svy/broker.js
 /libs/sentry/*/sentry.js
 /libs/tracker.js
+/libtrc/tr5?type=*pixel*
 /liferay-analytics-api.js
 /liferay-analytics-processor.js
 /lightspeed_tracker.js
@@ -5934,6 +5935,7 @@
 ||files.envoke.com^*_nvk_tracking.js
 ||files.metropoles.com/static/comscore.js
 ||files.slideruletools.com/eluredils-g.js
+||files.userlink.ai/public/tracking.js
 ||filmaster.tv^*/flm.tracker.min.js
 ||filmvandaag.nl/pl/js/script.js
 ||filmzie.com/api/v*/analytics/
@@ -9794,7 +9796,6 @@
 ||static.stylight.net/js_external/trackjs.*.js
 ||static.tacdn.com/js3/taevents-c.js
 ||static.talpanetwork.com/prod/js/components/talpa-analytics/
-||static.tblcontent.com/libtrc/tr5?type=loaderpixel
 ||static.teimg.com/analytics.js
 ||static.tonkosti.ru/tonkosti/www/js/snvars.js
 ||static.toss.im/lex/

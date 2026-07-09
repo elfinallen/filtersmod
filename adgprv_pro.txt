@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-09 02:42:04 UTC
-! Total Rules: 118600
+! Last Updated: 2026-07-09 14:52:28 UTC
+! Total Rules: 118602
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -2498,6 +2498,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /library/svy/broker.js
 /libs/sentry/*/sentry.js
 /libs/tracker.js
+/libtrc/tr5?type=*pixel*
 /liferay-analytics-api.js
 /liferay-analytics-processor.js
 /lightspeed_tracker.js
@@ -6246,7 +6247,7 @@ airlift.net#%#//scriptlet('abort-on-property-read', 'posthog')
 akali.webspecmail.com$image
 akamai.webspecmail.com$image
 akshare.moseasia.com$image
-al.com,attackofthefanboy.com,destructoid.com,edmontonsun.com,gamepur.com,gamerjournalist.com,gameskinny.com,lehighvalleylivecom,lgbtqnation.com,macwelt.de,mlive.com,news8000.com,nj.com,pcwelt.de,primagames.com,siliconera.com,syracuse.com,themarysue.com,touchtapplay.com,wegotthiscovered.com#%#//scriptlet('ubo-aost', 'decodeuri', '/(?=^(?!.*\.js))/')
+al.com,attackofthefanboy.com,destructoid.com,edmontonsun.com,gamepur.com,gamerjournalist.com,gameskinny.com,lehighvalleylivecom,lgbtqnation.com,macwelt.de,mlive.com,news8000.com,nj.com,pcwelt.de,pennlive.com,primagames.com,siliconera.com,syracuse.com,themarysue.com,touchtapplay.com,wegotthiscovered.com#%#//scriptlet('ubo-aost', 'decodeuri', '/(?=^(?!.*\.js))/')
 alba.alalikexpress.com$image
 album.moseasia.com$image
 alert.avadacom.com$image
@@ -105020,6 +105021,7 @@ zonedirector.avadacom.com$image
 ||api.experte.com/t/
 ||api.facebook.com/method/logging.clientevent
 ||api.fanmatics.com/event
+||api.faphouse.com^$ping
 ||api.fboom.me/*/analytics/
 ||api.ffbbbdc6d3c353211fe2ba39c9f744cd.com^$third-party
 ||api.ffm.to/sl/e/$image
@@ -108800,6 +108802,7 @@ zonedirector.avadacom.com$image
 ||files.metropoles.com/static/comscore.js
 ||files.slideruletools.com/eluredils-g.js
 ||files.upscore.com/iframe/iframe_conversion_tracking.js$script,redirect=noopjs,domain=schwarzwaelder-bote.de
+||files.userlink.ai/public/tracking.js
 ||filesonic.com/referral/$third-party
 ||filitrac.com^$third-party
 ||filmaster.tv^*/flm.tracker.min.js
@@ -115748,7 +115751,6 @@ zonedirector.avadacom.com$image
 ||static.tacdn.com/js3/taevents-c.js
 ||static.talpanetwork.com/prod/js/components/talpa-analytics/
 ||static.target2sell.com^$third-party
-||static.tblcontent.com/libtrc/tr5?type=loaderpixel
 ||static.teimg.com/analytics.js
 ||static.tonkosti.ru/tonkosti/www/js/snvars.js
 ||static.toss.im/lex/

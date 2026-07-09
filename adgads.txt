@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-09 02:42:04 UTC
-! Total Rules: 5848
+! Last Updated: 2026-07-09 14:52:28 UTC
+! Total Rules: 5854
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -598,6 +598,7 @@
 /web8/ad/*
 /webadvert.php?ad_name=
 /websales_push_*_big.php?id=
+/wp-content/plugins/1shortlink/*
 /wp-content/plugins/eazy-ad-unblocker/*
 /wp-content/plugins/jet-blocker-anti-ad-blocker-detector/*
 /wp-content/themes/imovies/js/tc_
@@ -2660,6 +2661,7 @@
 ||faxingw.cn/js/*ad
 ||faxingw.cn/js/detailgcbox.js
 ||fc2fan.net/js/check_focus.js
+||fc2ppv.stream/upload/assets/js/anti-adblock.js
 ||fd80s.com/static/m.
 ||fdc.com.cn^*adv
 ||feesoon.com/js/cnzz_
@@ -3980,7 +3982,6 @@
 ||media.babylonbee.com/ads/
 ||media.notthebee.com/ads/
 ||media.swncdn.com/salemads/*/advscript.js
-||mediaplex.com/ad/
 ||medsci.cn/images/wyg.jpg
 ||megaup.net/sw.js
 ||meiju8.cc/js/jquery.p.min.js
@@ -4080,11 +4081,11 @@
 ||moratame.tw/img/contents/banner
 ||mortgagecentres.net/banner.gif
 ||moviekhhd.biz/ads/
-||movielair.cc/assets/mone-*.js
 ||movshow.com/*portal/
 ||mowenxi.com/1.png
 ||mp4ba.com^*/js/head.js
 ||mp4ba.net/static/js/mp4ba.js
+||mp4upload.com/bd*.html
 ||mp999.net/wp-content/uploads/*zgg
 ||mphj.com^*runtime/js/
 ||mps.nbcuni.com/fetch/ext/
@@ -4142,7 +4143,6 @@
 ||mylomza.pl/static/files/inline_images/*/inline__
 ||mylust.com/*.jsx
 ||mylust.com/b/
-||mylust.com/static/js/initsite.min.js
 ||myp1p.eu/js/sun.js
 ||myqcloud.com/ad/
 ||myqcloud.com/wp-content/uploads/huoxingyun.
@@ -4630,6 +4630,7 @@
 ||rat.xxx/blsrv/
 ||ratedxbiz.com/d/
 ||raw.githack.com/*/*/main/antiadblock/2.0/code.min.js
+||raw.githubusercontent.com/easylist/easylist/master/docs/1x1.gif
 ||rawcdn.githack.com/*/arlinablock.js
 ||rawcdn.githack.com/sanjoy944/jonaki/*/adblockerpupup.js
 ||readcomiconline.li/ads/
@@ -4779,6 +4780,7 @@
 ||service.hotstar.com^*/midroll
 ||service.iwara.tv/*/*.php?zones=
 ||service.iwara.tv/z/z.php
+||service.smscoin.com/js/sendpic.js
 ||services.postimees.ee/rest/v1/articles/multiple?ids=
 ||sese277.info/photo/
 ||sesefu8.com/index.php?m=poster&
@@ -5027,6 +5029,7 @@
 ||subhd.*/kaiyad.
 ||subhd.com/images/ap/
 ||subserieshd.com/banner/
+||subtitlecat.com/assets/images/gomakego_ad_*.webp
 ||subtitledb.org/js/adblockcheck.js
 ||sucloud.xyz/js/tou.js
 ||sudugu.com/config/v7.js
@@ -5130,6 +5133,7 @@
 ||theporn.xyz/static/bet365.gif
 ||theporn.xyz/static/tmp/
 ||thesimsresource.com/js/ad-loader.js
+||thetoc.gr/content/opap/
 ||thisav.com/0*.js
 ||thisav.com/index.js
 ||thisav.com/js/bioep.
@@ -5406,6 +5410,7 @@
 ||wasabii.com.tw/float/*.js
 ||watchporn.to/banners/
 ||watchporn.to/contents/djifbwwmsrbs/player/seduced_vast.mp4
+||wcostream.com/inc/js/adblock-detector-hardened.js
 ||wcostream.net/premiumad
 ||wdff.buzz/hengf.
 ||we560.com/js/*.js
@@ -5418,6 +5423,7 @@
 ||webkaka.com/info/script/articlead.js
 ||webkaka.com/script/cp.js
 ||webkaka.com^*x50.
+||webtor.io/assets/embed/ads.js
 ||wecima.click/static/js/adblock.js
 ||wei2008.com/js/*0.
 ||wei2008.com/js/t_
@@ -5601,6 +5607,7 @@
 ||xp85.com/common/js/allpage.js
 ||xpaja.net/views/images/ads/
 ||xpcha.com/js/notice.js
+||xpics.me/everyone.
 ||xqishen.com^*/0
 ||xqishen.com^*/1
 ||xslca.cc/js/pf.js
@@ -5818,7 +5825,6 @@
 ||zjtu.tv/add.
 ||zjxc.com/source/plugin/e6_xc_ad/
 ||zk789.cn/res/scripts/show/netsys/show.ashx
-||zkcdn.net/ados.js
 ||zlyk.com/runtime/js/footer.js
 ||zlyk.com/runtime/js/m_footer_top.js
 ||zlyk.com/runtime/js/m_nav_bottom.js
