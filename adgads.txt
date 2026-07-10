@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-10 02:45:00 UTC
-! Total Rules: 5854
+! Last Updated: 2026-07-10 14:18:20 UTC
+! Total Rules: 5842
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -1547,7 +1547,6 @@
 ||assets.msn.com/bundles/*/weather/latest/river-feed.
 ||assets.presearch.com/backgrounds/
 ||assets.stuff.co.nz/static/stuff-adtech-sdk/ads-sdk/
-||assets.systemrequirementslabs.net/srl/wwwroot/js/stake-takeover.js
 ||assetscdn.jable.tv/assets/images/*-760x70.
 ||astrill.com/bnrs/
 ||asuracomic.net/api/ads/
@@ -2009,8 +2008,6 @@
 ||cdn.jsdelivr.net/gh/streamcorner/popads/
 ||cdn.jsdelivr.net/gh/vli-platform/adb-analytics@*/v1.0.min.js
 ||cdn.myhentaicomics.com/assets/frames/banner
-||cdn.onepiecechapters.com/file/cdn-m-a-n/bannerv3.png
-||cdn.onepiecechapters.com/file/cdn-m-a-n/halfpagev3.png
 ||cdn.onnetwork.tv/js/player*/player_prebidm.js
 ||cdn.questvert.pl/publishers/*/qpscript.js
 ||cdn.rawgit.com/arlina-design/quasar/*/arlinablock.js
@@ -2660,7 +2657,7 @@
 ||faxingw.cn/js/*ad
 ||faxingw.cn/js/detailgcbox.js
 ||fc2fan.net/js/check_focus.js
-||fc2ppv.stream/upload/assets/js/anti-adblock.js
+||fc2ppv.*/upload/assets/js/anti-adblock.js
 ||fd80s.com/static/m.
 ||fdc.com.cn^*adv
 ||feesoon.com/js/cnzz_
@@ -2724,7 +2721,6 @@
 ||freehao123.com/wp-content/uploads/2017/05/mmkdm.png
 ||freejavbt.com/assets/images/banner
 ||freepopnews.skin/advert/
-||freeuseporn.com/bnrmanage/
 ||frendz4m.org/arlinablock.js
 ||frontendjs.com/api/ad
 ||frprn.com/even/ok.js
@@ -3276,7 +3272,6 @@
 ||images.whoer.com/image/*.gif
 ||imagespublic.tk/clothes/comeliness.php
 ||imagetwist.com/b9ng.js
-||imageweb.ws/nudebig.jpg
 ||imdb.com/_json/getads/
 ||imedown.info/03.jpg
 ||imedown.info^*.gif
@@ -3535,7 +3530,6 @@
 ||jmhfw.com/index.php?/ajax/get_adv/
 ||jmydm.com/jspage/ftt.js
 ||jnlc.com/www/fund/newsmarket
-||jobtarget.com/distrib_pages/
 ||joemonster.org/build/js/prebid_*.js
 ||johojima.com/wp-content/uploads/*/bn_*.jpg
 ||johojima.com/wp-content/uploads/*/bnr_*.jpg
@@ -3766,7 +3760,6 @@
 ||letemsvetemapplem.eu/*/alzafeed_*.php
 ||letsporn.com/abrk/
 ||letsporn.com/npadm/
-||letsporn.com/qsda/
 ||letv.com/pzt/hyhmzq/index.shtml
 ||lf9-static.bytednsdoc.com/obj/tos-cn-i-0813
 ||lgmi.com/ggimg/
@@ -4142,6 +4135,7 @@
 ||mylomza.pl/static/files/inline_images/*/inline__
 ||mylust.com/*.jsx
 ||mylust.com/b/
+||mylust.com/static/js/initsite.min.js
 ||myp1p.eu/js/sun.js
 ||myqcloud.com/ad/
 ||myqcloud.com/wp-content/uploads/huoxingyun.
@@ -4217,7 +4211,6 @@
 ||no1.168abc.net/upload/
 ||nodejs.cn/scripts/adsbygoogle.js
 ||nongjitong.com/adm/
-||nordstromrack.com/sponsoredads/
 ||notix.io/ent/current/enot.min.js
 ||novelcool.com/files/js/auto_ads.js
 ||novelhall.com/statics/default/js/position.js
@@ -4493,7 +4486,6 @@
 ||ptyw.yiche.com/ssp/
 ||punishworld.com/prerolls/
 ||pupudy.com/images/wxrj.gif
-||purevpn.com/affiliates/
 ||putaoys.com/static/js/acb1.js
 ||putlocker.*/banner/static/
 ||putlocker.*/sab_
@@ -4874,7 +4866,6 @@
 ||singtao.ca/editions/affiliate_
 ||sinolub.com/index.php?m=poster&
 ||site-bk.oss-cn-shenzhen.aliyuncs.com/img/aliyun/
-||siteground.com/img/banners/
 ||sitv.com.cn/cookiead.php
 ||sjks88.com/templets/default/js/mydata4.js
 ||skeimg.com/i/*.gif
@@ -5200,7 +5191,6 @@
 ||toolfk.com/common/zfb.jpg
 ||tools.pdf24.org/static/js/ads.js
 ||toots-a.akamaihd.net/priority/*sponsor
-||topagrar.pl/files/js/ado.js
 ||topmba.mobi/ad/
 ||topthink.com/api/basic/
 ||toptoon03.xyz/app/tuijian.html
@@ -5410,7 +5400,6 @@
 ||wasabii.com.tw/float/*.js
 ||watchporn.to/banners/
 ||watchporn.to/contents/djifbwwmsrbs/player/seduced_vast.mp4
-||wcostream.com/inc/js/adblock-detector-hardened.js
 ||wcostream.net/premiumad
 ||wdff.buzz/hengf.
 ||we560.com/js/*.js
@@ -5615,7 +5604,6 @@
 ||xstt5.com/template/js/fx
 ||xtapes.to/ad/
 ||xtits.*/static/js/custom.js
-||xtits.xxx/static/js/ppndr*.js
 ||xuehi.cn/reward/reward
 ||xunsu.cc/js/indexbottom.js
 ||xunyugong.xyz/sitejs/xunyugong.js

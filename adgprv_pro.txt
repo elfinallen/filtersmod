@@ -1,7 +1,7 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-10 02:45:00 UTC
+! Last Updated: 2026-07-10 14:18:20 UTC
 ! Total Rules: 118606
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
@@ -359,7 +359,7 @@ $cookie=rmstoregateway
 $cookie=rsci_vid
 $cookie=rtbhouseuid,domain=wp.pl
 $cookie=rubiconuid,domain=wp.pl
-$cookie=ruid,domain=afisha.ru|eda.ru|rambler.ru
+$cookie=ruid,domain=afisha.ru|eda.ru
 $cookie=rxvisitor
 $cookie=s_cc
 $cookie=s_ecid
