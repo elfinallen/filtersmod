@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-09 14:52:28 UTC
-! Total Rules: 11391
+! Last Updated: 2026-07-10 02:45:00 UTC
+! Total Rules: 11395
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -3606,6 +3606,7 @@
 ||api-pf.nw18.com/cdp-api/api/data
 ||api-prod.xboostapp.io/xboost_webhook/
 ||api-register.ujoygames.com/logs/
+||api-rengine-stg.viva.id/hit
 ||api-router.kaspersky-labs.com/logger2/metrics/
 ||api-stage.route.com/*/analytics/
 ||api-staging.sitelytics.tech/pixel/core/api/send-event
@@ -5136,6 +5137,7 @@
 ||creately.com/static/js/creately-analytics-
 ||creator-spring.com/ngjj/
 ||credible.com/api/logs-fe
+||credistory.ru/api/metrics/
 ||credistory.ru/api/v1/livemetrics/
 ||creema.jp/ad/click-log
 ||creema.jp/ad/impression-log
@@ -8906,6 +8908,8 @@
 ||reklama.lv/services/collect.php
 ||reklama.lv/services/espy.php
 ||relatorios.prportais.com.br/storage/cdn-adi/news-tracker-min.js
+||relay-prod.typeracer.com/e/
+||relay-prod.typeracer.com/flags/
 ||relish.com/api-insights/
 ||relish.com/js/active-campaign-form.js
 ||remarkable.com/api/proxy/marker

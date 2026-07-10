@@ -1,7 +1,7 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-09 14:52:28 UTC
+! Last Updated: 2026-07-10 02:45:00 UTC
 ! Total Rules: 5854
 ! Expires: 5 days
 /a-duoduo/add-
@@ -124,7 +124,6 @@
 /cari/banner/*
 /cari/daybanner/*
 /cb/cb.xb.js?v=
-/cc6f9acb52d1582671afea808afe10fe.gif
 /cdn-cgi/pe/bag2?*.adm.cnzz.
 /cdn-cgi/pe/bag2?*.overture.com
 /cdn-cgi/pe/bag2?r[]=http%3a%2f%2fope.tanx.com
@@ -4234,6 +4233,7 @@
 ||ntimg.cn/original/images/www_ads.jpg
 ||ntv.cx/assets/stake/
 ||nubiles.net/webmasters/promo/
+||nudify.now/resources/js/p6.js
 ||nulltm.com/adv.js
 ||nupload.me/uuu.php
 ||nvdst.com/adx_

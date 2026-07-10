@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-09 14:52:28 UTC
-! Total Rules: 118602
+! Last Updated: 2026-07-10 02:45:00 UTC
+! Total Rules: 118606
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -104944,6 +104944,7 @@ zonedirector.avadacom.com$image
 ||api-pf.nw18.com/cdp-api/api/data
 ||api-prod.xboostapp.io/xboost_webhook/
 ||api-register.ujoygames.com/logs/
+||api-rengine-stg.viva.id/hit
 ||api-router.kaspersky-labs.com/logger2/metrics/
 ||api-stage.route.com/*/analytics/
 ||api-staging.sitelytics.tech/pixel/core/api/send-event
@@ -107390,6 +107391,7 @@ zonedirector.avadacom.com$image
 ||creativecdn.com^$third-party
 ||creator-spring.com/ngjj/
 ||credible.com/api/logs-fe
+||credistory.ru/api/metrics/
 ||credistory.ru/api/v1/livemetrics/
 ||creema.jp/ad/click-log
 ||creema.jp/ad/impression-log
@@ -114191,6 +114193,8 @@ zonedirector.avadacom.com$image
 ||relaido.jp^$cookie=relaido_uuid
 ||relap.io^$third-party
 ||relatorios.prportais.com.br/storage/cdn-adi/news-tracker-min.js
+||relay-prod.typeracer.com/e/
+||relay-prod.typeracer.com/flags/
 ||relaymedia.com/ping?$third-party
 ||relead.com^$third-party
 ||relevant-digital.com^$third-party
