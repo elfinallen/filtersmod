@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-11 02:24:51 UTC
-! Total Rules: 5844
+! Last Updated: 2026-07-11 13:12:22 UTC
+! Total Rules: 5842
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -1572,6 +1572,7 @@
 ||autopiano.cn/data/jd_
 ||autoscout24.*/frontend-metrics/
 ||av-yoyo.com/images/*.gif
+||av.ageverify.co/*.html
 ||av01.tv/av01/floating_video_ads
 ||av01.tv/images/partners/
 ||av30.xyz/cs/
@@ -2331,7 +2332,6 @@
 ||dealmoon.com/upload/dealmoon_app.jpg
 ||debugease.com/static/js/show.js
 ||deeplol.gg/images/ad/
-||definebabe.com/sum.js
 ||delivery-pc.wasu.cn/d/js/
 ||delivery.vtcnews.vn/dist/adsbyvtc_ver1.js
 ||demaxiya.com/v4/dd/
@@ -2677,7 +2677,6 @@
 ||filma24.*/f24-ytb-v*.js
 ||filma24.*/kazino*.gif
 ||filmibeat.com/scripts/videos/*-videos/scroll-ad.php
-||financemasterpro.com/prebid-mup/
 ||firefoxchina.cn/2014/*_foxphone.png
 ||firefoxchina.cn/chome_*.html
 ||firefoxchina.cn/chome_pmt_
@@ -3272,7 +3271,6 @@
 ||images.sohu.com/ytv/*.jpg
 ||images.whoer.com/image/*.gif
 ||imagespublic.tk/clothes/comeliness.php
-||imagetwist.com/b9ng.js
 ||imdb.com/_json/getads/
 ||imedown.info/03.jpg
 ||imedown.info^*.gif
@@ -3321,7 +3319,6 @@
 ||imhentai.xxx/js/slider_
 ||imooc.com/open/courselistrandjs
 ||imparteconocimientos.com/recursos/anti-adblocker.js
-||in.com/common/script_catch.js
 ||indexclix.com/js/cpmbanners.js
 ||indianexpress.com/wp-content/themes/indianexpress/js/min/in_article_ad.js
 ||indiatimes.com/lgads_
@@ -4136,7 +4133,6 @@
 ||mylomza.pl/static/files/inline_images/*/inline__
 ||mylust.com/*.jsx
 ||mylust.com/b/
-||mylust.com/static/js/initsite.min.js
 ||myp1p.eu/js/sun.js
 ||myqcloud.com/ad/
 ||myqcloud.com/wp-content/uploads/huoxingyun.
@@ -4471,7 +4467,6 @@
 ||proginn.com/cms/10000/
 ||programmer-club.com.tw/images/uuu/
 ||projectorcentral.com/*?bid=
-||promote.pair.com/88x31.pl
 ||property.hk/js/adside.js
 ||proxy6.net/static/img/b/
 ||prydwen.gg/api/banners/
@@ -5401,6 +5396,7 @@
 ||wasabii.com.tw/float/*.js
 ||watchporn.to/banners/
 ||watchporn.to/contents/djifbwwmsrbs/player/seduced_vast.mp4
+||wccftech.com/0ldbu6cv0mz.js
 ||wcostream.net/premiumad
 ||wdff.buzz/hengf.
 ||we560.com/js/*.js
@@ -5465,6 +5461,7 @@
 ||wowfan.net/static/js/index.
 ||woyaoq.com/201904100958_5cad4dbac9c5f.png
 ||wp.com/vfxdownload.com/wp-content/uploads/*-ads-
+||wp.com/vfxdownload.com/wp-content/uploads/*-banner-
 ||wpdaxue.com/img/*/txy-
 ||wpengine.com/wp-json/api/advanced_placement/api-in-article-ad/
 ||wples.com/pc/common.js
@@ -5605,6 +5602,7 @@
 ||xstt5.com/template/js/fx
 ||xtapes.to/ad/
 ||xtits.*/static/js/custom.js
+||xtits.xxx/static/js/ppndr*.js
 ||xuehi.cn/reward/reward
 ||xunsu.cc/js/indexbottom.js
 ||xunyugong.xyz/sitejs/xunyugong.js
