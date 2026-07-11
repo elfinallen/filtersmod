@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-10 14:18:20 UTC
-! Total Rules: 5842
+! Last Updated: 2026-07-11 02:24:51 UTC
+! Total Rules: 5844
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -2258,6 +2258,7 @@
 ||creative.141live.com/widgets/spot/
 ||creative.myasian.live/widgets/
 ||cricbuzz.com/api/adverts/
+||criteo.com/delivery/retailmedia?
 ||criteo.net/design/
 ||crn.com/scripts/delayed.js
 ||crxs.me/service/assets/core-state.
@@ -5627,6 +5628,7 @@
 ||xxxshake.com/static/js/script.js
 ||xygwh.cc/js/p
 ||xygwh.cc/js/x
+||xys*-jadwal.pages.dev/adblock.js
 ||xywy.com/gk?a=
 ||xywy.com/zhixing/
 ||xzji.com/data/block_js/softshow_
