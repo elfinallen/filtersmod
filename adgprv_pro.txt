@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-11 13:12:22 UTC
-! Total Rules: 118608
+! Last Updated: 2026-07-12 02:29:20 UTC
+! Total Rules: 118613
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -103874,6 +103874,10 @@ www2.mtrl.me$image
 www22.click.s11.sfmc-osl.com$image
 www3.assetmanagement.pictet$image
 wwwstg.click.s11.sfmc-osl.com$image
+x.com#%#//scriptlet('set-constant', '__initial_state__.featureswitch.defaultconfig.rweb_home_jot_context_enabled.value', 'false')
+x.com#%#//scriptlet('set-constant', '__initial_state__.featureswitch.user.config.rweb_home_jot_context_enabled.value', 'false')
+x.com#%#//scriptlet('ubo-set', '__initial_state__.featureswitch.defaultconfig.rweb_home_jot_context_enabled.value', 'false')
+x.com#%#//scriptlet('ubo-set', '__initial_state__.featureswitch.user.config.rweb_home_jot_context_enabled.value', 'false')
 xealth.froedtert.com$image
 xfree.com$cookie=anonymous
 xingyue.geely.com,tineco.com,galaxy.geely.com,guancha.cn#%#//scriptlet('set-constant', 'sensors', 'emptyobj')
@@ -104207,6 +104211,7 @@ zonedirector.avadacom.com$image
 ||ablyft.com^$third-party
 ||abmr.net^$third-party
 ||about.me/track?
+||abs.twimg.com/responsive-web/client-web/main.$script,replace=/t\.istrue\("rweb_home_jot_context_enabled"\)/false/
 ||absolstats.co.za^$third-party
 ||absorbingprison.com^$third-party
 ||abtshield.com^$third-party
