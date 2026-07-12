@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-12 02:29:20 UTC
-! Total Rules: 5843
+! Last Updated: 2026-07-12 13:13:30 UTC
+! Total Rules: 5846
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -2015,6 +2015,7 @@
 ||cdn.rawgit.com/arlina-design/quasar/*/arlinablock.js
 ||cdn.rekkerd.org/img/a/rkkrdprm/
 ||cdn.shdsp.net/ad
+||cdn.shortpixel.ai/client/q_lossy,ret_img/https://anime-odcinki.pl/wp-content/uploads/*/ga_banner1.jpg
 ||cdn.statically.io/gh/ad-shield/
 ||cdn.staticaly.com/gh/arlina-design/*/arlinablock.js
 ||cdn.tapioni.com/asg_embed.js
@@ -2262,7 +2263,6 @@
 ||cricbuzz.com/api/adverts/
 ||criteo.com/delivery/retailmedia?
 ||criteo.net/design/
-||crn.com/scripts/delayed.js
 ||crxs.me/service/assets/core-state.
 ||csdn.net/ggmm/
 ||csdn.net/msg.popup.js
@@ -2935,6 +2935,7 @@
 ||guangzhoubingqing.com/88888.jpg
 ||gucheng.com/2016/ggimg/
 ||gucheng.com/gcwad/
+||guessthe.game/ads/
 ||guhai.com.cn/ad/
 ||guifun.com/psptool/ad/
 ||guilin-ly.com^*.gif
@@ -3639,7 +3640,6 @@
 ||kanshushi.com/yyddssdd.
 ||kantie.org/a/images/car.jpg
 ||kantv6.com/index.php/popularize/
-||kaotic.com/templates/*/static/player/video.js/videojs-vast-
 ||kaoyan1v1.com/iaa/
 ||kayege.org/js/
 ||kb-render.alicdn.com/html/*.html
@@ -3787,6 +3787,7 @@
 ||licai18.com/pic/article/*.gif
 ||liepin.com/event/jobadver/
 ||lieqinews.com/json/zhiketj/
+||lightbrd.com/js/ads.js
 ||lihuasoft.net/images/ad_
 ||liisex.com/images/banners/
 ||limeiptv.to/static/b1.gif
@@ -4134,6 +4135,7 @@
 ||mylomza.pl/static/files/inline_images/*/inline__
 ||mylust.com/*.jsx
 ||mylust.com/b/
+||mylust.com/static/js/initsite.min.js
 ||myp1p.eu/js/sun.js
 ||myqcloud.com/ad/
 ||myqcloud.com/wp-content/uploads/huoxingyun.
@@ -4749,6 +4751,7 @@
 ||sd173.com/images/
 ||sd1v.yitongwl.cn/site/
 ||sdbeta.com/statics/mystyle/js/1
+||sdk.apester.com/*.adsbygoogle.min.js
 ||sdo.com/static/image/mkads/
 ||sdzbcg.com/images/sdfhyl
 ||se533.com/template/new/css/*.js
@@ -4991,6 +4994,7 @@
 ||static.tohomh123.com/js/funasd.js
 ||static.videezy.com/assets/underpop-*.js
 ||static.wgospodarce.pl/images/top_banners
+||static.wixstatic.com/media/2b1814_8e9e8ee46c054f11a3cac63dfa7ff4a8~mv2.png/v1/fill/w_300,h_22,al_c/2b1814_8e9e8ee46c054f11a3cac63dfa7ff4a8~mv2.png
 ||static.xshuyaya.com/m/d.js
 ||statics.123pan.com/fe/phoenix-share/js/pcwapad.min.js
 ||stats.chinaz.com/tool/
@@ -5018,7 +5022,6 @@
 ||subhd.com/images/ap/
 ||subserieshd.com/banner/
 ||subtitlecat.com/assets/images/gomakego_ad_*.webp
-||subtitledb.org/js/adblockcheck.js
 ||sucloud.xyz/js/tou.js
 ||sudugu.com/config/v7.js
 ||sudupan.com^*.gif
@@ -5398,6 +5401,7 @@
 ||watchporn.to/banners/
 ||watchporn.to/contents/djifbwwmsrbs/player/seduced_vast.mp4
 ||wccftech.com/0ldbu6cv0mz.js
+||wcostream.com/inc/js/adblock-detector-hardened.js
 ||wcostream.net/premiumad
 ||wdff.buzz/hengf.
 ||we560.com/js/*.js
@@ -5603,7 +5607,6 @@
 ||xstt5.com/template/js/fx
 ||xtapes.to/ad/
 ||xtits.*/static/js/custom.js
-||xtits.xxx/static/js/ppndr*.js
 ||xuehi.cn/reward/reward
 ||xunsu.cc/js/indexbottom.js
 ||xunyugong.xyz/sitejs/xunyugong.js
