@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-13 02:31:06 UTC
-! Total Rules: 118614
+! Last Updated: 2026-07-13 14:30:03 UTC
+! Total Rules: 118621
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -890,6 +890,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /^https:\/\/www\.purevpn\.[a-z]+\/[a-z0-9]{7}\/$/$script
 /^https:\/\/www\.totaljobs\.com\/[a-za-z0-9]+\/[a-za-z0-9]+\/[a-za-z0-9]\/[a-za-z0-9]+\/[a-za-z0-9]+\/[a-za-z0-9]+\/[a-za-z0-9]+\/[a-za-z0-9]+/$script,xmlhttprequest,domain=totaljobs.com
 /^https?:\/\/(?!assets|script|static)(?:[0-9a-z]{10,13}|[0-9a-z]{6})\.[0-9a-za-z.\-_]+\/(?=[0-9a-z+\/\-]*[a-z])[0-9a-za-z+\/\-]{80,106}$/$match-case,script,~third-party
+/^https?:\/\/(android\.com\.pl|biznesenter\.pl)\/[a-z0-9]{1,4}\/$/$script,~third-party,domain=android.com.pl|biznesenter.pl
 /^https?:\/\/fdts\.ebay-kleinanzeigen\.de\/[a-z0-9]{13,18}\.js\?/$script,domain=kleinanzeigen.de
 /^https?:\/\/pov\.spectrum\.net\/[a-za-z0-9]{14,}\.js/$script,domain=spectrum.net
 /^https?:\/\/tjmaxx\.tjx\.com\/libraries\/[a-z0-9]{20,}/$script,xmlhttprequest,domain=tjx.com
@@ -6478,6 +6479,7 @@ bismarck.townsquaremedia.info$image
 bitdefender.com#$#body[style="opacity: 0;"] { opacity: 1 !important; }
 biteki.com#$?#.slick-slide > div[id] + script:upward(1) { remove: true; }
 bizjournals.com##.c1-ad-sticky
+biznesenter.pl#%#//scriptlet('abort-current-inline-script', 'document.createelement', 'gtm.start')
 blog.fc2.com#?#.side-menu > div.sidebar-style > script[src^="//counter1.fc2.com/"]:upward(2)
 blog.fc2.com#?#div[class$="_outline"] > div > div.plugin-counter:upward(2)
 blog.jp#?#.plugin-memo > div.side > div > div[id^="blz_rss"]:upward(3)
@@ -105841,6 +105843,7 @@ zonedirector.avadacom.com$image
 ||bidphysics.com^$third-party
 ||bidr.io^$third-party
 ||bidsimulator.com^$third-party
+||bifrost-api.hotstar.com/v*/events
 ||big7.com^$third-party
 ||bigbrain.me^$third-party
 ||bigcattracks.com^$third-party
@@ -107508,6 +107511,7 @@ zonedirector.avadacom.com$image
 ||cyberpedia.su/count.php
 ||cycling74.com/web/matomo/
 ||cypr.com^$third-party
+||czesciauto24.pl/securegtm/
 ||d-1.co^$third-party
 ||d-bi.fr^$third-party
 ||d-markets.net^$third-party
@@ -108849,6 +108853,7 @@ zonedirector.avadacom.com$image
 ||fixcounter.com^$third-party
 ||fixwap.net^$third-party
 ||fiylo.de/typo3conf/ext/of_design/resources/public/javascript/libs/smarttag_live.js
+||fjordsand.com^$redirect=noopjs,script
 ||fkondate.com^$third-party
 ||flag.lab.amplitude.com^$third-party
 ||flagcounter.com^$third-party
@@ -109891,6 +109896,7 @@ zonedirector.avadacom.com$image
 ||heumm.com/js/site_log.js
 ||heumm.com^$cookie=fb_external_id
 ||heute.at/*/render/common/js/tracking.js
+||hexa.su/script.js
 ||hexagon-analytics.com^$third-party
 ||hexun.com/js/count.
 ||hexun.com/track/
@@ -116893,6 +116899,7 @@ zonedirector.avadacom.com$image
 ||traktor.ru^*/counter.php?
 ||tralut.*.*/collect
 ||transactionale.com^$third-party
+||transcend.io/collect
 ||translate.googleapis.com/element/log?
 ||traq.li/tracker/
 ||traq.li^$third-party

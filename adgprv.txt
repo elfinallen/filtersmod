@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-13 02:31:06 UTC
-! Total Rules: 11395
+! Last Updated: 2026-07-13 14:30:03 UTC
+! Total Rules: 11399
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -4223,6 +4223,7 @@
 ||bhphotovideo.com/3d8mkyg1/init.js
 ||bhphotovideo.com/aperture/shared/js/datalayer.js
 ||bhphotovideo.com/imp/
+||bifrost-api.hotstar.com/v*/events
 ||bigday.ru/counter.php?
 ||biggylabs.com.br/track-api/v2/track/site?
 ||bigw.com.au/api/event/
@@ -5185,6 +5186,7 @@
 ||cxo.name/collect?
 ||cyberpedia.su/count.php
 ||cycling74.com/web/matomo/
+||czesciauto24.pl/securegtm/
 ||d-rw.com/scripts/tracker.js
 ||d.bidmatic.io/tracking/
 ||d.line-cdn.net/*/torimochi.js/*/torimochi.js
@@ -6503,6 +6505,7 @@
 ||heumm.com/js/fb_pixel.js
 ||heumm.com/js/site_log.js
 ||heute.at/*/render/common/js/tracking.js
+||hexa.su/script.js
 ||hexun.com/js/count.
 ||hexun.com/track/
 ||heyday.io/idx/
@@ -10375,6 +10378,7 @@
 ||trafficmanager.net/uet/tracking_script?
 ||traktor.ru^*/counter.php?
 ||tralut.*.*/collect
+||transcend.io/collect
 ||translate.googleapis.com/element/log?
 ||traq.li/tracker/
 ||travel-assets.com^*/experimentrecorder

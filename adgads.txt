@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-13 02:31:06 UTC
-! Total Rules: 5847
+! Last Updated: 2026-07-13 14:30:03 UTC
+! Total Rules: 5843
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -1497,8 +1497,6 @@
 ||api.adultdeepfakes.cam/banners
 ||api.apiimg.com/huaer/xiahe.js
 ||api.bilibili.com/x/ad/
-||api.bitchute.com/slot1/
-||api.bitchute.com/slot2/
 ||api.bo3.gg/api/v1/ad_baners
 ||api.jerkmotion.com/r/
 ||api.leakgallery.com/m/decide
@@ -1718,6 +1716,7 @@
 ||bbs.voc.com.cn/s.js
 ||bbsbaba.com/js/1.js
 ||bbsbaba.com/js/2.js
+||bbys.app/api.php/web/feature
 ||bcb5.com/gg/
 ||bcc.com.tw/imgs/adv/
 ||bccnsoft.com/aac/
@@ -1938,7 +1937,6 @@
 ||caitlin.top/catalog/view/core/comic/fc.js
 ||caitlin.top/catalog/view/core/comic/fc0.js
 ||caixin.com/s?z=
-||camhub.*/static/js/cc-kvs.js
 ||camsaim.com/in/
 ||camspacelive.com/widgets/
 ||camspic.com/imguang/*.gif
@@ -1995,6 +1993,7 @@
 ||cdn.galacg.me/img/*.jpg
 ||cdn.gsmarena.com/vv/assets*/js/_pf-*.js
 ||cdn.haokongbu1.com^*.js
+||cdn.imgz.me/player/ifr/vod/jw-*/vast.js
 ||cdn.jsdelivr.net/gh/*/js/adsenseads.min.js
 ||cdn.jsdelivr.net/gh/*/js/arlinablock.js
 ||cdn.jsdelivr.net/gh/adigunawanxd/pluginsgalaxymag@master/seosecretidnblockads.js
@@ -2705,7 +2704,6 @@
 ||fmgmh.com/template/wap/default/js/lunbo.js
 ||fmhua.com/template/*/images/g_js/*.html
 ||fmovies.*/sw.js
-||fmovies.nz/scripts/os.js
 ||fobshanghai.com/bbsad/
 ||fontke.com/custom/
 ||foodmate.net/file/script/a
@@ -2778,10 +2776,7 @@
 ||game8.vn/partial/all_advwidth*partial
 ||gamecopyworld.com/ddd/
 ||gamefy.cn/cookiead.php
-||gameinformer.com/async-load/block?block_plugin_id=gi5_ads_content_article_
-||gameinformer.com/libraries/adblock-checker/
 ||gameinformer.com/modules/custom/gi5_ads/js/*ads_video*
-||gameinformer.com/modules/custom/gi5_ads/js/content/
 ||gamemale.com/static/js/valida.js
 ||gamersky.com/common/tg/
 ||gamersky.com/g/gamerskyflash.js
@@ -3262,6 +3257,7 @@
 ||ikstatic.cn^*.gif
 ||ilxdh.com/navig/2020-09-08/1599538164_1474.png
 ||im286.net/286/
+||im9.eu/*_*_*.js
 ||image-shop.baidu.com/n/imageproduct?
 ||image.39.net/style/
 ||image.51cto.com/ad/
@@ -3274,6 +3270,7 @@
 ||images.sohu.com/ytv/*.jpg
 ||images.whoer.com/image/*.gif
 ||imagespublic.tk/clothes/comeliness.php
+||imageweb.ws/whaledate.gif
 ||imdb.com/_json/getads/
 ||imedown.info/03.jpg
 ||imedown.info^*.gif
@@ -5598,7 +5595,6 @@
 ||xonlines.com/yyh_qp_200_200.png
 ||xp600.com/js/
 ||xp85.com/common/js/allpage.js
-||xpaja.net/views/images/ads/
 ||xpcha.com/js/notice.js
 ||xpics.me/everyone.
 ||xqishen.com^*/0
