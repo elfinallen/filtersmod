@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-12 13:13:30 UTC
-! Total Rules: 118613
+! Last Updated: 2026-07-13 02:31:06 UTC
+! Total Rules: 118614
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -2890,7 +2890,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /otautoblock.js
 /otlp/traces
 /ouibounce.min.js
-/outbrain.js
+/outbrain.js$~xmlhttprequest
 /outbrainad.
 /outloging.js
 /outloging2.js
@@ -3726,7 +3726,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /t/ofc4/*$image
 /t?referer=
 /t?tcid=
-/taboola.js
+/taboola.js$~xmlhttprequest
 /taboola/loader.js
 /taboolahead.js
 /taevents-c.js
@@ -111354,6 +111354,7 @@ zonedirector.avadacom.com$image
 ||linkwithin.com/pixel.png
 ||linkxchanger.com^$third-party
 ||linris.xyz/cdn-cgi/trace
+||linuxcommunity.io/assets/google-universal-analytics-*.js
 ||linximpulse.net/impulse/
 ||liod1ours.com^$third-party
 ||liquipedia.net/mm.js
