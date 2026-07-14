@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-14 02:10:35 UTC
-! Total Rules: 11400
+! Last Updated: 2026-07-14 13:27:57 UTC
+! Total Rules: 11405
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -4262,6 +4262,7 @@
 ||birdsend.email/pixel
 ||birdsend.net/pixel
 ||bis.org/metrics/web.gif?
+||bissell.pl/datalayer/index/events
 ||bit.ly/stats?
 ||bitcdp.ru/tracker/
 ||bitchute.com/data/script.js
@@ -7619,6 +7620,8 @@
 ||media-lab.ai/ana-sentry.js
 ||media-lab.ai/events
 ||media-platform.com/common/js/lib/cxense/
+||media-trend.mail.ru/pixel/
+||media.complex.com/common/catalyst.js
 ||media.fc2.com/blank.gif
 ||media.fc2.com/counter_empjs.php
 ||media.fc2.com/counter_img
@@ -8783,6 +8786,7 @@
 ||r10s.jp/com/js/omniture/
 ||r25.jp/api/tracking/
 ||r2b2.cz/events.php?
+||r3.mail.ru/k?fver=
 ||r3.mail.ru/k?sign=
 ||r7.com/comscore/
 ||ra.co/proxy/client/metrics
@@ -8910,6 +8914,7 @@
 ||rejoiner.com/tracker/
 ||reklama.lv/services/collect.php
 ||reklama.lv/services/espy.php
+||reklama.mail.ru/*.gif
 ||relatorios.prportais.com.br/storage/cdn-adi/news-tracker-min.js
 ||relay-prod.typeracer.com/e/
 ||relay-prod.typeracer.com/flags/
@@ -9990,7 +9995,6 @@
 ||support.github.com/session/user
 ||support.google.com/apis/logjourney
 ||support.huawei.com/enterprisesearch/3rdparty/opensource/analytics/
-||support.microsoft.com/*/ms.analytics-web-*.min.js
 ||surace-jujitsu.fr/outils/compteur_php/
 ||surfer.com/.api/admiral
 ||surfside.io/event/
@@ -10577,6 +10581,7 @@
 ||ultimedia.com/deliver/statistiques/
 ||ultra-soccer.jp/js/analytics.js
 ||um.viuapi.io/loggingservice/
+||umami.vidfast.
 ||umdc.alibaba-inc.com/ru.gif
 ||umirs.com/counter*.
 ||umirs.com/counters/

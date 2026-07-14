@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-14 02:10:35 UTC
-! Total Rules: 118623
+! Last Updated: 2026-07-14 13:27:57 UTC
+! Total Rules: 118629
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -9674,6 +9674,7 @@ collinsdictionary.com#%#(()=>{const t={detect:()=>({bot:!1})},e={apply:(e,o,n)=>
 coloradoan.com#%#//scriptlet('set-local-storage-item', 'user_insights', '$remove$')
 com-com-i-sub-demo-p-pro-bhyktzus.email.rycofilters.com$image
 comichara.com,movient.net###text-6
+complex.com#%#//scriptlet('set-local-storage-item', 'poll_anonymous_id', '$remove$')
 compo.de#%#//scriptlet('set-local-storage-item', 'rid', '$remove$')
 compute.click.s11.sfmc-osl.com$image
 computerbild.de##.articleadditional > .mehrthema
@@ -105905,6 +105906,7 @@ zonedirector.avadacom.com$image
 ||birdsend.email/pixel
 ||birdsend.net/pixel
 ||bis.org/metrics/web.gif?
+||bissell.pl/datalayer/index/events
 ||bit.ly/stats?
 ||bitcdp.ru/tracker/
 ||bitchute.com/data/script.js
@@ -111836,6 +111838,8 @@ zonedirector.avadacom.com$image
 ||media-lab.ai/ana-sentry.js
 ||media-lab.ai/events
 ||media-platform.com/common/js/lib/cxense/
+||media-trend.mail.ru/pixel/
+||media.complex.com/common/catalyst.js
 ||media.fc2.com/blank.gif
 ||media.fc2.com/counter_empjs.php
 ||media.fc2.com/counter_img
@@ -113985,6 +113989,7 @@ zonedirector.avadacom.com$image
 ||r10s.jp/com/js/omniture/
 ||r25.jp/api/tracking/
 ||r2b2.cz/events.php?
+||r3.mail.ru/k?fver=
 ||r3.mail.ru/k?sign=
 ||r7.com/comscore/
 ||r7ls.net^$third-party
@@ -114205,6 +114210,7 @@ zonedirector.avadacom.com$image
 ||rejoiner.com/tracker/
 ||reklama.lv/services/collect.php
 ||reklama.lv/services/espy.php
+||reklama.mail.ru/*.gif
 ||relaido.jp^$cookie=relaido_uuid
 ||relap.io^$third-party
 ||relatorios.prportais.com.br/storage/cdn-adi/news-tracker-min.js
@@ -116068,7 +116074,6 @@ zonedirector.avadacom.com$image
 ||support.github.com/session/user
 ||support.google.com/apis/logjourney
 ||support.huawei.com/enterprisesearch/3rdparty/opensource/analytics/
-||support.microsoft.com/*/ms.analytics-web-*.min.js
 ||supportxmr.com^$third-party
 ||surace-jujitsu.fr/outils/compteur_php/
 ||surfcounters.com^$third-party
@@ -117218,6 +117223,7 @@ zonedirector.avadacom.com$image
 ||um.viuapi.io/loggingservice/
 ||umami.*/script.js|$script
 ||umami.is^$third-party
+||umami.vidfast.
 ||umbel.com^$third-party
 ||umdc.alibaba-inc.com/ru.gif
 ||umirs.com/counter*.

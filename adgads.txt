@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-14 02:10:35 UTC
-! Total Rules: 5846
+! Last Updated: 2026-07-14 13:27:57 UTC
+! Total Rules: 5854
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -1454,6 +1454,7 @@
 ||aliyuncs.com/vss/haotu.js
 ||aliyuncs.com/wjy99re/
 ||allbeauty.com.tw/goldprice/*_cf.php
+||allporncomic.com/*-*/?_=
 ||allsportsflix.
 ||alu.cn*/aluad/
 ||alu.cn/alutg/
@@ -1497,6 +1498,8 @@
 ||api.adultdeepfakes.cam/banners
 ||api.apiimg.com/huaer/xiahe.js
 ||api.bilibili.com/x/ad/
+||api.bitchute.com/slot1/
+||api.bitchute.com/slot2/
 ||api.bo3.gg/api/v1/ad_baners
 ||api.jerkmotion.com/r/
 ||api.leakgallery.com/m/decide
@@ -1821,6 +1824,7 @@
 ||bitscn.com/js/a2
 ||bixingjia.com/js/hf.
 ||biz-cdn.varzesh3.com/banners
+||bizjournals.com/static/js/app/cxense.js
 ||bjcathay.com/s?z=
 ||bjhockey.org/public/pc/video/test.mp4
 ||bjmama.net/a/spc_
@@ -2049,6 +2053,7 @@
 ||cenyou.net/wp-content/uploads/1200-200.
 ||cesu.ai/uploads/advertimages/
 ||cfzhushou.com^*/king_chance_layer.js
+||cgjnf.com/*/adsbanner
 ||chachefa.com^*.js?v=
 ||chahua.org/aimg/
 ||chakd.com/images/xitie160x60.gif
@@ -3272,6 +3277,7 @@
 ||images.sohu.com/ytv/*.jpg
 ||images.whoer.com/image/*.gif
 ||imagespublic.tk/clothes/comeliness.php
+||imagetwist.com/b9ng.js
 ||imageweb.ws/whaledate.gif
 ||imdb.com/_json/getads/
 ||imedown.info/03.jpg
@@ -4899,6 +4905,7 @@
 ||sobaigu.com/images/server_tourist.jpg
 ||sobaigu.com/images/tencentcloudamd_1040x100.jpg
 ||sobt8.org/public/static/js/common.js
+||socialmonkee.com/images/
 ||socos.gitee.io/ss/poster/
 ||sodu2020.com/js/ppc.js
 ||soduso.com/js/4
@@ -4959,6 +4966,7 @@
 ||sportscn.com/js/commerical
 ||spox.com/daznpic/
 ||spqi.xyz/static/tmp/
+||srx.com.sg/srx/media/
 ||ss9874.com/img/91_
 ||ssjv1.com/dm/
 ||ssl-images-amazon.com/images/*/dasf-
