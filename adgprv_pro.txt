@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-13 14:30:03 UTC
-! Total Rules: 118621
+! Last Updated: 2026-07-14 02:10:35 UTC
+! Total Rules: 118623
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -99559,6 +99559,7 @@ pcgameshardware.de##img[src^="//vg01.met.vgwort.de/"]
 pcid3.click.s11.sfmc-osl.com$image
 pcmag.com##img[src^="https://t.myvisualiq.net/"]
 pcworld.com#%#//scriptlet('href-sanitizer', 'a[href*="skimresources.com"]', '?url')
+peacocktv.com#%#//scriptlet('set-local-storage-item', 'impressiontrackingsessionid', '$remove$')
 pedalparts.co.kr#%#//scriptlet('set-constant', 'acounterpagescriptgoodsview', 'noopfunc')
 pelikan.*#%#//scriptlet('set-local-storage-item', 'papvisitorid', '$remove$')
 pellejss.info$image
@@ -109677,6 +109678,7 @@ zonedirector.avadacom.com$image
 ||grabify.link/api/js
 ||grabnetworks.com/beacons/
 ||grabnetworks.com/ping?
+||grafana-app-proxy.consumer.gopuff.com/collect
 ||grafana.net/collect/
 ||grammarly.com/api/tracking/
 ||granify.com^$third-party

@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-13 14:30:03 UTC
-! Total Rules: 5843
+! Last Updated: 2026-07-14 02:10:35 UTC
+! Total Rules: 5846
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -1542,6 +1542,7 @@
 ||assets.fanpage.it/ciaoprebid-js/*/adstack/sdk/doprebid.js
 ||assets.genius.com/javascripts/compiled/ads-*.js
 ||assets.genius.com/javascripts/compiled/reactads.*.js
+||assets.gnwcdn.com/prebid*.js
 ||assets.moly.hu/system/header_ads/
 ||assets.msn.com/bundles/*/weather/latest/river-feed.
 ||assets.presearch.com/backgrounds/
@@ -2619,6 +2620,7 @@
 ||ettoday.net^*/ad/
 ||etxt.biz/data/rotations/
 ||etxt.biz/images/b/
+||eurogamer.net/static/*/js/commercial.min.js
 ||everyonepiano.cn/public/*0x
 ||excelhome.net/js/banner-
 ||exmoo.com/js/ad-position/
@@ -5239,6 +5241,7 @@
 ||tumblrgallery.xyz/model-live.js
 ||turbobit.net/pus/
 ||turboviplay.com/ads_gala.js
+||turtlecute.org/assets/partners/
 ||tuttotech.net/wp-content/plugins/ta2022-plugin-adblock/
 ||tutudao.net/js/gg*.js
 ||tuwan.com/events/courseiframe?
