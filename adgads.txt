@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-15 02:08:20 UTC
-! Total Rules: 5851
+! Last Updated: 2026-07-15 13:37:56 UTC
+! Total Rules: 5844
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -1484,7 +1484,6 @@
 ||antpedia.com/viewnewsrightboxtop.
 ||anyporn.com/aa/
 ||anysex.com/js/initsite.js
-||anysex.com/static/js/initsite.min.js
 ||anyshare.icu^*.js
 ||anywlan.com/link/*.gif
 ||aolusb.com/forever/
@@ -1816,7 +1815,6 @@
 ||biquge96.com/123.
 ||biqugie.com/js/wap.
 ||bitauto.com/js/sense*.js
-||bitbond.com/affiliate-program/
 ||bitchesgirls.com/libs/adloaders/
 ||bitscn.com/js/a2
 ||bixingjia.com/js/hf.
@@ -2004,8 +2002,6 @@
 ||cdn.jsdelivr.net/gh/dewaplokis/block@master/dewablock.js
 ||cdn.jsdelivr.net/gh/itspro-dev/project_files@
 ||cdn.jsdelivr.net/gh/mdnaik/myblog@master/arlinablock.js
-||cdn.jsdelivr.net/gh/mytoolznet/m-adblocker/2.0/code.min.js
-||cdn.jsdelivr.net/gh/mytoolznet/mab/js/dublocker.js
 ||cdn.jsdelivr.net/gh/prebid/currency-file@1/latest.json
 ||cdn.jsdelivr.net/gh/streamcorner/adcsh/
 ||cdn.jsdelivr.net/gh/streamcorner/popads/
@@ -2022,6 +2018,7 @@
 ||cdn.tapioni.com/asg_embed.js
 ||cdn.uameta.ai/file/bucket-media/image/advertisement/
 ||cdn.viously.com/js/sdk/boot.js
+||cdn.witchhut.com/network-js/witch-afg/witchafg.partner.js
 ||cdn.wo.cc/wo.js
 ||cdn.xiuting.cc/js/go016.js
 ||cdn141.com/banner/adcards.
@@ -2588,7 +2585,6 @@
 ||elecfans.com/webapi/advertisement/
 ||embed.st/ad.html
 ||emoney.cn/www/officalwebstatic/js/slidead.js
-||empflix.com/mew.php
 ||en8848.com.cn/js/ad
 ||en8848.com.cn/js/content.
 ||en8848.com.cn/js/lianxi.js
@@ -4329,7 +4325,6 @@
 ||partner.pcloud.com/media/banners/*300250.png
 ||partwithner.com/partners/
 ||pasazer.com/_assets/js/ad-connect.js
-||paxnews.com/data/pageads
 ||pbc.pagesix.com/p/nyp/pagesix/pb.js
 ||pbmp.ali213.net/js/
 ||pc6.com/img/
@@ -4823,7 +4818,6 @@
 ||short-wave.info/html/adsense-
 ||shouji.com.cn/static/v1/js/appinfo.js
 ||shouyoutv.com/assets/api/web/v4/js/global_head.js
-||shrinkme.io/js/full-page-script.js
 ||shuakongbao.com/resource/images/banner/
 ||shuhaoxs.com/public/
 ||shui5.cn^*/ima/gg
@@ -4885,7 +4879,6 @@
 ||slit.cn/slimages/
 ||sm.ign.com/zdadkit*.js
 ||smaki.pl/_static/ads-*.js
-||smartdestinations.com/ai/
 ||smqzj.com/seo.js
 ||smzy.com/v1/img/
 ||so.91ks.online/asset/bd.js
