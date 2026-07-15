@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-14 13:27:57 UTC
-! Total Rules: 5854
+! Last Updated: 2026-07-15 02:08:20 UTC
+! Total Rules: 5851
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -972,7 +972,6 @@
 ||4hw.com.cn/js/common.js
 ||4kwu.cc/static/js/tj.js
 ||4taoxs.com/api/accept/
-||4up.pics/assets/js/anti-adblock.js
 ||500xxxx.com/go.js
 ||5054399.com/js/rice/m.js
 ||5068.com/*gg
@@ -1038,7 +1037,6 @@
 ||54admin.net/images/ad_
 ||54new.com*/da/
 ||55561.net/ml.
-||555fap.com/upload/assets/js/anti-adblock.js
 ||5588.tv/js/piaofuimg.js
 ||55kp.app/aini.
 ||55sky.com/js/diecuo/
@@ -1461,7 +1459,6 @@
 ||alu.cn/alutrade/fragments/listadvertisementproductshandler.
 ||alu.cn/ashx/ajaxguanggao.
 ||alypw.com/zb_users/plugin/zf_tanchuang/
-||amateur8.com/ffd5/afb.js
 ||amazon.com/aan/
 ||amazonaws.com.cn/static-documents/marketing/uda_banner_
 ||amazonaws.com/91/ads_
@@ -2238,6 +2235,7 @@
 ||content.livesportmedia.eu/api/v1/banners?zone-ids=
 ||content.overwolf.com/curseforge/web/nitro/cursenpinit.js
 ||content.spmediacdn.com/site/banner.html
+||content.swncdn.com/zcast/oneplace/
 ||content.viralize.tv/display/
 ||coolaler.com/index_ads/
 ||coolpc.com.tw/home/img/right2.html
@@ -2666,7 +2664,6 @@
 ||faxingw.cn/js/*ad
 ||faxingw.cn/js/detailgcbox.js
 ||fc2fan.net/js/check_focus.js
-||fc2ppv.*/upload/assets/js/anti-adblock.js
 ||fd80s.com/static/m.
 ||fdc.com.cn^*adv
 ||feesoon.com/js/cnzz_
