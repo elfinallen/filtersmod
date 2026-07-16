@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-16 02:22:10 UTC
-! Total Rules: 11408
+! Last Updated: 2026-07-16 13:43:55 UTC
+! Total Rules: 11410
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -5976,6 +5976,7 @@
 ||flixcart.com/px/gnttli3a/init.js
 ||flixcdn.com^*/track.js
 ||flixster.com^*/analytics.
+||flixtrz.com/api/analytics/watch-event|
 ||flocdn.com^*/dpl/
 ||flocktory.com^*/tracks/
 ||flooranddecor.com/v1hqbvho/init.js
@@ -9166,6 +9167,7 @@
 ||sapo.pt/metrics
 ||sapo.pt/projects/sapoabd/
 ||sascdn.com/mh_audience/
+||satualumni.itb.ac.id/api/client-logs
 ||savecart.pl/d/
 ||savefrom.net/build/js/basicmetricstracking.js
 ||savefrom.net/build/js/experimentloader.js

@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-16 02:22:10 UTC
-! Total Rules: 5845
+! Last Updated: 2026-07-16 13:43:55 UTC
+! Total Rules: 5844
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -598,6 +598,7 @@
 /webadvert.php?ad_name=
 /websales_push_*_big.php?id=
 /wp-content/plugins/1shortlink/*
+/wp-content/plugins/ad-inserter/js/ai-functions.min.js
 /wp-content/plugins/eazy-ad-unblocker/*
 /wp-content/plugins/jet-blocker-anti-ad-blocker-detector/*
 /wp-content/themes/imovies/js/tc_
@@ -1484,6 +1485,7 @@
 ||antpedia.com/viewnewsrightboxtop.
 ||anyporn.com/aa/
 ||anysex.com/js/initsite.js
+||anysex.com/static/js/script_new.js
 ||anyshare.icu^*.js
 ||anywlan.com/link/*.gif
 ||aolusb.com/forever/
@@ -1512,7 +1514,6 @@
 ||apk-01.oss-cn-beijing.aliyuncs.com/dp/
 ||apk.tw/static/js/showpic.js
 ||app-g.39.net/nnn/
-||app.torbobit.net/api/ads/
 ||apple886.com/subs/*.js
 ||apppc.chinaz.com/statics/images/tuan
 ||apptry.easylife.tw/pub/js/common/common.js
@@ -1530,7 +1531,6 @@
 ||arkadiumhosted.com/advertisement/
 ||ashemaletube.com/api/tiles
 ||ashemaletube.com/ast/b/
-||ashemaletube.com/ast/paysite
 ||asiav.cyou/myupdatelist.
 ||asp300.*/2012adimg/
 ||asp300.*/2012js/
@@ -2697,6 +2697,7 @@
 ||flash.mycar168.com/data/js/
 ||flasmr.top/leb.
 ||flighty.cn/images/
+||flixtrz.com/api/ads|
 ||flv2mp3.by/get-rtb-url
 ||flvto.biz/get-rtb-url
 ||flyzy2005.com/wp-content/*/bandwagonhost-top.
@@ -3014,6 +3015,7 @@
 ||hd21.*/templates/base_master/js/jquery.shows.min.js
 ||hdchina.*/styles/topshow/ad/
 ||hdmoli.pro/a_d/
+||hdmovieverse.site/wp-content/plugins/adblock-detector/adblock-detector.js
 ||hdsky.me/adv/
 ||hdslb.com/bfs/ad/
 ||hdslb.com/js/core-v5/picment.
@@ -3936,7 +3938,6 @@
 ||manai521.com:88/bocai/index.html
 ||manga18.me/usd2023/usd_frontend.js
 ||mangabats.com/js/ads/clck-adu-bats.js
-||mangabats.com/js/ads/fly*.js
 ||mangafuna.xyz/static/ads/
 ||mangahax.com/images/ima_
 ||mangahub.io/iframe/
@@ -4448,7 +4449,6 @@
 ||porntn.com/static/js/custom.js
 ||pornv.xxx/static/js/abb.js
 ||pornx.to/wp-content/uploads/ad*x*.png
-||pornxp.*/spnbf.js
 ||pornxp.com/2.js
 ||portal.librus.pl/ad|
 ||postimg.cc^*-960x60.
@@ -4983,7 +4983,6 @@
 ||static.gamedistribution.com/ad-block/
 ||static.hellmoms.com/*/inplaybn-
 ||static.huaren.live/ads/
-||static.ifruplink.net/static_src/mc-banner/
 ||static.okokserver.com/js/anti/adblocker.js
 ||static.olelive.com/upload/site/*/*.gif
 ||static.opensubtitles.org/libs/js/ray-announcement-bar.js

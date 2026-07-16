@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-16 02:22:10 UTC
-! Total Rules: 118632
+! Last Updated: 2026-07-16 13:43:55 UTC
+! Total Rules: 118636
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -94647,6 +94647,7 @@ insideout.e.aremedia.com.au$image
 interfootball.heraldcorp.com#%#//scriptlet('abort-on-stack-trace', 'console', '_0x')
 intranet2.click.s11.sfmc-osl.com$image
 investor-web.hdfcfund.com#%#//scriptlet('set-constant', 'smartech', 'noopfunc')
+ipay.ztgame.com#%#//scriptlet('prevent-fetch', 'beacon.ztgame.com')
 iplobalid3.click.s11.sfmc-osl.com$image
 ipr.edison.com$image
 iprmail.ipressroom.com$image
@@ -100037,6 +100038,7 @@ scarfilm.org##.footer-col-3
 scottlobalid3.click.s11.sfmc-osl.com$image
 screenov.eu#?#.container > div.box:has(> a[href^="https://www.liveinternet.ru/click"])
 search.brave.com#%#//scriptlet('set-local-storage-item', 'app.usagemetricsoptout', 'true')
+search.naver.com#%#//scriptlet('set-cookie-reload', 'nnb', '1', '/', '.naver.com')
 seclub.org##a[href^="http://waplog.net/"]
 secure.axocom.happycustomer.io$image
 secure.bman.happycustomer.io$image
@@ -108889,6 +108891,7 @@ zonedirector.avadacom.com$image
 ||flixfacts.co.uk^$third-party
 ||flixster.com^*/analytics.
 ||flixsyndication.net^$third-party
+||flixtrz.com/api/analytics/watch-event|
 ||flo.com.tr^$cookie=bunsar_visitor_id
 ||flocdn.com^*/dpl/
 ||flockrocket.io^$third-party
@@ -114677,6 +114680,7 @@ zonedirector.avadacom.com$image
 ||sas.com^$third-party
 ||sas15k01.com^$third-party
 ||sascdn.com/mh_audience/
+||satualumni.itb.ac.id/api/client-logs
 ||savecart.pl/d/
 ||savefrom.net/build/js/basicmetricstracking.js
 ||savefrom.net/build/js/experimentloader.js
