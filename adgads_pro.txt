@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-15 13:37:56 UTC
-! Total Rules: 34394
+! Last Updated: 2026-07-16 02:22:10 UTC
+! Total Rules: 34410
 ! Expires: 5 days
 $$div[style="display: none !important;"]:contains(!function(){function a(a){var _idx=)
 $$div[style="display: none !important;"]:contains('ed2k://)
@@ -8143,6 +8143,7 @@ delicious-audio.com#$#html { overflow: auto !important; }
 delicious-audio.com#%#//scriptlet('set-constant', 'adblockerstate', 'undefined')
 delicious.com.au,taste.com.au##.prom-header
 deliveroo.*##.splide__slide:has(p[data-testid="sponsored-label"])
+deliveroo.*##[class^="carousel"] li[class^="slide-"]:has(div[style*="d815008c-8a59-40e3-9c64-79b841bf482c"])
 deliveroo.*##div[class^="homefeedscrolltracker-"]:has(div[data-testid="sponsored-badge"] > p[data-testid="sponsored-tag"])
 deliveroo.*##div[class^="homefeedscrolltracker-"]:has(p[data-testid="sponsored-rating-distance"] > span[data-testid="label-prefix"])
 deliveroo.*##li[class^="slide-"]:has(div[data-testid="sponsored-tag"] > p[data-testid="label"])
@@ -10303,6 +10304,7 @@ forge.plebmasters.de##.home-partner-segment
 forge.plebmasters.de#%#(()=>{window.json.parse=new proxy(json.parse,{apply(r,e,t){const s=reflect.apply(r,e,t),l=s?.results;try{if(l&&array.isarray(l))s?.results&&(s.results=s.results.filter((r=>{if(!object.prototype.hasownproperty.call(r,"adtitle"))return r})));else for(let r in s){const e=s[r]?.results;e&&array.isarray(e)&&(s[r].results=s[r].results.filter((r=>{if(!object.prototype.hasownproperty.call(r,"adtitle"))return r})))}}catch(r){}return s}});})();
 forge.plebmasters.de#%#//scriptlet('json-prune', 'servers.*.imagethumbnailurl servers.*.addescription servers.*.redirecturl servers.*.adtitle *.results.[-].advertisement')
 forge.plebmasters.de#%#//scriptlet('prevent-fetch', '/partners/home')
+forgemods.de##div.grid > div.grid-cols-1:has(> div.thumbnails-section div.inset-0 > span.tracking-widest)
 forkast.news##a[href^="https://h5.whalefin.com/landing2/"]
 formula1.com##div:has(> div[id^="div-gpt-ad-"]:only-child)
 forsal.pl##.infor-ad
@@ -17283,6 +17285,8 @@ net.hr##div[class*="__ads-"]
 net.hr##div[style="display: flex; flex-direction: column; align-items: center; justify-content: center; align-self: stretch; padding: 0px; margin: 0rem -0.9375rem;"]
 net.hr##div[style="padding:0;margin:0;position:relative;width:100%;height:100%"]
 net.hr#?#.cls_frame:has(> div[class^="css-"] > div.wallpaper_container)
+net77.cc#%#//scriptlet('prevent-addeventlistener', 'load', 'showadblockmessage')
+net77.cc#%#//scriptlet('prevent-window-open')
 netbardh.com###bg_left
 netbardh.com###bg_right
 netbardh.com##.js-static[data-position="3.3"]
@@ -17707,6 +17711,10 @@ noodlemagazine.com##div[style="width:900px;height:250px;margin:20px auto 0"]
 noodlemagazine.com#$?#.video_player + style { remove: true; }
 noodlemagazine.com#$?#.video_player ~ div[style] { remove: true; }
 noon.com###noon-modules:has(div[data-qa="widget_admultiproductside"])
+noon.com##[class*="topsection"]:has([class*="adtext"])
+noon.com##[data-qa="plp-grid"] [data-qa="plp-product-box"]:has(svg[width="20"] > path[d])
+noon.com##[data-qa="widget_recommendedproducts"]:has(svg[width="20"] > path[d])
+noon.com##[id*="admultiproductsbanner"]
 noon.com##div[data-qa="plp-product-box"]:has(div[class^="stag-module-"])
 noon.com##div[id*="-adproductslistbanner-"]
 noqreport.com#@#[href^="https://noqreport.com/"] > img
@@ -18157,6 +18165,7 @@ onlyporn.tube,jerkwell.com,pornbaron.net,tubeporn.site,myporn.tube,pornfree.gg,b
 onlyporn.tube,picazor.com,fapnado.com,sexy-youtubers.com##a[href="https://theporndude.com/"]
 onlyporn.tube,porntop.com###s-suggesters
 onlytech.com#%#//scriptlet('abort-current-inline-script', 'eval', 'replace')
+onoflix.com,onoflix.live#%#//scriptlet('json-prune', 'adscript')
 onscreens.me##.mx-auto:has(> div[class*="250px"][class*="300px"])
 onscreens.me##body > section[class="mx-4 my-6"]
 onscreens.me#?#aside > h1:contains(see more here)
@@ -20286,6 +20295,9 @@ rfidworld.com.cn###placeholderr
 rfidworld.com.cn##.indexbanner
 rfidworld.com.cn##.rfidadclass
 rfidworld.com.cn##div[style="width: 100%;position: fixed;top: 0;margin:0;"]
+rg.org###headerbanner
+rg.org##article[class^="_"] > section[class^="_"]:has(> div[class^="_"] a[href^="/en-ca/go/undefined/sportsbook-bonus/"])
+rg.org##section[class^="_"][style]:has(> div > a[href^="/en-ca/go/undefined/"] > img)
 riaway.com##.info_message_container
 richup.io###richup-io_300x250
 riderplanet-usa.com#@##ad_1
@@ -23147,6 +23159,7 @@ thisisanfield.com##.elementor-widget-wp-widget-ai_widget .code-block > div[style
 thisiscolossal.com##.ad-code-block
 thisismoney.co.uk##.button-style > [href]
 thisismoney.co.uk##.cnr5
+thisismoney.co.uk##ad-slot
 thisvid.com##.columns > .column-right:has(> .spots:only-child)
 thisvid.com##.main-nav > li > a[target="_blank"]
 thisvid.com##.video-holder span.message > a[href][target="_blank"]
@@ -24394,6 +24407,7 @@ vansky.com##.liads
 vansky.com##.safari_pop
 vansky.com##.scol-banner
 vansky.com##.top-ad-link
+vares.top#%#//scriptlet('prevent-window-open', '_blank', '1')
 variety.com###leaderboard-no-padding
 variety.com##.o-tease-list__item:has(> article > div > div[id^="adm-"])
 variety.com##.vip-banner
@@ -25874,6 +25888,7 @@ xnxx.*#%#//scriptlet('prevent-addeventlistener', 'domcontentloaded', '/dyn\.ads|
 xnxx.*,xnxx-ru.com###ad-footer
 xnxx.com###ad-footer
 xnxx.com##.ad-footer
+xnxx.com##.help-wizard-cover
 xnxx.com##.mobile-only-hide
 xnxx.com#%#//scriptlet('set-constant', 'xv.conf.dyn.ads', 'undefined')
 xnxx.com#%#//scriptlet('set-constant', 'xv.conf.dyn.excld', 'undefined')
@@ -33630,6 +33645,7 @@ zzzyk.com###tinfo
 ||vansky.com/agdg/vans/adv
 ||vansky.com/agdg/vans/tabbao
 ||vansky.com/index_files/*.gif
+||vares.top/js/profiton-auto_adblock*.js
 ||variflight.com/carnoc/ad/
 ||vasstycom.com^$document
 ||vast.doublemax.net/adserver/vast.xml$script,xmlhttprequest,other,redirect=noopvast-2.0
