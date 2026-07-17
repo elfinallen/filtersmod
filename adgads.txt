@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-16 13:43:55 UTC
-! Total Rules: 5844
+! Last Updated: 2026-07-17 02:24:59 UTC
+! Total Rules: 5846
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -1464,6 +1464,7 @@
 ||amazonaws.com.cn/static-documents/marketing/uda_banner_
 ||amazonaws.com/91/ads_
 ||amazonaws.com/s?z=
+||amigosporn.com/api/ads/
 ||ammcg.imgscloud.com/toy/
 ||ams.cdn.arkadiumhosted.com/advertisement/
 ||anal.media/creatives/
@@ -3715,6 +3716,7 @@
 ||la2.vnecdn.net/static/adp_banner.js
 ||labgame.io/nt.js
 ||labuladong.github.io/algo/pictures/ad/
+||ladybanana.co.uk/js/enhance.js
 ||lagou.com/js/cooperation/
 ||lahoo.ca/api.php?mod=ad&
 ||lahoo.ca/slider
