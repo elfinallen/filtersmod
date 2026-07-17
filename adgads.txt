@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-17 02:24:59 UTC
-! Total Rules: 5846
+! Last Updated: 2026-07-17 13:21:45 UTC
+! Total Rules: 5845
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -1497,8 +1497,6 @@
 ||api.adultdeepfakes.cam/banners
 ||api.apiimg.com/huaer/xiahe.js
 ||api.bilibili.com/x/ad/
-||api.bitchute.com/slot1/
-||api.bitchute.com/slot2/
 ||api.bo3.gg/api/v1/ad_baners
 ||api.jerkmotion.com/r/
 ||api.leakgallery.com/m/decide
@@ -1517,6 +1515,7 @@
 ||app-g.39.net/nnn/
 ||apple886.com/subs/*.js
 ||apppc.chinaz.com/statics/images/tuan
+||appteka.store/api/banners?
 ||apptry.easylife.tw/pub/js/common/common.js
 ||apsgo.com/assets/js/union.
 ||apsgo.com/go/
@@ -1992,7 +1991,6 @@
 ||cdn.dotaoutpost.com/stable/js/wowhead.js
 ||cdn.galacg.me/img/*.gif
 ||cdn.galacg.me/img/*.jpg
-||cdn.gsmarena.com/vv/assets*/js/_pf-*.js
 ||cdn.haokongbu1.com^*.js
 ||cdn.imgz.me/player/ifr/vod/jw-*/vast.js
 ||cdn.jsdelivr.net/gh/*/js/adsenseads.min.js
@@ -2134,7 +2132,6 @@
 ||cilimao.*/amaod/
 ||cilipa.com^*0.js
 ||cineby.*/scripts/os.js
-||cinesrc.st/burger.js
 ||citysbs.com/chongqing/*/1920x179-
 ||citysbs.com/no/*/1190x60-
 ||citysbs.com/no/*/650x50-
@@ -2472,6 +2469,7 @@
 ||duboku.net/static/images/20201111
 ||duboku.net/static/images/yabo
 ||dufile.com/jsa/
+||dungatv.xyz/buceta.php
 ||dunnung.com/wp-content/uploads/*/*/*.gif
 ||duo*.top/runtime/js/psdata.js
 ||duouoo.com/vss/right-ssd.js
@@ -3337,6 +3335,7 @@
 ||instagram.com/api/v*/injected_story_units/
 ||instant-gaming.com/affgames/
 ||instant-gaming.com/api/banner/partner/loader.js
+||instant-gaming.com/images/marketing/banners/
 ||inszu.com/js/qian/
 ||internationalsexguide.nl/banners/
 ||intporn.com/js/siropu/
@@ -3957,7 +3956,6 @@
 ||maomaoks.com/1.
 ||maopu.tv/d/file/p/2019/07/6ac50c702cf9e6a9a7910a510c40cb73.jpg
 ||masadora.net/kakusan-
-||massariuscdn.com/pubs/
 ||masturbation22.com/d/
 ||mat.chasedream.com^*.gif
 ||mat1.gtimg.com/2014/vikkydu/ga/haier
@@ -4074,6 +4072,8 @@
 ||mopo.de/view-resources/dachser2/public/mopo/adshield.js
 ||moratame.tw/img/contents/banner
 ||mortgagecentres.net/banner.gif
+||moviebite.cc/ads-config.js
+||moviebite.cc/ads-loader.js
 ||moviekhhd.biz/ads/
 ||movshow.com/*portal/
 ||mowenxi.com/1.png
@@ -4226,7 +4226,6 @@
 ||nsfwalbum.com/efds435m432.js
 ||ntdtv.com/assets/themes/ntd/js/article_ads.js
 ||ntimg.cn/original/images/www_ads.jpg
-||ntv.cx/assets/stake/
 ||nubiles.net/webmasters/promo/
 ||nudify.now/resources/js/p6.js
 ||nulltm.com/adv.js
@@ -4880,7 +4879,6 @@
 ||slickdeals.net/ad-stats/
 ||slit.cn/slimages/
 ||sm.ign.com/zdadkit*.js
-||smaki.pl/_static/ads-*.js
 ||smqzj.com/seo.js
 ||smzy.com/v1/img/
 ||so.91ks.online/asset/bd.js
@@ -4940,6 +4938,7 @@
 ||souka.me/ad/
 ||soulu365.com/images/zhuce.jpg
 ||soundcloud.com/audio-ads?
+||sourceforge.net/about/top_sitewide
 ||southmoney.com/page/pc/
 ||southmoney.com/page/top
 ||southmoney.com^*/inc/
@@ -4976,7 +4975,6 @@
 ||starnnews.com/banner/
 ||startpage.com/*/adsense/search/async-ads.js
 ||static-cdn.spot.im/production/ads/tags/v*/ads/ads.js
-||static.android.com.pl/plugins/acp-campaigns/
 ||static.c4assets.com/all4-ad-code/latest/adverts.js
 ||static.chinatimes.com/scripts/2019/ad2019.min.js
 ||static.doyouhike.net/partner/
@@ -5190,6 +5188,7 @@
 ||toolfk.com/common/zfb.jpg
 ||tools.pdf24.org/static/js/ads.js
 ||toots-a.akamaihd.net/priority/*sponsor
+||top.l2jbrasil.com/banner/
 ||topmba.mobi/ad/
 ||topthink.com/api/basic/
 ||toptoon03.xyz/app/tuijian.html

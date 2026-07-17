@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-17 02:24:59 UTC
-! Total Rules: 118636
+! Last Updated: 2026-07-17 13:21:45 UTC
+! Total Rules: 118642
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -1255,11 +1255,11 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /appmeasurement.js
 /appmeasurement.js$domain=channel4.com
 /appmeasurement.min.js
-/appmeasurement.min.js$domain=petco.com|tractorsupply.com
+/appmeasurement.min.js$domain=petco.com|tractorsupply.com|eonline.com
 /appmeasurement2.js
 /appmeasurement_module_activitymap.js$domain=channel4.com
 /appmeasurement_module_activitymap.min.js
-/appmeasurement_module_activitymap.min.js$domain=petco.com
+/appmeasurement_module_activitymap.min.js$domain=petco.com|eonline.com
 /appmeasurementcustom.min.js
 /apps/ba-rev/app_metrics
 /apps/ssw/events-collector-lambda/events/*
@@ -105446,6 +105446,7 @@ zonedirector.avadacom.com$image
 ||assets.hearstapps.com/commerce/release/affiliate-
 ||assets.hearstapps.com/commerce/release/affiliate-bundle.
 ||assets.htvapps.com/lumiere/fallback/analytics.js
+||assets.mediadelivery.net/rum.js
 ||assets.minutemediacdn.com/mm-cwv-tracker/
 ||assets.moneymade.io/js/fp.min.js
 ||assets.papegames.com/libs/monitor.js
@@ -109709,6 +109710,7 @@ zonedirector.avadacom.com$image
 ||grfz.de^$third-party
 ||gridsum.com^$third-party
 ||gridsumdissector.com^$third-party
+||grizly.*/metrics/
 ||grmtech.net^$third-party
 ||groceries.morrisons.com/events/
 ||grok.com/_data/v1/a/
@@ -112194,6 +112196,7 @@ zonedirector.avadacom.com$image
 ||movavi.com/proxysss/index.php
 ||movementventures.com/_uid.gif
 ||movetv.com/sa-events
+||moviebite.cc/api/trakt/
 ||moviefone.com/click?
 ||moviefone.com/ping?
 ||moviepilot.de/assets/autotrack
@@ -112390,6 +112393,8 @@ zonedirector.avadacom.com$image
 ||n11.com/realtime/count
 ||n11scdn.akamaized.net^*ha.js
 ||n74s9.com^$third-party
+||na.web.skill.music.a2z.com/api/audioadstarted
+||na.web.skill.music.a2z.com/api/elementclicked
 ||naayna.com^$third-party
 ||nabaza.com^$third-party
 ||naiadsystems.com/api/v1/xment/
@@ -112528,6 +112533,7 @@ zonedirector.avadacom.com$image
 ||netscape.com/c.cgi?
 ||netshoes.com.br/tracking/
 ||netstats.dk^$third-party
+||nettg.pl/store-view/api/track-page-view
 ||netu.ac/cdn-cgi/trace
 ||netupdater.info^$third-party
 ||netuplayer.top/cdn-cgi/trace

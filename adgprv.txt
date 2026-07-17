@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-17 02:24:59 UTC
-! Total Rules: 11410
+! Last Updated: 2026-07-17 13:21:45 UTC
+! Total Rules: 11416
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -3995,6 +3995,7 @@
 ||assets.hearstapps.com/commerce/release/affiliate-
 ||assets.hearstapps.com/commerce/release/affiliate-bundle.
 ||assets.htvapps.com/lumiere/fallback/analytics.js
+||assets.mediadelivery.net/rum.js
 ||assets.minutemediacdn.com/mm-cwv-tracker/
 ||assets.moneymade.io/js/fp.min.js
 ||assets.papegames.com/libs/monitor.js
@@ -6390,6 +6391,7 @@
 ||graphcomment.com/api/thread/*/stats
 ||gratis.com/ccstoreui/*/analytics/visitorsmetric
 ||greg.app/web/analytics/
+||grizly.*/metrics/
 ||groceries.morrisons.com/events/
 ||grok.com/_data/v1/a/
 ||grok.com/_data/v1/events
@@ -7796,6 +7798,7 @@
 ||movavi.com/proxysss/index.php
 ||movementventures.com/_uid.gif
 ||movetv.com/sa-events
+||moviebite.cc/api/trakt/
 ||moviefone.com/click?
 ||moviefone.com/ping?
 ||moviepilot.de/assets/autotrack
@@ -7907,6 +7910,8 @@
 ||n11.com/*/ha.js
 ||n11.com/realtime/count
 ||n11scdn.akamaized.net^*ha.js
+||na.web.skill.music.a2z.com/api/audioadstarted
+||na.web.skill.music.a2z.com/api/elementclicked
 ||naiadsystems.com/api/v1/xment/
 ||naiz.eus/visits
 ||nakanohito.jp/*/?uisv=
@@ -7978,6 +7983,7 @@
 ||netquattro.com/stats/
 ||netscape.com/c.cgi?
 ||netshoes.com.br/tracking/
+||nettg.pl/store-view/api/track-page-view
 ||netu.ac/cdn-cgi/trace
 ||netuplayer.top/cdn-cgi/trace
 ||netusia.xyz/cdn-cgi/trace
