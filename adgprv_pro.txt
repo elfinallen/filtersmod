@@ -1,7 +1,7 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-17 13:21:45 UTC
+! Last Updated: 2026-07-18 02:09:42 UTC
 ! Total Rules: 118642
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
@@ -1223,6 +1223,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /api/site/tracking-config/*
 /api/stat?
 /api/statsd|$~third-party,xmlhttprequest
+/api/stn/audience|$xmlhttprequest
 /api/track?guid
 /api/track|$third-party,xmlhttprequest
 /api/trk?
@@ -103880,8 +103881,7 @@ www2.mtrl.me$image
 www22.click.s11.sfmc-osl.com$image
 www3.assetmanagement.pictet$image
 wwwstg.click.s11.sfmc-osl.com$image
-x.com#%#//scriptlet('set-constant', '__initial_state__.featureswitch.defaultconfig.rweb_home_jot_context_enabled.value', 'false')
-x.com#%#//scriptlet('set-constant', '__initial_state__.featureswitch.user.config.rweb_home_jot_context_enabled.value', 'false')
+x.com#%#//scriptlet('prevent-fetch', '/i/api/1.1/flow/viewer.json')
 x.com#%#//scriptlet('ubo-set', '__initial_state__.featureswitch.defaultconfig.rweb_home_jot_context_enabled.value', 'false')
 x.com#%#//scriptlet('ubo-set', '__initial_state__.featureswitch.user.config.rweb_home_jot_context_enabled.value', 'false')
 xealth.froedtert.com$image

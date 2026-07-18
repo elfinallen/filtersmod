@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-17 13:21:45 UTC
-! Total Rules: 34398
+! Last Updated: 2026-07-18 02:09:42 UTC
+! Total Rules: 34404
 ! Expires: 5 days
 $$div[style="display: none !important;"]:contains(!function(){function a(a){var _idx=)
 $$div[style="display: none !important;"]:contains('ed2k://)
@@ -7056,8 +7056,10 @@ cineblog001.work,vidmatrixa.com,vidchampions.com,vidavaca.cc,asd.ink,jimpenopiso
 cineblog001.work,vidmatrixa.com,vidchampions.com,vidavaca.cc,nzn3.org,wmovies.org,jimpenopisonline.online,9anime-hub.com,movish.to,vidara.so,vidara.to,vindaz.shop,seeflix.to,stmup.*,s1p1cd.com,strmup.*,flashstream.cc,sterham.net,mapple.rip,mapplee.com,fs6.lol,dovkembed.pw,daddylive3.com,mdy48tn97.com,jhdanime.live,tuktukcenma.cam,dramafire.site,miravd.com,3isk.icu,3isk.info,icma.az,luluvid.com,baxoi.buzz,kaoruhana.com,fastflix.top,curiosidadtop.com,zorroplay.xyz,rpmvid.com,olympustaff.com,hianime.*,streamcasthub.store,luluvid.com,cuttlinks.com,veev.to,bigwarp.*,filecrypt.cc,streamup.ws,exe-links.com,cuttty.com,cutynow.com,exnion.com,cutyion.com,jixo.online,exe-urls.com,evernia.site,ijvam.com,mrgec.com,emxaw.com,cety.app,cutnet.net,embedcanaistv.com,getintopcm.com,veplay.top,tuktukcinma.online,lefttoplay.xyz,tvableon.me,y2meta.net#%#//scriptlet('abort-on-property-read', 'zfgdlpopup')
 cineblog001.work,vidmatrixa.com,vidchampions.com,vidavaca.cc,vindaz.shop,xca.cymru,2embed.org,vidara.so,vidara.to,seeflix.to,divicast.com,projectfreetv2.com,faselhd.*$$script[wildcard="*function*break;case*"][min-length="25000"][max-length="100000"]
 cineby.sc#%#//scriptlet('prevent-addeventlistener', '', 'unloaded_at')
+cinecloud.site#%#//scriptlet('abort-current-inline-script', 'eventtarget.prototype.addeventlistener', 'adsbygoogle')
 cined.com##.alternative-links
 cined.com#%#//scriptlet("set-constant", "ulp_noadb", "true")
+cinefreak.nl#%#//scriptlet('abort-current-inline-script', 'onload', 'adsbygoogle')
 cinehd.app##section[aria-label^="sponsored"]
 cinehd.app#%#//scriptlet('prevent-fetch', '/doubleclick|ads-twitter.com|google-analytics.com|adsbygoogle/')
 cinehd.app#%#//scriptlet('prevent-fetch', 'method:head')
@@ -10817,6 +10819,7 @@ gamemonetize.co##div[id^="imacontainer"]
 gamemonetize.video###displayads
 gamemonetize.video#@#.companion-ads
 gameofbay.org,pirateproxy.yt$$script[src="//go.oclasrv.com/apu.php?"][onerror="()"]
+gamepadla.com##a[href^="https://www.amazon.com/"] + div + picture
 gamepadla.com#?#.pmain:contains(partner)
 gamepix.com##div[id^="gpx-banner"]
 gamer.com.tw###bh-bigbanner
@@ -11493,6 +11496,7 @@ greatandhra.com##.adinhedare
 greatandhra.com##.container:has(> .container-inner > #id1.child)
 greatandhra.com##.entry-content > p > span[style="color: #ff0000;"]
 greatandhra.com##.full_width_home.border-topbottom
+greatandhra.com##.shp-layer
 greatandhra.com##.sortable-item_top_add123
 greatandhra.com##a:not([href*="greatandhra.com/"]):not([href^='/']) > img
 greatandhra.com##div[class^="add"]
@@ -18839,6 +18843,8 @@ pixiv.net##.list-none:has(> div > [id^="adsdk"])
 pixiv.net##.multi-ads-area
 pixiv.net##[data-gtm-recommend-zone="index"] li:has(> div > iframe[name$="rectangle"])
 pixiv.net##[style="display: block; width: 100%; height: 520px;"]
+pixiv.net##[style="display: block; width: 300px; height: 250px;"]
+pixiv.net##[style^="display: block; width: 100%; height"]:has(> iframe[data-uid])
 pixiv.net##a[target="premium_noads"]
 pixiv.net##div[class^="sc-"]:has(> [style^="display"][style*="468px;"][style*="60px"])
 pixiv.net##div[data-gtm-recommend-zone] > ul > li:has(> div > div[id^="adsdk-"])
@@ -24062,6 +24068,7 @@ uiil.ink##div[style="height:50px; text-align:center;"]
 uiil.ink#%#//scriptlet('remove-attr', 'onclick', 'button[onclick^="window.open("]')
 uiil.ink,exeygo.com,exe-links.com,mrproblogger.com,cuttyy.com,fc-lc.xyz,link4earn.com,atglinks.com,megaurl.in,megafly.in,tii.la,ckk.ai,xpshort.com,rajsayt.xyz,insurglobal.xyz,usanewstoday.club,cutp.in,try2link.com,filmyzilla-in.xyz,samaa-pro.com,earnme.club,adshort.*,adurly.cc,swzz.xyz,crazyblog.in,baominh.tech,seulink.online,ez4short.com,upshrink.com,beingtek.com,link.rota.cc,insuranceblog.xyz,webo.one,linkfly.io,coinadfly.com,ownurl.site,clk.ink,dl.tech-story.net,link.asiaon.top,xfiles.io,upfiles.*,dz-linkk.com,shorterall.com,promo-visits.site,shrink.icu,rshrt.com,tei.ai,exey.*,claimfreebits.com,jameeltips.us,turkdown.com,tui.click,short.food-royal.com,linkpoi.me,galaxy-link.space,finanzas-vida.com,linkebr.com,smoner.com,charexempire.com,forex-trnd.com,linkshorts.*,mycut.me,cuts-url.com,gainbtc.click,st23q.com,hotel.menjelajahi.com,ccurl.net,shrt10.com,shrinkforearn.in,seulink.net,modapk.link,miklpro.com,afly.pro,exe.app,adcorto.xyz,droplink.co,curto.win,linksfire.co,illink.net,ilinks.in,bitfly.io,imagenesderopaparaperros.com,url.namaidani.com,c-ut.com,4cash.me,shrinkme.in,fir3.net,link1s.net,apksvip.com,pkr.pw,shrinke.me,stfly.me,bolssc.com,cutdl.xyz,shortearn.in,linksly.co,link1s.*,tmearn.com,samapro.me,mondainai.moe,pnd.*,popimed.com,tipsforce.com,aii.sh,7r6.com,iir.ai,tii.ai,biroads.com,dz4link.com,linkad.in,fc.lc,rifurl.com,oncehelp.com,shortpaid.com,slink.bid,encurta.eu,leechpremium.link,readnnews.com,gplinks.co,memoo.xyz,linkviet.top,salez.site,caat.site,earnload.com,gplinks.in,stfly.io,eio.io,cutwin.com,uii.io,techbeast.xyz,zoom-link.com,short.pe,myhealthlytips.com,clik.pw,payskip.org,shrinkme.io,ex-foary.com,linkfinal.com,shrinkurl.org,exe.io,liclink.com,adsafelink.com,enrt.eu,suqdz.com,getlink.deadtoonsindia.net,bollyreveal.com,shrtfly.net,mysiterank.org#%#//scriptlet('set-constant', 'app_vars.force_disable_adblock', 'undefined')
 uindex.org##body > [class][style]:has(> a:is([href="https://mybunny.tv"], [href="https://torrenting.com"], [href="https://scenetime.com"]))
+uindex.org##body > [id][class*=" "]:has(> a[target="_blank"])
 uindex.org#%#//scriptlet('prevent-settimeout', 'window.open(url,')
 uinterview.com###below-content
 uiporn.com###uip-nat
@@ -27490,7 +27497,6 @@ zzzyk.com###tinfo
 ||abminbuy.com/qq
 ||abminbuy.com^*.gif
 ||aboveboardcomplicate.com^$all
-||abs.twimg.com/responsive-web/client-web/main.$script,replace=/t\.istrue\("rweb_home_jot_context_enabled"\)/false/
 ||ac-baidu.90dao.com/inject.js
 ||ac.tc.qq.com/store_file_download?*&dir_path=/admin/swf/
 ||acacdn.com/script/*.js$script,redirect-rule=noopjs
