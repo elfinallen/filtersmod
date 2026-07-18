@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-18 02:09:42 UTC
-! Total Rules: 5845
+! Last Updated: 2026-07-18 13:07:26 UTC
+! Total Rules: 5848
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -1497,7 +1497,8 @@
 ||api.adultdeepfakes.cam/banners
 ||api.apiimg.com/huaer/xiahe.js
 ||api.bilibili.com/x/ad/
-||api.bo3.gg/api/v1/ad_baners
+||api.bitchute.com/slot1/
+||api.bitchute.com/slot2/
 ||api.jerkmotion.com/r/
 ||api.leakgallery.com/m/decide
 ||api.live.bilibili.com/*/banner
@@ -4203,6 +4204,7 @@
 ||nfuwow.com/static/nfuwow/source/front/new/images/
 ||nfydd.com/template/wap1/js/dd.js
 ||ngfiles.com/promos/
+||niepo.net/api/arrayid/analytics.
 ||nitroflare.com/img/banners/
 ||niu07.com/gg/*.js
 ||niubixxx.com/seo/
@@ -4259,7 +4261,6 @@
 ||olgame.tw/home/attachment/
 ||om.cn/api/ad-om/
 ||omguk.com/i/
-||omguk.com/impression/
 ||one101.xyz/data/images/*.gif
 ||onedala.tv/uploads/banner/
 ||onegreen.net/myfile/
@@ -4438,6 +4439,7 @@
 ||porndoe.com/wp-contents/channel?
 ||porngamespass.com/iframes/
 ||pornhd3x.tv/cms_data/sites/admin/files/ads
+||pornhost.com/*.php?js=*&cache=
 ||pornhub.*/_xa/ads
 ||pornlib.com/player_*_ads
 ||pornone.com/js/combined.js
@@ -4448,6 +4450,7 @@
 ||pornpics.de/api/banner/
 ||pornpoppy.com/*/external_pop.js
 ||porntn.com/static/js/custom.js
+||porntube.com/assets/adf-*.js
 ||pornv.xxx/static/js/abb.js
 ||pornx.to/wp-content/uploads/ad*x*.png
 ||pornxp.com/2.js
@@ -5208,6 +5211,7 @@
 ||tptoon.com/skin/js/tjtjkk.
 ||tq121.com.cn/j/ad/
 ||tra.scds.pmdstatic.net/advertising-core/
+||tradehouse.media/js/prebid-
 ||trafficmanager.net/o.js
 ||trahkino.cc/static/js/li.js
 ||tranny.one/trannystatic/ads/
@@ -5448,7 +5452,6 @@
 ||win2008.info/gongyi.gif
 ||windows.net/732d.js
 ||windowszj.net/d/js/list/click
-||winporn.*/templates/base_master/js/jquery.shows2.min.js
 ||winwin7.com/statics/js/pos_js/
 ||winwin7.com/statics/js/user/xz.
 ||wiocha.pl/js/placements.js
