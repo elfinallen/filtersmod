@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-19 02:26:33 UTC
-! Total Rules: 5848
+! Last Updated: 2026-07-19 13:11:37 UTC
+! Total Rules: 5847
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -2003,7 +2003,6 @@
 ||cdn.jsdelivr.net/gh/itspro-dev/project_files@
 ||cdn.jsdelivr.net/gh/mdnaik/myblog@master/arlinablock.js
 ||cdn.jsdelivr.net/gh/prebid/currency-file@1/latest.json
-||cdn.jsdelivr.net/gh/streamcorner/adcsh/
 ||cdn.jsdelivr.net/gh/streamcorner/popads/
 ||cdn.jsdelivr.net/gh/vli-platform/adb-analytics@*/v1.0.min.js
 ||cdn.myhentaicomics.com/assets/frames/banner
@@ -4461,6 +4460,7 @@
 ||ppshk.com^*banner/
 ||ppsj.com.cn/images/ppsj300.gif
 ||pptv.com/game/aplus/client/gamedetail.html
+||pressablecdn.com/wp-content/uploads/2022/06/oci-free-tier-campaign-set
 ||prettyvirgin.com/images/banners/
 ||prettyvirgin.com/js/show.html
 ||price.com.hk/dfp_price.php?
@@ -4816,7 +4816,6 @@
 ||shfq.com/wuyue
 ||shihuo.cn/alibtn_
 ||shimo.im^*/ads?
-||shink.in/js/script.js
 ||shipin188.com/66
 ||shitouxs.com/static/042417.js
 ||short-wave.info/html/adsense-
@@ -4884,6 +4883,7 @@
 ||sm.ign.com/zdadkit*.js
 ||smqzj.com/seo.js
 ||smzy.com/v1/img/
+||snacklink.co/js/web-script.js
 ||so.91ks.online/asset/bd.js
 ||so.com/com/ads?
 ||so.com/index/advertise
@@ -5218,7 +5218,6 @@
 ||trannygem.com/ai
 ||trans.firm.in/*.js
 ||trendmicro.com.tw/wp-content/uploads/*banner
-||trip.com/partners/ad/
 ||trstx.org/overroll/
 ||truex.com/js/client.js
 ||truyensex*/anh/

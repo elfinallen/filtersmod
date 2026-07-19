@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-19 02:26:33 UTC
-! Total Rules: 118641
+! Last Updated: 2026-07-19 13:11:37 UTC
+! Total Rules: 118642
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -103882,6 +103882,7 @@ www22.click.s11.sfmc-osl.com$image
 www3.assetmanagement.pictet$image
 wwwstg.click.s11.sfmc-osl.com$image
 x.com#%#//scriptlet('prevent-fetch', '/i/api/1.1/flow/viewer.json')
+x.com#%#//scriptlet('ubo-no-xhr-if', '/i/api/1.1/flow/viewer.json')
 xealth.froedtert.com$image
 xfree.com$cookie=anonymous
 xingyue.geely.com,tineco.com,galaxy.geely.com,guancha.cn#%#//scriptlet('set-constant', 'sensors', 'emptyobj')
@@ -114388,6 +114389,7 @@ zonedirector.avadacom.com$image
 ||rihappy.com.br/site/track.aspx
 ||ringsrecord.com^$third-party
 ||riotgames.com/m.gif
+||ripples.sh^$third-party
 ||risextube.com/t/
 ||riskid.security^$third-party
 ||rivcash.com/*/event/page_visit
@@ -118248,7 +118250,6 @@ zonedirector.avadacom.com$image
 ||x.com/1.1/graphql/viewer_context.json
 ||x.com/1.1/jot
 ||x.com/9/measurement/
-||x.com/i/api/1.1/flow/viewer.json
 ||x.com/i/api/1.1/graphql/app_context.json
 ||x.com/i/api/1.1/graphql/error_log.json
 ||x.com/i/api/1.1/graphql/user_flow.json
