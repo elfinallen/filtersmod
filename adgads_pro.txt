@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-19 13:11:37 UTC
-! Total Rules: 34370
+! Last Updated: 2026-07-20 03:31:55 UTC
+! Total Rules: 34376
 ! Expires: 5 days
 $$div[style="display: none !important;"]:contains(!function(){function a(a){var _idx=)
 $$div[style="display: none !important;"]:contains('ed2k://)
@@ -6811,6 +6811,7 @@ charlieintel.com,dexerto.com##.text-center.italic
 charlieintel.com,dexerto.com##.top-0.justify-center
 chatelaine.com##.assmbly-ad-text
 chatgpt.com##.border-token-border-default.mt-2.border-t:has(button[aria-label="ad options"])
+chatgpt.com##[class*="_assistantads"]
 chatgpt.com##[data-testid="bazaar-v2-elevated-box"]:has([data-ad-card-root="true"])
 chatgpt.com##[data-testid="bazaar-v2-elevated-box"]:has([data-testid="image-card-v2-elevated-disclosure"])
 chatgpt.com##div.opacity-100.transition-opacity.ease-out:has(button[aria-label="sponsored options"], button[aria-label="ad options"])
@@ -7646,7 +7647,9 @@ crazyporn.xxx##.adswarning
 crazyporn.xxx##.fp-player > div[style^="inset"]
 crazyporn.xxx,4kporn.xxx#%#//scriptlet('remove-node-text', 'script', 'initpopunder')
 crazyporn.xxx,4kporn.xxx$$script:contains(initpopunder)
-crazyshit.com#%#//scriptlet("abort-current-inline-script", "jquery", "document.cookie")
+crazyshit.com##a[href^="https://trustberrie.com/zn/"]
+crazyshit.com##div[id^="aad-footer"]
+crazyshit.com#%#//scriptlet("abort-current-inline-script", "jquery", "window['open")
 crdroid.net#%#//scriptlet('set-constant', 'adblockchecker', 'noopfunc')
 crdroid.net#%#//scriptlet('set-constant', 'adblockchecker.checkadblock', 'nooppromiseresolve')
 creaders.net###guanggao2
@@ -8442,6 +8445,7 @@ dobreprogramy.pl#$#html > body > * { opacity: 1 !important; }
 dobro.systems#@#.adv-box
 dobro.systems#@#.adv-list
 dobro.systems#@#.advbox
+dobrzemieszkaj.pl##.sad
 doc.thinkphp.cn#%#//scriptlet('inject-css-in-shadow-dom', 'a[href*="?utm_source="][target="_blank"] > img { display: none !important; }')
 doc88.com##.adpx250
 docchi.pl##.adcash-banner-wrapper
@@ -24566,6 +24570,7 @@ vik1ngfile.site#%#//scriptlet('abort-current-inline-script', 'json.parse', 'atob
 vik1ngfile.site#%#//scriptlet('prevent-addeventlistener', 'click', 'document.createelement')
 vik1ngfile.site#%#//scriptlet('prevent-addeventlistener', 'domcontentloaded', 'document.createelement')
 vik1ngfile.site,zpaste.net#%#//scriptlet('abort-current-inline-script', 'uint8array', '/=\[\][\s\s]*?new[\s\s]*?\)\)\(\)\}\)/')
+vikacg.com##a[href^="https://acg01.com/]"]
 vikacg.com#%#//scriptlet('prevent-window-open', '!/external')
 vikacg.com,vikacg.icu,vikacg.xyz##div[class^="my-"] > .grid > a[href^="http"]:not([href*="vikacg."])
 vikacg.com,vikacg.icu,vikacg.xyz##div[class^="my-"] > a[href^="http"]:not([href*="vikacg."])
@@ -32113,6 +32118,7 @@ zzzyk.com###tinfo
 ||picb.cc/uploads/2018/06/26/2zxrsi.jpg
 ||picgd.com/images/*.gif
 ||picgd.com/images/2018/12/01/h1pi5.png
+||picjs.xyz/image/*.gif$domain=vikacg.com
 ||piclect.com^*.gif$third-party
 ||picpar.com^$domain=18board.com|18p2p.com
 ||picrew.me/vol/ads/
