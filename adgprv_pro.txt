@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-20 03:31:55 UTC
-! Total Rules: 118644
+! Last Updated: 2026-07-20 13:59:58 UTC
+! Total Rules: 118646
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -99835,6 +99835,7 @@ qiita.com#?#div[class^="css"] > div > div[id^="logly-"]:upward(2)
 qledvideosupport.com$image
 qpp.caq.org.cn#%#//scriptlet('prevent-element-src-loading', 'script', 'hm.baidu.com/hm.js')
 quizlet.com#%#//scriptlet('abort-current-inline-script', 'document.createelement', 'snowplow')
+qwant.com#%#//scriptlet('prevent-fetch', 'apm.qwant.com/intake/v2/rum/events')
 r.gleam.io$image
 rabota.click.s11.sfmc-osl.com$image
 radioprofusion.com##.revolvermaps
@@ -115370,6 +115371,7 @@ zonedirector.avadacom.com$image
 ||socialprofitmachine.com^$third-party
 ||socialrank.fr/client/$third-party
 ||socialtrack.co^$third-party
+||socialxup.com/api/track
 ||sociaplus.com^$third-party
 ||socital.com^*/socital.js
 ||socketviking.net^$third-party

@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-20 03:31:55 UTC
-! Total Rules: 5847
+! Last Updated: 2026-07-20 13:59:58 UTC
+! Total Rules: 5844
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -56,7 +56,6 @@
 /advert/youxi.js
 /advpic/*
 /afd/entry
-/affiliates/vast/?campaign=
 /agetsou.js
 /aipai/player/game_video/videoadvert_
 /ajds/*
@@ -576,7 +575,6 @@
 /uploads/setting/ad/*
 /ut.js?cb=
 /uu114/ad/*
-/vast.php?*&idzone=
 /vast.php?*&tags=exoxvideostargetting
 /vast/?zid=
 /vbvb_*_pmpm.js
@@ -1525,8 +1523,6 @@
 ||aqlife.com/data/attachment/portal/
 ||aqy103.com/js/aqy/
 ||arc.msn.com/*/api/selection?placement=*upsell
-||arhfoundation.org/adscode.js
-||arhfoundation.org/adspanjang.js
 ||ark.le.com/s?vid=
 ||ark.letv.com/s?
 ||arkadiumhosted.com/advertisement/
@@ -2697,6 +2693,7 @@
 ||flasmr.top/leb.
 ||flighty.cn/images/
 ||flixtrz.com/api/ads|
+||flowplayer.com/releases/ads/
 ||flv2mp3.by/get-rtb-url
 ||flvto.biz/get-rtb-url
 ||flyzy2005.com/wp-content/*/bandwagonhost-top.
@@ -2776,7 +2773,6 @@
 ||game8.vn/partial/all_advwidth*partial
 ||gamecopyworld.com/ddd/
 ||gamefy.cn/cookiead.php
-||gameinformer.com/modules/custom/gi5_ads/js/*ads_video*
 ||gamemale.com/static/js/valida.js
 ||gamersky.com/common/tg/
 ||gamersky.com/g/gamerskyflash.js
@@ -3096,7 +3092,6 @@
 ||hoopchina.com.cn/web/widget/partner/*/promote.js
 ||hoopchina.com.cn^*/ad-pc-sdk.
 ||hornygamer.com/play_horny_games/
-||hornysimp.com/style-core.js
 ||hotavxxx.com/images/*96
 ||hoteastday.com/newspc/show?
 ||hotpress.info/blog/asian-javdl/wp-content/uploads/irvsxp.js
@@ -3970,7 +3965,6 @@
 ||mddcloud.*/oweapi/ad/
 ||me680.com/js/*.js
 ||medex.com.bd/img/_affiliates/
-||media-elmtree.com/pu_script.js
 ||media.babylonbee.com/ads/
 ||media.notthebee.com/ads/
 ||media.swncdn.com/salemads/*/advscript.js
@@ -4242,6 +4236,7 @@
 ||nyaa.land/static/p2.jpg
 ||nyahentai.pw/js/check_cat.js
 ||nychinaren.com/houbei/
+||nylons-porno.com/poj/
 ||nylonsbeauty.com/med/
 ||nz04com.com/aabdd/
 ||nzherald.co.nz/pf/resources/dist/scripts/global-ad-script.js
@@ -4359,6 +4354,7 @@
 ||pengwei168.com/template/stui_tpl/html/vod/f.js
 ||people.com.cn/adv/
 ||people.com.cn/img/gjt/
+||perfectmoney.com/img/banners/
 ||perlmaven.com/img/*0x2
 ||perlmaven.com/img/sticker-you.jpg
 ||petco.com/wcsstore/petcosas/javascript/smartbanner.js
@@ -4495,6 +4491,8 @@
 ||pv966.us/js/tw.js
 ||pw321.com/bulu/
 ||pw321.com^*.gif
+||pxp.news/2.js
+||pxp.news/spnbf.js
 ||py.cn/src/img/pyy/
 ||py.cn/static/images/advert/
 ||qafqazinfo.az/public/site/js/reklam.js
@@ -5447,7 +5445,6 @@
 ||widgets.outbrain.com/outbrain.js
 ||wikihow.com/x/zscsucgm?
 ||williamlong.info/script/sidebar.js
-||willowmovies.com/ads.json
 ||win2008.info/gongyi.gif
 ||windows.net/732d.js
 ||windowszj.net/d/js/list/click
