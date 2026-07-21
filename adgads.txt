@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-21 02:25:32 UTC
-! Total Rules: 5847
+! Last Updated: 2026-07-21 13:42:23 UTC
+! Total Rules: 5842
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -1528,6 +1528,7 @@
 ||arkadiumhosted.com/advertisement/
 ||ashemaletube.com/api/tiles
 ||ashemaletube.com/ast/b/
+||ashemaletube.com/ast/paysite
 ||asiav.cyou/myupdatelist.
 ||asp300.*/2012adimg/
 ||asp300.*/2012js/
@@ -2127,7 +2128,6 @@
 ||cidianwang.com/js/zdtop.js
 ||cilimao.*/amaod/
 ||cilipa.com^*0.js
-||cineby.*/scripts/os.js
 ||citysbs.com/chongqing/*/1920x179-
 ||citysbs.com/no/*/1190x60-
 ||citysbs.com/no/*/650x50-
@@ -2600,6 +2600,7 @@
 ||eporner.com/event.php
 ||eporner.com/xhr/vast/
 ||eprice.com.tw/img/tw_m/ad/
+||ero-labs.*/api/v2/system/config?name=partner_mall_url
 ||ero-labs.*/assets/js/appbanner.js
 ||eroprofile.com/js/nvbla.js
 ||erowall.com/126.js
@@ -3038,7 +3039,6 @@
 ||helpers.publisherdesk.com/main.js
 ||henan.sina.com.cn/iframe/7/
 ||henan100.com/d/file/indexad/
-||hentaiasmr.moe/b4b8.js
 ||hentaicomic.*/data/ds/
 ||hentaicomic.*/data/game/*/wap.gif
 ||hentaifox.com/js/slider.js
@@ -3599,7 +3599,6 @@
 ||jvzoo.com/assets/widget/
 ||jwpcdn.com/player/*/googima.js
 ||jwpcdn.com/player/plugins/bidding/
-||jwpcdn.com/player/plugins/googima/
 ||jxcn.cn/assets/images/downweatherapp.png
 ||jxcn.cn/js/hotpic_
 ||jxdown.com/statics/js/all.js
@@ -4265,7 +4264,6 @@
 ||onetvb.com/assets/javascripts/
 ||onlinemschool.com/pictures/stb.png
 ||onnetwork.tv/widget/
-||onrender.com/api/ads/
 ||onx8.com/theme/tange/add/
 ||onx8.com/zb_users/theme/ydgreen/style/ad/
 ||oodcd.cn/pan/config/ad.json
@@ -4472,7 +4470,6 @@
 ||programmer-club.com.tw/images/uuu/
 ||projectorcentral.com/*?bid=
 ||property.hk/js/adside.js
-||proxy6.net/static/img/b/
 ||prydwen.gg/api/banners/
 ||ps0z.com/300x250b
 ||ps123.net/myfile/
@@ -4836,6 +4833,7 @@
 ||shuowan.com/public/shuo/20160119/569dafddd13be.jpg
 ||shushenge.com/js/bc
 ||sihbb.com/yang/
+||simpcity.network/smp/
 ||sina.cn/check?
 ||sina.cn/cm/sinaads_
 ||sina.cn/interface/*_game_wap_home_mid_list_in.
@@ -4951,7 +4949,6 @@
 ||sozi.cn/images/tj/hukead.gif
 ||sozi.cn/images/tj/szdown
 ||sozi.cn/templets/sozi/js/js.js
-||sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://pley.gg/wp-content/uploads/2024/11/frame-427321538-2.png
 ||spankbang.com/api/*?ad_zone=
 ||spankbang.com/official/serve_
 ||spanking.wiki/morning-bread-
@@ -5014,7 +5011,6 @@
 ||storyren.top/imgg/
 ||straitstimes.com/_web2/betterads_head.js
 ||stream.cz/*/vast?
-||stream.offidocs.com/images/*-banner
 ||streamfree.top/analytics.js
 ||stripchat.com/api/external/
 ||stulip.org/static/js/header.js
@@ -5076,7 +5072,6 @@
 ||t2.picb.cc/2022/08/07/6rppj1.jpg
 ||t2.picb.cc/2022/08/07/6rprkd.jpg
 ||taboola.com/vpaid/
-||taboola.com^*/vignette-render.js
 ||taijuba.com/js/*_
 ||taijuba.com/js/tj
 ||taijuwang.com/template/alifun/js/unfavui.

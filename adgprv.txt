@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-21 02:25:32 UTC
-! Total Rules: 11423
+! Last Updated: 2026-07-21 13:42:23 UTC
+! Total Rules: 11430
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -3727,6 +3727,7 @@
 ||api.pearcommerce.com/v1/page_load?
 ||api.phnx.click/js/article-stat-
 ||api.phoenix-widget.com/c?wid=
+||api.pico.bendingspoonsapps.com/v*/web-events
 ||api.pico.tools/metrics/
 ||api.picox.bendingspoons.com/v1/events
 ||api.poool.fr/api/v3/access/event
@@ -5623,6 +5624,7 @@
 ||ec-apis.newegg.com/amber3/tracking
 ||economx.hu/ident-fingerprint/
 ||ecranlarge.com/stat
+||ecs.*.on.aws/events?cee=
 ||edge-hls.doppiocdn.com/ping
 ||edge-hls.doppiocdn.live/ping
 ||edge-hls.doppiocdn.net/ping
@@ -9068,6 +9070,7 @@
 ||run.app/data.log
 ||run.app/event-tracking-trigger
 ||run.app/events-receiver/get-web-event
+||run.app/events?cee=
 ||run.app/metrics/
 ||run.app/track.js
 ||run.crtx.info/track.min.js
@@ -9553,6 +9556,7 @@
 ||sobaka.ru/assets/*/countersapi.js
 ||sobeycloud.com/services/stat.
 ||soccer.ru/counter/
+||socialxup.com/api/sale-accounts
 ||socialxup.com/api/track
 ||socital.com^*/socital.js
 ||sockr.birdie.so/event
@@ -9890,6 +9894,9 @@
 ||stilanzeigen.net/track/
 ||stileproject.com/vhtk/
 ||stirr.com/api/stats
+||stloadi.live/errors
+||stloadi.live/events
+||stloadi.live/stat
 ||stmg-prod.mirror.co.uk/analytics.config.json
 ||stockanalysis.com/cfa/
 ||stockx.com/16ud0kof/init.js

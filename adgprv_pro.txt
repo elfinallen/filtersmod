@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-21 02:25:32 UTC
-! Total Rules: 118655
+! Last Updated: 2026-07-21 13:42:23 UTC
+! Total Rules: 118663
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -105104,6 +105104,7 @@ zonedirector.avadacom.com$image
 ||api.personaclick.com/push$xmlhttprequest
 ||api.phnx.click/js/article-stat-
 ||api.phoenix-widget.com/c?wid=
+||api.pico.bendingspoonsapps.com/v*/web-events
 ||api.pico.tools/metrics/
 ||api.picox.bendingspoons.com/v1/events
 ||api.poool.fr/api/v3/access/event
@@ -108265,6 +108266,7 @@ zonedirector.avadacom.com$image
 ||econda-monitor.de^$third-party
 ||economx.hu/ident-fingerprint/
 ||ecranlarge.com/stat
+||ecs.*.on.aws/events?cee=
 ||ecustomeropinions.com^$third-party
 ||edge-hls.doppiocdn.com/ping
 ||edge-hls.doppiocdn.live/ping
@@ -112918,6 +112920,7 @@ zonedirector.avadacom.com$image
 ||online.hentai-share.me/templates/anime-share2/js/liveinternet.js
 ||online.hentai-share.me/templates/anime-share2/js/metrika.js
 ||online.marketing/a.js
+||online.spsglobal.com^$badfilter
 ||onlinepbx.ru^$third-party
 ||onlinepngtools.com/api/v1/stats/$ping
 ||onlinepngtools.com/images/examples-onlinepngtools/single-opaque-pixel.png
@@ -114534,6 +114537,7 @@ zonedirector.avadacom.com$image
 ||run.app/event-tracking-trigger
 ||run.app/events$domain=imgur.com|worldstar.com|worldstarhiphop.com
 ||run.app/events-receiver/get-web-event
+||run.app/events?cee=
 ||run.app/metrics/
 ||run.app/track.js
 ||run.crtx.info/track.min.js
@@ -115379,6 +115383,7 @@ zonedirector.avadacom.com$image
 ||socialprofitmachine.com^$third-party
 ||socialrank.fr/client/$third-party
 ||socialtrack.co^$third-party
+||socialxup.com/api/sale-accounts
 ||socialxup.com/api/track
 ||sociaplus.com^$third-party
 ||socital.com^*/socital.js
@@ -115927,6 +115932,9 @@ zonedirector.avadacom.com$image
 ||stileproject.com/vhtk/
 ||stippleit.com^$third-party
 ||stirr.com/api/stats
+||stloadi.live/errors
+||stloadi.live/events
+||stloadi.live/stat
 ||stmg-prod.mirror.co.uk/analytics.config.json
 ||stockanalysis.com/cfa/
 ||stocksy.com^$cookie=stocksylytics_anon_id
