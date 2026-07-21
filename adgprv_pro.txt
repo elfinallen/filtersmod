@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-20 13:59:58 UTC
-! Total Rules: 118646
+! Last Updated: 2026-07-21 02:25:32 UTC
+! Total Rules: 118655
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -60,6 +60,8 @@ $cookie=__kla_session
 $cookie=__pulseenvironmentid
 $cookie=__pvi
 $cookie=__qca
+$cookie=__rtbh.lid
+$cookie=__rtbh.uid
 $cookie=__stid
 $cookie=__stidv
 $cookie=__tbc
@@ -129,6 +131,7 @@ $cookie=_pcid
 $cookie=_pctx
 $cookie=_pcus
 $cookie=_perhip,domain=womenshealthmag.com|bicycling.com|bestproducts.com|caranddriver.com|cosmopolitan.com|countryliving.com|delish.com|elledecor.com|elle.com|esquire.com|goodhousekeeping.com|harpersbazaar.com|housebeautiful.com|oprahdaily.com|prevention.com|redbookmag.com|roadandtrack.com|runnersworld.com|seventeen.com|townandcountrymag.com|veranda.com|womansday.com|autoweek.com|thepioneerwoman.com|popularmechanics.com
+$cookie=_pin_unauth
 $cookie=_pubcid
 $cookie=_pubcid_cst
 $cookie=_pubcommonid
@@ -5842,7 +5845,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ://email.*/o/$image
 ://emailtracking.$image
 ://fallback.*/collector
-://fathom.$domain=~fathom.care|~fathom.co.za|~fathom.fm|~fathom.info|~fathom.io|~fathom.lib.uchicago.edu|~fathom.org|~fathom.video|~fathom.world|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
+://fathom.$domain=~fathom.care|~fathom.co.za|~fathom.fm|~fathom.info|~fathom.io|~fathom.lib.uchicago.edu|~fathom.news|~fathom.org|~fathom.video|~fathom.world|~fathomdelivers.com|~fathomseo.com|~usesfathom.com
 ://gtm.*.js?id=gtm-
 ://gtm.*.js?st=
 ://gtrack.*.com/dye?
@@ -6301,7 +6304,7 @@ apkpure.*#%#//scriptlet('set-constant', '$$.analytics', 'emptyobj')
 apkpure.*#%#//scriptlet('set-constant', '$$.analytics.send', 'noopfunc')
 apkpure.com#%#//scriptlet('remove-node-text', 'script', '/deviceid|__apkpurefirstinteractiontype|fingerprintjs|pvid/i')
 apkpure.com#%#//scriptlet('set-local-storage-item', '__beacon_deviceid', '$remove$')
-apnews.com,artforum.com,artnews.com,billboard.com,calgaryherald.com,calgarysun.com,crooksandliars.com,deadline.com,dpreview.com,driving.ca,financialpost.com,goldderby.com,golfdigest.com,hollywoodreporter.com,indiewire.com,lfpress.com,nationalpost.com,nbcsports.com,oregonlive.com,ottawasun.com,robbreport.com,rollingstone.com,sherdog.com,sidereel.com,superherohype.com,techcrunch.com,torontosun.com,vancouversun.com,variety.com,vibe.com,windsorstar.com,wwd.com#%#//scriptlet('ubo-acs', 'document.getelementsbytagname', '.pubads')
+apnews.com,artforum.com,artnews.com,billboard.com,calgaryherald.com,calgarysun.com,crooksandliars.com,deadline.com,dpreview.com,driving.ca,financialpost.com,goldderby.com,golfdigest.com,hollywoodreporter.com,indiewire.com,lfpress.com,nationalpost.com,nbcsports.com,oregonlive.com,ottawasun.com,robbreport.com,rollingstone.com,sherdog.com,sidereel.com,superherohype.com,techcrunch.com,torontosun.com,vancouversun.com,variety.com,vibe.com,windsorstar.com,wtsp.com,wwd.com#%#//scriptlet('ubo-acs', 'document.getelementsbytagname', '.pubads')
 app.mellstroy.website$image
 app.spectacularacademy.com$image
 app.tirelocator.ca#%#//scriptlet("set-constant", "googleanalyticsenhancedtrackevent", "noopfunc")
@@ -105168,6 +105171,7 @@ zonedirector.avadacom.com$image
 ||api.tv.de/*/tracking/
 ||api.u-komi.com/track|
 ||api.userstyles.org/tic/stats
+||api.usestoryteller.com/api/app/activity/recordactivity?
 ||api.viavarejo.com.br/fp/
 ||api.vicomi.com/api/*/analytics/
 ||api.videowise.com/tracking/
@@ -106472,6 +106476,7 @@ zonedirector.avadacom.com$image
 ||cdn.dsmcdn.com/frontend/web/production/dom-event-tracker-
 ||cdn.dsmcdn.com/sfint/production/demeter-prod-*.umd.js
 ||cdn.dsmcdn.com/sfx/mergen/
+||cdn.dsmcdn.com/web/prod/ring-manager.js
 ||cdn.dzen.ru/pingx
 ||cdn.eu.amplitude.com/libs/analytics-browser-
 ||cdn.evgnet.com/beacon/*/scripts/evergage.min.js$script,redirect=noopjs
@@ -109210,6 +109215,7 @@ zonedirector.avadacom.com$image
 ||gamivo.com/tcllc?
 ||gammachug.com^$third-party
 ||gamona.de/*package/smbanalyticstracking
+||gamsgo.com^$cookie=_gv_visit_tracking
 ||ganalytics.live^$third-party
 ||gannettdigital.com/capture_logger/
 ||gapl.hit.gemius.pl/gplayer.js$script,redirect=noopjs,domain=player.antyradio.pl|player.radiozet.pl|player.chillizet.pl|player.meloradio.pl
@@ -111072,6 +111078,8 @@ zonedirector.avadacom.com$image
 ||kokos.click^$third-party
 ||kolayik.com/gjyo/
 ||kolesa.kz/ms/rum/v1/send
+||kolivo.id/api/v1/track/event
+||kollabo.id/*/vitals
 ||kommersant.ru/a.asp?p=
 ||kommersant.uk/banner_stats
 ||komoot.*/api/t/event
@@ -116594,6 +116602,7 @@ zonedirector.avadacom.com$image
 ||tinybird.co/v0/events?
 ||tinyclues.com^$third-party
 ||tinycounter.com^$third-party
+||tinylytics.app^$third-party
 ||tinypass.com/checkout/offer/trackshow
 ||tinypass.com^*/track?
 ||tinystat.ir^$third-party

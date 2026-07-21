@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-20 13:59:58 UTC
-! Total Rules: 11419
+! Last Updated: 2026-07-21 02:25:32 UTC
+! Total Rules: 11423
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -3786,6 +3786,7 @@
 ||api.tv.de/*/tracking/
 ||api.u-komi.com/track|
 ||api.userstyles.org/tic/stats
+||api.usestoryteller.com/api/app/activity/recordactivity?
 ||api.viavarejo.com.br/fp/
 ||api.vicomi.com/api/*/analytics/
 ||api.videowise.com/tracking/
@@ -4588,6 +4589,7 @@
 ||cdn.dsmcdn.com/frontend/web/production/dom-event-tracker-
 ||cdn.dsmcdn.com/sfint/production/demeter-prod-*.umd.js
 ||cdn.dsmcdn.com/sfx/mergen/
+||cdn.dsmcdn.com/web/prod/ring-manager.js
 ||cdn.dzen.ru/pingx
 ||cdn.eu.amplitude.com/libs/analytics-browser-
 ||cdn.fast.beintoo.net/static/tags/beintoo-tag.js
@@ -7166,6 +7168,8 @@
 ||kojima.net/excludes/kpc/js/kjm_gtm.js
 ||kolayik.com/gjyo/
 ||kolesa.kz/ms/rum/v1/send
+||kolivo.id/api/v1/track/event
+||kollabo.id/*/vitals
 ||kommersant.ru/a.asp?p=
 ||kommersant.uk/banner_stats
 ||komoot.*/api/t/event

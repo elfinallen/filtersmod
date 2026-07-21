@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-20 13:59:58 UTC
-! Total Rules: 5844
+! Last Updated: 2026-07-21 02:25:32 UTC
+! Total Rules: 5847
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -2145,6 +2145,7 @@
 ||ckxxbao.com/templets/default/js/wx.js
 ||classicgames.me/ads/*.html
 ||clb.biz/public/static/js/common-v2.js
+||cloud-web-network.workers.dev/adblock.js
 ||cloud.tencent.com/developer/api/common/getads
 ||cloud.tencent.com/developer/api/common/getoneads
 ||clouddn.com/960x60.gif
@@ -3153,6 +3154,7 @@
 ||hy5.com.cn/admin/
 ||hybase.com/ckjs/
 ||hybase.com/images/hysq99.png
+||hypersonicmedia.workers.dev/adblock.js
 ||hznzcn.com/moban/youxiajiao.js
 ||i-gamer.net/promo_
 ||i-part.com.tw/js2/newshinestar
@@ -3637,6 +3639,7 @@
 ||kantie.org/a/images/car.jpg
 ||kantv6.com/index.php/popularize/
 ||kaoyan1v1.com/iaa/
+||katehra.com/galaksion.js
 ||kayege.org/js/
 ||kb-render.alicdn.com/html/*.html
 ||kccdk.com/content/img/*.gif
