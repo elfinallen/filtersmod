@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-22 02:24:06 UTC
-! Total Rules: 118661
+! Last Updated: 2026-07-22 13:45:27 UTC
+! Total Rules: 118664
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -93900,6 +93900,7 @@ gala.com#%#//scriptlet('set-local-storage-item', '_gal1', '$remove$')
 gamespot.com#%#//scriptlet('set-local-storage-item', 'ppid', '$remove$')
 gamma1-0.cloud.s11.sfmc-osl.com$image
 gate.happycustomer.io$image
+gazetadopovo.com.br##section[class^="pianorecommender"]
 gbatemp.net,usatoday.com#%#//scriptlet('ubo-set', 'admiral', 'noopfunc')
 gcdsdk.appsflyersdk.com^
 geinoukame.com##.ninja-recommend-block + br
@@ -105145,6 +105146,7 @@ zonedirector.avadacom.com$image
 ||api.store-macys.com/event-queue
 ||api.strats.gg/internal/api/*/visits
 ||api.streamelements.com/science/
+||api.strem.io/api/events
 ||api.syg.ma/page_view
 ||api.taboola.com/2.0/json/*/recommendations.$redirect=nooptext,domain=azby.fmworld.net
 ||api.tacotax.fr/v2/amplitude_trackers
@@ -115989,6 +115991,7 @@ zonedirector.avadacom.com$image
 ||streams.bestbuy.com/customer/web-streams/v*/events/digital-experience-event
 ||streams.bestbuy.com/customer/web-streams/v1/events/cj-page-visits
 ||streamsend.com^$third-party
+||streamsports99.su/assets/trackingmanager.*.js
 ||streamta.pe/stat/
 ||streamta.site/stat/
 ||streamtape.cc/stat/

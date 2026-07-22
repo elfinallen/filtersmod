@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-22 02:24:06 UTC
-! Total Rules: 11428
+! Last Updated: 2026-07-22 13:45:27 UTC
+! Total Rules: 11430
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -3763,6 +3763,7 @@
 ||api.store-macys.com/event-queue
 ||api.strats.gg/internal/api/*/visits
 ||api.streamelements.com/science/
+||api.strem.io/api/events
 ||api.syg.ma/page_view
 ||api.tacotax.fr/v2/amplitude_trackers
 ||api.tally.so/forms/*/events
@@ -9941,6 +9942,7 @@
 ||streamoptim.com/log/report?
 ||streams.bestbuy.com/customer/web-streams/v*/events/digital-experience-event
 ||streams.bestbuy.com/customer/web-streams/v1/events/cj-page-visits
+||streamsports99.su/assets/trackingmanager.*.js
 ||streamta.pe/stat/
 ||streamta.site/stat/
 ||streamtape.cc/stat/

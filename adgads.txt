@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-22 02:24:06 UTC
-! Total Rules: 5842
+! Last Updated: 2026-07-22 13:45:27 UTC
+! Total Rules: 5840
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -2418,6 +2418,7 @@
 ||doii.cc/mmm/
 ||dongchedi.com/motor/ad/
 ||dongfangtai.com/2018/
+||dota2protracker.com/sget/ads/
 ||douban.com/?unit=dale_movie_trailer_after_play&
 ||douban.com/view/dale-online/dale_ad
 ||douban.com^*/fm_bgad.js
@@ -3511,6 +3512,7 @@
 ||jitapu.com/inc/adv
 ||jitashe.org/template/jitashe/image/bc/3
 ||jiyingdm.com/js/loadingshow.html
+||jizzberry.com/65
 ||jizzberry.com/assets/f_load.js
 ||jizzberry.com/static/js/initsite.min.js
 ||jjgirls.com/graphics/mobile/en/*/*.jpg
@@ -3916,7 +3918,6 @@
 ||m1955.com/template/qq/images/playad/
 ||macd.cn/macd-topads.html
 ||macfans.org/vip/
-||machineseeker.com/data/ofni/
 ||macys.com/sitemonetization/v1/sponsored-products/
 ||madnessporn.com/mad/
 ||magedu.com/wp-content/uploads/*/xwzx
@@ -4133,7 +4134,6 @@
 ||mylomza.pl/static/files/inline_images/*/inline__
 ||mylust.com/*.jsx
 ||mylust.com/b/
-||mylust.com/static/js/initsite.min.js
 ||myp1p.eu/js/sun.js
 ||myqcloud.com/ad/
 ||myqcloud.com/wp-content/uploads/huoxingyun.
@@ -4262,7 +4262,6 @@
 ||onegreen.net/myfile/
 ||oneinstack.com/images/oneinstack-
 ||onetvb.com/assets/javascripts/
-||onlinemschool.com/pictures/stb.png
 ||onnetwork.tv/widget/
 ||onx8.com/theme/tange/add/
 ||onx8.com/zb_users/theme/ydgreen/style/ad/
@@ -4370,8 +4369,6 @@
 ||phbkm.com/js/
 ||phncdn.com/*/pics/skins/
 ||photos18.com/images/friend/
-||php.cn/ad1.
-||php.cn/hezuo/
 ||php1.cn/uploads/huayun.jpg
 ||phpernote.com/ali
 ||phpstudyimg.com/all/hrl.gif
@@ -4771,7 +4768,6 @@
 ||serengeseba.com/static/view.js
 ||service.hotstar.com^*/midroll
 ||service.iwara.tv/*/*.php?zones=
-||service.iwara.tv/z/z.php
 ||service.smscoin.com/js/sendpic.js
 ||services.postimees.ee/rest/v1/articles/multiple?ids=
 ||sese277.info/photo/
@@ -5041,6 +5037,7 @@
 ||supfree.net/stat
 ||supfree.net/top.gif
 ||supfree.net/xxx/
+||surdotly.com/js/surly.min.js
 ||sw76r85eda3k.com/need/h5.
 ||sweeva.com/images/banner250.gif
 ||swoole.com/_images/kundian
@@ -5093,8 +5090,10 @@
 ||tbib.org/tbib.
 ||tcmap.com.cn/js/b_
 ||tcptest.cn/prod-api/web/adlinks/
+||tcz.pl/*/reklama*.php
 ||tdpri.com/render-ad.php
 ||tdxs5.cc/m
+||teacher.php.cn/php/
 ||tech426.com/pub/
 ||techritual.com/wp-content/uploads/*/hdcource_
 ||techug.com/aatb/
@@ -5338,7 +5337,6 @@
 ||videosection.com/adv-agent.php
 ||videowood.me/assets/js/popup.js
 ||videowood.tv/popjavascript
-||vidlink.pro/api/mercury
 ||vidlink.pro/api/venus
 ||vip.luanren.com/data/*.gif
 ||vip.video.qq.com/rpc/trpc.vip_ad_promotion
