@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-22 13:45:27 UTC
-! Total Rules: 34395
+! Last Updated: 2026-07-23 02:29:04 UTC
+! Total Rules: 34406
 ! Expires: 5 days
 $$div[style="display: none !important;"]:contains(!function(){function a(a){var _idx=)
 $$div[style="display: none !important;"]:contains('ed2k://)
@@ -8527,6 +8527,7 @@ doofree88.com#%#//scriptlet("set-constant", "go.0.skip", "0")
 doomovie-hd.com#%#//scriptlet("json-prune", "adparam")
 doomovie-hd.pro#%#//scriptlet("set-constant", "adsettings", "emptyarr")
 doordash.com##.carousel-virtual-wrapper:has([href*="collection_type=sponsored_brand"])
+doordash.com##.hdhylh.sc-bd87b8a6-0
 dopebox.to#%#//scriptlet('abort-current-inline-script', 'globalthis', '/break;case|;break;default:/')
 dopebox.to#%#//scriptlet('abort-on-property-read', '_g_sb_click')
 doroni.me#%#//scriptlet('set-constant', 'showads', 'true')
@@ -10322,6 +10323,8 @@ foreignpolicy.com##div[class^="home-ad-"]
 foreignpolicy.com#?#.sidebar > div.sticky-container:has(> div > div.channel-sidebar-big-box-ad)
 foreignpolicy.com#?#.sidebar > div.sticky-container:has(> div.ad-container)
 foreignpolicy.com#?#.sidebar > div.sticky-container:has(> div[id^="distroscale_ad_"])
+foreks.com##.homepage-ad-desktop-bant
+foreks.com##the-ads
 forexfactory.com##.adbit
 forexfactory.com##.footer__branding
 forexrw7.com,fx-22.com,try2link.com#%#//scriptlet('set-constant', 'usingblocker', 'emptyobj')
@@ -12027,6 +12030,7 @@ health.tvbs.com.tw##.h-\[280px\]
 health.tvbs.com.tw##.h-full > div.flex-wrap > div.max-w-full > div.px-5.lg\:hidden:has(> div > div.flex.justify-center)
 health.tvbs.com.tw##.hidden .justify-center:has(> div[id^="health_pc_read_"])
 health.tvbs.com.tw##div[data-testid="ad-container"]
+healthgrades.com##[data-qa-target="leaderboard-ad"]
 healthgrades.com##body > div:has(> div[role="marquee"] > div[data-qa-target="leaderboard-ad"])
 healthgrades.com##div[class]:has(> div[data-qa-target="leaderboard-ad"])
 healthgrades.com#?#div[data-result-type="featured"]:contains(sponsored)
@@ -13448,6 +13452,8 @@ investing.com#%#//scriptlet('prevent-settimeout', '===window.getcomputedstyle(')
 investing.com#%#//scriptlet('set-constant', 'adnotificationdetected', 'false')
 investing.com#?#div[class="desktop:relative desktop:bg-background-default"] > .pb-4:has(> div[data-test="ad-slot-visible"]:only-child)
 investmap.pl#%#//scriptlet('prevent-fetch', '/serve/ajs.php')
+investmentnews.com##.top-down-list--sponsored
+investmentnews.com##[class^="ad-wrapper"]
 investopedia.com###performance-marketing_1-0
 investopedia.com##.partnerlinks
 investorshub.advfn.com##.placements-container
@@ -16669,6 +16675,7 @@ movieapne.biz,watchapne.biz#%#//scriptlet('trusted-set-local-storage-item', 'ade
 moviebaztv.com,parstv24.com,anonyviet.com,souq-design.com,173.249.8.3,karanpc.com,topsporter.net,iconmonstr.com,adslink.pw,nurparatodos.com.ar,an1me.nl,freepornsex.net,tiodonghua.com,torrentmac.net,dr-farfar.com,weadown.com,dvdporngay.com,windowslite.net,bloground.ro,freewebcart.com,myqqjd.com,magesy.pro,magesy.blog,techsmoon.com,gigacourse.com,freegogpcgames.com,scat.gold,freecoursesites.com,tech-story.net,apkmagic.com.ar,eductin.com,nulleb.com,temi.pl,routech.ro,novelmultiverse.com,smgplaza.com,gezegenforum.com,bingotingo.com,cinemakottaga.*#%#//scriptlet('prevent-settimeout', '/showmodal\(\)|chooseaction\(\)/')
 moviebaztv.com,parstv24.com,suryaindosinga.co,karanpc.com,topsporter.net,iconmonstr.com,nurparatodos.com.ar,an1me.nl,magesy.blog,comentariodetexto.com,wordpredia.com,nullphpscript.com,tech-story.net,91.208.197.24,animekhor.xyz,superembeds.com,mimundodonghua.com,apkmagic.com.ar,freepreset.net,obutecodanet.ig.com.br,forums.rusmedserv.com,whncourses.com,freegogpcgames.com,softwaretotal.net,cinemakottaga.*,ozabc.com,kopetnews.id,chimicamo.org,sampledrive.in,freecoursesites.com,hulnews.top,jugomobile.com,38.242.199.52,jpopsingles.eu,hiseku.com,mytechroad.com,cardiagn.com,38.242.198.170,enrology.in,jojo-themes.net,freedidi.com,gezegenforum.com,eoydo.com,crunchyscan.fr,boainformacao.com.br,manyakan.com,moviessquad.com,dengeki-plusv2.xyz,bullfrag.com,epainfo.pl,ypojie.com,baominh.tech,downloadcursos.org,jkmeng.cn,trgamestudio.com,dvdgayonline.com,hotxfans.com,dotadostube.com,taradinhos.com,dvdgayporn.com,audiobooks4soul.com,vfxdownload.net,electomania.es,captionsgram.com,scat.gold,techymedies.com,tutcourse.com,myqqjd.com,alilove.pl,sqlserveregitimleri.com,tokuvn.com,texture-packs.com,pcwarehub.com,pbarecap.ph,tinyppt.com,nulljungle.com,5.182.211.129,gigacourse.com,gaypornhdfree.*,pelismart.com,htstreaming.com,freewebcart.com,watchmdh.to,temi.pl,downloadtutorials.net,win10.vn,legaartis.pl,legendary-rt-textures.xyz,blogging-techies.com,privatemoviez.*,behindzscene.net,conhecimentolivre.net,eductin.com,blisseyhusband.in,cronachedellacampania.it,applexgen.com,nulleb.com,desktophut.com,grafixfather.com,pinsystem.co.uk,globalrph.com,cyberdefensemagazine.com,vectogravic.com#%#//scriptlet("prevent-addeventlistener", "domcontentloaded", "adsblocked")
 moviebite.cc##.site-ad-banner
+moviebox.ph,movieboxapp.in,themoviebox.org,moviebox.pk,movieboxapp.in,123movienow.cc##.home-global-ad
 movieboxonline.net###detail-page > .mt-4 > .mt-4:has(> a.group.block[href^="https://gamixo.org/"])
 moviefone.com##.mf-incontent
 moviehousememories.com#%#//scriptlet("set-constant", "$tiee3", "true")
@@ -24200,6 +24207,9 @@ updown.fun#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 upfilesgo.com,upplinks.net,upfion.com,upfiles.app,upfiles-urls.com,falpus.com,fooak.com#%#(()=>{const e=/free-download-form|'\),_0x|\)\]\(function\(_0x|=>\{return/,o={apply:(e,o,t)=>{const n=t[0];"boolean"==typeof n&&!0===n&&(t[0]=!1),settimeout((()=>reflect.apply(e,o,t)),2e3)}},t={apply:(t,n,r)=>{const i=r[0];return"function"==typeof i&&e.test(i.tostring())&&(r[0]=new proxy(r[0],o)),reflect.apply(t,n,r)}};window.promise.prototype.then=new proxy(window.promise.prototype.then,t),window.addeventlistener("load",(()=>{const e=document.queryselector("form#go-link button#link-button");if(e){const o=e.clonenode(!0);e.parentnode.replacechild(o,e),o.removeattribute("disabled")}}))})();
 upfilesgo.com,upplinks.net,upfion.com,upfiles.app,upfiles-urls.com,falpus.com,fooak.com#%#(()=>{const e=object.getownpropertydescriptor(element.prototype,"innerhtml").set,t=object.getownpropertydescriptor(element.prototype,"innerhtml").get;object.defineproperty(element.prototype,"innerhtml",{get(){return t.call(this)},set(t){if(t?.includes?.("disable adblock"))return;e.call(this,t)}})})();
 upfilesgo.com,upplinks.net,upfion.com,upfiles.app,upfiles-urls.com,falpus.com,fooak.com#%#//scriptlet('abort-current-inline-script', 'document.addeventlistener', 'history.pushstate')
+upfilesgo.com,upplinks.net,upfion.com,upfiles.app,upfiles-urls.com,falpus.com,fooak.com#%#//scriptlet('prevent-fetch', 'ads.pubmatic.com')
+upfilesgo.com,upplinks.net,upfion.com,upfiles.app,upfiles-urls.com,falpus.com,fooak.com#%#//scriptlet('prevent-fetch', 'c.amazon-adsystem.com')
+upfilesgo.com,upplinks.net,upfion.com,upfiles.app,upfiles-urls.com,falpus.com,fooak.com#%#//scriptlet('prevent-fetch', 'cdn.taboola.com')
 upfilesgo.com,upplinks.net,upfion.com,upfiles.app,upfiles-urls.com,falpus.com,fooak.com#%#//scriptlet('prevent-fetch', 'pagead2.googlesyndication.com')
 upfilesgo.com,upplinks.net,upfion.com,upfiles.app,upfiles-urls.com,falpus.com,fooak.com#%#//scriptlet('prevent-window-open')
 upfilesgo.com,upplinks.net,upfion.com,upfiles.app,upfiles-urls.com,falpus.com,fooak.com#%#//scriptlet('set-constant', 'shouldopenpopup', 'false')
@@ -32583,6 +32593,7 @@ zzzyk.com###tinfo
 ||riaway.com/statics/idea.jpg
 ||richaudience.com^$third-party
 ||rigengjihua.cn/banner/
+||right.com.cn/forum/data/attachment/common/template/boardimg_20260602yahb3wsd.
 ||right.com.cn/forum/static/image/common/logo
 ||right.com.cn/forum/static/image/common/logo*.gif
 ||right.com.cn/forum/static/image/common/logo1.
