@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-23 02:29:04 UTC
-! Total Rules: 5841
+! Last Updated: 2026-07-23 13:50:32 UTC
+! Total Rules: 5842
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -575,6 +575,7 @@
 /uploads/setting/ad/*
 /ut.js?cb=
 /uu114/ad/*
+/vast.php?*&idzone=
 /vast.php?*&tags=exoxvideostargetting
 /vast/?zid=
 /vbvb_*_pmpm.js
@@ -1495,8 +1496,6 @@
 ||api.adultdeepfakes.cam/banners
 ||api.apiimg.com/huaer/xiahe.js
 ||api.bilibili.com/x/ad/
-||api.bitchute.com/slot1/
-||api.bitchute.com/slot2/
 ||api.jerkmotion.com/r/
 ||api.leakgallery.com/m/decide
 ||api.live.bilibili.com/*/banner
@@ -1528,7 +1527,6 @@
 ||arkadiumhosted.com/advertisement/
 ||ashemaletube.com/api/tiles
 ||ashemaletube.com/ast/b/
-||ashemaletube.com/ast/paysite
 ||asiav.cyou/myupdatelist.
 ||asp300.*/2012adimg/
 ||asp300.*/2012js/
@@ -4134,6 +4132,7 @@
 ||mylomza.pl/static/files/inline_images/*/inline__
 ||mylust.com/*.jsx
 ||mylust.com/b/
+||mylust.com/static/js/initsite.min.js
 ||myp1p.eu/js/sun.js
 ||myqcloud.com/ad/
 ||myqcloud.com/wp-content/uploads/huoxingyun.
@@ -4283,6 +4282,7 @@
 ||oschina.net/uploads/ad/
 ||oschina.net/uploads/cooperation/
 ||oss-ap-southeast-1.aliyuncs.com/js/copy.js
+||otcash.com/images/
 ||otomi-games.com/wp-content/uploads/*-ad-728-
 ||outlook.live.com/ows/*/outlookoptions/adsaggregate
 ||ouyaoxiazai.com/static/img/cqthree.gif
@@ -4984,6 +4984,7 @@
 ||static.okokserver.com/js/anti/adblocker.js
 ||static.olelive.com/upload/site/*/*.gif
 ||static.opensubtitles.org/libs/js/ray-announcement-bar.js
+||static.prd.datawars.io/static/promo/
 ||static.purexbox.com/javascript/gn/prebid*.js
 ||static.sunmedia.tv/integrations/
 ||static.tohomh123.com/js/funasd.js
@@ -5002,6 +5003,7 @@
 ||stockstar.com/api/?id=
 ||stockstar.com/info/1200x90/
 ||storage.googleapis.com/adtags/
+||storage.googleapis.com/ba_utils/stab.js
 ||storage.googleapis.com/pravda-ad-script/
 ||store.7box.vip/ad/
 ||storm.mg/ad?
@@ -5091,7 +5093,6 @@
 ||tbib.org/tbib.
 ||tcmap.com.cn/js/b_
 ||tcptest.cn/prod-api/web/adlinks/
-||tcz.pl/*/reklama*.php
 ||tdpri.com/render-ad.php
 ||tdxs5.cc/m
 ||teacher.php.cn/php/
@@ -5620,9 +5621,9 @@
 ||xxhh.com/xh.js
 ||xxir.com/static/images/ad.
 ||xxooos.com/mm/
+||xxxdessert.com/*_fe.js
 ||xxxdl.net/nothing.aspx?
 ||xxxshake.com/assets/f_load.js
-||xxxshake.com/static/js/script.js
 ||xygwh.cc/js/p
 ||xygwh.cc/js/x
 ||xys*-jadwal.pages.dev/adblock.js

@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-23 02:29:04 UTC
-! Total Rules: 118666
+! Last Updated: 2026-07-23 13:50:32 UTC
+! Total Rules: 118661
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -6015,8 +6015,6 @@ account-email.bellmedia.ca$image
 accounting.avadacom.com$image
 accuweather.com,acmemarkets.com,aiskillsnavigator.microsoft.com,boston.com,capezio.com,chime.com,costco.com,crunchyroll.com,deezer.com,delta.com,dnb.co.uk,dnb.com,dollargeneral.com,engadget.com,espn.com,eventbrite.com,filson.com,flyfrontier.com,formula1.com,geizhals.de,gladiatorgarageworks.com,harborfreight.com,hopwtr.com,jdsports.com,kkrt.com,lenscrafters.com,livewithkellyandmark.com,madewell.com,mail.yahoo.com,mazdausa.com,michaels.com,milesplit.live,monsterenergy.com,newyorker.com,norton.com,pandora.com,payment.nba.com,porsche.com,qobuz.com,rivals.com,soundcloud.com,spotify.com,subway.com,techcrunch.com,ticketmaster.*,tidal.com,tirerack.com,twitter.com,uber.com,ubereats.com,usaa.com,vimeo.com,visible.com,weather.com,wunderground.com,www.yahoo.com,x.com#%#//scriptlet('ubo-set', 'navigator.globalprivacycontrol', 'false')
 accuweather.com,acmemarkets.com,aiskillsnavigator.microsoft.com,boston.com,capezio.com,chime.com,costco.com,crunchyroll.com,deezer.com,delta.com,dnb.co.uk,dnb.com,dollargeneral.com,engadget.com,espn.com,eventbrite.com,filson.com,flyfrontier.com,formula1.com,geizhals.de,gladiatorgarageworks.com,harborfreight.com,hopwtr.com,jdsports.com,kkrt.com,lenscrafters.com,livewithkellyandmark.com,madewell.com,mail.yahoo.com,mazdausa.com,michaels.com,milesplit.live,monsterenergy.com,newyorker.com,norton.com,pandora.com,payment.nba.com,porsche.com,qobuz.com,rivals.com,soundcloud.com,spotify.com,subway.com,techcrunch.com,ticketmaster.*,tidal.com,tirerack.com,twitter.com,uber.com,ubereats.com,usaa.com,vimeo.com,visible.com,weather.com,wunderground.com,www.yahoo.com,x.com#%#//scriptlet('ubo-set', 'navigator.prototype.globalprivacycontrol', 'false')
-accuweather.com,acmemarkets.com,aiskillsnavigator.microsoft.com,boston.com,capezio.com,chime.com,costco.com,crunchyroll.com,deezer.com,delta.com,dnb.co.uk,dnb.com,dollargeneral.com,engadget.com,espn.com,eventbrite.com,filson.com,flyfrontier.com,formula1.com,geizhals.de,gladiatorgarageworks.com,harborfreight.com,hopwtr.com,jdsports.com,kkrt.com,lenscrafters.com,livewithkellyandmark.com,madewell.com,mail.yahoo.com,mazdausa.com,milesplit.live,monsterenergy.com,newyorker.com,norton.com,pandora.com,payment.nba.com,porsche.com,qobuz.com,rivals.com,soundcloud.com,spotify.com,subway.com,techcrunch.com,ticketmaster.*,tidal.com,tirerack.com,twitter.com,uber.com,ubereats.com,usaa.com,vimeo.com,visible.com,weather.com,wunderground.com,www.yahoo.com,x.com#%#//scriptlet('ubo-set', 'navigator.globalprivacycontrol', 'false')
-accuweather.com,acmemarkets.com,aiskillsnavigator.microsoft.com,boston.com,capezio.com,chime.com,costco.com,crunchyroll.com,deezer.com,delta.com,dnb.co.uk,dnb.com,dollargeneral.com,engadget.com,espn.com,eventbrite.com,filson.com,flyfrontier.com,formula1.com,geizhals.de,gladiatorgarageworks.com,harborfreight.com,hopwtr.com,jdsports.com,kkrt.com,lenscrafters.com,livewithkellyandmark.com,madewell.com,mail.yahoo.com,mazdausa.com,milesplit.live,monsterenergy.com,newyorker.com,norton.com,pandora.com,payment.nba.com,porsche.com,qobuz.com,rivals.com,soundcloud.com,spotify.com,subway.com,techcrunch.com,ticketmaster.*,tidal.com,tirerack.com,twitter.com,uber.com,ubereats.com,usaa.com,vimeo.com,visible.com,weather.com,wunderground.com,www.yahoo.com,x.com#%#//scriptlet('ubo-set', 'navigator.prototype.globalprivacycontrol', 'false')
 aceee.org#%#//scriptlet('prevent-canvas', '2d')
 action.mail.ys983.com$image
 activate.avadacom.com$image
@@ -105057,6 +105055,7 @@ zonedirector.avadacom.com$image
 ||api.globalbunjang.com/api/log/
 ||api.goodbarber.net/statsapi/
 ||api.headliner.link/api/v1/b/receive
+||api.helloextend.com/mintsight
 ||api.hisavana.com/hisavana/eventtracking/
 ||api.honeycomb.io/*/traces
 ||api.idg.zone/intextlinks-tracking/
@@ -105073,7 +105072,6 @@ zonedirector.avadacom.com$image
 ||api.k2s.cc/v1/analytics/
 ||api.keen.io/*/projects/$domain=faceit.com
 ||api.kuper.ru/v*/vendo/track/
-||api.laftel.net/api/*/status/$xmlhttprequest,redirect=noopjs
 ||api.leadpages.io/analytics/$domain=~my.leadpages.net
 ||api.lessentiel.lu/kaia/v*/persist
 ||api.limbik.com^$third-party
@@ -106746,6 +106744,8 @@ zonedirector.avadacom.com$image
 ||chickencoopcompany.com/api/collect
 ||chil-chil.net/cpadshow/
 ||chimpstatic.com/mcjs-connected/js/
+||choosefi.com/api/site/track
+||choosefi.com/block-event
 ||chosun.com/hitlog/
 ||christiantop1000.com^$third-party
 ||chron.com/413gkwmt/init.js
@@ -107877,11 +107877,6 @@ zonedirector.avadacom.com$image
 ||diffusion-tracker.com^$third-party
 ||digiadglobal.com^$third-party
 ||digianalytics.fr^$third-party
-||digidip.net/visit?url=$urltransform=/%2f/\//
-||digidip.net/visit?url=$urltransform=/%3a/:/
-||digidip.net/visit?url=$urltransform=/%3d/=/
-||digidip.net/visit?url=$urltransform=/%3f/?/
-||digidip.net/visit?url=$urltransform=/^https?:\/\/(?:[a-z0-9-]+\.)*?.*\.digidip\.net.*url=([^&]*).*/\$1/
 ||digidip.net^$domain=gofeminin.de
 ||digidip.net^$third-party
 ||digikey.*/-/media/designer/web%20analytics/multitrack/js/multitrack.js
