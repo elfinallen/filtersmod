@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-24 02:26:31 UTC
-! Total Rules: 11435
+! Last Updated: 2026-07-24 13:38:23 UTC
+! Total Rules: 11437
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -3934,6 +3934,7 @@
 ||arc.nexx.cloud/static/structure/pixel_transparent.png
 ||arc.pub/clavis/training/events
 ||archive.org/includes/analytics.js
+||archive.org/includes/athena.js
 ||arclight.vimeo.com/add/player-stats
 ||arclight.vimeo.com/player-events/
 ||arclk.net/trax?
@@ -5366,6 +5367,7 @@
 ||demandmedia.com/wm.js
 ||demandware.edgesuite.net/*/dwanalytics.js
 ||demo.zeenews.com/ads/counter.php
+||dengarden.com/.api/admiral
 ||deno.com/i/
 ||deo.shopeemobile.com/shopee/shopee-trackingsdk-
 ||deovr.com/api_logs/

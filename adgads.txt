@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-24 02:26:31 UTC
-! Total Rules: 5844
+! Last Updated: 2026-07-24 13:38:23 UTC
+! Total Rules: 5845
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -1528,6 +1528,7 @@
 ||arkadiumhosted.com/advertisement/
 ||ashemaletube.com/api/tiles
 ||ashemaletube.com/ast/b/
+||ashemaletube.com/ast/paysite
 ||asiav.cyou/myupdatelist.
 ||asp300.*/2012adimg/
 ||asp300.*/2012js/
@@ -2639,6 +2640,7 @@
 ||falcon.pixnet.net/ad/
 ||faloo.com/ou/site/
 ||familydoctor.com.cn/c/a/000/ggw_
+||fancybar.net/ac/fancybar.js?zoneid
 ||fang.com/house/ajaxrequest/advertlget.
 ||fang99.com^*/advjs/
 ||fanhaodang.org/runtime/js/
@@ -3092,7 +3094,6 @@
 ||hoopchina.com.cn/web/channel/voice/*/beforelogin/beforelogin.js
 ||hoopchina.com.cn/web/widget/partner/*/promote.js
 ||hoopchina.com.cn^*/ad-pc-sdk.
-||hornygamer.com/play_horny_games/
 ||hotavxxx.com/images/*96
 ||hoteastday.com/newspc/show?
 ||hotpress.info/blog/asian-javdl/wp-content/uploads/irvsxp.js
@@ -4451,6 +4452,7 @@
 ||pornxp.com/2.js
 ||portal.librus.pl/ad|
 ||postimg.cc^*-960x60.
+||powvideo.net/bon/exonat.html
 ||poxiao.com/template/default/images/12345.js
 ||ppluoli.xyz^*.gif
 ||ppshk.com^*banner/
@@ -4874,7 +4876,6 @@
 ||slashdot.org/ajax.pl?op=nel|
 ||slashlook.com/_resource/html/_bloggeradsbottom.html
 ||slashlook.com/_resource/html/_bloggeradsinline1.html
-||sleazyneasy.com/contents/images-banners/
 ||sleazyneasy.com/contents/images-container/*.gif
 ||slickdeals.net/ad-stats/
 ||slit.cn/slimages/

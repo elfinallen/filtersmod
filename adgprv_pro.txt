@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-24 02:26:31 UTC
-! Total Rules: 118663
+! Last Updated: 2026-07-24 13:38:23 UTC
+! Total Rules: 118666
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -6304,7 +6304,7 @@ apkpure.*#%#//scriptlet('set-constant', '$$.analytics', 'emptyobj')
 apkpure.*#%#//scriptlet('set-constant', '$$.analytics.send', 'noopfunc')
 apkpure.com#%#//scriptlet('remove-node-text', 'script', '/deviceid|__apkpurefirstinteractiontype|fingerprintjs|pvid/i')
 apkpure.com#%#//scriptlet('set-local-storage-item', '__beacon_deviceid', '$remove$')
-apnews.com,artforum.com,artnews.com,billboard.com,calgaryherald.com,calgarysun.com,crooksandliars.com,deadline.com,dpreview.com,driving.ca,financialpost.com,goldderby.com,golfdigest.com,hollywoodreporter.com,indiewire.com,lfpress.com,nationalpost.com,nbcsports.com,oregonlive.com,ottawasun.com,robbreport.com,rollingstone.com,sherdog.com,sidereel.com,superherohype.com,techcrunch.com,torontosun.com,vancouversun.com,variety.com,vibe.com,windsorstar.com,wtsp.com,wwd.com#%#//scriptlet('ubo-acs', 'document.getelementsbytagname', '.pubads')
+apnews.com,artforum.com,artnews.com,billboard.com,calgaryherald.com,calgarysun.com,crooksandliars.com,deadline.com,dpreview.com,driving.ca,financialpost.com,goldderby.com,golfdigest.com,hollywoodreporter.com,indiewire.com,lfpress.com,nationalpost.com,nbcsports.com,oregonlive.com,ottawasun.com,robbreport.com,rollingstone.com,sherdog.com,sidereel.com,superherohype.com,techcrunch.com,torontosun.com,vancouversun.com,variety.com,vibe.com,wfaa.com,windsorstar.com,wtsp.com,wwd.com#%#//scriptlet('ubo-acs', 'document.getelementsbytagname', '.pubads')
 app.mellstroy.website$image
 app.spectacularacademy.com$image
 app.tirelocator.ca#%#//scriptlet("set-constant", "googleanalyticsenhancedtrackevent", "noopfunc")
@@ -105367,6 +105367,7 @@ zonedirector.avadacom.com$image
 ||arc.pub/clavis/training/events
 ||arcadeweb.com^$third-party
 ||archive.org/includes/analytics.js
+||archive.org/includes/athena.js
 ||arclight.vimeo.com/add/player-stats
 ||arclight.vimeo.com/player-events/
 ||arclk.net/trax?
@@ -107805,6 +107806,7 @@ zonedirector.avadacom.com$image
 ||demo.zeenews.com/ads/counter.php
 ||denakop.com^$third-party
 ||dengage.com^$third-party
+||dengarden.com/.api/admiral
 ||deno.com/i/
 ||deo.shopeemobile.com/shopee/shopee-trackingsdk-
 ||deovr.com/api_logs/
@@ -109135,6 +109137,7 @@ zonedirector.avadacom.com$image
 ||funneld.com^$third-party
 ||funnelytics.io^$third-party
 ||funstage.com^$third-party
+||funtoyplanet.com^$redirect=noopjs,script
 ||fupa.net/fupa/api.php?p=besucher_klick
 ||fuq.com/js/analytics
 ||fusedeck.net^$third-party
