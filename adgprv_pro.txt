@@ -1,7 +1,7 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-25 02:24:35 UTC
+! Last Updated: 2026-07-25 13:18:34 UTC
 ! Total Rules: 118670
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
@@ -2742,6 +2742,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /mistats/*
 /mixpanel-init.js
 /mixpanel.$domain=~mixpanel.com
+/ml.bitcash.co.jp/c/*$image
 /mlb-ml-analytics.min.js
 /mlopen_track.html
 /mmclient.js
@@ -6306,7 +6307,7 @@ apkpure.*#%#//scriptlet('set-constant', '$$.analytics', 'emptyobj')
 apkpure.*#%#//scriptlet('set-constant', '$$.analytics.send', 'noopfunc')
 apkpure.com#%#//scriptlet('remove-node-text', 'script', '/deviceid|__apkpurefirstinteractiontype|fingerprintjs|pvid/i')
 apkpure.com#%#//scriptlet('set-local-storage-item', '__beacon_deviceid', '$remove$')
-apnews.com,artforum.com,artnews.com,billboard.com,calgaryherald.com,calgarysun.com,crooksandliars.com,deadline.com,dpreview.com,driving.ca,financialpost.com,goldderby.com,golfdigest.com,hollywoodreporter.com,indiewire.com,lfpress.com,nationalpost.com,nbcsports.com,oregonlive.com,ottawasun.com,robbreport.com,rollingstone.com,sherdog.com,sidereel.com,superherohype.com,techcrunch.com,torontosun.com,vancouversun.com,variety.com,vibe.com,wfaa.com,windsorstar.com,wtsp.com,wwd.com#%#//scriptlet('ubo-acs', 'document.getelementsbytagname', '.pubads')
+apnews.com,artforum.com,artnews.com,billboard.com,calgaryherald.com,calgarysun.com,crooksandliars.com,deadline.com,dpreview.com,driving.ca,financialpost.com,goldderby.com,golfdigest.com,hollywoodreporter.com,indiewire.com,lfpress.com,nationalpost.com,nbcsports.com,oregonlive.com,ottawasun.com,robbreport.com,rollingstone.com,sherdog.com,sidereel.com,superherohype.com,techcrunch.com,torontosun.com,vancouversun.com,variety.com,vibe.com,wfaa.com,windsorstar.com,wqad.com,wtol.com,wtsp.com,wwd.com#%#//scriptlet('ubo-acs', 'document.getelementsbytagname', '.pubads')
 app.mellstroy.website$image
 app.spectacularacademy.com$image
 app.tirelocator.ca#%#//scriptlet("set-constant", "googleanalyticsenhancedtrackevent", "noopfunc")
@@ -111041,8 +111042,6 @@ zonedirector.avadacom.com$image
 ||kkuriren.se^$cookie=adkvid
 ||klangoo.com^$third-party
 ||klarnaservices.com/?a=$image
-||klarnaservices.com/v1/osm-client-script/
-||klarnaservices.com^$image,third-party
 ||klaviyo.com/onsite/js/sentry.
 ||klaviyo.com/onsite/track-analytics?
 ||klert.com^$third-party
@@ -111435,6 +111434,7 @@ zonedirector.avadacom.com$image
 ||liveperson.net/hc/*/?visitor=
 ||liverail.com/?metric=
 ||liverail.com/track/?
+||livescore.com/external/media/analytics_config/
 ||livesegmentservice.com^$third-party
 ||livesession.io^$third-party
 ||livestat.com^$third-party

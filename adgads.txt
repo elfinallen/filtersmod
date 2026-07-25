@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-25 02:24:35 UTC
-! Total Rules: 5850
+! Last Updated: 2026-07-25 13:18:34 UTC
+! Total Rules: 5848
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -1508,6 +1508,7 @@
 ||apic.in/mmd.gif
 ||apiimg.com/haishui/
 ||apiimg.com/huaer/xiahe.
+||apimg.net/slider/propellerads
 ||apis.pchome.com.tw/js/idlead.js
 ||apk-01.oss-cn-beijing.aliyuncs.com/dp/
 ||apk.tw/static/js/showpic.js
@@ -3432,7 +3433,6 @@
 ||jandan.net^*/3kbw2.png
 ||jandan.net^*/699pic/
 ||jandan.net^*/moyu.png
-||jauns.lv/js/ad-zone.js
 ||jav.sb/videojs/300.php
 ||jav.sb/videojs/300x100.php
 ||jav101.com/img5bbb0096f242f.gif
@@ -3500,7 +3500,6 @@
 ||jinman4.com/ad/
 ||jinnanyq.com/js/zmjw.
 ||jinti.com^*/aspx/*gg
-||jinx.com/content/banner/
 ||jinyici.com/qq.js
 ||jishulink.com/jishulink/searching/ad/get?
 ||jishuqq.com/images/haodian.gif
@@ -4070,7 +4069,6 @@
 ||moonbbs.com/data/attachment/portal/
 ||mop.com/js/common/watermark.js
 ||mop.com/newindex/gg.html
-||mopo.de/view-resources/dachser2/public/mopo/adshield.js
 ||moratame.tw/img/contents/banner
 ||mortgagecentres.net/banner.gif
 ||moviebite.cc/ads-config.js
@@ -4399,7 +4397,6 @@
 ||picsuperfast.xyz/imageupload/images/*ad_
 ||picyq.com/index.php/home/run/get_ad/
 ||pierrebotton.com/global/
-||pimpandhost.com/mikakoku/
 ||pimpbunny.com/static/v*/images/advertise/
 ||pincai.com/js/pubuliu.
 ||pingmeibang.com/zt/zx.jpg
@@ -4474,6 +4471,7 @@
 ||programmer-club.com.tw/images/uuu/
 ||projectorcentral.com/*?bid=
 ||property.hk/js/adside.js
+||protoawe.com/vast/
 ||prydwen.gg/api/banners/
 ||ps0z.com/300x250b
 ||ps123.net/myfile/
@@ -4975,7 +4973,6 @@
 ||ssyy881.com/zz/
 ||st.chatango.com/js/*/*/rklmodule.js
 ||st.motortrend.com/nitrous/
-||stackpathdns.com/wp-content/plugins/deblocker/js/deblocker.min.js
 ||staramuse.com/bmip/showg
 ||starnnews.com/banner/
 ||startpage.com/*/adsense/search/async-ads.js
@@ -5012,6 +5009,7 @@
 ||stockstar.com/info/1200x90/
 ||storage.googleapis.com/adtags/
 ||storage.googleapis.com/ba_utils/stab.js
+||storage.googleapis.com/global-attribution/global_attribution.js
 ||storage.googleapis.com/pravda-ad-script/
 ||store.7box.vip/ad/
 ||storm.mg/ad?
@@ -5101,6 +5099,7 @@
 ||tbib.org/tbib.
 ||tcmap.com.cn/js/b_
 ||tcptest.cn/prod-api/web/adlinks/
+||tcz.pl/*/reklama*.php
 ||tdpri.com/render-ad.php
 ||tdxs5.cc/m
 ||teacher.php.cn/php/
@@ -5334,7 +5333,6 @@
 ||variflight.com/carnoc/ad/
 ||vdianying.cc/img/youhuiquan250.gif
 ||vdianying.cc/wp-content/plugins/wp-adblock-dedect/
-||veporn.com/api/vast-proxy
 ||vercel.app/ads/
 ||vgao.xyz/images/*.gif
 ||vidcrunch.com/api/adserver/
@@ -5629,7 +5627,6 @@
 ||xxhh.com/xh.js
 ||xxir.com/static/images/ad.
 ||xxooos.com/mm/
-||xxxdessert.com/*_fe.js
 ||xxxdl.net/nothing.aspx?
 ||xxxshake.com/assets/f_load.js
 ||xygwh.cc/js/p
@@ -5782,6 +5779,7 @@
 ||zdcj.net/html/weibo
 ||zdcj.net^*/ad
 ||zdqx.com/statics/v1/images/gif/
+||zergnet.com/zerg.js
 ||zhainanba.org/ac/
 ||zhanqi.tv/api/static/v2.1/actives.lists/
 ||zhaofuli.*/data/content
