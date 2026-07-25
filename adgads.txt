@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-24 13:38:23 UTC
-! Total Rules: 5845
+! Last Updated: 2026-07-25 02:24:35 UTC
+! Total Rules: 5850
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -2580,6 +2580,7 @@
 ||elecfans.com/skin-*ad_
 ||elecfans.com/static/home_ad/
 ||elecfans.com/webapi/advertisement/
+||elitebabes.com/panel8vz3/
 ||embed.st/ad.html
 ||emoney.cn/www/officalwebstatic/js/slidead.js
 ||en8848.com.cn/js/ad
@@ -2673,6 +2674,7 @@
 ||filehippo.com/prebid-client.js
 ||filehippo.com/revamp.js
 ||filemoon.*/js/baf.js
+||filepress.baby/js/fit.js
 ||files.jb51.net/image/
 ||filma24.*/f24-ytb-v*.js
 ||filma24.*/kazino*.gif
@@ -3540,6 +3542,7 @@
 ||jp2468.com/addon/
 ||jp2468.com/api/vip/vipshow.php
 ||jpfans.com/jpfans.jpg
+||jpopsingles.eu/ddl/dl-get.png
 ||jpysvip.net/ad/
 ||jrj.com.cn/h5ad?
 ||jrj.com.cn/s?z=
@@ -4879,6 +4882,7 @@
 ||sleazyneasy.com/contents/images-container/*.gif
 ||slickdeals.net/ad-stats/
 ||slit.cn/slimages/
+||sluts.wtf/static/ad/
 ||sm.ign.com/zdadkit*.js
 ||smqzj.com/seo.js
 ||smzy.com/v1/img/
@@ -4994,6 +4998,7 @@
 ||static.videezy.com/assets/underpop-*.js
 ||static.wgospodarce.pl/images/top_banners
 ||static.wixstatic.com/media/2b1814_8e9e8ee46c054f11a3cac63dfa7ff4a8~mv2.png/v1/fill/w_300,h_22,al_c/2b1814_8e9e8ee46c054f11a3cac63dfa7ff4a8~mv2.png
+||static.xcafe.com/adm/
 ||static.xshuyaya.com/m/d.js
 ||statics.123pan.com/fe/phoenix-share/js/pcwapad.min.js
 ||stats.chinaz.com/tool/
