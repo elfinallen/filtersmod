@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-27 02:38:55 UTC
-! Total Rules: 11441
+! Last Updated: 2026-07-27 14:26:38 UTC
+! Total Rules: 11443
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -3692,6 +3692,7 @@
 ||api.helloextend.com/mintsight
 ||api.hisavana.com/hisavana/eventtracking/
 ||api.honeycomb.io/*/traces
+||api.housefeel.com.tw/api/collect
 ||api.idg.zone/intextlinks-tracking/
 ||api.impresa.pt/trackercookie
 ||api.intelligems.io/track|
@@ -4705,6 +4706,7 @@
 ||cdnweb.avansas.com/_ui/shared/js/analyticsmediator.js
 ||cdon.*/assets/dist/assets-cdonanalytics.js
 ||cdp.ems.onet.pl/*/me?domain=
+||cdp.nrs.ai/api/ingest
 ||cdp.sph.com.sg/activation/activation.js
 ||cdp.vercel.com/rs/
 ||cdpapi.livemint.com/api/adserve/lm
@@ -7696,6 +7698,7 @@
 ||mensjournal.com/.api/admiral
 ||mensjournal.com/.bootscripts/analytics.min.js
 ||mentimeter.com/performance-metrics
+||mercari.com/gtm/
 ||mercdn.net/assets/scripts/raphaelp
 ||mercedes-benz.com/datadog-
 ||mercury.jd.com/log.gif
@@ -8896,7 +8899,6 @@
 ||rec1.smt.docomo.ne.jp/bcn_access_log/
 ||recart.com/tracking/
 ||receive.shamimomo.net/dream/dream.cgi
-||receptions.smart-bdash.com/receptions/action/click
 ||recipefy.net/analytics.js
 ||recobell.io/rest/logs?
 ||recogerconsentimiento.com/consent/

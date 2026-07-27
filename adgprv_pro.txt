@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-27 02:38:55 UTC
-! Total Rules: 118670
+! Last Updated: 2026-07-27 14:26:38 UTC
+! Total Rules: 118673
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -525,6 +525,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 &sst.gcsub=
 &sst.sw_exp=
 &t=pageview&
+&tag_exp=*&e=gtm.
 &ui-instrumentation-components-beacon.instrumentationbeacon.senddata=1
 -adobe-analytics/
 -adobedatalayer_bridge.js
@@ -105062,6 +105063,7 @@ zonedirector.avadacom.com$image
 ||api.helloextend.com/mintsight
 ||api.hisavana.com/hisavana/eventtracking/
 ||api.honeycomb.io/*/traces
+||api.housefeel.com.tw/api/collect
 ||api.idg.zone/intextlinks-tracking/
 ||api.impresa.pt/trackercookie
 ||api.intelligems.io/track|
@@ -106629,6 +106631,7 @@ zonedirector.avadacom.com$image
 ||cdnweb.avansas.com/_ui/shared/js/analyticsmediator.js
 ||cdon.*/assets/dist/assets-cdonanalytics.js
 ||cdp.ems.onet.pl/*/me?domain=
+||cdp.nrs.ai/api/ingest
 ||cdp.sph.com.sg/activation/activation.js
 ||cdp.vemt.com^$third-party
 ||cdp.vercel.com/rs/
@@ -111965,6 +111968,7 @@ zonedirector.avadacom.com$image
 ||mentimeter.com/performance-metrics
 ||mepirtedic.com^$third-party
 ||mercadoclics.com^$third-party
+||mercari.com/gtm/
 ||mercdn.net/assets/scripts/raphaelp
 ||mercedes-benz.com/datadog-
 ||mercent.com^$third-party
@@ -114162,7 +114166,6 @@ zonedirector.avadacom.com$image
 ||recapture.io^$third-party
 ||recart.com/tracking/
 ||receive.shamimomo.net/dream/dream.cgi
-||receptions.smart-bdash.com/receptions/action/click
 ||recipefy.net/analytics.js
 ||recobell.io/rest/logs?
 ||recogerconsentimiento.com/consent/

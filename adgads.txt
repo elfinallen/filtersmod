@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-27 02:38:55 UTC
-! Total Rules: 5845
+! Last Updated: 2026-07-27 14:26:38 UTC
+! Total Rules: 5841
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -2001,7 +2001,6 @@
 ||cdn.jsdelivr.net/gh/itspro-dev/project_files@
 ||cdn.jsdelivr.net/gh/mdnaik/myblog@master/arlinablock.js
 ||cdn.jsdelivr.net/gh/prebid/currency-file@1/latest.json
-||cdn.jsdelivr.net/gh/streamcorner/popads/
 ||cdn.jsdelivr.net/gh/vli-platform/adb-analytics@*/v1.0.min.js
 ||cdn.myhentaicomics.com/assets/frames/banner
 ||cdn.onnetwork.tv/js/player*/player_prebidm.js
@@ -2225,6 +2224,7 @@
 ||components2.rcsobjects.it/rcs_anti-adblocker-verticali/
 ||configs.forgecdn.net/adfallback.js
 ||connatix.com/rtb/
+||console.images.stockfeelgroup.com/ads/
 ||content.livesportmedia.eu/api/v1/banners?zone-ids=
 ||content.overwolf.com/curseforge/web/nitro/cursenpinit.js
 ||content.spmediacdn.com/site/banner.html
@@ -2419,6 +2419,7 @@
 ||doii.cc/mmm/
 ||dongchedi.com/motor/ad/
 ||dongfangtai.com/2018/
+||donghuaworld.com/wp-content/plugins/no-adblock-access/detector.js
 ||dota2protracker.com/sget/ads/
 ||douban.com/?unit=dale_movie_trailer_after_play&
 ||douban.com/view/dale-online/dale_ad
@@ -3041,7 +3042,6 @@
 ||helloavgirls.com/public/hg/
 ||hellogithub.com/v1/advert/
 ||hellporno.com/_a_xb/
-||helpers.publisherdesk.com/main.js
 ||henan.sina.com.cn/iframe/7/
 ||henan100.com/d/file/indexad/
 ||hentaicomic.*/data/ds/
@@ -3272,7 +3272,6 @@
 ||images.sohu.com/ytv/*.jpg
 ||images.whoer.com/image/*.gif
 ||imagespublic.tk/clothes/comeliness.php
-||imagetwist.com/b9ng.js
 ||imageweb.ws/whaledate.gif
 ||imdb.com/_json/getads/
 ||imedown.info/03.jpg
@@ -4240,7 +4239,6 @@
 ||nyahentai.pw/js/check_cat.js
 ||nychinaren.com/houbei/
 ||nylons-porno.com/poj/
-||nylonsbeauty.com/med/
 ||nz04com.com/aabdd/
 ||nzherald.co.nz/pf/resources/dist/scripts/global-ad-script.js
 ||oa.hinews.cn/work/img/
@@ -4271,7 +4269,6 @@
 ||oodcd.cn/pan/config/history.
 ||ooqiu.com/ad_js/
 ||oploverz.my/wp-content/uploads/*/*.gif
-||opti-digital.com/js/presync.html
 ||opticsky.cn/images/2015/gy-px201
 ||optiklink.com/arlinablock.js
 ||orangepix.is/b_pics/*.gif
@@ -4350,6 +4347,7 @@
 ||pdfbook.cn/wp-content/uploads/2017/11/049.jpg
 ||peachurnet.com/templates/banner-*x*-*.png
 ||peachurnet.com/templates/stake.com-banner-size-*-min.jpg
+||peekvids.com/ads/
 ||peise.net/skin/js/global.
 ||peliculas8k.com/tv/encriptador/adblocknuevo.js
 ||pengtu.cc^*.png
@@ -5096,7 +5094,6 @@
 ||tbib.org/tbib.
 ||tcmap.com.cn/js/b_
 ||tcptest.cn/prod-api/web/adlinks/
-||tcz.pl/*/reklama*.php
 ||tdpri.com/render-ad.php
 ||tdxs5.cc/m
 ||teacher.php.cn/php/
@@ -5197,7 +5194,6 @@
 ||topthink.com/api/basic/
 ||toptoon03.xyz/app/tuijian.html
 ||torrindex.net/images/epv/
-||tosshub.com/sites/businesstoday/admanager/
 ||totalmedia2.ynet.co.il/new_gpt/
 ||totheglory.im/pic/business/
 ||totheglory.im/pic/fangtuo.jpg
