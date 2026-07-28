@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-28 02:13:07 UTC
-! Total Rules: 118677
+! Last Updated: 2026-07-28 13:59:36 UTC
+! Total Rules: 118686
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -1831,6 +1831,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /dynatracemonitor?
 /e.customeriomail.com/e/o/*$image
 /e.gif?
+/e/*^ip=$domain=heygen.com
 /e_stat?g_id=
 /eatms.js
 /ecanalytics.js
@@ -6487,7 +6488,6 @@ bismarck.townsquaremedia.info$image
 bitdefender.com#$#body[style="opacity: 0;"] { opacity: 1 !important; }
 biteki.com#$?#.slick-slide > div[id] + script:upward(1) { remove: true; }
 bizjournals.com##.c1-ad-sticky
-biznesenter.pl#%#//scriptlet('abort-current-inline-script', 'document.createelement', 'gtm.start')
 blog.fc2.com#?#.side-menu > div.sidebar-style > script[src^="//counter1.fc2.com/"]:upward(2)
 blog.fc2.com#?#div[class$="_outline"] > div > div.plugin-counter:upward(2)
 blog.jp#?#.plugin-memo > div.side > div > div[id^="blz_rss"]:upward(3)
@@ -6528,6 +6528,7 @@ caberconsultants.mg.caberconsultants.com$image
 campusfrance.org#%#//scriptlet('set-constant', 'pa', 'emptyobj')
 campusfrance.org#%#//scriptlet('set-constant', 'pa.sendevent', 'noopfunc')
 canadiantire.ca#%#//scriptlet('set-local-storage-item', 'signifydsessionidinfo', '$remove$')
+candytm.pl,biznesenter.pl#%#//scriptlet('abort-current-inline-script', 'document.createelement', '/gtm\.start|datalayer/')
 capital.fr,voici.fr,gala.fr#%#//scriptlet('set-constant', 'dd_rum.addtiming', 'noopfunc')
 careermap.co.uk#%#//scriptlet("set-constant", "trackevent", "noopfunc")
 careers.samsungena-global.com$image
@@ -105200,6 +105201,7 @@ zonedirector.avadacom.com$image
 ||api.zingnews.vn/*/r?ze=
 ||api.zingnews.vn/*/trackpv/
 ||api2.bybit.com/v2/public/metrics
+||api2.heygen.com/v1/movio.batch_track
 ||api2.ma.ru/analytics.js
 ||api3.wetter.de/s/web.png
 ||api6.surfshark.com/v1/server/user|
@@ -106021,6 +106023,7 @@ zonedirector.avadacom.com$image
 ||bn.dxlive.com/js/rightcolga.js
 ||bnamic.com/referrer/
 ||bnc.lt^$third-party
+||bnesim.com/js/trackers.js
 ||bnews.com.br/increase_counters.js
 ||bnpparibas.fr/javascriptinsert.js
 ||bnqt.com^$third-party
@@ -106334,6 +106337,8 @@ zonedirector.avadacom.com$image
 ||canalplus-bo.net/web/*/tracker/?
 ||canarytokens.com/*/*/*.$all
 ||canddi.com^$third-party
+||candy-home.com^$referrerpolicy=origin
+||candytm.pl/gtmgateway/
 ||canem-auris.com^$third-party
 ||canlytics.com^$third-party
 ||canopylabs.com^$third-party
@@ -109457,6 +109462,7 @@ zonedirector.avadacom.com$image
 ||glove.fit^$third-party
 ||glowing.com/unilog
 ||glssp.net/logger.js
+||glutenfreeonashoestring.com/wp-content/*/analytics*.min.js
 ||gm-it.consulting^$third-party
 ||gm99.com^$third-party
 ||gmarket.co.kr/js/common/uuid.js
@@ -113498,6 +113504,7 @@ zonedirector.avadacom.com$image
 ||player-cdn.com/cdn-cgi/trace
 ||player-feedback-mds.glomex.com/pf/?clientname=
 ||player-files.remixd.com/ping.gif
+||player.fabster.com/event/
 ||player.hdgay.net/cdn-cgi/trace
 ||player.instaread.co/js/inarticle-metrics.js
 ||player.ivideosmart.com/ivsplayer/*/moat-tracker.js
@@ -115025,6 +115032,7 @@ zonedirector.avadacom.com$image
 ||sfchronicle.com/413gkwmt/init.js
 ||sfgame.net/tracking_ggs.php
 ||sfgate.com/413gkwmt/init.js
+||sfgate.com/api/client-logs
 ||sfstatic.net/build/js/basicmetricstracking.
 ||sfstatic.net/build/js/basicmetricstracking.*.js
 ||sftrack.searchforce.net^$third-party
@@ -115540,6 +115548,7 @@ zonedirector.avadacom.com$image
 ||spn-twr-14.com^$third-party
 ||spnx.jp/spnx-logger.js
 ||spnx.jp^$third-party
+||spolshy.com.ua/js/data|
 ||sponsorcounter.de^$third-party
 ||sponsored.com^$third-party
 ||spooncast.net^$cookie=/^_hackle_/

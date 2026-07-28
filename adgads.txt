@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-28 02:13:07 UTC
-! Total Rules: 5843
+! Last Updated: 2026-07-28 13:59:36 UTC
+! Total Rules: 5850
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -844,6 +844,7 @@
 ||2500sz.com/site/
 ||250sy.cc/gg/
 ||256856.com/fei-ad/
+||25img.com/nnn2/189guding.js
 ||268de.com/js/
 ||26img.com/nnn2/188.js
 ||26img.com/nnn2/189guding.js
@@ -1997,7 +1998,6 @@
 ||cdn.jsdelivr.net/gh/*/js/arlinablock.js
 ||cdn.jsdelivr.net/gh/adigunawanxd/pluginsgalaxymag@master/seosecretidnblockads.js
 ||cdn.jsdelivr.net/gh/arlina-design/quasar@master/arlinablock.js
-||cdn.jsdelivr.net/gh/ayoubcr5/bestnhl/ad.js
 ||cdn.jsdelivr.net/gh/dewaplokis/block@master/dewablock.js
 ||cdn.jsdelivr.net/gh/itspro-dev/project_files@
 ||cdn.jsdelivr.net/gh/mdnaik/myblog@master/arlinablock.js
@@ -2326,6 +2326,7 @@
 ||dd6364.com/js/777/
 ||dditscdn.com/*/advertisement.js
 ||ddshu.net/a_d_code/
+||dealextreme.com/affiliate_upload/
 ||dealmoon.com/hotdeals/hotdeals_scroller.php
 ||dealmoon.com/upload/dealmoon_app.jpg
 ||debugease.com/static/js/show.js
@@ -2420,7 +2421,6 @@
 ||doii.cc/mmm/
 ||dongchedi.com/motor/ad/
 ||dongfangtai.com/2018/
-||donghuaworld.com/wp-content/plugins/no-adblock-access/detector.js
 ||dota2protracker.com/sget/ads/
 ||douban.com/?unit=dale_movie_trailer_after_play&
 ||douban.com/view/dale-online/dale_ad
@@ -2725,6 +2725,7 @@
 ||freecontent.stream
 ||freedidi.com/wp-content/plugins/abn-wall/assets/abn-wall.
 ||freedidi.com/wp-content/plugins/death-luhubaoyu/
+||freedownloadmanager.org/web/bannerinf.js
 ||freehao123.com/wp-content/uploads/2017/05/mmkdm.png
 ||freejavbt.com/assets/images/banner
 ||freepopnews.skin/advert/
@@ -3274,6 +3275,7 @@
 ||images.sohu.com/ytv/*.jpg
 ||images.whoer.com/image/*.gif
 ||imagespublic.tk/clothes/comeliness.php
+||imagetwist.com/b9ng.js
 ||imageweb.ws/whaledate.gif
 ||imdb.com/_json/getads/
 ||imedown.info/03.jpg
@@ -3324,7 +3326,6 @@
 ||imooc.com/open/courselistrandjs
 ||imparteconocimientos.com/recursos/anti-adblocker.js
 ||indexclix.com/js/cpmbanners.js
-||indianexpress.com/wp-content/themes/indianexpress/js/min/in_article_ad.js
 ||indiatimes.com/lgads_
 ||indiatimes.com/manageads/
 ||indiatimes.com/toiads_
@@ -4421,6 +4422,7 @@
 ||player.videasy.*/scripts/ab.js
 ||playgama.com/ads/
 ||playzip.com/static/js/abcd.js
+||plibcdn.com/templates/base_master/js/jquery.ppdr2.min.js
 ||plibcdn.com/templates/base_master/js/jquery.shows2.min.js
 ||pmb*.tj.ali213.net/js/
 ||pniao99.com/statics/js/stat.js
@@ -4521,6 +4523,8 @@
 ||qingkong.net/skin/htcs/images/980.jpg
 ||qingsedhh.com/images/gg.gif
 ||qingxinwx.*/static/xbiquge/js/wap.
+||qishen123.com^*/0
+||qishen123.com^*/1
 ||qishula.com/css/wap.
 ||qiuw.com/static/xin-ad.js
 ||qiuyi.cn/baojian/
@@ -5096,6 +5100,7 @@
 ||tbib.org/tbib.
 ||tcmap.com.cn/js/b_
 ||tcptest.cn/prod-api/web/adlinks/
+||tcz.pl/*/reklama*.php
 ||tdpri.com/render-ad.php
 ||tdxs5.cc/m
 ||teacher.php.cn/php/
@@ -5209,6 +5214,7 @@
 ||toyhax.com/tfwiki/banner.html
 ||tptoon.com/skin/js/tjtjkk.
 ||tq121.com.cn/j/ad/
+||tr.link/*/img/imgpsh_fullsize_anim.gif
 ||tra.scds.pmdstatic.net/advertising-core/
 ||tradehouse.media/js/prebid-
 ||trafficmanager.net/o.js
@@ -5219,6 +5225,7 @@
 ||trendmicro.com.tw/wp-content/uploads/*banner
 ||trstx.org/overroll/
 ||truex.com/js/client.js
+||truvidplayer.com/v*/v.php?*&adid=
 ||truyensex*/anh/
 ||trvl-px.com/trvl-px/
 ||tsdm39.com/img01/mp3/gg/
@@ -5398,7 +5405,6 @@
 ||wanwan.sina.com.cn/third_party/
 ||wasabii.com.tw/float/*.js
 ||watchporn.to/banners/
-||watchporn.to/contents/djifbwwmsrbs/player/seduced_vast.mp4
 ||wccftech.com/0ldbu6cv0mz.js
 ||wcostream.com/inc/js/adblock-detector-hardened.js
 ||wcostream.net/premiumad
@@ -5622,6 +5628,7 @@
 ||xxhh.com/xh.js
 ||xxir.com/static/images/ad.
 ||xxooos.com/mm/
+||xxxdessert.com/*_fe.js
 ||xxxdl.net/nothing.aspx?
 ||xxxshake.com/assets/f_load.js
 ||xygwh.cc/js/p

@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-28 02:13:07 UTC
-! Total Rules: 11447
+! Last Updated: 2026-07-28 13:59:36 UTC
+! Total Rules: 11454
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -3812,6 +3812,7 @@
 ||api.zingnews.vn/*/r?ze=
 ||api.zingnews.vn/*/trackpv/
 ||api2.bybit.com/v2/public/metrics
+||api2.heygen.com/v1/movio.batch_track
 ||api2.ma.ru/analytics.js
 ||api3.wetter.de/s/web.png
 ||api6.surfshark.com/v1/server/user|
@@ -4322,6 +4323,7 @@
 ||bmw-connecteddrive.de/z.gif?x=
 ||bn.dxlive.com/js/rightcolga.js
 ||bnamic.com/referrer/
+||bnesim.com/js/trackers.js
 ||bnews.com.br/increase_counters.js
 ||bnpparibas.fr/javascriptinsert.js
 ||bobbibrown.com.tr/js-repo/elc-service-analytics/
@@ -4500,6 +4502,7 @@
 ||canada.com/js/analytics/
 ||canadiantire.ca/aiq/analytics_ctr_prod.js
 ||canalplus-bo.net/web/*/tracker/?
+||candytm.pl/gtmgateway/
 ||canstockphoto.com/server.php?rqst=track
 ||canva.com/_ajax/ae/createbatch
 ||canvas.*.ac.*/api/v1/courses/*/ping
@@ -6308,6 +6311,7 @@
 ||glomera.com/stats
 ||glowing.com/unilog
 ||glssp.net/logger.js
+||glutenfreeonashoestring.com/wp-content/*/analytics*.min.js
 ||gmarket.co.kr/js/common/uuid.js
 ||gmdigital.it/vtrack-staging.js
 ||gmx.net/monitoring/
@@ -8535,6 +8539,7 @@
 ||player-cdn.com/cdn-cgi/trace
 ||player-feedback-mds.glomex.com/pf/?clientname=
 ||player-files.remixd.com/ping.gif
+||player.fabster.com/event/
 ||player.hdgay.net/cdn-cgi/trace
 ||player.instaread.co/js/inarticle-metrics.js
 ||player.ivideosmart.com/ivsplayer/*/moat-tracker.js
@@ -9369,6 +9374,7 @@
 ||sfchronicle.com/413gkwmt/init.js
 ||sfgame.net/tracking_ggs.php
 ||sfgate.com/413gkwmt/init.js
+||sfgate.com/api/client-logs
 ||sfstatic.net/build/js/basicmetricstracking.
 ||sfstatic.net/build/js/basicmetricstracking.*.js
 ||sgimage.netmarble.com/js/gtm/
@@ -9651,6 +9657,7 @@
 ||splunkcloud.com/services/collector/
 ||splunkcloud.com/services/collector/event|
 ||spnx.jp/spnx-logger.js
+||spolshy.com.ua/js/data|
 ||sport.ua/pixel/
 ||sportal.de/js/cf.analytics.js
 ||sportnews.bz/pcookie?
