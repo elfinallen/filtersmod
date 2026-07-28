@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-27 14:26:38 UTC
-! Total Rules: 11443
+! Last Updated: 2026-07-28 02:13:07 UTC
+! Total Rules: 11447
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -4068,6 +4068,7 @@
 ||autoguide.com/api/posts/*/impressions
 ||autohome.com.cn/impress?
 ||autoline-top.com/counter.php?
+||autoline.link/weblog
 ||automobile.it/fb/
 ||autonews.ru/redir/stat/
 ||autonotizen.de/user/*/js/galocal.js
@@ -4752,6 +4753,7 @@
 ||charmmy-api.line.me/api/*/bars/tracking
 ||chartsurfer.de/js/mtm.js
 ||chartsurfer.de/uscoll.php?
+||chase.com/apps/services/clientbeacon.html
 ||chat.deepseek.com/api/v0/events
 ||chat.groq.com/global_stats
 ||chat.vica.gov.sg/api/v1/unleash/proxy/client/metrics
@@ -7098,6 +7100,7 @@
 ||karelcapek.co.jp/scripts/tracker.js
 ||karelia.info/counter/
 ||karstadt.de/on/demandware.store/*/__analytics-tracking?
+||karte.io/event
 ||karte.io/libs/tracker.
 ||karte.io/mirror-record/
 ||karte.io/mirror-record/record?
@@ -11144,6 +11147,7 @@
 ||wp.com/*/a8c-analytics.js
 ||wp.com/wp-content/js/bilmur.min.js
 ||wp.pl/?rid=
+||wpastra.com/wp-content/plugins/cross-domain-tracker-for-affiliatewp/
 ||wpdigital.net/metrics/
 ||wrtn.ai/proxy/client/metrics
 ||ws.cs.1worldsync.com/log?

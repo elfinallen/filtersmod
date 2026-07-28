@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-27 14:26:38 UTC
-! Total Rules: 118673
+! Last Updated: 2026-07-28 02:13:07 UTC
+! Total Rules: 118677
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -4710,6 +4710,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 1194.sock-qa1.marketingcloudqaops.com$image
 11945.editor-qa1.marketingcloudqaapis.com$image
 11976.connector-qa1.marketingcloudqaapis.com$image
+11alive.com,apnews.com,artforum.com,artnews.com,billboard.com,calgaryherald.com,calgarysun.com,crooksandliars.com,deadline.com,dpreview.com,driving.ca,financialpost.com,goldderby.com,golfdigest.com,hollywoodreporter.com,indiewire.com,lfpress.com,nationalpost.com,nbcsports.com,oregonlive.com,ottawasun.com,robbreport.com,rollingstone.com,sherdog.com,sidereel.com,superherohype.com,techcrunch.com,torontosun.com,vancouversun.com,variety.com,vibe.com,wfaa.com,windsorstar.com,wqad.com,wthr.com,wtol.com,wtsp.com,wwd.com#%#//scriptlet('ubo-acs', 'document.getelementsbytagname', '.pubads')
 11dkim1._domainkey.biz.maxis.com.my$image
 11dkim1._domainkey.email1.onduo.com$image
 11dkim1._domainkey.snapcap.com$image
@@ -6256,7 +6257,7 @@ airlift.net#%#//scriptlet('abort-on-property-read', 'posthog')
 akali.webspecmail.com$image
 akamai.webspecmail.com$image
 akshare.moseasia.com$image
-al.com,attackofthefanboy.com,destructoid.com,edmontonsun.com,gamepur.com,gamerjournalist.com,gameskinny.com,lehighvalleylivecom,lgbtqnation.com,macwelt.de,mlive.com,news8000.com,nj.com,pcwelt.de,pennlive.com,primagames.com,progameguides.com,siliconera.com,syracuse.com,themarysue.com,touchtapplay.com,wegotthiscovered.com#%#//scriptlet('ubo-aost', 'decodeuri', '/(?=^(?!.*\.js))/')
+al.com,attackofthefanboy.com,destructoid.com,edmontonsun.com,gamepur.com,gamerjournalist.com,gameskinny.com,lehighvalleylivecom,lgbtqnation.com,macwelt.de,mlive.com,news8000.com,nj.com,oregonlive.com,pcwelt.de,pennlive.com,primagames.com,progameguides.com,siliconera.com,syracuse.com,themarysue.com,touchtapplay.com,wegotthiscovered.com#%#//scriptlet('ubo-aost', 'decodeuri', '/(?=^(?!.*\.js))/')
 alba.alalikexpress.com$image
 album.moseasia.com$image
 alert.avadacom.com$image
@@ -6308,7 +6309,6 @@ apkpure.*#%#//scriptlet('set-constant', '$$.analytics', 'emptyobj')
 apkpure.*#%#//scriptlet('set-constant', '$$.analytics.send', 'noopfunc')
 apkpure.com#%#//scriptlet('remove-node-text', 'script', '/deviceid|__apkpurefirstinteractiontype|fingerprintjs|pvid/i')
 apkpure.com#%#//scriptlet('set-local-storage-item', '__beacon_deviceid', '$remove$')
-apnews.com,artforum.com,artnews.com,billboard.com,calgaryherald.com,calgarysun.com,crooksandliars.com,deadline.com,dpreview.com,driving.ca,financialpost.com,goldderby.com,golfdigest.com,hollywoodreporter.com,indiewire.com,lfpress.com,nationalpost.com,nbcsports.com,oregonlive.com,ottawasun.com,robbreport.com,rollingstone.com,sherdog.com,sidereel.com,superherohype.com,techcrunch.com,torontosun.com,vancouversun.com,variety.com,vibe.com,wfaa.com,windsorstar.com,wqad.com,wtol.com,wtsp.com,wwd.com#%#//scriptlet('ubo-acs', 'document.getelementsbytagname', '.pubads')
 app.mellstroy.website$image
 app.spectacularacademy.com$image
 app.tirelocator.ca#%#//scriptlet("set-constant", "googleanalyticsenhancedtrackevent", "noopfunc")
@@ -105574,6 +105574,7 @@ zonedirector.avadacom.com$image
 ||autoid.com^$third-party
 ||autoline-top.com/counter.php?
 ||autoline-top.com^$third-party
+||autoline.link/weblog
 ||automate-prod.s3.amazonaws.com^$~script
 ||automizely-analytics.com^$third-party
 ||automobile.it/fb/
@@ -106698,6 +106699,7 @@ zonedirector.avadacom.com$image
 ||chartbeat.net^$third-party
 ||chartsurfer.de/js/mtm.js
 ||chartsurfer.de/uscoll.php?
+||chase.com/apps/services/clientbeacon.html
 ||chat.deepseek.com/api/v0/events
 ||chat.groq.com/global_stats
 ||chat.vica.gov.sg/api/v1/unleash/proxy/client/metrics
@@ -110951,6 +110953,7 @@ zonedirector.avadacom.com$image
 ||kari.com^$cookie=rees46_device_id
 ||kariyer.net^$cookie=jobviewcount
 ||karstadt.de/on/demandware.store/*/__analytics-tracking?
+||karte.io/event
 ||karte.io/libs/tracker.
 ||karte.io/mirror-record/
 ||karte.io/mirror-record/record?
@@ -118211,6 +118214,7 @@ zonedirector.avadacom.com$image
 ||wp.com/i/mu.gif$image
 ||wp.com/wp-content/js/bilmur.min.js
 ||wp.pl/?rid=
+||wpastra.com/wp-content/plugins/cross-domain-tracker-for-affiliatewp/
 ||wpde.com^$cookie=sbgtvnonce
 ||wpde.com^$cookie=suid
 ||wpdigital.net/metrics/
