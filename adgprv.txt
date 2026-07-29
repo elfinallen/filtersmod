@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-28 13:59:36 UTC
-! Total Rules: 11454
+! Last Updated: 2026-07-29 02:23:31 UTC
+! Total Rules: 11457
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -8218,6 +8218,7 @@
 ||online.hentai-share.me/templates/anime-share2/js/liveinternet.js
 ||online.hentai-share.me/templates/anime-share2/js/metrika.js
 ||online.marketing/a.js
+||online.tokyu-dept.co.jp/assets/common/js/googleanalyticsevent.js
 ||onlinepngtools.com/images/examples-onlinepngtools/single-opaque-pixel.png
 ||onlinepresse.info/counter.php?
 ||onliner.by/viewcounter/
@@ -8878,6 +8879,7 @@
 ||rba.es/track.action
 ||rbc.ru/click?
 ||rbc.ru/count/
+||rbc.ru/info-service/api/v*/ev/?
 ||rbc.ru/redir/stat/
 ||rbc.ru/rightarror.gif
 ||rbc.ua/enghits/
@@ -9451,6 +9453,7 @@
 ||shorthand.com/analytics/
 ||show.revico.jp/api/reviewclick/add
 ||show.revico.jp/providejs/revico_tracking.js
+||show.revico.jp/providejs/tagmanager.js
 ||showstopped.com/owa/log.php
 ||showstopped.com/owa/modules/base/dist/owa.tracker.js
 ||shrtfly.vip/js/tag.js

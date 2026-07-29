@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-28 13:59:36 UTC
-! Total Rules: 118686
+! Last Updated: 2026-07-29 02:23:31 UTC
+! Total Rules: 118690
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -97887,6 +97887,8 @@ omlete.mg.liebesleinwand.de$image
 omni.soundestlink.com$image
 onboarding.compass.com$image
 onefootball.com##section[class^="xpataboolaplaceholder_"]
+online.tokyu-dept.co.jp#%#//scriptlet('set-constant', 'addproductclickeventtotemplate', '', '', 'asfunction')
+online.tokyu-dept.co.jp#%#//scriptlet('set-constant', 'triggergaevent', 'noopfunc')
 onyx.15.nz$image
 open.rye.com$image
 openapilobalid3.click.s11.sfmc-osl.com$image
@@ -100065,7 +100067,6 @@ secure.kitan.co.il$image
 secure.mailgun.commpartners.com$image
 secure.mailgun.multoweb.nl$image
 secure.natuli.happycustomer.io$image
-secure1.comed.com#%#//scriptlet('set-constant', 'setupgoogleanalytics', 'noopfunc')
 secured.click.s11.sfmc-osl.com$image
 security.oneplus.com#%#//scriptlet('set-constant', '_dx', 'emptyobj')
 semprotyuk.com##div[style^="margin-bottom:150px;"][style*="padding-right:2em;"]
@@ -112938,6 +112939,7 @@ zonedirector.avadacom.com$image
 ||online.hentai-share.me/templates/anime-share2/js/metrika.js
 ||online.marketing/a.js
 ||online.spsglobal.com^$badfilter
+||online.tokyu-dept.co.jp/assets/common/js/googleanalyticsevent.js
 ||onlinepbx.ru^$third-party
 ||onlinepngtools.com/api/v1/stats/$ping
 ||onlinepngtools.com/images/examples-onlinepngtools/single-opaque-pixel.png
@@ -114120,6 +114122,7 @@ zonedirector.avadacom.com$image
 ||rba.es/track.action
 ||rbc.ru/click?
 ||rbc.ru/count/
+||rbc.ru/info-service/api/v*/ev/?
 ||rbc.ru/redir/stat/
 ||rbc.ru/rightarror.gif
 ||rbc.ua/enghits/
@@ -115142,6 +115145,7 @@ zonedirector.avadacom.com$image
 ||shorthand.com/analytics/
 ||show.revico.jp/api/reviewclick/add
 ||show.revico.jp/providejs/revico_tracking.js
+||show.revico.jp/providejs/tagmanager.js
 ||showheroes.com^$third-party
 ||showstopped.com/owa/log.php
 ||showstopped.com/owa/modules/base/dist/owa.tracker.js
