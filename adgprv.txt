@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-29 02:23:31 UTC
-! Total Rules: 11457
+! Last Updated: 2026-07-29 14:03:32 UTC
+! Total Rules: 11463
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -3192,6 +3192,7 @@
 ||a-mpd.com/pixel.png
 ||a.anoncity.cc/api/track
 ||a.bf-tools.net/de/de.js
+||a.c-dn.net/b/*/tracking-sdk-javascript.min.js
 ||a.cdn-hotels.com/cos/travel-pixel/
 ||a.cdnpure.com/report/group_user?
 ||a.europaplus.ru/*/event?p2=
@@ -3694,6 +3695,7 @@
 ||api.honeycomb.io/*/traces
 ||api.housefeel.com.tw/api/collect
 ||api.idg.zone/intextlinks-tracking/
+||api.ig.com/statistics/
 ||api.impresa.pt/trackercookie
 ||api.intelligems.io/track|
 ||api.intelligems.io/v3/track
@@ -6517,6 +6519,7 @@
 ||helpshift.com/events/
 ||henkel.com.tr/resources/*/webtrekk.js
 ||hentai.name/js/track.js
+||hentaihd.net/wp-content/plugins/animehub-insights/assets/js/track.js
 ||hentaitoon.tv/api/track
 ||hepsiburada.com/api/track
 ||hepsiburada.com/webcontent/
@@ -7771,6 +7774,7 @@
 ||minsk-in.net/counter.php?
 ||minutemediacdn.com/campaign-manager-client/
 ||mirtesen.ru/js/ms.js
+||mis.ig.com/tracking/
 ||misc.udn.com/record/pageview/
 ||misumi-ec.com/api/v1/log/
 ||misumi-ec.com/vcommon/common/js/karte.js
@@ -8017,6 +8021,7 @@
 ||netzwelt.de/log?
 ||neulion.vo.llnwd.net^*/track.js
 ||neuron.cbssports.cloud/client.js?platform=tracking-manager
+||neuronal.infunnel.inconcert.cloud/public/tracking/frame.html
 ||newbie.dk/topref.php?
 ||newbie.dk^*/counter.php?
 ||newegg.com/amber3/tracking
@@ -9798,6 +9803,7 @@
 ||static.danawa.com/globaljs/static/insight_webanalytics_
 ||static.danawa.com/globaljs/static/logger_insight_webanalytics.js
 ||static.danawa.com/globaljs/static/logger_insight_webanalytics_mobile.js
+||static.danawa.com/globaljs/static/logger_trackevent.js
 ||static.danawa.com/globaljs/static/targetpush/targetpushtracking.js
 ||static.dditscdn.com/arms-datacollectorjs/
 ||static.developer.riotgames.com/js/rgea.min.js

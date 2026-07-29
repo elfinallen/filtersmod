@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-29 02:23:31 UTC
-! Total Rules: 5851
+! Last Updated: 2026-07-29 14:03:31 UTC
+! Total Rules: 5849
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -11,7 +11,6 @@
 /ab_my/pc_pf.js
 /ab_res/m/common.js
 /ab_res/pc/fixed/fixed.js
-/ad-blocking-detector/assets/js/adblock-detector.min.js
 /ad-provider.
 /ad2v1.1.js
 /ad?count=
@@ -314,7 +313,6 @@
 /js/cpc_i.js
 /js/cpv_dl.js
 /js/cpv_fm_
-/js/doubleclick.min.js?v=
 /js/dyguosj/*
 /js/easyad.js
 /js/easyad2.js
@@ -579,7 +577,6 @@
 /vast.php?*&tags=exoxvideostargetting
 /vast/?zid=
 /vbvb_*_pmpm.js
-/vendor/doubleclick.min.js
 /vendors~ads.
 /videojs/video-conrtib-ads.js
 /view/image/ngps1.gif
@@ -844,7 +841,9 @@
 ||2500sz.com/site/
 ||250sy.cc/gg/
 ||256856.com/fei-ad/
+||25img.com/nnn2/188.js
 ||25img.com/nnn2/189guding.js
+||25img.com/nnn2/accd.js
 ||268de.com/js/
 ||26img.com/nnn2/188.js
 ||26img.com/nnn2/189guding.js
@@ -1495,6 +1494,7 @@
 ||aoneroom.com/wefeed-h5api-bff/ad/
 ||aoshi.com/rbc.jpg
 ||aotu43.com/templates/defboot/js/duilian.js
+||apa.az/banner/
 ||api-a.ganjingworld.com/*/adsserver/get-vast-xml/
 ||api.adultdeepfakes.cam/banners
 ||api.apiimg.com/huaer/xiahe.js
@@ -1985,7 +1985,6 @@
 ||cdn.12341234.pl/editag/*/prod/editag.min.js
 ||cdn.aznude.com/js/dating.json
 ||cdn.aznude.com/player/v*/vast-no-entitlements.js
-||cdn.bullion.media/custom_units/video-strip-master.js
 ||cdn.cnn.com/ads/
 ||cdn.concert.io/lib/concert-ads/
 ||cdn.cuty.io/fps.js
@@ -2545,7 +2544,6 @@
 ||eastmoney.com/trade/hqb_hq.html
 ||easyai.tech/wp-content/uploads/*-576x1024.
 ||easyicon.net/gg2019/
-||easytechguides.com/b/
 ||ebay.com/scl/js/scandalloader.js
 ||ebaystatic.com/rs/c/scandal/
 ||ebaystatic.com^*/scandaljs-
@@ -3325,7 +3323,6 @@
 ||imhentai.xxx/js/slider_
 ||imooc.com/open/courselistrandjs
 ||imparteconocimientos.com/recursos/anti-adblocker.js
-||indexclix.com/js/cpmbanners.js
 ||indiatimes.com/lgads_
 ||indiatimes.com/manageads/
 ||indiatimes.com/toiads_
@@ -4624,7 +4621,6 @@
 ||rakuya.com.tw/position?task=
 ||randalls.com/abs/pub/xapi/search/sponsored-carousel?
 ||rarbt.cc/js/index960_
-||rat.xxx/blsrv/
 ||ratedxbiz.com/d/
 ||raw.githack.com/*/*/main/antiadblock/2.0/code.min.js
 ||raw.githubusercontent.com/easylist/easylist/master/docs/1x1.gif
@@ -5201,6 +5197,7 @@
 ||topmba.mobi/ad/
 ||topthink.com/api/basic/
 ||toptoon03.xyz/app/tuijian.html
+||torrindex.net/images/ads/
 ||torrindex.net/images/epv/
 ||totalmedia2.ynet.co.il/new_gpt/
 ||totheglory.im/pic/business/
@@ -5224,6 +5221,7 @@
 ||trannygem.com/ai
 ||trans.firm.in/*.js
 ||trendmicro.com.tw/wp-content/uploads/*banner
+||trip.com/partners/ad/
 ||trstx.org/overroll/
 ||truex.com/js/client.js
 ||truvidplayer.com/v*/v.php?*&adid=

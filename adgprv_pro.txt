@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-29 02:23:31 UTC
-! Total Rules: 118690
+! Last Updated: 2026-07-29 14:03:31 UTC
+! Total Rules: 118701
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -94670,6 +94670,7 @@ itmedia.co.jp##.is-recommend:empty
 itmedia.co.jp##div[id^="logly-lift-"]
 itmedia.co.jp#$##ulcommentwidget[style*="display"] { display: block !important; }
 itmedia.co.jp#%#//scriptlet('set-cookie', 'cx_g', '1')
+itmedia.co.jp#%#//scriptlet('set-local-storage-item', 's_ubid', '$remove$')
 itsu.com#%#//scriptlet('set-constant', 'atreemotrackinglbr', 'noopfunc')
 itsupport.click.s11.sfmc-osl.com$image
 ixbt.com##.block__recommend
@@ -97659,6 +97660,8 @@ nanjpride.blog.jp##div[class^="article-outer"] > div.recommend:has(> div.ninja-r
 national.townsquaremedia.info$image
 national.townsquarenewsletters.com$image
 natuero-dougakan.com##.side-menu:has(script[src="//accaii.com/natuero/script.js"])
+naver.com#%#//scriptlet('trusted-json-set', 'json.stringify', '$.env.br_sr', '3840x2160', '$.evts[*].nlog_id', 'args', '', 'jsonpath')
+naver.com#%#//scriptlet('trusted-json-set', 'json.stringify', '$.env.device_sr', '3840x2160', '$.evts[*].nlog_id', 'args', '', 'jsonpath')
 nbcbayarea.com#%#//scriptlet('set-constant', 'ns_', 'emptyobj')
 nbcbayarea.com#%#//scriptlet('set-constant', 'ns_.streaminganalytics', 'noopfunc')
 nbclosangeles.com#%#//scriptlet('prevent-element-src-loading', 'script', '/sb\.scorecardresearch\.com|cdn-gl\.imrworldwide\.com\/conf\//')
@@ -100051,7 +100054,6 @@ scarfilm.org##.footer-col-3
 scottlobalid3.click.s11.sfmc-osl.com$image
 screenov.eu#?#.container > div.box:has(> a[href^="https://www.liveinternet.ru/click"])
 search.brave.com#%#//scriptlet('set-local-storage-item', 'app.usagemetricsoptout', 'true')
-search.naver.com#%#//scriptlet('set-cookie-reload', 'nnb', '1', '/', '.naver.com')
 seclub.org##a[href^="http://waplog.net/"]
 secure.axocom.happycustomer.io$image
 secure.bman.happycustomer.io$image
@@ -104155,6 +104157,7 @@ zonedirector.avadacom.com$image
 ||a.amnet.tw^$third-party
 ||a.anoncity.cc/api/track
 ||a.bf-tools.net/de/de.js
+||a.c-dn.net/b/*/tracking-sdk-javascript.min.js
 ||a.cdn-hotels.com/cos/travel-pixel/
 ||a.cdnpure.com/report/group_user?
 ||a.europaplus.ru/*/event?p2=
@@ -105067,6 +105070,7 @@ zonedirector.avadacom.com$image
 ||api.honeycomb.io/*/traces
 ||api.housefeel.com.tw/api/collect
 ||api.idg.zone/intextlinks-tracking/
+||api.ig.com/statistics/
 ||api.impresa.pt/trackercookie
 ||api.intelligems.io/track|
 ||api.intelligems.io/v3/track
@@ -107099,6 +107103,7 @@ zonedirector.avadacom.com$image
 ||collect.blishtech.co^$third-party
 ||collect.feefo.com^$third-party
 ||collecting.click^$third-party
+||collection.e-satisfaction.com^$third-party
 ||collections.mp.microsoft.com/*/collections/query
 ||collector-pxxljwhhue.px-cloud.net/b/s/beacon
 ||collector.appconsent.io/t2.gif?a=
@@ -109912,6 +109917,7 @@ zonedirector.avadacom.com$image
 ||henkel.com.tr/resources/*/webtrekk.js
 ||hentai.name/js/track.js
 ||hentaicounter.com^$third-party
+||hentaihd.net/wp-content/plugins/animehub-insights/assets/js/track.js
 ||hentaitoon.tv/api/track
 ||hepsiburada.com/api/$ping
 ||hepsiburada.com/api/track
@@ -110750,6 +110756,8 @@ zonedirector.avadacom.com$image
 ||iterable.com/analytics.js
 ||ithinkthereforeiam.net^$third-party
 ||itmedia.co.jp/js/itmdp_code.js
+||itmedia.co.jp^$cookie=s_ubid
+||itmedia.co.jp^$cookie=s_vid
 ||itmwpb.com/wp-content/plugins/advertise/modules/stats/assets/track.js
 ||itop.cz^$third-party
 ||itrac.it^$third-party
@@ -112096,6 +112104,7 @@ zonedirector.avadacom.com$image
 ||minutemediacdn.com/campaign-manager-client/
 ||mirabelsmarketingmanager.com^$third-party
 ||mirtesen.ru/js/ms.js
+||mis.ig.com/tracking/
 ||misc.udn.com/record/pageview/
 ||misrepush.com^$third-party
 ||misto.zp.ua/img/reiting_$third-party
@@ -112574,6 +112583,7 @@ zonedirector.avadacom.com$image
 ||netzwelt.de/log?
 ||neulion.vo.llnwd.net^*/track.js
 ||neuron.cbssports.cloud/client.js?platform=tracking-manager
+||neuronal.infunnel.inconcert.cloud/public/tracking/frame.html
 ||new-collect.albacross.com^$third-party
 ||new.hnair.com/hainanair/ibe/static/scripts/new/profile/fingerprint2.js$script,redirect=fingerprintjs2,important
 ||newbie.dk/topref.php?
@@ -112772,7 +112782,7 @@ zonedirector.avadacom.com$image
 ||nta1vb6cdlrl.com^$third-party
 ||ntlab.org^$third-party
 ||ntm.pstatic.net/scripts/ntm_$domain=naver.com
-||ntm.pstatic.net/scripts/ntm_*.js$domain=~smartstore.naver.com|~brand.naver.com|~flight.naver.com
+||ntm.pstatic.net/scripts/ntm_*.js$domain=~smartstore.naver.com|~brand.naver.com|~flight.naver.com|~search.naver.com|~www.naver.com
 ||ntmb.de/count.html?
 ||nttcoms.com^$cookie=visitorid
 ||ntunhs.net/js/tracker.js
@@ -115765,6 +115775,7 @@ zonedirector.avadacom.com$image
 ||static.danawa.com/globaljs/static/insight_webanalytics_
 ||static.danawa.com/globaljs/static/logger_insight_webanalytics.js
 ||static.danawa.com/globaljs/static/logger_insight_webanalytics_mobile.js
+||static.danawa.com/globaljs/static/logger_trackevent.js
 ||static.danawa.com/globaljs/static/targetpush/targetpushtracking.js
 ||static.dditscdn.com/arms-datacollectorjs/
 ||static.developer.riotgames.com/js/rgea.min.js
