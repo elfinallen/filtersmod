@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-29 14:03:31 UTC
-! Total Rules: 118701
+! Last Updated: 2026-07-30 02:05:26 UTC
+! Total Rules: 118706
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -1435,6 +1435,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /btrack.php?
 /bugcounter.php?
 /bundle-analytics.js
+/bundle.tracing.min.js
 /bundle.tracking.js
 /bundle/analytics.
 /bunsen/events/*
@@ -2204,6 +2205,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /googletracker.js
 /googletracking.js
 /gosquared.js$script
+/gosstat_gokw.gif?
+/gosstat_gomp.gif?
 /gp/r.html?$image
 /gp/video/acquisition/utilities/monitoring|$domain=primevideo.com|amazon.*
 /grabify.link\/[0-9a-z]{6,8}$/$domain=grabify.link,all
@@ -4711,7 +4714,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 1194.sock-qa1.marketingcloudqaops.com$image
 11945.editor-qa1.marketingcloudqaapis.com$image
 11976.connector-qa1.marketingcloudqaapis.com$image
-11alive.com,apnews.com,artforum.com,artnews.com,billboard.com,calgaryherald.com,calgarysun.com,crooksandliars.com,deadline.com,dpreview.com,driving.ca,financialpost.com,goldderby.com,golfdigest.com,hollywoodreporter.com,indiewire.com,lfpress.com,nationalpost.com,nbcsports.com,oregonlive.com,ottawasun.com,robbreport.com,rollingstone.com,sherdog.com,sidereel.com,superherohype.com,techcrunch.com,torontosun.com,vancouversun.com,variety.com,vibe.com,wfaa.com,windsorstar.com,wqad.com,wthr.com,wtol.com,wtsp.com,wwd.com#%#//scriptlet('ubo-acs', 'document.getelementsbytagname', '.pubads')
+11alive.com,apnews.com,artforum.com,artnews.com,billboard.com,calgaryherald.com,calgarysun.com,cbs19.tv,crooksandliars.com,deadline.com,dpreview.com,driving.ca,financialpost.com,goldderby.com,golfdigest.com,hollywoodreporter.com,indiewire.com,kcentv.com,kgw.com,lfpress.com,nationalpost.com,nbcsports.com,oregonlive.com,ottawasun.com,robbreport.com,rollingstone.com,sherdog.com,sidereel.com,superherohype.com,techcrunch.com,torontosun.com,vancouversun.com,variety.com,vibe.com,wfaa.com,windsorstar.com,wqad.com,wthr.com,wtol.com,wtsp.com,wwd.com#%#//scriptlet('ubo-acs', 'document.getelementsbytagname', '.pubads')
 11dkim1._domainkey.biz.maxis.com.my$image
 11dkim1._domainkey.email1.onduo.com$image
 11dkim1._domainkey.snapcap.com$image
@@ -108500,6 +108503,7 @@ zonedirector.avadacom.com$image
 ||etahub.com^$third-party
 ||eternalmangas.com/api/analytics/
 ||eternalmangas.com/api/track-visit
+||etfstream.com/api/active-campaign/track-events
 ||etfstream.com/api/analytics/
 ||etfstream.com/api/proxy/get-search-sponsor
 ||eth-pocket.com^$third-party
@@ -108758,6 +108762,7 @@ zonedirector.avadacom.com$image
 ||faphouse.com/collector/
 ||farfetch.net/v1/marketing/trackings
 ||faro-sportybet.sportydog.net/collect|$xmlhttprequest,redirect=noopjson
+||faro.civitai.
 ||fashionbykakao.com/api/*/tr?
 ||fashionnova.com^$cookie=2c.cld
 ||fashionnova.com^$cookie=optimizelyuserid

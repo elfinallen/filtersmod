@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-29 14:03:32 UTC
-! Total Rules: 11463
+! Last Updated: 2026-07-30 02:05:26 UTC
+! Total Rules: 11468
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -444,6 +444,7 @@
 /btrack.php?
 /bugcounter.php?
 /bundle-analytics.js
+/bundle.tracing.min.js
 /bundle.tracking.js
 /bundle/analytics.
 /bunsen/events/*
@@ -1127,6 +1128,8 @@
 /googletrack.js
 /googletracker.js
 /googletracking.js
+/gosstat_gokw.gif?
+/gosstat_gomp.gif?
 /gridinbound.blob.core.
 /grumi-ip.js
 /gs-analytics-init.js
@@ -5759,6 +5762,7 @@
 ||et.educationdynamics.com/et.min.js
 ||eternalmangas.com/api/analytics/
 ||eternalmangas.com/api/track-visit
+||etfstream.com/api/active-campaign/track-events
 ||etfstream.com/api/analytics/
 ||etfstream.com/api/proxy/get-search-sponsor
 ||eticaret.pro/pixel/
@@ -5903,6 +5907,7 @@
 ||faphouse.com/api/collector/
 ||faphouse.com/collector/
 ||farfetch.net/v1/marketing/trackings
+||faro.civitai.
 ||fashionbykakao.com/api/*/tr?
 ||fast.a.klaviyo.com/media/js/analytics/klaviyo_analytics.js
 ||fast.fonts.net/jsapi/core/mt.js
