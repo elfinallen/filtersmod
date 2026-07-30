@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-30 02:05:26 UTC
-! Total Rules: 118706
+! Last Updated: 2026-07-30 13:52:23 UTC
+! Total Rules: 118714
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -2344,6 +2344,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /imp_check.php
 /imp_cnt.gif?
 /imp_img.php?
+/impb?b=
 /impr.gif?
 /impresion/zona/*
 /impress.php?
@@ -97164,6 +97165,8 @@ meritgiftcards.shopmygiftcards.com$image
 messages.coreandmain.com$image
 messages.pawjourr.com$image
 meta.happycustomer.io$image
+metacritic.com#%#//scriptlet('set-local-storage-item', 'ppid', '$remove$')
+metacritic.com#%#//scriptlet('set-local-storage-item', 'uds_anon_id', '$remove$')
 metrics.mail.account.mathworks.com$image
 metrics.recruiting.mathworks.com$image
 metrilo.pongcheese.co.uk$image
@@ -104664,6 +104667,7 @@ zonedirector.avadacom.com$image
 ||aktion.esprit-club.com^$image
 ||aktion.kurier.de/umfrage/anlvi/setiframeparent
 ||al.levels.fyi/api/event
+||aladinia.app/tracking.js
 ||alarm.youku.com/api/sendalarm
 ||alaskaair.com/alxmt4ma/init.js
 ||alaskaair.com/javascripts/adrum.js$script,redirect=noopjs,domain=alaskaair.com
@@ -105014,6 +105018,8 @@ zonedirector.avadacom.com$image
 ||api.blux.ai/prod/*/applications/*/blux-users/*/collect-events
 ||api.bookvillage.app/analytics/track
 ||api.brunch.co.kr/v1/front-log
+||api.btmessage.com/events/
+||api.btmessage.com/log?
 ||api.builtin.com/track/client-events
 ||api.bunjang.co.kr/api/log/
 ||api.cazamba.com^$third-party
@@ -106107,6 +106113,7 @@ zonedirector.avadacom.com$image
 ||box.com/index.php?rm=box_gen204_batch_record
 ||boy18tube.com/analytics.js
 ||boyner.com.tr/1eus/
+||boyplus.net/589n/
 ||bp01.net^$third-party
 ||bpath.com/count.dll?
 ||bpi.zip.co/trx/
@@ -111123,6 +111130,7 @@ zonedirector.avadacom.com$image
 ||konturnovosti.com/packs/js/opm.js
 ||kookbang.dema.mil.kr/newspaper/js/nlogger.js
 ||kopsil.com^$third-party
+||koreatimes.co.kr/api/log
 ||koreatimes.co.kr/initlib/ktet.js
 ||korewaeroi.com/fukugan_$subdocument
 ||koronapay.com/*/metrika_rus.js

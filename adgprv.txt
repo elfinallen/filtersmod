@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-30 02:05:26 UTC
-! Total Rules: 11468
+! Last Updated: 2026-07-30 13:52:23 UTC
+! Total Rules: 11474
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -1248,6 +1248,7 @@
 /imp_check.php
 /imp_cnt.gif?
 /imp_img.php?
+/impb?b=
 /impr.gif?
 /impresion/zona/*
 /impress.php?
@@ -3428,6 +3429,7 @@
 ||aksam.com.tr/analytic
 ||aktion.kurier.de/umfrage/anlvi/setiframeparent
 ||al.levels.fyi/api/event
+||aladinia.app/tracking.js
 ||alarm.youku.com/api/sendalarm
 ||alaskaair.com/alxmt4ma/init.js
 ||alawar.com/gcounter_alawar.js
@@ -3646,6 +3648,8 @@
 ||api.blux.ai/prod/*/applications/*/blux-users/*/collect-events
 ||api.bookvillage.app/analytics/track
 ||api.brunch.co.kr/v1/front-log
+||api.btmessage.com/events/
+||api.btmessage.com/log?
 ||api.builtin.com/track/client-events
 ||api.bunjang.co.kr/api/log/
 ||api.cgyx.tv:66/tj/tongji.js
@@ -4376,6 +4380,7 @@
 ||box.com/index.php?rm=box_gen204_batch_record
 ||boy18tube.com/analytics.js
 ||boyner.com.tr/1eus/
+||boyplus.net/589n/
 ||bpath.com/count.dll?
 ||bpi.zip.co/trx/
 ||bpt.webedia-group.com/pixel.png?
@@ -7206,6 +7211,7 @@
 ||kontur.ru/stats/
 ||konturnovosti.com/packs/js/opm.js
 ||kookbang.dema.mil.kr/newspaper/js/nlogger.js
+||koreatimes.co.kr/api/log
 ||koreatimes.co.kr/initlib/ktet.js
 ||koronapay.com/*/metrika_rus.js
 ||kotaku.com/api/analytics/

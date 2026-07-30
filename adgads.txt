@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-30 02:05:26 UTC
-! Total Rules: 5849
+! Last Updated: 2026-07-30 13:52:23 UTC
+! Total Rules: 5836
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -1499,7 +1499,6 @@
 ||api.adultdeepfakes.cam/banners
 ||api.apiimg.com/huaer/xiahe.js
 ||api.bilibili.com/x/ad/
-||api.jerkmotion.com/r/
 ||api.leakgallery.com/m/decide
 ||api.live.bilibili.com/*/banner
 ||api.redgifs.com/v*/feeds/modules
@@ -1956,7 +1955,6 @@
 ||caranddriver.com/inventory/
 ||carexpert.com.tw/wp-content/uploads/*800x90.
 ||carnoc.com/noticejs/
-||cartometro.com/abd.js
 ||cartoon18.com/images/friend/
 ||catbox.moe/bb5wdv.jpg
 ||cb.com.cn/index/ad/
@@ -2143,7 +2141,6 @@
 ||cjx111.com/ads/
 ||ck180.net/mitao
 ||ckxxbao.com/templets/default/js/wx.js
-||classicgames.me/ads/*.html
 ||clb.biz/public/static/js/common-v2.js
 ||cloud-web-network.workers.dev/adblock.js
 ||cloud.tencent.com/developer/api/common/getads
@@ -2937,7 +2934,6 @@
 ||guangzhoubingqing.com/88888.jpg
 ||gucheng.com/2016/ggimg/
 ||gucheng.com/gcwad/
-||guessthe.game/ads/
 ||guhai.com.cn/ad/
 ||guifun.com/psptool/ad/
 ||guilin-ly.com^*.gif
@@ -3433,7 +3429,6 @@
 ||jandan.net^*/3kbw2.png
 ||jandan.net^*/699pic/
 ||jandan.net^*/moyu.png
-||jav.sb/videojs/300.php
 ||jav.sb/videojs/300x100.php
 ||jav101.com/img5bbb0096f242f.gif
 ||javazhijia.com/skin/
@@ -3600,7 +3595,6 @@
 ||juxia.com/jxtp/indexbg.jpg
 ||juzi6.com/js/dp.js
 ||juzi6.com/js/gd.js
-||jvzoo.com/assets/widget/
 ||jwpcdn.com/player/*/googima.js
 ||jwpcdn.com/player/plugins/bidding/
 ||jxcn.cn/assets/images/downweatherapp.png
@@ -3660,8 +3654,6 @@
 ||kelehut.cc/js/m.
 ||kewaishu.org/m-
 ||key8.com/cache/www/banner_
-||keyforsteam.de/wp-admin/admin-ajax.php?action=background_get_campaigns
-||keyforsteam.de/wp-content/plugins/aks-background/assets/static/campaigns*.js
 ||keywin.org/templates/kw_v2/images/youbianad.png
 ||kiees.cn/img/
 ||kiees.cn/jm.png
@@ -3760,7 +3752,6 @@
 ||lenovo.com.cn/lenovo/bid?clienttype=
 ||lensdump.com/i/*.gif
 ||letemsvetemapplem.eu/*/alzafeed_*.php
-||letsporn.com/abrk/
 ||letsporn.com/npadm/
 ||letv.com/pzt/hyhmzq/index.shtml
 ||lf9-static.bytednsdoc.com/obj/tos-cn-i-0813
@@ -3797,7 +3788,6 @@
 ||linecg.com/uploads/banner/
 ||lingdianshuwu.com/js/content
 ||link114.cn/template/js/showpics_
-||linkconnector.com/tr.php
 ||linkedin.com/tscp-serving/
 ||linkhelper.cn/mmshow
 ||links.cn/mmshow
@@ -3923,7 +3913,6 @@
 ||macys.com/sitemonetization/v1/sponsored-products/
 ||madnessporn.com/mad/
 ||magedu.com/wp-content/uploads/*/xwzx
-||magesy.net/juan.js
 ||mahoupao.com/api.php?mod=ad&
 ||mahua.com/www/default/js/mahua_show.js
 ||mahua.com/www/default/js/replace_ab.js
@@ -4370,7 +4359,6 @@
 ||pharmnet.com.cn/js/float_div.js
 ||phb123.com/skin/js/tongji.js
 ||phbkm.com/js/
-||phncdn.com/*/pics/skins/
 ||photos18.com/images/friend/
 ||php1.cn/uploads/huayun.jpg
 ||phpernote.com/ali
@@ -4427,7 +4415,6 @@
 ||pniao99.com/statics/js/stat.js
 ||poco.cn/v1_1/rank/get_floating_layer_ad
 ||poco.cn^*_info_banner
-||polskiprzemysl.com.pl/wp-content/themes/wp_polskiprzemysl/js/fullscreen-ad.js
 ||popcdn.day/magnitude.js
 ||popin.cc/ads/
 ||porn87.com/static/stream_ads/
