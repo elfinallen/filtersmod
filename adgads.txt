@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-31 02:32:52 UTC
-! Total Rules: 5838
+! Last Updated: 2026-07-31 13:58:02 UTC
+! Total Rules: 5839
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -96,6 +96,7 @@
 /avple-images/ad.
 /avple-images/ad_
 /avshow_cn1.gif
+/banner.go?spaceid=
 /banner468x60_live173.
 /bannerpop/uploads/*
 /banners*swf
@@ -1853,6 +1854,7 @@
 ||booktxt.net/js/easyad
 ||booktxt.net/js/mangoindexbanner.js
 ||bootcss.com/assets/js/and
+||bossip.com/wp-content/plugins/ione-modules/*/universal-ads/
 ||bosw.net/js/bos/*960
 ||botcm.com/zhanqun/
 ||boyfriendtv.com/ads/
@@ -2234,6 +2236,7 @@
 ||copyfuture.com/images/zhifubao.jpg
 ||cornpic.com/images/*.gif
 ||cosmic*.co/wp-content/uploads/*.gif|
+||coucounews.com/coupas/
 ||cover.ydgal.com/axfile/
 ||cowtransfer.com/api/generic/backgrounds
 ||cp121.com/js2/
@@ -3739,7 +3742,6 @@
 ||ldb.cc/js/top.js
 ||leakgallery.com/leakifyhub/banner
 ||lecai.com/page/zhuanti/baidu/
-||leeapk.com/wp-content/plugins/leeapk-adblock-detector/
 ||leftnewsex.com/fb/fb_hilltopads.php
 ||leiphone.com/uploads/new/category/pic/*/740x140/
 ||leju.com/abp/cmslead_new.v2.js
@@ -5307,7 +5309,6 @@
 ||uwants.com/dfp_forum.php?au=uwants_web_
 ||uwants.com^*_prod.html
 ||uxxux.com/js/zd.js
-||v.vidxgo.co/assets/js/popups_runner.js
 ||v2ex.com/pro/emitter
 ||v2rayssr.com/wp-content/plugins/eazy-
 ||v4dwkcv.com/html/click/
