@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-07-30 13:52:23 UTC
-! Total Rules: 5836
+! Last Updated: 2026-07-31 02:32:52 UTC
+! Total Rules: 5838
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -595,6 +595,7 @@
 /websales_push_*_big.php?id=
 /wp-content/plugins/1shortlink/*
 /wp-content/plugins/ad-inserter/js/ai-functions.min.js
+/wp-content/plugins/adblock-detector/adblock-detector.js
 /wp-content/plugins/eazy-ad-unblocker/*
 /wp-content/plugins/jet-blocker-anti-ad-blocker-detector/*
 /wp-content/themes/imovies/js/tc_
@@ -5296,6 +5297,7 @@
 ||upapi.net/pb/ex?w=*&uponit
 ||upload.cc/i1/2020/07/13/8bgjil.gif
 ||upload.xchina.biz/ad/
+||urlshortpro.com/wp-content/plugins/adblock-detector/
 ||user.042.cn/adver/adver.js
 ||userscript.zone/s.js
 ||usgo.chucaotang.net/ua.js
