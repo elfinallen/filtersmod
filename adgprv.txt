@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-08-01 02:31:52 UTC
-! Total Rules: 11480
+! Last Updated: 2026-08-01 13:13:18 UTC
+! Total Rules: 11483
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -4768,6 +4768,8 @@
 ||chaport.com/api/public/v1/stats/
 ||chargebee.com/api/internal/track_info_error
 ||charmmy-api.line.me/api/*/bars/tracking
+||chartkidmatt.com/nectar_analytics
+||chartkidmatt.com/page_view
 ||chartsurfer.de/js/mtm.js
 ||chartsurfer.de/uscoll.php?
 ||chase.com/apps/services/clientbeacon.html
@@ -4811,6 +4813,7 @@
 ||chimpstatic.com/mcjs-connected/js/
 ||choosefi.com/api/site/track
 ||choosefi.com/block-event
+||choosefi.com/conversion-event
 ||chosun.com/hitlog/
 ||chron.com/413gkwmt/init.js
 ||chronicle.com/_track
