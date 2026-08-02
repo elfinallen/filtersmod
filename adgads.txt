@@ -1,7 +1,7 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-08-02 02:30:14 UTC
+! Last Updated: 2026-08-02 13:14:08 UTC
 ! Total Rules: 5837
 ! Expires: 5 days
 /a-duoduo/add-
@@ -1476,6 +1476,7 @@
 ||anhuinews.com/include/
 ||anhuinews.com/zhuyeguanli/*ad/
 ||anime-suba.com/anime-suba/admin/imganadvertisement/
+||anime.nexus/video/vast-ad.mov
 ||animewaku.com/up/img/webp/*.webp
 ||anjuke.com^*/ajax/business_area_search/
 ||ankangwang.com/js/info.js
@@ -2724,6 +2725,7 @@
 ||fpdisplay.com/templates/default/js/palyflash_
 ||fpdisplay.com/upload/n_ad/
 ||fragment.firefoxchina.cn/html/
+||freecampsites.net/inhouse/*.html
 ||freecontent.date
 ||freecontent.stream
 ||freedidi.com/wp-content/plugins/abn-wall/assets/abn-wall.
@@ -3642,6 +3644,7 @@
 ||kanshushi.com/yyddssdd.
 ||kantie.org/a/images/car.jpg
 ||kantv6.com/index.php/popularize/
+||kaotic.com/templates/*/static/player/video.js/videojs-vast-
 ||kaoyan1v1.com/iaa/
 ||katehra.com/galaksion.js
 ||kayege.org/js/
@@ -4238,7 +4241,6 @@
 ||nz04com.com/aabdd/
 ||nzherald.co.nz/pf/resources/dist/scripts/global-ad-script.js
 ||oa.hinews.cn/work/img/
-||obf-io.deobfuscate.io/nexus_banner.webp
 ||ocdn.eu/workshopinforocdn/infor/misc/taboola-assets/taboola_v*.js
 ||ofweek.com/pop/ad/
 ||oh100.com/js/pubuliu.
@@ -4780,7 +4782,6 @@
 ||sexvid.*/rrt/xd.js
 ||sexvid.*/ysla/
 ||sexvid.pro/rrt/
-||sexvid.xxx/ghjk/
 ||sexyfuckgames.com/includes/*.php
 ||sexyno1.com/mk-banner/
 ||sf2.net/a/index.
@@ -4979,7 +4980,6 @@
 ||static.olelive.com/upload/site/*/*.gif
 ||static.opensubtitles.org/libs/js/ray-announcement-bar.js
 ||static.prd.datawars.io/static/promo/
-||static.purexbox.com/javascript/gn/prebid*.js
 ||static.sunmedia.tv/integrations/
 ||static.tohomh123.com/js/funasd.js
 ||static.videezy.com/assets/underpop-*.js
@@ -5006,7 +5006,6 @@
 ||storyren.top/imgg/
 ||straitstimes.com/_web2/betterads_head.js
 ||stream.cz/*/vast?
-||streamfree.top/analytics.js
 ||stripchat.com/api/external/
 ||stulip.org/static/js/header.js
 ||su.bdimg.com/static/dspui/js/
@@ -5458,6 +5457,7 @@
 ||woozooo.com/img/*.js
 ||wowfan.net/static/js/index.
 ||woyaoq.com/201904100958_5cad4dbac9c5f.png
+||wp.com/static.shareasale.com/
 ||wp.com/vfxdownload.com/wp-content/uploads/*-ads-
 ||wp.com/vfxdownload.com/wp-content/uploads/*-banner-
 ||wpdaxue.com/img/*/txy-
