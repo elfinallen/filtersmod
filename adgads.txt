@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-08-03 02:32:38 UTC
-! Total Rules: 5837
+! Last Updated: 2026-08-03 14:32:16 UTC
+! Total Rules: 5829
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -1505,7 +1505,6 @@
 ||api.leakgallery.com/m/decide
 ||api.live.bilibili.com/*/banner
 ||api.redgifs.com/v*/feeds/modules
-||api.wikia.nocookie.net/*/wikia.php?controller=adengine*apicontroller&method=getbtcode
 ||api.wudizuqiu.com/72nba
 ||api.wudizuqiu.com/bocai.js
 ||apic.91bixin.net/api/thirdadv/
@@ -2889,7 +2888,6 @@
 ||google.com/pagead/drt/
 ||google.com/pagead/form-data/
 ||google.com/pagead/landing?
-||googleapiscdn.com/static/jwplayer/vast.js
 ||googlesyndication.com/pagead/
 ||googlesyndication.com/safeframe/
 ||goosedaily.com/advertise/
@@ -3104,7 +3102,6 @@
 ||hoopchina.com.cn/web/channel/voice/*/beforelogin/beforelogin.js
 ||hoopchina.com.cn/web/widget/partner/*/promote.js
 ||hoopchina.com.cn^*/ad-pc-sdk.
-||hornygamer.com/play_horny_games/
 ||hotavxxx.com/images/*96
 ||hoteastday.com/newspc/show?
 ||hotpress.info/blog/asian-javdl/wp-content/uploads/irvsxp.js
@@ -3189,7 +3186,6 @@
 ||ibaotu.com/revision/js/ad/
 ||ibf.tw/js/jquery.blockui.js
 ||ibmwclub.com/tophub/assets/js/sponsor.
-||ibvpn.com/img/banners/
 ||icaile.com/z.php?id=
 ||icao4.com/uploads/pic/2.jpg
 ||iceporn.com/player_right_ntv_
@@ -3644,7 +3640,6 @@
 ||kanshushi.com/yyddssdd.
 ||kantie.org/a/images/car.jpg
 ||kantv6.com/index.php/popularize/
-||kaotic.com/templates/*/static/player/video.js/videojs-vast-
 ||kaoyan1v1.com/iaa/
 ||katehra.com/galaksion.js
 ||kayege.org/js/
@@ -4151,7 +4146,6 @@
 ||n2.hk/apps/car_feed/tb/*/banner.html
 ||n2.hk/promo/
 ||nairaland.com/vertipics/
-||namecheap.com/graphics/linkus/
 ||nanfengyl.com/static/js/zdad.js
 ||nanrenfuli.*/zb_users/upload/
 ||nanrenvip2021.com/old.html
@@ -4434,7 +4428,6 @@
 ||pornlib.com/player_*_ads
 ||pornone.com/js/combined.js
 ||pornoxo.com/api/tiles?*&advertisername=faphouse
-||pornoxo.com/link/out/
 ||pornpapa.com/extension/
 ||pornpaw.com/never.js
 ||pornpics.de/api/banner/
@@ -4632,7 +4625,6 @@
 ||reef2reef.com/data/siropu/am/user/
 ||reelsmunkey.com/_next/static/media/*-banner.
 ||refinery89.com/performance/
-||reiclub.com/templates/interviews/exit_popup/
 ||rentalcars.com/partners/
 ||rentiyishu.org/*.js
 ||renwai.ren/cdn/pic/ad
@@ -4753,6 +4745,8 @@
 ||se533.com/template/new/css/*.js
 ||search.brave.com/api/ads/
 ||secrets.ai/ads/
+||sector.sk/default-*.aspx
+||sector.sk/scripts/trixam.min.js
 ||secured.dailymail.co.uk/feeds/commercial/topvideos.json
 ||seectech.cn/scm/ad/list
 ||seek68.cn/img/*.gif
@@ -4978,7 +4972,6 @@
 ||static.huaren.live/ads/
 ||static.okokserver.com/js/anti/adblocker.js
 ||static.olelive.com/upload/site/*/*.gif
-||static.opensubtitles.org/libs/js/ray-announcement-bar.js
 ||static.prd.datawars.io/static/promo/
 ||static.sunmedia.tv/integrations/
 ||static.tohomh123.com/js/funasd.js
@@ -5088,7 +5081,6 @@
 ||tbib.org/tbib.
 ||tcmap.com.cn/js/b_
 ||tcptest.cn/prod-api/web/adlinks/
-||tcz.pl/*/reklama*.php
 ||tdpri.com/render-ad.php
 ||tdxs5.cc/m
 ||teacher.php.cn/php/
@@ -5184,7 +5176,6 @@
 ||toolfk.com/common/zfb.jpg
 ||tools.pdf24.org/static/js/ads.js
 ||toots-a.akamaihd.net/priority/*sponsor
-||top.l2jbrasil.com/banner/
 ||topmba.mobi/ad/
 ||topthink.com/api/basic/
 ||toptoon03.xyz/app/tuijian.html
@@ -5409,6 +5400,7 @@
 ||webkaka.com^*x50.
 ||webtor.io/assets/embed/ads.js
 ||wecima.click/static/js/adblock.js
+||weebcentral.com/static/henry_ads/
 ||wei2008.com/js/*0.
 ||wei2008.com/js/t_
 ||wei2008.com/skin/js/top.js
