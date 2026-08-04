@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-08-04 02:11:46 UTC
-! Total Rules: 118729
+! Last Updated: 2026-08-04 14:03:47 UTC
+! Total Rules: 118733
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -4719,6 +4719,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 1194.sock-qa1.marketingcloudqaops.com$image
 11945.editor-qa1.marketingcloudqaapis.com$image
 11976.connector-qa1.marketingcloudqaapis.com$image
+11alive.com,12newsnow.com,9news.com,apnews.com,artforum.com,artnews.com,billboard.com,calgaryherald.com,calgarysun.com,cbs19.tv,cbs8.com,crooksandliars.com,deadline.com,dpreview.com,driving.ca,financialpost.com,goldderby.com,golfdigest.com,hollywoodreporter.com,indiewire.com,kcentv.com,kgw.com,krem.com,kvue.com,lfpress.com,nationalpost.com,nbcsports.com,newscentermaine.com,newswest9.com,oregonlive.com,ottawasun.com,robbreport.com,rollingstone.com,sherdog.com,sidereel.com,superherohype.com,techcrunch.com,torontosun.com,vancouversun.com,variety.com,vibe.com,wbir.com,weareiowa.com,wfaa.com,wgrz.com,windsorstar.com,wltx.com,wqad.com,wthr.com,wtol.com,wtsp.com,wwd.com#%#//scriptlet('ubo-acs', 'document.getelementsbytagname', '.pubads')
 11alive.com,9news.com,apnews.com,artforum.com,artnews.com,billboard.com,calgaryherald.com,calgarysun.com,cbs19.tv,crooksandliars.com,deadline.com,dpreview.com,driving.ca,financialpost.com,goldderby.com,golfdigest.com,hollywoodreporter.com,indiewire.com,kcentv.com,kgw.com,krem.com,lfpress.com,nationalpost.com,nbcsports.com,newswest9.com,oregonlive.com,ottawasun.com,robbreport.com,rollingstone.com,sherdog.com,sidereel.com,superherohype.com,techcrunch.com,torontosun.com,vancouversun.com,variety.com,vibe.com,weareiowa.com,wfaa.com,windsorstar.com,wqad.com,wthr.com,wtol.com,wtsp.com,wwd.com#%#//scriptlet('ubo-acs', 'document.getelementsbytagname', '.pubads')
 11dkim1._domainkey.biz.maxis.com.my$image
 11dkim1._domainkey.email1.onduo.com$image
@@ -6462,6 +6463,7 @@ azrhymes.com#%#//scriptlet('set-local-storage-item', 'visitor_hash', '$remove$')
 b.kyodo.co.jp##.banner-area-entry + h3.category-title
 babyhorizon.zola.com$image
 babylink.zola.com$image
+baeldung.com,cheatsheet.com,pcwelt.de,pwinsider.com#%#//scriptlet('ubo-rmnt', 'script', 'admiral')
 baeldung.com,cheatsheet.com,pwinsider.com#%#//scriptlet('ubo-rmnt', 'script', 'admiral')
 bakst.imis.improkaunas.lt$image
 bangkokpost.com##section.section-page > .container > .row > div:has(> .div-youmaylike)
@@ -111592,6 +111594,7 @@ zonedirector.avadacom.com$image
 ||lovense.com^$cookie=user-track-id
 ||low-ya.com/duplicate-ga-cookie
 ||lowes.com/baymax/events/
+||lowes.com/baymax/events/track?
 ||lowes.com/gauge/
 ||lowes.com/pharos/api/webtelemetry?
 ||lowes.com/resources/*/collect?
@@ -112246,6 +112249,7 @@ zonedirector.avadacom.com$image
 ||moshimo.com^*/impression?
 ||mosoah.com/analytics.js
 ||motogonki.ru/js/google_service.js
+||motoin.de/scripts/emstrack.js
 ||motorpresse-statistik.de^$third-party
 ||motorsport.com/pageinfo/stat/
 ||motorsport.com/stat/

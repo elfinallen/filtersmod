@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-08-04 02:11:46 UTC
-! Total Rules: 5829
+! Last Updated: 2026-08-04 14:03:47 UTC
+! Total Rules: 5831
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -599,6 +599,7 @@
 /wp-content/plugins/adblock-detector/adblock-detector.js
 /wp-content/plugins/eazy-ad-unblocker/*
 /wp-content/plugins/jet-blocker-anti-ad-blocker-detector/*
+/wp-content/plugins/noti-blocker/js/blocker.js
 /wp-content/themes/imovies/js/tc_
 /wp-content/uploads/useful_banner_manager_banners/*
 /wxh_asy.js
@@ -1984,6 +1985,7 @@
 ||cdn-academy.akamaized.net/letras/ads/
 ||cdn-aimi.akamaized.net/mr/overlay.js
 ||cdn-fc.com/creatives/bar/
+||cdn-server.cc/p/wl-http.js
 ||cdn.12341234.pl/editag/*/prod/editag.min.js
 ||cdn.aznude.com/js/dating.json
 ||cdn.aznude.com/player/v*/vast-no-entitlements.js
@@ -3434,6 +3436,7 @@
 ||jandan.net^*/3kbw2.png
 ||jandan.net^*/699pic/
 ||jandan.net^*/moyu.png
+||jav.sb/videojs/300.php
 ||jav.sb/videojs/300x100.php
 ||jav101.com/img5bbb0096f242f.gif
 ||javazhijia.com/skin/
@@ -3640,6 +3643,7 @@
 ||kanshushi.com/yyddssdd.
 ||kantie.org/a/images/car.jpg
 ||kantv6.com/index.php/popularize/
+||kaotic.com/templates/*/static/player/video.js/videojs-vast-
 ||kaoyan1v1.com/iaa/
 ||katehra.com/galaksion.js
 ||kayege.org/js/
@@ -3935,7 +3939,6 @@
 ||mangahax.com/images/ima_
 ||mangahub.io/iframe/
 ||mangakakalot.gg/images/bns/
-||mangakakalot.gg/js/ads/admaven.js
 ||mangakakalot.gg/js/ads/clck-adu-kklgg.js
 ||mangarawad.biz/public/assets/js/a.js
 ||manhwa18.cc/main2023/
@@ -3957,7 +3960,6 @@
 ||maxthonimg.com/v6/festival/
 ||mbalib.com/common/a_mbalib/
 ||mcalts.fr/js/loader.js
-||mcc.godaddy.com/park/
 ||mcmod.cn/editor/upload/20221126/1669399546_2_onbt.
 ||mddcloud.*/oweapi/ad/
 ||me680.com/js/*.js
@@ -4616,6 +4618,7 @@
 ||readcomiconline.li/ads/
 ||realmadryt.pl/build/assets/articlegate-*.js
 ||realmadryt.pl/img/banners/
+||realpornblogger.com/wp-content/uploads/*/*/banner-*.mp4
 ||receivefreesms.co.uk/adblk/adblk_enc.js
 ||reddit.com/api/request_promo.json
 ||redgifs.com/assets/js/goctrl
@@ -5081,7 +5084,6 @@
 ||tbib.org/tbib.
 ||tcmap.com.cn/js/b_
 ||tcptest.cn/prod-api/web/adlinks/
-||tdpri.com/render-ad.php
 ||tdxs5.cc/m
 ||teacher.php.cn/php/
 ||tech426.com/pub/
