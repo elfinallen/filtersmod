@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-08-04 14:03:47 UTC
-! Total Rules: 5831
+! Last Updated: 2026-08-05 02:11:03 UTC
+! Total Rules: 5833
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -3964,6 +3964,7 @@
 ||mddcloud.*/oweapi/ad/
 ||me680.com/js/*.js
 ||medex.com.bd/img/_affiliates/
+||media-elmtree.com/pu_script.js
 ||media.babylonbee.com/ads/
 ||media.notthebee.com/ads/
 ||media.swncdn.com/salemads/*/advscript.js
@@ -4766,6 +4767,7 @@
 ||service.iwara.tv/*/*.php?zones=
 ||service.smscoin.com/js/sendpic.js
 ||services.postimees.ee/rest/v1/articles/multiple?ids=
+||serving.srmg.com/player/srmgads.js
 ||sese277.info/photo/
 ||sesefu8.com/index.php?m=poster&
 ||sesefu8.com/statics/js/layer/layer.js
