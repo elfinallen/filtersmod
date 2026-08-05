@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-08-05 02:11:03 UTC
-! Total Rules: 118733
+! Last Updated: 2026-08-05 14:01:30 UTC
+! Total Rules: 118735
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -5842,7 +5842,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ://cl.melonbooks.co.jp/c/$image
 ://client.rum.
 ://cmpworker.
-://cnstrc.com/js/
 ://collect.*/pageview
 ://collector.*/event
 ://ct1.*.com/sc/
@@ -104246,6 +104245,7 @@ zonedirector.avadacom.com$image
 ||absorbingprison.com^$third-party
 ||abtshield.com^$third-party
 ||abysscdn.com/cdn-cgi/trace
+||ac.cnstrc.com/v2/behavioral_action/
 ||ac.dun.163yun.com/v2/collect?
 ||academia.edu/record_hit
 ||academia.edu/record_hit?
@@ -104604,6 +104604,7 @@ zonedirector.avadacom.com$image
 ||agrvt.com^$third-party
 ||ahaber.com.tr^$cookie=videosessionid
 ||ahrefs.com^$third-party
+||aichaoxing.com/res/cx_stat.js
 ||aicontents.net^$third-party
 ||aid-ad.jp^$third-party
 ||aidata.io^$third-party
@@ -113017,6 +113018,7 @@ zonedirector.avadacom.com$image
 ||open.spotifycdn.com/cdn/js/retargeting-pixels.*.js
 ||open.ua/stat/
 ||openapi.tv.zum.com/logs/ad/
+||openart.ai/4vu8/
 ||openclick.com^$third-party
 ||openculture.com/wp-admin/admin-ajax.php*^action=rxn_
 ||opendesktop.org/l/fp

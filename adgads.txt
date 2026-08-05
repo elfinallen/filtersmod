@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-08-05 02:11:03 UTC
-! Total Rules: 5833
+! Last Updated: 2026-08-05 14:01:30 UTC
+! Total Rules: 5834
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -3994,6 +3994,7 @@
 ||meizhou.com/images/topbanner
 ||mesh.if.iqiyi.com/player/lw/lwplay/accelerator.js
 ||mesh.if.iqiyi.com/tvg/v2/lw/base_info?entity_id=*&ad_ext=
+||mesmer.tools/api/v*/ad?
 ||mestrip.com/widgets/
 ||meteor.today/ad/
 ||metvb.com/js/bofangwei.js
@@ -4219,7 +4220,6 @@
 ||nsfwalbum.com/efds435m432.js
 ||ntdtv.com/assets/themes/ntd/js/article_ads.js
 ||ntimg.cn/original/images/www_ads.jpg
-||nubiles.net/webmasters/promo/
 ||nudify.now/resources/js/p6.js
 ||nulltm.com/adv.js
 ||nupload.me/uuu.php
@@ -5086,6 +5086,7 @@
 ||tbib.org/tbib.
 ||tcmap.com.cn/js/b_
 ||tcptest.cn/prod-api/web/adlinks/
+||tcz.pl/*/reklama*.php
 ||tdxs5.cc/m
 ||teacher.php.cn/php/
 ||tech426.com/pub/
