@@ -1,7 +1,7 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-08-05 14:01:30 UTC
+! Last Updated: 2026-08-06 02:17:55 UTC
 ! Total Rules: 5834
 ! Expires: 5 days
 /a-duoduo/add-
@@ -867,7 +867,6 @@
 ||2cq.com/third/tieba/sidebar
 ||2d4f.com/love/
 ||2kandy.com/js/123/
-||2kans.*/biquge_m/js/tools.js
 ||2yjw.com/statics/js/jquery.min.
 ||2zzt.com/file/aliyun
 ||2zzt.com/images/
@@ -946,6 +945,7 @@
 ||3h3.com/js/listad.js
 ||3h3.com/js/show/
 ||3k8.com/d/js/m/thea
+||3kans.*/biquge_m/js/tools.js
 ||3wk.cc/images/*.gif
 ||3xplanetimg2.com/promo/iirt8d.gif
 ||40407.com/plus/rpad/
@@ -1808,8 +1808,6 @@
 ||bio-equip.com/dimgs/
 ||bio-equip.com/uploadimages/peiqing.gif
 ||bioon.com/xy/article/img/zhi_neng_xibao_fenxi.png
-||biqgg.com/n.
-||biqgg.com/w.
 ||biqgg.com/w.js?v=
 ||biqiuge5.org/mo.
 ||biqivge.cc/js/d
@@ -1872,6 +1870,8 @@
 ||bqg5678.com/static/jquery.
 ||bqge9.com/static/ad01.js
 ||bqiapp.com/api/config/ad?
+||bqqg.cc/n.
+||bqqg.cc/w.
 ||brand.sogou.com/micro?yyid=
 ||bravoporn.com/v/if2
 ||bravoteens.com/ta/

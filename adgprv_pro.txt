@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-08-05 14:01:30 UTC
-! Total Rules: 118735
+! Last Updated: 2026-08-06 02:17:55 UTC
+! Total Rules: 118739
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -4719,7 +4719,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 1194.sock-qa1.marketingcloudqaops.com$image
 11945.editor-qa1.marketingcloudqaapis.com$image
 11976.connector-qa1.marketingcloudqaapis.com$image
-11alive.com,12newsnow.com,9news.com,apnews.com,artforum.com,artnews.com,billboard.com,calgaryherald.com,calgarysun.com,cbs19.tv,cbs8.com,crooksandliars.com,deadline.com,dpreview.com,driving.ca,financialpost.com,goldderby.com,golfdigest.com,hollywoodreporter.com,indiewire.com,kcentv.com,kgw.com,krem.com,kvue.com,lfpress.com,nationalpost.com,nbcsports.com,newscentermaine.com,newswest9.com,oregonlive.com,ottawasun.com,robbreport.com,rollingstone.com,sherdog.com,sidereel.com,superherohype.com,techcrunch.com,torontosun.com,vancouversun.com,variety.com,vibe.com,wbir.com,weareiowa.com,wfaa.com,wgrz.com,windsorstar.com,wltx.com,wqad.com,wthr.com,wtol.com,wtsp.com,wwd.com#%#//scriptlet('ubo-acs', 'document.getelementsbytagname', '.pubads')
+11alive.com,12newsnow.com,9news.com,apnews.com,artforum.com,artnews.com,billboard.com,calgaryherald.com,calgarysun.com,cbs19.tv,cbs8.com,crooksandliars.com,deadline.com,dpreview.com,driving.ca,financialpost.com,goldderby.com,golfdigest.com,hollywoodreporter.com,indiewire.com,kare11.com,kcentv.com,kgw.com,krem.com,kvue.com,lfpress.com,nationalpost.com,nbcsports.com,newscentermaine.com,newswest9.com,oregonlive.com,ottawasun.com,robbreport.com,rollingstone.com,sherdog.com,sidereel.com,superherohype.com,techcrunch.com,thv11.com,torontosun.com,vancouversun.com,variety.com,vibe.com,wbir.com,weareiowa.com,wfaa.com,wgrz.com,windsorstar.com,wkyc.com,wltx.com,wqad.com,wthr.com,wtol.com,wtsp.com,wwd.com,wzzm13.com#%#//scriptlet('ubo-acs', 'document.getelementsbytagname', '.pubads')
 11dkim1._domainkey.biz.maxis.com.my$image
 11dkim1._domainkey.email1.onduo.com$image
 11dkim1._domainkey.snapcap.com$image
@@ -6266,6 +6266,7 @@ akali.webspecmail.com$image
 akamai.webspecmail.com$image
 akshare.moseasia.com$image
 al.com,attackofthefanboy.com,destructoid.com,edmontonsun.com,gamepur.com,gamerjournalist.com,gameskinny.com,lehighvalleylivecom,lgbtqnation.com,macwelt.de,mlive.com,news8000.com,nj.com,oregonlive.com,pcwelt.de,pennlive.com,primagames.com,progameguides.com,siliconera.com,syracuse.com,themarysue.com,touchtapplay.com,wegotthiscovered.com#%#//scriptlet('ubo-aost', 'decodeuri', '/(?=^(?!.*\.js))/')
+al.com,attackofthefanboy.com,destructoid.com,edmontonsun.com,gamepur.com,gamerjournalist.com,gameskinny.com,lehighvalleylivecom,lgbtqnation.com,macwelt.de,mlive.com,news8000.com,nj.com,pcwelt.de,pennlive.com,primagames.com,progameguides.com,siliconera.com,syracuse.com,themarysue.com,touchtapplay.com,wegotthiscovered.com#%#//scriptlet('ubo-aost', 'decodeuri', '/(?=^(?!.*\.js))/')
 alba.alalikexpress.com$image
 album.moseasia.com$image
 alert.avadacom.com$image
@@ -99580,6 +99581,7 @@ paribucineverse.com#%#//scriptlet('set-constant', 'visilabs', 'noopfunc')
 paribucineverse.com#%#//scriptlet('set-constant', 'visilabs.prototype.addparameter', 'noopfunc')
 paribucineverse.com#%#//scriptlet('set-constant', 'visilabs.prototype.collect', 'noopfunc')
 park.ajinomoto.co.jp##.bottommenu
+parkedin.com#%#(()=>{const e=promise.resolve({code:200}),t=()=>{},s=()=>({promise:e}),n=["init","add","remove","track","logevent","identify","groupidentify","setgroup","revenue","flush"],r=["getdeviceid","setdeviceid","getsessionid","setsessionid","getuserid","setuserid","setoptout","settransport","reset","extendsession"],o=()=>{const e={};return n.foreach(t=>{e[t]=s}),r.foreach(s=>{e[s]=t}),e},i=function(){},c=function(){return this};["add","append","clearall","prepend","set","setonce","unset","preinsert","postinsert","remove","setproductid","setquantity","setprice","setrevenue","setrevenuetype","seteventproperties"].foreach(e=>{i.prototype[e]=c}),i.prototype.getuserproperties=()=>({}),i.prototype.geteventproperties=()=>({});const d=(t,s=[])=>{s.foreach(t=>{t.resolve?.(e)})},p=window.amplitude||{};object.assign(p,o(),{createinstance:e=>{const t=o();return e&&p._iq&&(p._iq[e]=t),t},runqueuedfunctions:d,identify:i,revenue:i}),window.amplitude=p,p.invoked&&(d(0,p._q),p._q=[],object.keys(p._iq||{}).foreach(e=>{const t=object.assign(p._iq[e],o());d(0,t._q),t._q=[]}))})();
 paytronixemails.yogurt-land.com$image
 pcgameshardware.de##img[src^="//vg01.met.vgwort.de/"]
 pcid3.click.s11.sfmc-osl.com$image
@@ -107836,6 +107838,7 @@ zonedirector.avadacom.com$image
 ||delphi.lv/t/t.js
 ||delta.com/datacollect
 ||deltadna.net^$third-party
+||deltaforcetools.gg/js/trackless-0.0.3.umd.min.js
 ||delvenetworks.com/player/plugins/analytics/
 ||demandbase.com^$third-party
 ||demandmedia.com/wm.js
@@ -110248,6 +110251,7 @@ zonedirector.avadacom.com$image
 ||i.hh.ru/js/external/targetads_websdk.js
 ||i.jsrdn.com/i/1.gif?
 ||i.milliyet.com.tr/d/j/molatik/googleanalit.js
+||i.posthog.com/*&ip=
 ||i.posthog.com/*/?ip=
 ||i.s-microsoft.com/wedcs/ms.js
 ||i.snssdk.com^$domain=~i.snssdk.com
@@ -113455,7 +113459,6 @@ zonedirector.avadacom.com$image
 ||pinkvilla.com/comscore_response.php
 ||pinkvilla.com^$cookie=1p_jar
 ||pinnacle.com/ru/?btag=
-||pinpoll.com^$third-party
 ||pinterest.com/*/contextlogresource/
 ||pinterest.com/*/statslogresource/
 ||pinterest.com/*/userregistertrackactionresource/
@@ -116421,6 +116424,7 @@ zonedirector.avadacom.com$image
 ||target.mixi.media^$third-party
 ||target2sell.mirakl.net^$third-party
 ||targetads.io^$third-party
+||targetfax.com^$redirect=noopjs,script
 ||targetfuel.com^$third-party
 ||targetix.net^$third-party
 ||targetman.ru^$third-party
