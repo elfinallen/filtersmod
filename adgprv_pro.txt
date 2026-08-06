@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-08-06 02:17:55 UTC
-! Total Rules: 118739
+! Last Updated: 2026-08-06 14:00:05 UTC
+! Total Rules: 118743
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -6265,7 +6265,6 @@ airlift.net#%#//scriptlet('abort-on-property-read', 'posthog')
 akali.webspecmail.com$image
 akamai.webspecmail.com$image
 akshare.moseasia.com$image
-al.com,attackofthefanboy.com,destructoid.com,edmontonsun.com,gamepur.com,gamerjournalist.com,gameskinny.com,lehighvalleylivecom,lgbtqnation.com,macwelt.de,mlive.com,news8000.com,nj.com,oregonlive.com,pcwelt.de,pennlive.com,primagames.com,progameguides.com,siliconera.com,syracuse.com,themarysue.com,touchtapplay.com,wegotthiscovered.com#%#//scriptlet('ubo-aost', 'decodeuri', '/(?=^(?!.*\.js))/')
 al.com,attackofthefanboy.com,destructoid.com,edmontonsun.com,gamepur.com,gamerjournalist.com,gameskinny.com,lehighvalleylivecom,lgbtqnation.com,macwelt.de,mlive.com,news8000.com,nj.com,pcwelt.de,pennlive.com,primagames.com,progameguides.com,siliconera.com,syracuse.com,themarysue.com,touchtapplay.com,wegotthiscovered.com#%#//scriptlet('ubo-aost', 'decodeuri', '/(?=^(?!.*\.js))/')
 alba.alalikexpress.com$image
 album.moseasia.com$image
@@ -106799,6 +106798,7 @@ zonedirector.avadacom.com$image
 ||cimri.com/api/pixel
 ||cimri.com/r/analytics
 ||cinarra.com^$third-party
+||cine.su/api/site-beacon|
 ||cinestar.de/collect/
 ||cintnetworks.com^$third-party
 ||cio.economictimes.indiatimes.com/ajax_files/etb2b_ajax_trackers.php
@@ -107270,6 +107270,8 @@ zonedirector.avadacom.com$image
 ||content.garena.com/shopee/track_config/
 ||content.kaspersky-labs.com/public/analytics-scripts/analytical_functions.js
 ||content.mql5.com/tr?
+||content.osgnetworks.tv/*/content/ga4.js
+||content.osgnetworks.tv/js/global/permutive.js
 ||content.powerapps.com/resource/powerappsportal/dist/client-telemetry*.js$domain=sante.quebec
 ||content22.citi.eu^$script
 ||content22.citibank.com.sg^$script
@@ -108486,6 +108488,7 @@ zonedirector.avadacom.com$image
 ||eresmas.net^$third-party
 ||ericdraken.com/a/$script
 ||erli.pl/*/xhr/b/s|$xmlhttprequest
+||ernax.pro/cdn-cgi/trace
 ||eromon.net/bin/movie/click_count.php
 ||eropuru.com/plugin/tracking/
 ||erotop.lv^$third-party
@@ -113390,6 +113393,7 @@ zonedirector.avadacom.com$image
 ||petametrics.com/*/modal
 ||petametrics.com^$third-party,domain=~meidasnews.com|~telegraph.co.uk|~thestreet.com
 ||petco.com/track-production/analytics.js
+||petersenshunting.com/js/convivaapptracker.js
 ||pfxlive.com^$third-party
 ||pg.totaaltv.nl/api/metrics
 ||pghub.io^$third-party

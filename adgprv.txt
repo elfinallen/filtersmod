@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-08-06 02:17:55 UTC
-! Total Rules: 11494
+! Last Updated: 2026-08-06 14:00:05 UTC
+! Total Rules: 11499
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -4824,6 +4824,7 @@
 ||cidrap.umn.edu/core/modules/statistics
 ||cimri.com/api/pixel
 ||cimri.com/r/analytics
+||cine.su/api/site-beacon|
 ||cinestar.de/collect/
 ||cio.economictimes.indiatimes.com/ajax_files/etb2b_ajax_trackers.php
 ||circonus.com/hit?
@@ -5098,6 +5099,8 @@
 ||content.garena.com/shopee/track_config/
 ||content.kaspersky-labs.com/public/analytics-scripts/analytical_functions.js
 ||content.mql5.com/tr?
+||content.osgnetworks.tv/*/content/ga4.js
+||content.osgnetworks.tv/js/global/permutive.js
 ||contentdriver.com/api/impression
 ||contentexchange.me/static/tracker.js
 ||contently.com/xdomain/
@@ -5755,6 +5758,7 @@
 ||equirodi.*/addstat.php
 ||er.sanoma-sndp.fi/stats/
 ||er.sanoma-sndp.fi/v2/stats/
+||ernax.pro/cdn-cgi/trace
 ||eromon.net/bin/movie/click_count.php
 ||eropuru.com/plugin/tracking/
 ||err.ee/api/statistics/
@@ -8496,6 +8500,7 @@
 ||petametrics.com/*/activity
 ||petametrics.com/*/modal
 ||petco.com/track-production/analytics.js
+||petersenshunting.com/js/convivaapptracker.js
 ||pg.totaaltv.nl/api/metrics
 ||philo.com/evr/in/adimp?enc=
 ||phlic.top/log/

@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-08-06 02:17:55 UTC
-! Total Rules: 5834
+! Last Updated: 2026-08-06 14:00:05 UTC
+! Total Rules: 5829
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -1541,7 +1541,6 @@
 ||aspku.com/images/vz360.jpg
 ||aspku.com/z/
 ||asserts.avple.tv/file/avple-asserts/ad.js
-||assets.fanpage.it/ciaoprebid-js/*/adstack/sdk/doprebid.js
 ||assets.genius.com/javascripts/compiled/ads-*.js
 ||assets.genius.com/javascripts/compiled/reactads.*.js
 ||assets.gnwcdn.com/prebid*.js
@@ -1619,7 +1618,6 @@
 ||bad.news/scripts?
 ||bad996.com/dakaads.js
 ||badmintoncn.com/cbo_include/js/cboaaa.js
-||badvault.com/api/ads?type=hilltop
 ||bahamut.com.tw/js/ad.js
 ||baidu-taobao-av.com/js/
 ||baidu-taobao-av.com^*.gif
@@ -1941,7 +1939,6 @@
 ||caitlin.top/catalog/view/core/comic/fc.js
 ||caitlin.top/catalog/view/core/comic/fc0.js
 ||caixin.com/s?z=
-||camsaim.com/in/
 ||camspacelive.com/widgets/
 ||camspic.com/imguang/*.gif
 ||canimgs.com/images/
@@ -2399,8 +2396,6 @@
 ||dj97.com/api.php?mod=ad&
 ||djdedu.net/static/*.gif
 ||djicdn.com/uploads/ad_image_file/
-||dlhd.*/rs4k-adbanner.html
-||dlhd.st/rs4k-adbanner.html
 ||dlkoo.cc/down/copy
 ||dlkoo.com/down/copy
 ||dm5900.com/piao/
@@ -3248,7 +3243,6 @@
 ||igg-games.*/maven/
 ||igg-games.com/sw.js
 ||ign.com/s/js/zad.js
-||igniteandship.com/js/adcashign.js
 ||ih336.com^*a.js
 ||ihhmh.com/mg/show
 ||ii.apl*.me/js/pop.js
@@ -3469,7 +3463,6 @@
 ||jd100.com/cwmpc/
 ||jdbstatic.com/ads/
 ||jdwx.info/api.php?mod=ad&
-||jelonka.com/static/jelonka/js/news-ad-access-gate.js
 ||jia.com/js/common/article_home_adv.js
 ||jialingmm.net/dm/tj.js
 ||jialingmm.net/img/gdw.jpg
@@ -3917,6 +3910,7 @@
 ||m1955.com/template/qq/images/playad/
 ||macd.cn/macd-topads.html
 ||macfans.org/vip/
+||machineseeker.com/data/ofni/
 ||macys.com/sitemonetization/v1/sponsored-products/
 ||madnessporn.com/mad/
 ||magedu.com/wp-content/uploads/*/xwzx
@@ -4250,7 +4244,6 @@
 ||olelive.com/v1/pub/index/anchor/check/pc/e?
 ||olgame.tw/home/attachment/
 ||om.cn/api/ad-om/
-||omguk.com/i/
 ||one101.xyz/data/images/*.gif
 ||onedala.tv/uploads/banner/
 ||onegreen.net/myfile/
@@ -4421,6 +4414,7 @@
 ||poco.cn^*_info_banner
 ||popcdn.day/magnitude.js
 ||popin.cc/ads/
+||porn1free.com/e*.js
 ||porn87.com/static/stream_ads/
 ||porndoe.com/views/footer/banners.html
 ||porndoe.com/wp-contents/channel?
@@ -4668,6 +4662,7 @@
 ||rkxy.com.cn/js/text_
 ||rmf24.pl/j/videojs/ad-setup.js
 ||rock.porn/ai/s/s/im.php?ss=
+||rockjockcock.com/*/bl*.php
 ||romgoc.net/*/adblock_fuck.js
 ||rou.video/_next/static/chunks/pages/fuli-
 ||rou.video/js/exo.js
@@ -4944,6 +4939,7 @@
 ||spankbang.com/api/*?ad_zone=
 ||spankbang.com/official/serve_
 ||spanking.wiki/morning-bread-
+||spclient.wg.spotify.com/ad-logic/flashpoint
 ||speedtest.cn/api/v2/show
 ||speedtest.cn/assets/images/ce_
 ||speedy.literotica.com/ntk
@@ -5390,7 +5386,6 @@
 ||wasabii.com.tw/float/*.js
 ||watchporn.to/banners/
 ||wccftech.com/0ldbu6cv0mz.js
-||wcostream.com/inc/js/adblock-detector-hardened.js
 ||wcostream.net/premiumad
 ||wdff.buzz/hengf.
 ||we560.com/js/*.js
