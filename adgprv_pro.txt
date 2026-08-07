@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy).
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-08-06 14:00:05 UTC
-! Total Rules: 118743
+! Last Updated: 2026-08-07 02:30:53 UTC
+! Total Rules: 118745
 ! Expires: 5 days
 $app=com.fiberhome.wifiserver
 $app=com.miui.analytics
@@ -105005,6 +105005,7 @@ zonedirector.avadacom.com$image
 ||api.atlassian.com/metal/ingest
 ||api.auchan.fr/tracking/
 ||api.audio.com/analytics/event
+||api.autogram.site/api/tracking/track.js
 ||api.autopilothq.com^$third-party
 ||api.aws.mapquest.com/logger
 ||api.axept.io/v1/analytics/evts
@@ -107924,6 +107925,7 @@ zonedirector.avadacom.com$image
 ||diffusion-tracker.com^$third-party
 ||digiadglobal.com^$third-party
 ||digianalytics.fr^$third-party
+||digidip.net/visit?url=$urltransform=/^https?:\/\/(?:[a-z0-9-]+\.)*?.*\.digidip\.net.*url=([^&]*)/\$1/|pct
 ||digidip.net^$domain=gofeminin.de
 ||digidip.net^$third-party
 ||digikey.*/-/media/designer/web%20analytics/multitrack/js/multitrack.js
