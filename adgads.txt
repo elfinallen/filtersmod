@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-08-08 01:19:32 UTC
-! Total Rules: 5827
+! Last Updated: 2026-08-08 12:40:52 UTC
+! Total Rules: 5825
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -1177,7 +1177,6 @@
 ||88ys.cc/js/abcd.js
 ||8d8d.me/images/dealer.gif
 ||8h93.com^*.gif
-||8kporner.com/themes/lite/js/mztn.js
 ||8mg050.n3cdn1.secureserver.net^*.gif
 ||8mg050.n3cdn1.secureserver.net^*/960
 ||8s8s.com/data/banner/
@@ -1784,7 +1783,6 @@
 ||bendibao.com/mo/adm_iframe.htm?
 ||bestblackhatforum.com/images/my_compas/
 ||bestvogue.com/fans/
-||bettingoffer.xyz/ads.php
 ||bf99.com/user*/ad_
 ||bf99.com/user/images/bg_blued.jpg
 ||bfpgf.com/wp-content/uploads/2015/08/360dxs.jpg
@@ -2938,6 +2936,7 @@
 ||guangzhoubingqing.com/88888.jpg
 ||gucheng.com/2016/ggimg/
 ||gucheng.com/gcwad/
+||guessthe.game/ads/
 ||guhai.com.cn/ad/
 ||guifun.com/psptool/ad/
 ||guilin-ly.com^*.gif
@@ -3099,6 +3098,7 @@
 ||hoopchina.com.cn/web/channel/voice/*/beforelogin/beforelogin.js
 ||hoopchina.com.cn/web/widget/partner/*/promote.js
 ||hoopchina.com.cn^*/ad-pc-sdk.
+||hornygamer.com/play_horny_games/
 ||hotavxxx.com/images/*96
 ||hoteastday.com/newspc/show?
 ||hotpress.info/blog/asian-javdl/wp-content/uploads/irvsxp.js
@@ -3927,7 +3927,6 @@
 ||mamibuy.com.tw/ad/period.aspx
 ||manai521.com:88/bocai/index.html
 ||manga18.me/usd2023/usd_frontend.js
-||mangabats.com/js/ads/clck-adu-bats.js
 ||mangafuna.xyz/static/ads/
 ||mangahax.com/images/ima_
 ||mangahub.io/iframe/
@@ -4126,6 +4125,7 @@
 ||mylomza.pl/static/files/inline_images/*/inline__
 ||mylust.com/*.jsx
 ||mylust.com/b/
+||mylust.com/static/js/initsite.min.js
 ||myqcloud.com/ad/
 ||myqcloud.com/wp-content/uploads/huoxingyun.
 ||mysteel.com/ads/
@@ -4690,7 +4690,6 @@
 ||s.go.sohu.com^*/?callback=
 ||s.weibo.com/widget.html
 ||s.yimg.com/cv/apiv2/tw/bwchou25/
-||s.yimg.com/du/site/pqhdvmrpsxksshgt.js
 ||s.yimg.com/ja/ap/tw/js/
 ||s.yimg.com/uv/dm/scripts/syndication.js
 ||s0.cdn3x.com/jb/js/jb.vast.min.js
@@ -5108,7 +5107,6 @@
 ||theporn.xyz/static/bet365.gif
 ||theporn.xyz/static/tmp/
 ||thesimsresource.com/js/ad-loader.js
-||thetoc.gr/content/opap/
 ||thisav.com/0*.js
 ||thisav.com/index.js
 ||thisav.com/js/bioep.
@@ -5300,6 +5298,7 @@
 ||v2ex.com/pro/emitter
 ||v2rayssr.com/wp-content/plugins/eazy-
 ||v4dwkcv.com/html/click/
+||valoplant.gg/other/bet_gg_ad.html
 ||vanpeople.com/gg/
 ||vansky.com/agdg/homegg/
 ||vansky.com/agdg/individual/
@@ -5448,7 +5447,6 @@
 ||wowfan.net/static/js/index.
 ||woyaoq.com/201904100958_5cad4dbac9c5f.png
 ||wp.com/static.shareasale.com/
-||wp.com/vfxdownload.com/wp-content/uploads/*-ads-
 ||wp.com/vfxdownload.com/wp-content/uploads/*-banner-
 ||wpdaxue.com/img/*/txy-
 ||wpengine.com/wp-json/api/advanced_placement/api-in-article-ad/
@@ -5490,6 +5488,7 @@
 ||xbqg6.com/*.php
 ||xcafe.com/*.php
 ||xcafe.com/assets/script.js
+||xcafe.com/b/
 ||xcar.com.cn/dsp/ad
 ||xchina.*/ad/
 ||xchina.*/plugins/jquery.modal/
@@ -5581,7 +5580,6 @@
 ||xp600.com/js/
 ||xp85.com/common/js/allpage.js
 ||xpcha.com/js/notice.js
-||xpics.me/everyone.
 ||xqishen.com^*/0
 ||xqishen.com^*/1
 ||xslca.cc/js/pf.js
