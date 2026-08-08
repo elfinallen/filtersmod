@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of other filters (AdGuard tracking & EasyPrivacy), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-08-07 12:56:09 UTC
-! Total Rules: 11500
+! Last Updated: 2026-08-08 01:19:32 UTC
+! Total Rules: 11499
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -5679,9 +5679,6 @@
 ||edit-api-*.capcut.com/lv/v1/event/
 ||edit-document.com/click-event/
 ||edith.xiaohongshu.com/api/sns/web/v1/note/metrics_report
-||edp24.co.uk/__siren/
-||edp24.co.uk/resources/images/pixel/
-||edp24.co.uk/resources/responsive-static/vendor/adobe/
 ||edrone.me/trace?
 ||eduplay.rnp.br/collector/
 ||edw.edmunds.com/edw/edw1x1.gif
@@ -5797,7 +5794,6 @@
 ||etsy.com/bcn/beacon
 ||etsy.com/bcn/beacon|
 ||etsy.com/clientlog
-||etsy.com/include/tags.js
 ||etwun.com:8080/counter.php?
 ||eum.instana.rewe-group.com/eum
 ||euro.com.pl/log-customer-visit
@@ -9224,6 +9220,7 @@
 ||salesmartly.com/client/log/
 ||salesmartly.com/client/station/log?
 ||salvalaselva.org/plsbl/js
+||sammobile.com/wp-content/themes/*/settings/hits/
 ||sams.com.mx/px/px87wpo5ak/init.js
 ||samsclub.com/px/
 ||samsclub.com/px/pxslc3j22k/init.js
@@ -10923,6 +10920,8 @@
 ||vnecdn.net/get?app_id=
 ||vnecdn.net/videolog?
 ||vo.msecnd.net/api/beyablejsv2.js
+||vodafone.com.au/content/js/newrelic.js
+||vodafone.com.au/js/ot2.min.js
 ||vodtw.xyz/zepto-
 ||voicendata.com/static/js/*_gtag_publisher.js
 ||volksverpetzer.de/pl/v.js

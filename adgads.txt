@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of other filters (AdGuard Base & Chinese Filter), removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-08-07 12:56:09 UTC
-! Total Rules: 5830
+! Last Updated: 2026-08-08 01:19:32 UTC
+! Total Rules: 5827
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -867,6 +867,7 @@
 ||2cq.com/third/tieba/sidebar
 ||2d4f.com/love/
 ||2kandy.com/js/123/
+||2v2.io/ads/
 ||2yjw.com/statics/js/jquery.min.
 ||2zzt.com/file/aliyun
 ||2zzt.com/images/
@@ -1503,6 +1504,8 @@
 ||api.adultdeepfakes.cam/banners
 ||api.apiimg.com/huaer/xiahe.js
 ||api.bilibili.com/x/ad/
+||api.bitchute.com/slot1/
+||api.bitchute.com/slot2/
 ||api.leakgallery.com/m/decide
 ||api.live.bilibili.com/*/banner
 ||api.redgifs.com/v*/feeds/modules
@@ -1704,8 +1707,6 @@
 ||baomidou.com/_astro/checkadblocked.*.js
 ||baomihua.com/yy/
 ||baomitu.duapp.com/js/layer.js
-||bartamanpatrika.com/_astro/adblockguard.*.js
-||bartamanpatrika.com/_astro/adslot.*.js
 ||bavei.com/img/*.png
 ||bb1nn.com/js/i.js
 ||bb999.net/pic/n/agents/c-79.gif
@@ -2218,7 +2219,6 @@
 ||colamanga.com/sw.js
 ||colonist.io/dist/images/ab_
 ||comefromchina.com/images/128bestbuy
-||comick.*/images/ads/
 ||commondisplay-a.akamaihd.net/cri/*.htm?cat=
 ||components2.*.it/rcs_tealium/
 ||components2.gazzettaobjects.it/rcs_anti-adblocker/
@@ -3739,7 +3739,6 @@
 ||ldb.cc/js/top.js
 ||leakgallery.com/leakifyhub/banner
 ||lecai.com/page/zhuanti/baidu/
-||leftnewsex.com/fb/fb_hilltopads.php
 ||leiphone.com/uploads/new/category/pic/*/740x140/
 ||leju.com/abp/cmslead_new.v2.js
 ||leju.com/scripts/app/pc/indexlayer/v1/indexlayer.js
@@ -4154,7 +4153,6 @@
 ||nbegame.com/nbeos/*.jpg
 ||nczsks.com/scwb/webresource.axd
 ||neets.cc/assets/js/dup.js
-||nelomanga.net/videos/*.mp4
 ||nen.com.cn/eap/
 ||nen.com.cn/service/js/beitou
 ||netded.com/templets/gfan/js/global.js
@@ -4432,7 +4430,6 @@
 ||pornpoppy.com/*/external_pop.js
 ||porntn.com/static/js/custom.js
 ||porntube.com/assets/adf-*.js
-||pornv.xxx/static/js/abb.js
 ||pornx.to/wp-content/uploads/ad*x*.png
 ||pornxp.com/2.js
 ||portal.librus.pl/ad|
@@ -4468,7 +4465,6 @@
 ||psyzg.com/public/home/images/tuhe_240_236.gif
 ||ptbus.com/s.js
 ||ptyw.yiche.com/ssp/
-||punishworld.com/prerolls/
 ||pupudy.com/images/wxrj.gif
 ||putaoys.com/static/js/acb1.js
 ||putlocker.*/banner/static/
@@ -4928,6 +4924,7 @@
 ||souka.me/ad/
 ||soulu365.com/images/zhuce.jpg
 ||soundcloud.com/audio-ads?
+||sourceforge.net/about/sitewide_top?source=
 ||sourceforge.net/about/top_sitewide
 ||southmoney.com/page/pc/
 ||southmoney.com/page/top
