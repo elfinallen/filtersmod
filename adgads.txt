@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-08-23 01:04:17 UTC
-! Total Rules: 5765
+! Last Updated: 2026-08-23 12:30:52 UTC
+! Total Rules: 5764
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -1494,12 +1494,12 @@
 ||apic.in/mmd.gif
 ||apiimg.com/haishui/
 ||apiimg.com/huaer/xiahe.
-||apimg.net/slider/propellerads
 ||apis.pchome.com.tw/js/idlead.js
 ||apk-01.oss-cn-beijing.aliyuncs.com/dp/
 ||apk.tw/static/js/showpic.js
 ||apple886.com/subs/*.js
 ||apppc.chinaz.com/statics/images/tuan
+||appteka.store/api/banners?
 ||apptry.easylife.tw/pub/js/common/common.js
 ||apsgo.com/assets/js/union.
 ||apsgo.com/go/
@@ -1966,6 +1966,7 @@
 ||cdn.galacg.me/img/*.gif
 ||cdn.galacg.me/img/*.jpg
 ||cdn.haokongbu1.com^*.js
+||cdn.headlinesplus.com/tcm-widget.js
 ||cdn.jsdelivr.net/gh/*/js/adsenseads.min.js
 ||cdn.jsdelivr.net/gh/*/js/arlinablock.js
 ||cdn.jsdelivr.net/gh/adigunawanxd/pluginsgalaxymag@master/seosecretidnblockads.js
@@ -2407,6 +2408,7 @@
 ||downk.cc/item/*.gif
 ||downlinker.*/ad_dl.js
 ||downlinker.*/ads.js
+||download.cnet.com/revamp.js
 ||download.megaup.net/download
 ||downvod.com/arlinablock.js
 ||downxia.com/dgjs/download.js
@@ -3899,7 +3901,6 @@
 ||maxroll.gg/js/sponsor.js
 ||maxthonimg.com/v6/festival/
 ||mbalib.com/common/a_mbalib/
-||mcalts.fr/js/loader.js
 ||mcc.godaddy.com/park/
 ||mcmod.cn/editor/upload/20221126/1669399546_2_onbt.
 ||mddcloud.*/oweapi/ad/
@@ -4214,7 +4215,6 @@
 ||oschina.net/uploads/ad/
 ||oschina.net/uploads/cooperation/
 ||oss-ap-southeast-1.aliyuncs.com/js/copy.js
-||otcash.com/images/
 ||otomi-games.com/wp-content/uploads/*-ad-728-
 ||outlook.live.com/ows/*/outlookoptions/adsaggregate
 ||ouyaoxiazai.com/static/img/cqthree.gif
@@ -4562,7 +4562,6 @@
 ||redshu.com/js/www/jquerygg.js
 ||redtube.com/_xa/
 ||reef2reef.com/data/siropu/am/user/
-||reelsmunkey.com/_next/static/media/*-banner.
 ||refinery89.com/performance/
 ||rentalcars.com/partners/
 ||rentiyishu.org/*.js
@@ -5656,7 +5655,7 @@
 ||yui-nya.com/wp-content/uploads/2016/12/neta370-370.jpg
 ||yun.baidu.com/act/api/activityentry?
 ||yundaquan.com/data/attachment/portal/
-||yuntu68.com/imgcimo/
+||yuntu68.com/img
 ||yuntue.com/zb_users/plugin/morelinks*.php
 ||yunupload.net/jsa/
 ||yupoo.com/dapenti/5cfa8673/c6045c69.jpeg
