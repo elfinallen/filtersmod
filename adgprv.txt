@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-08-23 12:30:52 UTC
-! Total Rules: 11521
+! Last Updated: 2026-08-24 01:01:52 UTC
+! Total Rules: 11522
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -3654,6 +3654,7 @@
 ||api.btmessage.com/log?
 ||api.builtin.com/track/client-events
 ||api.bunjang.co.kr/api/log/
+||api.bus-location.1507t.xyz/3.0/ping
 ||api.cgyx.tv:66/tj/tongji.js
 ||api.channel.io/*/events
 ||api.chzzk.naver.com/ad-polling/*/lives/*/ad
