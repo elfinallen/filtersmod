@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-08-24 01:01:52 UTC
-! Total Rules: 11522
+! Last Updated: 2026-08-24 12:40:12 UTC
+! Total Rules: 11527
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -1233,6 +1233,7 @@
 /ibeat.min.js
 /icf-analytics.js
 /id?d_visid_
+/identity/token/verify?browser_id=
 /if/services/tdg?hs=
 /iiquniversalid.min.js
 /image.ng/*
@@ -3045,6 +3046,7 @@
 /ws-tracking.js
 /wstat.pl
 /wstats.php?
+/wt-connect-pixel/carts/init?
 /wt?p=
 /wt_capi.js
 /wtbase.js
@@ -4223,6 +4225,8 @@
 ||beaumontenterprise.com/413gkwmt/init.js
 ||beautypie.com/*?apikey=*&version=*&loaderversion=
 ||beautypie.com/analytics/
+||beehiiv.com/nectar_analytics
+||beehiiv.com/page_view
 ||behance.net/log
 ||behance.net/v2/logs
 ||belk.com/0iiey9lm/init.js
@@ -7306,6 +7310,7 @@
 ||leadplan.ru/api/session/
 ||leadplan.ru/api/visitor/
 ||leadster.com.br/api/chatbot/events
+||leakgallery.com/api/lg/
 ||learning.linkedin.com/fizzy/admin
 ||leboncoin.fr/piano-analytics/
 ||leboncoin.fr/rav-monitoring/

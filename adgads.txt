@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-08-24 01:01:52 UTC
-! Total Rules: 5762
+! Last Updated: 2026-08-24 12:40:12 UTC
+! Total Rules: 5760
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -287,6 +287,7 @@
 /jquery.adi.js
 /jquery.adx.js?
 /jquery.dfp.min.js?
+/jquery.meerkat.
 /jquery.overlayad.js
 /jquery.popunder.js
 /js/aahome.htm
@@ -1484,7 +1485,9 @@
 ||api.bitchute.com/slot2/
 ||api.coinmarketcap.com/content/*/ad-banner/
 ||api.jerkmotion.com/*^placement=
+||api.leakgallery.com/affiliate/
 ||api.leakgallery.com/m/decide
+||api.leakgallery.com/r/
 ||api.live.bilibili.com/*/banner
 ||api.redgifs.com/v*/adv/
 ||api.redgifs.com/v*/feeds/modules
@@ -2597,7 +2600,6 @@
 ||falcon.pixnet.net/ad/
 ||faloo.com/ou/site/
 ||familydoctor.com.cn/c/a/000/ggw_
-||fancybar.net/ac/fancybar.js?zoneid
 ||fang.com/house/ajaxrequest/advertlget.
 ||fang99.com^*/advjs/
 ||fanhaodang.org/runtime/js/
@@ -2631,7 +2633,6 @@
 ||filehippo.com/prebid-client.js
 ||filehippo.com/revamp.js
 ||filemoon.*/js/baf.js
-||filepress.baby/js/fit.js
 ||files.jb51.net/image/
 ||filma24.*/f24-ytb-v*.js
 ||filma24.*/kazino*.gif
@@ -2891,6 +2892,7 @@
 ||guangzhoubingqing.com/88888.jpg
 ||gucheng.com/2016/ggimg/
 ||gucheng.com/gcwad/
+||guessthe.game/ads/
 ||guhai.com.cn/ad/
 ||guifun.com/psptool/ad/
 ||guilin-ly.com^*.gif
@@ -3487,7 +3489,6 @@
 ||jp2468.com/addon/
 ||jp2468.com/api/vip/vipshow.php
 ||jpfans.com/jpfans.jpg
-||jpopsingles.eu/ddl/dl-get.png
 ||jpysvip.net/ad/
 ||jrj.com.cn/h5ad?
 ||jrj.com.cn/s?z=
@@ -4091,7 +4092,6 @@
 ||n2.hk/apps/car_feed/tb/*/banner.html
 ||n2.hk/promo/
 ||nairaland.com/vertipics/
-||namecheap.com/graphics/linkus/
 ||nanfengyl.com/static/js/zdad.js
 ||nanrenfuli.*/zb_users/upload/
 ||nanrenvip2021.com/old.html
@@ -4912,7 +4912,6 @@
 ||static.huaren.live/ads/
 ||static.okokserver.com/js/anti/adblocker.js
 ||static.olelive.com/upload/site/*/*.gif
-||static.prd.datawars.io/static/promo/
 ||static.sunmedia.tv/integrations/
 ||static.tohomh123.com/js/funasd.js
 ||static.videezy.com/assets/underpop-*.js
@@ -4930,7 +4929,6 @@
 ||stockstar.com/api/?id=
 ||stockstar.com/info/1200x90/
 ||storage.googleapis.com/adtags/
-||storage.googleapis.com/ba_utils/stab.js
 ||storage.googleapis.com/global-attribution/global_attribution.js
 ||storage.googleapis.com/pravda-ad-script/
 ||store.7box.vip/ad/
@@ -4969,7 +4967,6 @@
 ||supfree.net/stat
 ||supfree.net/top.gif
 ||supfree.net/xxx/
-||surdotly.com/js/surly.min.js
 ||sw76r85eda3k.com/need/h5.
 ||sweeva.com/images/banner250.gif
 ||swoole.com/_images/kundian
@@ -5634,6 +5631,7 @@
 ||youtube.com/embed/wqlwtenbeeq?
 ||youtube.com/pagead/
 ||youtube.com/youtubei/v1/player/ad_break
+||youtubetoolkit.com/js/adblock-
 ||youxi.baidu.com/tips/bdtips_min.js
 ||youy14.com/js/tj.js
 ||youy14.com/js/zz/nr.js
