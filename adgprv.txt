@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-08-24 12:40:12 UTC
-! Total Rules: 11527
+! Last Updated: 2026-08-25 01:00:56 UTC
+! Total Rules: 11533
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -1890,6 +1890,7 @@
 /pixel_identifier.js
 /pixel_iframe.
 /pixel_iframe.php
+/pixel_taboola_events.js
 /pixel_track.
 /pixel_tracking.
 /pixel_tracking.js
@@ -2219,6 +2220,7 @@
 /sensor/statistic?
 /sensorsdata-
 /sensorsdata.min.js
+/sentinel-events-tracker.
 /sentry-browser.min.js
 /sentry-browser.tracing.es5.min.js
 /sentry-logger.js
@@ -7151,6 +7153,7 @@
 ||karte.io/rewrite-log/
 ||kartell.com/ccstoreui/*/analytics/
 ||kaspersky-labs.com/cld_track?
+||kaspersky.com/assets/logsender.
 ||kaufland.de/_/perf/
 ||kaufland.de/api/uts/events
 ||kaufland.de/uts/events/
@@ -8237,6 +8240,7 @@
 ||olx.com.br^*/lurker.
 ||olympiaverlag.sc.omtrdc.net/b/ss/
 ||olympics.com/ddna-event-router/
+||olympusxyz.com/_nuxt/cijnsars.js
 ||om.lds.org/id*analyticsfields
 ||omnie.ai/api/ddmetric
 ||omniture.chip.de/b/ss/
@@ -9314,6 +9318,7 @@
 ||sdk-api.yozio.com/?os
 ||sdk-service.nsureapi.com/events
 ||sdk.appbrain.com/api/
+||sdk.getlimy.ai/p/limy-analytics.min.js
 ||sdk.mrf.io/statics/marfeel-sdk.js
 ||sdk.nsureapi.com/sdk.js
 ||sdk.rum.aliyuncs.com/v*/bl.js
@@ -10033,6 +10038,7 @@
 ||streamtheworld.com/imp?
 ||streeteasy.com/czdhf737/init.js
 ||streetsblog.org/api/session|
+||strema.top/ping/?
 ||stripchat.com/pixel/
 ||stripe.com/?event=
 ||stripe.com/tracking/
