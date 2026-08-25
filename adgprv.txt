@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-08-25 01:00:56 UTC
-! Total Rules: 11533
+! Last Updated: 2026-08-25 12:39:23 UTC
+! Total Rules: 11543
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -3002,6 +3002,7 @@
 /wp-content/plugins/pageviews/pageviews.js
 /wp-content/plugins/pageviews/pageviews.min.js
 /wp-content/plugins/pixelyoursite/*
+/wp-content/plugins/plausible-analytics/*
 /wp-content/plugins/s2f-referral-tracking/*
 /wp-content/plugins/stat-analytics/*
 /wp-content/plugins/stat-dfp/*
@@ -3450,6 +3451,7 @@
 ||alibaba.com/ts?
 ||alicdn.com/alilog/mlog/
 ||alicdn.com/awsc/et/
+||alicdn.com/awsc/webumid/
 ||alicdn.com/f/pcdn/i.php?
 ||alicdn.com/js/aplus_*.js
 ||alicdn.com/tkapi/click.js
@@ -4010,6 +4012,7 @@
 ||assets.aliexpress-media.com/g/ae-fe/cosmos/*/pc/referral-insights.js
 ||assets.aliexpress-media.com/g/awsc/fireyejs/*/fireyejs.js
 ||assets.aliexpress-media.com/g/awsc/uab/*/collina.js
+||assets.aliexpress-media.com/g/awsc/webumid/
 ||assets.aliexpress-media.com/g/awsc/webumid/*/um.js
 ||assets.aliexpress-media.com/g/lzd_sec/epssw/*/epssw.js
 ||assets.apollo.io/micro/website-tracker/
@@ -4597,7 +4600,7 @@
 ||cdn.adrise.tv/*/sentry/
 ||cdn.almamedia.tech/esm/geo-client/
 ||cdn.amplitude.com/engagement-browser/
-||cdn.amplitude.com/libs/analytics-browser-*-min.js
+||cdn.amplitude.com/libs/analytics-browser-*min.js
 ||cdn.ampproject.org/*/amp-analytics-
 ||cdn.ampproject.org/*/analytics-vendors/metrika.json
 ||cdn.aosomcdn.com/upload/js/dataflux-rum.js
@@ -4606,6 +4609,7 @@
 ||cdn.awsli.com.br/production/static/analytics/owa.min.js
 ||cdn.boostcommerce.io/analytic/
 ||cdn.brevo.com/js/sdk-loader.js
+||cdn.brownbrothers.io/api/impression
 ||cdn.builder.io/api/v1/pixel
 ||cdn.calibermind.com/a.js
 ||cdn.calltrk.com/companies/
@@ -6180,6 +6184,7 @@
 ||fw.tv/embed/impressions
 ||g-scale.org/scripts/eventlog.js
 ||g.alicdn.com/alilog/s/*/plugin/aplus_spmact.js
+||g.alicdn.com/awsc/fireyejs/
 ||g.delfi.lt/g.js
 ||g.ezoic.net/ezosuigeneris.js
 ||g.ivi.ru/track
@@ -8918,6 +8923,10 @@
 ||rapidspike.com/performance/
 ||rapidspike.com/rum/
 ||rapidspike.com/static/js/timingpcg.min.js
+||raptorsupplies.*/js/analytics.js
+||raptorsupplies.*/js/ga4-events.js
+||raptorsupplies.*/js/posthog.js
+||raptorsupplies.*/js/visitor_id.js
 ||ras.reise.s.idealo.de/visit|
 ||rasin.tech/heatmap-
 ||rasin.tech/scroll-logs/
@@ -10335,6 +10344,7 @@
 ||thetruth.com/pd.js
 ||thetruthaboutcars.com/api/slots
 ||theurbanlist.com/assets/dist/autotrack.*.js
+||theverge.com/sendeventdata
 ||thewindowsclub.com/wp-content/themes/genesis/lib/js/skip-links.min.js
 ||thisiswhyimbroke.com/api/user/gift-guide-thumbnail-homepage/tracking
 ||thisiswhyimbroke.com/api/user/tracking

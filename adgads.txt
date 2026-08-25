@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-08-25 01:00:56 UTC
-! Total Rules: 5761
+! Last Updated: 2026-08-25 12:39:23 UTC
+! Total Rules: 5759
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -284,7 +284,6 @@
 /jfjs/ad.js
 /jianpian.obs.cn-
 /jianshen8/images/plan_banner_
-/jquery.adi.js
 /jquery.adx.js?
 /jquery.dfp.min.js?
 /jquery.meerkat.
@@ -1981,6 +1980,7 @@
 ||cdn.lovense.com/uploadfiles/web/affiliatematerials/20230913/2d88a23842444358ab1fc2eb17cb7fdc.gif
 ||cdn.myhentaicomics.com/assets/frames/banner
 ||cdn.onnetwork.tv/js/player*/player_prebidm.js
+||cdn.ping0.cc/images/ex/*.gif
 ||cdn.questvert.pl/publishers/*/qpscript.js
 ||cdn.rawgit.com/arlina-design/quasar/*/arlinablock.js
 ||cdn.rekkerd.org/img/a/rkkrdprm/
@@ -2293,7 +2293,6 @@
 ||dd6364.com/js/777/
 ||dditscdn.com/*/advertisement.js
 ||ddshu.net/a_d_code/
-||dealextreme.com/affiliate_upload/
 ||dealmoon.com/hotdeals/hotdeals_scroller.php
 ||dealmoon.com/upload/dealmoon_app.jpg
 ||debugease.com/static/js/show.js
@@ -2411,7 +2410,6 @@
 ||downk.cc/item/*.gif
 ||downlinker.*/ad_dl.js
 ||downlinker.*/ads.js
-||download.cnet.com/revamp.js
 ||download.megaup.net/download
 ||downvod.com/arlinablock.js
 ||downxia.com/dgjs/download.js
@@ -4093,6 +4091,7 @@
 ||n2.hk/apps/car_feed/tb/*/banner.html
 ||n2.hk/promo/
 ||nairaland.com/vertipics/
+||namecheap.com/graphics/linkus/
 ||nanfengyl.com/static/js/zdad.js
 ||nanrenfuli.*/zb_users/upload/
 ||nanrenvip2021.com/old.html
@@ -4222,7 +4221,6 @@
 ||owo.lewd.ninja/j2.js
 ||oyksoft.com/assets/images/*.gif
 ||oyksoft.com/show/b.
-||ozbargain.com.au/js/ozbads.js
 ||p.jwpcdn.com/player/plugins/vast/
 ||p.kugou.com/?id=
 ||p.udn.com.tw/upf/*_banners/special/
@@ -4558,6 +4556,8 @@
 ||recu.me/api/feed/additional-content
 ||reddit.com/api/request_promo.json
 ||redgifs.com/assets/js/goctrl
+||redscores.com/images/bns/
+||redscores.com/slot/render/
 ||redshu.com/js/pcadv.js
 ||redshu.com/js/www/jquerygg.js
 ||redtube.com/_xa/
@@ -4930,7 +4930,6 @@
 ||stockstar.com/api/?id=
 ||stockstar.com/info/1200x90/
 ||storage.googleapis.com/adtags/
-||storage.googleapis.com/global-attribution/global_attribution.js
 ||storage.googleapis.com/pravda-ad-script/
 ||store.7box.vip/ad/
 ||storm.mg/ad?
@@ -5022,7 +5021,6 @@
 ||tcptest.cn/prod-api/web/adlinks/
 ||tdxs5.cc/m
 ||teacher.php.cn/php/
-||tech426.com/pub/
 ||techritual.com/wp-content/uploads/*/hdcource_
 ||techug.com/aatb/
 ||tencent-cloud.com/s9m1/12f70718c866ea3e5f22c68e6a34c54f.
