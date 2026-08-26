@@ -1,7 +1,7 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-08-25 12:39:23 UTC
+! Last Updated: 2026-08-26 01:02:58 UTC
 ! Total Rules: 11543
 ! Expires: 5 days
 /a.gif?
@@ -1233,7 +1233,6 @@
 /ibeat.min.js
 /icf-analytics.js
 /id?d_visid_
-/identity/token/verify?browser_id=
 /if/services/tdg?hs=
 /iiquniversalid.min.js
 /image.ng/*
@@ -3982,6 +3981,7 @@
 ||arstechnica.com/keys/arstechnica.com/p.js
 ||arte.tv/log-player/
 ||articulture.org/_t/
+||artistgrid.cx/ineedthis.js
 ||arttrk.com/pixel/
 ||aruba.it/servlet/counterserver?
 ||arukereso.hu/*.impression?tt=
