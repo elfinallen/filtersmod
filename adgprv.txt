@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-08-26 01:02:58 UTC
-! Total Rules: 11543
+! Last Updated: 2026-08-26 12:42:34 UTC
+! Total Rules: 11548
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -642,6 +642,7 @@
 /collector/v1/event
 /collector?report=
 /collectsysteminfo?
+/com.snowplowanalytics.iglu/*
 /com_joomlawatch/img.php
 /com_jrealtimeanalytics/*
 /com_jrealtimeanalytics/js/heatmap.js
@@ -2219,6 +2220,7 @@
 /sensor/statistic?
 /sensorsdata-
 /sensorsdata.min.js
+/sensorsdata/*
 /sentinel-events-tracker.
 /sentry-browser.min.js
 /sentry-browser.tracing.es5.min.js
@@ -4304,6 +4306,7 @@
 ||bitdefender.com/cdp/
 ||bitdefender.com/dtm/
 ||bitdefender.com/geoip
+||bitget.com/v*/monitor/events|
 ||bitget.com/v1/buried/log/
 ||bitmango.com/log
 ||bitrix.info/ba.js
@@ -7731,6 +7734,7 @@
 ||mediasetplay.mediaset.it/static/webtrekk/*/smart-pixel.min.js
 ||mediatrend.kr/aidatascript.js
 ||mediatrend.kr/aidatatrigger?uri=
+||mediawatch.kr/weblog/gtracker.php
 ||medibot.delling.care/api/counts/
 ||medicalnewstoday.com/structure/javascript/cache/beacon.js
 ||medicinenet.com/api/xml/pv.xml
@@ -10249,6 +10253,7 @@
 ||technorati.com/technoratimedia-pixel.js
 ||techpowerup.com/__botcheck
 ||techraptor.net/sites/default/files/google_analytics/gtag.js
+||techrepublic.com/api/ado/
 ||techsolutions.com.tw/analytics.js
 ||techstage.de/js/techstage/webtrekk_scrollposition.js
 ||techtarget.com^*/getcookieswithcallback?

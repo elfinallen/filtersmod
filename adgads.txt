@@ -1,7 +1,7 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-08-26 01:02:58 UTC
+! Last Updated: 2026-08-26 12:42:34 UTC
 ! Total Rules: 5758
 ! Expires: 5 days
 /a-duoduo/add-
@@ -2384,6 +2384,7 @@
 ||doii.cc/mmm/
 ||dongchedi.com/motor/ad/
 ||dongfangtai.com/2018/
+||donghuaworld.com/wp-content/plugins/no-adblock-access/detector.js
 ||douban.com/?unit=dale_movie_trailer_after_play&
 ||douban.com/view/dale-online/dale_ad
 ||douban.com^*/fm_bgad.js
@@ -4397,7 +4398,6 @@
 ||projectorcentral.com/*?bid=
 ||promote.pair.com/88x31.pl
 ||property.hk/js/adside.js
-||protoawe.com/vast/
 ||prydwen.gg/api/banners/
 ||ps0z.com/300x250b
 ||ps123.net/myfile/
@@ -4421,6 +4421,7 @@
 ||pw321.com^*.gif
 ||py.cn/src/img/pyy/
 ||py.cn/static/images/advert/
+||qafqazinfo.az/public/site/js/reklam.js
 ||qayqa.com:6868/jquery/
 ||qbox.me/flnvidueio_lrxygiol0ofw0gpa7
 ||qbox.me/fnjnjjhjzlkzegj7qv1aocqusfbf
@@ -5689,7 +5690,6 @@
 ||zdcj.net/html/weibo
 ||zdcj.net^*/ad
 ||zdqx.com/statics/v1/images/gif/
-||zergnet.com/zerg.js
 ||zhainanba.org/ac/
 ||zhanqi.tv/api/static/v2.1/actives.lists/
 ||zhaofuli.*/data/content
