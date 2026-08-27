@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-08-27 06:59:49 UTC
-! Total Rules: 5757
+! Last Updated: 2026-08-27 21:39:56 UTC
+! Total Rules: 5751
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -963,7 +963,6 @@
 ||4gtv.tv/4gtv_ott.json
 ||4hw.com.cn/js/common.js
 ||4kwu.cc/static/js/tj.js
-||4pornhd.com/nb/
 ||4taoxs.com/api/accept/
 ||4wank.com/bump/
 ||500xxxx.com/go.js
@@ -2384,7 +2383,6 @@
 ||doii.cc/mmm/
 ||dongchedi.com/motor/ad/
 ||dongfangtai.com/2018/
-||donghuaworld.com/wp-content/plugins/no-adblock-access/detector.js
 ||douban.com/?unit=dale_movie_trailer_after_play&
 ||douban.com/view/dale-online/dale_ad
 ||douban.com^*/fm_bgad.js
@@ -2603,7 +2601,6 @@
 ||fang.com/house/ajaxrequest/advertlget.
 ||fang99.com^*/advjs/
 ||fanhaodang.org/runtime/js/
-||fanhub.com/_xa/ads_batch?
 ||fanmtl.com/*/js/ad/*.js
 ||fanquanwang.com/uploads/ad/
 ||fans.*.space/fans/*.php
@@ -2677,7 +2674,6 @@
 ||freecontent.stream
 ||freedidi.com/wp-content/plugins/abn-wall/assets/abn-wall.
 ||freedidi.com/wp-content/plugins/death-luhubaoyu/
-||freedownloadmanager.org/web/bannerinf.js
 ||freehao123.com/wp-content/uploads/2017/05/mmkdm.png
 ||freejavbt.com/assets/images/banner
 ||freepopnews.skin/advert/
@@ -4699,7 +4695,6 @@
 ||serengeseba.com/static/view.js
 ||service.hotstar.com^*/midroll
 ||service.iwara.tv/*/*.php?zones=
-||service.smscoin.com/js/sendpic.js
 ||services.postimees.ee/rest/v1/articles/multiple?ids=
 ||serving.srmg.com/player/srmgads.js
 ||sese277.info/photo/
@@ -5129,7 +5124,6 @@
 ||toyhax.com/tfwiki/banner.html
 ||tptoon.com/skin/js/tjtjkk.
 ||tq121.com.cn/j/ad/
-||tr.link/*/img/imgpsh_fullsize_anim.gif
 ||tra.scds.pmdstatic.net/advertising-core/
 ||trafficmanager.net/o.js
 ||trahkino.cc/static/js/li.js

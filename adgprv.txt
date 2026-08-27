@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-08-27 06:59:49 UTC
-! Total Rules: 11548
+! Last Updated: 2026-08-27 21:39:56 UTC
+! Total Rules: 11551
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -4093,6 +4093,7 @@
 ||autohome.com.cn/impress?
 ||autoline-top.com/counter.php?
 ||autoline.link/weblog
+||automaton-media.com/rw7f/
 ||automobile.it/fb/
 ||autonews.ru/redir/stat/
 ||autonotizen.de/user/*/js/galocal.js
@@ -6609,6 +6610,7 @@
 ||hirtv.hu/ajaxx/_stat/
 ||hirtv.hu/nx_general_stat.jpg?
 ||hisense.com/ta.js
+||history.com/editorial/vendor/adobe/
 ||hit.*.ru/*?sid=*&t_tid=
 ||hitcrypt.
 ||hitfm.ru/*yandex-metrika.js
@@ -7228,6 +7230,7 @@
 ||knockaround.com/cdn/s/trekkie.storefront.
 ||knotch-cdn.com/ktag/
 ||knowunity.com/pixels/
+||kobe-np.co.jp/api/audience-data
 ||kobo.com/trackclicks
 ||kocaeligazetesi.com.tr/stats/
 ||kodik.cc/stats
@@ -7447,7 +7450,7 @@
 ||live.visually-io.com/api/allocator/
 ||live.visually-io.com/api/s?token=
 ||live2support.com^*/js_lstrk.
-||liveball.sx/albert
+||liveball.*/albert
 ||liveblog.pro/api/analytics/hit
 ||livechatinc.com^*/control.cgi?
 ||livedoor.com/counter/
@@ -9102,6 +9105,7 @@
 ||rlsnet.ru/js/statistics/
 ||rltd.io/tags/
 ||rmc-cx.api.rakuten.co.jp/*/web/events|
+||rmc-cx.api.rakuten.co.jp/v3/web/events
 ||roadster.com/roadster_dealer_analytics
 ||robert.golem.de/g/collect
 ||roblox.com/_/_/1px.gif
@@ -11260,7 +11264,6 @@
 ||www.digikey.*/lo2z493j/init.js
 ||www.ebay.*/gh/dfpsvc?
 ||www.google.*/velog/
-||www.history.com/editorial/vendor/
 ||www.mouser.*/4uazuiai/init.js
 ||www.uz/counter/collect?
 ||www002.commutil.kr/adlog/adlog_arrviewset.php
