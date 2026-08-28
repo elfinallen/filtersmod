@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-08-27 21:39:56 UTC
-! Total Rules: 5751
+! Last Updated: 2026-08-28 08:47:51 UTC
+! Total Rules: 5750
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -1954,7 +1954,6 @@
 ||cda.pl/xml_pool/*pool*.php
 ||cdn*.editmysite.com/images/site/footer/footer-toast-published-image-*.png
 ||cdn-academy.akamaized.net/letras/ads/
-||cdn-aimi.akamaized.net/mr/overlay.js
 ||cdn-fc.com/creatives/bar/
 ||cdn-server.cc/p/wl-http.js
 ||cdn.aznude.com/js/dating.json
@@ -2383,6 +2382,7 @@
 ||doii.cc/mmm/
 ||dongchedi.com/motor/ad/
 ||dongfangtai.com/2018/
+||donghuaworld.com/wp-content/plugins/no-adblock-access/detector.js
 ||douban.com/?unit=dale_movie_trailer_after_play&
 ||douban.com/view/dale-online/dale_ad
 ||douban.com^*/fm_bgad.js
@@ -4005,7 +4005,6 @@
 ||mortgagecentres.net/banner.gif
 ||moviekhhd.biz/ads/
 ||movielair.cc/assets/mone-*.js
-||movienestbd.*/min.js
 ||movshow.com/*portal/
 ||mowenxi.com/1.png
 ||mp4ba.com^*/js/head.js
@@ -4330,6 +4329,7 @@
 ||pinlue.com/error/bangolike.js
 ||pipi.cn/player/
 ||pipix.cc/gg.gif
+||piratebay.live/static/ads/
 ||pites.cc/js/top.php
 ||pixabay.com/static/img/publisher/*_ad_
 ||pixfs.net/js/mib.min.js
@@ -4346,7 +4346,6 @@
 ||player.vidlove.cc/rt.js
 ||playgama.com/ads/
 ||playzip.com/static/js/abcd.js
-||plibcdn.com/templates/base_master/js/jquery.ppdr2.min.js
 ||plibcdn.com/templates/base_master/js/jquery.shows2.min.js
 ||pmb*.tj.ali213.net/js/
 ||pniao99.com/statics/js/stat.js
