@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-08-28 21:41:12 UTC
-! Total Rules: 5752
+! Last Updated: 2026-08-29 05:24:26 UTC
+! Total Rules: 5750
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -284,6 +284,7 @@
 /jfjs/ad.js
 /jianpian.obs.cn-
 /jianshen8/images/plan_banner_
+/jquery.adi.js
 /jquery.adx.js?
 /jquery.dfp.min.js?
 /jquery.meerkat.
@@ -1958,6 +1959,7 @@
 ||cdn-server.cc/p/wl-http.js
 ||cdn.aznude.com/js/dating.json
 ||cdn.aznude.com/player/v*/vast-no-entitlements.js
+||cdn.bullion.media/custom_units/video-strip-master.js
 ||cdn.cnn.com/ads/
 ||cdn.concert.io/lib/concert-ads/
 ||cdn.cums.net/templates/cumsnew/js/nav-restore.js
@@ -1976,7 +1978,6 @@
 ||cdn.jsdelivr.net/gh/mdnaik/myblog@master/arlinablock.js
 ||cdn.jsdelivr.net/gh/prebid/currency-file@1/latest.json
 ||cdn.lovense.com/uploadfiles/web/affiliatematerials/20230913/2d88a23842444358ab1fc2eb17cb7fdc.gif
-||cdn.myhentaicomics.com/assets/frames/banner
 ||cdn.onnetwork.tv/js/player*/player_prebidm.js
 ||cdn.ping0.cc/images/ex/*.gif
 ||cdn.questvert.pl/publishers/*/qpscript.js
@@ -2121,7 +2122,6 @@
 ||cloudfront.net/public/ct?cpguid=&
 ||cloudfront.net/yongli04/
 ||cloudnet.hentai-moon.com/candyai/
-||cloudorchestranova.com/f59d610a61063c7ef3ccdc1fd40d2ae6.js
 ||cn.ntdtv.com/assets/themes/ntd/js/article_ads.js
 ||cna5.cc/skins/js/
 ||cnblogs.com/ajax/bigbanner/
@@ -4006,7 +4006,6 @@
 ||moratame.tw/img/contents/banner
 ||mortgagecentres.net/banner.gif
 ||moviekhhd.biz/ads/
-||movielair.cc/assets/mone-*.js
 ||movshow.com/*portal/
 ||mowenxi.com/1.png
 ||mp4ba.com^*/js/head.js
@@ -5135,7 +5134,6 @@
 ||trip.com/partners/ad/
 ||trstx.org/overroll/
 ||truex.com/js/client.js
-||truvidplayer.com/v*/v.php?*&adid=
 ||truyensex*/anh/
 ||trvl-px.com/trvl-px/
 ||tsdm39.com/img01/mp3/gg/
