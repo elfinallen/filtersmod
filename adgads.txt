@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-08-30 03:20:21 UTC
-! Total Rules: 5750
+! Last Updated: 2026-08-30 15:56:53 UTC
+! Total Rules: 5749
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -599,7 +599,6 @@
 /webadvert.php?ad_name=
 /websales_push_*_big.php?id=
 /wp-content/plugins/ad-inserter/js/ai-functions.min.js
-/wp-content/plugins/adblock-detector/adblock-detector.js
 /wp-content/plugins/bw-newstack-addon-monetization/*
 /wp-content/plugins/eazy-ad-unblocker/*
 /wp-content/plugins/jet-blocker-anti-ad-blocker-detector/*
@@ -2295,7 +2294,6 @@
 ||dealmoon.com/hotdeals/hotdeals_scroller.php
 ||dealmoon.com/upload/dealmoon_app.jpg
 ||debugease.com/static/js/show.js
-||deeplol.gg/images/ad/
 ||delivery-pc.wasu.cn/d/js/
 ||delivery.vtcnews.vn/dist/adsbyvtc_ver1.js
 ||demaxiya.com/v4/dd/
@@ -2343,6 +2341,7 @@
 ||dioimg.net/images/*.gif
 ||direct-specific.com
 ||dirtyvideo.fun/js/script_
+||discomax.com/adtech/
 ||discuss.com.hk/dfp_forum.php?au=discuss_web_
 ||discuss.com.hk/oath/
 ||discuss.com.hk^*_prod.html
@@ -2541,6 +2540,7 @@
 ||elecfans.com/static/home_ad/
 ||elecfans.com/webapi/advertisement/
 ||elitebabes.com/panel8vz3/
+||embed.st/ad.html
 ||emoney.cn/www/officalwebstatic/js/slidead.js
 ||en8848.com.cn/js/ad
 ||en8848.com.cn/js/content.
@@ -5214,7 +5214,6 @@
 ||upapi.net/pb/ex?w=*&uponit
 ||upload.cc/i1/2020/07/13/8bgjil.gif
 ||upload.xchina.biz/ad/
-||urlshortpro.com/wp-content/plugins/adblock-detector/
 ||userscript.zone/s.js
 ||usgo.chucaotang.net/ua.js
 ||ustv123.com/images/axd.js

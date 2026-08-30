@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-08-30 03:20:21 UTC
-! Total Rules: 11552
+! Last Updated: 2026-08-30 15:56:53 UTC
+! Total Rules: 11554
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -8263,6 +8263,7 @@
 ||on.aws/tracking/event
 ||onboarding-ui.frontiersin.org/api/onboarding-ui/v1/session/logged
 ||ondigitalocean.app/insight-analytics.js
+||ondigitalocean.app/tracker.js
 ||one.store/v1/analytics/
 ||onecount.net/onecount/oc_track/
 ||oneroof.co.nz/*/record-log/
@@ -9017,6 +9018,7 @@
 ||regmedia.co.uk/*/tp.gif
 ||rei.com/customer-analytics-attributes/
 ||reibootmac.com/script/rn_event_track_v*.min.js
+||reibootmac.com/script/rn_event_track_v2.min.js
 ||reichelt.com/setsid.php?
 ||reise.com/js/webtrekk
 ||reisen.tchibo.de/webtrekk
