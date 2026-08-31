@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-08-30 15:56:53 UTC
-! Total Rules: 11554
+! Last Updated: 2026-08-31 03:16:16 UTC
+! Total Rules: 11555
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -3807,6 +3807,7 @@
 ||api.tinybird.co/*/events
 ||api.tinypass.com/api/v*/anon/error/log
 ||api.transcy.io/api/statistic/
+||api.transtore.app/api/v2/storefront/tracking
 ||api.trwl1.com/ascripts/gcrt.js
 ||api.tsc.ca/tracking/v1/events/
 ||api.tua.gov.tr/api/visitor_statistics
@@ -6189,7 +6190,6 @@
 ||fw.tv/embed/impressions
 ||g-scale.org/scripts/eventlog.js
 ||g.alicdn.com/alilog/s/*/plugin/aplus_spmact.js
-||g.alicdn.com/awsc/fireyejs/
 ||g.delfi.lt/g.js
 ||g.ezoic.net/ezosuigeneris.js
 ||g.ivi.ru/track
@@ -7655,6 +7655,7 @@
 ||marktplaats.nl/metrics/
 ||marktplaats.nl/px/
 ||marmiton.org/reloaded/errpix.php
+||marriott.com/mi/api/shop-renderer/logger
 ||marsflag.com/mf2file/site/ext/tr.js
 ||martechsecresponse.s3.us-east-2.amazonaws.com/hoteltracker-*.js
 ||mashery.com/analytics/
