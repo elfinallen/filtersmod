@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-08-31 03:16:16 UTC
-! Total Rules: 11555
+! Last Updated: 2026-08-31 18:40:53 UTC
+! Total Rules: 11557
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -3915,6 +3915,7 @@
 ||app.snov.io/back/track-first-visit
 ||app.tag-plus.com/ja/api/v1/unison_planet/heat_map
 ||app.termly.io/api/*/statistics
+||app.trakt.tv/api/client-report
 ||app.trytada.com/addimpression
 ||app.turbobiyt.net/js/analytics/index.js
 ||app.vandra.ai/healthcheck
@@ -4061,6 +4062,7 @@
 ||at.ua/stat/
 ||atcdn.co.uk/frostbite/
 ||atgsvcs.com/js/atgsvcs.js
+||athensvoice.gr/content/dist/app/plugins/pagetrack.js
 ||ati-host.net/event?
 ||ati-host.net/hit.xiti?s=
 ||atlas.rambler.ru/metrics
@@ -4645,6 +4647,7 @@
 ||cdn.gifs.com/scripts/analytics.min.js
 ||cdn.gravitec.media/track.min.js
 ||cdn.haymarketmedia.asia/shared/tracking.html?tc=*&adunit=
+||cdn.informz.net/web_trk/sp.js
 ||cdn.iol.pt/js/utils/modules/iolanalytics/dist/iol.analytics.js
 ||cdn.iterwebcms.com/*/mas-tracker-min.js
 ||cdn.iyosa.com/src/report.js
@@ -6044,6 +6047,7 @@
 ||flixcar.com/gvid
 ||flixcart.com/px/gnttli3a/init.js
 ||flixcdn.com^*/track.js
+||flixcloud.cc/swetrix.js
 ||flixster.com^*/analytics.
 ||flixtrz.com/api/analytics/watch-event|
 ||flocdn.com^*/dpl/
@@ -6451,6 +6455,7 @@
 ||gplinks.co/auth/ads_stats_controller.php
 ||gpr.hu/pr.pr?
 ||gproxy-beta.mableai.workers.dev/wtag/js
+||gpsvisualizer.com/ip2country.js
 ||grabify.link/api/js
 ||grabnetworks.com/beacons/
 ||grabnetworks.com/ping?
@@ -6639,7 +6644,6 @@
 ||holidaycheck.*/svc/ubt/v1/events
 ||holistic.news/3unw/
 ||hombex.com/assets/js/component/analytics.js
-||home.ebs.co.kr/ebsnews/logproce/logajax
 ||home.ripley.cl/front/ripley/ripley.js
 ||home.ripley.cl/front/ripley/ripley_ga*.js
 ||homedepot-static.com/data-collection/
@@ -8977,6 +8981,7 @@
 ||realtor.com/rdc_user_check/init.js
 ||realtym.live/ga.js
 ||reanimator.net/informer-images/
+||reanime.to/pv.js
 ||rebelmouse.com/pharos/
 ||rebuyengine.com/api/*/analytics/event/
 ||rec1.smt.docomo.ne.jp/bcn_access_log/
@@ -9349,7 +9354,6 @@
 ||search.aol.com/beacon/
 ||search.brave.com/serp/v1/static/serp-js/telemetry/
 ||search.ch/audit/
-||search.tmon.co.kr/api/direct/*/searchstatapi/api/search/count/click/
 ||search.yahoo.com/beacon
 ||searchbooster.net/scripts/tracker/
 ||searchcompletion.com/bannerhandler.ashx
@@ -10106,7 +10110,6 @@
 ||sumsub.com/api/tunnel/
 ||sumsub.com/resources/fevents
 ||sumsub.com/stry/
-||sunknudsen.com/static/media/js/fathom
 ||suno.com/9i3s/
 ||sunset.com/tia/
 ||super.cz/*/hit/?
@@ -11065,7 +11068,6 @@
 ||weather.com.cn/a1.js
 ||weather.com/weather/assets/omniture-app-measurement.*.js
 ||weather.com/weather/assets/omniture-visitorapi.*.js
-||weather.go.kr/w/resources/js/logger
 ||weatherzone.*/*/scripts/gtmhead.js
 ||weatherzone.*/*/scripts/hotjar.js
 ||web-api.napopravku.ru/api-internal/analytics/

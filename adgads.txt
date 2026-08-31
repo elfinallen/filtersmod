@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-08-31 03:16:16 UTC
-! Total Rules: 5749
+! Last Updated: 2026-08-31 18:40:53 UTC
+! Total Rules: 5752
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -195,6 +195,7 @@
 /frontend-jiucao/ps/pscreat.js
 /fsjghgwyegh_f.js
 /fuliba/js/n1.js
+/funcript*.php?pub=
 /fx168_ad
 /game/aplus/pptv/*
 /gamedog_mobile_
@@ -1127,6 +1128,7 @@
 ||7kankan.com/scripts/new/indext
 ||7mmtv.tv/js/ad_js/
 ||7mmtv.tv/u_banner/
+||7reels.cc/promo/
 ||7scs.com/public/img/list-
 ||7wzx9.com/tbad.
 ||7x7n.com/static/image/888.jpg
@@ -1487,6 +1489,7 @@
 ||api.leakgallery.com/affiliate/
 ||api.leakgallery.com/m/decide
 ||api.leakgallery.com/r/
+||api.limewire.com/sharing/featured?site=*&slot=
 ||api.live.bilibili.com/*/banner
 ||api.redgifs.com/v*/adv/
 ||api.redgifs.com/v*/feeds/modules
@@ -1499,6 +1502,7 @@
 ||apis.pchome.com.tw/js/idlead.js
 ||apk-01.oss-cn-beijing.aliyuncs.com/dp/
 ||apk.tw/static/js/showpic.js
+||app.diagnoseo.com/tools/common-js/dsn.js
 ||apple886.com/subs/*.js
 ||apppc.chinaz.com/statics/images/tuan
 ||appteka.store/api/banners?
@@ -1825,7 +1829,6 @@
 ||booktxt.net/js/easyad
 ||booktxt.net/js/mangoindexbanner.js
 ||bootcss.com/assets/js/and
-||bossip.com/wp-content/plugins/ione-modules/*/universal-ads/
 ||bosw.net/js/bos/*960
 ||botcm.com/zhanqun/
 ||boyfriendtv.com/ads/
@@ -2523,7 +2526,6 @@
 ||eclassified.my/cp_featured
 ||ecpoc.com/style/ad
 ||ed2000k.com/ad/
-||edgekit-2xo.pages.dev/a.js
 ||edmontonchina.*/pic/
 ||edu-30130.sz.gfp.tencent-cloud.com^*.gif
 ||educity.cn/self_text/text_disp.aspx?id=
@@ -3000,6 +3002,7 @@
 ||hentaicomic.*/data/ds/
 ||hentaicomic.*/data/game/*/wap.gif
 ||hentaifox.com/js/slider.js
+||hentaihaven.*/api/ads/?placement=
 ||hentaini.com/img/ads/
 ||hentaivideos.net/imp/
 ||hexun.*/hxpage/index.html
@@ -3586,6 +3589,7 @@
 ||kantv6.com/index.php/popularize/
 ||kaotic.com/templates/*/static/player/video.js/videojs-vast-
 ||kaoyan1v1.com/iaa/
+||katitube.com/includes/instantmessage/iframvideoai.php
 ||kayege.org/js/
 ||kb-render.alicdn.com/html/*.html
 ||kccdk.com/content/img/*.gif
@@ -3877,7 +3881,6 @@
 ||mangafuna.xyz/static/ads/
 ||mangahax.com/images/ima_
 ||mangahub.io/iframe/
-||mangarawad.biz/public/assets/js/a.js
 ||manhuaren.com/wx20190904.js
 ||manhwa18.cc/main2023/
 ||manqian.cn/784a6e27-be5b-4442-86e5-9f4adb51894d?
@@ -4131,7 +4134,6 @@
 ||nfmovies.com/static/210203.png
 ||nfuwow.com/static/nfuwow/source/front/new/images/
 ||nfydd.com/template/wap1/js/dd.js
-||ngfiles.com/promos/
 ||niepo.net/api/arrayid/analytics.
 ||nitroflare.com/img/banners/
 ||niu07.com/gg/*.js
@@ -5130,6 +5132,7 @@
 ||tranny.one/trannystatic/ads/
 ||trannygem.com/ai
 ||trans.firm.in/*.js
+||trend48.st/adcash-auto.js
 ||trendmicro.com.tw/wp-content/uploads/*banner
 ||trip.com/partners/ad/
 ||trstx.org/overroll/
@@ -5357,6 +5360,7 @@
 ||winwin7.com/statics/js/pos_js/
 ||winwin7.com/statics/js/user/xz.
 ||wiocha.pl/js/placements.js
+||wispbyte.com/client/scripts/wisp-cmp-bridge.js
 ||wlrjy.com/assets/images/*.gif
 ||wlrjy.com/assets/images/tuidc.png
 ||wnacg.*/data/ds/
@@ -5528,7 +5532,6 @@
 ||xxhh.com/xh.js
 ||xxir.com/static/images/ad.
 ||xxooos.com/mm/
-||xxxdessert.com/*_fe.js
 ||xxxdl.net/nothing.aspx?
 ||xxxshake.com/assets/f_load.js
 ||xygwh.cc/js/p
