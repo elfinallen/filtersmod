@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-09-01 03:19:13 UTC
-! Total Rules: 11561
+! Last Updated: 2026-09-01 16:00:02 UTC
+! Total Rules: 11568
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -3332,6 +3332,7 @@
 ||adnz.co/api/ws-events-sink/
 ||adnz.co/dmp/publisher.js
 ||adnz.co/header.js
+||adnz.co/semantiq/semantiq.js
 ||adobe.com/*/analytics.js
 ||adobe.com/*/pdc_s_code.js
 ||adobe.com/*/s_code*.js
@@ -3734,6 +3735,7 @@
 ||api.mambasms.com/monitorevent/
 ||api.marquiz.ru/v*/analytics/
 ||api.meetup.com/pico/v4/web-events
+||api.mercadolibre.com/melidata/tracks
 ||api.mercadolibre.com/tracks
 ||api.mercari.jp/client_events/
 ||api.mindbox.ru/scripts/*/tracker.js
@@ -7402,6 +7404,9 @@
 ||lieliskadavana.lv/gtm/
 ||lifenewsjr.com/xstat/
 ||lifo.gr/modules/custom/lifo_statistics/
+||ligainsider.de/*.gif?d=
+||ligainsider.de/adblock-event/
+||ligainsider.de/li-check
 ||lightboxcdn.com/*/digibox.gif?c=
 ||lightboxcdn.com/static/identity.html
 ||lightstep.medium.systems^*/reports
@@ -9537,6 +9542,7 @@
 ||show.revico.jp/providejs/tagmanager.js
 ||showstopped.com/owa/log.php
 ||showstopped.com/owa/modules/base/dist/owa.tracker.js
+||shrinetheme.com/api/analytics/
 ||shrtfly.vip/js/tag.js
 ||shuba.life/api/views
 ||shueisha.online/op/analytics.js
@@ -11310,6 +11316,7 @@
 ||xgaytube.com/stats.js
 ||xgaytube.tv/click.php
 ||xgp.pl/wp-content/themes/asona-child-theme/scripts/ga-script.js
+||xhamster.com/api/v1/player/metrics
 ||xhamster.com/stats/
 ||xhamsterlive.com/pixel/
 ||xhcdn.com/js/*.track.min.js

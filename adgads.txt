@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-09-01 03:19:13 UTC
-! Total Rules: 5754
+! Last Updated: 2026-09-01 16:00:02 UTC
+! Total Rules: 5749
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -582,6 +582,7 @@
 /vast.php?*&idzone=
 /vast.php?*&tags=exoxvideostargetting
 /vast/?zid=
+/vast?spot=*xh_spot_id
 /vbvb_*_pmpm.js
 /vendors~ads.
 /videojs/video-conrtib-ads.js
@@ -1979,7 +1980,6 @@
 ||cdn.jsdelivr.net/gh/itspro-dev/project_files@
 ||cdn.jsdelivr.net/gh/mdnaik/myblog@master/arlinablock.js
 ||cdn.jsdelivr.net/gh/prebid/currency-file@1/latest.json
-||cdn.lovense.com/uploadfiles/web/affiliatematerials/20230913/2d88a23842444358ab1fc2eb17cb7fdc.gif
 ||cdn.onnetwork.tv/js/player*/player_prebidm.js
 ||cdn.ping0.cc/images/ex/*.gif
 ||cdn.questvert.pl/publishers/*/qpscript.js
@@ -2597,6 +2597,7 @@
 ||fabuye.vip/zhuanfa/
 ||facebook.com/ajax/bnzai*__comet_req=
 ||facebook.com/network_ads_common
+||fakcb.tpi.li/
 ||falcon-asset.pixfs.net/js/adsbyfalcon.min.js
 ||falcon.pixnet.net/ad/
 ||faloo.com/ou/site/
@@ -2768,7 +2769,6 @@
 ||gay4porn.com/ai/
 ||gayporntube.com/spots.php?
 ||gays-cruising.com/nb/
-||gayxnow.com/bn/
 ||gd.ct10000.com/js/ecssstat.js
 ||gd.sina.com.cn/iframe/22/
 ||gd163.*/2018_ad/
@@ -3228,7 +3228,6 @@
 ||images.sohu.com/ytv/*.jpg
 ||images.whoer.com/image/*.gif
 ||imagespublic.tk/clothes/comeliness.php
-||imagetwist.com/b9ng.js
 ||imdb.com/_json/getads/
 ||imedown.info/03.jpg
 ||imedown.info^*.gif
@@ -4049,7 +4048,6 @@
 ||my0538.com^*/thumb_1000_70_
 ||my0832.com/xyz/xx/
 ||my4700.com/js/*.js
-||myabandonware.com/media/img/innog/
 ||myabandonware.com/media/img/nextrs/hrwrs/
 ||myabandonware.com/media/img/pwn/
 ||myanimelist.net/c/img/
@@ -4092,7 +4090,6 @@
 ||n2.hk/apps/car_feed/tb/*/banner.html
 ||n2.hk/promo/
 ||nairaland.com/vertipics/
-||namecheap.com/graphics/linkus/
 ||nanfengyl.com/static/js/zdad.js
 ||nanrenfuli.*/zb_users/upload/
 ||nanrenvip2021.com/old.html
@@ -4397,7 +4394,6 @@
 ||projectorcentral.com/*?bid=
 ||promote.pair.com/88x31.pl
 ||property.hk/js/adside.js
-||prydwen.gg/api/banners/
 ||ps0z.com/300x250b
 ||ps123.net/myfile/
 ||ps557.com/link/
@@ -4882,7 +4878,6 @@
 ||spox.com/daznpic/
 ||spqi.xyz/static/tmp/
 ||srulad.com/assets/banners/
-||srx.com.sg/srx/media/
 ||ss9874.com/img/91_
 ||ssjv1.com/dm/
 ||ssl-images-amazon.com/images/*/dasf-
@@ -5136,7 +5131,6 @@
 ||trans.firm.in/*.js
 ||trend48.st/adcash-auto.js
 ||trendmicro.com.tw/wp-content/uploads/*banner
-||trip.com/partners/ad/
 ||trstx.org/overroll/
 ||truex.com/js/client.js
 ||truyensex*/anh/
@@ -5313,6 +5307,7 @@
 ||wanwan.sina.com.cn/third_party/
 ||wasabii.com.tw/float/*.js
 ||watchporn.to/banners/
+||wccftech.com/0ldbu6cv0mz.js
 ||wcostream.net/premiumad
 ||wdff.buzz/hengf.
 ||we560.com/js/*.js
