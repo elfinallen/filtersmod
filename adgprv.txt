@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-08-31 18:40:53 UTC
-! Total Rules: 11557
+! Last Updated: 2026-09-01 03:19:13 UTC
+! Total Rules: 11561
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -3633,6 +3633,8 @@
 ||api.20min.ch/kaia/v*/persist
 ||api.270degrees.nl/*/log?apikey=
 ||api.4lapy.ru/api/v*/events/
+||api.a-bly.com/api/*/ad/events/
+||api.a-bly.com/api/*/retail_ad/display-event
 ||api.about.me/user/performance/record/views|
 ||api.actagtracker.jp/tag|
 ||api.aio.media/stat?
@@ -6503,6 +6505,7 @@
 ||gstatic.com/wcm/loader.js
 ||gsvs.org/monitoring
 ||gtmdev.jabra.
+||guazimanhua.com/assets/metrics/
 ||gubagoo.com/modules/tracking/
 ||guc*-spclient.spotify.com/gabo-receiver-service/public/*/events
 ||guj.de/js/gujtracker.js
@@ -9873,6 +9876,7 @@
 ||static.cotemaison.fr/min/js/tagcommander_
 ||static.crunchyroll.com/analytics/
 ||static.danawa.com/globaljs/static/bdl/dsac.min.js
+||static.danawa.com/globaljs/static/bdl/dsas_client.min.js
 ||static.danawa.com/globaljs/static/insight_webanalytics_
 ||static.danawa.com/globaljs/static/logger_insight_webanalytics.js
 ||static.danawa.com/globaljs/static/logger_insight_webanalytics_mobile.js
