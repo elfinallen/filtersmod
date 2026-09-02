@@ -1,7 +1,7 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-09-02 02:37:18 UTC
+! Last Updated: 2026-09-02 15:53:10 UTC
 ! Total Rules: 5749
 ! Expires: 5 days
 /a-duoduo/add-
@@ -1457,7 +1457,6 @@
 ||anhuinews.com/include/
 ||anhuinews.com/zhuyeguanli/*ad/
 ||anime-suba.com/anime-suba/admin/imganadvertisement/
-||anime.nexus/video/vast-ad.mov
 ||animewaku.com/up/img/webp/*.webp
 ||anjuke.com^*/ajax/business_area_search/
 ||ankangwang.com/js/info.js
@@ -3228,6 +3227,7 @@
 ||images.sohu.com/ytv/*.jpg
 ||images.whoer.com/image/*.gif
 ||imagespublic.tk/clothes/comeliness.php
+||imagetwist.com/b9ng.js
 ||imdb.com/_json/getads/
 ||imedown.info/03.jpg
 ||imedown.info^*.gif
@@ -3788,6 +3788,7 @@
 ||louimg.com/u/20191214/17512133.jpg
 ||lovek01.com/gif/97-
 ||loveshang.com/api.php?mod=ad&adid=custom_
+||lowendtalk.com/uploads/editor/*.gif
 ||lpl.qq.com/*/data/lol_match2_news_recommend_*_info.js
 ||lsforum.net/cam2/*.gif
 ||lsforum.net/yahooad/
@@ -4048,7 +4049,6 @@
 ||my0538.com^*/thumb_1000_70_
 ||my0832.com/xyz/xx/
 ||my4700.com/js/*.js
-||myabandonware.com/media/img/nextrs/hrwrs/
 ||myabandonware.com/media/img/pwn/
 ||myanimelist.net/c/img/
 ||mybjx.net/theme/default/js/common/bjx_service_
@@ -4348,6 +4348,7 @@
 ||player.vidlove.cc/rt.js
 ||playgama.com/ads/
 ||playzip.com/static/js/abcd.js
+||plibcdn.com/templates/base_master/js/jquery.ppdr2.min.js
 ||plibcdn.com/templates/base_master/js/jquery.shows2.min.js
 ||pmb*.tj.ali213.net/js/
 ||pniao99.com/statics/js/stat.js
@@ -4599,7 +4600,6 @@
 ||rkxy.com.cn/js/text_
 ||rmf24.pl/j/videojs/ad-setup.js
 ||rock.porn/ai/s/s/im.php?ss=
-||rockjockcock.com/*/bl*.php
 ||romgoc.net/*/adblock_fuck.js
 ||rou.video/_next/static/chunks/pages/fuli-
 ||rou.video/js/exo.js

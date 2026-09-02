@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-09-02 02:37:18 UTC
-! Total Rules: 11569
+! Last Updated: 2026-09-02 15:53:10 UTC
+! Total Rules: 11572
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -3615,6 +3615,7 @@
 ||apay-us.amazon.com/cs/uedata
 ||apester.com/cookie/bundle.js
 ||api-cf.affirm.com/api/v*/session/touch_track
+||api-common.tinkoff.ru/front-logs/
 ||api-esp.piano.io/onsite/recdata/id/
 ||api-gateway-global.viu.com/api/audiencetargeting/
 ||api-godavari.sonyliv.com/beacon
@@ -3851,6 +3852,7 @@
 ||apis.naver.com/videostat/videostat/qoe
 ||apis.usonar.jp/alog/alog.php
 ||apkpure.com/api/v1/get-withdraw-count
+||apkpure.com/static-2/assets/js/prebid
 ||apkpure.com/static/script/device-*-min.js
 ||apl.roskomsvoboda.org/js/script.js
 ||aplus.aliexpress.*/ae.pc_click.statweb_ae_click
@@ -7226,6 +7228,8 @@
 ||kiwisizing.com/api/log
 ||kk-resources.com/ks.js
 ||kkday.com/api/_nuxt/recommend/user-action-record
+||klad.klerk.ru/a/click?page-url=
+||klad.klerk.ru/a/view?page-url=
 ||klaviyo.com/onsite/js/sentry.
 ||klaviyo.com/onsite/track-analytics?
 ||klik.nrc.nl/ping?
@@ -7525,6 +7529,7 @@
 ||loom.com/metrics/graphql
 ||loomia.com^*/setcookie.html
 ||low-ya.com/duplicate-ga-cookie
+||lowendtalk.com/settings/analyticstick.json
 ||lowes.com/baymax/events/
 ||lowes.com/baymax/events/track?
 ||lowes.com/gauge/
@@ -7626,7 +7631,6 @@
 ||mangakoma.net/ajax/manga/view
 ||mangapedia.com/js/abb.
 ||mangaraw.to/api/v1/view/
-||mangaseek.jp/static/js/riveted.min.js
 ||mango-office.ru/calltracking/
 ||mango-office.ru/track/
 ||manomano.*/api/v1/sp-tracking/
@@ -9883,7 +9887,6 @@
 ||static.cotemaison.fr/min/js/tagcommander_
 ||static.crunchyroll.com/analytics/
 ||static.danawa.com/globaljs/static/bdl/dsac.min.js
-||static.danawa.com/globaljs/static/bdl/dsas_client.min.js
 ||static.danawa.com/globaljs/static/insight_webanalytics_
 ||static.danawa.com/globaljs/static/logger_insight_webanalytics.js
 ||static.danawa.com/globaljs/static/logger_insight_webanalytics_mobile.js
