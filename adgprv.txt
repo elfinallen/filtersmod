@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-09-03 02:43:42 UTC
-! Total Rules: 11577
+! Last Updated: 2026-09-03 15:42:20 UTC
+! Total Rules: 11585
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -7096,6 +7096,7 @@
 ||joka.it/inquiero/isapi/csf.dll?
 ||jooble.org/spa-metrics
 ||joomag.com/collect-bulk?
+||journalreport.cn/mstatistics.js
 ||joymaxtr.net/jc/gtm.js
 ||jr-cross.co.jp/lib/js/ekinakapotal-ga.js
 ||js-webt-lol.9cache.com/piwik
@@ -8065,6 +8066,7 @@
 ||needle.com/pageupdate?
 ||neeva.com/logql/log
 ||neg.by/include/ajax/counters.php
+||negocios.com/assets/js/onm/onm-stats.
 ||neighbourly.co.nz/event-tracking
 ||neko-san.fr/stats
 ||nekoweb.org/.nekoweb-api/count-view
@@ -8447,6 +8449,7 @@
 ||paginegialle.it/cgi-bin/getcod.cgi?
 ||paginegialle.it/cgi-bin/jimpres.cgi?
 ||paginegialle.it/engagement.js
+||pahe.plus/*/api/v1/event|
 ||pair.com/itero/tracker_ftc/
 ||pan.baidu.com/api/analytics?
 ||pan.baidu.com/api/report/
@@ -8786,6 +8789,7 @@
 ||proporn.com/ajax/log/
 ||propps.com/v1/referrer/
 ||prosecrets.pro/js/vietxfadvstats/frontend.js
+||proson.gr/core/modules/statistics/
 ||proton.me/api/data/
 ||proton.me/api/feature/v2/frontend/client/metrics
 ||proxy.tproger.ru/yandex-metrika.js
@@ -9289,6 +9293,7 @@
 ||samsung.com/*/peppermint_buy_tracking.js
 ||samsung.com/us/web/internal/logger
 ||samsung.com^*/scripts/tracking.js
+||samsungmagazine.eu/log_imps.php
 ||samsungtechwin.com/*.gif?e=
 ||samsungtechwin.com/*.gif?orig=
 ||sankei-digital.co.jp/log?
@@ -9566,6 +9571,7 @@
 ||shutterstock.com/ja/blog/wp-content/themes/sstk/assets/js/parsely-tracking.min.js
 ||siberiantimes.com/counter/
 ||sibnet.ru/counter.php?
+||sidecar.unext.jp/track/
 ||sided.co/analytics/
 ||siemens.com/c2_analytics.js
 ||sight.ewp.gg/track/
@@ -9649,6 +9655,7 @@
 ||smarthint.co/scripts/i/smarthinttrack.full.min.js
 ||smarthint.co/track/
 ||smartlink-api.amuse.io/api/analytics/
+||smartnews.com/*/monitoring?
 ||smarturl.it/~/tr/visit
 ||smassets.net/assets/anonweb/anonweb-click-
 ||smassets.net/assets/anonweb/anonweb-click-logger-bundle-
@@ -10769,6 +10776,7 @@
 ||unitymedia.de/beacon/
 ||unleash-edge-prod.penpencil.co/api/frontend/client/metrics
 ||unleash-edge.wrtn.ai/api/frontend/client/metrics|
+||unleash.zenchef.com/api/frontend/client/metrics
 ||unpkg.com/@topsort/analytics.js
 ||unpkg.com/web-vitals
 ||unpkg.com/web-vitals?

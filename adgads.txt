@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-09-03 02:43:42 UTC
-! Total Rules: 5749
+! Last Updated: 2026-09-03 15:42:20 UTC
+! Total Rules: 5745
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -83,7 +83,6 @@
 /app/pcbanner/getbannerconfig/v2
 /app/x12.js
 /app_ad/slade.js
-/appapi/jjlist.php
 /appnei-huodong.oss-
 /apps/misc.php?action=advert&
 /ashow.aspx?aid=
@@ -604,7 +603,6 @@
 /wp-content/plugins/bw-newstack-addon-monetization/*
 /wp-content/plugins/eazy-ad-unblocker/*
 /wp-content/plugins/jet-blocker-anti-ad-blocker-detector/*
-/wp-content/plugins/noti-blocker/js/blocker.js
 /wp-content/plugins/script-manager/assets/js/script-manager.js?
 /wp-content/themes/imovies/js/tc_
 /wp-content/uploads/useful_banner_manager_banners/*
@@ -659,7 +657,6 @@
 ||0575bbs.com/updateimeags/
 ||0579.cn/show/showplacenew.aspx
 ||0598yu.com/api.php?mod=ad&
-||0606kk.com/js/index/index.js
 ||07073.com/api/getkflist?
 ||07073.com/pc/js/right-ad.
 ||0722fc.com/index/index.php?/ajax/get_adv/
@@ -1469,6 +1466,7 @@
 ||antpedia.com/include/js/view_news/l_banner_js.js
 ||antpedia.com/viewnewsrightboxtop.
 ||anyporn.com/aa/
+||anyporn.com/if2/
 ||anysex.com/js/initsite.js
 ||anysex.com/static/js/script_new.js
 ||anyshare.icu^*.js
@@ -1958,7 +1956,6 @@
 ||cdn*.editmysite.com/images/site/footer/footer-toast-published-image-*.png
 ||cdn-academy.akamaized.net/letras/ads/
 ||cdn-fc.com/creatives/bar/
-||cdn-server.cc/p/wl-http.js
 ||cdn.aznude.com/js/dating.json
 ||cdn.aznude.com/player/v*/vast-no-entitlements.js
 ||cdn.bullion.media/custom_units/video-strip-master.js
@@ -2235,6 +2232,7 @@
 ||css.mangabz.com/*/mangabz/js/mobile/newyb.js
 ||cssqt.com/a/images/indexsd.gif
 ||cssqt.com/a/images/right
+||cszpra.com^*.gif
 ||ctags.cn/9/j2.js
 ||ctanet.cn/aqq/js/
 ||ctfile.com/iz.php?
@@ -2295,6 +2293,7 @@
 ||ddshu.net/a_d_code/
 ||dealmoon.com/hotdeals/hotdeals_scroller.php
 ||dealmoon.com/upload/dealmoon_app.jpg
+||debica24.pl/static/files/inline_images/*/inline__
 ||debugease.com/static/js/show.js
 ||delivery-pc.wasu.cn/d/js/
 ||delivery.vtcnews.vn/dist/adsbyvtc_ver1.js
@@ -3606,6 +3605,7 @@
 ||kekeshici.com/pc/images/pcad.gif
 ||kelatv.com/ad/
 ||kelehut.cc/js/m.
+||kelv47.xyz^*.gif
 ||kewaishu.org/m-
 ||key8.com/cache/www/banner_
 ||keywin.org/templates/kw_v2/images/youbianad.png
@@ -3962,7 +3962,6 @@
 ||mil.news.sina.com.cn/iframe/109/2012/1024/photo.html
 ||mil.news.sina.com.cn/iframe/109/2013/1015/hotpic.html
 ||milffox.com/ai/
-||milffox.com/sum.js
 ||milimili.tv/js/loadjs/jquery
 ||milimili.tv/template/joeleo/*.js
 ||mima.club/tuijian/speedtest/
@@ -4548,7 +4547,6 @@
 ||readcomiconline.li/ads/
 ||realmadryt.pl/build/assets/articlegate-*.js
 ||realmadryt.pl/img/banners/
-||realpornblogger.com/wp-content/uploads/*/*/banner-*.mp4
 ||receivefreesms.co.uk/adblk/adblk_enc.js
 ||recu.me/api/feed/additional-content
 ||reddit.com/api/request_promo.json
@@ -4679,8 +4677,6 @@
 ||se533.com/template/new/css/*.js
 ||search.brave.com/api/ads/
 ||secrets.ai/ads/
-||sector.sk/default-*.aspx
-||sector.sk/scripts/trixam.min.js
 ||secured.dailymail.co.uk/feeds/commercial/topvideos.json
 ||seectech.cn/scm/ad/list
 ||seek68.cn/img/*.gif
@@ -4894,6 +4890,7 @@
 ||staramuse.com/bmip/showg
 ||starnnews.com/banner/
 ||startpage.com/*/adsense/search/async-ads.js
+||startpage.com^*/afs/
 ||startuphub.ai/api/promotions
 ||static-cdn.spot.im/production/ads/tags/v*/ads/ads.js
 ||static.c4assets.com/all4-ad-code/latest/adverts.js
@@ -5119,6 +5116,7 @@
 ||touimg.com/u/20200419/18431854.gif
 ||touimg.com/u/20200510/2142*.gif
 ||toutiaoyule.com/n/dspshow.
+||towm85.xyz^*.gif
 ||townnews.com/tucson.com/content/tncms/live/libraries/flex/components/ads_dfp/
 ||toyhax.com/tfwiki/banner.html
 ||tptoon.com/skin/js/tjtjkk.
@@ -5321,7 +5319,6 @@
 ||webkaka.com/script/cp.js
 ||webkaka.com^*x50.
 ||wecima.click/static/js/adblock.js
-||weebcentral.com/static/henry_ads/
 ||wei2008.com/js/*0.
 ||wei2008.com/js/t_
 ||wei2008.com/skin/js/top.js
@@ -5743,7 +5740,6 @@
 ||ztjal.info/wp-content/plugins/kill-adblock/
 ||ztracker.cc/pic/bannerek/
 ||zuiacg.com/images/client/
-||zuofang05.com/template/mytheme/statics/image/1/
 ||zzsky.com/images/a_d_
 ||zztongyun.com/static/js/sh.
 ||zztongyun.com/static/js/sh.min.js
