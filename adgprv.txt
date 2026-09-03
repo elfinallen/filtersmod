@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-09-02 15:53:10 UTC
-! Total Rules: 11572
+! Last Updated: 2026-09-03 02:43:42 UTC
+! Total Rules: 11577
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -1254,6 +1254,7 @@
 /imp_cnt.gif?
 /imp_img.php?
 /impb?b=
+/impr-trck?
 /impr.gif?
 /impresion/zona/*
 /impress.php?
@@ -1971,6 +1972,7 @@
 /pr.php?
 /prebid.pro.js
 /prepixel?
+/prgr-trk?
 /printpixel.js
 /printtracker.js
 /prnx_track.js
@@ -5838,6 +5840,7 @@
 ||event.arte.tv/api/server-side-tracking/
 ||event.lib.visumo.io/js/hbn_track.js
 ||event.symbiosys.ai/page_viewjs
+||eventbrite.com/metrics/
 ||eventhub.au01.miro.com/api/stream
 ||eventhub.eu01.miro.com/api/stream
 ||eventhub.us01.miro.com/api/stream
@@ -7092,6 +7095,7 @@
 ||join.protonvpn.com/api/data/v1/metrics
 ||joka.it/inquiero/isapi/csf.dll?
 ||jooble.org/spa-metrics
+||joomag.com/collect-bulk?
 ||joymaxtr.net/jc/gtm.js
 ||jr-cross.co.jp/lib/js/ekinakapotal-ga.js
 ||js-webt-lol.9cache.com/piwik
@@ -7414,6 +7418,7 @@
 ||ligainsider.de/li-check
 ||lightboxcdn.com/*/digibox.gif?c=
 ||lightboxcdn.com/static/identity.html
+||lightning.cnn.com/analytics/
 ||lightstep.medium.systems^*/reports
 ||limbik.com/static/tracking-script.js
 ||line-scdn.net^*/line_tag/
