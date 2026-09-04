@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-09-04 02:41:02 UTC
-! Total Rules: 5745
+! Last Updated: 2026-09-04 15:40:48 UTC
+! Total Rules: 5741
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -1466,7 +1466,6 @@
 ||antpedia.com/include/js/view_news/l_banner_js.js
 ||antpedia.com/viewnewsrightboxtop.
 ||anyporn.com/aa/
-||anyporn.com/if2/
 ||anysex.com/js/initsite.js
 ||anysex.com/static/js/script_new.js
 ||anyshare.icu^*.js
@@ -2798,6 +2797,7 @@
 ||ghost580.com/js/nei4.js
 ||giaoji.com/runtime/js/
 ||gimy.*/images/eee*.png
+||girls-games.org/bnr/
 ||githubusercontent.com/vip888vip/ug/main/*.gif
 ||gjwind.com/xxmh.gif
 ||gk99.com/static/js/a-d-sys.js
@@ -3289,7 +3289,6 @@
 ||instant-gaming.com/affgames/
 ||instant-gaming.com/api/banner/partner/loader.js
 ||inszu.com/js/qian/
-||intercelestial.com/_ac/
 ||internationalsexguide.nl/banners/
 ||intporn.com/js/siropu/
 ||investing.com/jp.php
@@ -3788,6 +3787,7 @@
 ||louimg.com/u/20191214/17512133.jpg
 ||lovek01.com/gif/97-
 ||loveshang.com/api.php?mod=ad&adid=custom_
+||lovingsiren.com/wp-content/uploads/*/click-here.gif
 ||lowendtalk.com/uploads/editor/*.gif
 ||lpl.qq.com/*/data/lol_match2_news_recommend_*_info.js
 ||lsforum.net/cam2/*.gif
@@ -4355,7 +4355,6 @@
 ||poco.cn^*_info_banner
 ||popcdn.day/magnitude.js
 ||popin.cc/ads/
-||porn1free.com/e*.js
 ||porn87.com/static/stream_ads/
 ||porndoe.com/views/footer/banners.html
 ||porndoe.com/wp-contents/channel?
@@ -4692,7 +4691,6 @@
 ||service.hotstar.com^*/midroll
 ||service.iwara.tv/*/*.php?zones=
 ||services.postimees.ee/rest/v1/articles/multiple?ids=
-||serving.srmg.com/player/srmgads.js
 ||sese277.info/photo/
 ||sesefu8.com/index.php?m=poster&
 ||sesefu8.com/statics/js/layer/layer.js
@@ -4967,8 +4965,6 @@
 ||syri.net/marketing/a.php?
 ||syseen.com/content/uploadfile/*/hongbao.png
 ||sysin.org/img/promotion-
-||szaction.cc/public/*/assets/js/custom/tt.
-||szaction.cc/public/*/plugins/
 ||szfcol.com/images/wxright240.jpg
 ||szfcol.com/js/sitead.js
 ||szgpmy.com/js/

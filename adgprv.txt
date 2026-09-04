@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-09-04 02:41:02 UTC
-! Total Rules: 11585
+! Last Updated: 2026-09-04 15:40:48 UTC
+! Total Rules: 11590
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -5786,6 +5786,7 @@
 ||epochtimes.de/epoch-mp/epoch_mp.min.js
 ||epoq.de/inbound-servletapi/event?
 ||eporner.com/beacon.php
+||eporner.com/xhr/video-heatmap/
 ||epromote.co.za/track/
 ||epsilon.6sense.com/v3/company/details
 ||equirodi.*/addstat.php
@@ -6119,6 +6120,7 @@
 ||forum.ixbt.com/liveinternet.gif
 ||forum.turkmmo.com/jc/gtm.js
 ||forum.zuvio.com.tw/api/article/finish
+||forums.digitalspy.com/api/v*/tick|
 ||forums.hardwarezone.com.sg/js/hwz/hwz_permutive.js
 ||forums.hardwarezone.com.sg/js/hwz/neuron.js
 ||forums.mmorpg.com//js/count.js
@@ -6664,6 +6666,7 @@
 ||homemate.co.jp/common/js/beacon/real_estate_detail.js
 ||homemate.co.jp/for/beacon_info/
 ||homestore.com/srv/
+||hometubeporn.com/js/feeder.min.js
 ||honcierge.jp/pv?
 ||honda.co.jp/common/beacon/
 ||hondacarsrockhill.com/pixall/pix-ddc-fp.min.js
@@ -6977,6 +6980,7 @@
 ||intensedebate.com/remotevisit.php?
 ||intensedebate.com/widgets/blogstats/
 ||interactions.one.store/v1/analytics/
+||intercelestial.com/*/api/v1/event|
 ||intercom.io/messenger/web/page_view_events
 ||interest.co.nz/core/modules/statistics/statistics.php
 ||interfax.ru/cnt/
@@ -8702,6 +8706,7 @@
 ||poptropica.com/brain/track.php?
 ||popularmechanics.com/_assets/oply/
 ||popularwidget.com/tracker/
+||porn-plus.com/js/feeder.min.js
 ||pornbest.org/site/stat?
 ||pornbox.com/event/
 ||pornbox.com/stats/
