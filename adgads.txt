@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-09-04 15:40:48 UTC
-! Total Rules: 5741
+! Last Updated: 2026-09-05 02:42:26 UTC
+! Total Rules: 5745
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -1830,7 +1830,9 @@
 ||botcm.com/zhanqun/
 ||boyfriendtv.com/ads/
 ||boyfriendtv.com/bftv/b/
+||boyfriendtv.com/bftv/bb/
 ||boyfriendtv.com/bftv/paysite/
+||boyfriendtv.com/link/out/b/
 ||boylov.xyz^*/img/20*.gif
 ||boylove.cc/static/js/yymh.js
 ||boylove.cc^*/img/20*.gif
@@ -4197,6 +4199,8 @@
 ||oodcd.cn/pan/config/copy.
 ||oodcd.cn/pan/config/history.
 ||ooqiu.com/ad_js/
+||openalternative.co/advertise?
+||openalternative.co^*/ads/
 ||oploverz.my/wp-content/uploads/*/*.gif
 ||opticsky.cn/images/2015/gy-px201
 ||optiklink.com/arlinablock.js
