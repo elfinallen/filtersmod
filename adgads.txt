@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-09-05 02:42:26 UTC
-! Total Rules: 5745
+! Last Updated: 2026-09-05 14:28:56 UTC
+! Total Rules: 5743
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -1466,6 +1466,7 @@
 ||antpedia.com/include/js/view_news/l_banner_js.js
 ||antpedia.com/viewnewsrightboxtop.
 ||anyporn.com/aa/
+||anyporn.com/if2/
 ||anysex.com/js/initsite.js
 ||anysex.com/static/js/script_new.js
 ||anyshare.icu^*.js
@@ -2672,7 +2673,6 @@
 ||fpdisplay.com/templates/default/js/palyflash_
 ||fpdisplay.com/upload/n_ad/
 ||fragment.firefoxchina.cn/html/
-||freecampsites.net/inhouse/*.html
 ||freecontent.date
 ||freecontent.stream
 ||freedidi.com/wp-content/plugins/abn-wall/assets/abn-wall.
@@ -3228,7 +3228,6 @@
 ||images.sohu.com/ytv/*.jpg
 ||images.whoer.com/image/*.gif
 ||imagespublic.tk/clothes/comeliness.php
-||imagetwist.com/b9ng.js
 ||imdb.com/_json/getads/
 ||imedown.info/03.jpg
 ||imedown.info^*.gif
@@ -3940,7 +3939,6 @@
 ||meizhou.com/images/topbanner
 ||mesh.if.iqiyi.com/player/lw/lwplay/accelerator.js
 ||mesh.if.iqiyi.com/tvg/v2/lw/base_info?entity_id=*&ad_ext=
-||mesmer.tools/api/v*/ad?
 ||mestrip.com/widgets/
 ||meteor.today/ad/
 ||metvb.com/js/bofangwei.js
@@ -4327,6 +4325,7 @@
 ||pierrebotton.com/global/
 ||pimpbunny.com/static/v*/images/advertise/
 ||pincai.com/js/pubuliu.
+||ping0.cc/images/fx/*.gif
 ||pingmeibang.com/zt/zx.jpg
 ||pingpang.info/themes/v1.0/images/temp/ad/
 ||pingwest.com/api/news_ad
@@ -5143,7 +5142,6 @@
 ||ttks.tw/js/otherad.
 ||tube.hentaistream.com/wp-includes/js/pop4.js
 ||tube8.*/_xa/ads
-||tubi.io/api/v*/ad_override?
 ||tui.gtimg.com//res/
 ||tui555.com/public/gong/js/a_
 ||tui56.com/guanggao*.html
