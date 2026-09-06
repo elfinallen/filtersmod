@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-09-06 02:39:46 UTC
-! Total Rules: 11592
+! Last Updated: 2026-09-06 14:50:39 UTC
+! Total Rules: 11597
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -307,6 +307,7 @@
 /assets-cdonanalytics.js
 /assets/beacons.js
 /assets/common/js/ga.js
+/assets/js/facebook-for-woocommerce-signals.js
 /assets/performance_timing-
 /assets/userevents/application.js
 /astrack.js
@@ -659,6 +660,8 @@
 /comscore_pageview
 /confiant.js
 /configuration-stat.js
+/content/plugins/facebook-conversion-pixel/pixel-cat.min.js
+/content/plugins/facebook-conversion-pixel/video.js
 /contentiq.js
 /conversion_async.js
 /convertro.js
@@ -1708,6 +1711,7 @@
 /ocount.php
 /ocounter.php
 /odoscope.js
+/official-facebook-pixel/js/facebook_signal.js
 /om.gif?
 /omni-tracking.min.js
 /omnitrack-lately.js
@@ -3023,6 +3027,7 @@
 /wp-js/analytics.js
 /wp-json/burst/v1/track/*
 /wp-json/iawp/*
+/wp-json/pys-facebook/v1/event
 /wp-monero-miner-class.js
 /wp-monero-miner-util.min.js
 /wp-monero-miner.js

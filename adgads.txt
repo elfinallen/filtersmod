@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-09-06 02:39:46 UTC
-! Total Rules: 5743
+! Last Updated: 2026-09-06 14:50:39 UTC
+! Total Rules: 5742
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -3006,6 +3006,7 @@
 ||hentaifox.com/js/slider.js
 ||hentaihaven.*/api/ads/?placement=
 ||hentaini.com/img/ads/
+||hentaiocean.com/assets/upload/banner*.png
 ||hentaivideos.net/imp/
 ||hexun.*/hxpage/index.html
 ||hexun.com*/hx_news/hx_news_finalpage.js
@@ -3889,7 +3890,6 @@
 ||manqian.cn/784a6e27-be5b-4442-86e5-9f4adb51894d?
 ||manqian.cn/async/adlocationconfig
 ||mansurfer.com/flash_promo/
-||manysex.com/culxmuixbbr
 ||maodh.com/admin/up/*.gif
 ||maolihui.com/wp-content/themes/miaonew/images/adb
 ||maomaoks.com/1.
@@ -4277,7 +4277,6 @@
 ||pdfbook.cn/wp-content/uploads/2017/11/049.jpg
 ||peachurnet.com/templates/banner-*x*-*.png
 ||peachurnet.com/templates/stake.com-banner-size-*-min.jpg
-||pearos.xyz/assets/adblock-detector.js
 ||peekvids.com/ads/
 ||peise.net/skin/js/global.
 ||peliculas8k.com/tv/encriptador/adblocknuevo.js
@@ -5128,6 +5127,7 @@
 ||trans.firm.in/*.js
 ||trend48.st/adcash-auto.js
 ||trendmicro.com.tw/wp-content/uploads/*banner
+||trip.com/partners/ad/
 ||trstx.org/overroll/
 ||truex.com/js/client.js
 ||truyensex*/anh/
@@ -5367,7 +5367,6 @@
 ||woozooo.com/img/*.js
 ||wowfan.net/static/js/index.
 ||woyaoq.com/201904100958_5cad4dbac9c5f.png
-||wp.com/static.shareasale.com/
 ||wpdaxue.com/img/*/txy-
 ||wples.com/pc/common.js
 ||ws.kora-api.top/api/ads
