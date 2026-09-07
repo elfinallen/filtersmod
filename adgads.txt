@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-09-07 02:37:42 UTC
-! Total Rules: 5742
+! Last Updated: 2026-09-07 17:08:31 UTC
+! Total Rules: 5741
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -856,7 +856,6 @@
 ||2cq.com/third/tieba/sidebar
 ||2d4f.com/love/
 ||2kandy.com/js/123/
-||2v2.io/ads/
 ||2yjw.com/statics/js/jquery.min.
 ||2zzt.com/file/aliyun
 ||2zzt.com/images/
@@ -1448,7 +1447,6 @@
 ||amazonaws.com/s?z=
 ||ammcg.imgscloud.com/toy/
 ||ams.cdn.arkadiumhosted.com/advertisement/
-||anal.media/creatives/
 ||androidauth.wpengine.com/wp-json/api/advanced_placement
 ||angelweb.cn/inc/angelg.js
 ||anhuinews.com/include/
@@ -2768,6 +2766,7 @@
 ||gay4porn.com/ai/
 ||gayporntube.com/spots.php?
 ||gays-cruising.com/nb/
+||gd-singapore.com/data/1724/aimg/rloadbnus-ibc26.
 ||gd.ct10000.com/js/ecssstat.js
 ||gd.sina.com.cn/iframe/22/
 ||gd163.*/2018_ad/
@@ -2892,7 +2891,6 @@
 ||guazimanhua.com/assets/reader/mobile*-ad.js
 ||gucheng.com/2016/ggimg/
 ||gucheng.com/gcwad/
-||guessthe.game/ads/
 ||guhai.com.cn/ad/
 ||guifun.com/psptool/ad/
 ||guilin-ly.com^*.gif
@@ -3229,6 +3227,7 @@
 ||images.sohu.com/ytv/*.jpg
 ||images.whoer.com/image/*.gif
 ||imagespublic.tk/clothes/comeliness.php
+||imagetwist.com/b9ng.js
 ||imdb.com/_json/getads/
 ||imedown.info/03.jpg
 ||imedown.info^*.gif
@@ -4252,6 +4251,7 @@
 ||partwithner.com/partners/
 ||pasazer.com/_assets/js/ad-connect.js
 ||pastemagazine.com/wp-content/themes/pastemagazine/js/ads-gam-a9-ow.js
+||paypalobjects.com/web/res/*/js/ad.js
 ||payza.com/images/banners/
 ||pbc.pagesix.com/p/nyp/pagesix/pb.js
 ||pbmp.ali213.net/js/
@@ -4598,6 +4598,7 @@
 ||rkanr.com/data/cpcache/cp*.js
 ||rkxy.com.cn/js/text_
 ||rmf24.pl/j/videojs/ad-setup.js
+||rn221.xyz^*.gif
 ||rock.porn/ai/s/s/im.php?ss=
 ||romgoc.net/*/adblock_fuck.js
 ||rou.video/_next/static/chunks/pages/fuli-
@@ -4615,6 +4616,7 @@
 ||ruiwen.com/sp/
 ||rule34.xxx/images/r34_doll.png
 ||rule34.xxx/x/cookiefreead.js
+||rule34gen.com/images/advertisements/
 ||rule34video.com/images/advertisements/
 ||runmang.vip/img/
 ||runoob.com/images/re/
@@ -4854,7 +4856,6 @@
 ||souka.me/ad/
 ||soulu365.com/images/zhuce.jpg
 ||soundcloud.com/audio-ads?
-||sourceforge.net/about/sitewide_top?source=
 ||southmoney.com/page/pc/
 ||southmoney.com/page/top
 ||southmoney.com^*/inc/
@@ -5103,7 +5104,6 @@
 ||topthink.com/api/basic/
 ||toptoon03.xyz/app/tuijian.html
 ||torrentdownloads.me/templates/new/images/titl_tag2.jpg
-||torrindex.net/images/ads/
 ||torrindex.net/images/epv/
 ||totalmedia2.ynet.co.il/new_gpt/
 ||totheglory.im/pic/business/
@@ -5220,7 +5220,6 @@
 ||v2ex.com/pro/emitter
 ||v2rayssr.com/wp-content/plugins/eazy-
 ||v4dwkcv.com/html/click/
-||valoplant.gg/other/bet_gg_ad.html
 ||vanpeople.com/gg/
 ||vansky.com/agdg/homegg/
 ||vansky.com/agdg/individual/

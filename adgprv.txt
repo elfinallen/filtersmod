@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-09-07 02:37:42 UTC
-! Total Rules: 11600
+! Last Updated: 2026-09-07 17:08:31 UTC
+! Total Rules: 11605
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -7079,6 +7079,7 @@
 ||izlesene.com/js/site/tracker.js
 ||jal.co.jp/common_rn/img/rtam.gif
 ||jal.co.jp/common_rn/js/rtam.js
+||janitorai.com/jstats/
 ||jansatta.com/api/capture/ua
 ||jav4tv.com/player/analytics
 ||javedit.com/e/public/viewclick/
@@ -8409,6 +8410,8 @@
 ||otlp-http-production.shopifysvc.com/v1/logs|
 ||otlp-http-production.shopifysvc.com/v1/metrics|
 ||otoshiana.com/ufo/
+||otrium.*/measure/
+||otrium.*/static/newrelic.js
 ||otsuka-shokai.co.jp/_rtbcn/rt_track.js
 ||otthonterkep.hu/c.js
 ||otto.de/error-logging/
@@ -10317,6 +10320,7 @@
 ||tekoki-fuzoku-joho.com/js/alinkprepare_
 ||telerama.fr/*&ptag=
 ||tellerreport.com/react/pixel
+||tellows.jp/ping.php
 ||teltarif.de/cgi-bin/jswarn
 ||teltarif.de/scripts/ttt.js
 ||teltarif.de/scripts/ttt.v2.js
@@ -11416,6 +11420,7 @@
 ||yahoo.net/pixel*.gif
 ||yahoo.net/pixel.gif
 ||yahoodns.net/pixel.gif
+||yalispor.com.tr/u966/
 ||yandeg.ru/count/
 ||yandex.*/an/rtbcount/
 ||yandex.*/an/tracking/
