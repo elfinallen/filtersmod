@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-09-06 14:50:39 UTC
-! Total Rules: 11597
+! Last Updated: 2026-09-07 02:37:42 UTC
+! Total Rules: 11600
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -3878,6 +3878,7 @@
 ||app-web-server.imagen-ai-op.com/analytics/
 ||app.abralytics.com/assets/tracker/index.js
 ||app.airlift.net/assets/affpix.js
+||app.alhena.ai/analytics/
 ||app.avada.io/scripttag/tracking/avada-track.min.js
 ||app.birdsend.co/forms/*/display-stats-pixel
 ||app.blogvault.net/assets/affpix.js
@@ -4175,6 +4176,7 @@
 ||backend.academy.cs.cmu.edu/api/v0/event/
 ||backend.alia-cloudflare.com/launcher/events/
 ||backend.alia-cloudflare.com/user/events
+||backend.alia-prod.com/launcher/events/
 ||backend.leadconnectorhq.com/attribution_service/
 ||backend.leadconnectorhq.com/attribution_service/user_session_v3/update_session/
 ||backend.leadconnectorhq.com/forms/form-survey-event
@@ -5457,6 +5459,7 @@
 ||dev.ozon.ru/p-api/tracker/
 ||dev.to/fallback_activity_recorder
 ||dev.visualwebsiteoptimizer.com/*/track-
+||dev.visualwebsiteoptimizer.com/apm
 ||dev.visualwebsiteoptimizer.com/ping_tpc.php
 ||developer.mozilla.org/submit/
 ||developers.google.com/_d/analytics-iframe

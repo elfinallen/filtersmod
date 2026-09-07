@@ -1,7 +1,7 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-09-06 14:50:39 UTC
+! Last Updated: 2026-09-07 02:37:42 UTC
 ! Total Rules: 5742
 ! Expires: 5 days
 /a-duoduo/add-
@@ -4324,7 +4324,7 @@
 ||pierrebotton.com/global/
 ||pimpbunny.com/static/v*/images/advertise/
 ||pincai.com/js/pubuliu.
-||ping0.cc/images/fx/*.gif
+||ping0.cc/images/gx/*.gif
 ||pingmeibang.com/zt/zx.jpg
 ||pingpang.info/themes/v1.0/images/temp/ad/
 ||pingwest.com/api/news_ad
