@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-09-08 02:50:23 UTC
-! Total Rules: 11605
+! Last Updated: 2026-09-08 15:54:24 UTC
+! Total Rules: 11609
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -4485,6 +4485,8 @@
 ||buzzfeed.com/destination-sync.html
 ||buzzfeed.de/bi/bootstrap/
 ||buzzurl.jp/api/counter/
+||bwapi.irunfar.com/event/
+||bwapi.irunfar.com/log/
 ||byjus.com/byjusweb/js/tracking-2.min.js
 ||byn.kr/main/exec.php?*exec_file=
 ||bysefujedu.com/fingerprint-sw.js
@@ -5629,7 +5631,7 @@
 ||duer.ca/cdn/shopifycloud/media-analytics/
 ||dugout.co/das2.js
 ||duhnet.tv/*/*/stats/init.min.js
-||dulo.tv/api/ping
+||dulo.*/api/ping
 ||dumbingofage.com/?feed-stats-post-id=
 ||dumpster.cam4.com/v2/fp1.js
 ||duolingo.com/2017-06-30/tracking-status
@@ -10017,6 +10019,7 @@
 ||stats.autoscout24.ch/tp.gif
 ||stats.bio.link/api/event/pageview?
 ||stats.debatdirect.tweedekamer.nl
+||stats.dulo.
 ||stats.mopo.de/cntcc
 ||stats.pcsg-server.de/js/
 ||stats.publitas.com/publitas-stats/track
@@ -10321,6 +10324,7 @@
 ||telerama.fr/*&ptag=
 ||tellerreport.com/react/pixel
 ||tellows.jp/ping.php
+||tellows.jp/ping.php?p=
 ||teltarif.de/cgi-bin/jswarn
 ||teltarif.de/scripts/ttt.js
 ||teltarif.de/scripts/ttt.v2.js
