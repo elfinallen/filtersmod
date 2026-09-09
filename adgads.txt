@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-09-09 02:50:28 UTC
-! Total Rules: 5738
+! Last Updated: 2026-09-09 15:50:14 UTC
+! Total Rules: 5740
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -1514,6 +1514,7 @@
 ||arkadiumhosted.com/advertisement/
 ||ashemaletube.com/api/tiles
 ||ashemaletube.com/ast/b/
+||ashemaletube.com/ast/paysite
 ||asiav.cyou/myupdatelist.
 ||asp300.*/2012adimg/
 ||asp300.*/2012js/
@@ -2381,7 +2382,6 @@
 ||doii.cc/mmm/
 ||dongchedi.com/motor/ad/
 ||dongfangtai.com/2018/
-||donghuaworld.com/wp-content/plugins/no-adblock-access/detector.js
 ||douban.com/?unit=dale_movie_trailer_after_play&
 ||douban.com/view/dale-online/dale_ad
 ||douban.com^*/fm_bgad.js
@@ -2679,6 +2679,7 @@
 ||freepornxxx.mobi/popcode.min.js
 ||freeuseporn.com/player/videojsx.vast.
 ||frendz4m.org/arlinablock.js
+||friendquiz.me/images/sunqad.png
 ||frontendjs.com/api/ad
 ||frprn.com/even/ok.js
 ||fsclzs.com/ad_user/
@@ -5206,6 +5207,7 @@
 ||upapi.net/pb/ex?w=*&uponit
 ||upload.cc/i1/2020/07/13/8bgjil.gif
 ||upload.xchina.biz/ad/
+||uqload.*/js2/u.js
 ||userscript.zone/s.js
 ||usgo.chucaotang.net/ua.js
 ||ustv123.com/images/axd.js
