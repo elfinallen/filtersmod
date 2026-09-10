@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-09-10 02:51:21 UTC
-! Total Rules: 5740
+! Last Updated: 2026-09-10 15:45:03 UTC
+! Total Rules: 5734
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -962,7 +962,6 @@
 ||4hw.com.cn/js/common.js
 ||4kwu.cc/static/js/tj.js
 ||4taoxs.com/api/accept/
-||4wank.com/bump/
 ||500xxxx.com/go.js
 ||5054399.com/js/rice/m.js
 ||5068.com/*gg
@@ -2418,6 +2417,7 @@
 ||drakecomic.*/wp-content/themes/mangareader/script.js
 ||drivevideo.xyz/advert/
 ||drtst.com/promo/banners/
+||drumkits.site/shared/ad-handler.js
 ||drvsky.com/js/jolimark.gif
 ||dshangyan.com/pc/advertising/
 ||dsp.lenovo.com.cn^*&clienttype=api|
@@ -4069,7 +4069,6 @@
 ||mylomza.pl/static/files/inline_images/*/inline__
 ||mylust.com/*.jsx
 ||mylust.com/b/
-||mylust.com/static/js/initsite.min.js
 ||myqcloud.com/ad/
 ||myqcloud.com/wp-content/uploads/huoxingyun.
 ||mysteel.com/ads/
@@ -4200,7 +4199,6 @@
 ||oploverz.my/wp-content/uploads/*/*.gif
 ||opticsky.cn/images/2015/gy-px201
 ||optiklink.com/arlinablock.js
-||orangepix.is/b_pics/*.gif
 ||orangepix.is/istrp/*.gif
 ||oremanga.net/wp-content/uploads/*.gif
 ||orzx.im/document/recommend/flashpoint.html
@@ -4615,7 +4613,6 @@
 ||ruiwen.com/sp/
 ||rule34.xxx/images/r34_doll.png
 ||rule34.xxx/x/cookiefreead.js
-||rule34gen.com/images/advertisements/
 ||rule34video.com/images/advertisements/
 ||runmang.vip/img/
 ||runoob.com/images/re/
@@ -5101,7 +5098,6 @@
 ||topmba.mobi/ad/
 ||topthink.com/api/basic/
 ||toptoon03.xyz/app/tuijian.html
-||torrentdownloads.me/templates/new/images/titl_tag2.jpg
 ||torrindex.net/images/epv/
 ||totalmedia2.ynet.co.il/new_gpt/
 ||totheglory.im/pic/business/
@@ -5341,7 +5337,6 @@
 ||whsir.com/wp-content/themes/wh-blog/js/modal.js
 ||widget.engageya.com/engageya_loader.js
 ||widgets.outbrain.com/outbrain.js
-||wiescirolnicze.pl/js/ad-gam-ts.min.js
 ||wikihow.com/x/zscsucgm?
 ||williamlong.info/script/sidebar.js
 ||win2008.info/gongyi.gif
@@ -5711,7 +5706,6 @@
 ||zjtu.tv/add.
 ||zjxc.com/source/plugin/e6_xc_ad/
 ||zk789.cn/res/scripts/show/netsys/show.ashx
-||zkcdn.net/ados.js
 ||zlyk.com/runtime/js/footer.js
 ||zlyk.com/runtime/js/m_footer_top.js
 ||zlyk.com/runtime/js/m_nav_bottom.js
