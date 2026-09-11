@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-09-11 02:45:09 UTC
-! Total Rules: 5734
+! Last Updated: 2026-09-11 15:46:32 UTC
+! Total Rules: 5735
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -524,6 +524,7 @@
 /static/js/gold_daddy.js
 /static/js/headad.js
 /static/js/pop_promotion.js?v=
+/static/tb/kyqp.gif
 /statics/recommend/bense.gif
 /stui_ads/xyz456e/*
 /stuia004/statics/asd/*
@@ -1479,7 +1480,6 @@
 ||api.bitchute.com/slot1/
 ||api.bitchute.com/slot2/
 ||api.coinmarketcap.com/content/*/ad-banner/
-||api.jerkmotion.com/*^placement=
 ||api.leakgallery.com/affiliate/
 ||api.leakgallery.com/m/decide
 ||api.leakgallery.com/r/
@@ -1967,6 +1967,7 @@
 ||cdn.galacg.me/img/*.jpg
 ||cdn.haokongbu1.com^*.js
 ||cdn.headlinesplus.com/tcm-widget.js
+||cdn.hotscope.tv/assets/ai/video-
 ||cdn.jsdelivr.net/gh/*/js/adsenseads.min.js
 ||cdn.jsdelivr.net/gh/*/js/arlinablock.js
 ||cdn.jsdelivr.net/gh/adigunawanxd/pluginsgalaxymag@master/seosecretidnblockads.js
@@ -2179,7 +2180,6 @@
 ||codenong.com/dq.png
 ||codesocang.com/js/a.js
 ||codesocang.com/plus/*baoyue
-||codex-resets.com/sponsors.js
 ||coinfalo.com/assets/js/ad.js
 ||colamanga.com/sw.js
 ||colonist.io/dist/images/ab_
@@ -2193,6 +2193,7 @@
 ||console.images.stockfeelgroup.com/ads/
 ||content.livesportmedia.eu/api/v1/banners?zone-ids=
 ||content.overwolf.com/curseforge/web/nitro/cursenpinit.js
+||content.spmediacdn.com/site/banner.html
 ||content.viralize.tv/display/
 ||coolaler.com/index_ads/
 ||coolpc.com.tw/home/img/right2.html
@@ -2803,6 +2804,7 @@
 ||gk99.com/static/js/a-d-sys.js
 ||gl.ali213.net/images/jsq_gl.jpg
 ||glgoo.*/gimage/ad/
+||glomex.cloud/v*/bid-slots?
 ||glzy8.com/img/ceo/js.js
 ||gmbbk.com/bbsgmbbk/
 ||gmbbk.com/fb.js
@@ -3688,7 +3690,6 @@
 ||lcxw.cn/i/*dl.js
 ||ld0766.com/*20*a/
 ||ldb.cc/js/top.js
-||leakgallery.com/leakifyhub/banner
 ||lecai.com/page/zhuanti/baidu/
 ||leftnewsex.com/fb/fb_hilltopads.php
 ||leiphone.com/uploads/new/category/pic/*/740x140/
@@ -4613,6 +4614,7 @@
 ||ruiwen.com/sp/
 ||rule34.xxx/images/r34_doll.png
 ||rule34.xxx/x/cookiefreead.js
+||rule34gen.com/images/advertisements/
 ||rule34video.com/images/advertisements/
 ||runmang.vip/img/
 ||runoob.com/images/re/
@@ -4922,7 +4924,6 @@
 ||storyren.top/imgg/
 ||straitstimes.com/_web2/betterads_head.js
 ||stream.cz/*/vast?
-||streambtwp.b-cdn.net/aclib.js
 ||stripchat.com/api/external/
 ||stulip.org/static/js/header.js
 ||su.bdimg.com/static/dspui/js/
@@ -5116,6 +5117,7 @@
 ||tra.scds.pmdstatic.net/advertising-core/
 ||trafficmanager.net/o.js
 ||trahkino.cc/static/js/li.js
+||traingon.top/static/content-access.js
 ||tranny.one/trannystatic/ads/
 ||trannygem.com/ai
 ||trans.firm.in/*.js
@@ -5247,7 +5249,6 @@
 ||viptube.com/player_right_ntv_
 ||vipyearha.com/uploads/20*.gif
 ||viralize.tv/t-bid-opportunity/
-||virool.com/widgets/
 ||visit-japan.jp/parts/visitjapan_f35_170_170.jpg
 ||vista.tuwan.com/s.js
 ||vivatube.*/templates/base_master/js/jquery.shows2.min.js
