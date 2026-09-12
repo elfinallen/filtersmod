@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-09-12 02:54:21 UTC
-! Total Rules: 5737
+! Last Updated: 2026-09-12 14:54:29 UTC
+! Total Rules: 5730
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -110,7 +110,6 @@
 /botad.html
 /brandxuandong.js
 /bt*.com/imgs.js?t=
-/btag.min.js
 /btba/ad/*
 /c/674_rlt.js
 /cache/ad_js/*
@@ -1760,7 +1759,6 @@
 ||bestvogue.com/fans/
 ||bf99.com/user*/ad_
 ||bf99.com/user/images/bg_blued.jpg
-||bflix.to/aa/*.js
 ||bfpgf.com/wp-content/uploads/2015/08/360dxs.jpg
 ||bi25.cc/js/hf
 ||bian-min.com/javascript/a/detail.js
@@ -2193,7 +2191,6 @@
 ||console.images.stockfeelgroup.com/ads/
 ||content.livesportmedia.eu/api/v1/banners?zone-ids=
 ||content.overwolf.com/curseforge/web/nitro/cursenpinit.js
-||content.spmediacdn.com/site/banner.html
 ||content.viralize.tv/display/
 ||coolaler.com/index_ads/
 ||coolpc.com.tw/home/img/right2.html
@@ -3692,7 +3689,6 @@
 ||ld0766.com/*20*a/
 ||ldb.cc/js/top.js
 ||lecai.com/page/zhuanti/baidu/
-||leftnewsex.com/fb/fb_hilltopads.php
 ||leiphone.com/uploads/new/category/pic/*/740x140/
 ||leju.com/abp/cmslead_new.v2.js
 ||leju.com/scripts/app/pc/indexlayer/v1/indexlayer.js
@@ -3904,7 +3900,6 @@
 ||maxroll.gg/js/sponsor.js
 ||maxthonimg.com/v6/festival/
 ||mbalib.com/common/a_mbalib/
-||mcc.godaddy.com/park/
 ||mcmod.cn/editor/upload/20221126/1669399546_2_onbt.
 ||mddcloud.*/oweapi/ad/
 ||me680.com/js/*.js
@@ -4095,7 +4090,6 @@
 ||naughtyblog.org/wp-content/images/k2s/
 ||nb.zol.com.cn/detail_*.html
 ||nbegame.com/nbeos/*.jpg
-||nbi.com.pl/*/v*/ads
 ||nczsks.com/scwb/webresource.axd
 ||neets.cc/assets/js/dup.js
 ||nen.com.cn/eap/
@@ -4196,6 +4190,7 @@
 ||oodcd.cn/pan/config/copy.
 ||oodcd.cn/pan/config/history.
 ||ooqiu.com/ad_js/
+||openalternative.co/_proxy/revinel/
 ||openalternative.co/advertise?
 ||openalternative.co^*/ads/
 ||oploverz.my/wp-content/uploads/*/*.gif
@@ -4246,7 +4241,6 @@
 ||parade.com/runtime/delta.js
 ||parade.com/runtime/gamma.js
 ||parade.com/runtime/webads.js
-||partner.pcloud.com/media/banners/*300250.png
 ||partwithner.com/partners/
 ||pasazer.com/_assets/js/ad-connect.js
 ||pastemagazine.com/wp-content/themes/pastemagazine/js/ads-gam-a9-ow.js
@@ -5396,7 +5390,6 @@
 ||x360xs.com/tops/
 ||xav*.icu/base/js/other.js
 ||xayjbz.com/static/images/apc.
-||xbabe.com/xb_north.js
 ||xbiqu5.com/12345678.
 ||xbiquge99.cc/js/dj
 ||xbiqugela.com/js/basisc.
