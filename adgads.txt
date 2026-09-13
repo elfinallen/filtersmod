@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-09-13 02:53:12 UTC
-! Total Rules: 5730
+! Last Updated: 2026-09-13 15:32:01 UTC
+! Total Rules: 5724
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -484,6 +484,8 @@
 /sc_ifeng/*
 /scr/wtixyd.js
 /scrollgg_index.js
+/sdk/v1/dd.interstitial.ts.js
+/sdk/v1/dd.master.spot.js
 /search/tsc.php?ses=
 /secretmine_out.js
 /see200vipghajq/*
@@ -1477,7 +1479,6 @@
 ||api.apiimg.com/huaer/xiahe.js
 ||api.bilibili.com/x/ad/
 ||api.bitchute.com/slot1/
-||api.bitchute.com/slot2/
 ||api.coinmarketcap.com/content/*/ad-banner/
 ||api.leakgallery.com/affiliate/
 ||api.leakgallery.com/m/decide
@@ -2117,7 +2118,6 @@
 ||cloudfront-666.kxcdn.com/v4.js
 ||cloudfront.net/public/ct?cpguid=&
 ||cloudfront.net/yongli04/
-||cloudnet.hentai-moon.com/candyai/
 ||cn.ntdtv.com/assets/themes/ntd/js/article_ads.js
 ||cna5.cc/skins/js/
 ||cnblogs.com/ajax/bigbanner/
@@ -2380,6 +2380,7 @@
 ||doii.cc/mmm/
 ||dongchedi.com/motor/ad/
 ||dongfangtai.com/2018/
+||donghuaworld.com/wp-content/plugins/no-adblock-access/detector.js
 ||douban.com/?unit=dale_movie_trailer_after_play&
 ||douban.com/view/dale-online/dale_ad
 ||douban.com^*/fm_bgad.js
@@ -2475,7 +2476,6 @@
 ||e3c7.com/dh/
 ||e3c7.com/love/
 ||e3ol.com/inc/
-||ea-tube.com/i2/
 ||easou.com/brandimage/ad/
 ||easou.com/online/banner/
 ||eastday.com/assets/js/dftongjiad.js
@@ -3055,7 +3055,6 @@
 ||hoopchina.com.cn/web/widget/partner/*/promote.js
 ||hoopchina.com.cn^*/ad-pc-sdk.
 ||hornygamer.com/play_horny_games/
-||hornysimp.com/style-core.js
 ||hotavxxx.com/images/*96
 ||hoteastday.com/newspc/show?
 ||hotpress.info/blog/asian-javdl/wp-content/uploads/irvsxp.js
@@ -4014,7 +4013,6 @@
 ||mphj.com^*runtime/js/
 ||mps.nbcuni.com/fetch/ext/
 ||mql5.com/rq?
-||mrdeepfakes.com/static/js/pu.js
 ||mscbsc.com/images/5g300x90.jpg
 ||msdn.hk/templets/msdn/*/gg.js
 ||msdn.hk/templets/msdn/css/index.js
@@ -4367,7 +4365,6 @@
 ||pornx.to/wp-content/uploads/ad*x*.png
 ||pornxp.com/2.js
 ||portal.librus.pl/ad|
-||posti.mail.ee/banners/
 ||postimg.cc^*-960x60.
 ||poxiao.com/template/default/images/12345.js
 ||ppluoli.xyz^*.gif
@@ -4542,7 +4539,6 @@
 ||realmadryt.pl/build/assets/articlegate-*.js
 ||realmadryt.pl/img/banners/
 ||receivefreesms.co.uk/adblk/adblk_enc.js
-||recu.me/api/feed/additional-content
 ||reddit.com/api/request_promo.json
 ||redgifs.com/assets/js/goctrl
 ||redscores.com/images/bns/
@@ -4697,7 +4693,6 @@
 ||sex3.com/ee/s/s/su
 ||sex8.cc/plugin-e6-rebate.html
 ||sexbarss.net/wap/
-||sextvx.com/*/ads/web/
 ||sextvx.com/ads/
 ||sexvid.*/rrt/xd.js
 ||sexvid.*/ysla/
@@ -4790,7 +4785,6 @@
 ||sleazyneasy.com/contents/images-container/*.gif
 ||slickdeals.net/ad-stats/
 ||slit.cn/slimages/
-||sluts.wtf/static/ad/
 ||sm.ign.com/zdadkit*.js
 ||smqzj.com/seo.js
 ||smzy.com/v1/img/

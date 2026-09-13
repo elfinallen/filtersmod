@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-09-13 02:53:12 UTC
-! Total Rules: 11625
+! Last Updated: 2026-09-13 15:32:01 UTC
+! Total Rules: 11626
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -5070,6 +5070,7 @@
 ||colliers.com/coveo/rest/*/analytics/
 ||cologger.shopping.naver.com/api/*/collect/
 ||comcast.net/measurements/
+||comdirect.de/cp/log/
 ||comeon.com/tracking.php
 ||comfy.ua/api/analytics/
 ||comfy.ua/api/auth/v*/gtm/
