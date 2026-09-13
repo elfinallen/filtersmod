@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-09-12 14:54:29 UTC
-! Total Rules: 11620
+! Last Updated: 2026-09-13 02:53:12 UTC
+! Total Rules: 11625
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -3727,6 +3727,7 @@
 ||api.idg.zone/intextlinks-tracking/
 ||api.ig.com/statistics/
 ||api.impresa.pt/trackercookie
+||api.inboxburn.com/api/events
 ||api.intelligems.io/track|
 ||api.intelligems.io/v3/track
 ||api.invideo.io/v3/send_analytics_event
@@ -4225,6 +4226,7 @@
 ||barrons.com/cookies/pixel.gif
 ||barry-callebaut.com/pd.js
 ||basaru.net.ru/js/coin32.js
+||base.imdada.cn/rum/spa.js
 ||baseendpoint.stern.de/wrapper/metrics
 ||basicthinking.de/stats/
 ||basis.net/assets/up.js
@@ -6008,6 +6010,7 @@
 ||fcmatch.google.com/pixel
 ||fcmatch.youtube.com/pixel
 ||fd.nl/pixel/
+||fe.imdada.cn/meridian/unify.min.js
 ||featureflags.grubhub.com/v1/events
 ||feed.informer.com/fdstats
 ||feedbackws.icloud.com/reportstats
@@ -6334,6 +6337,7 @@
 ||ghostery.com/telemetry?
 ||ghostretail.com/api/event/
 ||gianteagle.com/webevents/
+||gias.jd.com/js/pc-tk.js
 ||gias.jd.com/js/td.js
 ||giftornado.com/counter.php
 ||giga-video.de/js/customer/tracking-consumer.min.js
@@ -9715,6 +9719,7 @@
 ||socialxup.com/api/track
 ||socital.com^*/socital.js
 ||sockr.birdie.so/event
+||sofoot.com/home/stats
 ||softonic*/web-stats
 ||softonic.jp/web-stats
 ||softportal.com/js/metrika.js
