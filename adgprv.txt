@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-09-14 03:07:25 UTC
-! Total Rules: 11626
+! Last Updated: 2026-09-14 17:33:21 UTC
+! Total Rules: 11632
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -1309,6 +1309,7 @@
 /itmdp_code.js
 /j.gif?
 /javascripts/browserfp.min.js?templateid=
+/jc/gtm.js
 /jgs_portal_log_bildschirm.php?
 /joomla-visites.php
 /jpuid?jsonp=
@@ -2392,6 +2393,7 @@
 /static/cache.php?url=https://mc.yandex.com/metrika/*
 /static/cache/?url=https://mc.yandex.ru/*
 /static/js/analytics-helper.js
+/static/modules/js/assertiveyield/*
 /statistic/pixel?
 /statistics/md.gif?
 /statistics/pixel/*
@@ -3600,6 +3602,7 @@
 ||androidpolice.com/pixel.png?
 ||andyhoppe.com/count/
 ||anilibria.top/api/v1/ads/
+||animegratis.net/js/layout-signal.js
 ||animember.net/js/access.js
 ||anizmplayer.com/gmetrics/
 ||antennasync.me/imp.php
@@ -3900,6 +3903,7 @@
 ||app.cybba.solutions/event/*/pageview?
 ||app.dhgate.com/mobileapiweb/biz-feedback-log.do
 ||app.dhgate.com/musr/logodata.do
+||app.easy.tools/api/stats
 ||app.elitedomains.de/js/service/statistics.service.js
 ||app.gnosispay.com/relay-gp-ph/
 ||app.huawei.com/hwa-c*&action=
@@ -4832,6 +4836,7 @@
 ||chatgpt.com/ces/statsc/
 ||chatgpt.com/ces/v1/p|
 ||chatgpt.com/ces/v1/t
+||chatgpt.com/ces/v1/telemetry/
 ||chatroll.com/t.gif
 ||chaturbate.com/api/adblocker/
 ||chaynikam.info/php/*pagestat.phtml
@@ -6139,7 +6144,6 @@
 ||fortune.com/api/recommendations/feedback/view/
 ||fortune.com/comscore-json/
 ||forum.ixbt.com/liveinternet.gif
-||forum.turkmmo.com/jc/gtm.js
 ||forum.zuvio.com.tw/api/article/finish
 ||forums.digitalspy.com/api/v*/tick|
 ||forums.hardwarezone.com.sg/js/hwz/hwz_permutive.js
@@ -6996,7 +7000,6 @@
 ||installiq.com/pixels/
 ||instant.one/a/tk
 ||instructables.com/counter
-||instyle.com/static/*/static/modules/js/assertiveyield/
 ||intelligems.io/track
 ||intelligencefocus.com^*/sensor.js
 ||intelligencefocus.com^*/websensor.aspx?
@@ -7125,7 +7128,6 @@
 ||jooble.org/spa-metrics
 ||joomag.com/collect-bulk?
 ||journalreport.cn/mstatistics.js
-||joymaxtr.net/jc/gtm.js
 ||jr-cross.co.jp/lib/js/ekinakapotal-ga.js
 ||js-webt-lol.9cache.com/piwik
 ||js.dashfi.net/dashfinet-analytics.js
@@ -7498,6 +7500,7 @@
 ||littlebigsnake.com/event?
 ||litv.tv/api/generate-device-id
 ||live-tv.top/js/k.min.js
+||live.dealer-asset.co/globalscripts/analytics.min.js
 ||live.mrf.io/statics/marfeel/gardac-sync.js
 ||live.visually-io.com/*/visually.js
 ||live.visually-io.com/api/allocator/
@@ -7756,6 +7759,7 @@
 ||media*.marktjagd.com/*/1x1.gif
 ||media-allrecipes.com/assets/deployables/*/analytics.bundled.js
 ||media-amazon.com/images/*/metrics.jpg
+||media-analytic.com/gtag.js
 ||media-imdb.com/*/js/ads/beacon-
 ||media-imdb.com/twilight/?
 ||media-lab.ai/ana-sentry.js
@@ -10216,6 +10220,7 @@
 ||sweetshow.com/r_log.php
 ||sweetwater.com/p2tbvnjz/init.js
 ||swi.neobox.ebu.io/v3/collect?
+||swissquote.com/sqb.microsoft.tracking/trackpage.aspx?
 ||swymrelay.com/api/*/provider/collect?pid=
 ||sycamore.com.br/pixel/
 ||syl.ru/misc/js/global/tracker.js
@@ -11110,6 +11115,7 @@
 ||wantlive.com/pixel/
 ||warehousecinemas.com/ahoy/events
 ||wargamer.com/cdn-cgi/trace
+||wargamings.net/track.js
 ||warnermedia.com/api/v1/events?
 ||was.livere.me/api/ad|
 ||wasm.stream

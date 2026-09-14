@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-09-14 03:07:25 UTC
-! Total Rules: 5724
+! Last Updated: 2026-09-14 17:33:21 UTC
+! Total Rules: 5727
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -431,6 +431,7 @@
 /pj98co.oss-
 /pjk/static/tp.php
 /pjk/xjk/*.php
+/pl/js/system-ba.js
 /player/html.php?aid=*&video_id=*&referer=
 /plugin.php?id=popad_7ree&
 /proxy.htm?id=
@@ -1478,7 +1479,6 @@
 ||api.adultdeepfakes.cam/banners
 ||api.apiimg.com/huaer/xiahe.js
 ||api.bilibili.com/x/ad/
-||api.bitchute.com/slot1/
 ||api.coinmarketcap.com/content/*/ad-banner/
 ||api.leakgallery.com/affiliate/
 ||api.leakgallery.com/m/decide
@@ -1537,7 +1537,6 @@
 ||att.ydss.cn/attachments/portal/
 ||aty.sohu.com/v?
 ||atyun.com/wp-content/themes/xmag/js/ad.js
-||audiobookbay.*/images/bz.jpg
 ||audioz.download/templates/default/img/promo/
 ||auntmia.com/promo/
 ||auto-online.com.tw/vendor_data/
@@ -1672,6 +1671,7 @@
 ||banma.com/get_ad/
 ||banma.com/js/adi.js
 ||banma.com/statics/scripts/common/dialogadjs.js
+||banner-api.grouphfm.com/banner/
 ||banzhu*.com/js/cdn.
 ||banzhu*.com/js/html
 ||banzhu33333.net/js/cdn.
@@ -2178,7 +2178,6 @@
 ||codenong.com/dq.png
 ||codesocang.com/js/a.js
 ||codesocang.com/plus/*baoyue
-||coinfalo.com/assets/js/ad.js
 ||colamanga.com/sw.js
 ||colonist.io/dist/images/ab_
 ||comefromchina.com/images/128bestbuy
@@ -2191,6 +2190,7 @@
 ||console.images.stockfeelgroup.com/ads/
 ||content.livesportmedia.eu/api/v1/banners?zone-ids=
 ||content.overwolf.com/curseforge/web/nitro/cursenpinit.js
+||content.spmediacdn.com/site/banner.html
 ||content.viralize.tv/display/
 ||coolaler.com/index_ads/
 ||coolpc.com.tw/home/img/right2.html
@@ -3316,6 +3316,7 @@
 ||ishisetianxia.com/tb.js
 ||ishowx.com/www/2015/js/top.js
 ||isky.ltd/skin/js/ad.js
+||ispazio.net/wp-content/themes/ispazio-theme/assets/js/gate.js
 ||isso.com.cn/club/adv
 ||isso.com.cn^*/a-d/
 ||iswinoujscie.pl/gfx/banery/
@@ -3863,6 +3864,7 @@
 ||macys.com/sitemonetization/v1/sponsored-products/
 ||madnessporn.com/mad/
 ||magedu.com/wp-content/uploads/*/xwzx
+||magesy.net/hemaral.js
 ||mahoupao.com/api.php?mod=ad&
 ||mahua.com/www/default/js/mahua_show.js
 ||mahua.com/www/default/js/replace_ab.js
@@ -4008,7 +4010,6 @@
 ||mowenxi.com/1.png
 ||mp4ba.com^*/js/head.js
 ||mp4ba.net/static/js/mp4ba.js
-||mp4upload.com/vjs/ada2.html
 ||mp999.net/wp-content/uploads/*zgg
 ||mphj.com^*runtime/js/
 ||mps.nbcuni.com/fetch/ext/
@@ -4064,6 +4065,7 @@
 ||mylomza.pl/static/files/inline_images/*/inline__
 ||mylust.com/*.jsx
 ||mylust.com/b/
+||mylust.com/static/js/initsite.min.js
 ||myqcloud.com/ad/
 ||myqcloud.com/wp-content/uploads/huoxingyun.
 ||mysteel.com/ads/
@@ -4316,6 +4318,7 @@
 ||pimpbunny.com/static/v*/images/advertise/
 ||pincai.com/js/pubuliu.
 ||ping0.cc/images/gx/*.gif
+||ping0.cc/static/images/ad/
 ||pingmeibang.com/zt/zx.jpg
 ||pingpang.info/themes/v1.0/images/temp/ad/
 ||pingwest.com/api/news_ad
@@ -4379,7 +4382,6 @@
 ||primevideo.com/cdp/getvideoads
 ||product.rightmove.co.uk/featured-customer-v2.html
 ||proewildfire.cn/fd.js
-||profamouslife.com/js/adcash.js
 ||proginn.com/cms/10000/
 ||programmer-club.com.tw/images/uuu/
 ||projectorcentral.com/*?bid=
@@ -4878,7 +4880,6 @@
 ||starnnews.com/banner/
 ||startpage.com/*/adsense/search/async-ads.js
 ||startpage.com^*/afs/
-||startuphub.ai/api/promotions
 ||static-cdn.spot.im/production/ads/tags/v*/ads/ads.js
 ||static.c4assets.com/all4-ad-code/latest/adverts.js
 ||static.chinatimes.com/scripts/2019/ad2019.min.js
@@ -4943,6 +4944,7 @@
 ||supfree.net/stat
 ||supfree.net/top.gif
 ||supfree.net/xxx/
+||svetserialu.to/assets/js/ads.js
 ||sw76r85eda3k.com/need/h5.
 ||sweeva.com/images/banner250.gif
 ||swoole.com/_images/kundian
@@ -5049,6 +5051,7 @@
 ||tigtag.com/images/*1000x
 ||tigtag.com/images/pic1/
 ||tigtag.com/styles/phpcms/js/tigtag/ads.js
+||tikfap.app/wp-content/plugins/tikfap-popunder/
 ||timeanddate.com/common/prebidtad.
 ||timecn.cn/image/alipay.jpg
 ||timeout.*/static/js/ads-
