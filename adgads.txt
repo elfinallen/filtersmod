@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-09-15 03:09:11 UTC
-! Total Rules: 5728
+! Last Updated: 2026-09-15 16:08:31 UTC
+! Total Rules: 5727
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -2676,7 +2676,6 @@
 ||freejavbt.com/assets/images/banner
 ||freepopnews.skin/advert/
 ||freepornxxx.mobi/popcode.min.js
-||freeuseporn.com/player/videojsx.vast.
 ||frendz4m.org/arlinablock.js
 ||friendquiz.me/images/sunqad.png
 ||frontendjs.com/api/ad
@@ -3274,7 +3273,6 @@
 ||imhentai.xxx/js/slider_
 ||imooc.com/open/courselistrandjs
 ||imparteconocimientos.com/recursos/anti-adblocker.js
-||impus.tradedoubler.com/imp?type(img)
 ||indiatimes.com/lgads_
 ||indiatimes.com/manageads/
 ||indiatimes.com/toiads_
@@ -4670,7 +4668,6 @@
 ||sdzbcg.com/images/sdfhyl
 ||se533.com/template/new/css/*.js
 ||search.brave.com/api/ads/
-||secrets.ai/ads/
 ||secured.dailymail.co.uk/feeds/commercial/topvideos.json
 ||seectech.cn/scm/ad/list
 ||seek68.cn/img/*.gif
@@ -4860,6 +4857,7 @@
 ||speedtest.cn/assets/images/ce_
 ||speedy.literotica.com/ntk
 ||sportscn.com/js/commerical
+||spotify.com/ad-logic/
 ||spox.com/daznpic/
 ||spqi.xyz/static/tmp/
 ||srulad.com/assets/banners/
@@ -4946,6 +4944,7 @@
 ||supfree.net/top.gif
 ||supfree.net/xxx/
 ||svetserialu.to/assets/js/ads.js
+||svetserialu.to/assets/js/popads.js
 ||sw76r85eda3k.com/need/h5.
 ||sweeva.com/images/banner250.gif
 ||swoole.com/_images/kundian

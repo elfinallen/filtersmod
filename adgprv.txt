@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-09-15 03:09:11 UTC
-! Total Rules: 11635
+! Last Updated: 2026-09-15 16:08:31 UTC
+! Total Rules: 11637
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -3746,6 +3746,7 @@
 ||api.litres.ru/tracker/
 ||api.livere.org/api/v1/clients/*/visitor
 ||api.livestory.io/*/collect
+||api.lrt.lt/pagd/sirens
 ||api.mambasms.com/monitorevent/
 ||api.marquiz.ru/v*/analytics/
 ||api.meetup.com/pico/v4/web-events
@@ -6925,6 +6926,7 @@
 ||independent.co.uk/_build/prebid_
 ||independent.co.uk/agent/ga/
 ||independent.co.uk/iframe/native-cookiesync-frames.html
+||index.hr/api/stats/
 ||indianexpress.com/wp-content/themes/indianexpress/js/ie-events-all.js
 ||indianpornvideotube.com/incnt
 ||indiatimes.com/personalisation/logdata/
@@ -8317,6 +8319,7 @@
 ||om.lds.org/id*analyticsfields
 ||omnie.ai/api/ddmetric
 ||omniture.chip.de/b/ss/
+||omr.com/reviews/gtm-
 ||omsnative.de/tracking/
 ||omt.shinobi.jp/tsumugi?location=
 ||on.aws/track?
@@ -9724,7 +9727,6 @@
 ||sobeycloud.com/services/stat.
 ||soccer.ru/counter/
 ||socialxup.com/api/sale-accounts
-||socialxup.com/api/track
 ||socital.com^*/socital.js
 ||sockr.birdie.so/event
 ||sofoot.com/home/stats
