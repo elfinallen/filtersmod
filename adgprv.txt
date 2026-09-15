@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-09-14 17:33:21 UTC
-! Total Rules: 11632
+! Last Updated: 2026-09-15 03:09:11 UTC
+! Total Rules: 11635
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -3847,6 +3847,7 @@
 ||api.weglot.com/pageviews?api_key
 ||api.whtvr.ai/api/sdk/analytics/
 ||api.wikitree.co.kr/api/v*/postlog.php
+||api.winstall.app/analytics/
 ||api.wral.com/witness/v1/measurement
 ||api.x.com/live_pipeline/events?
 ||api.zbanx.com/track?shop=
@@ -4280,6 +4281,7 @@
 ||benent.net/nf/analysis/
 ||benricho.org/ad_tag/
 ||berliner-stadtplan.com/t.gif
+||berrybase.de/widgets/cbax/analytics/
 ||bershka.com/integration/zenit/events/hit
 ||best4tires.com/collect
 ||bestbuy.com/~assets/bby/_js/ext/bbydyn/dyn_digital_gvp.js
@@ -9688,6 +9690,7 @@
 ||smart-bdash.com/tracking-script/
 ||smart-components-api.redbull.com/report-usage
 ||smart.link/imp/
+||smartbrokerplus.de/_ingenious-script.js
 ||smarte.rs/log
 ||smartertravel.com/ext/pixel/
 ||smarthint.co/scripts/i/smarthinttrack.full.min.js
