@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-09-15 16:08:31 UTC
-! Total Rules: 5727
+! Last Updated: 2026-09-16 03:06:10 UTC
+! Total Rules: 5724
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -415,7 +415,6 @@
 /p?zoneid=
 /pagecpv/*
 /partner/gg_sogou.html
-/partytown/partytown-sw.js
 /paypic/*
 /pc/tpl/baibaipc//js/*
 /pc/tpl/baibaipc/js/*
@@ -1479,9 +1478,9 @@
 ||api.adultdeepfakes.cam/banners
 ||api.apiimg.com/huaer/xiahe.js
 ||api.bilibili.com/x/ad/
+||api.bitchute.com/slot1/
 ||api.coinmarketcap.com/content/*/ad-banner/
 ||api.leakgallery.com/affiliate/
-||api.leakgallery.com/m/decide
 ||api.leakgallery.com/r/
 ||api.limewire.com/sharing/featured?site=*&slot=
 ||api.live.bilibili.com/*/banner
@@ -2675,7 +2674,6 @@
 ||freehao123.com/wp-content/uploads/2017/05/mmkdm.png
 ||freejavbt.com/assets/images/banner
 ||freepopnews.skin/advert/
-||freepornxxx.mobi/popcode.min.js
 ||frendz4m.org/arlinablock.js
 ||friendquiz.me/images/sunqad.png
 ||frontendjs.com/api/ad
@@ -4040,6 +4038,7 @@
 ||my0538.com^*/thumb_1000_70_
 ||my0832.com/xyz/xx/
 ||my4700.com/js/*.js
+||myabandonware.com/media/img/nextrs/hrwrs/
 ||myabandonware.com/media/img/pwn/
 ||myanimelist.net/c/img/
 ||mybjx.net/theme/default/js/common/bjx_service_
@@ -4241,7 +4240,6 @@
 ||parade.com/runtime/webads.js
 ||partwithner.com/partners/
 ||pasazer.com/_assets/js/ad-connect.js
-||pastemagazine.com/wp-content/themes/pastemagazine/js/ads-gam-a9-ow.js
 ||paypalobjects.com/web/res/*/js/ad.js
 ||payza.com/images/banners/
 ||pbc.pagesix.com/p/nyp/pagesix/pb.js
@@ -4397,6 +4395,7 @@
 ||ptfg.flyertrip.com/static/img/campain/
 ||ptyw.yiche.com/ssp/
 ||pupudy.com/images/wxrj.gif
+||pussyspace.*/lazyload.io?ads=
 ||putaoys.com/static/js/acb1.js
 ||putlocker.*/banner/static/
 ||putlocker.*/sab_
@@ -4634,7 +4633,6 @@
 ||saohu*.com/config/json/cctv.json?
 ||sasadown.cn/ad/
 ||sasadown.cn/source/plugin/drk_ledadv/
-||sascdn.com/config.js
 ||sascdn.com/tag/
 ||sass.hk/images/hengfu.jpg
 ||sass.hk/js/ggcn.js
@@ -4701,7 +4699,6 @@
 ||sf2.net/a/index.
 ||sfnmt.com/dq/
 ||sgk.xyz/static/js/pc.js
-||sgtreport.com/wp-content/uploads/*banner
 ||sh.sina.com.cn/iframe/522/
 ||sh.sina.com.cn/js/441/zwyarticle_commo_23.js
 ||shandian.biz/wp-content/themes/inove/js/comment.js
@@ -4784,6 +4781,7 @@
 ||sleazyneasy.com/contents/images-container/*.gif
 ||slickdeals.net/ad-stats/
 ||slit.cn/slimages/
+||sluts.wtf/static/ad/
 ||sm.ign.com/zdadkit*.js
 ||smqzj.com/seo.js
 ||smzy.com/v1/img/
@@ -4873,7 +4871,6 @@
 ||ssyy881.com/zz/
 ||st.chatango.com/js/*/*/rklmodule.js
 ||st.motortrend.com/nitrous/
-||stackpathdns.com/wp-content/plugins/deblocker/js/deblocker.min.js
 ||staramuse.com/bmip/showg
 ||starnnews.com/banner/
 ||startpage.com/*/adsense/search/async-ads.js
