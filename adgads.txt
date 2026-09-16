@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-09-16 03:06:10 UTC
-! Total Rules: 5724
+! Last Updated: 2026-09-16 16:01:38 UTC
+! Total Rules: 5699
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -176,7 +176,6 @@
 /eis/diy/ad/*
 /emwappopads/*
 /ettoday/gemini/*
-/eucjhfxh/*.js
 /ezprice_ad.js
 /fage/ad.js
 /fage/sjad.js
@@ -185,7 +184,6 @@
 /float_r.js
 /floatad2.
 /floatcaopron.js
-/fn666/shouye.php
 /frm_adv.aspx
 /front/adv/getpmadvlist
 /frontend-jiucao/img/banner.jpg
@@ -331,7 +329,6 @@
 /js/mob/cpc_bottom.js
 /js/pcbook.js?
 /js/pfad*.js
-/js/piaofu_bet.
 /js/showgg.js
 /js/sjgg.js
 /js/tpolknm.js
@@ -421,7 +418,6 @@
 /pcgg/*.js
 /pcswf/pcswf.js
 /phoenix-share/js/code.123.bg.
-/php/home/kakaxiaikakaxi.php
 /piaofu.js
 /pic/ad/*
 /pic/tgad/*
@@ -449,7 +445,6 @@
 /red2/ad/*
 /remix_banner.gif
 /renderlapinblock?
-/res/kj/hf*.js?v=
 /resource/common/tongzhuo/game_info.json
 /rest/carbon/api/scripts.js?
 /runtime/ad/*
@@ -516,24 +511,20 @@
 /static/adsview/*
 /static/common/js/djlib_
 /static/fushuba/js/wap.js
-/static/home/gonggao/img/juzi*.gif
-/static/home/gonggao/img/kaiyuan.gif
 /static/idingdian/idd.
-/static/images/ky888.gif
 /static/js/aall.js
 /static/js/fuo_3.js
 /static/js/gold_daddy.js
 /static/js/headad.js
+/static/js/pages/dialogad.js
 /static/js/pop_promotion.js?v=
+/static/js/squarepromo.
 /static/tb/kyqp.gif
 /statics/recommend/bense.gif
 /stui_ads/xyz456e/*
 /stuia004/statics/asd/*
 /sxgg/12.js
 /sxgg/13
-/taiyangchengjituantupian.
-/tan.js
-/tan1.js
 /tanad.js
 /td_ads_ckbeck.js
 /template/*/adm/*
@@ -554,8 +545,6 @@
 /template/zsy_badian/dddytt-gg/*
 /template/zsy_badian/js/stui_
 /templates/*/js/_banner.js
-/templates/bootadult4/js/bottom.js
-/templates/bootadult4/js/text.js
 /templets/*/js/couplet-ad.
 /templets/js/yala.js
 /templets/yycms3/img/*
@@ -574,7 +563,6 @@
 /u/_sponsor/*
 /uc123_no/*/index/js/activity.
 /uniontgm.cmb.
-/upload/site/tbgg/*.gif
 /upload/vod/2018-08-05/201808051533458526.png
 /uploadfile/ad/*
 /uploads/setting/ad/*
@@ -1159,7 +1147,6 @@
 ||88liu.com/data/attachment/portal/
 ||88ys.cc/js/abcd.js
 ||8d8d.me/images/dealer.gif
-||8h93.com^*.gif
 ||8s8s.com/data/banner/
 ||8se.me/service/assets/core-state.
 ||8xbook.org/scripts/ad/
@@ -1175,7 +1162,6 @@
 ||90oo.com/tp/h8877.gif
 ||90oo.com/tp/hg
 ||90oo.com/tp/msn.jpg
-||9191.site/ad.js
 ||91avv8.com/vu18bndyo1ktvpge.js
 ||91bixin.net/api/adv/
 ||91bixin.net/api/chdd/liveadv?
@@ -1242,7 +1228,6 @@
 ||9tata.com/js/www.js
 ||9tour.cn/x2/images/czmf.jpg
 ||9wcn.com/gcld/500.gif
-||9y01.xyz/app/index.html
 ||9ya.net/con/ad
 ||9ye.com/files/editor/ad/
 ||9zvip.net/hi5asd/
@@ -1252,7 +1237,6 @@
 ||a.spolecznosci.net/pet?
 ||a5xiazai.com/z/
 ||aaaimg.com/images*.gif
-||aaread.space/images/*0.gif
 ||aassy4.com/dm/
 ||aatv.app/sport/sport.js
 ||abbao.cn^*adblock
@@ -1531,7 +1515,6 @@
 ||asuracomic.net/api/ads/
 ||asyy6.com/dm/
 ||at.cbsi.com/lib/dist/prod/bidbarrel-cbssports.min.js
-||atmcdn.com/www/*.js
 ||atool.org/res/ads/
 ||att.ydss.cn/attachments/portal/
 ||aty.sohu.com/v?
@@ -2095,6 +2078,10 @@
 ||cidianwang.com/js/zdtop.js
 ||cilimao.*/amaod/
 ||cilipa.com^*0.js
+||cinemove.cc/adcash-pop-test
+||cinemove.cc/api/ad-pop
+||cinemove.cc/api/ads-config
+||cinemove.cc/cm-a/q8m2vk.js
 ||citysbs.com/chongqing/*/1920x179-
 ||citysbs.com/no/*/1190x60-
 ||citysbs.com/no/*/650x50-
@@ -2648,7 +2635,6 @@
 ||fkxs.net/tops/
 ||fl6n.com/adtop/
 ||flash.mycar168.com/data/js/
-||flasmr.top/leb.
 ||flighty.cn/images/
 ||flv2mp3.by/get-rtb-url
 ||flvto.biz/get-rtb-url
@@ -3090,7 +3076,6 @@
 ||hubpd.com/hubpd/images/dingtong
 ||hudong.com/11/85/26100000005581147339859649123.jpg
 ||huhumh.com/js/
-||huiagun.com/template/common.js
 ||huibaihe.net/js/dddd.js
 ||huibaihe.net/static/730-580.
 ||huiji-fs.oss-cn-qingdao.aliyuncs.com/huijiad/
@@ -3191,7 +3176,6 @@
 ||ifooday.cn/index.php?m=poster&
 ||ifunmac.com/wp-content/uploads/*/alipay-
 ||igamepark.biz/ads_output.php
-||igao17.com/need/h5.js
 ||igg-games.*/maven/
 ||igg-games.com/sw.js
 ||ign.com/s/js/zad.js
@@ -3260,7 +3244,6 @@
 ||imgs.cc/img/8pl6fjy.gif
 ||imgs.itxueyuan.com/advpicture/
 ||imgtaxi.com/ea/
-||imgtg.com^*.gif
 ||imgtp.com/2023/02/18/kkre64ff.png
 ||imgtp.com/2024/03/17/lxqznsus.
 ||imgtuku.com/images/20*.gif
@@ -3931,7 +3914,6 @@
 ||meizhou.com/images/topbanner
 ||mesh.if.iqiyi.com/player/lw/lwplay/accelerator.js
 ||mesh.if.iqiyi.com/tvg/v2/lw/base_info?entity_id=*&ad_ext=
-||mestrip.com/widgets/
 ||meteor.today/ad/
 ||metvb.com/js/bofangwei.js
 ||mfacelive.com/scripts/social/openchannel_min.js
@@ -3973,8 +3955,6 @@
 ||mm111.net/api.php?mod=ad&
 ||mm387.com/images/*.gif
 ||mm7920.com:8888/upload/*.gif
-||mmeimh.xyz/static/100.
-||mmeimh.xyz/static/images/
 ||mmin.io/embed/
 ||mmonly.cc/js/mmonlyapp.js
 ||mmtalk.net/images/banner
@@ -4030,7 +4010,6 @@
 ||mvxz.com/boximg/
 ||mvxz.com/img/
 ||mw6.me/images/*.gif
-||mwka.cc/static/gg.
 ||mwrf.net/images/js/*mrf.js
 ||mwrf.net/images/mrf/
 ||mxzmz.com/js/
@@ -4082,7 +4061,6 @@
 ||nairaland.com/vertipics/
 ||nanfengyl.com/static/js/zdad.js
 ||nanrenfuli.*/zb_users/upload/
-||nanrenvip2021.com/old.html
 ||natgeomedia.com/js/ads-parallax.
 ||naughtyblog.org/wp-content/images/k2s/
 ||nb.zol.com.cn/detail_*.html
@@ -4697,7 +4675,6 @@
 ||sexyfuckgames.com/includes/*.php
 ||sexyno1.com/mk-banner/
 ||sf2.net/a/index.
-||sfnmt.com/dq/
 ||sgk.xyz/static/js/pc.js
 ||sh.sina.com.cn/iframe/522/
 ||sh.sina.com.cn/js/441/zwyarticle_commo_23.js
@@ -4940,9 +4917,8 @@
 ||supfree.net/stat
 ||supfree.net/top.gif
 ||supfree.net/xxx/
-||svetserialu.to/assets/js/ads.js
-||svetserialu.to/assets/js/popads.js
-||sw76r85eda3k.com/need/h5.
+||svetserialu.*/assets/js/ads.js
+||svetserialu.*/assets/js/popads.js
 ||sweeva.com/images/banner250.gif
 ||swoole.com/_images/kundian
 ||swoole.com/_images/w7.jpg
@@ -5087,7 +5063,6 @@
 ||toots-a.akamaihd.net/priority/*sponsor
 ||topmba.mobi/ad/
 ||topthink.com/api/basic/
-||toptoon03.xyz/app/tuijian.html
 ||torrindex.net/images/epv/
 ||totalmedia2.ynet.co.il/new_gpt/
 ||totheglory.im/pic/business/

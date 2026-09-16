@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-09-16 03:06:10 UTC
-! Total Rules: 11638
+! Last Updated: 2026-09-16 16:01:38 UTC
+! Total Rules: 11647
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -158,6 +158,7 @@
 /analytics-reporter/*/event
 /analytics-sdk.
 /analytics-secure.js
+/analytics-talk-content-tracking.
 /analytics-tracker/*
 /analytics-tracking.js
 /analytics-worker.iife.js
@@ -249,6 +250,7 @@
 /api/datafast/*
 /api/drpstats
 /api/event-rfkj/*
+/api/eventtracking/batchreport.json
 /api/internal/pixel?
 /api/log-visit
 /api/metrics/collect
@@ -1942,7 +1944,6 @@
 /plugins/catman/*
 /plugins/civic-science/js/pixel.js
 /plugins/discourse-fingerprint-
-/plugins/duracelltomi-google-tag-manager/*
 /plugins/exactmetrics-
 /plugins/nsmg-tracking/*
 /plugins/pageviews-counter/*
@@ -2108,6 +2109,7 @@
 /retargeting-pixels.php
 /revinit.js
 /rgea.min.js
+/ria.analytics.js
 /risk_fp_log?
 /riveted.min.js
 /rivraddon.js
@@ -2393,6 +2395,7 @@
 /static/cache.php?url=https://mc.yandex.com/metrika/*
 /static/cache/?url=https://mc.yandex.ru/*
 /static/js/analytics-helper.js
+/static/js/tracker.js^
 /static/modules/js/assertiveyield/*
 /statistic/pixel?
 /statistics/md.gif?
@@ -6028,6 +6031,7 @@
 ||feedly.com/mxpnl/
 ||feeds.feedburner.com/~fc/
 ||feeds.ibt.com/track.gif
+||feliz.data.tm-awx.com/smile-web-v2/batch
 ||fem.gprod.postmedia.digital/*/iiquniversalid.js
 ||fenerbahce.org/cmsapi/webanalytics/
 ||fensi.plus/*/tracking/
@@ -6482,6 +6486,7 @@
 ||googleusercontent.com/tracker/
 ||gopay.sh/collect
 ||gopuff.com/api/v1/track/impression/
+||gorbilet.ru/blog/js/metrics.js
 ||gordonua.com/actions/stat/
 ||goroost.com/api/pageview
 ||gotcha-server.evo.run/log
@@ -7046,6 +7051,7 @@
 ||iphoneaddict.fr/wp-content/*/counter.php
 ||iphonelife.com/_app/immutable/chunks/trackingparamsforminputs.
 ||iphonesoft.fr/js/analytics
+||iplayer.is/lib/tk.js
 ||ipleaks.io/public/google/gtag.js
 ||iplsc.com/inpl.log/
 ||ipokabu.net/js/analytics.js
@@ -7788,6 +7794,7 @@
 ||mediachat.ru/cnt
 ||mediadelivery.net/.metrics/
 ||mediadelivery.net/rum.js
+||mediaexpert.pl/_internal/metrics/
 ||mediagroupnetwork.com/js/ua.js
 ||mediahuis.be/cxense/
 ||mediaite.com^*/track/
@@ -9728,6 +9735,7 @@
 ||sobeycloud.com/services/stat.
 ||soccer.ru/counter/
 ||socialxup.com/api/sale-accounts
+||socialxup.com/api/track
 ||socital.com^*/socital.js
 ||sockr.birdie.so/event
 ||sofoot.com/home/stats
@@ -11121,6 +11129,7 @@
 ||wantlive.com/pixel/
 ||warehousecinemas.com/ahoy/events
 ||wargamer.com/cdn-cgi/trace
+||wargamings.net/png.php?id=
 ||wargamings.net/track.js
 ||warnermedia.com/api/v1/events?
 ||was.livere.me/api/ad|
