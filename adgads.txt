@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-09-16 16:01:38 UTC
-! Total Rules: 5699
+! Last Updated: 2026-09-17 03:09:47 UTC
+! Total Rules: 5698
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -590,7 +590,6 @@
 /webadvert.php?ad_name=
 /websales_push_*_big.php?id=
 /wp-content/plugins/ad-inserter/js/ai-functions.min.js
-/wp-content/plugins/bw-newstack-addon-monetization/*
 /wp-content/plugins/eazy-ad-unblocker/*
 /wp-content/plugins/jet-blocker-anti-ad-blocker-detector/*
 /wp-content/plugins/script-manager/assets/js/script-manager.js?
@@ -1519,6 +1518,7 @@
 ||att.ydss.cn/attachments/portal/
 ||aty.sohu.com/v?
 ||atyun.com/wp-content/themes/xmag/js/ad.js
+||audiobookbay.*/images/bz.jpg
 ||audioz.download/templates/default/img/promo/
 ||auntmia.com/promo/
 ||auto-online.com.tw/vendor_data/
@@ -3725,7 +3725,6 @@
 ||linkwan.com/gb/javascript/c5-
 ||linovel.net/cp/lk/ad/externalad?
 ||linovelib.com/scripts/zation.js
-||linsux.org/warn.php
 ||linuxde.net/wp-content/uploads/ad/
 ||linuxeden.com/plus/web_js.php
 ||linuxidc.com/linuxfile/list
@@ -3955,7 +3954,6 @@
 ||mm111.net/api.php?mod=ad&
 ||mm387.com/images/*.gif
 ||mm7920.com:8888/upload/*.gif
-||mmin.io/embed/
 ||mmonly.cc/js/mmonlyapp.js
 ||mmtalk.net/images/banner
 ||mnrrk.com/yuhe/ote/js/pcgg.js
@@ -4751,6 +4749,7 @@
 ||skeimg.com/i/*.gif
 ||skeyword.browser.qq.com/gethotrank
 ||skijumping.pl/content/images/banner/
+||skygg.lat/ads/lib.js
 ||sl.al/gdrive/pic/*.gif
 ||slashdot.org/ajax.pl?op=nel|
 ||slashlook.com/_resource/html/_bloggeradsbottom.html
