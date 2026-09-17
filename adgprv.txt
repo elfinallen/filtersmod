@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-09-17 03:09:47 UTC
-! Total Rules: 11647
+! Last Updated: 2026-09-17 16:08:00 UTC
+! Total Rules: 11646
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -7015,7 +7015,6 @@
 ||intensedebate.com/remotevisit.php?
 ||intensedebate.com/widgets/blogstats/
 ||interactions.one.store/v1/analytics/
-||intercelestial.com/*/api/v1/event|
 ||intercom.io/messenger/web/page_view_events
 ||interest.co.nz/core/modules/statistics/statistics.php
 ||interfax.ru/cnt/
@@ -8496,7 +8495,6 @@
 ||paginegialle.it/cgi-bin/getcod.cgi?
 ||paginegialle.it/cgi-bin/jimpres.cgi?
 ||paginegialle.it/engagement.js
-||pahe.plus/*/api/v1/event|
 ||pair.com/itero/tracker_ftc/
 ||pan.baidu.com/api/analytics?
 ||pan.baidu.com/api/report/
@@ -9278,6 +9276,7 @@
 ||s.kk-resources.com/ks.js
 ||s.kk-resources.com/leadtag.js
 ||s.mynet.com.tr/geolocation/geocookie.js
+||s.omsolution.net/omstatapi/
 ||s.p7s1.io/datalayer/conviva
 ||s.pinimg.com/ct/core.js
 ||s.pixfs.net/js/pixlogger.min.js

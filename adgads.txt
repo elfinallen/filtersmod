@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-09-17 03:09:47 UTC
-! Total Rules: 5698
+! Last Updated: 2026-09-17 16:08:00 UTC
+! Total Rules: 5699
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -2578,7 +2578,6 @@
 ||fabuye.vip/zhuanfa/
 ||facebook.com/ajax/bnzai*__comet_req=
 ||facebook.com/network_ads_common
-||fakcb.tpi.li/
 ||falcon-asset.pixfs.net/js/adsbyfalcon.min.js
 ||falcon.pixnet.net/ad/
 ||faloo.com/ou/site/
@@ -4352,6 +4351,7 @@
 ||price.com.hk/ec-discuss-widget.php
 ||price.com.hk/scripts/ysm.js
 ||primevideo.com/cdp/getvideoads
+||pristineplay.co/js/exo-pop-*.js
 ||product.rightmove.co.uk/featured-customer-v2.html
 ||proewildfire.cn/fd.js
 ||proginn.com/cms/10000/
@@ -5052,6 +5052,7 @@
 ||tlula507.com/public/js/dui
 ||tlula507.com/public/js/float
 ||tmatch.simba.taobao.com^*&name=tbuad&pid=
+||todaytvseries1.com/ads/
 ||tom.com/*tomflashad
 ||tom.com/adsender/
 ||tonghuacun.com/js/uc.js
