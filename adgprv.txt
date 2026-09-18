@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-09-18 02:57:07 UTC
-! Total Rules: 11647
+! Last Updated: 2026-09-18 15:44:05 UTC
+! Total Rules: 11650
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -4241,6 +4241,7 @@
 ||basicthinking.de/stats/
 ||basis.net/assets/up.js
 ||basspro.com/*/track?
+||batcave.biz/p/script.js
 ||bathandbodyworks.com/lsxlyya5/init.js
 ||batiactu.com/cap_
 ||bauen-und-heimwerken.de/myphpfiles/js/analytics.js
@@ -8306,6 +8307,7 @@
 ||odysee.com/log/
 ||odysee.com/reports/
 ||oe-static.de^*/wws.js
+||oeamtc.at/*/js/cms.frontend._js.tracking/
 ||oeksound.com/pl/api/event
 ||office.net/*/web-vitals.*.js
 ||ohmynews.com/nws_web/common/js/googleanalytics
@@ -9794,6 +9796,7 @@
 ||sparkasse.de/frontend/settrackingcookie.htm
 ||sparkasse.de/frontend/settrackingcookie.html
 ||sparklit.com/counter/
+||spaziogames.it/6vzv/
 ||spaziogames.it/ajax/player_impression.ashx?
 ||spclient.wg.spotify.com/ad-logic/
 ||spclient.wg.spotify.com/gabo-receiver-service*/v3/events/

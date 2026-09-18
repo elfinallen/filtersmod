@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-09-18 02:57:07 UTC
-! Total Rules: 5699
+! Last Updated: 2026-09-18 15:44:05 UTC
+! Total Rules: 5698
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -1461,7 +1461,6 @@
 ||api.adultdeepfakes.cam/banners
 ||api.apiimg.com/huaer/xiahe.js
 ||api.bilibili.com/x/ad/
-||api.bitchute.com/slot1/
 ||api.coinmarketcap.com/content/*/ad-banner/
 ||api.leakgallery.com/affiliate/
 ||api.leakgallery.com/r/
@@ -1518,7 +1517,6 @@
 ||att.ydss.cn/attachments/portal/
 ||aty.sohu.com/v?
 ||atyun.com/wp-content/themes/xmag/js/ad.js
-||audiobookbay.*/images/bz.jpg
 ||audioz.download/templates/default/img/promo/
 ||auntmia.com/promo/
 ||auto-online.com.tw/vendor_data/
@@ -4846,7 +4844,6 @@
 ||sss777.net/alove-a/
 ||ssyy881.com/zz/
 ||st.chatango.com/js/*/*/rklmodule.js
-||st.motortrend.com/nitrous/
 ||staramuse.com/bmip/showg
 ||starnnews.com/banner/
 ||startpage.com/*/adsense/search/async-ads.js
@@ -5088,6 +5085,7 @@
 ||trend48.st/adcash-auto.js
 ||trendmicro.com.tw/wp-content/uploads/*banner
 ||trip.com/partners/ad/
+||troypoint.com/tp-vpn-api?path=
 ||trstx.org/overroll/
 ||truex.com/js/client.js
 ||truyensex*/anh/
@@ -5170,6 +5168,7 @@
 ||upapi.net/pb/ex?w=*&uponit
 ||upload.cc/i1/2020/07/13/8bgjil.gif
 ||upload.xchina.biz/ad/
+||uploady.io/images/banners/
 ||uqload.*/js2/u.js
 ||userscript.zone/s.js
 ||usgo.chucaotang.net/ua.js
