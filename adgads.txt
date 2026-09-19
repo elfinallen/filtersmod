@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-09-19 02:55:34 UTC
-! Total Rules: 5698
+! Last Updated: 2026-09-19 15:15:30 UTC
+! Total Rules: 5695
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -2220,7 +2220,6 @@
 ||ctrip.com/domestic/tool/ajaxgetcptlist.ashx?advpositioncode=
 ||cupid.iqiyi.com/mixer?
 ||cupid.iqiyi.com/show2?
-||curiouspatch.com/static/rsoc.js
 ||cuttlefly.com/direct-info/
 ||cww.net.cn/include/show.asp?boardid=
 ||cww.net.cn/js/urdev.js
@@ -2520,7 +2519,6 @@
 ||elecfans.com/skin-*ad_
 ||elecfans.com/static/home_ad/
 ||elecfans.com/webapi/advertisement/
-||elitebabes.com/panel8vz3/
 ||embed.st/ad.html
 ||emoney.cn/www/officalwebstatic/js/slidead.js
 ||en8848.com.cn/js/ad
@@ -3835,7 +3833,6 @@
 ||m1955.com/template/qq/images/playad/
 ||macd.cn/macd-topads.html
 ||macfans.org/vip/
-||machineseeker.com/data/ofni/
 ||macys.com/sitemonetization/v1/sponsored-products/
 ||madnessporn.com/mad/
 ||magedu.com/wp-content/uploads/*/xwzx
@@ -4214,7 +4211,6 @@
 ||partwithner.com/partners/
 ||pasazer.com/_assets/js/ad-connect.js
 ||paypalobjects.com/web/res/*/js/ad.js
-||payza.com/images/banners/
 ||pbc.pagesix.com/p/nyp/pagesix/pb.js
 ||pbmp.ali213.net/js/
 ||pc6.com/img/
@@ -4309,7 +4305,6 @@
 ||play6111.com/js/
 ||player.globalsun.io/*-player.js
 ||player.videasy.*/scripts/ab.js
-||player.vidlove.cc/rt.js
 ||playgama.com/ads/
 ||playzip.com/static/js/abcd.js
 ||plibcdn.com/templates/base_master/js/jquery.ppdr2.min.js
@@ -5205,6 +5200,7 @@
 ||videosection.com/adv-agent.php
 ||videowood.me/assets/js/popup.js
 ||videowood.tv/popjavascript
+||vidy.st/scripts/xyz.js
 ||vip.luanren.com/data/*.gif
 ||vip.video.qq.com/rpc/trpc.vip_ad_promotion
 ||vipdage.com/wp-content/uploads/ad/
@@ -5693,6 +5689,7 @@
 ||ztjal.info/wp-content/plugins/kill-adblock/
 ||ztracker.cc/pic/bannerek/
 ||zuiacg.com/images/client/
+||zxcprime.xyz/ad-script.js
 ||zzsky.com/images/a_d_
 ||zztongyun.com/static/js/sh.
 ||zztongyun.com/static/js/sh.min.js

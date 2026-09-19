@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-09-19 02:55:34 UTC
-! Total Rules: 11652
+! Last Updated: 2026-09-19 15:15:30 UTC
+! Total Rules: 11656
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -5354,6 +5354,7 @@
 ||daisomall.co.kr/collect.php
 ||daisomall.co.kr/ssn/feedback/
 ||danawa.com/logger/
+||dap-cn.c.hihonor.com/dap/jssdk.js
 ||dap.digitalgov.gov/universal-federated-analytics-min.js
 ||dap.dmm.co.jp/imp?
 ||dap.rri.go.id/tracker/
@@ -7628,6 +7629,7 @@
 ||m.vk.com/counters.php
 ||m.xiangce.baidu.com/mobileapp/motu-*?guid=
 ||m.xszj.org/static/*/*/h.js
+||m1.lefile.cn/le_sdk/le-shop-track-sdk.js
 ||m1tm.motor1.com/analytics.js
 ||m365.cloud.microsoft/client_health_ping
 ||m365.cloud.microsoft/events
@@ -7878,6 +7880,7 @@
 ||mi.academy.com/p/js/1.js
 ||mi.com/stat/
 ||mi.dickssportinggoods.com/p/js/1.js
+||miao.baidu.com/abdr?
 ||mibatech.com/track/
 ||microsoft.com/beacon/
 ||microsoft.com/echo/etc.clientlibs/cascade.component.authoring/clientlibs/clientlib-jquery-cookie.*.min.js
@@ -9139,6 +9142,7 @@
 ||resu.io/scripts/resclient.min.js
 ||resultspage.com/js/sli-spark.js
 ||retail-client-events-service.internal.salsify.com/events
+||retail.hihonor.com/survey/base/analysis/
 ||retailrocket.ru/content/javascript/tracking.js
 ||retently.com/api/remote/tracking/
 ||retty.me/gen204.php
