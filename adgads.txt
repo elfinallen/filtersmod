@@ -1,7 +1,7 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-09-20 03:07:50 UTC
+! Last Updated: 2026-09-20 15:20:34 UTC
 ! Total Rules: 5690
 ! Expires: 5 days
 /a-duoduo/add-
@@ -1811,6 +1811,7 @@
 ||boyfriendtv.com/bftv/bb/
 ||boyfriendtv.com/bftv/paysite/
 ||boyfriendtv.com/link/out/b/
+||boyfriendtv.com^*/vast.min.js
 ||boylov.xyz^*/img/20*.gif
 ||boylove.cc/static/js/yymh.js
 ||boylove.cc^*/img/20*.gif
@@ -4362,7 +4363,6 @@
 ||ptfg.flyertrip.com/static/img/campain/
 ||ptyw.yiche.com/ssp/
 ||pupudy.com/images/wxrj.gif
-||pussyspace.*/lazyload.io?ads=
 ||putaoys.com/static/js/acb1.js
 ||putlocker.*/banner/static/
 ||putlocker.*/sab_
