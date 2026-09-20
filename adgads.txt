@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-09-19 15:15:30 UTC
-! Total Rules: 5695
+! Last Updated: 2026-09-20 03:07:50 UTC
+! Total Rules: 5690
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -1517,6 +1517,7 @@
 ||att.ydss.cn/attachments/portal/
 ||aty.sohu.com/v?
 ||atyun.com/wp-content/themes/xmag/js/ad.js
+||audiobookbay.*/images/bz.jpg
 ||audioz.download/templates/default/img/promo/
 ||auntmia.com/promo/
 ||auto-online.com.tw/vendor_data/
@@ -2714,7 +2715,6 @@
 ||gamersky.com/web/getjs?url=*.gamersky.com*banner
 ||gamersky.com/web/getjs?url=*.gamersky.com*newad
 ||games.ifeng.com^*.shtml?v=
-||gamingadlt.com^document
 ||gamme.com.tw/ga/
 ||gamme.com.tw/uploads/*?2
 ||gangjuw.com/style/lmjs/
@@ -2980,7 +2980,6 @@
 ||hentaicomic.*/data/game/*/wap.gif
 ||hentaifox.com/js/slider.js
 ||hentaihaven.*/api/ads/?placement=
-||hentaini.com/img/ads/
 ||hentaiocean.com/assets/upload/banner*.png
 ||hentaivideos.net/imp/
 ||hexun.*/hxpage/index.html
@@ -4321,7 +4320,6 @@
 ||porngamespass.com/iframes/
 ||pornhd3x.tv/cms_data/sites/admin/files/ads
 ||pornhub.*/_xa/ads
-||pornlib.com/player_*_ads
 ||pornone.com/js/combined.js
 ||pornoxo.com/api/tiles?*&advertisername=faphouse
 ||pornpapa.com/extension/
@@ -4536,7 +4534,6 @@
 ||rfidworld.com.cn/js/rfid.js
 ||rfidworld.com.cn/js/rfidexec.js
 ||rfidworld.com.cn/notice/home
-||rft.gg/images/sponsors/
 ||riaway.com/statics/idea.jpg
 ||rigengjihua.cn/banner/
 ||right.com.cn/forum/data/attachment/common/template/boardimg_20260602yahb3wsd.
@@ -4827,7 +4824,6 @@
 ||spotify.com/ad-logic/
 ||spox.com/daznpic/
 ||spqi.xyz/static/tmp/
-||srulad.com/assets/banners/
 ||ss9874.com/img/91_
 ||ssjv1.com/dm/
 ||ssl-images-amazon.com/images/*/dasf-
@@ -4899,7 +4895,6 @@
 ||sunofbeaches.com/ast/assistant/ad-item/
 ||sunofbeaches.com/shop/recommend/
 ||sunpma.com/other/logo/
-||supabase.co/rest/v1/promos_available
 ||supertaste.tvbs.com.tw/css/adunit.min.css
 ||supervideo.cc/tag01.js
 ||supfree.net/baotu.
