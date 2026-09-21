@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-09-21 03:04:29 UTC
-! Total Rules: 5691
+! Last Updated: 2026-09-21 17:46:19 UTC
+! Total Rules: 5696
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -594,6 +594,7 @@
 /wp-content/plugins/jet-blocker-anti-ad-blocker-detector/*
 /wp-content/plugins/script-manager/assets/js/script-manager.js?
 /wp-content/themes/imovies/js/tc_
+/wp-content/uploads/2026/*/rvpasteref300.png
 /wp-content/uploads/useful_banner_manager_banners/*
 /wxh_asy.js
 /wxhfm.html?cid=
@@ -1083,6 +1084,8 @@
 ||66wz.com/data/attachment/portal/
 ||66wz.com/eap/
 ||69adu.com/bootstrap.
+||69pedia.com/themes/lite/js/mztn.js
+||69search.com/site/assets/banners/
 ||69shuba.cx^*/shu.js
 ||69shuba.tw/js/gg.js
 ||69shux.com/js/otherad.
@@ -1234,7 +1237,6 @@
 ||a.cnki.net/a/
 ||a.jyeoo.com/js?
 ||a.pemsrv.com/popunder*.js
-||a.spolecznosci.net/pet?
 ||a5xiazai.com/z/
 ||aaaimg.com/images*.gif
 ||aassy4.com/dm/
@@ -1518,7 +1520,6 @@
 ||att.ydss.cn/attachments/portal/
 ||aty.sohu.com/v?
 ||atyun.com/wp-content/themes/xmag/js/ad.js
-||audiobookbay.*/images/bz.jpg
 ||audioz.download/templates/default/img/promo/
 ||auntmia.com/promo/
 ||auto-online.com.tw/vendor_data/
@@ -1937,6 +1938,7 @@
 ||cdn*.editmysite.com/images/site/footer/footer-toast-published-image-*.png
 ||cdn-academy.akamaized.net/letras/ads/
 ||cdn-fc.com/creatives/bar/
+||cdn.18jav.tv/assets/ad/
 ||cdn.aznude.com/js/dating.json
 ||cdn.aznude.com/player/v*/vast-no-entitlements.js
 ||cdn.bullion.media/custom_units/video-strip-master.js
@@ -1964,7 +1966,6 @@
 ||cdn.rawgit.com/arlina-design/quasar/*/arlinablock.js
 ||cdn.rekkerd.org/img/a/rkkrdprm/
 ||cdn.shdsp.net/ad
-||cdn.statically.io/gh/ad-shield/
 ||cdn.staticaly.com/gh/arlina-design/*/arlinablock.js
 ||cdn.tapioni.com/asg_embed.js
 ||cdn.uameta.ai/file/bucket-media/image/advertisement/
@@ -2177,7 +2178,6 @@
 ||console.images.stockfeelgroup.com/ads/
 ||content.livesportmedia.eu/api/v1/banners?zone-ids=
 ||content.overwolf.com/curseforge/web/nitro/cursenpinit.js
-||content.spmediacdn.com/site/banner.html
 ||content.viralize.tv/display/
 ||coolaler.com/index_ads/
 ||coolpc.com.tw/home/img/right2.html
@@ -3857,6 +3857,7 @@
 ||mangahub.io/iframe/
 ||manhuaren.com/wx20190904.js
 ||manhwa18.cc/main2023/
+||manko.fun/api/proxy/ads
 ||manqian.cn/784a6e27-be5b-4442-86e5-9f4adb51894d?
 ||manqian.cn/async/adlocationconfig
 ||mansurfer.com/flash_promo/
@@ -4486,6 +4487,7 @@
 ||quora.com/ads/
 ||qwblog.cn/localfile/20200612230036.gif
 ||qy0.ru/data/game/
+||qy0.ru/data/t/*.gif
 ||qy1.ru/data/game/
 ||qyun.vip/pic/*.gif
 ||qzone.la/scripts/m.js
@@ -4874,6 +4876,7 @@
 ||storyren.top/imgg/
 ||straitstimes.com/_web2/betterads_head.js
 ||stream.cz/*/vast?
+||streamcash.to/js/detect.js
 ||streamex.hn/pop.js
 ||stripchat.com/api/external/
 ||stulip.org/static/js/header.js
@@ -5624,6 +5627,8 @@
 ||zdcj.net/html/weibo
 ||zdcj.net^*/ad
 ||zdqx.com/statics/v1/images/gif/
+||zgorzelec.info/api/1/ads/
+||zgorzelec.info/api/1/smalladds/
 ||zhainanba.org/ac/
 ||zhanqi.tv/api/static/v2.1/actives.lists/
 ||zhaofuli.*/data/content
