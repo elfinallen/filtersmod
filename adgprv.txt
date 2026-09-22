@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-09-22 03:04:04 UTC
-! Total Rules: 11661
+! Last Updated: 2026-09-22 16:10:29 UTC
+! Total Rules: 11666
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -5809,6 +5809,7 @@
 ||enetres.net/statisticsv1/
 ||engadget.com/p.gif?
 ||engadget.com/ping
+||engagelab.com/ma-report/
 ||engageplatform.com/api/trace/d/record?
 ||engerio.sk/api/v1/listener/
 ||enginey.altex.ro/events/
@@ -5875,6 +5876,7 @@
 ||europe1.fr/assets/europe1/estat.
 ||europe1.fr/build/e1/tracking.
 ||european-alternatives.eu/api/event
+||eurozpravy.cz/js/matomo-events.js
 ||ev.mmin.io/ping
 ||event-analytics.yesware.com/main.js
 ||event.arte.tv/api/server-side-tracking/
@@ -9597,6 +9599,7 @@
 ||shopclues.com/assets/js/slick.js
 ||shopee.tw/__t__
 ||shopee.tw/v2/shpsec/web/report
+||shoperatech.com/s/collect?
 ||shopflo.com/api/v1/spark
 ||shopify-gtm-suite.getelevar.com/getelevar/*/dl-web-pixel-lax-custom.js
 ||shopify.com/*/assets/instant-pixel.js
@@ -9983,6 +9986,7 @@
 ||static.gazeta.pl/info/http/xgemius-min.jsgz
 ||static.gazeta.ru/nm*/js/block_counter_v*.js
 ||static.gazeta.ru/nm2021/js/block_counter.
+||static.guance.com/browser-sdk/
 ||static.hankyung.com/js/ga/googletagmanager.js
 ||static.hepsiburada.net/scripts/webtrekk*.js
 ||static.iqiyi.com/js/pingback/
@@ -10100,6 +10104,7 @@
 ||stol.it/pcookie?
 ||stolicaonego.ru/ajax/stat/
 ||storage.eko.com/efu/ekoanalytics/
+||storage.googleapis.com/*/js/comscore.js
 ||storage.googleapis.com/afs-prod/tags
 ||storage.googleapis.com/builder-preview/iframe/pixel.js
 ||storage.googleapis.com/cdn2.guard.io/webflow/tracking-grd.js

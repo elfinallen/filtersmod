@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-09-22 03:04:04 UTC
-! Total Rules: 5698
+! Last Updated: 2026-09-22 16:10:29 UTC
+! Total Rules: 5699
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -1483,7 +1483,6 @@
 ||app.diagnoseo.com/tools/common-js/dsn.js
 ||apple886.com/subs/*.js
 ||apppc.chinaz.com/statics/images/tuan
-||appteka.store/api/banners?
 ||apptry.easylife.tw/pub/js/common/common.js
 ||apsgo.com/assets/js/union.
 ||apsgo.com/go/
@@ -2101,6 +2100,7 @@
 ||cjx111.com/ads/
 ||ck180.net/mitao
 ||ckxxbao.com/templets/default/js/wx.js
+||clash.gg/embed-ad/
 ||clb.biz/public/static/js/common-v2.js
 ||cloud.tencent.com/developer/api/common/getads
 ||cloud.tencent.com/developer/api/common/getoneads
@@ -2171,6 +2171,8 @@
 ||colamanga.com/sw.js
 ||colonist.io/dist/images/ab_
 ||comefromchina.com/images/128bestbuy
+||comicbox.xyz/getadsdata
+||comicbox.xyz/static/js/ad-manager.
 ||commondisplay-a.akamaihd.net/cri/*.htm?cat=
 ||components2.*.it/rcs_tealium/
 ||components2.gazzettaobjects.it/rcs_anti-adblocker/
@@ -2180,7 +2182,6 @@
 ||console.images.stockfeelgroup.com/ads/
 ||content.livesportmedia.eu/api/v1/banners?zone-ids=
 ||content.overwolf.com/curseforge/web/nitro/cursenpinit.js
-||content.viralize.tv/display/
 ||coolaler.com/index_ads/
 ||coolpc.com.tw/home/img/right2.html
 ||coolpc.com.tw/img/topweb.html
@@ -2922,6 +2923,7 @@
 ||hao123img.com/static/common/js/cpc_
 ||hao5.net/images/*0-
 ||hao6v.com/d/
+||haobax.com/ad
 ||haochi123.com/j_box/inc_
 ||haofs.com/haofs/ggapi.asp
 ||haogushi88.cc/static/simple/yue
@@ -4353,7 +4355,6 @@
 ||proginn.com/cms/10000/
 ||programmer-club.com.tw/images/uuu/
 ||projectorcentral.com/*?bid=
-||promote.pair.com/88x31.pl
 ||property.hk/js/adside.js
 ||ps0z.com/300x250b
 ||ps123.net/myfile/
