@@ -1,7 +1,7 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-09-21 17:46:19 UTC
+! Last Updated: 2026-09-22 03:04:04 UTC
 ! Total Rules: 11661
 ! Expires: 5 days
 /a.gif?
@@ -1637,6 +1637,7 @@
 /monitor?rtype=
 /monitor_analytic.js
 /monitor_browser/collect/*
+/monitor_web/settings/browser-settings?
 /monitus.js
 /monsido.js
 /mormont.js
@@ -6357,7 +6358,6 @@
 ||ghostery.com/telemetry?
 ||ghostretail.com/api/event/
 ||gianteagle.com/webevents/
-||gias.jd.com/js/pc-tk.js
 ||gias.jd.com/js/td.js
 ||giftornado.com/counter.php
 ||giga-video.de/js/customer/tracking-consumer.min.js

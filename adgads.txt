@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-09-21 17:46:19 UTC
-! Total Rules: 5696
+! Last Updated: 2026-09-22 03:04:04 UTC
+! Total Rules: 5698
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -2003,6 +2003,8 @@
 ||chaomi.cc/js/cms_
 ||chaospace.fun/wp-content/uploads/*/%e6%a3%8b%e7%89%8c-
 ||chaospace.fun/wp-content/uploads/*/tg-
+||chatgpt.com/backend-api/*/message_supplements
+||chatgpt.com/backend-api/bazaar/*/ads
 ||chaturbate.com/affiliates/
 ||chaturbate.com/creative/
 ||chaturbate.com/in/
