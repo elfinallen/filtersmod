@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-09-23 03:03:51 UTC
-! Total Rules: 5700
+! Last Updated: 2026-09-23 15:59:52 UTC
+! Total Rules: 5704
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -1347,6 +1347,8 @@
 ||ali213.net/zt/twtk/images/tzxf.png
 ||ali213.net^*/promotion/
 ||alibaba.com/async/b2bad.
+||alibaba.com/search/api/bottomwendingsearch?
+||alibaba.com/search/api/wendingsearch?
 ||alicdn.com/ad-product/
 ||alicdn.com/app/wxbpromotion/*/js/cpm/cpm_jq.js
 ||alicdn.com/g/mm/afp-cdn/js/
@@ -1950,7 +1952,6 @@
 ||cdn.galacg.me/img/*.gif
 ||cdn.galacg.me/img/*.jpg
 ||cdn.haokongbu1.com^*.js
-||cdn.headlinesplus.com/tcm-widget.js
 ||cdn.hotscope.tv/assets/ai/video-
 ||cdn.jsdelivr.net/gh/*/js/adsenseads.min.js
 ||cdn.jsdelivr.net/gh/*/js/arlinablock.js
@@ -3066,6 +3067,7 @@
 ||huaban.com^*/ads
 ||huaiduoduo.info/runtime/js/
 ||huananxs.top/static/jp/js/ad
+||huangguo.me/static/js/linepromo.
 ||huanjugu.com/dm
 ||huanqiu.com/resource/js/base
 ||huanqiu.com/ssi/show_*_mall.ssi
@@ -4016,6 +4018,7 @@
 ||my0538.com^*/thumb_1000_70_
 ||my0832.com/xyz/xx/
 ||my4700.com/js/*.js
+||myabandonware.com/media/img/innog/
 ||myabandonware.com/media/img/nextrs/hrwrs/
 ||myabandonware.com/media/img/pwn/
 ||myanimelist.net/c/img/
@@ -4076,6 +4079,7 @@
 ||news.cn/2021detail/js/booklist.js
 ||news.cn/imgad/
 ||news.cn^*_tlad.js
+||news.mydramalist.com/js/cocobid.js
 ||news.sina.com.cn/js/792/*head*.js
 ||news.sina.com.tw/js/ti.js
 ||news.ssp.qq.com/ad
@@ -4305,6 +4309,7 @@
 ||pixfs.net/js/mib_falcon
 ||pixfs.net/module/fullpage/dist/ad-full-page-enter-fly.
 ||pixfs.net/module/fullpage/dist/ad-full-page.
+||pixhost.cc/resource-session/
 ||pixlr.com/fad/
 ||pjtime.com/js/show_ad
 ||pkvs.com/public/300/
@@ -4754,7 +4759,6 @@
 ||sleazyneasy.com/contents/images-container/*.gif
 ||slickdeals.net/ad-stats/
 ||slit.cn/slimages/
-||sluts.wtf/static/ad/
 ||sm.ign.com/zdadkit*.js
 ||smqzj.com/seo.js
 ||smzy.com/v1/img/
