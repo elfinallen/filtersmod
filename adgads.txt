@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-09-24 02:55:27 UTC
-! Total Rules: 5704
+! Last Updated: 2026-09-24 16:24:11 UTC
+! Total Rules: 5705
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -2102,7 +2102,6 @@
 ||cjx111.com/ads/
 ||ck180.net/mitao
 ||ckxxbao.com/templets/default/js/wx.js
-||clash.gg/embed-ad/
 ||clb.biz/public/static/js/common-v2.js
 ||cloud.tencent.com/developer/api/common/getads
 ||cloud.tencent.com/developer/api/common/getoneads
@@ -2747,6 +2746,8 @@
 ||gavbus*.com/assets/common/js/admenu.js
 ||gay.bingo/agent.php
 ||gay4porn.com/ai/
+||gaymes.net/wp-content/themes/gameking/js/gaymes.js
+||gaymes.net/wp-content/themes/gameking/js/porngaymes.js
 ||gayporntube.com/spots.php?
 ||gays-cruising.com/nb/
 ||gd-singapore.com/data/1724/aimg/rloadbnus-ibc26.
@@ -4060,6 +4061,7 @@
 ||n.sinaimg.cn/sinakd10117/*/bd54-kentcvx6065228.png
 ||n2.hk/apps/car_feed/tb/*/banner.html
 ||n2.hk/promo/
+||nadmorski24.pl/action/banners
 ||nairaland.com/vertipics/
 ||nanfengyl.com/static/js/zdad.js
 ||nanrenfuli.*/zb_users/upload/
@@ -4478,6 +4480,7 @@
 ||qqddc.com/homesite/news/js/newsad.js
 ||qqfby.com^*ad
 ||qqk19.com/data/content
+||qqqcdn.cloud/images/sprintcdn.png
 ||qqtn.com/js/*0.js
 ||qqtn.com/js/downinfo-
 ||qqtn.com/js/html/down_
@@ -4865,7 +4868,6 @@
 ||static.tohomh123.com/js/funasd.js
 ||static.videezy.com/assets/underpop-*.js
 ||static.wgospodarce.pl/images/top_banners
-||static.xcafe.com/adm/
 ||static.xshuyaya.com/m/d.js
 ||statics.123pan.com/fe/phoenix-share/js/pcwapad.min.js
 ||stats.chinaz.com/tool/
@@ -5575,7 +5577,6 @@
 ||youtube.com/embed/wqlwtenbeeq?
 ||youtube.com/pagead/
 ||youtube.com/youtubei/v1/player/ad_break
-||youtubetoolkit.com/js/adblock-
 ||youxi.baidu.com/tips/bdtips_min.js
 ||youy14.com/js/tj.js
 ||youy14.com/js/zz/nr.js
