@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-09-25 03:11:50 UTC
-! Total Rules: 5705
+! Last Updated: 2026-09-25 16:25:01 UTC
+! Total Rules: 5710
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -1961,6 +1961,7 @@
 ||cdn.jsdelivr.net/gh/itspro-dev/project_files@
 ||cdn.jsdelivr.net/gh/mdnaik/myblog@master/arlinablock.js
 ||cdn.jsdelivr.net/gh/prebid/currency-file@1/latest.json
+||cdn.jsdelivr.net/gh/the-3labs-team/js-anti-adblock@main/dist/antiadblocker.min.ob.js
 ||cdn.onnetwork.tv/js/player*/player_prebidm.js
 ||cdn.ping0.cc/images/ex/*.gif
 ||cdn.questvert.pl/publishers/*/qpscript.js
@@ -2682,6 +2683,7 @@
 ||funnyjunk.com/site/js/extra/pre
 ||funshipin.com/v1/js/footerhongbao.js
 ||futbol24.com/kscms_asyncspc.php
+||futureplc.engineering/v1/get-user-campaigns
 ||fuxtool.netlify.app/js/adsblock.js
 ||fwsir.com/static/cpt/
 ||fwwang.cn/templets/fw/js/art
@@ -4819,6 +4821,8 @@
 ||souka.me/ad/
 ||soulu365.com/images/zhuce.jpg
 ||soundcloud.com/audio-ads?
+||sourceforge.net/about/sitewide_float
+||sourceforge.net/about/sitewidetop
 ||southmoney.com/page/pc/
 ||southmoney.com/page/top
 ||southmoney.com^*/inc/
@@ -5167,6 +5171,7 @@
 ||unpkg.com/videojs-vast-vpaid@
 ||uoowu.com/a/zh*.js
 ||uooyoo.com/hz/*str.js
+||up-4ever.net/js/dlcheck.js
 ||upaiyun.com/system/post_tile/new_web_banners/
 ||upapi.net/pb/ex?w=*&uponit
 ||upload.cc/i1/2020/07/13/8bgjil.gif
