@@ -1,7 +1,7 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-09-24 16:24:11 UTC
+! Last Updated: 2026-09-25 03:11:50 UTC
 ! Total Rules: 5705
 ! Expires: 5 days
 /a-duoduo/add-
@@ -191,7 +191,6 @@
 /frontend-jiucao/ps/pscreat.js
 /fsjghgwyegh_f.js
 /fuliba/js/n1.js
-/funcript*.php?pub=
 /fx168_ad
 /game/aplus/pptv/*
 /gamedog_mobile_
@@ -444,6 +443,7 @@
 /rb/agent2.php?spot=
 /red2/ad/*
 /remix_banner.gif
+/render-sidebar-ad.php?ad_id=
 /renderlapinblock?
 /resource/common/tongzhuo/game_info.json
 /rest/carbon/api/scripts.js?
@@ -4044,7 +4044,6 @@
 ||mylomza.pl/static/files/inline_images/*/inline__
 ||mylust.com/*.jsx
 ||mylust.com/b/
-||mylust.com/static/js/initsite.min.js
 ||myqcloud.com/ad/
 ||myqcloud.com/wp-content/uploads/huoxingyun.
 ||mysteel.com/ads/
@@ -4328,6 +4327,7 @@
 ||poco.cn/v1_1/rank/get_floating_layer_ad
 ||poco.cn^*_info_banner
 ||popcdn.day/magnitude.js
+||popcornmovies.ac/api/ads
 ||popin.cc/ads/
 ||porn87.com/static/stream_ads/
 ||porndoe.com/views/footer/banners.html
@@ -4522,8 +4522,6 @@
 ||receivefreesms.co.uk/adblk/adblk_enc.js
 ||reddit.com/api/request_promo.json
 ||redgifs.com/assets/js/goctrl
-||redscores.com/images/bns/
-||redscores.com/slot/render/
 ||redshu.com/js/pcadv.js
 ||redshu.com/js/www/jquerygg.js
 ||redtube.com/_xa/
@@ -4701,6 +4699,7 @@
 ||shimo.im^*/ads?
 ||shipin188.com/66
 ||shitouxs.com/static/042417.js
+||shoffree.cc/ajax/get-random-ad.php
 ||short-wave.info/html/adsense-
 ||shouji.com.cn/static/v1/js/appinfo.js
 ||shouyoutv.com/assets/api/web/v4/js/global_head.js
@@ -5305,6 +5304,7 @@
 ||whichav.*/qq/qq.js
 ||whnews.cn/wh_public/xuxu/
 ||whsir.com/wp-content/themes/wh-blog/js/modal.js
+||whvx.net/ads.js
 ||widget.engageya.com/engageya_loader.js
 ||widgets.outbrain.com/outbrain.js
 ||wikihow.com/x/zscsucgm?
