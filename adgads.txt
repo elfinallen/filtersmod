@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-09-26 15:39:32 UTC
-! Total Rules: 5709
+! Last Updated: 2026-09-27 03:23:44 UTC
+! Total Rules: 5706
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -443,7 +443,6 @@
 /rb/agent2.php?spot=
 /red2/ad/*
 /remix_banner.gif
-/render-sidebar-ad.php?ad_id=
 /renderlapinblock?
 /resource/common/tongzhuo/game_info.json
 /rest/carbon/api/scripts.js?
@@ -592,7 +591,6 @@
 /wp-content/plugins/ad-inserter/js/ai-functions.min.js
 /wp-content/plugins/eazy-ad-unblocker/*
 /wp-content/plugins/jet-blocker-anti-ad-blocker-detector/*
-/wp-content/plugins/script-manager/assets/js/script-manager.js?
 /wp-content/themes/imovies/js/tc_
 /wp-content/uploads/2026/*/rvpasteref300.png
 /wp-content/uploads/useful_banner_manager_banners/*
@@ -1485,6 +1483,7 @@
 ||app.diagnoseo.com/tools/common-js/dsn.js
 ||apple886.com/subs/*.js
 ||apppc.chinaz.com/statics/images/tuan
+||appteka.store/api/banners?
 ||apptry.easylife.tw/pub/js/common/common.js
 ||apsgo.com/assets/js/union.
 ||apsgo.com/go/
@@ -2177,7 +2176,6 @@
 ||comicbox.xyz/static/js/ad-manager.
 ||commondisplay-a.akamaihd.net/cri/*.htm?cat=
 ||components2.*.it/rcs_tealium/
-||components2.gazzettaobjects.it/rcs_anti-adblocker/
 ||components2.rcsobjects.it/rcs_anti-adblocker-verticali/
 ||configs.forgecdn.net/adfallback.js
 ||connatix.com/rtb/
@@ -3741,7 +3739,6 @@
 ||live173.com//ad/
 ||live173.com/banner/
 ||liveany.com/images/8d8d.gif
-||livescore.com/media/ad_configs/
 ||livku.com/g1000/
 ||liwupuba.com/livead/
 ||ll.ibiqiuge.com/m.js
