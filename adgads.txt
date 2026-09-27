@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-09-27 03:23:44 UTC
-! Total Rules: 5706
+! Last Updated: 2026-09-27 16:18:04 UTC
+! Total Rules: 5705
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -321,10 +321,8 @@
 /js/ggtop.js
 /js/guanggao_gg.js
 /js/home/ad/ad.
-/js/huath_2.js
 /js/index_adfloat.js
 /js/mangoindexbanner.js
-/js/mmdaohang_2.js
 /js/mob/cpc_bottom.js
 /js/pcbook.js?
 /js/pfad*.js
@@ -336,7 +334,6 @@
 /js/wahha/*
 /js/wlfloat.js
 /js/xiaxuanfu.js
-/js/yueyupp_3.js
 /js/yzgg.js
 /jsadv/*
 /jun0120211102193659.
@@ -3383,6 +3380,8 @@
 ||javhub.net/ps/ujxtsc.js
 ||javideo.net/js/popup
 ||javideo.net/js/popup.js
+||javlibrary.com/img/bnr*.gif
+||javlibrary.com/js/b3nr*.js
 ||javmost.com/src/jpm.js
 ||javporn.best/asset/default/player/plugins/vast-*.js
 ||javxxx.me/wp-content/themes/spacex/assets/js/funx.js
