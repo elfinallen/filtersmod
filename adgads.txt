@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-09-28 03:21:33 UTC
-! Total Rules: 5705
+! Last Updated: 2026-09-28 19:10:14 UTC
+! Total Rules: 5701
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -440,6 +440,7 @@
 /rb/agent2.php?spot=
 /red2/ad/*
 /remix_banner.gif
+/render-sidebar-ad.php?ad_id=
 /renderlapinblock?
 /resource/common/tongzhuo/game_info.json
 /rest/carbon/api/scripts.js?
@@ -1868,7 +1869,6 @@
 ||bz*.com/js/cdn.
 ||bz*.com/js/cdn.js
 ||bz*.net/js/cdn.js
-||bz88888.net/js/cdn.js
 ||bzdiao.com/wp-content/uploads/bhocwjfylefc/
 ||bzhanyy.com^*.gif
 ||c-ctrip.com/images/0101r120009e1kn7ocdca.gif
@@ -2206,7 +2206,6 @@
 ||creative.myasian.live/widgets/
 ||cricbuzz.com/api/adverts/
 ||criteo.net/design/
-||crm.spidersweb.pl/public/products
 ||crxs.me/service/assets/core-state.
 ||csdn.net/ggmm/
 ||csdn.net/msg.popup.js
@@ -2746,7 +2745,6 @@
 ||gaymes.net/wp-content/themes/gameking/js/gaymes.js
 ||gaymes.net/wp-content/themes/gameking/js/porngaymes.js
 ||gayporntube.com/spots.php?
-||gays-cruising.com/nb/
 ||gd-singapore.com/data/1724/aimg/rloadbnus-ibc26.
 ||gd.ct10000.com/js/ecssstat.js
 ||gd.sina.com.cn/iframe/22/
@@ -4892,7 +4890,6 @@
 ||subhd.*/kaiyad.
 ||subhd.com/images/ap/
 ||subserieshd.com/banner/
-||subtitlecat.com/assets/images/gomakego_ad_*.webp
 ||sucloud.xyz/js/tou.js
 ||sudugu.com/config/v7.js
 ||sudupan.com^*.gif
@@ -5266,7 +5263,6 @@
 ||wanwan.sina.com.cn/third_party/
 ||wasabii.com.tw/float/*.js
 ||watchporn.to/banners/
-||wccftech.com/0ldbu6cv0mz.js
 ||wcostream.net/premiumad
 ||wdff.buzz/hengf.
 ||we560.com/js/*.js

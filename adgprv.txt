@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-09-28 03:21:33 UTC
-! Total Rules: 11676
+! Last Updated: 2026-09-28 19:10:14 UTC
+! Total Rules: 11678
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -4235,6 +4235,7 @@
 ||baqend.com/v1/rum/
 ||bar-navig.yandex.ru/u
 ||barks.jp/v1/stats
+||barmer.de/proxy/tealium/event-stream/
 ||barrons.com/cookies/pixel.gif
 ||barry-callebaut.com/pd.js
 ||basaru.net.ru/js/coin32.js
@@ -4295,6 +4296,7 @@
 ||bestbuy.com/~assets/bby/_js/ext/bbydyn/dyn_digital_gvp.js
 ||bestpersons.ru/service/visit
 ||bestpornsites.tv/i/js/extra/metrics.js
+||bet365.com.au/analyticsapi/
 ||betteranime.net/js/ga-lite.min.js
 ||bhaskar.com/comscore-ajax/
 ||bhol.co.il/system/js/analytics.js
@@ -4399,6 +4401,7 @@
 ||bobparsons.com/image.aspx?
 ||boei.help/pageview/
 ||boersennews.de/js/lib/bnpagetracker.js
+||boingo.jp/analytics.php
 ||boingtv.fr/track_view
 ||bokecc.com/flash/playlog?
 ||bokecc.com/flash/timerecorder?
@@ -8149,6 +8152,8 @@
 ||netflix.com/track/
 ||netflix.com/uitracking/
 ||netflix.com^*/homepageping?
+||netkeiba.com/*/ndtracker/
+||netkeiba.com/img.dir//ndtracker/
 ||netne.net/stats/
 ||netquattro.com/stats/
 ||netscape.com/c.cgi?
@@ -9326,7 +9331,6 @@
 ||s1.hdslb.com/bfs/seed/jinkela/short/reporter-pb/index.js
 ||s1.trrsf.com/*/zaz-mod-stalker/
 ||s3-sa-east-1.amazonaws.com/analytics-gjc/analytics-gjc-min.js
-||s3.amazonaws.com/icontracker/
 ||s3.amazonaws.com/maropost/
 ||s3.amazonaws.com/www.audiencenetwork.ai/
 ||s3.ap-northeast-2.amazonaws.com/adpick.co.kr/apis/aptracker.v*.js
@@ -9599,7 +9603,6 @@
 ||shop.app/pay/hop?analytics_trace_id=
 ||shop.pe/pixel.png?
 ||shop.post.japanpost.jp/js/analytics_cookie.js
-||shop.rewe.de/api/xrd/performance
 ||shop.rewe.de/api/xrd/web-vitals
 ||shopch.jp/com/js/analytics.js
 ||shopclues.com/assets/js/sc_tracker.js
@@ -9751,7 +9754,6 @@
 ||snowplow-collector.
 ||snrbox.com/tck/
 ||snva.jp/api/bcon/basic?
-||snva.jp/javascripts/reco/
 ||snva.jp^*/beacon.js
 ||so-zou.jp/js/ga.js
 ||sobaka.ru/assets/*/countersapi.js
@@ -10464,6 +10466,7 @@
 ||thermaltake.com/bannerslider/index/impress/
 ||theroot.com/wp-content/plugins/advanced-ads-tracking/
 ||thesportsrush.com/_axiom/web-vitals
+||thespun.com/.api/admiral
 ||thesun.co.uk/assets/client/analyticslisteners~
 ||thesun.co.uk/assets/client/newrelicexperimenttracking~
 ||thesun.ie/track?
@@ -11134,7 +11137,6 @@
 ||waaw.to/cdn-cgi/trace
 ||waaw1.tv/cdn-cgi/trace
 ||waitrose.com/gdavc7/
-||walgreens.digital.nuance.com/tagserver/incrementality/onevent
 ||walla.co.il/countshp.asp?
 ||walla.co.il/impression/
 ||walla.co.il/stats/
