@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-09-27 16:18:04 UTC
-! Total Rules: 11674
+! Last Updated: 2026-09-28 03:21:33 UTC
+! Total Rules: 11676
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -8258,6 +8258,7 @@
 ||nos.netease.com/udc-web/*.log.js
 ||nosto.com/analytics/
 ||note.com/api/v*/trackings/
+||note.com/api/v3/trackings/
 ||notebookinfo.de/javascript/*/collector.js
 ||notepet.co.kr/etc/logs/sitelog
 ||notepet.co.kr/js/sitelog.js
@@ -9422,6 +9423,7 @@
 ||script.idgentertainment.de/gt.js
 ||script.mixi.net/static/js/build/mixi-analysis-.production.js
 ||script.wikia.nocookie.net/fandom-ae-assets/odyssey/prebid/production/main.js
+||scripts.adeqmedia.com/master.js
 ||scripts.finanzen.net/content/scripts/user/google-tag-manager-head.js
 ||scripts.hepsiburada.net/assets/analytics/analytics.*.js
 ||scripts.rubiconredirect.com/scripts/vk_lightinthebox.js
