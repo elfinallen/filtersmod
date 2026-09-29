@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-09-29 03:57:57 UTC
-! Total Rules: 11678
+! Last Updated: 2026-09-29 17:32:00 UTC
+! Total Rules: 11682
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -4154,6 +4154,7 @@
 ||avivid.likr.tw/api/ring_only_tracking.min.js
 ||avln.me/t.js
 ||avo.app^*/track
+||avscan.cc/analytics/
 ||avtoradio.ru/design/images/site-design/top100.gif
 ||avvenire.it/content/js/track.es5.min.js?
 ||awe.sm/conversions/
@@ -6273,6 +6274,7 @@
 ||galaxus.ch/api/public/sbm/v1/fp
 ||game-i.daa.jp/skin/analytics.php
 ||gamebounty.world/api/logvisit
+||gamedaily.com/.api/admiral
 ||gamedistribution.com/collect?
 ||gamedistribution.com/event?
 ||gamedock.io/gamemonkey-web-tracker/
@@ -7070,6 +7072,7 @@
 ||iplsc.com/inpl.log/
 ||ipokabu.net/js/analytics.js
 ||iportal.ru/static/mediadash/tracker.iife.min.js
+||ippen.space/api/metrics
 ||ippen.space/idat
 ||iptv-web.app/__/tracking.astro_astro_type_script_index_
 ||iptvgratuit.net/wp-content/*/analytics.js
@@ -7713,6 +7716,7 @@
 ||mapcarta.com/logs
 ||mapi.daisomall.co.kr/pd/pdl/pddtl/blux/rcm/prs
 ||mapixl.com/scripts/pixlv*.min.js
+||mapple.fun/api/ui/sync/track
 ||mapquest.com/logger
 ||maps.googleapis.com/*/stats.js
 ||maptrackpro.com/track/

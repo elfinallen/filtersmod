@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-09-29 03:57:57 UTC
-! Total Rules: 5701
+! Last Updated: 2026-09-29 17:32:00 UTC
+! Total Rules: 5703
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -589,6 +589,7 @@
 /wp-content/plugins/ad-inserter/js/ai-functions.min.js
 /wp-content/plugins/eazy-ad-unblocker/*
 /wp-content/plugins/jet-blocker-anti-ad-blocker-detector/*
+/wp-content/plugins/script-manager/assets/js/script-manager.js?
 /wp-content/themes/imovies/js/tc_
 /wp-content/uploads/2026/*/rvpasteref300.png
 /wp-content/uploads/useful_banner_manager_banners/*
@@ -2263,6 +2264,7 @@
 ||daweijita.com/201*430.
 ||daweijita.com/201*ad.
 ||daweijita.com/2014/08/ad_head
+||day.az/ads/
 ||dayfund.*/images/uds/
 ||daynews.co/cdn-cgi/apps/
 ||daysou.com/images/huaweicloud.png
@@ -2323,7 +2325,6 @@
 ||dioimg.net/images/*.gif
 ||direct-specific.com
 ||dirtyvideo.fun/js/script_
-||discomax.com/adtech/
 ||discuss.com.hk/dfp_forum.php?au=discuss_web_
 ||discuss.com.hk/oath/
 ||discuss.com.hk^*_prod.html
@@ -5263,6 +5264,7 @@
 ||wanwan.sina.com.cn/third_party/
 ||wasabii.com.tw/float/*.js
 ||watchporn.to/banners/
+||wccftech.com/0ldbu6cv0mz.js
 ||wcostream.net/premiumad
 ||wdff.buzz/hengf.
 ||we560.com/js/*.js
