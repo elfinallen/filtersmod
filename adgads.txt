@@ -1,7 +1,7 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-09-30 03:45:16 UTC
+! Last Updated: 2026-09-30 17:31:09 UTC
 ! Total Rules: 5703
 ! Expires: 5 days
 /a-duoduo/add-
@@ -280,7 +280,6 @@
 /jfjs/ad.js
 /jianpian.obs.cn-
 /jianshen8/images/plan_banner_
-/jquery.adi.js
 /jquery.adx.js?
 /jquery.dfp.min.js?
 /jquery.meerkat.
@@ -2500,6 +2499,7 @@
 ||ebioweb.com/jslibrary/js
 ||ebioweb.com/newsf/js/inpic.js
 ||ebioweb.com/newsf/js/news_top_banner.js
+||eboblack.com/ad
 ||ebrun.com/jfile/position/js/*.js
 ||eccn.com/js/gg.js
 ||eccn.com/js/popupad_
