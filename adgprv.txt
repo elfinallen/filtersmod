@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-10-01 03:52:10 UTC
-! Total Rules: 11687
+! Last Updated: 2026-10-01 17:56:09 UTC
+! Total Rules: 11693
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -3726,6 +3726,7 @@
 ||api.gamsgo2.com/data_explorer/metric
 ||api.giga.de/*tracking
 ||api.gist.ai/v1/analytics/track
+||api.github.com/_private/browser/rum?
 ||api.gleap.io/sessions/ping
 ||api.globalbunjang.com/api/log/
 ||api.goodbarber.net/statsapi/
@@ -3844,6 +3845,7 @@
 ||api.u-komi.com/track|
 ||api.userstyles.org/tic/stats
 ||api.usestoryteller.com/api/app/activity/recordactivity?
+||api.useunloq.com/event_management/
 ||api.viavarejo.com.br/fp/
 ||api.vicomi.com/api/*/analytics/
 ||api.videowise.com/tracking/
@@ -4126,6 +4128,7 @@
 ||auto-motor-und-sport.de/js/sophus3/logging.js
 ||auto.ru/cookiesync/
 ||autoblog.com/.api/admiral
+||autodoc.dk/securegtm/
 ||autoguide.com/api/posts/*/impressions
 ||autohome.com.cn/impress?
 ||autoline-top.com/counter.php?
@@ -5299,7 +5302,6 @@
 ||cxgpt1.goindigo.in/forward/v2/track
 ||cxo.name/collect?
 ||cybernews.com/clientfpid/
-||cybernews.com/fxq4/
 ||cyberpedia.su/count.php
 ||cycling74.com/web/matomo/
 ||czesciauto24.pl/securegtm/
@@ -8143,6 +8145,7 @@
 ||neon-lab.com/neonbctracker.js
 ||nestle.com/staticlocal/analytics.js
 ||net-parade.it/tracker/
+||net.hr/static/required/js/se_ads.js
 ||netbiscuits.net^*/analytics/
 ||netclick.io/pixel/
 ||netdeal.com.br/open/event/
@@ -8608,6 +8611,7 @@
 ||pdffiller.com/funnel.php?
 ||pdffiller.com/mpages/track/
 ||pdfforge.org/api/kd-gdpr-cc
+||pdp.gokwik.co/cart-get-tokens.html
 ||peach-static.ebu.io/pipe-*.min.js
 ||peachjohn.co.jp/staffcontent/assets/js/staffstart-analytics.js
 ||peacocktv.com/*/tracking/
@@ -10969,6 +10973,7 @@
 ||vdo.ai/core/scantrad-net/
 ||vecer.com/js/remp.js
 ||vechtsportonline.nl/static/*/tracking.js
+||vecteezy.com/dmpu/
 ||vector.co/pixel.js
 ||vedomosti.ru/boom?
 ||vee24.com/c/pagebehaviour?
@@ -11365,6 +11370,7 @@
 ||work.ua/api/v1/view-page/
 ||workers.dev/api/event
 ||workers.dev/js/script.js
+||workers.dev/ripa/event|
 ||worldhistory.org/analytics/pageview.js
 ||worldmarket.com/px/xmpxrqpa/init.js
 ||worldremit.com/web-cms/api/metric
