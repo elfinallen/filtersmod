@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-09-30 17:31:09 UTC
-! Total Rules: 11683
+! Last Updated: 2026-10-01 03:52:10 UTC
+! Total Rules: 11687
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -103,6 +103,7 @@
 /akamai/*/mediaanalytics/mediaanalytics.min.js
 /alog.min.js
 /alog.mobile.min.js
+/alog/dp.min.js
 /amazon_linker.min.js
 /amp-access/cta/*
 /amp-access/cta?
@@ -4776,6 +4777,7 @@
 ||cdn.webeyo.com/ipinfo|
 ||cdn.wootric.com/wootric-sdk.js
 ||cdn.work.hotp.jp/assets/lib/js/logteam-
+||cdn.zeroclick.io/scripts/badge.js
 ||cdn.zg-api.com/a/z/js/v1/analytics.js
 ||cdn1.edgedatg.com/aws/abc/scripts/adobe-analytics2.js
 ||cdn1.edgedatg.com/aws/apps/datg/web-js-telemetry-service/*/production/js/datgts.js
@@ -5352,6 +5354,7 @@
 ||dailymail.co.uk/geo/edgedata.html
 ||dailymail.co.uk/rta2/
 ||dailymail.co.uk/tracking/
+||dailymail.com/zephr/features
 ||dailymotion.com/gravity/report
 ||dailymotion.com/logger/
 ||dailymotion.com/logger/*?session_id=
@@ -8289,6 +8292,7 @@
 ||ns-cdn.com^*/ns_vmtag.js
 ||nsandi.com/sites/all/themes/nsandi/js/webtrends_multitrack.js
 ||nslookup.io/pl.js
+||nstool.netease.com/info.js
 ||ntmb.de/count.html?
 ||ntunhs.net/js/tracker.js
 ||ntvid.online/cdn-cgi/trace

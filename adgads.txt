@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-09-30 17:31:09 UTC
-! Total Rules: 5703
+! Last Updated: 2026-10-01 03:52:10 UTC
+! Total Rules: 5691
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -172,7 +172,6 @@
 /dygg_
 /dynamic-pop-comb.min.js
 /dzwww/ad_dzw_inner.js
-/e/ecmsshop/zhuanpan/js/*
 /eis/diy/ad/*
 /emwappopads/*
 /ettoday/gemini/*
@@ -232,8 +231,6 @@
 /gwunggou/*
 /haijiao3/*/popup.
 /hao123_api/api/cpc/*
-/haojio/images/kf-zl.jpg
-/haojio/js/scoll_bg.js
 /heituad/*
 /heji/mei00*.js
 /hjstore/system/banner/*.txt
@@ -1113,7 +1110,6 @@
 ||7kankan.com/scripts/new/indext
 ||7mmtv.tv/js/ad_js/
 ||7mmtv.tv/u_banner/
-||7reels.cc/promo/
 ||7scs.com/public/img/list-
 ||7wzx9.com/tbad.
 ||7x7n.com/static/image/888.jpg
@@ -1352,15 +1348,12 @@
 ||alicdn.com/img/ibank/*_!!2210231227621-0-cib.
 ||alicdn.com/img/ibank/*_!!2212029770429-
 ||alicdn.com/img/ibank/*_!!3820217494-0-cib.
-||alicdn.com/img/ibank/*_!!4231779133-0-cib.
 ||alicdn.com/img/ibank/*_1082732848.
 ||alicdn.com/img/ibank/*_1085845541.
-||alicdn.com/img/ibank/*_1095372465.
 ||alicdn.com/img/ibank/*_1165462224.
 ||alicdn.com/img/ibank/*_1281922417.
 ||alicdn.com/img/ibank/*_1409595492.
 ||alicdn.com/img/ibank/*_1533190909.
-||alicdn.com/img/ibank/*_1545027917.
 ||alicdn.com/img/ibank/*_1591187313.
 ||alicdn.com/img/ibank/*_1776866723.
 ||alicdn.com/img/ibank/*_1794478205.
@@ -1371,7 +1364,6 @@
 ||alicdn.com/img/ibank/*_2021817714.
 ||alicdn.com/img/ibank/*_2114606112.
 ||alicdn.com/img/ibank/*_255861743.
-||alicdn.com/img/ibank/*_256401016.
 ||alicdn.com/img/ibank/*_330044705.
 ||alicdn.com/img/ibank/*_368737028.
 ||alicdn.com/img/ibank/*_392352300.
@@ -1465,7 +1457,6 @@
 ||api.coinmarketcap.com/content/*/ad-banner/
 ||api.leakgallery.com/affiliate/
 ||api.leakgallery.com/r/
-||api.limewire.com/sharing/featured?site=*&slot=
 ||api.live.bilibili.com/*/banner
 ||api.redgifs.com/v*/adv/
 ||api.redgifs.com/v*/feeds/modules
@@ -1478,7 +1469,6 @@
 ||apis.pchome.com.tw/js/idlead.js
 ||apk-01.oss-cn-beijing.aliyuncs.com/dp/
 ||apk.tw/static/js/showpic.js
-||app.diagnoseo.com/tools/common-js/dsn.js
 ||apple886.com/subs/*.js
 ||apppc.chinaz.com/statics/images/tuan
 ||appteka.store/api/banners?
@@ -3569,7 +3559,6 @@
 ||kantv6.com/index.php/popularize/
 ||kaotic.com/templates/*/static/player/video.js/videojs-vast-
 ||kaoyan1v1.com/iaa/
-||katitube.com/includes/instantmessage/iframvideoai.php
 ||kayege.org/js/
 ||kb-render.alicdn.com/html/*.html
 ||kccdk.com/content/img/*.gif
@@ -4544,6 +4533,7 @@
 ||rfidworld.com.cn/js/rfidexec.js
 ||rfidworld.com.cn/notice/home
 ||riaway.com/statics/idea.jpg
+||ricedigital.co.uk/wp-content/uploads/2025/08/rice_takeover_1600x1100-1.png
 ||rigengjihua.cn/banner/
 ||right.com.cn/forum/data/attachment/common/template/boardimg_20260602yahb3wsd.
 ||right.com.cn/forum/static/image/common/logo
@@ -5082,7 +5072,6 @@
 ||tranny.one/trannystatic/ads/
 ||trannygem.com/ai
 ||trans.firm.in/*.js
-||trend48.st/adcash-auto.js
 ||trendmicro.com.tw/wp-content/uploads/*banner
 ||trip.com/partners/ad/
 ||troypoint.com/tp-vpn-api?path=
@@ -5264,7 +5253,6 @@
 ||wanwan.sina.com.cn/third_party/
 ||wasabii.com.tw/float/*.js
 ||watchporn.to/banners/
-||wccftech.com/0ldbu6cv0mz.js
 ||wcostream.net/premiumad
 ||wdff.buzz/hengf.
 ||we560.com/js/*.js
