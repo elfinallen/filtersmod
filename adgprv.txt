@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-10-02 03:49:48 UTC
-! Total Rules: 11693
+! Last Updated: 2026-10-02 17:21:16 UTC
+! Total Rules: 11698
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -5066,6 +5066,8 @@
 ||cnt.yeptube.
 ||cnzz.com/c.php?
 ||cnzz.com/stat.
+||coachweb.com/vite/assets/jwplayer/shared/analytics.*.js
+||coachweb.com/vite/assets/jwplayer/shared/trackingevents.*.js
 ||coca-cola.com.br/synerise/tracker.js
 ||coccoc.com/log
 ||coccoc.com/log?
@@ -6926,6 +6928,8 @@
 ||immoweb.be/*/track/
 ||immowelt.de/serp-bff/analytics/
 ||imobie.com/js/analytics.js
+||imore.com/vite/assets/analytichandlers-*.js
+||imore.com/vite/assets/newsletter/newsletteranalytics.*.js
 ||impdesk.com/smartpix/
 ||impel.io/releases/analytics/
 ||impressionmedia.cz/statistics/
@@ -7659,6 +7663,7 @@
 ||ma-petite-recette.fr/visites
 ||ma-sdk-api-sg.engagelab.com/ma-report/sdk/h5/app/v3/event
 ||macg.co/modules/statistics/statistics.php
+||machineryline.ua/*/save-event/
 ||macpaw.audw.net/i/
 ||macromill.com/imp/
 ||macys.com/eventswar/

@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-10-02 03:49:48 UTC
-! Total Rules: 5694
+! Last Updated: 2026-10-02 17:21:16 UTC
+! Total Rules: 5697
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -1883,6 +1883,7 @@
 ||caitlin.top/catalog/view/core/comic/fc.js
 ||caitlin.top/catalog/view/core/comic/fc0.js
 ||caixin.com/s?z=
+||callistanise.com/assets/jquery/ev-static.js
 ||camspacelive.com/widgets/
 ||camspic.com/imguang/*.gif
 ||canimgs.com/images/
@@ -5243,6 +5244,8 @@
 ||wai69.com/js/baidu/
 ||waipian*.com/statics/recommend/
 ||wake-up-neo.com/bnet/
+||wallpapers.com/api/ads/
+||wallpapers.com/static/*/wpc_ads.
 ||wan.liebao.cn/zt/
 ||wandhi.com/img/
 ||wandouys.com/runtime/js/
