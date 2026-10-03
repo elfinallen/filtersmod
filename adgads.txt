@@ -1,7 +1,7 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-10-02 17:21:16 UTC
+! Last Updated: 2026-10-03 03:34:31 UTC
 ! Total Rules: 5697
 ! Expires: 5 days
 /a-duoduo/add-
@@ -2382,7 +2382,6 @@
 ||downk.cc/item/*.gif
 ||downlinker.*/ad_dl.js
 ||downlinker.*/ads.js
-||download.megaup.net/download
 ||downvod.com/arlinablock.js
 ||downxia.com/dgjs/download.js
 ||downyi.com/tg/
@@ -4865,6 +4864,7 @@
 ||stats.chinaz.com/tool_img/
 ||stay22.com/api/sponsors/
 ||steelcn.cn/img/bj_*_146_315.jpg
+||sterra.web.id/stera1/
 ||stg.truvidplayer.com/p.php
 ||stheadline.com/images/heading-jm
 ||stockstar.com/*duilian&t=
