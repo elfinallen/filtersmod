@@ -1,7 +1,7 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-10-04 04:03:49 UTC
+! Last Updated: 2026-10-04 16:21:55 UTC
 ! Total Rules: 5696
 ! Expires: 5 days
 /a-duoduo/add-
@@ -902,10 +902,8 @@
 ||3dmgame.com/page/img/shangcheng
 ||3dmgame.com/page/js/push_browser.js
 ||3dmgame.com/sw/zjworld/js/index.
-||3dmgame.com/templets/common/show_js/show_js.js
 ||3dmgame.com/templets/index/gimg/
 ||3dmgame.com/templets/index/js/huandeng.js
-||3dmgame.com/templets/xiazai/g
 ||3dmgame.com/tools/gamead?
 ||3g.cn/baidualading/
 ||3g.cn/index.php?s=index/adv&
@@ -1786,6 +1784,7 @@
 ||bnextmedia.s3.hicloud.net.tw/dp_cp/mt_programmatic_ad.js
 ||boce.com/statics/img/img27b.png
 ||bolecdn.com/button/txt.js
+||boluomao1.com/public/
 ||bonbonme.com/js/g1313166/
 ||bookben.com/js/m/wap.js
 ||bookrb.com/images/jtt
@@ -4555,6 +4554,7 @@
 ||romgoc.net/*/adblock_fuck.js
 ||rou.video/_next/static/chunks/pages/fuli-
 ||rou.video/js/exo.js
+||rqr.cc/mm.
 ||rryy99.com/statics/js/stat.js
 ||rs.aoxx69.net/image/banner/
 ||ruanyifeng.com/9he/
