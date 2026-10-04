@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-10-03 15:37:55 UTC
-! Total Rules: 5697
+! Last Updated: 2026-10-04 04:03:49 UTC
+! Total Rules: 5696
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -1441,7 +1441,6 @@
 ||anyporn.com/aa/
 ||anyporn.com/if2/
 ||anysex.com/js/initsite.js
-||anysex.com/static/js/script_new.js
 ||anyshare.icu^*.js
 ||anywlan.com/link/*.gif
 ||aolusb.com/forever/
@@ -2265,7 +2264,6 @@
 ||ddshu.net/a_d_code/
 ||dealmoon.com/hotdeals/hotdeals_scroller.php
 ||dealmoon.com/upload/dealmoon_app.jpg
-||debica24.pl/static/files/inline_images/*/inline__
 ||debugease.com/static/js/show.js
 ||delivery-pc.wasu.cn/d/js/
 ||delivery.vtcnews.vn/dist/adsbyvtc_ver1.js
@@ -2699,6 +2697,7 @@
 ||game8.vn/partial/advmobilecontent?idadv=
 ||game8.vn/partial/all_*advpartial
 ||game8.vn/partial/all_advwidth*partial
+||gamecopyworld.com/*.php?
 ||gamecopyworld.com/ddd/
 ||gamefy.cn/cookiead.php
 ||gamemale.com/static/js/valida.js
@@ -2822,6 +2821,7 @@
 ||greatandhra.com/wp-content/plugins/sortd-homepage-promo/
 ||greenxf.com/js/2019/
 ||greenxiazai.com/d/js/v/
+||groupon.com/javascripts/common/affiliate_widget/
 ||grow.gab.com/galahad/
 ||grtimed.com/material/*_960x110_
 ||gsdpw.com/file/script/a
@@ -4234,7 +4234,6 @@
 ||pdfbook.cn/wp-content/uploads/2017/11/049.jpg
 ||peachurnet.com/templates/banner-*x*-*.png
 ||peachurnet.com/templates/stake.com-banner-size-*-min.jpg
-||peekvids.com/ads/
 ||peise.net/skin/js/global.
 ||peliculas8k.com/tv/encriptador/adblocknuevo.js
 ||pengtu.cc^*.png
@@ -4306,7 +4305,6 @@
 ||player.videasy.*/scripts/ab.js
 ||playgama.com/ads/
 ||playzip.com/static/js/abcd.js
-||plibcdn.com/templates/base_master/js/jquery.ppdr2.min.js
 ||plibcdn.com/templates/base_master/js/jquery.shows2.min.js
 ||pmb*.tj.ali213.net/js/
 ||pniao99.com/statics/js/stat.js
@@ -5093,6 +5091,7 @@
 ||ttks.tw/js/otherad.
 ||tube.hentaistream.com/wp-includes/js/pop4.js
 ||tube8.*/_xa/ads
+||tubeon.*/templates/base_master/js/jquery.shows2.min.js
 ||tui.gtimg.com//res/
 ||tui555.com/public/gong/js/a_
 ||tui56.com/guanggao*.html
