@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-10-05 03:48:21 UTC
-! Total Rules: 11700
+! Last Updated: 2026-10-06 04:36:27 UTC
+! Total Rules: 11703
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -3592,7 +3592,6 @@
 ||analytics.*.*/*.php
 ||analytics.*.ru/*/hits/event/?
 ||analytics.ahrefs.
-||analytics.google.com/g/collect?
 ||analytics.popupsmart.com/api/site/tracking-config
 ||analytics.streamfab.
 ||analytics.supplyframe.com/trackingservlet/impression?
@@ -3686,6 +3685,7 @@
 ||api.builtin.com/track/client-events
 ||api.bunjang.co.kr/api/log/
 ||api.bus-location.1507t.xyz/3.0/ping
+||api.cdnlivetv.tv/p2p-stats
 ||api.cgyx.tv:66/tj/tongji.js
 ||api.channel.io/*/events
 ||api.cian.ru/browser-telemetry/v*/send-stats/
@@ -5494,7 +5494,6 @@
 ||dest.modestsunf.com/tag/corejs/*.js
 ||destyy.com/bundles/*/tracking
 ||deszczowce.pl/licznik/licznik.php
-||dev.ozon.ru/p-api/tracker/
 ||dev.to/fallback_activity_recorder
 ||dev.visualwebsiteoptimizer.com/*/track-
 ||dev.visualwebsiteoptimizer.com/apm
@@ -6957,6 +6956,7 @@
 ||independent.co.uk/_build/prebid_
 ||independent.co.uk/agent/ga/
 ||independent.co.uk/iframe/native-cookiesync-frames.html
+||independentaustralia.net/_js/realtrack.js
 ||index.hr/api/stats/
 ||indianexpress.com/wp-content/themes/indianexpress/js/ie-events-all.js
 ||indianpornvideotube.com/incnt
@@ -7458,6 +7458,7 @@
 ||lexology.com/pd.js
 ||lexus.jp/common/*/js/analytics.js
 ||lf1-cdn-tos.bytegoofy.com/goofy/ttzz/push.js
+||lf3-data.volccdn.com/obj/data-static/log-sdk/
 ||lftce.clearstem.com/load
 ||lg-chatbot.com/chatbot/v*/api/client_logger
 ||lge.co.kr/lg5-common/js/common/googleheader.js
@@ -7942,6 +7943,8 @@
 ||mixnews.lv/wp-content/uploads/perfmatters/gtagv*.js
 ||mixpanel.com/track
 ||mixpanel.com/track?
+||mizuhobank.co.jp/bk-common/pc/js/rt_track_event.js
+||mizuhobank.co.jp/common/js/rt_track.js
 ||mk-log.makeshop.co.kr/analytics/events
 ||mk-log.makeshop.co.kr/static/js/analytics.min.js
 ||mkcms.com/stats.js
@@ -8189,6 +8192,7 @@
 ||newegg.com/amber3/tracking
 ||newegg.com/gfplib.js
 ||newelements.de/tracker/
+||news-postseven.com/wp-content/common/visitdata.js
 ||news.chosun.com/dhtm/*/collecter.js
 ||news.chosun.com/svc/fb_count.html
 ||news.cn/webdig.js
@@ -8925,7 +8929,6 @@
 ||pussy.org^*.cgi?pid=
 ||pussy.org^*/track.php
 ||pusti.svc.litv.tv/puid
-||pv.ltn.com.tw/impression?
 ||pv.ltn.com.tw/ri_server?a=
 ||pwe.epochbase.com/api/config/tracking?
 ||pwe.epochbase.com/libs/mixpanel-
