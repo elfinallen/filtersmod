@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-10-06 04:36:27 UTC
-! Total Rules: 11703
+! Last Updated: 2026-10-06 17:50:28 UTC
+! Total Rules: 11704
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -3225,6 +3225,7 @@
 ||a.fsdn.com/con/js/sftheme/vendor/bizx-prebid.js
 ||a.klaviyo.com/forms/api/v3/geo-ip
 ||a.klaviyo.com/onsite/track-analytics
+||a.nel.cloudflare.com/report/
 ||a.nytimes.com/svc/nyt/data-layer?sourceapp
 ||a.pixiv.org/yufulight-cdn/track.js
 ||a.poki-cdn.com/t2.js
@@ -4551,7 +4552,6 @@
 ||cadena100.es/exjs/comscore-js-*.min.js
 ||caesarsgames.com/dynamic/resources/common/js/functions/iframetracker.js
 ||caesarsgames.com/dynamic/resources/common/js/functions/tracking.js
-||caf.fr/*/stormcaster.js
 ||caf.fr/sites/default/files/smarttag/
 ||cafe24.com/cfa.js
 ||cafe24.com/weblog.js
@@ -5476,6 +5476,7 @@
 ||deliveryrank.com/drapp070eb2deb1932e2101e6.js
 ||dell.com/*/clickstream/collect
 ||delphi.lv/t/t.js
+||delt.io/a/
 ||delta.com/datacollect
 ||delvenetworks.com/player/plugins/analytics/
 ||demandmedia.com/wm.js
