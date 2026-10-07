@@ -1,7 +1,7 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-10-06 17:50:28 UTC
+! Last Updated: 2026-10-07 04:02:21 UTC
 ! Total Rules: 5694
 ! Expires: 5 days
 /a-duoduo/add-
@@ -2972,7 +2972,6 @@
 ||hentaicomic.*/data/game/*/wap.gif
 ||hentaifox.com/js/slider.js
 ||hentaihaven.*/api/ads/?placement=
-||hentaiocean.com/assets/upload/banner*.png
 ||hentaivideos.net/imp/
 ||hexun.*/hxpage/index.html
 ||hexun.com*/hx_news/hx_news_finalpage.js
@@ -5196,6 +5195,7 @@
 ||videosection.com/adv-agent.php
 ||videowood.me/assets/js/popup.js
 ||videowood.tv/popjavascript
+||vidlink.pro/api/mercury
 ||vidy.st/scripts/xyz.js
 ||vip.luanren.com/data/*.gif
 ||vip.video.qq.com/rpc/trpc.vip_ad_promotion
