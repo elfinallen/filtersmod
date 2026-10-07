@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-10-07 04:02:21 UTC
-! Total Rules: 5694
+! Last Updated: 2026-10-07 18:21:36 UTC
+! Total Rules: 5676
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -824,10 +824,10 @@
 ||26img.com/nnn2/accd.js
 ||2898.com/index/flowexchange/getgoods?
 ||28hse.com/adsman/www/images/
+||28ksw.com^*/0
+||28ksw.com^*/1
 ||28kys.com/92kviptupian/
 ||28kys.com/cpstupian/
-||28lu.net^*/0
-||28lu.net^*/1
 ||29spp.com/js/tj.js
 ||2btu.com/gg.jpg
 ||2ccc.com/images/aobi.gif
@@ -1178,8 +1178,6 @@
 ||94994.com*/js/plugin/shoppingmall/
 ||949949.com/2013/end/hot_news.js
 ||94az.com/astyle/wap.
-||94itv.app/casino/
-||94itv.net/f/
 ||9527yy.com/images/02/9527.jpg
 ||9527yy.com/js/data2.js
 ||9553.com/otherhtml/
@@ -1245,9 +1243,6 @@
 ||acfun.cn/appspreadcontents/danmuad/
 ||acg.youku.com/webfile/*.jpg
 ||acggd.com/4d22b/
-||acglover.*/wp-content/uploads/*-520-245.
-||acglover.*/wp-content/uploads/*-720
-||acgnx.se/images/adwork/
 ||acgnz.cn/static/b.js
 ||acgnz.cn/static/i.js
 ||achost.top/uploads/ads/
@@ -1670,9 +1665,6 @@
 ||bcebos.com/725c659194eeebb8c6b970e52e2dc8aa.
 ||bcebos.com/ad/
 ||bcebos.com/contentadsecend_
-||bcquan.me/front/*_ad
-||bcquan.me/front/*_game
-||bcquan.me/front/home/render
 ||bdcde.com/js/s*.js
 ||bdcde.com/js/x*.js
 ||bdimg.com/brands/yxtg/source/juhe-v2.js
@@ -1832,7 +1824,6 @@
 ||btdx8.com/tmp/
 ||btkat.com/style/l.js
 ||btmao.cc/public/yd/
-||btmovi.in/static/js/xf.js
 ||btmulu.com/assets/*/ad02.gif
 ||btpian.com/static/*960.js
 ||btpian.com/static/wenquan.js
@@ -1861,6 +1852,7 @@
 ||c-ctrip.com/images/0101r120009e1kn7ocdca.gif
 ||c-ctrip.com/train/201611/yqh_270-280.jpg
 ||c.mipcdn.com/static/*/mip-ad/mip-ad.js
+||c.stmedia.click/static/cac.min.js
 ||c114.com.cn/default_inc/a/images/
 ||c114.com.cn/js/channel.js
 ||c114.com.cn^*/js/ad_load-new.js
@@ -2216,8 +2208,6 @@
 ||cyberscore.live/images/bnrk-res/
 ||cycyw.com/mf/
 ||cycyw.com/qdj/
-||czsp12.com/api/*=advert&
-||czsp12.com/api/*=announce&
 ||cztv.com/201506/02/124d35111e8f180c96f99acbcbdf5de6.jpg
 ||d1.yingyongge.com/production/*/production/ihth.js
 ||d1.yingyongge.com/qmoshe.js
@@ -3005,7 +2995,6 @@
 ||hktvmall.com/api/preroll/getlist?
 ||hltoon.com/hanman/static/dist/ppm/js/foot
 ||hltv.org/img/*&s=
-||hmghmg.com/tb
 ||hmoe12.com/wp-content/uploads/202*.gif
 ||hmwang.icu/skin/images/*.gif
 ||hoes.tube/ai/
@@ -3856,7 +3845,6 @@
 ||maolihui.com/wp-content/themes/miaonew/images/adb
 ||maomaoks.com/1.
 ||maopu.tv/d/file/p/2019/07/6ac50c702cf9e6a9a7910a510c40cb73.jpg
-||masadora.net/kakusan-
 ||masturbation22.com/d/
 ||mat.chasedream.com^*.gif
 ||mat1.gtimg.com/2014/vikkydu/ga/haier
@@ -4014,13 +4002,10 @@
 ||mydifile.com/view.php/*.gif
 ||mydrivers.com/2018/ad/
 ||mydrivers.com/2020/news/8/kkj_msi.gif
-||mydrivers.com/drivers/2021/racent.jpg
 ||mydrivers.com/images/*_1100_90.
 ||mydrivers.com/images/hongbao
 ||mydrivers.com/images/icon/gg_
-||mydrivers.com/img/2005/202112011849.png
 ||mydrivers.com/www/gg_
-||mydrivers.com^*/news/ayun
 ||mydrivers.com^*728_90.
 ||mydyxs.com/mpc/
 ||myhack58.com/articleacb0
@@ -4142,7 +4127,6 @@
 ||olgame.tw/home/attachment/
 ||om.cn/api/ad-om/
 ||one101.xyz/data/images/*.gif
-||onedala.tv/uploads/banner/
 ||onegreen.net/myfile/
 ||oneinstack.com/images/oneinstack-
 ||onetvb.com/assets/javascripts/
@@ -5315,7 +5299,6 @@
 ||woaidu.org/images/20180802/3.jpg
 ||wodeshucheng5.com^*/0
 ||wodeshucheng5.com^*/1
-||wokao.co/qq/qq.js
 ||woozooo.com/img/*.js
 ||wowfan.net/static/js/index.
 ||woyaoq.com/201904100958_5cad4dbac9c5f.png
@@ -5510,7 +5493,6 @@
 ||yemancomic.com/static/maoshuang.js
 ||yemancomic.com/static/xiaomage.js
 ||yeniemlak.az/img/banner/
-||yerecpa.cn/uploadsb/app_adv/
 ||yeshefb.com/template/conch/dd/
 ||yesky.com/s?z=
 ||yespornpleasexxx.com/wp-content/litespeed/js/
