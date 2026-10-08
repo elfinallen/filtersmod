@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-10-08 04:14:57 UTC
-! Total Rules: 11714
+! Last Updated: 2026-10-08 18:21:18 UTC
+! Total Rules: 11720
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -3613,6 +3613,7 @@
 ||animegratis.net/js/layout-signal.js
 ||animember.net/js/access.js
 ||anizmplayer.com/gmetrics/
+||anonymous.qub.ca
 ||antennasync.me/imp.php
 ||anthropologie.com/xgwm9nuh/init.js
 ||antiadtape.com/stat/
@@ -5038,6 +5039,7 @@
 ||cmexota.ru/templates/default/images/livinternet.png
 ||cmmeglobal.com/evt?
 ||cmmeglobal.com^*/page-view?
+||cmp.mineos.ai/api/analytics|
 ||cmp.p7s1.io/*/analytics
 ||cmp.quantcast.com/?log=
 ||cmp.vg.no^*/metrics/
@@ -5114,6 +5116,7 @@
 ||commoninja.com/api/v1/event/report/
 ||commons.dw.com/tracking/smarttagjwplayerplugin.js
 ||communicatorcorp.com^*/conversiontracking.js
+||community.netweather.tv/4p9v/
 ||community.theta360.guide/assets/google-universal-analytics-v4
 ||compare-static.climate-data.org/tag.js
 ||compare-static.flightconnections.com/tag.js
@@ -5781,8 +5784,8 @@
 ||eighten-bloc-party.thebrowser.company/script.js
 ||eightsleep.api.kustomerapp.com/*/tracking/
 ||eiu.com/n/wp-content/plugins/eiu-google-tag-manager/assets/dist/js/eiu-google-tag-manager.min.js
-||ekitan.com/*-tracker.js
-||ekitan.com/cmn/js/ekitan.log.js
+||ekitan.com/*-analytics.js
+||ekitan.com/common/ek-tracker/
 ||eldorado.gg/white-house/white_house_script_data_
 ||elements.video/tr/
 ||eletrogate.com/_events/
@@ -7295,6 +7298,7 @@
 ||kieskeurig.nl/collect
 ||kieskeurig.nl/track-
 ||kijimea.it/javascript/script.js
+||kilo.ai/monitoring?
 ||kimonix.com/analytics/
 ||kindernetz.de/static/tracking/xtclicks.js
 ||kinja.com/api/analytics/
@@ -8412,6 +8416,7 @@
 ||onlyfans.com/*/stats-collect
 ||onlyfree.de^*/counterservice/
 ||onnetwork.tv/cnt/
+||onoffmix.com/api/log/
 ||onrender.com/health
 ||onscreens.me/js/st2.js
 ||onscreens.me/js/statistics.js
@@ -10391,6 +10396,7 @@
 ||taringa.net/ajax/track-visit.php
 ||tarteaucitron.io/log/
 ||tatadigital.com/analytics-engine/
+||tavriav.ua/monitoring
 ||taz.de/count/
 ||tbs.co.jp/js/gaaddons/
 ||tccd.douglas.

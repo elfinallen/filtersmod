@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-10-08 04:14:57 UTC
-! Total Rules: 5676
+! Last Updated: 2026-10-08 18:21:18 UTC
+! Total Rules: 5668
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -271,6 +271,7 @@
 /index.php/customize/list?params=
 /index.php/statistics/ads_show?
 /iscar.svc/getadvert?
+/jameson_manhua/template/ads/*
 /javascript/fropo.js
 /javhd-jp-970x170.jpg
 /jdzjgg/*
@@ -1295,7 +1296,6 @@
 ||airav.cc/iframe/
 ||airav.cc/static/js/*_ad.js
 ||airav.cc/ucenter/*_ad
-||airouba.com/public/js/global.js
 ||aisy19.com/dm/
 ||aitaotu.com/style/js/aitaotu
 ||aiuw.com/images/*?from=ad
@@ -2226,7 +2226,6 @@
 ||daily-sun.com/assets/images/banner/
 ||dailynews.sina.com/gb/ads/
 ||dailysabah.com/ajax/get-ads-ajax?
-||dajiadu8.com/17mb/script/gg.
 ||dajiazhao.com/login/reg.js
 ||daleelerah.info
 ||dalipan.com/api/taobao
@@ -2346,7 +2345,6 @@
 ||douban.com/?unit=dale_movie_trailer_after_play&
 ||douban.com/view/dale-online/dale_ad
 ||douban.com^*/fm_bgad.js
-||doubanio.com/view/photo/l/public/p2891976611.
 ||doubanio.com^*/js/ad.
 ||douguo.net/upload/post/d/
 ||doupocangqiong1.com/js/ptwap.js
@@ -2755,6 +2753,8 @@
 ||giaoji.com/runtime/js/
 ||gimy.*/images/eee*.png
 ||girls-games.org/bnr/
+||girlsofdesire.org/blr10
+||girlsofdesire.org/flr10.js
 ||githubusercontent.com/vip888vip/ug/main/*.gif
 ||gjwind.com/xxmh.gif
 ||gk99.com/static/js/a-d-sys.js
@@ -3370,7 +3370,6 @@
 ||jd.com/static/js/cpc.js
 ||jd100.com/cwmpc/
 ||jdbstatic.com/ads/
-||jdwx.info/api.php?mod=ad&
 ||jia.com/js/common/article_home_adv.js
 ||jialingmm.net/dm/tj.js
 ||jialingmm.net/img/gdw.jpg
@@ -3586,6 +3585,7 @@
 ||kppt.cc/zb_system/script/common.js
 ||kppt.cc/zhifu.jpg
 ||krx18.com/ads/adsblockx.js
+||ksou6.com/api/v1/ad/
 ||kssms.com/click/play.
 ||kt51.com/bjl666.gif
 ||kt51.com/images/kt51.gif
@@ -3748,6 +3748,7 @@
 ||ltbyw.top/data/images/*.gif
 ||ltn.com.tw/js/ad_door.js
 ||lu228.com/ajs/
+||lua.tools/ads/
 ||lunhua5.com/images/more.gif
 ||luogu.me/static/anti_block.json
 ||lutouwang.net/static/images/boss_gao_hb.jpeg
@@ -3831,7 +3832,6 @@
 ||manai521.com:88/bocai/index.html
 ||manga18.me/usd2023/usd_frontend.js
 ||mangafuna.xyz/static/ads/
-||mangahax.com/images/ima_
 ||mangahub.io/iframe/
 ||mangarawad.biz/public/assets/js/a.js
 ||manhuaren.com/wx20190904.js
@@ -4235,8 +4235,6 @@
 ||photos18.com/images/friend/
 ||php1.cn/uploads/huayun.jpg
 ||phpernote.com/ali
-||phpstudyimg.com/all/hrl.gif
-||phpstudyimg.com/all/xiaojieqiantie.gif
 ||pianbar.net/js/bootfloat.js
 ||pianbar.net/js/hottj.js
 ||pianyuan.org/zfb.
@@ -4252,8 +4250,6 @@
 ||picgd.com/images/2018/12/01/h1pi5.png
 ||picrew.me/vol/ads/
 ||pics.wanlibo.com/js/pagemodulestat.js
-||picsuperfast.xyz/imageupload/images/*.gif
-||picsuperfast.xyz/imageupload/images/*ad_
 ||picyq.com/index.php/home/run/get_ad/
 ||pierrebotton.com/global/
 ||pimpbunny.com/static/v*/images/advertise/
@@ -4474,7 +4470,6 @@
 ||rakuya.com.tw/position?task=
 ||randalls.com/abs/pub/xapi/search/sponsored-carousel?
 ||rarbt.cc/js/index960_
-||ratedxbiz.com/d/
 ||raw.githack.com/*/*/main/antiadblock/2.0/code.min.js
 ||rawcdn.githack.com/*/arlinablock.js
 ||rawcdn.githack.com/sanjoy944/jonaki/*/adblockerpupup.js
@@ -4620,7 +4615,6 @@
 ||sentcss.com/get/showcase/
 ||seojiaoshi.cn/banner/
 ||seowhy.com/ask/img/*gg
-||seqing.world/qq/qq.js
 ||serengeseba.com/static/view.js
 ||service.hotstar.com^*/midroll
 ||service.iwara.tv/*/*.php?zones=
@@ -4633,7 +4627,6 @@
 ||sex141.com/img/banner/
 ||sex3.com/ee/s/s/su
 ||sex8.cc/plugin-e6-rebate.html
-||sexbarss.net/wap/
 ||sextvx.com/ads/
 ||sexvid.*/rrt/xd.js
 ||sexvid.*/ysla/
@@ -4743,7 +4736,6 @@
 ||sobaigu.com/images/server_tourist.jpg
 ||sobaigu.com/images/tencentcloudamd_1040x100.jpg
 ||sobt8.org/public/static/js/common.js
-||socos.gitee.io/ss/poster/
 ||sodu2020.com/js/ppc.js
 ||soduso.com/js/4
 ||soduso.com/js/sat.js
@@ -4842,6 +4834,7 @@
 ||stay22.com/api/sponsors/
 ||steelcn.cn/img/bj_*_146_315.jpg
 ||sterra.web.id/stera1/
+||sterra.web.id/stera3/
 ||stg.truvidplayer.com/p.php
 ||stheadline.com/images/heading-jm
 ||stockstar.com/*duilian&t=
@@ -4972,6 +4965,7 @@
 ||thisav.video/v3/nb/
 ||thisvid.com/enblk/
 ||thisvid.com/zvrk/
+||thothd.*/ads/
 ||thscore.fun/mn/
 ||thumbzilla.com/_xa/ads
 ||thztv.*/tool/
@@ -5180,6 +5174,7 @@
 ||videowood.me/assets/js/popup.js
 ||videowood.tv/popjavascript
 ||vidlink.pro/api/mercury
+||vidstuck.xyz/vidstuck.js
 ||vidy.st/scripts/xyz.js
 ||vip.luanren.com/data/*.gif
 ||vip.video.qq.com/rpc/trpc.vip_ad_promotion
@@ -5349,7 +5344,6 @@
 ||xchina.*/service/assets/core-state.
 ||xchina.click/upload/*.webp
 ||xchina.co/scripts/push_*.js
-||xcmfu.com/cp.
 ||xcum.com/_a_xb/
 ||xdcad.net/source/plugin/disad/disad.js
 ||xdf.cn/v4/js/leyus/
@@ -5641,10 +5635,8 @@
 ||zhzyw.com/js/insertjs.js
 ||ziffstatic.com/pg/
 ||ziyuanm.com/js/g11.js
-||zjg.js.cn/public/config/couplet/index4
 ||zjjhfc.com/js/zt.js
 ||zjst.net/3.gif
-||zjtu.tv/add.
 ||zjxc.com/source/plugin/e6_xc_ad/
 ||zk789.cn/res/scripts/show/netsys/show.ashx
 ||zlyk.com/runtime/js/footer.js
