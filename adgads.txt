@@ -1,7 +1,7 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-10-07 18:21:36 UTC
+! Last Updated: 2026-10-08 04:14:57 UTC
 ! Total Rules: 5676
 ! Expires: 5 days
 /a-duoduo/add-
@@ -1432,7 +1432,6 @@
 ||antpedia.com/include/js/view_news/l_banner_js.js
 ||antpedia.com/viewnewsrightboxtop.
 ||anyporn.com/aa/
-||anyporn.com/if2/
 ||anysex.com/js/initsite.js
 ||anyshare.icu^*.js
 ||anywlan.com/link/*.gif
@@ -1944,6 +1943,7 @@
 ||cdn.rawgit.com/arlina-design/quasar/*/arlinablock.js
 ||cdn.rekkerd.org/img/a/rkkrdprm/
 ||cdn.shdsp.net/ad
+||cdn.speakup.ai/cookie-sync.js
 ||cdn.staticaly.com/gh/arlina-design/*/arlinablock.js
 ||cdn.tapioni.com/asg_embed.js
 ||cdn.uameta.ai/file/bucket-media/image/advertisement/
@@ -3738,7 +3738,6 @@
 ||louimg.com/u/20191214/17512133.jpg
 ||lovek01.com/gif/97-
 ||loveshang.com/api.php?mod=ad&adid=custom_
-||lovingsiren.com/wp-content/uploads/*/click-here.gif
 ||lowendtalk.com/uploads/editor/*.gif
 ||lpl.qq.com/*/data/lol_match2_news_recommend_*_info.js
 ||lsforum.net/cam2/*.gif
@@ -4260,7 +4259,6 @@
 ||pimpbunny.com/static/v*/images/advertise/
 ||pincai.com/js/pubuliu.
 ||ping0.cc/images/gx/*.gif
-||ping0.cc/static/images/ad/
 ||pingmeibang.com/zt/zx.jpg
 ||pingpang.info/themes/v1.0/images/temp/ad/
 ||pingwest.com/api/news_ad
@@ -4285,6 +4283,7 @@
 ||playzip.com/static/js/abcd.js
 ||plibcdn.com/templates/base_master/js/jquery.shows2.min.js
 ||pmb*.tj.ali213.net/js/
+||pn.ybp.yahoo.com/ab/imp/
 ||pniao99.com/statics/js/stat.js
 ||poco.cn/v1_1/rank/get_floating_layer_ad
 ||poco.cn^*_info_banner
@@ -4939,6 +4938,7 @@
 ||tcptest.cn/prod-api/web/adlinks/
 ||tdxs5.cc/m
 ||teacher.php.cn/php/
+||tech426.com/pub/
 ||techritual.com/wp-content/uploads/*/hdcource_
 ||techug.com/aatb/
 ||tencent-cloud.com/s9m1/12f70718c866ea3e5f22c68e6a34c54f.
