@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-10-08 18:21:18 UTC
-! Total Rules: 11720
+! Last Updated: 2026-10-09 04:20:19 UTC
+! Total Rules: 11723
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -9480,6 +9480,7 @@
 ||sdk-service.nsureapi.com/events
 ||sdk.appbrain.com/api/
 ||sdk.getlimy.ai/p/limy-analytics.min.js
+||sdk.mdznconnect.com/data-collector/
 ||sdk.mrf.io/statics/marfeel-sdk.js
 ||sdk.nsureapi.com/sdk.js
 ||sdk.rum.aliyuncs.com/v*/bl.js
@@ -10491,6 +10492,7 @@
 ||thehealthy.com/wp-content/plugins/tmbi-permutive/
 ||thehill.com/6zcfgh4h/init.js
 ||thehour.com/413gkwmt/init.js
+||theinfatuation.com/api/logger
 ||theinformation.com/ahoy/events
 ||thejc.com/js/analytics-article.js
 ||thekitchn.com/jayeky18/init.js
@@ -11137,6 +11139,7 @@
 ||vodafone.com.au/js/ot2.min.js
 ||vodtw.xyz/zepto-
 ||voicendata.com/static/js/*_gtag_publisher.js
+||voidemail.org/js/track.js
 ||volksverpetzer.de/pl/v.js
 ||volkswagen-italia.it^*/tracking/
 ||volleybox.net/media/js/analytics/

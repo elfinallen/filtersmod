@@ -1,7 +1,7 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-10-08 18:21:18 UTC
+! Last Updated: 2026-10-09 04:20:19 UTC
 ! Total Rules: 5668
 ! Expires: 5 days
 /a-duoduo/add-
@@ -4137,6 +4137,7 @@
 ||oodcd.cn/pan/config/history.
 ||ooqiu.com/ad_js/
 ||openalternative.co/_proxy/revinel/
+||openapk.net/include/affiliate-units.js
 ||oploverz.my/wp-content/uploads/*/*.gif
 ||opticsky.cn/images/2015/gy-px201
 ||optiklink.com/arlinablock.js
@@ -4932,7 +4933,6 @@
 ||tdxs5.cc/m
 ||teacher.php.cn/php/
 ||tech426.com/pub/
-||techritual.com/wp-content/uploads/*/hdcource_
 ||techug.com/aatb/
 ||tencent-cloud.com/s9m1/12f70718c866ea3e5f22c68e6a34c54f.
 ||tencent-cloud.com/s9m1/54cb71aff82cfd690619065f2e31c346.
