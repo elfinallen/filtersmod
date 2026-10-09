@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-10-09 04:20:19 UTC
-! Total Rules: 11723
+! Last Updated: 2026-10-09 17:54:31 UTC
+! Total Rules: 11728
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -3080,6 +3080,7 @@
 /wxhawkeye.js
 /wysistat.js
 /x.gif?
+/x0k461/e6c1b/xc9
 /x_track.php?
 /xgemius.js
 /xhr/api/v2/collector
@@ -5816,6 +5817,7 @@
 ||emmi.jp/scripts/tracker.js
 ||emol.com/bt/ping
 ||emp.de/on/demandware.store/*/__analytics-tracking
+||emrld.ltd/collect
 ||emrldtp.com/collect
 ||ems.youku.com/event?
 ||emule-security.org/tracker.js
@@ -6405,6 +6407,8 @@
 ||gizmodo.com/x-kinja-static/assets/new-client/*~trackers
 ||gizmodo.jp/api/surveycountcollection
 ||gizmodo.jp/api/surveycountcollection?
+||gkx.gokwik.co/gke/
+||gkx.gokwik.co/kp/api/v1/fp/
 ||glam.com/cece/agof/
 ||glam.com/ctagsimgcmd.act?
 ||glam.com/jsadimp.gif?
@@ -7965,6 +7969,7 @@
 ||mlm.de/pagerank-ranking/
 ||mlstatic.com/analytics/
 ||mmcdn.com/events/
+||mn-tz.com/adv_out.js
 ||mng.jiji.com/cookie.html
 ||mo8it.com/count.js
 ||mobile-global.baidu.com/mbrowser/stat/
