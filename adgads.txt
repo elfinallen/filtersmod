@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-10-09 17:54:31 UTC
-! Total Rules: 5524
+! Last Updated: 2026-10-10 04:05:21 UTC
+! Total Rules: 5531
 ! Expires: 5 days
 /a-duoduo/add-
 /a-tian/tian-*-good.js
@@ -924,6 +924,7 @@
 ||4hw.com.cn/js/common.js
 ||4kwu.cc/static/js/tj.js
 ||4taoxs.com/api/accept/
+||4tube.com/assets/padb-
 ||500xxxx.com/go.js
 ||5054399.com/js/rice/m.js
 ||5068.com/*gg
@@ -1784,8 +1785,6 @@
 ||caikuu.com/ckimages/*_gg
 ||caikuu.com/ckimages/*_zg
 ||caitlin.top/catalog/view/core/adchecker/
-||caitlin.top/catalog/view/core/comic/fc.js
-||caitlin.top/catalog/view/core/comic/fc0.js
 ||caixin.com/s?z=
 ||callistanise.com/assets/jquery/ev-static.js
 ||camspacelive.com/widgets/
@@ -2371,6 +2370,7 @@
 ||eastmoney.com/trade/hqb_hq.html
 ||easyai.tech/wp-content/uploads/*-576x1024.
 ||easyicon.net/gg2019/
+||easymp3mix.com/js/re-ads-zone.js
 ||ebay.com/scl/js/scandalloader.js
 ||ebaystatic.com/rs/c/scandal/
 ||ebaystatic.com^*/scandaljs-
@@ -2429,6 +2429,7 @@
 ||eroprofile.com/js/nvbla.js
 ||erowall.com/126.js
 ||es3984.review/02_cn_ad/
+||estaticos01.gays-cruising.es/recursos/tres-doce.js
 ||etadult.com*/images/20
 ||etest8.com/js/158/infojs/
 ||etf88.com/swf/
@@ -2465,6 +2466,7 @@
 ||fang.com/house/ajaxrequest/advertlget.
 ||fang99.com^*/advjs/
 ||fanhaodang.org/runtime/js/
+||fanhub.com/_xa/ads_batch?
 ||fanmtl.com/*/js/ad/*.js
 ||fanquanwang.com/uploads/ad/
 ||fans.*.space/fans/*.php
@@ -2538,10 +2540,10 @@
 ||freedidi.com/wp-content/plugins/death-luhubaoyu/
 ||freehao123.com/wp-content/uploads/2017/05/mmkdm.png
 ||freejavbt.com/assets/images/banner
+||freeones.com/static-assets/istripper/
 ||freepopnews.skin/advert/
 ||freeuseporn.com/bnrmanage/
 ||frendz4m.org/arlinablock.js
-||friendquiz.me/images/sunqad.png
 ||frontendjs.com/api/ad
 ||frprn.com/even/ok.js
 ||fsclzs.com/ad_user/
@@ -2551,6 +2553,7 @@
 ||ftchinese.com/m/marketing/
 ||ftimg.net/s?z=
 ||ftopx.com/isttf558550ef6e.js
+||ftopx.com/tf558550ef6e.js
 ||fuckflix.click/assets/js/custome.js
 ||fuelfinder.dk/js/prettyprint-message-min.js
 ||fuimg.com/1/66795b80a792fb96.png
@@ -2675,6 +2678,7 @@
 ||gmbbku.com/jj/
 ||gmbuluo.net/js/
 ||gn-web-assets.api.bbc.com/ngas/*/dotcom-ads.js
+||go.fakta.id/assets/compat.js
 ||go.kbnmnl.com/api/models/vast
 ||go.linkwi.se/delivery/
 ||go2av.com/for_ad/
@@ -2869,6 +2873,7 @@
 ||hentaifox.com/js/slider.js
 ||hentaihaven.*/api/ads/?placement=
 ||hentaivideos.net/imp/
+||herexxxtube.com/tmp/
 ||hexun.*/hxpage/index.html
 ||hexun.com*/hx_news/hx_news_finalpage.js
 ||hexun.com/gphqtc/
@@ -3439,6 +3444,7 @@
 ||kantv6.com/index.php/popularize/
 ||kaotic.com/templates/*/static/player/video.js/videojs-vast-
 ||kaoyan1v1.com/iaa/
+||kawai-jav.com/public/upload/ads/
 ||kayege.org/js/
 ||kb-render.alicdn.com/html/*.html
 ||kccdk.com/content/img/*.gif
@@ -4028,6 +4034,7 @@
 ||oodcd.cn/pan/config/history.
 ||ooqiu.com/ad_js/
 ||openalternative.co/_proxy/revinel/
+||openalternative.co^*/ads/
 ||openapk.net/include/affiliate-units.js
 ||oploverz.my/wp-content/uploads/*/*.gif
 ||opticsky.cn/images/2015/gy-px201
@@ -4492,6 +4499,7 @@
 ||sdzbcg.com/images/sdfhyl
 ||se533.com/template/new/css/*.js
 ||search.brave.com/api/ads/
+||search.brave.com/serp/v1/static/serp-js/paid/
 ||secured.dailymail.co.uk/feeds/commercial/topvideos.json
 ||seectech.cn/scm/ad/list
 ||seek68.cn/img/*.gif
@@ -4597,7 +4605,6 @@
 ||skeimg.com/i/*.gif
 ||skeyword.browser.qq.com/gethotrank
 ||skijumping.pl/content/images/banner/
-||skygg.lat/ads/lib.js
 ||sl.al/gdrive/pic/*.gif
 ||slashdot.org/ajax.pl?op=nel|
 ||slashlook.com/_resource/html/_bloggeradsbottom.html
