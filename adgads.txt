@@ -1,11 +1,9 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-10-10 04:05:21 UTC
-! Total Rules: 5531
+! Last Updated: 2026-10-10 16:52:37 UTC
+! Total Rules: 5504
 ! Expires: 5 days
-/a-duoduo/add-
-/a-tian/tian-*-good.js
 /a/ipn/js/*
 /a/p?adid=
 /ab_my/pc_pf.js
@@ -224,7 +222,6 @@
 /haijiao3/*/popup.
 /hao123_api/api/cpc/*
 /heituad/*
-/heji/mei00*.js
 /hjstore/system/banner/*.txt
 /homead/*_appledaily_bg.
 /hongie-1322507002.
@@ -521,7 +518,6 @@
 /template/m1938pc/bd/*.js
 /template/paody/aaaa/all-top.js
 /template/shoujigg/*
-/template/znfls/asd/*
 /template/zsy_badian/dddytt-gg/*
 /template/zsy_badian/js/stui_
 /templates/*/js/_banner.js
@@ -604,9 +600,6 @@
 /yunfile/offline_banner/*
 /yy_transv/js/cmp.js
 /zpp/zpp4.js
-/zz/*_box2.txt
-/zz/wenzi2.txt
-/zz/zuoxia2.txt
 /zzzz/assets/js/common/discor_list.js
 ||007ds.com/js/js/
 ||00eeekk.com//html5/activitypage/
@@ -682,7 +675,6 @@
 ||15hn.net/data/content
 ||160.com/statics/statics/js/code_13.js
 ||160.com/statics/statics/js/code_15.js
-||1615vip.com^*.jsonp
 ||1616.net/jd/data/index/indexad.json
 ||162ck.com/v*.js
 ||163.com*/special/*_ad_
@@ -1218,7 +1210,6 @@
 ||ac.tc.qq.com/store_file_download?*&dir_path=/admin/swf/
 ||acfun.cn/appspreadcontents/danmuad/
 ||acg.youku.com/webfile/*.jpg
-||acggd.com/4d22b/
 ||acgnz.cn/static/b.js
 ||acgnz.cn/static/i.js
 ||achost.top/uploads/ads/
@@ -1307,8 +1298,6 @@
 ||alicdn.com/ad-product/
 ||alicdn.com/app/wxbpromotion/*/js/cpm/cpm_jq.js
 ||alicdn.com/g/mm/afp-cdn/js/
-||alicdn.com/img/ibank/*_!!2200581616124-
-||alicdn.com/img/ibank/*_!!2212029770429-
 ||alicdn.com/img/ibank/*_1085845541.
 ||alicdn.com/img/ibank/*_1281922417.
 ||alicdn.com/img/ibank/*_1533190909.
@@ -1482,7 +1471,6 @@
 ||azureedge.net/wp-content/cache/minify/3c6d7.js
 ||azureedge.net/wp-content/cache/minify/d2299.js
 ||azureedge.net/wp-content/uploads/*-ad0
-||b1.cdn.mh3666.com/html/
 ||b4dg.life/love/
 ||b7yy.com/ad/
 ||babepedia.com/banners/
@@ -2130,7 +2118,6 @@
 ||da.duowan.com/loc/
 ||dabai28.com/img/*.gif
 ||dabin69.com/data/attachment/portal/
-||dada8828.com/js/aaa/
 ||dagou2018.com/js/item
 ||dagumanhua.com/style/mdagu.js
 ||daily-sun.com/assets/images/banner/
@@ -2539,7 +2526,6 @@
 ||freedidi.com/wp-content/plugins/abn-wall/assets/abn-wall.
 ||freedidi.com/wp-content/plugins/death-luhubaoyu/
 ||freehao123.com/wp-content/uploads/2017/05/mmkdm.png
-||freejavbt.com/assets/images/banner
 ||freeones.com/static-assets/istripper/
 ||freepopnews.skin/advert/
 ||freeuseporn.com/bnrmanage/
@@ -2863,7 +2849,6 @@
 ||heiye.cc/js/hei
 ||heiye.cc/js/xuanfu.js
 ||hello-jm.com/foot.js
-||helloavgirls.com/public/hg/
 ||hellogithub.com/v1/advert/
 ||hellporno.com/_a_xb/
 ||henan.sina.com.cn/iframe/7/
@@ -2904,7 +2889,6 @@
 ||hkjunkcall.com/images/b_banner_
 ||hkmte.com/seo.js
 ||hktvmall.com/api/preroll/getlist?
-||hltoon.com/hanman/static/dist/ppm/js/foot
 ||hltv.org/img/*&s=
 ||hmwang.icu/skin/images/*.gif
 ||hockeyslovakia.sk/sk/bannerimg/
@@ -3060,7 +3044,6 @@
 ||igg-games.*/maven/
 ||igg-games.com/sw.js
 ||ign.com/s/js/zad.js
-||ih336.com^*a.js
 ||ihhmh.com/mg/show
 ||ii.apl*.me/js/pop.js
 ||iiauu.cn/777/
@@ -3663,7 +3646,6 @@
 ||lwlwlw.com/ggzx/
 ||lwlwlw.com/js/fvgg.js
 ||lxapk.com/wp-content/uploads/*.gif
-||lycc72.com/resources/js/content.js
 ||lyd.com.cn^*950-90.
 ||lysq.com/data/attachment/portal/
 ||lywww.com/data/js.php?id=
@@ -3794,7 +3776,6 @@
 ||mfs.mysteelcdn.com/group1/m00/16/70/rbl632fjchkaukseaae6mtwnw2y118.jpg
 ||mfs.mysteelcdn.com/group1/m00/1b/12/rbl632frp-kahreoaagnyljyvag027.jpg
 ||mg21.com/wp-content/uploads/ad/
-||mh3666.com^*.jsonp
 ||mianbao99.com/a/mianbao
 ||miaoshangmanhua.com/template/pc/skin01/images/250_250.
 ||miaoshu6.com/static/js/read.
@@ -4022,7 +4003,6 @@
 ||olelive.com/v1/pub/index/anchor/check/pc/e?
 ||olgame.tw/home/attachment/
 ||om.cn/api/ad-om/
-||one101.xyz/data/images/*.gif
 ||onegreen.net/myfile/
 ||oneinstack.com/images/oneinstack-
 ||onetvb.com/assets/javascripts/
@@ -4033,7 +4013,6 @@
 ||oodcd.cn/pan/config/copy.
 ||oodcd.cn/pan/config/history.
 ||ooqiu.com/ad_js/
-||openalternative.co/_proxy/revinel/
 ||openalternative.co^*/ads/
 ||openapk.net/include/affiliate-units.js
 ||oploverz.my/wp-content/uploads/*/*.gif
@@ -4680,7 +4659,6 @@
 ||sozi.cn/templets/sozi/js/js.js
 ||spankbang.com/api/*?ad_zone=
 ||spankbang.com/official/serve_
-||spanking.wiki/morning-bread-
 ||speedtest.cn/api/v2/show
 ||speedtest.cn/assets/images/ce_
 ||speedy.literotica.com/ntk
@@ -4697,7 +4675,6 @@
 ||sspai.com/api/v1/recommend*=article_
 ||sspai.com/attachment/sponsor/
 ||sss777.net/alove-a/
-||ssyy881.com/zz/
 ||st.chatango.com/js/*/*/rklmodule.js
 ||staramuse.com/bmip/showg
 ||starnnews.com/banner/
@@ -5063,9 +5040,6 @@
 ||visit-japan.jp/parts/visitjapan_f35_170_170.jpg
 ||vista.tuwan.com/s.js
 ||vivatube.*/templates/base_master/js/jquery.shows2.min.js
-||vk920.com/img1/
-||vk922.com/img/
-||vk923.com/img/
 ||vkandian.cn/footjs/
 ||vkandian.cn/peitu/
 ||vkprime.com/player*/vast.js
@@ -5142,7 +5116,6 @@
 ||westca.com/server/
 ||weste.net/js/showpagead.js
 ||wfiles.hcomic.net/indexswiper/*_*x*_*_tc_gif.gif
-||whdx.cc/js/
 ||whichav.*/qq/qq.js
 ||whnews.cn/wh_public/xuxu/
 ||whsir.com/wp-content/themes/wh-blog/js/modal.js
@@ -5165,6 +5138,7 @@
 ||wnacg.com/1sdfdc1/500_60-1.gif
 ||wnacg.com/game/
 ||wnimg1.ru/data/game/*/*-*x*.gif
+||wnimg2.cfd/data/t/*.gif
 ||woaidu.org/images/20180802/3.jpg
 ||wodeshucheng5.com^*/0
 ||wodeshucheng5.com^*/1
@@ -5386,7 +5360,6 @@
 ||yimg.com/dy/ads/readmo.js
 ||yimg.com/nn/lib/*/advertisement
 ||yimuhe.com/n_ad/
-||yingav.net/images/content/spot01.jpg
 ||yinghua8.*/bar/
 ||yinghuavideo.com/bar/
 ||yingshizxw.com/js/tc/
