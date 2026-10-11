@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-10-10 16:52:37 UTC
-! Total Rules: 5504
+! Last Updated: 2026-10-11 03:41:22 UTC
+! Total Rules: 5509
 ! Expires: 5 days
 /a/ipn/js/*
 /a/p?adid=
@@ -1772,7 +1772,6 @@
 ||caibaojian.com/d/uploads/*0-
 ||caikuu.com/ckimages/*_gg
 ||caikuu.com/ckimages/*_zg
-||caitlin.top/catalog/view/core/adchecker/
 ||caixin.com/s?z=
 ||callistanise.com/assets/jquery/ev-static.js
 ||camspacelive.com/widgets/
@@ -2271,7 +2270,6 @@
 ||drakecomic.*/wp-content/themes/mangareader/script.js
 ||drivevideo.xyz/advert/
 ||drtst.com/promo/banners/
-||drumkits.site/shared/ad-handler.js
 ||drvsky.com/js/jolimark.gif
 ||dshangyan.com/pc/advertising/
 ||dsp.lenovo.com.cn^*&clienttype=api|
@@ -3111,6 +3109,7 @@
 ||imgur.com/znq0lxp.gif
 ||imhentai.xxx/js/expp.js
 ||imhentai.xxx/js/slider_
+||immoweb.be/*/dpg/
 ||imooc.com/open/courselistrandjs
 ||imparteconocimientos.com/recursos/anti-adblocker.js
 ||indiatimes.com/lgads_
@@ -3647,6 +3646,7 @@
 ||lwlwlw.com/js/fvgg.js
 ||lxapk.com/wp-content/uploads/*.gif
 ||lyd.com.cn^*950-90.
+||lyricsly.in/wp-content/plugins/gpadblock/assets/js/detector.js
 ||lysq.com/data/attachment/portal/
 ||lywww.com/data/js.php?id=
 ||lywww.com/header_pic.php
@@ -3715,6 +3715,7 @@
 ||mangafuna.xyz/static/ads/
 ||mangahub.io/iframe/
 ||mangarawad.biz/public/assets/js/a.js
+||mangatensei.com/runative.php
 ||manhuaren.com/wx20190904.js
 ||manhwa18.cc/main2023/
 ||manko.fun/api/proxy/ads
@@ -4448,6 +4449,7 @@
 ||sass.hk/images/hengfu.jpg
 ||sass.hk/js/ggcn.js
 ||sass.hk/plus/mytag_js.php?aid=
+||sat-universe.com/wos2.png
 ||satroki.tech/api/jdunion
 ||save-editor.com/b/in/ad/
 ||savefrom.net/build/js/chunk~popup
@@ -4490,6 +4492,7 @@
 ||seojiaoshi.cn/banner/
 ||seowhy.com/ask/img/*gg
 ||serengeseba.com/static/view.js
+||serververify.com/providers/ad-load/
 ||service.hotstar.com^*/midroll
 ||service.iwara.tv/*/*.php?zones=
 ||services.postimees.ee/rest/v1/articles/multiple?ids=
@@ -4680,6 +4683,7 @@
 ||starnnews.com/banner/
 ||startpage.com/*/adsense/search/async-ads.js
 ||startpage.com^*/afs/
+||starwank.com/api/
 ||static-cdn.spot.im/production/ads/tags/v*/ads/ads.js
 ||static.c4assets.com/all4-ad-code/latest/adverts.js
 ||static.chinatimes.com/scripts/2019/ad2019.min.js
@@ -4903,6 +4907,7 @@
 ||trafficmanager.net/o.js
 ||trahkino.cc/static/js/li.js
 ||traingon.top/static/content-access.js
+||tranny.one/bhb.php
 ||tranny.one/trannystatic/ads/
 ||trannygem.com/ai
 ||trans.firm.in/*.js
