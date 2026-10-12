@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-10-12 04:04:43 UTC
-! Total Rules: 11730
+! Last Updated: 2026-10-12 20:50:26 UTC
+! Total Rules: 11737
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -4946,6 +4946,7 @@
 ||clearspring.com/t/
 ||clerk.io/static/clerk.js
 ||cleverfit.fitness-konzepte.de/_api/stats-service
+||click-guard.site/api/collect
 ||click.abchina.com/*/wtid.js?callback=
 ||click.xda-developers.com/api/pixel.gif
 ||click4assistance.co.uk/heartbeat
@@ -7751,6 +7752,7 @@
 ||mapquest.com/logger
 ||maps.googleapis.com/*/stats.js
 ||maptrackpro.com/track/
+||mapy.*/api/wasm-log
 ||marche.onward.co.jp/*/sys/top_adobe_analytics.js
 ||mark.isbank.com.tr/hit
 ||marker.io/widget/ping
@@ -10092,6 +10094,8 @@
 ||static.tvmaze.com/js/paq.js
 ||static.vocento.com/tag-manager/latest/vtm.js
 ||static.vocstatic.com/*/voonto.js
+||static.vocstatic.com/portalsjs/*/call-metrics.js
+||static.vocstatic.com/tag-manager/
 ||static.vocstatic.com/tag-manager/latest/vtm.js
 ||static.wattpad.com/js/tracker/app.
 ||static.wellsfargo.com/tracking/
@@ -10111,6 +10115,8 @@
 ||statics.liberation.fr/newsite/js/cmp/gtm.js
 ||staticwl.bkmcdn.com/scripts/adwords-tracker.js
 ||statig.com.br/pub/setcookie.js?
+||statinside.com/api/add-hit
+||statinside.com/api/send-heartbeat
 ||statis.simeji.me/report/
 ||statista.com/data/ptm.gif
 ||statistics.aldi-international.com/consent/collect
@@ -10299,6 +10305,7 @@
 ||svcs.ebay.com/ufeservice/v1/metrics
 ||sve.online.sberbank.ru/metrics/partners
 ||svgator.com/common/googletagmanager.js
+||sw.vidmoly.
 ||swarm.video/j79z9kzty.js
 ||swarm.video/stats/
 ||swarm.video/track/

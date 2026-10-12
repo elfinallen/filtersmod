@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-10-12 04:04:43 UTC
-! Total Rules: 5510
+! Last Updated: 2026-10-12 20:50:26 UTC
+! Total Rules: 5512
 ! Expires: 5 days
 /a/ipn/js/*
 /a/p?adid=
@@ -1133,6 +1133,7 @@
 ||91jbz.com/file/script/a
 ||91jp3.beauty/abc/data*.json
 ||91p20.space/fans/
+||91porna.com/static/web/js/ad-sdk-
 ||91rb.net/fc/
 ||91rb.net/js/gg.js
 ||91xiazai.com/public/index/images/zanzhushang.gif
@@ -2236,6 +2237,7 @@
 ||dogfight360.com/usbeam/*_ad/
 ||dogfight360.com/usbeam/yuelun_ad/
 ||doii.cc/mmm/
+||donalduck.netcrew.sbs/e/js
 ||dongchedi.com/motor/ad/
 ||dongfangtai.com/2018/
 ||donghuaworld.com/wp-content/plugins/no-adblock-access/detector.js
