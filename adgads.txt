@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-10-11 17:15:42 UTC
-! Total Rules: 5511
+! Last Updated: 2026-10-12 04:04:43 UTC
+! Total Rules: 5510
 ! Expires: 5 days
 /a/ipn/js/*
 /a/p?adid=
@@ -1397,12 +1397,14 @@
 ||aqlife.com/data/attachment/portal/
 ||aqy103.com/js/aqy/
 ||arc.msn.com/*/api/selection?placement=*upsell
+||arhfoundation.org/adscode.js
 ||ark.le.com/s?vid=
 ||ark.letv.com/s?
 ||arkadiumhosted.com/advertisement/
 ||ash.automobile-catalog.com/app.js
 ||ashemaletube.com/api/tiles
 ||ashemaletube.com/ast/b/
+||ashemaletube.com/ast/paysite
 ||asiav.cyou/myupdatelist.
 ||asp300.*/2012adimg/
 ||asp300.*/2012js/
@@ -2212,7 +2214,6 @@
 ||dj97.com/api.php?mod=ad&
 ||djdedu.net/static/*.gif
 ||djicdn.com/uploads/ad_image_file/
-||dlive.sx/rs4k-adbanner.html
 ||dlkoo.cc/down/copy
 ||dlkoo.com/down/copy
 ||dm5900.com/piao/
@@ -2389,6 +2390,7 @@
 ||elecfans.com/skin-*ad_
 ||elecfans.com/static/home_ad/
 ||elecfans.com/webapi/advertisement/
+||elitebabes.com/panel8vz3/
 ||embed.st/ad.html
 ||emoney.cn/www/officalwebstatic/js/slidead.js
 ||en8848.com.cn/js/ad
@@ -2919,6 +2921,7 @@
 ||hqcx.net/index.php?m=poster&
 ||hqdoor.com/web/
 ||hqol.cn/up/ad/
+||hqpornstream.com/pub/
 ||hs.cnfol.com/cm/imgs/load.gif
 ||hs640.com/js/jquery.js
 ||hsbianma.com/ad/
@@ -3067,7 +3070,6 @@
 ||images.sohu.com/ytv/*.jpg
 ||images.whoer.com/image/*.gif
 ||imagespublic.tk/clothes/comeliness.php
-||imagetwist.com/b9ng.js
 ||imdb.com/_json/getads/
 ||imedown.info/03.jpg
 ||imedown.info^*.gif
@@ -4067,7 +4069,6 @@
 ||parade.com/runtime/webads.js
 ||partwithner.com/partners/
 ||pasazer.com/_assets/js/ad-connect.js
-||paypalobjects.com/web/res/*/js/ad.js
 ||pbc.pagesix.com/p/nyp/pagesix/pb.js
 ||pbmp.ali213.net/js/
 ||pc6.com/img/
@@ -4908,7 +4909,6 @@
 ||tra.scds.pmdstatic.net/advertising-core/
 ||trafficmanager.net/o.js
 ||trahkino.cc/static/js/li.js
-||traingon.top/static/content-access.js
 ||tranny.one/bhb.php
 ||tranny.one/trannystatic/ads/
 ||trannygem.com/ai
@@ -4986,7 +4986,6 @@
 ||ukdevilz.com/static/players/*/vast.js
 ||unecne.com/wp-content/uploads/*ad-
 ||unikoshardware.com/wp-content/uploads/*/*/wpointer_ad_440x250.jpg
-||unlimplay.com/vast-resolve.php
 ||unpkg.com/hjadu/
 ||unpkg.com/sejie
 ||unpkg.com/videojs-vast-vpaid@
