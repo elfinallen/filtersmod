@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-10-13 05:14:01 UTC
-! Total Rules: 11735
+! Last Updated: 2026-10-13 18:48:38 UTC
+! Total Rules: 11739
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -5317,6 +5317,7 @@
 ||d.bidmatic.io/tracking/
 ||d.line-cdn.net/*/torimochi.js/*/torimochi.js
 ||d.line-scdn.net/*/torimochi.js/*/torimochi.js
+||d.linker-network.me/viewable|
 ||d.mobilebanner.ru/p.gif
 ||d14pdm1b7fi5kh.cloudfront.net/script.js
 ||d17m68fovwmgxj.cloudfront.net/js/appier-track-
@@ -7476,7 +7477,6 @@
 ||lf3-data.volccdn.com/obj/data-static/log-sdk/
 ||lftce.clearstem.com/load
 ||lg-chatbot.com/chatbot/v*/api/client_logger
-||lge.co.kr/lg5-common/js/common/googleheader.js
 ||lgforbes.akamaized.net/rtblog.php?
 ||lhinsights.com/collect?
 ||lib.onet.pl/s.csr/adp
@@ -8721,6 +8721,7 @@
 ||pixazza.com/track/
 ||pixel*.adswizz.com
 ||pixel.archive.
+||pixhost.to/m7v2q9/
 ||pixlee.com/assets/fp.js
 ||pixlee.com/assets/keen-
 ||pixlee.com/assets/pixlee_events.js
@@ -10793,6 +10794,7 @@
 ||turbobit.net/ajax/fdlogger/
 ||turbobit.net/js/analytics/fduserfingerprinttoken.js
 ||turbovpn.com/api/mms/analytics/v1/events|
+||turizmguncel.com/api/track|
 ||turkiyegazetesi.com.tr/item/hit?
 ||turner.com/analytics/comscore/streamsense.
 ||turnto.com/event
@@ -11012,6 +11014,7 @@
 ||vcita.com/tr_
 ||vdo.ai/core/logger.php?
 ||vdo.ai/core/scantrad-net/
+||vdrama.fans/js/vd-analytics.js
 ||vecer.com/js/remp.js
 ||vechtsportonline.nl/static/*/tracking.js
 ||vecteezy.com/dmpu/
@@ -11366,6 +11369,7 @@
 ||wikipedia.de/tracking.js
 ||wikipedia.org/beacon/
 ||wikipedia.org/ins-502b/v2/events
+||windowspro.de/stats/
 ||windowspro.de/stats/mto.js
 ||windy.com/sedlina/ga/
 ||wine-searcher.com/k6s8okp3/init.js

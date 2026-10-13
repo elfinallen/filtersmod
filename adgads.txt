@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-10-13 05:14:01 UTC
-! Total Rules: 5517
+! Last Updated: 2026-10-13 18:48:38 UTC
+! Total Rules: 5522
 ! Expires: 5 days
 /a/ipn/js/*
 /a/p?adid=
@@ -205,7 +205,6 @@
 /ggpic/*
 /ggtp/*
 /ggvip/*.js
-/gh/91porny/*
 /gmu-download.oss-
 /guang/5liao.me.gif
 /guang/guang*.js
@@ -220,6 +219,7 @@
 /gubawap/ad/*
 /gwunggou/*
 /haijiao3/*/popup.
+/hao123/card/fill
 /hao123_api/api/cpc/*
 /heituad/*
 /hjstore/system/banner/*.txt
@@ -2624,6 +2624,7 @@
 ||gaymes.net/wp-content/themes/gameking/js/gaymes.js
 ||gaymes.net/wp-content/themes/gameking/js/porngaymes.js
 ||gayporntube.com/spots.php?
+||gays-cruising.es/recursos/
 ||gd-singapore.com/data/1724/aimg/rloadbnus-ibc26.
 ||gd.ct10000.com/js/ecssstat.js
 ||gd.sina.com.cn/iframe/22/
@@ -4156,6 +4157,7 @@
 ||pixfs.net/module/fullpage/dist/ad-full-page-enter-fly.
 ||pixfs.net/module/fullpage/dist/ad-full-page.
 ||pixhost.cc/resource-session/
+||pixhost.to/resource-session/
 ||pixlr.com/fad/
 ||pjtime.com/js/show_ad
 ||pkvs.com/public/300/
@@ -4174,6 +4176,7 @@
 ||popcornmovies.ac/api/ads
 ||popin.cc/ads/
 ||porn87.com/static/stream_ads/
+||porndd.com/static/js/popunder-inject.js
 ||porndoe.com/views/footer/banners.html
 ||porndoe.com/wp-contents/channel?
 ||porngamespass.com/iframes/
@@ -5027,6 +5030,8 @@
 ||variflight.com/carnoc/ad/
 ||vdianying.cc/img/youhuiquan250.gif
 ||vdianying.cc/wp-content/plugins/wp-adblock-dedect/
+||vdrama.fans/js/vd-ad-config.js
+||vdrama.fans/js/vd-playback-check.js
 ||vercel.app/ads/
 ||vgao.xyz/images/*.gif
 ||vidcrunch.com/api/adserver/
