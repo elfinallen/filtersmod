@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-10-12 20:50:26 UTC
-! Total Rules: 5512
+! Last Updated: 2026-10-13 05:14:01 UTC
+! Total Rules: 5517
 ! Expires: 5 days
 /a/ipn/js/*
 /a/p?adid=
@@ -917,6 +917,7 @@
 ||4hw.com.cn/js/common.js
 ||4kwu.cc/static/js/tj.js
 ||4taoxs.com/api/accept/
+||4tube.com/assets/adn-
 ||4tube.com/assets/padb-
 ||500xxxx.com/go.js
 ||5054399.com/js/rice/m.js
@@ -1109,6 +1110,7 @@
 ||88liu.com/data/attachment/portal/
 ||88ys.cc/js/abcd.js
 ||8d8d.me/images/dealer.gif
+||8muses.com/banner/
 ||8s8s.com/data/banner/
 ||8se.me/service/assets/core-state.
 ||8xbook.org/scripts/ad/
@@ -1405,7 +1407,6 @@
 ||ash.automobile-catalog.com/app.js
 ||ashemaletube.com/api/tiles
 ||ashemaletube.com/ast/b/
-||ashemaletube.com/ast/paysite
 ||asiav.cyou/myupdatelist.
 ||asp300.*/2012adimg/
 ||asp300.*/2012js/
@@ -2050,6 +2051,7 @@
 ||codesocang.com/plus/*baoyue
 ||colamanga.com/sw.js
 ||colonist.io/dist/images/ab_
+||comdotgame.com/static/ads/
 ||comefromchina.com/images/128bestbuy
 ||comicbox.xyz/getadsdata
 ||comicbox.xyz/static/js/ad-manager.
@@ -2435,6 +2437,7 @@
 ||excelhome.net/js/banner-
 ||exmoo.com/js/ad-position/
 ||expreview.com/baba/
+||extremescatporn.com/static/images/banners/
 ||eyny.com/data/cache/js_show_ads.js
 ||eyusky.net/weixin-img/zhifubao.jpg
 ||eyuyao.com/yyad/
@@ -3573,7 +3576,6 @@
 ||lieqinews.com/json/zhiketj/
 ||lihuasoft.net/images/ad_
 ||liisex.com/images/banners/
-||limeiptv.to/static/b1.gif
 ||linecg.com/uploads/banner/
 ||lingdianshuwu.com/js/content
 ||link114.cn/template/js/showpics_
@@ -3699,6 +3701,7 @@
 ||m1955.com/template/qq/images/playad/
 ||macd.cn/macd-topads.html
 ||macfans.org/vip/
+||machineseeker.com/data/ofni/
 ||macys.com/sitemonetization/v1/sponsored-products/
 ||madnessporn.com/mad/
 ||magedu.com/wp-content/uploads/*/xwzx
@@ -3927,6 +3930,7 @@
 ||netded.com/templets/gfan/js/global.js
 ||netease.com/house-public/articleyunyans.js
 ||netflavns1.com/assets/jquery/app0.
+||netgames.io/js/page-ads.js
 ||new-icon.ol-img.com/jslib/ad
 ||news.99k.tw/open/open*.php
 ||news.cn/2021detail/js/booklist.js
@@ -4181,7 +4185,6 @@
 ||pornpaw.com/never.js
 ||pornpics.de/api/banner/
 ||pornpoppy.com/*/external_pop.js
-||porntn.com/static/js/custom.js
 ||pornx.to/wp-content/uploads/ad*x*.png
 ||pornxp.com/2.js
 ||portal.librus.pl/ad|
@@ -4704,6 +4707,7 @@
 ||static.tohomh123.com/js/funasd.js
 ||static.videezy.com/assets/underpop-*.js
 ||static.wgospodarce.pl/images/top_banners
+||static.xcafe.com/adm/
 ||static.xshuyaya.com/m/d.js
 ||statics.123pan.com/fe/phoenix-share/js/pcwapad.min.js
 ||stats.chinaz.com/tool/
@@ -4825,6 +4829,7 @@
 ||thehun.net/banners/
 ||thekav.co/myexo/
 ||thephuketnews.com/photo/banner/
+||theplatform.kiwi/ads/
 ||theporn.xyz/static/bet365.gif
 ||theporn.xyz/static/tmp/
 ||thesimsresource.com/js/ad-loader.js
