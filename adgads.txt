@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-10-13 18:48:38 UTC
-! Total Rules: 5522
+! Last Updated: 2026-10-14 03:19:53 UTC
+! Total Rules: 5520
 ! Expires: 5 days
 /a/ipn/js/*
 /a/p?adid=
@@ -457,7 +457,6 @@
 /sc_ifeng/*
 /scr/wtixyd.js
 /scrollgg_index.js
-/sdk/v1/dd.interstitial.ts.js
 /sdk/v1/dd.master.spot.js
 /search/tsc.php?ses=
 /secretmine_out.js
@@ -1557,7 +1556,6 @@
 ||banma.com/get_ad/
 ||banma.com/js/adi.js
 ||banma.com/statics/scripts/common/dialogadjs.js
-||banner-api.grouphfm.com/banner/
 ||banzhu*.com/js/cdn.
 ||banzhu*.com/js/html
 ||banzhu33333.net/js/cdn.
@@ -2416,7 +2414,6 @@
 ||eporner.com/event.php
 ||eporner.com/xhr/vast/
 ||eprice.com.tw/img/tw_m/ad/
-||ero-labs.*/api/v2/system/config?name=partner_mall_url
 ||ero-labs.*/assets/js/appbanner.js
 ||eroprofile.com/js/nvbla.js
 ||erowall.com/126.js
@@ -2604,7 +2601,6 @@
 ||ganji.com/content.php
 ||ganjing.com/vast.vpaid.min.js
 ||ganjistatic1.com^*/adm/
-||gannett-cdn.com/partner/vendor/gntx-pbjs.js
 ||gansudaily.com.cn/2017zt/images/*gg
 ||gaofen.com/source/plugin/gaofen_ad/
 ||gaofuwu.org/js/dd.js
@@ -4029,7 +4025,6 @@
 ||oploverz.my/wp-content/uploads/*/*.gif
 ||opticsky.cn/images/2015/gy-px201
 ||optiklink.com/arlinablock.js
-||orangepix.is/istrp/*.gif
 ||oremanga.net/wp-content/uploads/*.gif
 ||orzx.im/document/recommend/flashpoint.html
 ||orzx.im/document/union/
@@ -4188,6 +4183,7 @@
 ||pornpaw.com/never.js
 ||pornpics.de/api/banner/
 ||pornpoppy.com/*/external_pop.js
+||porntn.com/static/js/custom.js
 ||pornx.to/wp-content/uploads/ad*x*.png
 ||pornxp.com/2.js
 ||portal.librus.pl/ad|
@@ -4735,6 +4731,7 @@
 ||streamcash.to/js/rtc.js
 ||streamex.hn/pop.js
 ||stripchat.com/api/external/
+||strtpe.link/ppmain.js
 ||stulip.org/static/js/header.js
 ||su.bdimg.com/static/dspui/js/
 ||subhd.com/images/ap/
@@ -5032,6 +5029,7 @@
 ||vdianying.cc/wp-content/plugins/wp-adblock-dedect/
 ||vdrama.fans/js/vd-ad-config.js
 ||vdrama.fans/js/vd-playback-check.js
+||veo-hentai.com/wp-content/plugins/veohentai/popunder-unificado.js
 ||vercel.app/ads/
 ||vgao.xyz/images/*.gif
 ||vidcrunch.com/api/adserver/
