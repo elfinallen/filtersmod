@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-10-14 03:19:53 UTC
-! Total Rules: 5520
+! Last Updated: 2026-10-14 16:24:50 UTC
+! Total Rules: 5500
 ! Expires: 5 days
 /a/ipn/js/*
 /a/p?adid=
@@ -69,6 +69,7 @@
 /api/aaaac/list
 /api/apifetchadsdata
 /api/autosda.php
+/api/models/*^domain=xhamster
 /api/models/vast?
 /api/v2/items/*?ev=
 /api/video/getadsdata?
@@ -204,7 +205,6 @@
 /ggjs/*
 /ggpic/*
 /ggtp/*
-/ggvip/*.js
 /gmu-download.oss-
 /guang/5liao.me.gif
 /guang/guang*.js
@@ -343,8 +343,6 @@
 /live173/640320_
 /live173_*/46860.
 /lteee/ad/*
-/m1938pc/static/css/sxy.css
-/m1938pc/static/js/dibu.js
 /macplus/ads/*
 /main.js?v=*&sp=*&ty=
 /main/s?
@@ -379,7 +377,6 @@
 /nb/f_ls.js
 /nbk/frnd_ld.js
 /newfengchao/asp
-/nfhry32_78.js
 /nforum/files/adv/*
 /nordvpn/autoptimize_
 /nowscore/ad/*
@@ -498,7 +495,6 @@
 /static/tb/kyqp.gif
 /statics/recommend/bense.gif
 /stui_ads/xyz456e/*
-/stuia004/statics/asd/*
 /sxgg/12.js
 /sxgg/13
 /tanad.js
@@ -513,8 +509,6 @@
 /template/hei/js/1.php
 /template/jiejiesao/aaaa/*
 /template/js/adsdata.js
-/template/m1938-*/static/js/dao_
-/template/m1938pc/bd/*.js
 /template/paody/aaaa/all-top.js
 /template/shoujigg/*
 /template/zsy_badian/dddytt-gg/*
@@ -569,7 +563,6 @@
 /wxh_asy.js
 /wxhfm.html?cid=
 /xdy_yyo.php
-/xgrghru981_23.js
 /xianbao_theme/script/intelligence.
 /xianbao_theme/ziyuan/1111/hongbao.
 /xiaoyi/360_
@@ -601,7 +594,7 @@
 /zpp/zpp4.js
 /zzzz/assets/js/common/discor_list.js
 ||007ds.com/js/js/
-||00eeekk.com//html5/activitypage/
+||007xf.com/html/js/top.
 ||01u.net/js/tj.js
 ||02wq.com/script/
 ||02wq.com/script1/
@@ -735,8 +728,6 @@
 ||1905.com/data/js/*.json
 ||1909.me/service/assets/core-state.
 ||192ly.com/wp-content/cache/*.js
-||1990tu.com/i/*.gif
-||1990tu.com/i/*.png
 ||1av.to/assets/ad/
 ||1gr.cz/u/idn4/reklama
 ||1ketang.com/runtime/js/play
@@ -1135,8 +1126,6 @@
 ||91jp3.beauty/abc/data*.json
 ||91p20.space/fans/
 ||91porna.com/static/web/js/ad-sdk-
-||91rb.net/fc/
-||91rb.net/js/gg.js
 ||91xiazai.com/public/index/images/zanzhushang.gif
 ||91xporn.com/fans/
 ||91yun.co/download/
@@ -1146,7 +1135,6 @@
 ||92dp.com/home/showga?
 ||92ghai.com/zz/
 ||92uq.com/ads/
-||933m.com/1.js
 ||94994.com*/js/plugin/shoppingmall/
 ||949949.com/2013/end/hot_news.js
 ||94az.com/astyle/wap.
@@ -1651,6 +1639,7 @@
 ||biqiuge5.org/mo.
 ||biqivge.cc/js/d
 ||biqivge.cc/js/p
+||biquga.com/js/jvs.
 ||biquge700.com/h5/wap.
 ||biquge96.com/123.
 ||biqugie.com/js/wap.
@@ -1757,6 +1746,7 @@
 ||bzhanyy.com^*.gif
 ||c-ctrip.com/images/0101r120009e1kn7ocdca.gif
 ||c-ctrip.com/train/201611/yqh_270-280.jpg
+||c.fimgs.net/e/*theme=auto
 ||c.mipcdn.com/static/*/mip-ad/mip-ad.js
 ||c.stmedia.click/static/cac.min.js
 ||c114.com.cn/default_inc/a/images/
@@ -2572,7 +2562,6 @@
 ||gadgets360.com/pricee/assets/affiliate/
 ||gaglxx.com/5_
 ||galacg.me/wp-content/uploads/*750x
-||galaxymedia.xyz/app/images/banner.gif
 ||galleries-pornstar.com/thumb_top/
 ||gamcore.com/ajax/abc?
 ||gamcore.com/z0mb24.js
@@ -3630,7 +3619,6 @@
 ||lsjxs.cc/js/html
 ||lsntzzy3.com/runtime/js/psdata.js
 ||lsnzxzy1.com/runtime/js/psdata.js
-||ltbyw.top/data/images/*.gif
 ||ltn.com.tw/js/ad_door.js
 ||lu228.com/ajs/
 ||lua.tools/ads/
@@ -3856,7 +3844,6 @@
 ||mtime.cn/tg/
 ||multporn.net/fern*_pen.js
 ||muyuge.com/fw.html/
-||muyys.com/img/
 ||muzisoft.com/static/*_f.js
 ||mvcat.com/ad/
 ||mvcat.com/api/wx/follow.js
@@ -3988,7 +3975,6 @@
 ||nvdst.com/templates/frontend/white/js/_pnuvid.js
 ||nvsheng.com/js/gg.js
 ||nweon.com/wp-content/repo/ad/
-||nwxs5.com/js/
 ||nxflv.com/nxflv.js
 ||nxing.cn/uploads/uploads/*-size1220x
 ||nyaa.*/static/js/ccheck.js
@@ -4286,7 +4272,6 @@
 ||qiyun.org/images/js/*.htm
 ||qizhihaotian.com^*.js
 ||qk6.org/file/script/
-||qksapp.net/gif/
 ||qmwxb.com/skins/2/images/qp001.gif
 ||qncye.com/ads/
 ||qnsb.com/news/index.php?m=poster&
@@ -4466,7 +4451,6 @@
 ||scibook.cn/tuiguang.
 ||sciencenet.cn/field/js/news.
 ||sciencenet.cn/html/js/n
-||scint-x.com/js/
 ||scnlog.me/wp-content/themes/scnlog/js/pa.js
 ||sconline.com.tw/top/coolpc_
 ||script.wikia.nocookie.net/fandom-ae-assets/odyssey/ad-engine/production/main.js
@@ -4780,7 +4764,6 @@
 ||szonline.net/static/js/ads.js
 ||szxljdsb.com/tl
 ||szyepu8.com/data/aaddimg/
-||szyhqj.com/js/
 ||t.atmng.io/adweb/*.prod.js
 ||t.c-c.one/b/
 ||t.c-c.one/z/
@@ -5082,7 +5065,6 @@
 ||w3xue.com/js/pro541.js
 ||wa.kuwo.cn/lyrics/img/kwgg/
 ||wacowla.com/wp-content/plugins/popover/js/
-||wai69.com/js/baidu/
 ||waipian*.com/statics/recommend/
 ||wake-up-neo.com/bnet/
 ||wallpapers.com/api/ads/
@@ -5348,7 +5330,6 @@
 ||yemancomic.com/static/maoshuang.js
 ||yemancomic.com/static/xiaomage.js
 ||yeniemlak.az/img/banner/
-||yeshefb.com/template/conch/dd/
 ||yesky.com/s?z=
 ||yespornpleasexxx.com/wp-content/litespeed/js/
 ||yeyou.com/2013/new/yeyou-float-window.js
@@ -5412,7 +5393,6 @@
 ||ysxs8.vip/js/play_db.js
 ||ysxs8.vip/ysgg/
 ||ytbbs.com/images/index/
-||ytse*.top/static/home/gonggao/img/
 ||yuanbao777.com/download/*.gif
 ||yuanxue365.com/js/a22.
 ||yueipaoo.xyz^*.gif
