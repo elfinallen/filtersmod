@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-10-14 16:24:50 UTC
-! Total Rules: 11744
+! Last Updated: 2026-10-15 02:58:22 UTC
+! Total Rules: 11751
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -4096,6 +4096,7 @@
 ||assets.yumpu.com/release/*/tracking.js
 ||assistant.watson.appdomain.cloud/analytics/
 ||asterpix.com/tagcloudview/
+||astrologyanswers.com/gtmmetrics/
 ||at.cbsi.com/*/event?
 ||at.cbsi.com/lib/api/client-info
 ||at.cbsi.com^*/event?
@@ -4622,6 +4623,7 @@
 ||catalove.com/bimp/
 ||catalove.com/ntv/
 ||catawiki.com/ab/s.js
+||catch.dmm.co.jp/newrelic.js
 ||cba24n.com.ar/api/v*/analytics
 ||cbc.ca/g/stats/
 ||cbs12.com/api/rest/analytics/
@@ -4890,6 +4892,7 @@
 ||chickencoopcompany.com/api/collect
 ||chil-chil.net/cpadshow/
 ||chimpstatic.com/mcjs-connected/js/
+||choices.trustarc.com/get?
 ||choosefi.com/api/site/track
 ||choosefi.com/block-event
 ||choosefi.com/conversion-event
@@ -5027,6 +5030,7 @@
 ||cloudfunctions.net/conversioneventcondition|
 ||cloudfunctions.net/export-customizer-data-metrics
 ||cloudfunctions.net/function-record-stream-metric?
+||cloudfunctions.net/goose-track-pageview-prd
 ||cloudfunctions.net/ingest?
 ||cloudfunctions.net/sendwebpush-analytics
 ||cloudfunctions.net/trackevent
@@ -5573,6 +5577,7 @@
 ||dlswbr.baidu.com/heicha/mw/abclite-*.js
 ||dmcdn.net/behavior/
 ||dmcdn.net/js/gen/lib/dm/ga.js
+||dmm.co.jp/js/tracking.min.js
 ||dmm.com/analytics/
 ||dmm.com/imp?
 ||dmt.fidelity.com/prod/meas/
@@ -9997,6 +10002,7 @@
 ||startpage.com/sp/elp
 ||startpage.com/sp/jst
 ||starzplay.com/resources/js/analytics.js
+||stat.i3.dmm.com/plus/tracking.js
 ||stat.tiara.
 ||stat.tildaapi.com/event/
 ||statcounter.com/counter/*.js
@@ -11056,6 +11062,7 @@
 ||video-cdn.net/event?
 ||video-library.showheroes.com/player/ad_tag?
 ||video-player.arcpublishing.com/beacon|
+||video.dmm.co.jp/js/tracking.min.js
 ||video.google.com/api/stats/
 ||video.mediaset.it/polymediashowanalytics/
 ||video.steamstatic.com/*/stats/playerevent/?
