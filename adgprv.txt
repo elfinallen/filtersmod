@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-10-16 15:59:09 UTC
-! Total Rules: 11754
+! Last Updated: 2026-10-17 02:46:57 UTC
+! Total Rules: 11761
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -805,6 +805,7 @@
 /dynamicyield/*
 /dynatracemonitor?
 /e.gif?
+/e/*^ip=*^beacon=
 /e_stat?g_id=
 /eatms.js
 /ecanalytics.js
@@ -4426,6 +4427,7 @@
 ||bonprix.*/ajax/landmarks/
 ||bonprix.*/ajax/marketing-parameters/
 ||book.naver.com/monitor/cc
+||bookbear.kr/js/site_log.js
 ||bookcabin.com/api/log-browser
 ||booking.com/87sduif98q3rijax
 ||booking.com/c360/v1/track
@@ -5467,6 +5469,7 @@
 ||decathlon.net/content/tracker.v2.prod.min.js
 ||deepl.com/web/statistics
 ||deepsystems.com/wp-content/plugins/integrate-posthog-web-analytics/
+||deepweb.net/api/event
 ||deezer.com/ajax/gw-light.php?method=log.listen
 ||deezer.com/ajax/gw-light.php?method=triton.pixeltracking&
 ||dein-plan.de/t.gif
@@ -5491,6 +5494,7 @@
 ||dell.com/*/clickstream/collect
 ||delphi.lv/t/t.js
 ||delt.io/a/
+||delt.io/a/nalytic/s.js
 ||delta.com/datacollect
 ||delvenetworks.com/player/plugins/analytics/
 ||demandmedia.com/wm.js
@@ -10597,6 +10601,7 @@
 ||tio.ch/ext/u.php?
 ||tio.ch/lib/videojs/video-js-tiostats.js
 ||tiplink.io/fp-agent.js
+||tips.delt.io
 ||tipsport.sk/c/1x1.php?
 ||tiscali.it/banner-tiscali/stats.html?
 ||titan24.com/scripts/stats.js
@@ -10918,6 +10923,7 @@
 ||ump.sf-express.com/monitor/*/report|
 ||umschool.net/_jts/api/s/track
 ||unagi*.amazon.*/events/
+||unami.delt.io/script.js
 ||unblog.fr/cu.js
 ||underthesnow.ru/engine/modules/counter-
 ||uni-duesseldorf.de/cgi-bin/nph-count?
@@ -11618,6 +11624,7 @@
 ||yeti.com/t1p5rban/init.js
 ||yext.com/plpixel?
 ||yigouw.com/c.js
+||yimg.com/*/ymanalytics-core.js
 ||yimg.com/aaq/vzm/cs_*.js
 ||yimg.com/aaq/wf/wf-darla-
 ||yimg.com/cx/vzm/cs.js
