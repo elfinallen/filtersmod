@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-10-17 02:46:57 UTC
-! Total Rules: 5271
+! Last Updated: 2026-10-17 14:52:46 UTC
+! Total Rules: 5269
 ! Expires: 5 days
 /a/ipn/js/*
 /a/p?adid=
@@ -389,6 +389,7 @@
 /qqlive/conf/playerlottery/*
 /rb/agent2.php?spot=
 /remix_banner.gif
+/render-sidebar-ad.php?ad_id=
 /renderlapinblock?
 /resource/common/tongzhuo/game_info.json
 /rest/carbon/api/scripts.js?
@@ -672,7 +673,6 @@
 ||1909.me/service/assets/core-state.
 ||192ly.com/wp-content/cache/*.js
 ||1av.to/assets/ad/
-||1gr.cz/u/idn4/reklama
 ||1ketang.com/runtime/js/play
 ||1pwx.com/js/ck.js
 ||1x6666.com/img/
@@ -1268,6 +1268,7 @@
 ||api.apiimg.com/huaer/xiahe.js
 ||api.bilibili.com/x/ad/
 ||api.coinmarketcap.com/content/*/ad-banner/
+||api.jerkmotion.com/r/
 ||api.leakgallery.com/affiliate/
 ||api.leakgallery.com/r/
 ||api.live.bilibili.com/*/banner
@@ -1371,6 +1372,7 @@
 ||bad.news/scripts?
 ||bad996.com/dakaads.js
 ||badmintoncn.com/cbo_include/js/cboaaa.js
+||badvault.com/api/ads?type=hilltop
 ||bahamut.com.tw/js/ad.js
 ||baidu.com/?action=getadsdata&
 ||baidu.com/adpc/scrolltextad.js
@@ -1834,10 +1836,6 @@
 ||cidianwang.com/js/zdtop.js
 ||cilimao.*/amaod/
 ||cilipa.com^*0.js
-||cinemove.cc/adcash-pop-test
-||cinemove.cc/api/ad-pop
-||cinemove.cc/api/ads-config
-||cinemove.cc/cm-a/q8m2vk.js
 ||citysbs.com/chongqing/*/1920x179-
 ||citysbs.com/no/*/1190x60-
 ||citysbs.com/no/*/650x50-
@@ -1920,6 +1918,7 @@
 ||codenong.com/dq.png
 ||codesocang.com/js/a.js
 ||codesocang.com/plus/*baoyue
+||coincheck.com/images/affiliates/
 ||colamanga.com/sw.js
 ||colonist.io/dist/images/ab_
 ||comdotgame.com/static/ads/
@@ -2272,7 +2271,6 @@
 ||eporner.com/event.php
 ||eporner.com/xhr/vast/
 ||eprice.com.tw/img/tw_m/ad/
-||ero-labs.*/assets/js/appbanner.js
 ||eroprofile.com/js/nvbla.js
 ||erowall.com/126.js
 ||es3984.review/02_cn_ad/
@@ -2629,7 +2627,6 @@
 ||haiyuer.com/didi
 ||haiyuer.com/nb.js
 ||haiyuer.com/uc
-||hamropatro.com/images/rotating-ads/
 ||handjob.tw/ad/
 ||hanime1-me.*/herebyad
 ||hanime1-me.top/view_booster.js
@@ -3834,6 +3831,7 @@
 ||oploverz.my/wp-content/uploads/*/*.gif
 ||opticsky.cn/images/2015/gy-px201
 ||optiklink.com/arlinablock.js
+||orangepix.is/istrp/*.gif
 ||oremanga.net/wp-content/uploads/*.gif
 ||orzx.im/document/recommend/flashpoint.html
 ||orzx.im/document/union/
@@ -3967,6 +3965,7 @@
 ||pkvs.com/public/300/
 ||pkvs.com/public/as.js
 ||player.globalsun.io/*-player.js
+||playerls.com/js/jquery/*/jquery-*.min.js?v=
 ||playgama.com/ads/
 ||playzip.com/static/js/abcd.js
 ||plibcdn.com/templates/base_master/js/jquery.shows2.min.js
@@ -4540,8 +4539,6 @@
 ||supfree.net/stat
 ||supfree.net/top.gif
 ||supfree.net/xxx/
-||svetserialu.*/assets/js/ads.js
-||svetserialu.*/assets/js/popads.js
 ||sweeva.com/images/banner250.gif
 ||swoole.com/_images/kundian
 ||swoole.com/_images/w7.jpg
@@ -4785,6 +4782,7 @@
 ||uugtv.com/x/app/videospread?
 ||uwants.com/dfp_forum.php?au=uwants_web_
 ||uwants.com^*_prod.html
+||v.vidxgo.co/assets/js/popups_runner.js
 ||v2ex.com/pro/emitter
 ||v2rayssr.com/wp-content/plugins/eazy-
 ||v4dwkcv.com/html/click/
