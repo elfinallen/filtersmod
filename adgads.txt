@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-10-18 02:49:05 UTC
-! Total Rules: 5270
+! Last Updated: 2026-10-18 15:18:23 UTC
+! Total Rules: 5268
 ! Expires: 5 days
 /a/ipn/js/*
 /a/p?adid=
@@ -2755,7 +2755,6 @@
 ||hoopchina.com.cn/web/widget/partner/*/promote.js
 ||hoopchina.com.cn^*/ad-pc-sdk.
 ||hornygamer.com/includes/gamefile/sw3d_hornygamer.gif
-||hornygamer.com/play_horny_games/
 ||hotavxxx.com/images/*96
 ||hoteastday.com/newspc/show?
 ||hotpress.info/blog/asian-javdl/wp-content/uploads/irvsxp.js
@@ -3922,6 +3921,7 @@
 ||pharmnet.com.cn/js/float_div.js
 ||phb123.com/skin/js/tongji.js
 ||phbkm.com/js/
+||phncdn.com/*/pics/skins/
 ||photos18.com/images/friend/
 ||php1.cn/uploads/huayun.jpg
 ||phpernote.com/ali
@@ -4005,7 +4005,6 @@
 ||price.com.hk/ec-discuss-widget.php
 ||price.com.hk/scripts/ysm.js
 ||primevideo.com/cdp/getvideoads
-||pristineplay.co/js/exo-pop-*.js
 ||product.rightmove.co.uk/featured-customer-v2.html
 ||proewildfire.cn/fd.js
 ||proginn.com/cms/10000/
@@ -4661,7 +4660,6 @@
 ||tl86tv.com/52
 ||tlanyan.pp.ua/wp-content/uploads/meomiao.png
 ||tmatch.simba.taobao.com^*&name=tbuad&pid=
-||todaytvseries1.com/ads/
 ||tom.com/*tomflashad
 ||tom.com/adsender/
 ||tonghuacun.com/js/uc.js
