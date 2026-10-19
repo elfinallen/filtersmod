@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-10-19 03:01:37 UTC
-! Total Rules: 5268
+! Last Updated: 2026-10-19 18:16:09 UTC
+! Total Rules: 5252
 ! Expires: 5 days
 /a/ipn/js/*
 /a/p?adid=
@@ -48,7 +48,6 @@
 /adtmp/*
 /adtopbar.
 /adunit/track-view|
-/advanced-ads-layer/public/assets/js/layer.js
 /adverjs/*
 /advert/youxi.js
 /advpic/*
@@ -398,7 +397,6 @@
 /runtime/js/300_300.js
 /runtime/js/90_m.js
 /runtime/js/960_90.js
-/runtime/js/banner_
 /runtime/js/footer-m.js
 /runtime/js/fumeiti.
 /runtime/js/guding_top.js
@@ -499,7 +497,6 @@
 /vendors~ads.
 /view/image/ngps1.gif
 /view/img/b72890.jpg
-/vipgg/*
 /vjioew-1322507002.
 /vmind.qqvideo.tc.qq.com^
 /wamobantong.oss-
@@ -548,7 +545,6 @@
 ||02wq.com/script1/
 ||042.cn/adver/
 ||0439.com/javascript.php?part=advertisement&
-||04cmm.com:8888/js
 ||04stream.tv/sda/
 ||0573fang.com/ads/
 ||0575bbs.com/js/float.js
@@ -712,7 +708,6 @@
 ||23qb.com/skin/style
 ||23qb.com/skin/xiu.js
 ||23sc.cn/andy/
-||24cmm.com:8888/js
 ||2500sz.com/site/
 ||250sy.cc/gg/
 ||256856.com/fei-ad/
@@ -908,7 +903,6 @@
 ||56ads.com/js/main.js
 ||56img.com^*/baidu-promotion.js
 ||56img.com^*/search-engine-promotion.js
-||56rmm.com:8888/js
 ||56xiaoshuo.net/mm.
 ||576tv.com/scripts/home.js
 ||57fx.com/img/20170508.jpg
@@ -978,7 +972,6 @@
 ||711dm.com/color.
 ||76fengyun.com/70070.gif
 ||76fengyun.com/jsa/
-||76wmm.com:8888/js
 ||77ds.*/js/77ad.js
 ||77ds.vip/js/shichuang.js
 ||78dm.net.cn/acg_201*_250
@@ -1143,7 +1136,6 @@
 ||adult-sex-games.com/images/*.gif
 ||adult-sex-games.com/images/adult-games/
 ||adultfilmdatabase.com/graphics/porndude.png
-||adultvideocdn.com/assets/aigf/
 ||advertising.civitai.
 ||adwordsing.com/img/1.jpg
 ||adwordsing.com/img/2.jpg
@@ -1181,7 +1173,6 @@
 ||aizhan.com/images/img/apicn.
 ||aizhan.com/images/img/ios-sign.png
 ||aizhan.com/imagesa/
-||akabebe.com/jgg/*.gif
 ||akqipai.com/m/tpl/v3/js/indexbottom.js
 ||akuziti.com/tu/*.js
 ||aldtop.com/scrtips/
@@ -1268,6 +1259,8 @@
 ||api.apiimg.com/huaer/xiahe.js
 ||api.bilibili.com/x/ad/
 ||api.coinmarketcap.com/content/*/ad-banner/
+||api.deepai.org/set_user_sees_ads
+||api.deepai.org/thrad-placement-proxy
 ||api.jerkmotion.com/r/
 ||api.leakgallery.com/affiliate/
 ||api.leakgallery.com/r/
@@ -1277,7 +1270,6 @@
 ||api.wudizuqiu.com/72nba
 ||api.wudizuqiu.com/bocai.js
 ||apic.91bixin.net/api/thirdadv/
-||apic.in/mmd.gif
 ||apiimg.com/haishui/
 ||apiimg.com/huaer/xiahe.
 ||apis.pchome.com.tw/js/idlead.js
@@ -1664,8 +1656,6 @@
 ||camspic.com/imguang/*.gif
 ||canimgs.com/images/
 ||canton8.com/adphoto/
-||cao0001.com/vip/js/
-||cao0002.com/vip/js/
 ||caoads.com/images/
 ||caoav.net/img/*.js
 ||caoimgs.com/images/*.gif
@@ -1685,7 +1675,6 @@
 ||ccdm*/scripts/ccmedia.js
 ||ccement.com/index/index/fetchad
 ||ccement.com/js/ccement_new/open.js
-||cckke.com/fanhao/v/ad
 ||ccp.digitaltrends.com/go/ccp/products/*/offers
 ||cctime.com/uploadfile/201*.gif
 ||cctv.com/library/a2.js
@@ -1720,6 +1709,7 @@
 ||cdn.jsdelivr.net/gh/prebid/currency-file@1/latest.json
 ||cdn.jsdelivr.net/gh/the-3labs-team/js-anti-adblock@main/dist/antiadblocker.min.ob.js
 ||cdn.onnetwork.tv/js/player*/player_prebidm.js
+||cdn.onnetwork.tv/js/prebid*.js
 ||cdn.ping0.cc/images/ex/*.gif
 ||cdn.questvert.pl/publishers/*/qpscript.js
 ||cdn.rawgit.com/arlina-design/quasar/*/arlinablock.js
@@ -1855,7 +1845,6 @@
 ||cloud.tencent.com/developer/api/common/getads
 ||cloud.tencent.com/developer/api/common/getoneads
 ||clouddn.com/960x60.gif
-||cloudfront-666.kxcdn.com/v4.js
 ||cloudfront.net/public/ct?cpguid=&
 ||cloudfront.net/yongli04/
 ||cn.ntdtv.com/assets/themes/ntd/js/article_ads.js
@@ -2275,7 +2264,6 @@
 ||erowall.com/126.js
 ||es3984.review/02_cn_ad/
 ||estaticos01.gays-cruising.es/recursos/tres-doce.js
-||etadult.com*/images/20
 ||etest8.com/js/158/infojs/
 ||etf88.com/swf/
 ||ettoday.net/ad/*_action.js
@@ -2464,8 +2452,6 @@
 ||gaoqing.la/wp-content/uploads/*goovis
 ||gaoqing888.com/img/icmarkets.
 ||gasaq.com/public/flash/
-||gavbus*.com/assets/common/js/ad.js
-||gavbus*.com/assets/common/js/admenu.js
 ||gay.bingo/agent.php
 ||gay4porn.com/ai/
 ||gaymes.net/wp-content/themes/gameking/js/gaymes.js
@@ -3236,6 +3222,8 @@
 ||k8dm.com/960x70.
 ||kaixin001.com.cn/js/cpm-
 ||kalvin.cn/page/img/
+||kami-labs.fr/*/ads-widget.js
+||kami-labs.fr/*/house-ads.js
 ||kan.cc/statics/abs/scripts/abs.
 ||kan98.com/images/*.gif
 ||kan98.com/statics/js/k2017/kan98.js
@@ -3263,8 +3251,6 @@
 ||kayege.org/js/
 ||kb-render.alicdn.com/html/*.html
 ||kdou.com/ad_js.php?adid=
-||kdw*.com/layer/layer.js
-||kedou*.com/layer/layer.js
 ||kejiwanjia.com/wp-content/uploads/*/1040x100.
 ||kekenet.com/images/*/akasuo
 ||kekenet.com/images/*/tom468x60.gif
@@ -3629,6 +3615,7 @@
 ||miwifi.com^*ads/
 ||mixer.video.iqiyi.com/jp/mixin/resources/
 ||mjedge.net/js/customscript.js
+||mjedge.net/nb/service-handler.js
 ||mm111.net/api.php?mod=ad&
 ||mm387.com/images/*.gif
 ||mmonly.cc/js/mmonlyapp.js
@@ -3772,6 +3759,7 @@
 ||nfydd.com/template/wap1/js/dd.js
 ||niepo.net/api/arrayid/analytics.
 ||nitroflare.com/img/banners/
+||nitter.space/js/ads.js
 ||niu07.com/gg/*.js
 ||niugupan.com/js/tj.js
 ||niupic.com/images/2019/11/17/_17.
@@ -4588,6 +4576,7 @@
 ||teacher.php.cn/php/
 ||tech426.com/pub/
 ||techug.com/aatb/
+||telewebion.faina.ir/v1/ads/
 ||tengfangyun.com/attachment/*/w_1200
 ||tengfun.com/attachment/*/w_1200
 ||tengzhihh.com/image/*-950x277.
@@ -4692,7 +4681,6 @@
 ||trannygem.com/ai
 ||trans.firm.in/*.js
 ||trendmicro.com.tw/wp-content/uploads/*banner
-||troypoint.com/tp-vpn-api?path=
 ||trstx.org/overroll/
 ||truex.com/js/client.js
 ||truyensex*/anh/
@@ -4703,7 +4691,6 @@
 ||tt1069.com/or_pu_0604.js
 ||tt1069.com/script.min.js
 ||tt1069.com/t0602.js
-||ttavav6.com/zz/
 ||ttks.tw/js/otherad.
 ||tube.hentaistream.com/wp-includes/js/pop4.js
 ||tube8.*/_xa/ads
@@ -4772,7 +4759,6 @@
 ||upaiyun.com/system/post_tile/new_web_banners/
 ||upapi.net/pb/ex?w=*&uponit
 ||upload.xchina.biz/ad/
-||uploady.io/images/banners/
 ||uqload.*/js2/*.js
 ||userscript.zone/s.js
 ||usgo.chucaotang.net/ua.js
@@ -4993,7 +4979,6 @@
 ||xiacaidd.com/xiacai/ad/
 ||xianshuabao.com/ashx/pt.ashx?cmd=record&filter=&order=all&
 ||xiaobaipan.com/tb.html
-||xiaobi*.com/layer/layer.js
 ||xiaodutv.com/xda?
 ||xiaohuks.com/1.
 ||xiaopi.com/api.php?op=get_p&
@@ -5032,7 +5017,6 @@
 ||xitonghe.com/skinnew/js/init_g.
 ||xitongzhijia.net/theme/2020/js/10033_
 ||xizi.com/js/rotator.js
-||xkd*.com/layer/layer.js
 ||xkyn.com/imgs/js/al.js
 ||xkyn.com/imgs/js/xx.js
 ||xkzzz.com/zb_users/plugin/morelinks*/show.

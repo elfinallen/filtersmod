@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-10-19 03:01:37 UTC
-! Total Rules: 11761
+! Last Updated: 2026-10-19 18:16:09 UTC
+! Total Rules: 11773
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -2810,6 +2810,8 @@
 /twiga.js
 /tynt.js
 /u.gif?
+/ua/optin?
+/ua/trailevent?
 /ucount.php?
 /udp-analytics.js
 /uds/stats?
@@ -3606,6 +3608,7 @@
 ||analytics.twitter.com/*/adsct?
 ||analytics.vgtimes.
 ||analyticsindiamag.com/~api/analytics|
+||analyto.io/api/event
 ||anapixel.elmundo.es/ter.gif
 ||ancestry.com/core.js
 ||ancestrycdn.com/tao/at/
@@ -3708,6 +3711,7 @@
 ||api.contentpass.net/analytics
 ||api.corr.life/public/metrics/
 ||api.data.pt.mcclatchy.com/events
+||api.deepai.org/log_stat
 ||api.diffchecker.com/external/mixpanel/user-properties|
 ||api.doctolib.fr/nr_insert_
 ||api.doodle.com/data-layer/track
@@ -5053,6 +5057,7 @@
 ||cmp.p7s1.io/*/analytics
 ||cmp.quantcast.com/?log=
 ||cmp.vg.no^*/metrics/
+||cms.1sec.email/api/analytics-track
 ||cms.static.btv.bg/microsites/btvnovinite/js/ga360.js
 ||cn.ntdtv.com/assets/themes/ntd/js/article_ads.js
 ||cnet.com/ext/make/ingest/v*/t|
@@ -5533,6 +5538,8 @@
 ||dhc.co.jp/com/cookie.jsp
 ||dhgate.com/yjb6/
 ||dhl.com/g8dj6p8tag/
+||diablochairs.com/datalayer/index/events?
+||diablochairs.com/static/*/redchamps_orderanalyticalinfo/js/referral.min.js
 ||diabrowser.com/api/event
 ||diabrowser.com/js/arcnet-script.js
 ||diariodonordeste.verdesmares.com.br/static/assets/scripts/p_googletag.js
@@ -5815,6 +5822,8 @@
 ||elpais.com/t.gif
 ||emag.ru/counter/counter.php?url=
 ||emails.macys.com/pub/cct?
+||emailtemporario.com.br/*/trackevents
+||emailtemporario.com.br/~api/analytics
 ||emarketeer.com/tracker/
 ||embed.acast.com/api/proxy?type=impression
 ||embed.acast.com/api/stats
@@ -6076,6 +6085,7 @@
 ||feliz.data.tm-awx.com/smile-web-v2/batch
 ||fem.gprod.postmedia.digital/*/iiquniversalid.js
 ||fenerbahce.org/cmsapi/webanalytics/
+||fenixplay.xyz/api/stats/
 ||fensi.plus/*/tracking/
 ||fensi.plus^*/tracking/
 ||ferienwohnungen.de/api/pxl
@@ -7388,6 +7398,7 @@
 ||kt.com/js/json/*_loguse_html.js
 ||ktla.com/cvbtpurj/init.js
 ||kts-tv.co.jp/common/js/analytics.js
+||kucoin.com/_api/polar/frontend/web_events/
 ||kudoslabs.gg/track/
 ||kumo.network-n.com/configs/sites/
 ||kunduz.com/kunduzlytics.min.js
@@ -8601,6 +8612,7 @@
 ||parismatch.com/build/outbrain-tag.*.js
 ||parkwhiz.com/events/
 ||parte.tv/static/assets/js/pa/lp.js
+||partner-events.favicdn.net/*/partnereventstracking.js
 ||partner.awscconsumerinfo.autotrader.com/*/beacon/
 ||partner.awscconsumerinfo.autotrader.com/accdab/beacon/
 ||partners.sbermarketing.ru/api/tracker/sdk.js
