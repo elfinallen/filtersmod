@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-10-20 03:11:37 UTC
-! Total Rules: 11773
+! Last Updated: 2026-10-20 16:16:38 UTC
+! Total Rules: 11780
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -3841,6 +3841,7 @@
 ||api.tatadigital.com/analytics-engine/
 ||api.tblcontent.com*/log/
 ||api.teester.com/data/collect
+||api.tempmailvip.io.vn/api/track
 ||api.testbook.com/api/*/popup
 ||api.tezfiles.com/*/analytics/
 ||api.thefantazy.com/web-vitals
@@ -4789,6 +4790,7 @@
 ||cdn.tolt.io/tolt.js
 ||cdn.trackcollect.com/metrics/
 ||cdn.ustatik.com/vendor/metrica/watch.js
+||cdn.vector.co/pixel.js
 ||cdn.viberu.ru/dist/tracking.*.js
 ||cdn.webeyo.com/ipinfo|
 ||cdn.wootric.com/wootric-sdk.js
@@ -5977,6 +5979,7 @@
 ||ext.chtbl.com/trackable.js
 ||ext.clickstream.sberbank.ru/metrics/
 ||extendoffice.com/analytics.js
+||external.citynews.it/~shared/do/api/plausible/
 ||extole.io/core.js
 ||extole.io^*/core.js
 ||extra.cz/counter.php?id=
@@ -7367,6 +7370,7 @@
 ||kodik.info/stats|
 ||kohls.com/mtfndb/
 ||kohls.com/test_rum_nv?
+||koin.com/wp-content/plugins/chartbeat/build/chartbeat-user-tracking.*.js
 ||kojima.net/excludes/kpc/js/kjm_gtm.js
 ||kolayik.com/gjyo/
 ||kolesa.kz/ms/rum/v1/send
@@ -9020,6 +9024,7 @@
 ||quadpay.com/analytics/
 ||qualifioapp.com/egw/events
 ||qualtrics.com/jfe/static/dist/c/adobe.
+||qualtrics.com/wrsiteinterceptengine/?q_impress=
 ||qualtrics.com^*/metrics
 ||qualzz.com/assets/trackingscript/webtracking.js
 ||quant.jp/track/
@@ -10300,6 +10305,7 @@
 ||sumsub.com/stry/
 ||suno.com/9i3s/
 ||sunset.com/tia/
+||supabase.co/*/track-visitor
 ||super.cz/*/hit/?
 ||super.cz/*/imp?
 ||super.cz/*/impress?
@@ -10937,6 +10943,7 @@
 ||unagi*.amazon.*/events/
 ||unami.delt.io/script.js
 ||unblog.fr/cu.js
+||uncensored.ai/*/trackevents
 ||underthesnow.ru/engine/modules/counter-
 ||uni-duesseldorf.de/cgi-bin/nph-count?
 ||uniads.net/pixel?

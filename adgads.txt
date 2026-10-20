@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-10-20 03:11:37 UTC
-! Total Rules: 5252
+! Last Updated: 2026-10-20 16:16:38 UTC
+! Total Rules: 5247
 ! Expires: 5 days
 /a/ipn/js/*
 /a/p?adid=
@@ -250,7 +250,6 @@
 /jianshen8/images/plan_banner_
 /jquery.adx.js?
 /jquery.dfp.min.js?
-/jquery.meerkat.
 /jquery.overlayad.js
 /jquery.popunder.js
 /js/aahome.htm
@@ -2287,7 +2286,6 @@
 ||ezprice.com.tw/ezysm/
 ||ezprice.com.tw/js/*_ysm_
 ||f2dsex1.com/public/fb*.png
-||f362.nola.com/script.js
 ||f8dy.tv/template/m1938/js/b
 ||f8dy.tv/template/m1938/js/foot.js
 ||facebook.com/ajax/bnzai*__comet_req=
@@ -2486,7 +2484,6 @@
 ||ghost580.com/js/nei4.js
 ||giaoji.com/runtime/js/
 ||gimy.*/images/eee*.png
-||girls-games.org/bnr/
 ||girlsofdesire.org/blr10
 ||girlsofdesire.org/flr10.js
 ||githubusercontent.com/vip888vip/ug/main/*.gif
@@ -3553,7 +3550,6 @@
 ||media.notthebee.com/ads/
 ||media.swncdn.com/salemads/*/advscript.js
 ||medsci.cn/images/wyg.jpg
-||megaup.net/sw.js
 ||meiju8.cc/js/jquery.p.min.js
 ||meiju8.cc/js/m_ban_
 ||meiju8.cc/js/pv
@@ -4505,6 +4501,7 @@
 ||su.bdimg.com/static/dspui/js/
 ||subhd.com/images/ap/
 ||subserieshd.com/banner/
+||subterra.run/probe.js
 ||sudugu.com/config/v7.js
 ||sudupan.com^*.gif
 ||sufile.com/jsa/
@@ -4801,7 +4798,6 @@
 ||videowood.tv/popjavascript
 ||vidlink.pro/api/mercury
 ||vidstuck.xyz/vidstuck.js
-||vidy.st/scripts/xyz.js
 ||vip.luanren.com/data/*.gif
 ||vip.video.qq.com/rpc/trpc.vip_ad_promotion
 ||vipdage.com/wp-content/uploads/ad/
@@ -5246,7 +5242,6 @@
 ||ztjal.info/wp-content/plugins/kill-adblock/
 ||ztracker.cc/pic/bannerek/
 ||zuiacg.com/images/client/
-||zxcprime.xyz/ad-script.js
 ||zzsky.com/images/a_d_
 ||zztongyun.com/static/js/sh.
 ||zztongyun.com/static/js/sh.min.js
