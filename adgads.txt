@@ -1,7 +1,7 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-10-21 03:06:12 UTC
+! Last Updated: 2026-10-21 16:31:25 UTC
 ! Total Rules: 5248
 ! Expires: 5 days
 /a/ipn/js/*
@@ -784,7 +784,6 @@
 ||3boys2girls.com/templates/default/2013/life/160b5.js
 ||3boys2girls.com/templates/default/2013/randlinks.js
 ||3czol.com/ad/
-||3d-porn.co/va.mp4
 ||3dmax8.com/atu4/
 ||3dmax8.com/jiaoche
 ||3dmgame.com/img/a/640-
@@ -1547,6 +1546,7 @@
 ||bkjia.com/bkjia/js/subnavtop.js
 ||blog.xuite.net/_public/js/ysmad.js
 ||blogspot.com^*/s1600/drug.gif
+||bloodbornepc.wiki/_astro/adsadapter.
 ||blueidea.com/js/ajs.js
 ||blz105.com/player/ad.html
 ||bmp.ali213.net/js/
@@ -2686,7 +2686,6 @@
 ||hentaicomic.*/data/ds/
 ||hentaicomic.*/data/game/*/wap.gif
 ||hentaifox.com/js/slider.js
-||hentaihaven.*/api/ads/?placement=
 ||hentaivideos.net/imp/
 ||herexxxtube.com/tmp/
 ||hexun.*/hxpage/index.html
@@ -3970,7 +3969,6 @@
 ||pornhd3x.tv/cms_data/sites/admin/files/ads
 ||pornhub.*/_xa/ads
 ||pornone.com/js/combined.js
-||pornoxo.com/api/tiles?*&advertisername=faphouse
 ||pornpapa.com/extension/
 ||pornpaw.com/never.js
 ||pornpics.de/api/banner/
@@ -4237,6 +4235,7 @@
 ||sat-universe.com/wos2.png
 ||satroki.tech/api/jdunion
 ||save-editor.com/b/in/ad/
+||savefiles.com/sf7k29x4.js
 ||savefrom.net/build/js/chunk~popup
 ||sax*.sina.
 ||sbo8.com/static/theme/js/bottom.
@@ -4758,6 +4757,7 @@
 ||upapi.net/pb/ex?w=*&uponit
 ||upload.xchina.biz/ad/
 ||uqload.*/js2/*.js
+||uqload.vc/player/jw8/vast.js
 ||userscript.zone/s.js
 ||usgo.chucaotang.net/ua.js
 ||ustv123.com/images/axd.js

@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-10-21 03:06:12 UTC
-! Total Rules: 11780
+! Last Updated: 2026-10-21 16:31:25 UTC
+! Total Rules: 11783
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -4242,6 +4242,7 @@
 ||bance.jp/bnctag.js
 ||bandcamp.com/api/tracker/
 ||bandcamp.com/stat_record?
+||bangbrosnetwork.com/_i?
 ||banggood.com/collectbanner?
 ||banggood.com/collectexception
 ||banggood.com/statistics.html
@@ -4474,6 +4475,7 @@
 ||bravenet.com/counter/
 ||bravotube.net/b_track.js
 ||braze.eu/api/v3/data/
+||brazzersnetwork.com/_ats/eta/events
 ||breadpayments.com/log
 ||breadpayments.com/stats
 ||bridge-ashiato.appspot.com/beacon/
@@ -7204,6 +7206,7 @@
 ||jockey.com/scripts/omt-base.js
 ||joggo.run/api/events
 ||johnlewis.com/browser-performance/
+||join.project1service.com/client-logs
 ||join.protonvpn.com/api/data/v1/metrics
 ||joka.it/inquiero/isapi/csf.dll?
 ||jooble.org/spa-metrics
