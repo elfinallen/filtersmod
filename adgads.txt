@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-10-21 16:31:25 UTC
-! Total Rules: 5248
+! Last Updated: 2026-10-22 03:04:54 UTC
+! Total Rules: 5247
 ! Expires: 5 days
 /a/ipn/js/*
 /a/p?adid=
@@ -3402,7 +3402,7 @@
 ||liuxue86.com/css/liuxue_output.js
 ||liuxue86.com/js/ideng/liuxue-show
 ||liveany.com/images/8d8d.gif
-||livelive24.com/ads/
+||livelive24.*/ads/ad*.js|
 ||livku.com/g1000/
 ||liwupuba.com/livead/
 ||ll.ibiqiuge.com/m.js
@@ -4493,7 +4493,6 @@
 ||storyren.top/imgg/
 ||straitstimes.com/_web2/betterads_head.js
 ||stream.cz/*/vast?
-||streamcash.to/js/detect.js
 ||streamcash.to/js/rtc.js
 ||stripchat.com/api/external/
 ||strtpe.link/ppmain.js
