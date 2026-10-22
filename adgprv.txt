@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-10-22 03:04:54 UTC
-! Total Rules: 11784
+! Last Updated: 2026-10-22 16:32:07 UTC
+! Total Rules: 11791
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -4679,6 +4679,7 @@
 ||cdn.awsli.com.br/production/static/analytics/owa.min.js
 ||cdn.boostcommerce.io/analytic/
 ||cdn.brevo.com/js/sdk-loader.js
+||cdn.brita.net/.resources/scripts/gtmeventtracking-*.js
 ||cdn.brownbrothers.io/api/impression
 ||cdn.builder.io/api/v1/pixel
 ||cdn.calibermind.com/a.js
@@ -6276,6 +6277,7 @@
 ||fspark-ap.com/ft/analytics_log
 ||fstrk.net/api/tracker/
 ||ft.com/ingest?
+||ftbucket.info/*/track.php
 ||ftimg.net/js/log.js?
 ||fubuki-umami.space/api/script.js
 ||fudge.ai/metrics?
@@ -8762,6 +8764,7 @@
 ||pixlee.com/assets/pixlee_events.js
 ||pji.nu/libs/pjpixel/
 ||pla.atlasos.net/api/event
+||pla.fwdcdn.com/api/event|
 ||plantet.pl/products/ping/
 ||plapi.cdnvideohub.com/*/events
 ||platform-eu.cloud.coveo.com/rest/*/analytics/view?
@@ -9749,6 +9752,7 @@
 ||sinajs.cn/open/analytics/
 ||sinajs.cn/open/api/js/wb.js
 ||sinonimos.com.br/hits.php
+||sinoptik.*/stats/
 ||sinst.fwdcdn.com/img/newimg/liveinternet.gif
 ||siriusxmstore.com/api/collect
 ||sirporno.xxx/js/analytics.js
@@ -11068,6 +11072,7 @@
 ||veeseo.com^*/url.gif?
 ||ventunotech.com/beacon/
 ||veoxa.com/get_trackingcode.
+||verbraucherzentrale.de/plugins/heatmapsessionrecording/
 ||vergic.com/api/*/batch/
 ||vertical-n.de/scripts/*/immer_oben.js
 ||verticalnetwork.de/scripts/*/immer_oben.js
@@ -11273,7 +11278,9 @@
 ||wattpad.com/js/tracker/app.
 ||wawacity.*/bypass
 ||wawel-service.pl/checkleadforvisitor
+||wayfair.com/*/wf_auth/authentication/log_frontend_event_data|
 ||wayfair.com/a/campaign_management/tag/get_tracking_tags
+||wayfair.com/api/observability/v*/log|
 ||wayfair.de/a/
 ||wazzup.me/libs/track.js
 ||wblt.oui.sncf/prod/*/vsca.js

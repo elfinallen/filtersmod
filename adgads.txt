@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-10-22 03:04:54 UTC
-! Total Rules: 5247
+! Last Updated: 2026-10-22 16:32:07 UTC
+! Total Rules: 5248
 ! Expires: 5 days
 /a/ipn/js/*
 /a/p?adid=
@@ -508,7 +508,6 @@
 /wp-content/plugins/eazy-ad-unblocker/*
 /wp-content/plugins/jet-blocker-anti-ad-blocker-detector/*
 /wp-content/themes/imovies/js/tc_
-/wp-content/uploads/2026/*/rvpasteref300.png
 /wp-content/uploads/useful_banner_manager_banners/*
 /wxh_asy.js
 /wxhfm.html?cid=
@@ -958,8 +957,6 @@
 ||66wz.com/data/attachment/portal/
 ||66wz.com/eap/
 ||69adu.com/bootstrap.
-||69pedia.com/themes/lite/js/mztn.js
-||69search.com/site/assets/banners/
 ||69shuba.cx^*/shu.js
 ||69shuba.tw/js/gg.js
 ||69shux.com/js/otherad.
@@ -1685,7 +1682,6 @@
 ||cdn*.editmysite.com/images/site/footer/footer-toast-published-image-*.png
 ||cdn-academy.akamaized.net/letras/ads/
 ||cdn-fc.com/creatives/bar/
-||cdn.18jav.tv/assets/ad/
 ||cdn.aznude.com/js/dating.json
 ||cdn.aznude.com/player/v*/vast-no-entitlements.js
 ||cdn.bullion.media/custom_units/video-strip-master.js
@@ -1707,6 +1703,7 @@
 ||cdn.jsdelivr.net/gh/mdnaik/myblog@master/arlinablock.js
 ||cdn.jsdelivr.net/gh/prebid/currency-file@1/latest.json
 ||cdn.jsdelivr.net/gh/the-3labs-team/js-anti-adblock@main/dist/antiadblocker.min.ob.js
+||cdn.myhentaicomics.com/rev/frames/
 ||cdn.onnetwork.tv/js/player*/player_prebidm.js
 ||cdn.onnetwork.tv/js/prebid*.js
 ||cdn.ping0.cc/images/ex/*.gif
@@ -2484,6 +2481,8 @@
 ||ghost580.com/js/nei4.js
 ||giaoji.com/runtime/js/
 ||gimy.*/images/eee*.png
+||girigirilove.com/upload/banner*.gif
+||girigirilove.com^*/appconfigdata?key=adver_
 ||girlsofdesire.org/blr10
 ||girlsofdesire.org/flr10.js
 ||githubusercontent.com/vip888vip/ug/main/*.gif
@@ -2818,6 +2817,7 @@
 ||icaile.com/z.php?id=
 ||icao4.com/uploads/pic/2.jpg
 ||iceporn.com/player_right_ntv_
+||iceppsn.com/templates/frontend/iceporn/js/adx_flash.js
 ||iciba.com/www/img/activity/common/active-11-11.js
 ||ickd.cn/mobile/js/touch
 ||icnkr.com/cnkradv/
@@ -3073,6 +3073,7 @@
 ||jd.com/static/js/cpc.js
 ||jd100.com/cwmpc/
 ||jdbstatic.com/ads/
+||jeshoots.com/wp-content/uploads/*/*/banner1.jpg
 ||jia.com/js/common/article_home_adv.js
 ||jialingmm.net/dm/tj.js
 ||jialingmm.net/img/gdw.jpg
@@ -3242,6 +3243,7 @@
 ||kanshushi.com/yyddssdd.
 ||kantie.org/a/images/car.jpg
 ||kantv6.com/index.php/popularize/
+||kaotic.com/templates/*/static/player/video.js/videojs-vast-
 ||kaoyan1v1.com/iaa/
 ||kawai-jav.com/public/upload/ads/
 ||kayege.org/js/
@@ -3429,6 +3431,7 @@
 ||louimg.com/i/2021/08/17/*.gif
 ||lovek01.com/gif/97-
 ||loveshang.com/api.php?mod=ad&adid=custom_
+||lovingsiren.com/wp-content/uploads/*banner.
 ||lowendtalk.com/uploads/editor/*.gif
 ||lpl.qq.com/*/data/lol_match2_news_recommend_*_info.js
 ||lsforum.net/cam2/*.gif
@@ -3524,7 +3527,6 @@
 ||mangatensei.com/runative.php
 ||manhuaren.com/wx20190904.js
 ||manhwa18.cc/main2023/
-||manko.fun/api/proxy/ads
 ||manqian.cn/784a6e27-be5b-4442-86e5-9f4adb51894d?
 ||manqian.cn/async/adlocationconfig
 ||mansurfer.com/flash_promo/
@@ -4645,6 +4647,7 @@
 ||tl86tv.com/52
 ||tlanyan.pp.ua/wp-content/uploads/meomiao.png
 ||tmatch.simba.taobao.com^*&name=tbuad&pid=
+||tmncdn.io/vast/
 ||tom.com/*tomflashad
 ||tom.com/adsender/
 ||tonghuacun.com/js/uc.js
@@ -4827,11 +4830,11 @@
 ||vsping-*.myqcloud.com/ggw/
 ||vsping.com/website/adlinks?
 ||vsping.com/website/ads?
+||vtube.to/api/spots/
 ||vuukle.com/ads/
 ||vxotu.com/i/*.gif
 ||vzmz.com/template/paody/aaaa/*0
 ||vzmz.com/template/paody/aaaa/357.js
-||w3schools.com/lib/sparteo.css
 ||w3xue.com/js/pro541.js
 ||wa.kuwo.cn/lyrics/img/kwgg/
 ||wacowla.com/wp-content/plugins/popover/js/
@@ -5187,8 +5190,6 @@
 ||zdcj.net/html/weibo
 ||zdcj.net^*/ad
 ||zdqx.com/statics/v1/images/gif/
-||zgorzelec.info/api/1/ads/
-||zgorzelec.info/api/1/smalladds/
 ||zhainanba.org/ac/
 ||zhanqi.tv/api/static/v2.1/actives.lists/
 ||zhaofuli.*/data/content
