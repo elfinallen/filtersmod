@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-10-22 16:32:07 UTC
-! Total Rules: 5248
+! Last Updated: 2026-10-23 03:09:07 UTC
+! Total Rules: 5246
 ! Expires: 5 days
 /a/ipn/js/*
 /a/p?adid=
@@ -1284,8 +1284,6 @@
 ||arhfoundation.org/adscode.js
 ||ark.le.com/s?vid=
 ||ark.letv.com/s?
-||arkadiumhosted.com/advertisement/
-||ash.automobile-catalog.com/app.js
 ||ashemaletube.com/api/tiles
 ||ashemaletube.com/ast/b/
 ||asiav.cyou/myupdatelist.
@@ -1304,7 +1302,6 @@
 ||assetscdn.jable.tv/assets/images/*-760x70.
 ||astrill.com/bnrs/
 ||asuracomic.net/api/ads/
-||at.cbsi.com/lib/dist/prod/bidbarrel-cbssports.min.js
 ||atool.org/res/ads/
 ||att.ydss.cn/attachments/portal/
 ||aty.sohu.com/v?
@@ -2658,6 +2655,7 @@
 ||hcbbsoss.oss-cn-hangzhou.aliyuncs.com^*-banner
 ||hd21.*/templates/base_master/js/jquery.shows.min.js
 ||hdchina.*/styles/topshow/ad/
+||hdgays.net/img_hg/gaypaysites.jpg
 ||hdmoli.pro/a_d/
 ||hdsky.me/adv/
 ||hdslb.com/bfs/ad/
@@ -3770,6 +3768,7 @@
 ||novelhall.com/statics/default/js/position.js
 ||nownews.com/assets/js/setads.js
 ||nqbcf.cn/html/top
+||nrl.com/siteassets/sponsorship/
 ||nrl.com^*/sponsors/
 ||nrsfh.com/neirong/
 ||nsfwalbum.com/efds435m432.js
@@ -4185,6 +4184,7 @@
 ||rmf24.pl/j/videojs/ad-setup.js
 ||rn221.xyz^*.gif
 ||rock.porn/ai/s/s/im.php?ss=
+||rome2rio.com/api/*/ads/
 ||romgoc.net/*/adblock_fuck.js
 ||rou.video/_next/static/chunks/pages/fuli-
 ||rou.video/js/exo.js
@@ -4289,7 +4289,6 @@
 ||sexvid.*/rrt/xd.js
 ||sexvid.*/ysla/
 ||sexvid.pro/rrt/
-||sexyfuckgames.com/includes/*.php
 ||sexyno1.com/mk-banner/
 ||sf2.net/a/index.
 ||sgk.xyz/static/js/pc.js
@@ -4654,7 +4653,6 @@
 ||tonnn.com/promotion2/*.js
 ||toolbaz.com/assets/js/unblock.js
 ||toolfk.com/common/zfb.jpg
-||tools.pdf24.org/static/js/ads.js
 ||toots-a.akamaihd.net/priority/*sponsor
 ||topmba.mobi/ad/
 ||topthink.com/api/basic/
