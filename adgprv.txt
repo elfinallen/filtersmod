@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-10-23 03:09:07 UTC
-! Total Rules: 11793
+! Last Updated: 2026-10-23 16:22:16 UTC
+! Total Rules: 11796
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -4920,6 +4920,7 @@
 ||cine.su/api/site-beacon|
 ||cine.su/api/telemetry|
 ||cinestar.de/collect/
+||cinevid.st/tracker.js
 ||cio.economictimes.indiatimes.com/ajax_files/etb2b_ajax_trackers.php
 ||circonus.com/hit?
 ||cisco.com/c/dam/cdc/j/at.js
@@ -5814,6 +5815,7 @@
 ||ekitan.com/*-analytics.js
 ||ekitan.com/common/ek-tracker/
 ||eldorado.gg/white-house/white_house_script_data_
+||electroverse.com/view/insights/script.js
 ||elements.video/tr/
 ||eletrogate.com/_events/
 ||elevenlabs.io/hog/
@@ -7982,6 +7984,7 @@
 ||minetilbud.dk/api/web/logviewadvertpage
 ||minetilbud.dk^*/statistics.asmx
 ||miniso.com.tr/*/sendeventv2|
+||miniwebtool.com/js/mwt-analytics.
 ||minorasu.basf.co.jp/shared/scripts/vendor/google-analysis/
 ||minsk-in.net/counter.php?
 ||minutemediacdn.com/campaign-manager-client/
