@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-10-24 03:04:26 UTC
-! Total Rules: 5251
+! Last Updated: 2026-10-24 15:18:24 UTC
+! Total Rules: 5250
 ! Expires: 5 days
 /a/ipn/js/*
 /a/p?adid=
@@ -359,6 +359,7 @@
 /os230718.oss-
 /p?zoneid=
 /pagecpv/*
+/partner-taboola-api-media-video/*
 /partner/gg_sogou.html
 /paypic/*
 /pc/tpl/baibaipc//js/*
@@ -1184,8 +1185,6 @@
 ||ali213.net/zt/twtk/images/tzxf.png
 ||ali213.net^*/promotion/
 ||alibaba.com/async/b2bad.
-||alibaba.com/search/api/bottomwendingsearch?
-||alibaba.com/search/api/wendingsearch?
 ||alicdn.com/ad-product/
 ||alicdn.com/app/wxbpromotion/*/js/cpm/cpm_jq.js
 ||alicdn.com/g/mm/afp-cdn/js/
@@ -1507,6 +1506,7 @@
 ||bianzhirensheng.com/img/bianzhiji.jpg
 ||biaoge.tv/fa
 ||biblehub.com/botmenu
+||bigdick.tube/tpnxa/
 ||bigear.cn/cache/htmlcache/
 ||biketo.com/d/file/p/
 ||bilibilijj.com/image/right_bottom.gif
@@ -2506,6 +2506,7 @@
 ||go2tutor.com/lifebox.asp
 ||goaloo.*/mn/*.gif
 ||godamanga.online/ad/
+||gogoanime.me/zenny/
 ||gogorenti.wang/js/m_cp
 ||gold678.com/news/js/layer/layer.js
 ||goldtraders.or.th/*/advertisement.gif
@@ -2688,6 +2689,7 @@
 ||hentaifox.com/js/slider.js
 ||hentaivideos.net/imp/
 ||herexxxtube.com/tmp/
+||hewdasgas.com/assets/js/sfaub.js
 ||hexun.*/hxpage/index.html
 ||hexun.com*/hx_news/hx_news_finalpage.js
 ||hexun.com/gphqtc/
@@ -3342,6 +3344,7 @@
 ||lcxw.cn/i/*dl.js
 ||ld0766.com/*20*a/
 ||ldb.cc/js/top.js
+||leftnewsex.com/fb/fb_hilltopads.php
 ||leiphone.com/uploads/new/category/pic/*/740x140/
 ||leju.com/abp/cmslead_new.v2.js
 ||leju.com/scripts/app/pc/indexlayer/v1/indexlayer.js
@@ -3541,7 +3544,6 @@
 ||mat1.gtimg.com/2014/webtips/ola2014tips
 ||mat1.gtimg.com/cq/flash/
 ||mat1.gtimg.com/ent/flash/*300
-||maxroll.gg/js/sponsor.js
 ||maxthonimg.com/v6/festival/
 ||mbalib.com/common/a_mbalib/
 ||mcmod.cn/editor/upload/20221126/1669399546_2_onbt.
@@ -3731,7 +3733,6 @@
 ||news.cn/2021detail/js/booklist.js
 ||news.cn/imgad/
 ||news.cn^*_tlad.js
-||news.mydramalist.com/js/cocobid.js
 ||news.sina.com.cn/js/792/*head*.js
 ||news.sina.com.tw/js/ti.js
 ||news.ssp.qq.com/ad
@@ -3946,7 +3947,6 @@
 ||pixfs.net/js/mib_falcon
 ||pixfs.net/module/fullpage/dist/ad-full-page-enter-fly.
 ||pixfs.net/module/fullpage/dist/ad-full-page.
-||pixhost.cc/resource-session/
 ||pixhost.to/resource-session/
 ||pixlr.com/fad/
 ||pjtime.com/js/show_ad
@@ -4792,7 +4792,6 @@
 ||veo-hentai.com/wp-content/plugins/veohentai/popunder-unificado.js
 ||vercel.app/ads/
 ||vgao.xyz/images/*.gif
-||vidcrunch.com/api/adserver/
 ||video.itxueyuan.com/1672473525178992.mp4
 ||video.pemersatu.org/wp-content/cache/autoptimize/js/autoptimize_single_
 ||video.sibnet.ru/my/settings/|
