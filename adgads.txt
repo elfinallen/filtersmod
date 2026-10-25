@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-10-25 02:58:50 UTC
-! Total Rules: 5252
+! Last Updated: 2026-10-25 15:28:20 UTC
+! Total Rules: 5247
 ! Expires: 5 days
 /a/ipn/js/*
 /a/p?adid=
@@ -1017,6 +1017,7 @@
 ||88liu.com/data/attachment/portal/
 ||88ys.cc/js/abcd.js
 ||8d8d.me/images/dealer.gif
+||8kporner.com/themes/lite/js/mztn.js
 ||8muses.com/banner/
 ||8s8s.com/data/banner/
 ||8se.me/service/assets/core-state.
@@ -2449,7 +2450,6 @@
 ||gasaq.com/public/flash/
 ||gay.bingo/agent.php
 ||gay4porn.com/ai/
-||gaymes.net/wp-content/themes/gameking/js/gaymes.js
 ||gaymes.net/wp-content/themes/gameking/js/porngaymes.js
 ||gayporntube.com/spots.php?
 ||gays-cruising.es/recursos/
@@ -2521,7 +2521,6 @@
 ||google.com/adsense/search/async-ads.js
 ||google.com/pagead/1p-user-list/
 ||google.com/pagead/drt/
-||google.com/pagead/form-data/
 ||google.com/pagead/landing?
 ||googlesyndication.com/pagead/
 ||googlesyndication.com/safeframe/
@@ -2657,6 +2656,7 @@
 ||hc360.com/list/iframe_end_textadv.shtml
 ||hc360.com/security/201409/201409021830024990.jpg
 ||hcbbsoss.oss-cn-hangzhou.aliyuncs.com^*-banner
+||hd-easyporn.com/static/exonb/backloderforload.php
 ||hd21.*/templates/base_master/js/jquery.shows.min.js
 ||hdchina.*/styles/topshow/ad/
 ||hdgays.net/img_hg/gaypaysites.jpg
@@ -3246,7 +3246,6 @@
 ||kanshushi.com/yyddssdd.
 ||kantie.org/a/images/car.jpg
 ||kantv6.com/index.php/popularize/
-||kaotic.com/templates/*/static/player/video.js/videojs-vast-
 ||kaoyan1v1.com/iaa/
 ||kawai-jav.com/public/upload/ads/
 ||kayege.org/js/
@@ -3713,7 +3712,6 @@
 ||n.sinaimg.cn/sinakd10117/*/bd54-kentcvx6065228.png
 ||n2.hk/apps/car_feed/tb/*/banner.html
 ||n2.hk/promo/
-||nadmorski24.pl/action/banners
 ||nairaland.com/vertipics/
 ||nanfengyl.com/static/js/zdad.js
 ||natgeomedia.com/js/ads-parallax.
@@ -3963,7 +3961,6 @@
 ||poco.cn/v1_1/rank/get_floating_layer_ad
 ||poco.cn^*_info_banner
 ||popcdn.day/magnitude.js
-||popcornmovies.ac/api/ads
 ||popin.cc/ads/
 ||porn87.com/static/stream_ads/
 ||porndd.com/static/js/popunder-inject.js
@@ -4101,7 +4098,6 @@
 ||qq745.com/m/ad/
 ||qqcf.com/js/content_get.js
 ||qqddc.com/homesite/news/js/newsad.js
-||qqqcdn.cloud/images/sprintcdn.png
 ||qqtn.com/js/*0.js
 ||qqtn.com/js/downinfo-
 ||qqtn.com/js/html/down_
@@ -4112,6 +4108,7 @@
 ||qrz.com/ads/
 ||qsptv.com/tpl/newstyle/js/extension.js
 ||quebecormedia.com/*/lib/cheezwhiz/*index.js
+||quest4play.xyz/blast.js
 ||quge66.com/jdjd/
 ||qunar.com/render/*advertisement.jsp?
 ||qunar.com/vata?chan=
@@ -4320,7 +4317,6 @@
 ||shimo.im^*/ads?
 ||shipin188.com/66
 ||shitouxs.com/static/042417.js
-||shoffree.cc/ajax/get-random-ad.php
 ||short-wave.info/html/adsense-
 ||shouji.com.cn/static/v1/js/appinfo.js
 ||shouyoutv.com/assets/api/web/v4/js/global_head.js
@@ -4892,7 +4888,6 @@
 ||whichav.*/qq/qq.js
 ||whnews.cn/wh_public/xuxu/
 ||whsir.com/wp-content/themes/wh-blog/js/modal.js
-||whvx.net/ads.js
 ||widget.engageya.com/engageya_loader.js
 ||widgets.outbrain.com/outbrain.js
 ||wikihow.com/x/zscsucgm?
