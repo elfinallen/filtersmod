@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-10-26 02:57:45 UTC
-! Total Rules: 11801
+! Last Updated: 2026-10-26 18:08:59 UTC
+! Total Rules: 11808
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -2821,6 +2821,7 @@
 /uem-ep.js
 /uisprime/track
 /umami.js
+/umami/script.js
 /umg-analytics.min.js
 /umg-analytics/umgaal.min.js
 /umt.gif?
@@ -6002,6 +6003,7 @@
 ||f.vimeocdn.com/js_opt/modules/utils/vuid.min.js
 ||facebook.com*/impression.php
 ||facebook.com/a/bz?
+||facebook.com/adnw_logging
 ||facebook.com/adnw_request?
 ||facebook.com/ai.php?
 ||facebook.com/ajax/*/log.php
@@ -6459,6 +6461,7 @@
 ||glavnoe.in.ua/wp-json/views/v*/increment/
 ||glbimg.com/vendor/libs/comscore-*.min.js
 ||gleam.io/seen?
+||gleams.dev/api/customers/usage-beacon
 ||global-media.de^*/track/ai.img
 ||global.canon/00cmn/js/*/analytics-
 ||global.canon/00cmn/js/en/analytics.js
@@ -6635,6 +6638,7 @@
 ||haber7.com/ad-ipmression-pixel/
 ||haber7.com/content/hit/
 ||haberler.com/dinamik/
+||haberturk.com/cdn/player/released/plugins/analytics.min.js
 ||hacksplaining.com/track
 ||hadrianpaywall.com/views
 ||haes.tech/cdn-cgi/trace
@@ -9544,6 +9548,7 @@
 ||seaart.ai/log/
 ||search-api.fie.futurecdn.net/js/*/master-*/analytics-library-entry-getcustomtrackingid.js
 ||search-api.joongna.com/v*/ga/log|
+||search.11st.co.kr/js/searchwebfront/search/public/rakelog-mobile-search.js
 ||search.aol.com/beacon/
 ||search.brave.com/serp/v1/static/serp-js/telemetry/
 ||search.ch/audit/
@@ -9856,6 +9861,7 @@
 ||sobaka.ru/assets/*/countersapi.js
 ||sobeycloud.com/services/stat.
 ||soccer.ru/counter/
+||socialcrosspromo.com/track|
 ||socialxup.com/api/sale-accounts
 ||socialxup.com/api/track
 ||socital.com^*/socital.js
@@ -11154,6 +11160,7 @@
 ||viously.com^*/mt?
 ||vipbox.*/pge=
 ||vipstatic.com/mars/
+||virality.social-api.me/v2/events/
 ||viralize.tv/track/
 ||virgilio.it/clientinfo.gif?
 ||virgilio.it/js/web-vitals-evnt/tracking.js

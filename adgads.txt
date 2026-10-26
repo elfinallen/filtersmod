@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-10-26 02:57:45 UTC
-! Total Rules: 5248
+! Last Updated: 2026-10-26 18:08:59 UTC
+! Total Rules: 5240
 ! Expires: 5 days
 /a/ipn/js/*
 /a/p?adid=
@@ -1572,7 +1572,6 @@
 ||boyfriendtv.com/bftv/bb/
 ||boyfriendtv.com/bftv/paysite/
 ||boyfriendtv.com/link/out/b/
-||boyfriendtv.com^*/vast.min.js
 ||boylov.xyz^*/img/20*.gif
 ||boylove.cc/static/js/yymh.js
 ||boylove.cc^*/img/20*.gif
@@ -1661,6 +1660,7 @@
 ||caoporn.com/templates/frontend/dark-blue/js/caoaa5.js
 ||car.pchome.com.tw/iframe/news_iframe.
 ||caranddriver.com/inventory/
+||careercontessa.com/img/sidebar-promo-power-moves-*.png
 ||carexpert.com.tw/wp-content/uploads/*800x90.
 ||carnoc.com/noticejs/
 ||catbox.moe/bb5wdv.jpg
@@ -1703,7 +1703,6 @@
 ||cdn.jsdelivr.net/gh/itspro-dev/project_files@
 ||cdn.jsdelivr.net/gh/mdnaik/myblog@master/arlinablock.js
 ||cdn.jsdelivr.net/gh/prebid/currency-file@1/latest.json
-||cdn.jsdelivr.net/gh/the-3labs-team/js-anti-adblock@main/dist/antiadblocker.min.ob.js
 ||cdn.myhentaicomics.com/rev/frames/
 ||cdn.onnetwork.tv/js/player*/player_prebidm.js
 ||cdn.onnetwork.tv/js/prebid*.js
@@ -2368,6 +2367,7 @@
 ||freehao123.com/wp-content/uploads/2017/05/mmkdm.png
 ||freeones.com/static-assets/istripper/
 ||freepopnews.skin/advert/
+||freeuseporn.com/bnr/
 ||freeuseporn.com/bnrmanage/
 ||frendz4m.org/arlinablock.js
 ||frontendjs.com/api/ad
@@ -2389,7 +2389,6 @@
 ||funnyjunk.com/site/js/extra/pre
 ||funshipin.com/v1/js/footerhongbao.js
 ||futbol24.com/kscms_asyncspc.php
-||futureplc.engineering/v1/get-user-campaigns
 ||fuxtool.netlify.app/js/adsblock.js
 ||fwsir.com/static/cpt/
 ||fwwang.cn/templets/fw/js/art
@@ -2579,6 +2578,7 @@
 ||guazimanhua.com/assets/reader/mobile*-ad.js
 ||gucheng.com/2016/ggimg/
 ||gucheng.com/gcwad/
+||guessthe.game/ads/
 ||guhai.com.cn/ad/
 ||guifun.com/psptool/ad/
 ||guilin-ly.com^*.gif
@@ -3548,7 +3548,6 @@
 ||mbalib.com/common/a_mbalib/
 ||mcmod.cn/editor/upload/20221126/1669399546_2_onbt.
 ||mddcloud.*/oweapi/ad/
-||medex.com.bd/img/_affiliates/
 ||media-elmtree.com/pu_script.js
 ||media.babylonbee.com/ads/
 ||media.notthebee.com/ads/
@@ -4203,7 +4202,6 @@
 ||ruiwen.com/sp/
 ||rule34.xxx/images/r34_doll.png
 ||rule34.xxx/x/cookiefreead.js
-||rule34gen.com/images/advertisements/
 ||rule34video.com/images/advertisements/
 ||runmang.vip/img/
 ||runoob.com/images/re/
@@ -4430,8 +4428,6 @@
 ||soufunimg.com/imgd/viewimage/*/640x210
 ||soulu365.com/images/zhuce.jpg
 ||soundcloud.com/audio-ads?
-||sourceforge.net/about/sitewide_float
-||sourceforge.net/about/sitewidetop
 ||southmoney.com/page/pc/
 ||southmoney.com/page/top
 ||southmoney.com^*/inc/
@@ -4590,7 +4586,6 @@
 ||thcdy.co/baidu2/foot.js
 ||thcdy.co/baidu2/index_top.js
 ||the-avatar.lol/api/pult/
-||theautopian.com/content/plugins/jzl-autopian/js/htl-ad-placement.js
 ||thefreedictionary.com/_/tr.ashx?
 ||thehentaiworld.com/fro_lo*.js
 ||thehun.net/banners/
@@ -4754,7 +4749,6 @@
 ||unpkg.com/videojs-vast-vpaid@
 ||uoowu.com/a/zh*.js
 ||uooyoo.com/hz/*str.js
-||up-4ever.net/js/dlcheck.js
 ||upaiyun.com/system/post_tile/new_web_banners/
 ||upapi.net/pb/ex?w=*&uponit
 ||upload.xchina.biz/ad/
@@ -5069,7 +5063,6 @@
 ||yahoo.com/embed/tv?site=buzzhand&
 ||yahoo.com/smartbanner/
 ||yalingba.com/ggtxjs/
-||yandex.com/ads/system/context.js
 ||yangpinwang.com/wp-content/uploads/*e5%b9%bf%e5%91%8a.
 ||yantuchina.com/upload/ad/
 ||yanu.qiniudn.com/*x60.
@@ -5129,7 +5122,6 @@
 ||youku.com/dress/
 ||youmelive.com/timg/
 ||youporn.com/_xa/ads
-||yourlust.com*/serve
 ||yourlust.com/assets/script.js
 ||yourlust.com/js/scripts.js
 ||youth.cn/images/c.js
