@@ -1,7 +1,7 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-10-26 18:08:59 UTC
+! Last Updated: 2026-10-27 03:30:26 UTC
 ! Total Rules: 5240
 ! Expires: 5 days
 /a/ipn/js/*
@@ -1132,6 +1132,7 @@
 ||adtonos.com/attc-*.min.js
 ||adult-sex-games.com/images/*.gif
 ||adult-sex-games.com/images/adult-games/
+||adultdeepfakes.com/static/js/p.js
 ||adultfilmdatabase.com/graphics/porndude.png
 ||advertising.civitai.
 ||adwordsing.com/img/1.jpg
@@ -1272,7 +1273,6 @@
 ||apk.tw/static/js/showpic.js
 ||apple886.com/subs/*.js
 ||apppc.chinaz.com/statics/images/tuan
-||appteka.store/api/banners?
 ||apptry.easylife.tw/pub/js/common/common.js
 ||apsgo.com/assets/js/union.
 ||apsgo.com/go/
@@ -1685,7 +1685,6 @@
 ||cdn-fc.com/creatives/bar/
 ||cdn.aznude.com/js/dating.json
 ||cdn.aznude.com/player/v*/vast-no-entitlements.js
-||cdn.bullion.media/custom_units/video-strip-master.js
 ||cdn.cnn.com/ads/
 ||cdn.concert.io/lib/concert-ads/
 ||cdn.cums.net/templates/cumsnew/js/nav-restore.js
@@ -5122,6 +5121,7 @@
 ||youku.com/dress/
 ||youmelive.com/timg/
 ||youporn.com/_xa/ads
+||yourlust.com*/serve
 ||yourlust.com/assets/script.js
 ||yourlust.com/js/scripts.js
 ||youth.cn/images/c.js
