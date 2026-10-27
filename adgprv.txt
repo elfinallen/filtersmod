@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-10-27 03:30:26 UTC
-! Total Rules: 11809
+! Last Updated: 2026-10-27 17:21:55 UTC
+! Total Rules: 11811
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -3603,6 +3603,7 @@
 ||analytics.*.*/*.php
 ||analytics.*.ru/*/hits/event/?
 ||analytics.ahrefs.
+||analytics.dulo.
 ||analytics.popupsmart.com/api/site/tracking-config
 ||analytics.streamfab.
 ||analytics.supplyframe.com/trackingservlet/impression?
@@ -4408,6 +4409,7 @@
 ||bloknot.ru/counter.php
 ||bloomberg.com/8fcgygk4/init.js
 ||bloombergbusiness.com/horizon/track
+||bloxd.io/social/analytics/
 ||blozoo.info/js/inouttool/
 ||blozoo.info/js/ranktool/
 ||blozoo.info/js/reversetool/
@@ -5086,6 +5088,7 @@
 ||cnstrc.com/behavior?
 ||cnt-*.svc.iptv.rt.ru/event_collector
 ||cnt.hd21.
+||cnt.iceporn.
 ||cnt.nuvid.
 ||cnt.proporn.
 ||cnt.tubeon.
@@ -5705,7 +5708,6 @@
 ||duer.ca/cdn/shopifycloud/media-analytics/
 ||dugout.co/das2.js
 ||duhnet.tv/*/*/stats/init.min.js
-||dulo.*/api/ping
 ||dumbingofage.com/?feed-stats-post-id=
 ||dumpster.cam4.com/v2/fp1.js
 ||duolingo.com/2017-06-30/tracking-status
@@ -6896,6 +6898,7 @@
 ||ibtimes.com/front/js/counter.js
 ||icbdr.com/images/pixel.gif
 ||icecat.biz/stats/scripts/live-stats.js
+||iceporn.net/ajax/log/
 ||icgp.ie/overview/js/tracker.php
 ||ici.radio-canada.ca/v*/tele/trace/
 ||ici.radio-canada.ca/v5/*/trace/
@@ -10188,7 +10191,6 @@
 ||stats.autoscout24.ch/tp.gif
 ||stats.bio.link/api/event/pageview?
 ||stats.debatdirect.tweedekamer.nl
-||stats.dulo.
 ||stats.mopo.de/cntcc
 ||stats.pcsg-server.de/js/
 ||stats.publitas.com/publitas-stats/track
