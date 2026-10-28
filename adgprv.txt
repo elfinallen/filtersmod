@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-10-28 03:45:58 UTC
-! Total Rules: 11813
+! Last Updated: 2026-10-28 17:50:25 UTC
+! Total Rules: 11819
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -4331,6 +4331,8 @@
 ||bifrost-api.hotstar.com/v*/events
 ||bigday.ru/counter.php?
 ||biggylabs.com.br/track-api/v2/track/site?
+||bigjoy.com.tr/api/analytics/
+||bigjoy.com.tr/metrics/
 ||bigw.com.au/api/event/
 ||bigw.com.au/events/
 ||bikemag.com/.api/admiral
@@ -7605,6 +7607,8 @@
 ||littlebigsnake.com/event?
 ||litv.tv/api/generate-device-id
 ||live-tv.top/js/k.min.js
+||live-xo.lovable.app/*/trackevents
+||live-xo.lovable.app/~api/analytics
 ||live.dealer-asset.co/globalscripts/analytics.min.js
 ||live.mrf.io/statics/marfeel/gardac-sync.js
 ||live.visually-io.com/*/visually.js
@@ -10676,6 +10680,7 @@
 ||together.ai/otel/v1/traces
 ||toho-u.ac.jp/common/js/ga_tracking.js
 ||tokbox.com/prod/logging/
+||tokenpost.kr/tracking/ajax/
 ||tokopedia.com/helios-client/client-log
 ||tom.itv.com/itv/count/*
 ||toms.com/*/facebookcapi-event
@@ -11780,6 +11785,7 @@
 ||zengenti.com/tags/
 ||zenimpact.io/dist/zen_init.min.js
 ||zenmatefeedback.typeform.com/forms/*/insights/events/
+||zenox.lol/api/analytics/ping|
 ||zerkalo.io/api?rev=r0~r0~r0
 ||zerkalo.io/stat/
 ||zerohedge.com/statistics-ajax?

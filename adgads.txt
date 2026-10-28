@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-10-28 03:45:58 UTC
-! Total Rules: 5239
+! Last Updated: 2026-10-28 17:50:25 UTC
+! Total Rules: 5242
 ! Expires: 5 days
 /a/ipn/js/*
 /a/p?adid=
@@ -1305,9 +1305,6 @@
 ||aty.sohu.com/v?
 ||atyun.com/wp-content/themes/xmag/js/ad.js
 ||audiobookbay.lu/images/bz.jpg
-||audiobookbay.lu/images/tlt.gif
-||audiobookbay.lu/images/trr.gif
-||audiobookbay.lu/images/wyhr.gif
 ||audioz.download/templates/default/img/promo/
 ||auto-online.com.tw/vendor_data/
 ||auto.am/static/azd/
@@ -2707,6 +2704,7 @@
 ||hinet.net/radio/getadcode.do
 ||histock.tw/ad/
 ||hitime5.com/skin/css/*.js
+||hivex.stream/scripts/profit.js
 ||hjfile.cn/analytics/site/trackevent.js
 ||hk-pub.com/forum/images/2009/gifbanner
 ||hk-pub.com/forum/images/banner/
@@ -3061,6 +3059,7 @@
 ||javlibrary.com/img/bnr*.gif
 ||javlibrary.com/js/b3nr*.js
 ||javmost.com/src/jpm.js
+||javovo.net/ad-to-go/
 ||javporn.best/asset/default/player/plugins/vast-*.js
 ||javxxx.me/wp-content/themes/spacex/assets/js/funx.js
 ||jb51.net/imgby/logo_
@@ -3131,6 +3130,7 @@
 ||jlmhk.com/images/data/
 ||jlpcn.net/img/300p-
 ||jmbbs.cn/sjgg/
+||jmcomic-zzz.*/templates/frontend/airav/js/f_
 ||jmcomic.asia/iframe_*&idzone=
 ||jmcomic1.me/exads
 ||jmcomic1.me/static/resources/lp.php
@@ -3525,6 +3525,7 @@
 ||manga18.me/usd2023/usd_frontend.js
 ||mangafuna.xyz/static/ads/
 ||mangahub.io/iframe/
+||mangaraw24.online/api/v*/ads/
 ||mangarawad.biz/public/assets/js/a.js
 ||mangatensei.com/runative.php
 ||manhuaren.com/wx20190904.js
@@ -3917,6 +3918,7 @@
 ||piaoliang.com/js/all.js
 ||piaoliang.com/js/gg.js
 ||piaotia.com/scripts/read/style
+||pic.desu.xxx/content/banner/*.gif
 ||pic.gongkong.com/uploadpic/gongkong/
 ||pic.pimg.tw/promo01/
 ||pic.yupoo.com/showflash/
@@ -4783,6 +4785,7 @@
 ||video.itxueyuan.com/1672473525178992.mp4
 ||video.pemersatu.org/wp-content/cache/autoptimize/js/autoptimize_single_
 ||video.sibnet.ru/my/settings/|
+||videocardz.com/wp-content/plugins/vc-views/
 ||videocardz.com/wp-content/plugins/vc-views/js/vc-views.js
 ||videocardz.com/wp-content/themes/*/js/vcz-shelf.js
 ||videojj.com/api/v1/adstags?
