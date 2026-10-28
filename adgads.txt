@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-10-27 17:21:55 UTC
-! Total Rules: 5242
+! Last Updated: 2026-10-28 03:45:58 UTC
+! Total Rules: 5239
 ! Expires: 5 days
 /a/ipn/js/*
 /a/p?adid=
@@ -491,7 +491,6 @@
 /uu114/ad/*
 /vast.php?*&idzone=
 /vast.php?*&tags=exoxvideostargetting
-/vast/?zid=
 /vast?spot=*xh_spot_id
 /vbvb_*_pmpm.js
 /vendors~ads.
@@ -1284,7 +1283,6 @@
 ||arhfoundation.org/adscode.js
 ||ark.le.com/s?vid=
 ||ark.letv.com/s?
-||ashemaletube.com/api/tiles
 ||ashemaletube.com/ast/b/
 ||asiav.cyou/myupdatelist.
 ||asp300.*/2012adimg/
@@ -3989,7 +3987,6 @@
 ||price.com.hk/ec-discuss-widget.php
 ||price.com.hk/scripts/ysm.js
 ||primevideo.com/cdp/getvideoads
-||product.rightmove.co.uk/featured-customer-v2.html
 ||proewildfire.cn/fd.js
 ||proginn.com/cms/10000/
 ||programmer-club.com.tw/images/uuu/
