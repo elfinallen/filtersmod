@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-10-28 17:50:25 UTC
-! Total Rules: 5242
+! Last Updated: 2026-10-29 04:08:20 UTC
+! Total Rules: 5237
 ! Expires: 5 days
 /a/ipn/js/*
 /a/p?adid=
@@ -504,7 +504,6 @@
 /wdzj_banners.js
 /web8/ad/*
 /webadvert.php?ad_name=
-/wp-content/plugins/ad-inserter/js/ai-functions.min.js
 /wp-content/plugins/eazy-ad-unblocker/*
 /wp-content/plugins/jet-blocker-anti-ad-blocker-detector/*
 /wp-content/themes/imovies/js/tc_
@@ -1680,7 +1679,6 @@
 ||cdn-academy.akamaized.net/letras/ads/
 ||cdn-fc.com/creatives/bar/
 ||cdn.aznude.com/js/dating.json
-||cdn.aznude.com/player/v*/vast-no-entitlements.js
 ||cdn.cnn.com/ads/
 ||cdn.concert.io/lib/concert-ads/
 ||cdn.cums.net/templates/cumsnew/js/nav-restore.js
@@ -2484,7 +2482,6 @@
 ||gk99.com/static/js/a-d-sys.js
 ||gl.ali213.net/images/jsq_gl.jpg
 ||glgoo.*/gimage/ad/
-||glomex.cloud/v*/bid-slots?
 ||glzy8.com/img/ceo/js.js
 ||gmbbk.com/bbsgmbbk/
 ||gmbbk.com/fb.js
@@ -3354,7 +3351,6 @@
 ||lenovo.com.cn/cms/2018-07-20/201807201014498251793.png
 ||lenovo.com.cn/lenovo/bid?clienttype=
 ||letemsvetemapplem.eu/*/alzafeed_*.php
-||letsporn.com/npadm/
 ||letv.com/pzt/hyhmzq/index.shtml
 ||lf9-static.bytednsdoc.com/obj/tos-cn-i-0813
 ||lgmi.com/ggimg/
@@ -3641,6 +3637,7 @@
 ||mop.com/newindex/gg.html
 ||moratame.tw/img/contents/banner
 ||mortgagecentres.net/banner.gif
+||moviebite.cc/ads-config.js
 ||moviekhhd.biz/ads/
 ||movshow.com/*portal/
 ||mowenxi.com/1.png
@@ -4588,7 +4585,6 @@
 ||thefreedictionary.com/_/tr.ashx?
 ||thehentaiworld.com/fro_lo*.js
 ||thehun.net/banners/
-||thekav.co/myexo/
 ||thephuketnews.com/photo/banner/
 ||theplatform.kiwi/ads/
 ||theporn.xyz/static/bet365.gif
@@ -5062,7 +5058,6 @@
 ||y2mate.com/themes/js/common.js
 ||yahoo.com/bidrequest
 ||yahoo.com/embed/tv?site=buzzhand&
-||yahoo.com/smartbanner/
 ||yalingba.com/ggtxjs/
 ||yangpinwang.com/wp-content/uploads/*e5%b9%bf%e5%91%8a.
 ||yantuchina.com/upload/ad/
