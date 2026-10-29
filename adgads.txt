@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-10-29 04:08:20 UTC
-! Total Rules: 5237
+! Last Updated: 2026-10-29 17:57:44 UTC
+! Total Rules: 5242
 ! Expires: 5 days
 /a/ipn/js/*
 /a/p?adid=
@@ -1653,6 +1653,7 @@
 ||caoporn.com/ggs.php
 ||caoporn.com/images/bmqp
 ||caoporn.com/templates/frontend/dark-blue/js/caoaa5.js
+||capitanstrims.st/assets/js/nx.js?v=
 ||car.pchome.com.tw/iframe/news_iframe.
 ||caranddriver.com/inventory/
 ||careercontessa.com/img/sidebar-promo-power-moves-*.png
@@ -4282,6 +4283,7 @@
 ||sex141.com/img/banner/
 ||sex3.com/ee/s/s/su
 ||sex8.cc/plugin-e6-rebate.html
+||sextb.net/js/popup.js
 ||sextvx.com/ads/
 ||sexvid.*/rrt/xd.js
 ||sexvid.*/ysla/
@@ -4434,6 +4436,7 @@
 ||sozi.cn/templets/sozi/js/js.js
 ||spankbang.com/api/*?ad_zone=
 ||spankbang.com/official/serve_
+||speedof.me/api/uc.php
 ||speedtest.cn/api/v2/show
 ||speedtest.cn/assets/images/ce_
 ||speedy.literotica.com/ntk
@@ -4881,6 +4884,7 @@
 ||whsir.com/wp-content/themes/wh-blog/js/modal.js
 ||widget.engageya.com/engageya_loader.js
 ||widgets.outbrain.com/outbrain.js
+||wielerflits.*/api/site-loader/
 ||wikihow.com/x/zscsucgm?
 ||williamlong.info/script/sidebar.js
 ||win2008.info/gongyi.gif
@@ -5135,6 +5139,7 @@
 ||ysxs8.vip/js/bd_top.js
 ||ysxs8.vip/js/play_db.js
 ||ysxs8.vip/ysgg/
+||yszzq.com/style/js/date.
 ||ytbbs.com/images/index/
 ||yuanxue365.com/js/a22.
 ||yueipaoo.xyz^*.gif
