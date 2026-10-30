@@ -1,7 +1,7 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-10-29 17:57:44 UTC
+! Last Updated: 2026-10-30 04:09:07 UTC
 ! Total Rules: 5242
 ! Expires: 5 days
 /a/ipn/js/*
@@ -388,7 +388,6 @@
 /qqlive/conf/playerlottery/*
 /rb/agent2.php?spot=
 /remix_banner.gif
-/render-sidebar-ad.php?ad_id=
 /renderlapinblock?
 /resource/common/tongzhuo/game_info.json
 /rest/carbon/api/scripts.js?
@@ -1247,12 +1246,10 @@
 ||aolusb.com/forever/
 ||aoshi.com/rbc.jpg
 ||aotu43.com/templates/defboot/js/duilian.js
-||apa.az/banner/
 ||api-a.ganjingworld.com/*/adsserver/get-vast-xml/
 ||api.adultdeepfakes.cam/banners
 ||api.apiimg.com/huaer/xiahe.js
 ||api.bilibili.com/x/ad/
-||api.coinmarketcap.com/content/*/ad-banner/
 ||api.deepai.org/set_user_sees_ads
 ||api.deepai.org/thrad-placement-proxy
 ||api.jerkmotion.com/r/
@@ -2229,7 +2226,6 @@
 ||elecfans.com/static/home_ad/
 ||elecfans.com/webapi/advertisement/
 ||elitebabes.com/panel8vz3/
-||embed.st/ad.html
 ||emoney.cn/www/officalwebstatic/js/slidead.js
 ||en8848.com.cn/js/ad
 ||en8848.com.cn/js/content.
@@ -2315,6 +2311,7 @@
 ||filehippo.com/prebid-client.js
 ||filehippo.com/revamp.js
 ||filemoon.*/js/baf.js
+||filepress.baby/js/fit.js
 ||files.jb51.net/image/
 ||filma24.*/f24-ytb-v*.js
 ||filma24.*/kazino*.gif
@@ -2388,6 +2385,7 @@
 ||fwwang.cn/templets/fw/js/art
 ||fx110.*/pub/ghz/getmodel
 ||fx168.com/am.js
+||fxhpaoxqyajvmdg.
 ||fxsc6.net/js/
 ||fxxz.com/skin/know/all.js
 ||fzbm.com/bbs/static/js/bma.js
@@ -2680,6 +2678,7 @@
 ||hentaicomic.*/data/ds/
 ||hentaicomic.*/data/game/*/wap.gif
 ||hentaifox.com/js/slider.js
+||hentaihaven.*/api/ads/?placement=
 ||hentaivideos.net/imp/
 ||herexxxtube.com/tmp/
 ||hewdasgas.com/assets/js/sfaub.js
@@ -4491,6 +4490,7 @@
 ||storyren.top/imgg/
 ||straitstimes.com/_web2/betterads_head.js
 ||stream.cz/*/vast?
+||streambtwp.b-cdn.net/aclib.js
 ||streamcash.to/js/rtc.js
 ||stripchat.com/api/external/
 ||strtpe.link/ppmain.js
