@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-10-30 04:09:07 UTC
-! Total Rules: 5242
+! Last Updated: 2026-10-30 17:39:45 UTC
+! Total Rules: 5245
 ! Expires: 5 days
 /a/ipn/js/*
 /a/p?adid=
@@ -1122,6 +1122,7 @@
 ||ad.digitimes.com.tw/*_bigbutton.jpg
 ||ad.mail.ru/static/admanhtml/
 ||ad.youku.com/vp?
+||adblock.turtlecute.org/js/*ad
 ||admaimai.com/inc/adv
 ||admin25.com/ad/
 ||adminbuy.cn/images/
@@ -1988,6 +1989,7 @@
 ||daynews.co/cdn-cgi/apps/
 ||daysou.com/images/huaweicloud.png
 ||dbmp4.com/js/foot.
+||dbnaked.com/api/limited-time-offers/
 ||dbw.cn/eap/js/db/dbwad_
 ||dbw.cn/eap/js/hl/hlj_ad
 ||dditscdn.com/*/advertisement.js
@@ -4282,6 +4284,7 @@
 ||sex141.com/img/banner/
 ||sex3.com/ee/s/s/su
 ||sex8.cc/plugin-e6-rebate.html
+||sextb.*/js/brs.js
 ||sextb.net/js/popup.js
 ||sextvx.com/ads/
 ||sexvid.*/rrt/xd.js

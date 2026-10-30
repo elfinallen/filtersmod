@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-10-30 04:09:07 UTC
-! Total Rules: 7596
+! Last Updated: 2026-10-30 17:39:45 UTC
+! Total Rules: 7585
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -364,6 +364,7 @@
 /d?dn=*&id&type=*
 /d?id=*type*
 /data_collect.js
+/dataunlocker.js
 /dcjs/prod/*
 /dcs.gif?
 /dead-clicks-autocapture.js
@@ -527,7 +528,6 @@
 /gingeranalytics.min.js
 /glancecobrowseloader_
 /glimr-sdk.
-/global/analytics/*
 /google-analytics.
 /google-listings-and-ads/js/build/gtag-events.js
 /google_tag/*
@@ -598,7 +598,6 @@
 /impr.gif?
 /impression.gif?
 /impression.js?
-/impression/inline?
 /impression/track?
 /impression?mkevt=
 /in.php?referer=
@@ -906,7 +905,6 @@
 /playertracking/*
 /plista.js
 /plow.lite.js
-/plugins/affiliate-wp/assets/js/tracking.min.js
 /plugins/civic-science/js/pixel.js
 /plugins/discourse-fingerprint-
 /plugins/exactmetrics-
@@ -928,7 +926,6 @@
 /pr.php?
 /prgr-trk?
 /printpixel.js
-/probance_tracker-min.js
 /prod/dfm/g2i.min.js
 /prod/dfm/t8y9347t.min.js
 /prod/ncg/ncg.js
@@ -978,11 +975,9 @@
 /referer/visitor/*
 /referral-tracking.js
 /referrer.js
-/referrer_tracking.js
 /reftracker.js
 /remote-weblab-triggers/*
 /rendertimingpixel.
-/replay?ddsource=
 /report_ga_events/*
 /resonateanalytics.min.js
 /rest/analytics/*
@@ -996,7 +991,6 @@
 /rpc/log/*
 /rpc/log?
 /rpfingerprint?
-/rrweb.min.js
 /rt_tag.js
 /rt_track.js
 /rt_track_event.js
@@ -1130,7 +1124,6 @@
 /stats/transp.bmp
 /stats/v2/visit?
 /stats?aid=
-/stats?referer=
 /statscounter/*
 /statsig/rgstr?k=client-
 /statsna.js
@@ -1325,7 +1318,6 @@
 /visilabs.min.js
 /visit/log.js?
 /visit/record?
-/visit_log.js
 /visitinfo.js
 /visitor-params.js
 /visitor.min.js
@@ -1721,7 +1713,6 @@
 ||amazonaws.com/ki.js/
 ||amazonaws.com/pixelpop/app/pixelpop-
 ||amazonaws.com/production_beacon
-||amazonaws.com/snowplow-zitcha.js
 ||amazonaws.com/telemetry.bydata/
 ||amazonaws.com/umg-analytics/
 ||amazonaws.com/v1/apps/*/events
@@ -1838,6 +1829,7 @@
 ||api.config-security.com/first
 ||api.consumer.pt.mcclatchy.com/mia-mh/meter
 ||api.contentpass.net/analytics
+||api.cookist.it/views/
 ||api.corr.life/public/metrics/
 ||api.data.pt.mcclatchy.com/events
 ||api.deepai.org/log_stat
@@ -3966,7 +3958,6 @@
 ||heise.de/js/ho/mbmedien-reporting.js
 ||heise.de/video/video_gesehen.html?mmbid=
 ||heizoel24.de/scripts/g_tracking.js
-||hello.myfonts.net/count/
 ||hellobar.com/ping?
 ||hellomagazine.com/_vercel/*insights/*.js
 ||helloretail.com/serve/collect/
@@ -4008,6 +3999,8 @@
 ||hinata.me^*/pageview|
 ||hindustantimes.com/cdp/user/ht
 ||hindustantimes.com/cdp/user/lm
+||hinoki.security/analytics/
+||hinoki.security/ingest/
 ||history.com/editorial/vendor/adobe/
 ||hit.*.ru/*?sid=*&t_tid=
 ||hitcrypt.
@@ -4292,13 +4285,11 @@
 ||iplsc.com/inpl.log/
 ||ipokabu.net/js/analytics.js
 ||iportal.ru/static/mediadash/tracker.iife.min.js
-||ippen.space/api/metrics
 ||iptv-web.app/__/tracking.astro_astro_type_script_index_
 ||ipv4.art/claim
 ||ipv4.games/claim
 ||iqiyi.com/dsp_track3
 ||iqiyi.com/pixel
-||iqiyi.com/pixel?
 ||iqiyi.com/track
 ||iqiyi.com/track2?
 ||ir.ebaystatic.com/*/js/glancecobrowseloader_
@@ -4613,6 +4604,7 @@
 ||liveux.netcentric.biz/collector
 ||livinglanguage.com/content/_ui/js/view.analytics.controller.min.js
 ||livinglanguage.com/js/view.analytics.
+||lmcdn.ru^*/statistics.js
 ||lnk.to/~/tr/
 ||lnk.to/~/tr/visit
 ||lnkd.in/li/track
@@ -4640,7 +4632,6 @@
 ||lowes.com/resources/*/collect?
 ||lowescdn.com/gauge/
 ||lpt-crm.online/track
-||lrytas.lt/counter/
 ||ltbjeans.com/*/analyticsmediator.js
 ||ltn.com.tw/impression?
 ||ltwebstatic.com/she_dist/libs/devices/fpv2.
@@ -5477,6 +5468,8 @@
 ||popularmechanics.com/_assets/oply/
 ||popularwidget.com/tracker/
 ||pornbest.org/site/stat?
+||pornbox.com/event/
+||pornbox.com/stats/
 ||porneq.com/lib/ajax/track.php
 ||pornhd.com/pinky.gif
 ||pornhub.com/_i?
@@ -5498,7 +5491,6 @@
 ||potensic.com/npublic/libs/widget/sensors/
 ||poznamka.ru/ametrix.js
 ||pps.rokt.com/v1/timings/events
-||ppstatic.pl^*/track.js
 ||pptv.com/webdelivery/
 ||practicequiz.com/responsive/js/ga.js
 ||pravilamag.ru/_stat/
@@ -5718,7 +5710,6 @@
 ||redirectify.app/script_tags/tracking.js
 ||reebok.eu/*/trackings|
 ||reebok.jp/resources/js/analysis/tracker.js
-||reelgood.com/v3.0/checkip
 ||reformal.ru/log.php
 ||register.boostymark.com/a/reg
 ||regmedia.co.uk/*/tp.gif
@@ -5755,11 +5746,11 @@
 ||restaurantguru.com/log.php
 ||resultspage.com/js/sli-spark.js
 ||retail-client-events-service.internal.salsify.com/events
-||retail.hihonor.com/survey/base/analysis/
 ||retailrocket.ru/content/javascript/tracking.js
 ||retently.com/api/remote/tracking/
 ||reurl.cc/javascripts/tagtoo.js
 ||reutersmedia.net/resources_v*/js/*-track
+||revico.jp/js/put_revico_cookie/put_revico_cookie.js
 ||revico.jp/providejs/revico_tracking.js
 ||review*.cre.ma/events?
 ||reviews.io/stats/
@@ -5824,7 +5815,6 @@
 ||rts.ch/boreas/collect
 ||rts.ch^*/boreas_b01.js
 ||ru-mi.com/*/ee_tracking.js
-||rudder-server-prd.arena.im/v1/track
 ||rudderstack.com/v1/batch?writekey=
 ||rudderstack.com/v1/identify|
 ||rudderstack.com/v1/track|
@@ -5844,6 +5834,7 @@
 ||russian.rt.com/nbc/|
 ||russianfood.com/js/informb_stat.core.js
 ||ruwiki.ru/api/ruwiki/rest/metrics/
+||rxless.com/beacon/
 ||rzd-partner.ru/events/
 ||s-cdn.anthropic.com/s.js
 ||s-cdn.phonearena.com/js/ops/taina.js
@@ -5875,7 +5866,6 @@
 ||s.shopify.com/visit/record.gif?
 ||s.smallpdf.com/static/track-js-
 ||s.smallpdf.com/static/track-js-*-entrypoint.js
-||s.sofoot.com/script.js
 ||s.teknolojioku.com/assets/web/js/hitcounter.min.js
 ||s.tgrthaber.com/s/js/stats.js
 ||s.turkiyegazetesi.com.tr/s/js/stats.js
@@ -5995,7 +5985,6 @@
 ||secure.pes.itv.com/*/event|
 ||secure.planetf1.com/tag/
 ||secure.planetfootball.com/tag/*/tag.js
-||secure.teamtalk.com/tag/
 ||securegw.paytm.in/ui/uilogger/log?
 ||secureserver.net/t/
 ||seekingalpha.com/xgcxm9by/init.js
@@ -6830,7 +6819,6 @@
 ||track.tiara.
 ||track.zalando.
 ||trackchecker.ru/stat/
-||trackdesk.com/tracking.js
 ||tracker.okazje.info.pl/tracker.js
 ||tracker.twenga.
 ||tracking.gfycat.com/viewcount/
@@ -6986,6 +6974,7 @@
 ||ucweb.com/collect/
 ||udemy.com/api-2.0/ecl
 ||udemy.com/api-2.0/ecl?
+||uecdn.es/js/pbmu.js
 ||uel.remitly.io/*/events
 ||ufe.helixo.co/api/v1/stats
 ||uha-mikakuto.co.jp/parts/analytics.js
