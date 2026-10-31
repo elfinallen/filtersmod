@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-10-31 03:51:55 UTC
-! Total Rules: 7585
+! Last Updated: 2026-10-31 16:44:16 UTC
+! Total Rules: 7571
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -390,7 +390,6 @@
 /dot.gif?
 /dpistat/updater.php
 /dtr/count.php
-/duel-analytics.js
 /dwanalytics-
 /dwanalytics.js
 /dynamicanalytics.js
@@ -617,7 +616,6 @@
 /j.gif?
 /javascripts/browserfp.min.js?templateid=
 /jc/gtm.js
-/jpuid?jsonp=
 /jquery.analytics.js
 /jquery.audiencetarget.js
 /jquery.iframetracker.min.js
@@ -684,7 +682,6 @@
 /log/report/*
 /log/server?
 /log/track/*
-/log/views/*
 /log/web?
 /log204?
 /log?action=
@@ -796,7 +793,6 @@
 /oa-tracking?
 /official-facebook-pixel/js/facebook_signal.js
 /omnitrack-lately.js
-/omniture/uuid.js
 /omniture/visitorapi.
 /omniture_tracking.
 /onetag/*
@@ -808,7 +804,6 @@
 /openxtargeting.js
 /opinionlab.js
 /optimizelyjs/*
-/orichipixel.min.js
 /otautoblock.js
 /otlp/traces
 /ouibounce.min.js
@@ -922,7 +917,6 @@
 /post-views-counter-pro/js/frontend.js
 /posthog-recorder.js
 /posthog/ingest/*
-/ppms.js
 /pr.php?
 /prgr-trk?
 /printpixel.js
@@ -1390,6 +1384,7 @@
 /wp-useronline/useronline.js
 /wpm/strict/app/web-pixel
 /wpm@*/web-pixel-
+/wpr-beacon.js
 /wpr-beacon.min.js
 /wrapper/metrics/v1/custom-metrics?
 /writelog.js
@@ -2654,7 +2649,6 @@
 ||cdn.threadloom.com/ga/
 ||cdn.tickaroo.com/api/collect/
 ||cdn.tokyo-city.ru/js/metrica.js
-||cdn.tolt.io/tolt.js
 ||cdn.trackcollect.com/metrics/
 ||cdn.ustatik.com/vendor/metrica/watch.js
 ||cdn.vector.co/pixel.js
@@ -2795,7 +2789,6 @@
 ||cloudfront.net*/tracker.js
 ||cloudfront.net/analytics.js
 ||cloudfront.net/beaver.js
-||cloudfront.net/clipkit_assets/beacon-
 ||cloudfront.net/ecmtr-*.js
 ||cloudfront.net/i?v=
 ||cloudfront.net/js/grin-sdk.js
@@ -3612,7 +3605,6 @@
 ||flixcart.com/px/gnttli3a/init.js
 ||flixcloud.cc/swetrix.js
 ||flixtrz.com/api/analytics/watch-event|
-||flocdn.com^*/dpl/
 ||flow.1passwordservices.com/api/v1/event
 ||flowgpt.com/*/track|
 ||flowgpt.com/api/trpc/prompt.createpromptimpressionrecord
@@ -5092,7 +5084,6 @@
 ||nos.netease.com/udc-web/*.log.js
 ||nosto.com/analytics/
 ||note.com/api/v*/trackings/
-||note.com/api/v3/trackings/
 ||notebookinfo.de/javascript/*/collector.js
 ||notepet.co.kr/etc/logs/sitelog
 ||notepet.co.kr/js/sitelog.js
@@ -5302,7 +5293,6 @@
 ||paypal.com/credit-presentment/glog?
 ||paypal.com/credit-presentment/log
 ||paypal.com/platform/tealeaftarget
-||paypal.com/ptrk/
 ||paypal.com/tagmanager/pptm.js
 ||paypal.com/webapps/beaconweb/
 ||paypal.com/webapps/mch/cmd/?
@@ -6483,7 +6473,6 @@
 ||storage.googleapis.com/shufoo-prod-imp-gif/
 ||storage.googleapis.com/t3n-de/assets/t3n/2018/scripts/msodrq.js
 ||storage.googleapis.com/tm-frend-graffiti/
-||storage.googleapis.com/vs-scripts/intentiq/vsintentiq.js
 ||storage.googleapis.com/widget.kenect.com/resources/scripts/newrelic.js.gz
 ||storage.syncmedia.io/libs/sm_capture_
 ||store.lixil.co.jp/*/amasty_xsearch/js/widgets/analytics-data-collector.js
@@ -7073,7 +7062,6 @@
 ||varta1.com.ua/api/analytics
 ||vaughn.live/vsz/
 ||vault.gostatera.com/collect/rap
-||vbox7.com/aj/player-stats?
 ||vbr.ru/init-z.bmp
 ||vbr.ru/next/api/v2/n/help/*/view
 ||vc.ru/analytics-event
@@ -7083,7 +7071,6 @@
 ||vecer.com/js/remp.js
 ||vechtsportonline.nl/static/*/tracking.js
 ||vecteezy.com/dmpu/
-||vector.co/pixel.js
 ||vedomosti.ru/boom?
 ||veeseo.com^*/url.gif?
 ||ventunotech.com/beacon/
@@ -7229,7 +7216,6 @@
 ||wdr.de/*/tracker/
 ||wealthfront.com/event
 ||wealthfront.com/track_next?p=
-||weather.com.cn/a1.js
 ||weather.com/weather/assets/omniture-app-measurement.*.js
 ||weather.com/weather/assets/omniture-visitorapi.*.js
 ||weatherzone.*/*/scripts/gtmhead.js
