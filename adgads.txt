@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-10-30 17:39:45 UTC
-! Total Rules: 5245
+! Last Updated: 2026-10-31 03:51:55 UTC
+! Total Rules: 5241
 ! Expires: 5 days
 /a/ipn/js/*
 /a/p?adid=
@@ -1678,6 +1678,7 @@
 ||cdn-academy.akamaized.net/letras/ads/
 ||cdn-fc.com/creatives/bar/
 ||cdn.aznude.com/js/dating.json
+||cdn.bullion.media/custom_units/video-strip-master.js
 ||cdn.cnn.com/ads/
 ||cdn.concert.io/lib/concert-ads/
 ||cdn.cums.net/templates/cumsnew/js/nav-restore.js
@@ -2205,7 +2206,6 @@
 ||ebioweb.com/jslibrary/js
 ||ebioweb.com/newsf/js/inpic.js
 ||ebioweb.com/newsf/js/news_top_banner.js
-||eboblack.com/ad
 ||ebrun.com/jfile/position/js/*.js
 ||eccn.com/js/gg.js
 ||eccn.com/js/popupad_
@@ -3060,7 +3060,6 @@
 ||javmost.com/src/jpm.js
 ||javovo.net/ad-to-go/
 ||javporn.best/asset/default/player/plugins/vast-*.js
-||javxxx.me/wp-content/themes/spacex/assets/js/funx.js
 ||jb51.net/imgby/logo_
 ||jbzyw.com/application/m/adv/
 ||jc001.cn/ci/jad/fix.
@@ -3523,6 +3522,7 @@
 ||manga18.me/usd2023/usd_frontend.js
 ||mangafuna.xyz/static/ads/
 ||mangahub.io/iframe/
+||mangakakalot.gg/js/ads/clck-adu-kklgg.js
 ||mangaraw24.online/api/v*/ads/
 ||mangarawad.biz/public/assets/js/a.js
 ||mangatensei.com/runative.php
@@ -3928,7 +3928,6 @@
 ||pics.wanlibo.com/js/pagemodulestat.js
 ||picyq.com/index.php/home/run/get_ad/
 ||pierrebotton.com/global/
-||pimpbunny.com/static/v*/images/advertise/
 ||pincai.com/js/pubuliu.
 ||ping0.cc/images/gx/*.gif
 ||pingmeibang.com/zt/zx.jpg
@@ -3952,7 +3951,6 @@
 ||player.globalsun.io/*-player.js
 ||playerls.com/js/jquery/*/jquery-*.min.js?v=
 ||playgama.com/ads/
-||playzip.com/static/js/abcd.js
 ||plibcdn.com/templates/base_master/js/jquery.shows2.min.js
 ||pmb*.tj.ali213.net/js/
 ||pn.ybp.yahoo.com/ab/imp/
@@ -4153,7 +4151,6 @@
 ||res.cngoldres.com/web/index/img/*_ad_
 ||res.taotu.org/adimages/
 ||res.vps234.com/resources/images/hosting-promotion/
-||researchgate.net/delivery/manager.js
 ||resources.faireconomy.media/js.min/resources/js/money/moneyslotmanager.js
 ||revolver.news/wp-content/banners/
 ||rfidworld.com.cn/js/a.js
@@ -4694,7 +4691,6 @@
 ||tui555.com/public/gong/js/a_
 ||tui56.com/guanggao*.html
 ||tuicool.com/images/upload/aliyun
-||tumblrgallery.xyz/model-live.js
 ||turbobit.net/pus/
 ||turboviplay.com/ads_gala.js
 ||tuttotech.net/wp-content/plugins/ta2022-plugin-adblock/
