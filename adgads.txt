@@ -1,7 +1,7 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-10-31 16:44:16 UTC
+! Last Updated: 2026-11-01 04:01:41 UTC
 ! Total Rules: 5241
 ! Expires: 5 days
 /a/ipn/js/*
@@ -379,7 +379,6 @@
 /proxy_top_banner_js.php
 /pu/?psid=
 /public/imgbed/gg/*
-/publishers/softonic.js?
 /pushsystem/attached/image/*
 /qd/js/index/bannertop.
 /qidianadclient.
@@ -1580,6 +1579,7 @@
 ||brand.sogou.com/micro?yyid=
 ||bravoporn.com/v/if2
 ||bravoteens.com/ta/
+||brazzers.com/ads/
 ||breakdownexpress.com/js/ads
 ||browserscan.net/dist/adspower_zh.
 ||bscscan.com/images/gen/*.gif
@@ -3955,6 +3955,7 @@
 ||pmb*.tj.ali213.net/js/
 ||pn.ybp.yahoo.com/ab/imp/
 ||pniao99.com/statics/js/stat.js
+||pnn.ps/storage/images/partners/
 ||poco.cn/v1_1/rank/get_floating_layer_ad
 ||poco.cn^*_info_banner
 ||popcdn.day/magnitude.js
@@ -4160,7 +4161,6 @@
 ||rfidworld.com.cn/js/rfidexec.js
 ||rfidworld.com.cn/notice/home
 ||riaway.com/statics/idea.jpg
-||ricedigital.co.uk/wp-content/uploads/2025/08/rice_takeover_1600x1100-1.png
 ||right.com.cn/forum/data/attachment/common/template/boardimg_20260602yahb3wsd.
 ||right.com.cn/forum/static/image/common/logo
 ||right.com.cn/forum/static/image/common/logo*.gif
