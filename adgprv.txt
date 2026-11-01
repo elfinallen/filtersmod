@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-11-01 04:01:41 UTC
-! Total Rules: 7571
+! Last Updated: 2026-11-01 17:33:58 UTC
+! Total Rules: 7566
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -348,6 +348,7 @@
 /counter5.min.js
 /counter?action=
 /counter?id=
+/counter_1.php
 /countly.js
 /countly.min.js
 /cp2.gif?
@@ -470,7 +471,6 @@
 /firebase-performance-compat.js
 /firebase-performance-standalone-compat.js
 /firebase-performance-standalone.js
-/flipptag.js
 /flying-analytics/*
 /flying-analytics/js/analytics.js
 /fp/check.js
@@ -992,7 +992,6 @@
 /rudder-analytics.min.js
 /rum-collector/*
 /rum.gif?
-/rum.min.js
 /rum/events
 /rum?ddsource=
 /run/perf
@@ -1602,6 +1601,7 @@
 ||ae-api.ximera.com/api/*/gtm
 ||ae.dmxleo.com/*/events
 ||aemet.es/js/stats.js
+||affilialab.com/tracker.js
 ||affiliate-api.raptive.com/*/create/event
 ||affine.pro/*/track-link.*.js
 ||affirm.ca/api/*/session/touch_track
@@ -1951,7 +1951,6 @@
 ||api.tua.gov.tr/api/visitor_statistics
 ||api.u-komi.com/track|
 ||api.userstyles.org/tic/stats
-||api.useunloq.com/event_management/
 ||api.vaile.ai/api/track
 ||api.viavarejo.com.br/fp/
 ||api.vicomi.com/api/*/analytics/
@@ -2656,7 +2655,6 @@
 ||cdn.webeyo.com/ipinfo|
 ||cdn.wootric.com/wootric-sdk.js
 ||cdn.work.hotp.jp/assets/lib/js/logteam-
-||cdn.zeroclick.io/scripts/badge.js
 ||cdn.zg-api.com/a/z/js/v1/analytics.js
 ||cdn1.edgedatg.com/aws/abc/scripts/adobe-analytics2.js
 ||cdn1.edgedatg.com/aws/apps/datg/web-js-telemetry-service/*/production/js/datgts.js
@@ -2786,7 +2784,6 @@
 ||cloudconvert.com/js/ga.js
 ||cloudfam.io/api/site_analytics.php
 ||cloudfront.net*/sp.js|
-||cloudfront.net*/tracker.js
 ||cloudfront.net/analytics.js
 ||cloudfront.net/beaver.js
 ||cloudfront.net/ecmtr-*.js
@@ -3331,7 +3328,6 @@
 ||ebay.com/op/t.do?event
 ||ebay.com/ufeservice/*/commonbeacon|
 ||ebay.com^*/madrona_loadscripts.js
-||ebayadservices.com/marketingtracking/
 ||ebaystatic.com/cr/v/*/logs.*.bundle.js
 ||ebaystatic.com/js/v/in/roverlv.js
 ||ebaystatic.com/rs/v/10341xh50yz21mhhydueu4m5wad.js
@@ -4756,7 +4752,6 @@
 ||mccdn.me/assets/js/widget.js
 ||mcdn.tubitv.com/tubitv-assets/js/braze/
 ||mcdonalds.com/tags/js/*/mparticle.js
-||mcjs.prd.a.intuit.com/assets/pixel-reporting-sdk/
 ||mcrypto.club/track
 ||mcsvc.samsung.com/statistics/
 ||mdstrm.com/js/lib/streammetrics.js
@@ -5325,7 +5320,6 @@
 ||pdffiller.com/api_v3/experiment/
 ||pdffiller.com/api_v3/uploader/stats
 ||pdffiller.com/click-stream/
-||pdp.gokwik.co/cart-get-tokens.html
 ||peach-static.ebu.io/pipe-*.min.js
 ||peachjohn.co.jp/staffcontent/assets/js/staffstart-analytics.js
 ||peacocktv.com/*/tracking/
@@ -7071,6 +7065,7 @@
 ||vecer.com/js/remp.js
 ||vechtsportonline.nl/static/*/tracking.js
 ||vecteezy.com/dmpu/
+||vector.co/pixel.js
 ||vedomosti.ru/boom?
 ||veeseo.com^*/url.gif?
 ||ventunotech.com/beacon/
