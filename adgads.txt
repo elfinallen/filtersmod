@@ -1,7 +1,7 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-11-01 17:33:58 UTC
+! Last Updated: 2026-11-02 04:06:44 UTC
 ! Total Rules: 5241
 ! Expires: 5 days
 /a/ipn/js/*
@@ -1561,6 +1561,7 @@
 ||boyfriendtv.com/ads/
 ||boyfriendtv.com/bftv/b/
 ||boyfriendtv.com/bftv/bb/
+||boyfriendtv.com/bftv/bbb/img/
 ||boyfriendtv.com/bftv/paysite/
 ||boyfriendtv.com/link/out/b/
 ||boyfriendtv3.com/zv3/
@@ -1640,7 +1641,6 @@
 ||caikuu.com/ckimages/*_gg
 ||caikuu.com/ckimages/*_zg
 ||caixin.com/s?z=
-||callistanise.com/assets/jquery/ev-static.js
 ||camspacelive.com/widgets/
 ||camspic.com/imguang/*.gif
 ||canimgs.com/images/
@@ -3535,6 +3535,7 @@
 ||maolihui.com/wp-content/themes/miaonew/images/adb
 ||maomaoks.com/1.
 ||maopu.tv/d/file/p/2019/07/6ac50c702cf9e6a9a7910a510c40cb73.jpg
+||massariuscdn.com/pubs/
 ||masturbation22.com/d/
 ||mat.chasedream.com^*.gif
 ||mat1.gtimg.com/2014/vikkydu/ga/haier
@@ -4512,6 +4513,7 @@
 ||sunofbeaches.com/ast/assistant/ad-item/
 ||sunofbeaches.com/shop/recommend/
 ||sunpma.com/other/logo/
+||supabase.co/rest/v1/promos_available
 ||supertaste.tvbs.com.tw/css/adunit.min.css
 ||supervideo.cc/tag01.js
 ||supfree.net/baotu.
@@ -4833,8 +4835,6 @@
 ||wacowla.com/wp-content/plugins/popover/js/
 ||waipian*.com/statics/recommend/
 ||wake-up-neo.com/bnet/
-||wallpapers.com/api/ads/
-||wallpapers.com/static/*/wpc_ads.
 ||wan.liebao.cn/zt/
 ||wandhi.com/img/
 ||wandouys.com/runtime/js/
