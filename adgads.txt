@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-11-02 04:06:44 UTC
-! Total Rules: 5241
+! Last Updated: 2026-11-02 21:20:27 UTC
+! Total Rules: 5247
 ! Expires: 5 days
 /a/ipn/js/*
 /a/p?adid=
@@ -1558,6 +1558,8 @@
 ||bootcss.com/assets/js/and
 ||bosw.net/js/bos/*960
 ||botcm.com/zhanqun/
+||boyfriend.tv/api/*^advertisername=
+||boyfriend.tv/bftv/www/js-v*/tab-flow-loader.min.js
 ||boyfriendtv.com/ads/
 ||boyfriendtv.com/bftv/b/
 ||boyfriendtv.com/bftv/bb/
@@ -2211,6 +2213,7 @@
 ||eccn.com/js/popupad_
 ||ecimg.tw/img/xdsys/*/layout/*/sign/channel*/ad_*.jpg
 ||eclassified.my/cp_featured
+||ecloud.my.id/assets/js/ecloud-adblock-detection.js
 ||ecpoc.com/style/ad
 ||ed2000k.com/ad/
 ||edmontonchina.*/pic/
@@ -2945,6 +2948,7 @@
 ||instagram.com/api/v*/injected_story_units/
 ||instant-gaming.com/affgames/
 ||instant-gaming.com/api/banner/partner/loader.js
+||insurance.cekresi.me/assets/compat.js
 ||inszu.com/js/qian/
 ||internationalsexguide.nl/banners/
 ||intporn.com/js/siropu/
@@ -4272,6 +4276,7 @@
 ||sentcss.com/get/showcase/
 ||seojiaoshi.cn/banner/
 ||seowhy.com/ask/img/*gg
+||ser-46-host.store/v1/megamax-98412-tag.js
 ||serengeseba.com/static/view.js
 ||serververify.com/providers/ad-load/
 ||service.hotstar.com^*/midroll
@@ -4956,7 +4961,7 @@
 ||xdf.cn/v4/js/leyus/
 ||xdnice.com/themes/xdnice/public/assets/images/quna.png
 ||xdnice.com/themes/xdnice/public/assets/images/xdnice.png
-||xfvod.pro/images/ad/
+||xfvod.pro*/images/ad/
 ||xghylt.com/api.php?mod=ad&adid=
 ||xgirls.agency/pg/c/
 ||xgroovy.com/bid?
@@ -5159,6 +5164,7 @@
 ||yxdown.com/zt/zt/js/zt.js
 ||yximgs.com/bs2/adcarsku/*.gif
 ||yximgs.com/bs2/adcarsku/sku1563a96c-38ca-4563-a4b5-522208113126.
+||yxxq59.cc/static/images/ads/
 ||yxzp.net/left.js
 ||yy18.info/yyads/
 ||yy8090.vip/js/abc/

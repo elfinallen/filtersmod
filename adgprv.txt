@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-11-02 04:06:44 UTC
-! Total Rules: 7566
+! Last Updated: 2026-11-02 21:20:27 UTC
+! Total Rules: 7569
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -307,7 +307,6 @@
 /cocoon-master/lib/analytics/access.
 /cocoon-master/lib/analytics/access.php?
 /cofinahits.js
-/cogi-etracker.js
 /cohesion-latest.min.js
 /coinhive.min.js
 /collect-*/pageview|
@@ -335,7 +334,6 @@
 /conversion_async.js
 /cookies/render?
 /count.exe?
-/count.gif?
 /count.php?
 /count/count.cgi?
 /count/logcount.html?
@@ -621,7 +619,6 @@
 /jquery.iframetracker.min.js
 /js-sdk-event.min.js
 /js/ad_insight/*
-/js/admiral-
 /js/analitics.js
 /js/counter.js?
 /js/exponea.min.js
@@ -1253,7 +1250,6 @@
 /trade/in.php?*&ref=
 /traffic-source-cookie.
 /traffic-source-cookie/*
-/transparent_pixel.gif
 /transparent_pixel.png
 /transpix.gif
 /trck/etms/*
@@ -1613,6 +1609,8 @@
 ||affirm.com/api/v2/session/touch_track
 ||afkgaming.com/scooby/api/v1/log/event|
 ||aflt.market.yandex.ru/widgets/metrika
+||aftersell.app/api/*/visibilityevents
+||aftersell.app/api/public/metrics/
 ||ag.unistyleinc.com/analytics
 ||ag.unistyleinc.com/pd.js
 ||agoda.com/api/pixel/index?
@@ -1803,7 +1801,6 @@
 ||api.biggylabs.com.br/track-api/
 ||api.biz.sbs.co.kr/statistics/
 ||api.blockchain.info/events/tracking/consent
-||api.bluecore.app/api/track/
 ||api.blux.ai/prod/*/applications/*/blux-users/*/collect-events
 ||api.bookvillage.app/analytics/track
 ||api.brunch.co.kr/v1/front-log
@@ -1841,6 +1838,7 @@
 ||api.everyeye.it/endpoint/stats.php
 ||api.experte.com/t/
 ||api.facebook.com/method/logging.clientevent
+||api.fanpage.it/views/
 ||api.fboom.me/*/analytics/
 ||api.firecrown.com/v1/events
 ||api.fool.com/*/events
@@ -1849,6 +1847,7 @@
 ||api.fubo.tv/papi/v1/tracking
 ||api.fw.tv/embed/
 ||api.gamsgo2.com/data_explorer/metric
+||api.geopop.it/views/
 ||api.giga.de/*tracking
 ||api.github.com/_private/browser/rum?
 ||api.gleap.io/sessions/ping
@@ -3443,6 +3442,7 @@
 ||event-analytics.yesware.com/main.js
 ||event.arte.tv/api/server-side-tracking/
 ||event.symbiosys.ai/page_viewjs
+||eventbrite.com/metrics/
 ||eventhub.eu01.miro.com/api/stream
 ||eventiavversinews.it/wp-json/vinkmag/*/visitortrack/
 ||events-proxy.mintlify.com
@@ -4243,6 +4243,7 @@
 ||instagram.com/logging_client_events
 ||instagram.com/paid_ads/
 ||instagram.com/static/bundles/*/embedasynclogger.js
+||instant.one/a/tk
 ||instructables.com/counter
 ||interactions.one.store/v1/analytics/
 ||intercom.io/messenger/web/page_view_events
@@ -4994,6 +4995,7 @@
 ||nbcudigitaladops.com/hosted/util/geo_data.js
 ||ncbi.nlm.nih.gov/core/pinger/pinger.js
 ||ncp-e.com/typo3conf/ext/leadlab/res/wm_autotrack_v*.js
+||ncregister.com/_swp_analytics?
 ||neg.by/include/ajax/counters.php
 ||negocios.com/assets/js/onm/onm-stats.
 ||nekoweb.org/.nekoweb-api/count-view
@@ -5240,6 +5242,7 @@
 ||p11.techlab-cdn.com/collect
 ||pa.7w.ro/js/trk.js
 ||pac.talk.tv/track?
+||padovaoggi.it/~pixel?
 ||pagefly.io/pagefly/core/analytics.js
 ||pageinfo-k8s.motorsport.com/stat/
 ||pages.*/script/pagetracking.js
@@ -6144,6 +6147,7 @@
 ||sleeknotestaticcontent.sleeknote.com/production/package-tracker.js
 ||slgnt.eu/frontend/api/track
 ||slideplayer.biz.tr/slide/getviewscount/
+||slorepo.com/v2/assets/srmeasure.js
 ||smaero.jp/js/access.js
 ||smallpdf.com/build/track-js.js
 ||smart-bdash.com/receptions/action/impression
@@ -6266,7 +6270,6 @@
 ||srv.wego.com/analytics/
 ||ss.lv/counter/
 ||ssai.api.streaks.jp/*/ad_info?
-||ssc.shopstyle.com/collective.min.js
 ||sse.devcycle.com/event-stream
 ||ssgdfs.com/kr/common/getpageicfcd
 ||ssl.ceneo.pl/ct/
@@ -6769,7 +6772,6 @@
 ||tonkosti.ru/js/statistic.php
 ||top.azur.ru/?id=
 ||top.elec.ru/cnt?id=
-||topblogs.de/tracker.php?
 ||topshop.com/wcsstore/consumerdirectstorefrontassetstore/images/trans_pixel.gif
 ||toptracker.ru/buttons/counter.gif
 ||toss.im/pages/ekdil/tragoudo|
@@ -6863,6 +6865,7 @@
 ||trnox.com/ssp/ws/*/action/log?
 ||troypoint.com/wp-admin/admin-ajax.php?action=geoip_detect
 ||trrsf.com.br/metrics/
+||trrsf.com/*/mod-stalker.min.js
 ||trstx.org/stats/event
 ||trtarsiv.com/js/player/jwtracking.js
 ||trumba.com/et.aspx?
