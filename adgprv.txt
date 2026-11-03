@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-11-03 05:06:59 UTC
-! Total Rules: 7569
+! Last Updated: 2026-11-03 18:58:50 UTC
+! Total Rules: 7573
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -31,7 +31,6 @@
 /adrum.js^
 /adrum_
 /adsct?
-/advanced-ads-tracking/assets/*
 /advanced-ads-tracking/assets/dist/ga-tracking.js
 /aff_i?offer_id=
 /affiliate-tracker.js
@@ -453,7 +452,6 @@
 /facebookpixel.
 /facebookproductad/views/js/pixel.
 /faciliti-tag.min.js
-/fb_pixel_page_view
 /fbevents.js
 /fbevents.min.js
 /fbpix-events-
@@ -699,6 +697,7 @@
 /logdata/et/ua
 /logevent?
 /logexecutionstats?
+/logger/?referer=
 /logger/p.gif?*d=/*
 /logging/log.do
 /logging/pageview
@@ -973,6 +972,7 @@
 /resonateanalytics.min.js
 /rest/analytics/*
 /rest/high/api/cogitoergosum
+/resxclsa.js
 /riveted.min.js
 /rollbar.js
 /rollbar.min.js
@@ -1802,7 +1802,6 @@
 ||api.biz.sbs.co.kr/statistics/
 ||api.blockchain.info/events/tracking/consent
 ||api.blux.ai/prod/*/applications/*/blux-users/*/collect-events
-||api.bookvillage.app/analytics/track
 ||api.brunch.co.kr/v1/front-log
 ||api.btmessage.com/events/
 ||api.btmessage.com/log?
@@ -1922,7 +1921,6 @@
 ||api.snapchat.com/web/metrics
 ||api.socialmart.ru/analytics.php
 ||api.solvvy.com/v1/pixels/track
-||api.sovendus.com/js/landing.js
 ||api.spresso.com/pim/public/events
 ||api.ssai.ftven.fr/v1/tracking/
 ||api.store-macys.com/event-queue
@@ -2062,6 +2060,7 @@
 ||appspot.com/stats?
 ||appsupport.qq.com/cgi-bin/appstage/mstats_batch_report
 ||aproapi.benchmarkemail.com/api/v1/trackers/
+||aptabase.com/api/*/event
 ||ar-cdn.net/api/v1/events/view
 ||arabnews.com/srpc.js
 ||araskargo.com.tr/tr/jv_google_analytics.js
@@ -2504,6 +2503,7 @@
 ||cas-live.das-onlinespiel.de/gateway?
 ||cast-imp.jtbc.co.kr/trac?event=
 ||cast.imp.joins.com/persona.js
+||catalogueau.com/wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-events-provider-content-events-*.js
 ||catawiki.com/ab/s.js
 ||catch.dmm.co.jp/newrelic.js
 ||cba24n.com.ar/api/v*/analytics
@@ -2677,6 +2677,7 @@
 ||cengage.info/v1/activity
 ||cengage.info/v1/profile
 ||cengage.info/v2/resource-interactions
+||centerblog.net/stats.js
 ||ceoscoredaily.com/weblog/gtracker
 ||ceros.com/a?data
 ||cewe.de/tracking/*.js
@@ -2698,6 +2699,7 @@
 ||channel.io/front/v*/channels/*/events
 ||channelexco.com/ppx/
 ||charmmy-api.line.me/api/*/bars/tracking
+||chat.deepseek.com/api/*/telemetry
 ||chat.deepseek.com/api/v0/events
 ||chata.quickcep.com/im/behavior/visitor/update
 ||chatgpt.com/backend-api/sentinel/ping
@@ -3477,6 +3479,7 @@
 ||experience.ninetailed.co/*/profiles/
 ||experiences.wyng.com/api/*/event-api/events
 ||expert.it/js/omni/tracking/
+||experte.com/t/events
 ||express.co.uk/analytics.config.json
 ||ext-api.perfluence.net/pixel?
 ||ext.chtbl.com/trackable.js
@@ -5107,6 +5110,7 @@
 ||nytimes.com/v1/purr-cache
 ||nzherald.co.nz/pf/resources/scripts/tracking/data-ref.js
 ||oas.monster.com/scripts/oas_analytics.js
+||obilet.com/event|
 ||obs.coupangstreaming.com/web/collect
 ||obs.coupangstreaming.com/web/otlp/*/metrics
 ||ocn-tag.sienca.jp/api/v1/event/pv
@@ -6201,7 +6205,6 @@
 ||soufun.com/stats/
 ||soundcloud.com/v*/events
 ||soundestlink.com/rest/forms/v2/track/
-||source.chromium.org/v1/logging
 ||southwest.com/api/logging/v1/logging/
 ||southwest.com/di/swadc/beacon/
 ||sovetnik.net/count
@@ -6625,6 +6628,7 @@
 ||target.com/consumers/v1/ingest/web/eventstream?
 ||target.com/telemetry_data/
 ||tatadigital.com/analytics-engine/
+||tatilbudur.com/q8rlk3/
 ||tavriav.ua/monitoring
 ||taz.de/count/
 ||tbs.co.jp/js/gaaddons/

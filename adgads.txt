@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-11-03 05:06:59 UTC
-! Total Rules: 5249
+! Last Updated: 2026-11-03 18:58:50 UTC
+! Total Rules: 5252
 ! Expires: 5 days
 /a/ipn/js/*
 /a/p?adid=
@@ -2738,6 +2738,7 @@
 ||hoopchina.com.cn/web/widget/partner/*/promote.js
 ||hoopchina.com.cn^*/ad-pc-sdk.
 ||hornygamer.com/includes/gamefile/sw3d_hornygamer.gif
+||hosthentai.xyz/todo/ad/
 ||hotavxxx.com/images/*96
 ||hoteastday.com/newspc/show?
 ||hotpress.info/blog/asian-javdl/wp-content/uploads/irvsxp.js
@@ -4192,6 +4193,7 @@
 ||rou.video/_next/static/chunks/pages/fuli-
 ||rou.video/js/exo.js
 ||rqr.cc/mm.
+||rrr.org.au/ads.json
 ||rryy99.com/statics/js/stat.js
 ||rs.aoxx69.net/image/banner/
 ||ruanyifeng.com/9he/
@@ -4802,6 +4804,7 @@
 ||videowood.me/assets/js/popup.js
 ||videowood.tv/popjavascript
 ||vidlink.pro/api/mercury
+||vidload.online/anti-adblock.js
 ||vidstuck.xyz/vidstuck.js
 ||vip.luanren.com/data/*.gif
 ||vip.video.qq.com/rpc/trpc.vip_ad_promotion
