@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-11-02 21:20:27 UTC
-! Total Rules: 5247
+! Last Updated: 2026-11-03 05:06:59 UTC
+! Total Rules: 5249
 ! Expires: 5 days
 /a/ipn/js/*
 /a/p?adid=
@@ -1953,6 +1953,7 @@
 ||ctfile.com/iz.php?
 ||ctrip.com/amd/*960x90.
 ||ctrip.com/domestic/tool/ajaxgetcptlist.ashx?advpositioncode=
+||cuckoldland.com/cuckoldland728-x-90-2.gif
 ||cupid.iqiyi.com/mixer?
 ||cupid.iqiyi.com/show2?
 ||cuttlefly.com/direct-info/
@@ -3757,6 +3758,8 @@
 ||nfmovies.com/static/210203.png
 ||nfuwow.com/static/nfuwow/source/front/new/images/
 ||nfydd.com/template/wap1/js/dd.js
+||nhentai.to/ads/
+||nhentai.to/js/combined.*.js?
 ||niepo.net/api/arrayid/analytics.
 ||nitroflare.com/img/banners/
 ||nitter.space/js/ads.js
@@ -4693,7 +4696,6 @@
 ||ttks.tw/js/otherad.
 ||tube.hentaistream.com/wp-includes/js/pop4.js
 ||tube8.*/_xa/ads
-||tubeon.*/templates/base_master/js/jquery.shows2.min.js
 ||tui.gtimg.com//res/
 ||tui555.com/public/gong/js/a_
 ||tui56.com/guanggao*.html
