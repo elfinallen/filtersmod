@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-11-04 04:38:55 UTC
-! Total Rules: 5255
+! Last Updated: 2026-11-04 19:16:47 UTC
+! Total Rules: 5257
 ! Expires: 5 days
 /a/ipn/js/*
 /a/p?adid=
@@ -3251,6 +3251,7 @@
 ||kantv6.com/index.php/popularize/
 ||kaoyan1v1.com/iaa/
 ||kawai-jav.com/public/upload/ads/
+||kayak.com/*/afterclick/
 ||kayege.org/js/
 ||kb-render.alicdn.com/html/*.html
 ||kdou.com/ad_js.php?adid=
@@ -4182,6 +4183,7 @@
 ||rising.cn^*/pic-ad/
 ||rising.com.cn/weblog/
 ||riskbird.com/riskbird-api/guest/uniongoods
+||rivo.vin/rivo-stealer/
 ||rjsos.com/channel/laomo_dibu.png
 ||rjzxw.com/include/
 ||rkanr.com/data/cpcache/cp*.js

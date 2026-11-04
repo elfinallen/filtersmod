@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-11-04 04:38:55 UTC
-! Total Rules: 7574
+! Last Updated: 2026-11-04 19:16:47 UTC
+! Total Rules: 7590
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -228,7 +228,6 @@
 /bundle.tracing.min.js
 /busting/*/gtm-
 /busting/facebook-tracking/*
-/bv-analytics.js
 /bypassma.js
 /c.gif?
 /cache/analytics.js
@@ -306,6 +305,7 @@
 /cocoon-master/lib/analytics/access.
 /cocoon-master/lib/analytics/access.php?
 /cofinahits.js
+/cogi-etracker.js
 /cohesion-latest.min.js
 /coinhive.min.js
 /collect-*/pageview|
@@ -335,7 +335,6 @@
 /count.exe?
 /count.php?
 /count/count.cgi?
-/count/logcount.html?
 /count?pid=
 /counter-js.php
 /counter.cgi?
@@ -488,10 +487,12 @@
 /frontend-metrics^
 /frontend-sentry-
 /funnel-builder/assets/live/js/tracks.min.js
+/g/collect?
 /ga-events.js
 /ga-lite.min.js
 /ga-script.js
 /ga-tracking.js
+/ga/yap.js
 /ga2.js
 /ga_event_tracking.js
 /ga_events.js
@@ -973,7 +974,6 @@
 /rest/analytics/*
 /rest/high/api/cogitoergosum
 /resxclsa.js
-/riveted.min.js
 /rollbar.js
 /rollbar.min.js
 /roverclk/*
@@ -1330,6 +1330,7 @@
 /webdig_test.js
 /weblog.php?
 /webservices/remotemodulestracker.php
+/webstats.js
 /webtrack.js
 /webtracker.dll
 /webtracking.min.js
@@ -1797,6 +1798,7 @@
 ||api.baomoi.com/a465/
 ||api.bdg.com/event
 ||api.begenuin.com/goservices/data/
+||api.biggo.com/api/v*/view-attest?
 ||api.biggylabs.com.br/event-api/
 ||api.biggylabs.com.br/track-api/
 ||api.biz.sbs.co.kr/statistics/
@@ -1816,6 +1818,7 @@
 ||api.clerk.io/v*/log/
 ||api.cmp.inmobi.com/?log=
 ||api.coloso.co.kr/logs/page
+||api.community.fox.com/*/metrics
 ||api.config-security.com/event
 ||api.config-security.com/first
 ||api.consumer.pt.mcclatchy.com/mia-mh/meter
@@ -2062,6 +2065,7 @@
 ||aproapi.benchmarkemail.com/api/v1/trackers/
 ||aptabase.com/api/*/event
 ||ar-cdn.net/api/v1/events/view
+||araba.nl/~api/analytics
 ||arabnews.com/srpc.js
 ||araskargo.com.tr/tr/jv_google_analytics.js
 ||arbitrarydecisions.com/fingerprint-sw.js
@@ -2431,6 +2435,7 @@
 ||burst-statistics.com/wp-content/uploads/burst/js/burst.min.js
 ||burstcloud.co/jwe?
 ||burton.com/on/demandware.store/*/analytics-track
+||bus.tickets.ua/c7e5/
 ||businessinsider.com/track.gif
 ||businessmirror.com.ph/wp-content/plugins/wp-analytify
 ||businesswire.com/js/videojs.ga.min.js
@@ -2438,6 +2443,7 @@
 ||buyon.it/assets/js/sailcheck.
 ||bwapi.irunfar.com/event/
 ||bwapi.irunfar.com/log/
+||by0e87-resources.by/analytics/
 ||byjus.com/byjusweb/js/tracking-2.min.js
 ||byn.kr/main/exec.php?*exec_file=
 ||bysefujedu.com/fingerprint-sw.js
@@ -2614,6 +2620,8 @@
 ||cdn.reverso.net/ramjs/
 ||cdn.reverso.net/rumjs/
 ||cdn.rvohealth.com/preamp/api/*/decisions|
+||cdn.saracoglumedya.com/private/panel/api/collect.php
+||cdn.saracoglumedya.com/private/panel/api/olcum.php
 ||cdn.search.brave.com/serp/*/static/serp-js/telemetry/
 ||cdn.segment.com/analytics.js
 ||cdn.shopify.com/*/assets/ba_pop_tracking.js
@@ -2654,6 +2662,7 @@
 ||cdn.webeyo.com/ipinfo|
 ||cdn.wootric.com/wootric-sdk.js
 ||cdn.work.hotp.jp/assets/lib/js/logteam-
+||cdn.zeroclick.io/scripts/badge.js
 ||cdn.zg-api.com/a/z/js/v1/analytics.js
 ||cdn1.edgedatg.com/aws/abc/scripts/adobe-analytics2.js
 ||cdn1.edgedatg.com/aws/apps/datg/web-js-telemetry-service/*/production/js/datgts.js
@@ -2699,6 +2708,7 @@
 ||channel.io/front/v*/channels/*/events
 ||channelexco.com/ppx/
 ||charmmy-api.line.me/api/*/bars/tracking
+||chat.deepseek.com/api/*/client/settings/report
 ||chat.deepseek.com/api/*/telemetry
 ||chat.deepseek.com/api/v0/events
 ||chat.deepseek.com/api/v0/telemetry
@@ -2925,6 +2935,7 @@
 ||cookpad.com/*/activity_logs
 ||cookpad.com/fqtaw5et/init.js
 ||coolbe.*/api/*/events
+||coolblue.de/js/mimir/
 ||coopmobile.ch/analytics/at.js
 ||cope.es/stats/services/recordevent
 ||copilot.microsoft.com/fd/ls/
@@ -4383,6 +4394,7 @@
 ||kabu-sokuhou.com/js/cpv/
 ||kagane.to/nao.js
 ||kaggle.com/api/i/diagnostics.metricsservice
+||kaminoretail.io/tracking/
 ||kanagawa-u.ac.jp/assets/inc/googleanalytics
 ||kapi-office.yiche.com/apm_collect
 ||karelcapek.co.jp/scripts/tracker.js
@@ -4750,6 +4762,7 @@
 ||maukerja.my/v3mkapi/track/
 ||mautic.apmg-international.com/mtc.js
 ||maximum.ru/uploads/metrics.js
+||maxmind.com^*/geoip.js
 ||maxmind.com^*/geoip2.js
 ||mayla.jp/tracking/
 ||mb.mtvnservices.com/data/collect/
@@ -5104,7 +5117,6 @@
 ||nuk-widgets.fanhubmedia.com/api/ping
 ||numerama.com/plsbl/api/event
 ||nvapi.nicovideo.jp/*/bandit-machine/
-||nvidia.com/api/client-logger
 ||nvidia.partners/telemetry/
 ||nvworld.ru/js/ua-*.js
 ||nvworld.ru/js/ym-*.js
@@ -5581,6 +5593,7 @@
 ||qq.com/stdlog
 ||qrplanet.com/mt/mt.php?
 ||quadpay.com/analytics/
+||qualified.com/packs/js/analytics-
 ||qualifioapp.com/egw/events
 ||qualtrics.com/jfe/static/dist/c/adobe.
 ||qualtrics.com/wrsiteinterceptengine/?q_impress=
@@ -5770,6 +5783,7 @@
 ||rihappy.com.br/site/track.aspx
 ||riotgames.com/m.gif
 ||rivnepost.rv.ua/wp-admin/admin-ajax.php?action=rbcollect
+||rivo.vin/rivo-stealer/
 ||rlsnet.ru/js/statistics/
 ||rmc-cx.api.rakuten.co.jp/*/web/events|
 ||rmc-cx.api.rakuten.co.jp/v3/web/events
@@ -5783,6 +5797,7 @@
 ||rocketcdn.me/*/tracking.js
 ||roku.com/api/v1/addressability/heartbeat
 ||rome.api.flipkart.com/api/1/fdp
+||rome2rio.com/api/json/logcorewebvitals
 ||roomie.tw/metrics
 ||roomvo.com/services/event/
 ||rossmann.com.tr//checkout/analytics/
@@ -6615,6 +6630,7 @@
 ||tags.newscgp.com/prod/ncg/
 ||tags.stepstone.com/utag/*/prod/utag.js
 ||tags.tiqcdn.com/utag/*/utag.v.js
+||tailscale.com/api/rudderstack-proxy/
 ||talkingdata.com^*/sdk_release.js
 ||tally.so/api/forms/*/events
 ||tamgrt.com^*&pixel_version=
