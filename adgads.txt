@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-11-03 18:58:50 UTC
-! Total Rules: 5252
+! Last Updated: 2026-11-04 04:38:55 UTC
+! Total Rules: 5255
 ! Expires: 5 days
 /a/ipn/js/*
 /a/p?adid=
@@ -1643,6 +1643,7 @@
 ||caikuu.com/ckimages/*_gg
 ||caikuu.com/ckimages/*_zg
 ||caixin.com/s?z=
+||camp.fastcompany.com/ash.js
 ||camspacelive.com/widgets/
 ||camspic.com/imguang/*.gif
 ||canimgs.com/images/
@@ -3871,6 +3872,7 @@
 ||parade.com/runtime/webads.js
 ||partwithner.com/partners/
 ||pasazer.com/_assets/js/ad-connect.js
+||pastemytxt.com/download_ad.jpg
 ||pbc.pagesix.com/p/nyp/pagesix/pb.js
 ||pbmp.ali213.net/js/
 ||pc6.com/img/
@@ -4130,7 +4132,6 @@
 ||r3sub.com/nb/
 ||r3sub.com/posters/00698128.jpg
 ||rabbitstream.net/ajax/*/banners
-||rainmaker.production-public.tubi.io/*/web?app_id=tubitv*&pub_id=*&*vpaid_enabled=
 ||rainpat.com/content/1360x55/
 ||rainpat.com/scripts/jquery.superslide.
 ||rakuya.com.tw/position?task=
@@ -4322,6 +4323,7 @@
 ||shfq.com/wuyue
 ||shihuo.cn/alibtn_
 ||shimo.im^*/ads?
+||shink.in/js/script.js
 ||shipin188.com/66
 ||shitouxs.com/static/042417.js
 ||short-wave.info/html/adsense-
@@ -4916,6 +4918,7 @@
 ||wodeshucheng5.com^*/1
 ||woozooo.com/img/*.js
 ||wowfan.net/static/js/index.
+||wowroms.com/images/banner336x280.gif
 ||woyaoq.com/201904100958_5cad4dbac9c5f.png
 ||wpdaxue.com/img/*/txy-
 ||wples.com/pc/common.js

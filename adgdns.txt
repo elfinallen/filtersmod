@@ -1,8 +1,8 @@
 ! Title: AdGuard Domain
 ! Description: DNS Filter composed of AdGuard DNS & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-11-03 18:58:50 UTC
-! Total Rules: 34539
+! Last Updated: 2026-11-04 04:38:55 UTC
+! Total Rules: 34541
 ! Expires: 5 days
 ||adacado.com^
 ||adactioner.com^
@@ -19002,6 +19002,7 @@
 ||mzvgh.onestopplus.com^
 ||mzwkss.chiccoshop.com^
 ||mzwkss.chiccousa.com^
+||mzzueflt.com^
 ||nababroadbirch.com^
 ||nabbr.com^
 ||nabekdbrk.com^
@@ -28385,6 +28386,7 @@
 ||tailleslorum.com^
 ||tailocmomo.com^
 ||tailoredcopy.com^
+||tailorydemele.com^
 ||tailsweep.com^
 ||tailtarget.com^
 ||taiphanmemfull.com^
