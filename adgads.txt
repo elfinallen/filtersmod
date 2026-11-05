@@ -1,7 +1,7 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-11-04 19:16:47 UTC
+! Last Updated: 2026-11-05 04:53:44 UTC
 ! Total Rules: 5257
 ! Expires: 5 days
 /a/ipn/js/*
@@ -4289,6 +4289,7 @@
 ||serververify.com/providers/ad-load/
 ||service.hotstar.com^*/midroll
 ||service.iwara.tv/*/*.php?zones=
+||service.iwara.tv/z/z.php
 ||services.postimees.ee/rest/v1/articles/multiple?ids=
 ||setn.com/js/advertisement?
 ||setn.com/js/idlead.
@@ -4491,7 +4492,6 @@
 ||stats.chinaz.com/tool_img/
 ||stay22.com/api/sponsors/
 ||steelcn.cn/img/bj_*_146_315.jpg
-||sterra.web.id/stera1/
 ||sterra.web.id/stera3/
 ||stg.truvidplayer.com/p.php
 ||stheadline.com/images/heading-jm
@@ -4506,7 +4506,6 @@
 ||straitstimes.com/_web2/betterads_head.js
 ||stream.cz/*/vast?
 ||streambtwp.b-cdn.net/aclib.js
-||streamcash.to/js/rtc.js
 ||stripchat.com/api/external/
 ||strtpe.link/ppmain.js
 ||stulip.org/static/js/header.js
@@ -4658,6 +4657,7 @@
 ||tlanyan.pp.ua/wp-content/uploads/meomiao.png
 ||tmatch.simba.taobao.com^*&name=tbuad&pid=
 ||tmncdn.io/vast/
+||tnaflix.com/js/mew.js?
 ||tom.com/*tomflashad
 ||tom.com/adsender/
 ||tonghuacun.com/js/uc.js

@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-11-04 19:16:47 UTC
-! Total Rules: 7590
+! Last Updated: 2026-11-05 04:53:44 UTC
+! Total Rules: 7596
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -50,6 +50,7 @@
 /alog.min.js
 /alog.mobile.min.js
 /alog/dp.min.js
+/amc.gif?
 /amp-analytics-
 /amp-skimlinks-
 /amp-story-auto-analytics-
@@ -1287,6 +1288,7 @@
 /v1/rgstr?k=client-
 /v1/tracker.js
 /v1/viewport_events
+/v1/vitals?
 /v2/pv-data?
 /v4/metrics
 /v60.js
@@ -2563,6 +2565,7 @@
 ||cdn.cubki.jp/shopping_tracker.js
 ||cdn.cuty.io/fps.js
 ||cdn.daenischesbettenlager.de/analytics.js
+||cdn.datamanager.co.kr/0/tcsdm.js
 ||cdn.deporvillage.com/tracking-library/
 ||cdn.dopc.cz/gen/detect.png
 ||cdn.dsmcdn.com/frontend/web/production/dom-event-tracker-
@@ -2612,6 +2615,7 @@
 ||cdn.mrkhub.com/sks/js/sks_track.js
 ||cdn.nwl1.megaknihy.cz/tr.js
 ||cdn.ome.lt/static/omeletemexico/js/homeanalytics.min.js
+||cdn.onetag.co.kr/0/tcs.js
 ||cdn.pdst.fm/ping.min.js
 ||cdn.pmweb.com.br/df/tag.js
 ||cdn.production.townsquareblogs.com/wp-content/uploads/static/prebid/carbon/pb.js
@@ -5111,6 +5115,8 @@
 ||nsandi.com/sites/all/themes/nsandi/js/webtrends_multitrack.js
 ||nslookup.io/pl.js
 ||nstool.netease.com/info.js
+||ntm.pstatic.net/ex/nlog-v2.js
+||ntm.pstatic.net/ex/nlog.js
 ||ntunhs.net/js/tracker.js
 ||nuance.com/tagserver/incrementality/onevent
 ||nuance.com/tagserver/logging/
