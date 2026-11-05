@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-11-05 04:53:44 UTC
-! Total Rules: 7596
+! Last Updated: 2026-11-05 19:26:00 UTC
+! Total Rules: 7598
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -4444,6 +4444,7 @@
 ||kirinholdings.*/share/ga/code.js
 ||kiss*.com/wp-content/themes/decibel/audio/audio-analytics.js
 ||kitbag.com/api/track|
+||kitco.com/api/cms-proxy?
 ||kiwisizing.com/api/log
 ||kkday.com/api/_nuxt/recommend/user-action-record
 ||klad.klerk.ru/a/click?page-url=
@@ -6797,6 +6798,7 @@
 ||tom.itv.com/itv/count/*
 ||toneden.io/*/analytics/
 ||tonkosti.ru/js/statistic.php
+||tools.finanztip.de/track/
 ||top.azur.ru/?id=
 ||top.elec.ru/cnt?id=
 ||topshop.com/wcsstore/consumerdirectstorefrontassetstore/images/trans_pixel.gif
