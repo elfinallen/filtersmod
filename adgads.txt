@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-11-06 04:53:22 UTC
-! Total Rules: 5260
+! Last Updated: 2026-11-06 18:49:17 UTC
+! Total Rules: 5222
 ! Expires: 5 days
 /a/ipn/js/*
 /a/p?adid=
@@ -55,12 +55,6 @@
 /aipai/player/game_video/videoadvert_
 /ajds/*
 /ajs?zoneid=
-/alljs/alldl.js
-/alljs/allfoot.js
-/alljs/allhead.js
-/alljs/alltop.js
-/alljs/allwzwfoot.js
-/alljs/allwzwhead.js
 /amazonjs.css?
 /anymanagerrecover.js
 /aoyou372down300_
@@ -304,8 +298,6 @@
 /k120g270.
 /k300g250.
 /k960g90.
-/kan/ads/dl.js
-/kan/js/dian.js
 /kumi/file/js/float.js
 /lanye2015/images/kuan.jpg
 /lanye2015/images/lanyeht.jpg
@@ -586,7 +578,6 @@
 ||127.net/2018/08/15/71ee02b5b61c4090b3ce0116306596c2.jpeg
 ||127.net/external/js6public126_
 ||127.net/external/js6public163_
-||12img.com/ad/
 ||131458.com/union/
 ||1328f.com/js/jquery.js
 ||1337x.*/js/vpn*.js
@@ -851,7 +842,6 @@
 ||51testing.com/templates/default/images/jx2_a.jpg
 ||51ui.cn/999.png
 ||51ui.cn/js/500200.js
-||51vob.com/js/hf.js
 ||51wady.com/me.php?id=
 ||51wan.com/img/js/xyadjs_
 ||51wangdai.com/images/bad_*0
@@ -1190,7 +1180,6 @@
 ||alicdn.com/img/ibank/*_1533190909.
 ||alicdn.com/img/ibank/*_1932275220.
 ||alicdn.com/img/ibank/*_1995781528.
-||alicdn.com/img/ibank/*_2114606112.
 ||alicdn.com/img/ibank/*_330044705.
 ||alicdn.com/img/ibank/*_392352300.
 ||alicdn.com/img/ibank/*_755908572.
@@ -1253,6 +1242,8 @@
 ||api.deepai.org/thrad-placement-proxy
 ||api.jerkmotion.com/r/
 ||api.leakgallery.com/affiliate/
+||api.leakgallery.com/cfg/*/cpc?
+||api.leakgallery.com/cfg/*/z?
 ||api.leakgallery.com/r/
 ||api.live.bilibili.com/*/banner
 ||api.redgifs.com/v*/adv/
@@ -1265,6 +1256,7 @@
 ||apis.pchome.com.tw/js/idlead.js
 ||apk-01.oss-cn-beijing.aliyuncs.com/dp/
 ||apk.tw/static/js/showpic.js
+||apkcube.com/loader.js
 ||apple886.com/subs/*.js
 ||apppc.chinaz.com/statics/images/tuan
 ||apptry.easylife.tw/pub/js/common/common.js
@@ -1312,7 +1304,6 @@
 ||autonet.com.tw/90/
 ||autopiano.cn/data/jd_
 ||autoscout24.*/frontend-metrics/
-||av30.xyz/cs/
 ||av6k.com/shop/a4.jpg
 ||av6k.com/templets/
 ||av6k.com/templets/default/parts/
@@ -1536,7 +1527,6 @@
 ||blogspot.com^*/s1600/drug.gif
 ||bloodbornepc.wiki/_astro/adsadapter.
 ||blueidea.com/js/ajs.js
-||blz105.com/player/ad.html
 ||bmp.ali213.net/js/
 ||bmp.ovh/imgs/2020/09/3e4e11ecc19c4bd6.png
 ||bmp1.ali213.net/js/
@@ -1960,6 +1950,7 @@
 ||cupid.iqiyi.com/mixer?
 ||cupid.iqiyi.com/show2?
 ||cuttlefly.com/direct-info/
+||cvs.com/*?q=get*butterflyproducts
 ||cww.net.cn/include/show.asp?boardid=
 ||cww.net.cn/js/urdev.js
 ||cyberscore.live/images/bnrk-res/
@@ -2384,8 +2375,6 @@
 ||fuckflix.click/assets/js/custome.js
 ||fuelfinder.dk/js/prettyprint-message-min.js
 ||fuimg.com/1/66795b80a792fb96.png
-||fulibac.com/images/upload/ad/
-||fulibl.com/wp-content/uploads/2016/06/320-230.jpg
 ||func.tw/image/func2.png
 ||funnyjunk.com/site/js/extra/pre
 ||funshipin.com/v1/js/footerhongbao.js
@@ -2507,7 +2496,6 @@
 ||goaloo.*/mn/*.gif
 ||godamanga.online/ad/
 ||gogoanime.me/zenny/
-||gogorenti.wang/js/m_cp
 ||gold678.com/news/js/layer/layer.js
 ||goldtraders.or.th/*/advertisement.gif
 ||goldtraders.or.th/uploads/banner/
@@ -2638,8 +2626,6 @@
 ||haokan5.com/js/haokanjs/playa
 ||haokan5.com/js/haokanjs/tj.js
 ||haokan5.com/js/haokanjs/youxiajiao.js
-||haolepic.com/blz/
-||haolepic.com/js/
 ||haolingsheng.com/public/daguzhe.jpg
 ||haoqu99.com/d/haoqu/haoqu
 ||haosf.com/kan.htm
@@ -2765,7 +2751,6 @@
 ||httpcn.com^*-120
 ||htvapps.com/ad_fallback/
 ||huaban.com^*/ads
-||huaiduoduo.info/runtime/js/
 ||huananxs.top/static/jp/js/ad
 ||huangguo.me/static/js/linepromo.
 ||huanjugu.com/dm
@@ -2782,7 +2767,6 @@
 ||huibaihe.net/static/730-580.
 ||huiji-fs.oss-cn-qingdao.aliyuncs.com/huijiad/
 ||huimg.cn/e/hd.e.wap.
-||huizu100.com/data/attachment/portal/
 ||humix.com/video.js
 ||huo720.com/files/vidhub
 ||huoche.net/images/pc/ad_
@@ -2955,7 +2939,6 @@
 ||instant-gaming.com/affgames/
 ||instant-gaming.com/api/banner/partner/loader.js
 ||insurance.cekresi.me/assets/compat.js
-||inszu.com/js/qian/
 ||internationalsexguide.nl/banners/
 ||intporn.com/js/siropu/
 ||invest.datapendidikan.com/assets/compat.js
@@ -3027,7 +3010,6 @@
 ||itopdog.cn/itopdog/d*.js
 ||its.porn/ai/s/*/im.
 ||its.porn/ai/s/s/js/m/push.js
-||ituba.cc/uploads/allimg/201610/603/
 ||itv.hexun.com
 ||itxueyuan.com/advpicture/
 ||itxueyuan.com^*.mp4
@@ -3247,7 +3229,6 @@
 ||kankanwu.com/le/
 ||kankanwu.com/xuxu/
 ||kanmeiju.net/js/
-||kanpb.com/skin/images/
 ||kanqiuba.net/js/
 ||kanshushi.com/js/nxnhsqe.
 ||kanshushi.com/yyddssdd.
@@ -3384,9 +3365,6 @@
 ||lianmeng.la/cde/text.js
 ||liantu.cn/script/
 ||lianty.com/getimg?id=
-||lianyexiuchang.cc/img/2f2372e9bf205df0.png
-||lianyexiuchang.cc/img/97da89108eb659fc.gif
-||lianyexiuchang.cc/js/
 ||liaoxuefeng.com/files/attachments/00144*/0
 ||libero.it/public/*/js/adv.min.js
 ||licai18.com/henyepweb/
@@ -3543,12 +3521,10 @@
 ||manqian.cn/784a6e27-be5b-4442-86e5-9f4adb51894d?
 ||manqian.cn/async/adlocationconfig
 ||mansurfer.com/flash_promo/
-||maodh.com/admin/up/*.gif
 ||maolihui.com/wp-content/themes/miaonew/images/adb
 ||maomaoks.com/1.
 ||maopu.tv/d/file/p/2019/07/6ac50c702cf9e6a9a7910a510c40cb73.jpg
 ||massariuscdn.com/pubs/
-||masturbation22.com/d/
 ||mat.chasedream.com^*.gif
 ||mat1.gtimg.com/2014/vikkydu/ga/haier
 ||mat1.gtimg.com/2014/webtips/ola2014tips
@@ -3788,6 +3764,7 @@
 ||nrl.com^*/sponsors/
 ||nrsfh.com/neirong/
 ||nsfwalbum.com/efds435m432.js
+||ntdeals.net/assets/js/google-ads.
 ||ntdtv.com/assets/themes/ntd/js/article_ads.js
 ||ntimg.cn/original/images/www_ads.jpg
 ||nudify.now/resources/js/p6.js
@@ -3938,7 +3915,6 @@
 ||pic.gongkong.com/uploadpic/gongkong/
 ||pic.pimg.tw/promo01/
 ||pic.yupoo.com/showflash/
-||picb.cc/uploads/2018/06/26/2zxrsi.jpg
 ||picgd.com/images/*.gif
 ||picgd.com/images/2018/12/01/h1pi5.png
 ||picrew.me/vol/ads/
@@ -4012,6 +3988,7 @@
 ||property.hk/js/adside.js
 ||ps0z.com/300x250b
 ||ps123.net/myfile/
+||psdeals.net/assets/js/google-ads.
 ||psyzg.com/public/home/images/tuhe_240_236.gif
 ||ptbus.com/s.js
 ||ptfg.flyertrip.com/static/img/campain/
@@ -4276,7 +4253,6 @@
 ||sdk.tvbs.com.tw/ad/v*/ad-sdk.min.js
 ||sdo.com/static/image/mkads/
 ||sdzbcg.com/images/sdfhyl
-||se533.com/template/new/css/*.js
 ||search.brave.com/api/ads/
 ||search.brave.com/serp/v1/static/serp-js/paid/
 ||sector.sk/default-*.aspx
@@ -4321,8 +4297,6 @@
 ||shanhaimiwenlu.com/sh
 ||shaoxing.com.cn/gg
 ||shaoxing.com.cn^*gg.
-||share44.com/300
-||share44.com/adad2014/
 ||shbear.com^*/ad/
 ||shen4club.com/style/*.js?v=
 ||shewang.net/images/*/900x
@@ -4376,7 +4350,6 @@
 ||sinajs.cn/t4/apps/publicity/static/wbad.js
 ||sinajs.cn/t6/home/js/pl/guide/adforfqy/
 ||sinajs.cn/t6/home/js/pl/guide/bigday/
-||singlove.com/qq/qq.js
 ||singtao.ca/editions/affiliate_
 ||sinolub.com/index.php?m=poster&
 ||site-bk.oss-cn-shenzhen.aliyuncs.com/img/aliyun/
@@ -4580,7 +4553,6 @@
 ||taozi.icu/asfile/m/js/guding.
 ||taozi888.com/a*.js
 ||taozi888.com/sys
-||taporn.com/d/
 ||tb58.net/plugin.php?id=tb58_
 ||tbcdn.cn/mm/tanxssp-custom/sina_
 ||tbib.org/gaming/
@@ -4629,8 +4601,6 @@
 ||tianshui.com.cn/scripts/ac_
 ||tianshui.com.cn/yb.html
 ||tiantianzhibo.com/js/banner.js
-||tietuku.com/b975a9f7c494738b.gif
-||tietuku.com/d57c01987e74d8f8.gif
 ||tiexue.net/domain-policy/
 ||tiexue.net/zgg/
 ||tigtag.com/images/*1000x
@@ -4898,7 +4868,6 @@
 ||westca.com/server/
 ||weste.net/js/showpagead.js
 ||wfiles.hcomic.net/indexswiper/*_*x*_*_tc_gif.gif
-||whichav.*/qq/qq.js
 ||whnews.cn/wh_public/xuxu/
 ||whsir.com/wp-content/themes/wh-blog/js/modal.js
 ||widget.engageya.com/engageya_loader.js
@@ -4958,6 +4927,7 @@
 ||x360xs.com/tops/
 ||xav*.icu/base/js/other.js
 ||xayjbz.com/static/images/apc.
+||xbdeals.net/assets/js/google-ads.
 ||xbiqu5.com/12345678.
 ||xbiquge99.cc/js/dj
 ||xbiqugela.com/js/basisc.
@@ -5058,10 +5028,7 @@
 ||xtits.*/static/js/custom.js
 ||xuehi.cn/reward/reward
 ||xunsu.cc/js/indexbottom.js
-||xunyugong.xyz/sitejs/xunyugong.js
 ||xuzhi.net/uploadfile/poster/960x50.jpg
-||xv98.com/js/daohang
-||xv98.com/js/hengfu
 ||xvideo.cc/etology2.js
 ||xvideo.cc/im4.js
 ||xvideo.cc/wefong2.js
@@ -5095,8 +5062,6 @@
 ||ydgal.com/axfile/
 ||ydss.cn/test.www.jdpay.com
 ||ydstatic.com/dsp_website/
-||yea.im/5hq.gif
-||yea.im/5ht.gif
 ||yecaoyun.com/ad/
 ||yefu365.com/rebo/function.js
 ||yehaobo5.com/js/
@@ -5133,7 +5098,6 @@
 ||yiparts.com/chance.php?aid=
 ||yiren34.com/js/
 ||yjcf360.com/ad.
-||yjyc-ask.com/res/ads/
 ||ynet.co.il/*/teaser/marketschedual_
 ||ynet.co.il/gpt/
 ||yorkbbs.ca/crm/section/v1/get/list/open
@@ -5212,7 +5176,6 @@
 ||zhibok8.com/images/*.gif
 ||zhibok8.com/js/di
 ||zhibok8.com/js/scroll.js
-||zhifuok.com/19xa.jpg
 ||zhihu.com/api/*banners/
 ||zhihu.com/api/v4/brand/question/*/card
 ||zhihu.com/api/v4/commercial/ecommerce
@@ -5247,7 +5210,6 @@
 ||zol.com.cn/js/ask/ask.js
 ||zongheng.com/upload/hzds/
 ||zongheng.com/upload/recommend/game/
-||zpiyi.com/public/js/global.js
 ||zrblog.net*/gg/
 ||zrblog.net/zanzhu/virpus.gif
 ||zshorte.net/js/full-page.js

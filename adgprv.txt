@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-11-06 04:53:22 UTC
-! Total Rules: 7598
+! Last Updated: 2026-11-06 18:49:17 UTC
+! Total Rules: 7592
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -282,7 +282,6 @@
 /click.php?lp=data_upd&
 /click?track=
 /click_metrics-jquery.js
-/click_track.js
 /clickcount/clickcount.js
 /clickctrl.js
 /clickheat.js
@@ -366,6 +365,7 @@
 /dcjs/prod/*
 /dcs.gif?
 /dead-clicks-autocapture.js
+/detectincognito.min.js
 /detm-container-ftr.js
 /detm-container-hdr.js
 /detroitchicago/overlandpark.js
@@ -400,6 +400,7 @@
 /egcs/v2/collect
 /elastic-apm-rum.umd.min.js
 /elqcfg.min.js
+/email/open?
 /email_open_log_
 /email_opened_tracking_pixel?
 /emos2.js
@@ -619,6 +620,7 @@
 /jquery.iframetracker.min.js
 /js-sdk-event.min.js
 /js/ad_insight/*
+/js/admiral-
 /js/analitics.js
 /js/counter.js?
 /js/exponea.min.js
@@ -790,7 +792,6 @@
 /o_tealium.js
 /oa-tracking?
 /official-facebook-pixel/js/facebook_signal.js
-/omnitrack-lately.js
 /omniture/visitorapi.
 /omniture_tracking.
 /onetag/*
@@ -987,7 +988,6 @@
 /rt_track.js
 /rt_track_event.js
 /rtoaster.js
-/rudder-analytics.min.js
 /rum-collector/*
 /rum.gif?
 /rum/events
@@ -996,7 +996,6 @@
 /ruxitagentjs_
 /rw/beacon_
 /s.gif?
-/s.png?event=
 /s/js/ta-2.3.js?
 /s/s/js/m/om.js?v=
 /s/vestigo/measure
@@ -1398,6 +1397,7 @@
 /xgemius.js
 /xhr/api/v2/collector
 /xinhua_webdig.js
+/xiti.js
 /xml/pv.xml?
 /xtcore-*.js
 /xtcore.js
@@ -1754,7 +1754,6 @@
 ||anizmplayer.com/gmetrics/
 ||antennasync.me/imp.php
 ||antigravity.google/_astro/analyticsbootstrap.*.js
-||anyclip.com/v1/lre-events?
 ||aol.com/ping?
 ||aol.com/track/
 ||aoneroom.com/sdk/athena-unify.js
@@ -1857,7 +1856,6 @@
 ||api.gleap.io/sessions/ping
 ||api.globalbunjang.com/api/log/
 ||api.goodbarber.net/statsapi/
-||api.headliner.link/api/v1/b/receive
 ||api.heikeji.me/api/logs/check
 ||api.helloextend.com/mintsight
 ||api.hisavana.com/hisavana/eventtracking/
@@ -1948,7 +1946,6 @@
 ||api.tinybird.co/*/events
 ||api.tinypass.com/api/v*/anon/error/log
 ||api.transcy.io/api/statistic/
-||api.transtore.app/api/v2/storefront/tracking
 ||api.trwl1.com/ascripts/gcrt.js
 ||api.tua.gov.tr/api/visitor_statistics
 ||api.u-komi.com/track|
@@ -2071,6 +2068,7 @@
 ||arabnews.com/srpc.js
 ||araskargo.com.tr/tr/jv_google_analytics.js
 ||arbitrarydecisions.com/fingerprint-sw.js
+||arc.io/widget.min.js
 ||arc.msn.com/*/impression?pid=
 ||arc.nexx.cloud/static/structure/pixel_transparent.png
 ||arc.pub/clavis/training/events
@@ -2449,6 +2447,7 @@
 ||byjus.com/byjusweb/js/tracking-2.min.js
 ||byn.kr/main/exec.php?*exec_file=
 ||bysefujedu.com/fingerprint-sw.js
+||byteoversea.com/monitor_web/
 ||c-cmoa.akamaized.net/sol/c/js/common/gtm_ga_user_update.js
 ||c-date.*/customerm/
 ||c-date.at/sites/c-date.ch/modules/tracking
@@ -2522,6 +2521,7 @@
 ||cbsivideo.com/measurements/
 ||cbslocal.com^*/cbs1x1.gif?
 ||cc.cc/visit_log_ajax/
+||cca-lite.coinbase.com/metrics
 ||ccc.eu/*/api/events/publish
 ||ccp.digitaltrends.com/scripts/cc-tracking.js
 ||ccpa.sp-prod.net/ccpa.js
@@ -3237,6 +3237,7 @@
 ||doofinder.com/api/v*/stats/
 ||doofinder.com/api/v2/stats/
 ||doordash.com/iguazu-edge/
+||dorcel.com/_stats/
 ||dotnet.microsoft.com/static/js/analytics.min.js
 ||doublepimp.com/scripts/analytics/
 ||douyucdn.cn/fish3/1.gif
@@ -4294,8 +4295,6 @@
 ||ipokabu.net/js/analytics.js
 ||iportal.ru/static/mediadash/tracker.iife.min.js
 ||iptv-web.app/__/tracking.astro_astro_type_script_index_
-||ipv4.art/claim
-||ipv4.games/claim
 ||iqiyi.com/dsp_track3
 ||iqiyi.com/pixel
 ||iqiyi.com/track
@@ -4352,7 +4351,6 @@
 ||js.dhresource.com/*/tracklog/tracklog.js
 ||js.dhresource.com/buyer/common/track/trackwebsdk.js
 ||js.gleam.io/*/trk.js
-||js.go2sdk.com/v2/tune.js
 ||js.hscta.net/cta/current.js
 ||js.hubspot.com/analytics/
 ||js.iplsc.com/inpl.log/
@@ -4720,7 +4718,6 @@
 ||mango-office.ru/calltracking/
 ||manomano.*/api/v1/sp-tracking/
 ||manoramaonline.com/acd/api/*/authorize/json?brand=*&ev_sid=
-||manscaped.com/rud-dataplane/
 ||manua.ls/gtag
 ||manychat.com/analytics/event
 ||manychat.com/js/visitor.js
@@ -4833,7 +4830,6 @@
 ||melonstube.com/js/analytics
 ||memonotepad.com/js/modules/google-analytics-bundle.js
 ||mensjournal.com/.api/admiral
-||mensjournal.com/.bootscripts/analytics.min.js
 ||mercari.com/gtm/
 ||mercdn.net/assets/scripts/raphaelp
 ||mercedes-benz.com/datadog-
@@ -4957,7 +4953,6 @@
 ||multporn.net/modules/statistics/statistics.php
 ||muragon.com/js/normal/gtag-event.js
 ||musescore.com/components/data?
-||musescore.com/score/stats/
 ||music.apm-proxy.obs.mts.ru/eum/*/eum.min.js
 ||music.apple.com/assets/mt-client-logger-core.
 ||music.bugs.co.kr/js/log/
@@ -5135,6 +5130,7 @@
 ||obs.coupangstreaming.com/web/otlp/*/metrics
 ||ocn-tag.sienca.jp/api/v1/event/pv
 ||ocnk.net/include/access.php
+||octaneai.com/api/v1/beacon
 ||octaneai.com^*/utrk
 ||octobrowser.net/hs/scriptloader/
 ||oculus.com/ajax/bz?
@@ -5689,8 +5685,6 @@
 ||reader.hqread.cc/online/heartbeat
 ||readthedocs.*/javascript/readthedocs-analytics.js
 ||realitykings.com/_ats/eta/events
-||realself.com/v1/browser-logging-service/browser/log
-||realself.com/v1/page-interactions-events
 ||realting.com/*-counter|
 ||realtor.com/rdc_user_check/init.js
 ||realtym.live/ga.js
@@ -6001,6 +5995,7 @@
 ||secure.planetfootball.com/tag/*/tag.js
 ||securegw.paytm.in/ui/uilogger/log?
 ||secureserver.net/t/
+||seekingalpha.com/mone_v2
 ||seekingalpha.com/xgcxm9by/init.js
 ||seesaawiki.jp/img/rainman.gif?
 ||segment.psg.nexstardigital.net/adobeanalytics.js
@@ -6496,6 +6491,7 @@
 ||storage.googleapis.com/shufoo-prod-imp-gif/
 ||storage.googleapis.com/t3n-de/assets/t3n/2018/scripts/msodrq.js
 ||storage.googleapis.com/tm-frend-graffiti/
+||storage.googleapis.com/vs-scripts/intentiq/vsintentiq.js
 ||storage.googleapis.com/widget.kenect.com/resources/scripts/newrelic.js.gz
 ||storage.syncmedia.io/libs/sm_capture_
 ||store.lixil.co.jp/*/amasty_xsearch/js/widgets/analytics-data-collector.js
@@ -6930,7 +6926,6 @@
 ||tunein.com/api/v1/log/
 ||turbobit.net/ajax/fdlogger/
 ||turbovpn.com/api/mms/analytics/v1/events|
-||turizmguncel.com/api/track|
 ||turkiyegazetesi.com.tr/item/hit?
 ||turner.com/analytics/comscore/streamsense.
 ||turnto.com/event
@@ -6947,7 +6942,6 @@
 ||tvsyd.dk/js/pscript.js
 ||twc.net/device/ovp/logger?
 ||tweakers.net/*/event-tracking/
-||tweakers.net/ajax/clicks/
 ||tweakers.net/x/scripts/min/ptbo.js
 ||tweakers.nl/track/
 ||twgreatdaily.com/site/js/name/stat
@@ -7326,6 +7320,7 @@
 ||wine-searcher.com/k6s8okp3/init.js
 ||winfuture.de/?*/videos-json.php&f=track_event
 ||winfuture.de/ajax/count
+||winfuture.de/wfk/?id=gtm-
 ||wintorrents.ru/templates/wintorentsnew/images/gp.jpg
 ||wired.*/hotzones/src/pixelpropagate.js
 ||wish.com/api/analytics/
@@ -7501,7 +7496,6 @@
 ||yenicaggazetesi.com.tr/stats/
 ||yes24.com/sysimage/contents/scripts/c/logging/
 ||yes24.com/sysimage/contents/scripts/p/logging/
-||yeti.com/t1p5rban/init.js
 ||yext.com/plpixel?
 ||yimg.com/*/ymanalytics-core.js
 ||yimg.com/aaq/vzm/cs_*.js
