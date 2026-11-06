@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-11-05 19:26:00 UTC
-! Total Rules: 5258
+! Last Updated: 2026-11-06 04:53:22 UTC
+! Total Rules: 5260
 ! Expires: 5 days
 /a/ipn/js/*
 /a/p?adid=
@@ -679,7 +679,6 @@
 ||21uscity.com/zonelist.php
 ||21yq.com/mg/21yq/
 ||222xs.com/js/greentea.js
-||2324av.com/zz/
 ||2345.com/cnxh/
 ||2345.com/duoteimg/img/*_ad_
 ||2345.com/dypcimg/*gamerecommend.js
@@ -1012,6 +1011,7 @@
 ||88448.com/images/appkai980x100.gif
 ||88liu.com/data/attachment/portal/
 ||88ys.cc/js/abcd.js
+||8boobs.com/flr.js
 ||8d8d.me/images/dealer.gif
 ||8kporner.com/themes/lite/js/mztn.js
 ||8muses.com/banner/
@@ -1045,7 +1045,6 @@
 ||920share.com/wp-content/uploads/*/911
 ||92dp.com/home/showga?
 ||92ghai.com/zz/
-||92uq.com/ads/
 ||94994.com*/js/plugin/shoppingmall/
 ||949949.com/2013/end/hot_news.js
 ||94az.com/astyle/wap.
@@ -1566,6 +1565,8 @@
 ||boyfriendtv.com/bftv/bbb/img/
 ||boyfriendtv.com/bftv/paysite/
 ||boyfriendtv.com/link/out/b/
+||boyfriendtv.com/units/live/ppnd/
+||boyfriendtv.com/zv3/b/
 ||boyfriendtv3.com/zv3/
 ||boylov.xyz^*/img/20*.gif
 ||boylove.cc/static/js/yymh.js
@@ -1643,6 +1644,7 @@
 ||caikuu.com/ckimages/*_gg
 ||caikuu.com/ckimages/*_zg
 ||caixin.com/s?z=
+||cam69.com/images/*x*sexedchat.gif
 ||camp.fastcompany.com/ash.js
 ||camspacelive.com/widgets/
 ||camspic.com/imguang/*.gif
@@ -2071,6 +2073,7 @@
 ||dmzj.com/js/m_btmapp.js
 ||dmzj1.com/js/ad/
 ||dngz.net/x/
+||dnscloud.github.io/js/waypoints.min.js
 ||dnvod.tv/listprovider/ajaxlist.async.ashx
 ||dnvodcdn.me/fast/*.mp4
 ||dnwx.com/pic/*_978x60.
@@ -3222,6 +3225,7 @@
 ||jyrd.com/statics/*/js/baizhu/
 ||jz5u.com/public/new/
 ||jzb.com/website/fe/pub_js/dbclickshow.js
+||jzzo.com/_ad
 ||k8dm.com/960x70.
 ||kaixin001.com.cn/js/cpm-
 ||kalvin.cn/page/img/
@@ -3416,7 +3420,6 @@
 ||livku.com/g1000/
 ||liwupuba.com/livead/
 ||ll.ibiqiuge.com/m.js
-||llj22.com/1.gif
 ||lnzqw.net/js/
 ||loader.to/images/loader/convertr.png
 ||localau.vip/plugin/ad_
@@ -3607,6 +3610,7 @@
 ||milffox.com/ai/
 ||milimili.tv/js/loadjs/jquery
 ||milimili.tv/template/joeleo/*.js
+||milkmanbook.com/dat/promo/
 ||mima.club/tuijian/speedtest/
 ||minixiazai.com/others/all_soft.js
 ||minixiazai.com/statics/js/soft/index.js
@@ -4172,6 +4176,7 @@
 ||rfidworld.com.cn/js/rfid.js
 ||rfidworld.com.cn/js/rfidexec.js
 ||rfidworld.com.cn/notice/home
+||rgfftupf.
 ||riaway.com/statics/idea.jpg
 ||right.com.cn/forum/data/attachment/common/template/boardimg_20260602yahb3wsd.
 ||right.com.cn/forum/static/image/common/logo
@@ -5116,7 +5121,6 @@
 ||yigujin.cn/wp-content/themes/three/js/tuij
 ||yigujin.cn/wp-content/themes/three/js/yierlin
 ||yii666.com/ad/dynamic-
-||yikeyz.com/pm.js
 ||yimg.com/cv/ae/default/*_static-jpeg_
 ||yimg.com/cv/api/hk/fp_czy_ad/
 ||yimg.com/dy/ads/native.js
@@ -5158,8 +5162,6 @@
 ||ytbbs.com/images/index/
 ||yuanxue365.com/js/a22.
 ||yueipaoo.xyz^*.gif
-||yui-nya.com/wp-content/uploads/2016/12/37011.jpg
-||yui-nya.com/wp-content/uploads/2016/12/neta370-370.jpg
 ||yun.baidu.com/act/api/activityentry?
 ||yundaquan.com/data/attachment/portal/
 ||yuntu68.com/img
