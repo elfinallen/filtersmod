@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-11-07 04:24:36 UTC
-! Total Rules: 7592
+! Last Updated: 2026-11-07 17:20:42 UTC
+! Total Rules: 7587
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -97,7 +97,6 @@
 /analytics/searches?
 /analytics/smarttag-
 /analytics/track_event/*
-/analytics/tracker.js
 /analytics/trackimpressions
 /analytics/tracking.js
 /analytics?ver=*&referrer=
@@ -324,7 +323,6 @@
 /common/analytics.js
 /common/ga.js
 /common/js/gtm.js
-/common/tracker.js
 /common/tracking/webtrekk
 /comscore-min.js
 /comscore?
@@ -741,7 +739,6 @@
 /metrika.js?=
 /metrika/*.png?x=
 /metrika/tag.js
-/microsoft.cognitiveservices.speech.sdk.bundle.js
 /minescripts.js
 /mint/?js
 /mip-stats-cnzz/*
@@ -1699,6 +1696,7 @@
 ||amazonaws.com/*/trackpush.min.js
 ||amazonaws.com/?wsid=
 ||amazonaws.com/appmonitors/
+||amazonaws.com/b2bjsstore/
 ||amazonaws.com/beacon.*/beacon/before-login.gif?
 ||amazonaws.com/cdn.aimtell.com/
 ||amazonaws.com/default/tracking?url=
@@ -2068,7 +2066,6 @@
 ||arabnews.com/srpc.js
 ||araskargo.com.tr/tr/jv_google_analytics.js
 ||arbitrarydecisions.com/fingerprint-sw.js
-||arc.io/widget.min.js
 ||arc.msn.com/*/impression?pid=
 ||arc.nexx.cloud/static/structure/pixel_transparent.png
 ||arc.pub/clavis/training/events
@@ -3699,7 +3696,6 @@
 ||fulltv.com.ar/js/counter_xhtml.js
 ||fupa.net/fupa/api.php?p=besucher_klick
 ||fuq.com/js/analytics
-||future-shop.jp/rview.gif?
 ||g.alicdn.com/alilog/s/*/plugin/aplus_spmact.js
 ||g.ezoic.net/ezosuigeneris.js
 ||g.ivi.ru/track
@@ -4651,7 +4647,6 @@
 ||lun.ua/api/analytics/product|
 ||lvbet.pl/*/json/web-analitics-events.json
 ||lvz.de/viewlog_receiver.php?
-||lycos.com/analytics.js
 ||lyft.com/api/track
 ||lz.de/_lz_daten/_cookies/keywordtracker/config.js
 ||m-chromadrone.prod.suno.com/metrics/
@@ -4952,7 +4947,6 @@
 ||mtvnservices.com/metrics/
 ||multporn.net/modules/statistics/statistics.php
 ||muragon.com/js/normal/gtag-event.js
-||musescore.com/components/data?
 ||music.apm-proxy.obs.mts.ru/eum/*/eum.min.js
 ||music.apple.com/assets/mt-client-logger-core.
 ||music.bugs.co.kr/js/log/
@@ -5098,6 +5092,7 @@
 ||nos.netease.com/udc-web/*.log.js
 ||nosto.com/analytics/
 ||note.com/api/v*/trackings/
+||note.com/api/v3/trackings/
 ||notebookinfo.de/javascript/*/collector.js
 ||notepet.co.kr/etc/logs/sitelog
 ||notepet.co.kr/js/sitelog.js
@@ -5418,6 +5413,7 @@
 ||plausible.io/api/event
 ||plausible.io/js/p.js
 ||play.googleapis.com/log|
+||play.pl/?_hn:type=
 ||play.vidyard.com/api/metrics
 ||playbrain.io/analytics/
 ||playep.pro/pl/vendor/stat.min.js
@@ -5969,7 +5965,6 @@
 ||sdk-api.yozio.com/?os
 ||sdk-service.nsureapi.com/events
 ||sdk.appbrain.com/api/
-||sdk.getlimy.ai/p/limy-analytics.min.js
 ||sdk.mdznconnect.com/data-collector/
 ||sdk.mrf.io/statics/marfeel-sdk.js
 ||sdk.nsureapi.com/sdk.js

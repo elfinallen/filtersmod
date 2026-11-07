@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-11-07 04:24:36 UTC
-! Total Rules: 5222
+! Last Updated: 2026-11-07 17:20:42 UTC
+! Total Rules: 5223
 ! Expires: 5 days
 /a/ipn/js/*
 /a/p?adid=
@@ -1497,6 +1497,7 @@
 ||bing.com/adsfetch
 ||bing.com/adsfetch?
 ||bing.com/api/*/mediation/clientauction
+||bingebang.club/b/728.html
 ||bio-equip.com/dimg/
 ||bio-equip.com/dimgs/
 ||bio-equip.com/uploadimages/peiqing.gif
