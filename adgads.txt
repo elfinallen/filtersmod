@@ -1,7 +1,7 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-11-06 18:49:17 UTC
+! Last Updated: 2026-11-07 04:24:36 UTC
 ! Total Rules: 5222
 ! Expires: 5 days
 /a/ipn/js/*
@@ -1118,6 +1118,7 @@
 ||adtonos.com/attc-*.min.js
 ||adult-sex-games.com/images/*.gif
 ||adult-sex-games.com/images/adult-games/
+||adult-sex-games.com/images/promo/
 ||adultdeepfakes.com/static/js/p.js
 ||adultfilmdatabase.com/graphics/porndude.png
 ||advertising.civitai.
@@ -1550,6 +1551,7 @@
 ||boyfriend.tv/api/*^advertisername=
 ||boyfriend.tv/bftv/www/js-v*/tab-flow-loader.min.js
 ||boyfriendtv.com/ads/
+||boyfriendtv.com/bftv/*/player-extras.
 ||boyfriendtv.com/bftv/b/
 ||boyfriendtv.com/bftv/bb/
 ||boyfriendtv.com/bftv/bbb/img/
@@ -1616,7 +1618,6 @@
 ||c-ctrip.com/train/201611/yqh_270-280.jpg
 ||c.fimgs.net/e/*theme=auto
 ||c.mipcdn.com/static/*/mip-ad/mip-ad.js
-||c.stmedia.click/static/cac.min.js
 ||c114.com.cn/default_inc/a/images/
 ||c114.com.cn/js/channel.js
 ||c114.com.cn^*/js/ad_load-new.js
@@ -1699,7 +1700,6 @@
 ||cdn.rawgit.com/arlina-design/quasar/*/arlinablock.js
 ||cdn.rekkerd.org/img/a/rkkrdprm/
 ||cdn.shdsp.net/ad
-||cdn.speakup.ai/cookie-sync.js
 ||cdn.staticaly.com/gh/arlina-design/*/arlinablock.js
 ||cdn.tapioni.com/asg_embed.js
 ||cdn.uameta.ai/file/bucket-media/image/advertisement/
@@ -2409,9 +2409,9 @@
 ||game8.vn/partial/advmobilecontent?idadv=
 ||game8.vn/partial/all_*advpartial
 ||game8.vn/partial/all_advwidth*partial
-||gamecopyworld.com/*.php?
 ||gamecopyworld.com/ddd/
 ||gamefy.cn/cookiead.php
+||gameinformer.com/modules/custom/gi5_ads/js/content/
 ||gamemale.com/static/js/valida.js
 ||gamersky.com/common/tg/
 ||gamersky.com/g/gamerskyflash.js
@@ -3946,7 +3946,6 @@
 ||playgama.com/ads/
 ||plibcdn.com/templates/base_master/js/jquery.shows2.min.js
 ||pmb*.tj.ali213.net/js/
-||pn.ybp.yahoo.com/ab/imp/
 ||pniao99.com/statics/js/stat.js
 ||pnn.ps/storage/images/partners/
 ||poco.cn/v1_1/rank/get_floating_layer_ad
@@ -4561,7 +4560,6 @@
 ||tcptest.cn/prod-api/web/adlinks/
 ||tdxs5.cc/m
 ||teacher.php.cn/php/
-||tech426.com/pub/
 ||techug.com/aatb/
 ||telewebion.faina.ir/v1/ads/
 ||tengfangyun.com/attachment/*/w_1200
@@ -4634,6 +4632,7 @@
 ||tmatch.simba.taobao.com^*&name=tbuad&pid=
 ||tmncdn.io/vast/
 ||tnaflix.com/js/mew.js?
+||todaytvseries1.com/ads/
 ||tom.com/*tomflashad
 ||tom.com/adsender/
 ||tonghuacun.com/js/uc.js
@@ -4678,6 +4677,7 @@
 ||ttks.tw/js/otherad.
 ||tube.hentaistream.com/wp-includes/js/pop4.js
 ||tube8.*/_xa/ads
+||tubeon.*/templates/base_master/js/jquery.shows2.min.js
 ||tui.gtimg.com//res/
 ||tui555.com/public/gong/js/a_
 ||tui56.com/guanggao*.html
