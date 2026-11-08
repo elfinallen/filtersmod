@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-11-07 17:20:42 UTC
-! Total Rules: 5223
+! Last Updated: 2026-11-08 04:08:14 UTC
+! Total Rules: 5214
 ! Expires: 5 days
 /a/ipn/js/*
 /a/p?adid=
@@ -1733,7 +1733,6 @@
 ||chaomi.cc/js/cms_
 ||chaospace.fun/wp-content/uploads/*/%e6%a3%8b%e7%89%8c-
 ||chaospace.fun/wp-content/uploads/*/tg-
-||chatgpt.com/backend-api/*/message_supplements
 ||chatgpt.com/backend-api/bazaar/*/ads
 ||chaturbate.com/affiliates/
 ||chaturbate.com/creative/
@@ -1826,6 +1825,7 @@
 ||cjx111.com/ads/
 ||ck180.net/mitao
 ||ckxxbao.com/templets/default/js/wx.js
+||claimbits.net/trans3.png
 ||clb.biz/public/static/js/common-v2.js
 ||cloud.tencent.com/developer/api/common/getads
 ||cloud.tencent.com/developer/api/common/getoneads
@@ -2455,6 +2455,7 @@
 ||gdr3.com/us/
 ||geekbang.org/public/serving/
 ||geekpark.net/api/v1/ads
+||geekwire.com/wp-json/geekwire/v*/geekwire-sponsor-posts
 ||gegeyingshi.com/template/*/images/g_js/
 ||gelbooru.com/extras/
 ||get-me-wow.
@@ -2474,8 +2475,6 @@
 ||gimy.*/images/eee*.png
 ||girigirilove.com/upload/banner*.gif
 ||girigirilove.com^*/appconfigdata?key=adver_
-||girlsofdesire.org/blr10
-||girlsofdesire.org/flr10.js
 ||githubusercontent.com/vip888vip/ug/main/*.gif
 ||gjwind.com/xxmh.gif
 ||gk99.com/static/js/a-d-sys.js
@@ -2714,7 +2713,6 @@
 ||hmwang.icu/skin/images/*.gif
 ||hockeyslovakia.sk/sk/bannerimg/
 ||hoes.tube/ai/
-||holyfamilyradio.org/banners/
 ||homeschoolmath.net/a/
 ||honglingjin.co.uk/wp-content/uploads/*-homepage-takeover-bg-
 ||hongyingbbs.com/jj/
@@ -2732,6 +2730,7 @@
 ||hosthentai.xyz/todo/ad/
 ||hotavxxx.com/images/*96
 ||hoteastday.com/newspc/show?
+||hotlink.cc/promo/
 ||hotpress.info/blog/asian-javdl/wp-content/uploads/irvsxp.js
 ||house.sina.com.cn/2.0/abp/
 ||house365.com/js/lbpopup.js
@@ -3429,7 +3428,6 @@
 ||lsjxs.cc/js/html
 ||ltn.com.tw/js/ad_door.js
 ||lu228.com/ajs/
-||lua.tools/ads/
 ||lunhua5.com/images/more.gif
 ||luogu.me/static/anti_block.json
 ||lutouwang.net/static/images/boss_gao_hb.jpeg
@@ -3515,7 +3513,6 @@
 ||mangahub.io/iframe/
 ||mangakakalot.gg/js/ads/clck-adu-kklgg.js
 ||mangaraw24.online/api/v*/ads/
-||mangarawad.biz/public/assets/js/a.js
 ||mangatensei.com/runative.php
 ||manhuaren.com/wx20190904.js
 ||manhwa18.cc/main2023/
@@ -3562,7 +3559,6 @@
 ||meiyouad.com/user/admin?
 ||meizhou.cn/comm/mygg/
 ||meizhou.com/images/topbanner
-||memesng.com/ads
 ||mesh.if.iqiyi.com/player/lw/lwplay/accelerator.js
 ||mesh.if.iqiyi.com/tvg/v2/lw/base_info?entity_id=*&ad_ext=
 ||meteor.today/ad/
@@ -3944,7 +3940,6 @@
 ||pkvs.com/public/as.js
 ||player.globalsun.io/*-player.js
 ||playerls.com/js/jquery/*/jquery-*.min.js?v=
-||playgama.com/ads/
 ||plibcdn.com/templates/base_master/js/jquery.shows2.min.js
 ||pmb*.tj.ali213.net/js/
 ||pniao99.com/statics/js/stat.js
@@ -3983,7 +3978,6 @@
 ||proewildfire.cn/fd.js
 ||proginn.com/cms/10000/
 ||programmer-club.com.tw/images/uuu/
-||projectjav.com/scripts/projectjav_newpu.js
 ||projectorcentral.com/*?bid=
 ||property.hk/js/adside.js
 ||ps0z.com/300x250b
@@ -3994,6 +3988,7 @@
 ||ptfg.flyertrip.com/static/img/campain/
 ||pttptt.cc/site/all.
 ||ptyw.yiche.com/ssp/
+||puporn.com/xahnqhalt/
 ||pupudy.com/images/wxrj.gif
 ||pussyspace.com/fub
 ||putaoys.com/static/js/acb1.js
@@ -4367,7 +4362,6 @@
 ||slit.cn/slimages/
 ||sm.ign.com/zdadkit*.js
 ||smqzj.com/seo.js
-||smutgamer.com/ta2b8ed9c305.js
 ||smzy.com/v1/img/
 ||so.91ks.online/asset/bd.js
 ||so.com/com/ads?
@@ -4471,7 +4465,6 @@
 ||stats.chinaz.com/tool_img/
 ||stay22.com/api/sponsors/
 ||steelcn.cn/img/bj_*_146_315.jpg
-||sterra.web.id/stera3/
 ||stg.truvidplayer.com/p.php
 ||stheadline.com/images/heading-jm
 ||stockstar.com/*duilian&t=
@@ -4578,6 +4571,7 @@
 ||thcdy.co/baidu2/index_top.js
 ||the-avatar.lol/api/pult/
 ||thefreedictionary.com/_/tr.ashx?
+||thegay.com/static/da/
 ||thehentaiworld.com/fro_lo*.js
 ||thehun.net/banners/
 ||thephuketnews.com/photo/banner/
@@ -4588,7 +4582,6 @@
 ||thisav.com/player/video-js-banner/
 ||thisvid.com/enblk/
 ||thisvid.com/zvrk/
-||thothd.*/ads/
 ||thscore.fun/mn/
 ||thumbzilla.com/_xa/ads
 ||thztv.*/tool/
@@ -4784,9 +4777,7 @@
 ||videosection.com/adv-agent.php
 ||videowood.me/assets/js/popup.js
 ||videowood.tv/popjavascript
-||vidlink.pro/api/mercury
 ||vidload.online/anti-adblock.js
-||vidstuck.xyz/vidstuck.js
 ||vip.luanren.com/data/*.gif
 ||vip.video.qq.com/rpc/trpc.vip_ad_promotion
 ||vipdage.com/wp-content/uploads/ad/
