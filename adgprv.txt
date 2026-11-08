@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-11-08 04:08:14 UTC
-! Total Rules: 7587
+! Last Updated: 2026-11-08 17:33:06 UTC
+! Total Rules: 7578
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -132,7 +132,6 @@
 /api/v1/firehose?_
 /api/v1/metrics
 /api/v1/reportdata/*
-/api/v1/reporting/flows
 /api/v2/collector
 /api_ip_info.php
 /apilog?
@@ -2094,7 +2093,6 @@
 ||asadcdn.com/flairfire/
 ||asahibeer.co.jp/tracking.js
 ||asda.com/px/px1uglztko/init.js
-||aservice.cloud/trc/mastertag
 ||asia-northeast1-co-comix.cloudfunctions.net/trackview
 ||asistanaliz.com/api/hit/
 ||askanydifference.com/beardeddragon/gilamonster.js
@@ -2256,7 +2254,6 @@
 ||bbiquge.cc/tongji/
 ||bbstatic.pcmag.com/js/z0wvjcbseegloxixoqvewq.min.js
 ||bc.geocities.
-||bc.nejm.org/script.js
 ||bc0a.com/api/
 ||bc0a.com/autopilot/
 ||bc0a.com/marvel.js
@@ -2875,7 +2872,6 @@
 ||common.duapps.com/applock/getconf?tk*&vendor=
 ||commoninja.com/api/v1/event/report/
 ||commons.dw.com/tracking/smarttagjwplayerplugin.js
-||community.netweather.tv/4p9v/
 ||community.theta360.guide/assets/google-universal-analytics-v4
 ||compare-static.climate-data.org/tag.js
 ||compare-static.flightconnections.com/tag.js
@@ -4499,7 +4495,6 @@
 ||launchpad-wrapper.privacymanager.io/*/launchpad-liveramp.js
 ||laz-g-cdn.alicdn.com/lazada/dynamic-static-nopolyfill/*/daraz-marketing-tracker.js
 ||ldlc.com/v4px/js/ldlcmachine.js
-||leadconnectorhq.com/stats/event
 ||leadpages.net/*/tracking.js
 ||leadplan.ru/api/visitor/
 ||leakgallery.com/api/lg/
@@ -6485,7 +6480,6 @@
 ||storage.googleapis.com/rasin/*/hm.js
 ||storage.googleapis.com/shufoo-prod-imp-gif/
 ||storage.googleapis.com/t3n-de/assets/t3n/2018/scripts/msodrq.js
-||storage.googleapis.com/tm-frend-graffiti/
 ||storage.googleapis.com/vs-scripts/intentiq/vsintentiq.js
 ||storage.googleapis.com/widget.kenect.com/resources/scripts/newrelic.js.gz
 ||storage.syncmedia.io/libs/sm_capture_
@@ -6516,6 +6510,7 @@
 ||ststandard.com/ping
 ||studio-api.prod.suno.com/api/statsig/
 ||stuttgarter-zeitung.de/cms/hitcount
+||stw.extreme-down.
 ||stw.zone-telechargement.
 ||stylitics.com/api/engagements
 ||stytch.com/sdk/v1/events
@@ -6568,7 +6563,6 @@
 ||svc.us01.miro.com/api/stream/
 ||svcs.ebay.com/delstats/imp/rtm
 ||svcs.ebay.com/ufeservice/*/metrics
-||svcs.ebay.com/ufeservice/v1/metrics
 ||sve.online.sberbank.ru/metrics/partners
 ||svgator.com/common/googletagmanager.js
 ||sw.vidmoly.
@@ -7025,7 +7019,6 @@
 ||uplusmvno.com/script/addpopcorn.js
 ||ups.com/img/icp.gif
 ||upstract.com/tokei/
-||uptolike.com/widgets/*/imp?
 ||upwork.com/upi/jslogger
 ||urldefense.com/*/webmon.js
 ||urldefense.proofpoint.com^*analytics_insight.min.js
@@ -7041,7 +7034,6 @@
 ||users.videasy.*/api/track
 ||userstatics.com/get/script.js
 ||uservoice.com^*/track.js
-||userway.org/api/abn/events
 ||userway.org/api/v1/stats
 ||usimsa.com/_nuxt/kakaopixel.
 ||usimsa.com/_nuxt/naveradsscript.
@@ -7176,7 +7168,6 @@
 ||vodtw.xyz/zepto-
 ||voicendata.com/static/js/*_gtag_publisher.js
 ||voidemail.org/js/track.js
-||volksverpetzer.de/pl/v.js
 ||volleybox.net/media/js/analytics/
 ||voonik.com/analytics.min.js
 ||voorkeuren.tvgids.nl/v1/_|
