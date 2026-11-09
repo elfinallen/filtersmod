@@ -1,12 +1,13 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-11-08 17:33:06 UTC
-! Total Rules: 7578
+! Last Updated: 2026-11-09 04:23:48 UTC
+! Total Rules: 7612
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
 /a/performance_timing/*
+/a?id=*&gtm=
 /abc.gif?
 /acc/acctag.js
 /access.php?referrer=
@@ -123,9 +124,12 @@
 /api/log-visit
 /api/metrics/collect
 /api/metrics/event
+/api/otlp/trace
 /api/pageview?
 /api/pixel?
 /api/site/tracking-config/*
+/api/t/c|
+/api/t/gtm/*
 /api/track?guid
 /api/v1/endpointtracker
 /api/v1/firehose/batch
@@ -235,6 +239,7 @@
 /call.tracker.js
 /caos-analytics/*.js
 /cb-pixel.gif?
+/ccm/collect?
 /cdn-cgi/beacon/*
 /cdn-cgi/pe/bag2?*bluekai.com
 /cdn-cgi/pe/bag2?*bounceexchange.com
@@ -305,9 +310,11 @@
 /cofinahits.js
 /cogi-etracker.js
 /cohesion-latest.min.js
+/cohesion/xs2.html
 /coinhive.min.js
 /collect-*/pageview|
 /collect.gif?
+/collect/metric|
 /collect/pv?
 /collect/view?
 /collect/view_count?
@@ -361,6 +368,7 @@
 /dataunlocker.js
 /dcjs/prod/*
 /dcs.gif?
+/ddm/activity/src=
 /dead-clicks-autocapture.js
 /detectincognito.min.js
 /detm-container-ftr.js
@@ -515,6 +523,7 @@
 /geolocationdata/v1/*
 /get/*/inventory|
 /get/*/live/_/jts.js
+/get_cookie_id?cookie_domain=
 /get_geoip?
 /get_site_data?requestuuid=
 /get_tracking_url.
@@ -725,12 +734,14 @@
 /matomo.php?idsite=
 /mc4wp-premium/ecommerce3/assets/js/tracker.js
 /measure/pixel/*
+/measurement/conversion?
 /mendelstats.
 /metric/?mid=
 /metric/?wid=
 /metrica/sp.js
 /metrics/bambuser.min.js
 /metrics/event?
+/metrics/ga/*
 /metrics/log-
 /metrics/rum
 /metrics/statsd/*
@@ -1024,10 +1035,12 @@
 /seo/pagestat/*
 /services/t/l?referrer=
 /session/update-beacon
+/set_cookie?val=
 /set_tracking.js
 /sfdc/networktracking.js
 /sfp/universal_analytics.min.
 /sftouch?branchid=
+/sgtm/g/*
 /share/js/ganalytics.js
 /sharecounts.
 /shared-content/art/stats/common/tracker.js
@@ -1064,6 +1077,7 @@
 /smetrics.*/id?
 /smi/fp.min.js
 /smile_elasticsuitetracker/js/tracking.min.js
+/smrwv/v1/webvital
 /snowplow.js
 /solid.gif?z=
 /sourcepoint.js
@@ -1120,6 +1134,7 @@
 /submission/pageview
 /sw.js?origin=
 /sw/analytics.js
+/sw_iframe.html?origin=
 /swlapi/stats|
 /symplr-analytics-
 /synd.aspx
@@ -1130,6 +1145,7 @@
 /tag/proxy?id=g-
 /tagcommander/prd/*
 /tagmanager/pptm.js
+/tagmetrics/*
 /tc_analytics.js
 /tc_imp.gif?
 /tccl.min.js
@@ -1148,6 +1164,7 @@
 /tilda-stat-1.0.min.js
 /tjx-tracking-data.js
 /tmpixel.min.js|
+/tms?id=
 /tnc.js?h=
 /tncms/tracking.js
 /tns-counter.js
@@ -1279,6 +1296,8 @@
 /v.gif?
 /v.gif?t=
 /v1/adn/visit|
+/v1/events/publish|
+/v1/external/visitor|
 /v1/pixel?
 /v1/rgstr?k=client-
 /v1/tracker.js
@@ -2008,6 +2027,7 @@
 ||app.dhgate.com/mobileapiweb/biz-feedback-log.do
 ||app.dhgate.com/musr/logodata.do
 ||app.easy.tools/api/stats
+||app.factori.ai/personica.js
 ||app.huawei.com/hwa-c*&action=
 ||app.huawei.com/hwa-c/configresource/js/general/ha.js
 ||app.inkind.com/api/*/events
@@ -2015,6 +2035,7 @@
 ||app.kulgacdn.com/js/script.js
 ||app.leadplan.ru/assets/img/1px.gif
 ||app.leadster.com.br/*/analytics/
+||app.lifesight.io/personica.js
 ||app.link/_r?sdk=*&callback=branch_callback
 ||app.notipack.com/pixel-track?
 ||app.notipack.com/pixel/
@@ -2022,6 +2043,7 @@
 ||app.opmnstr.com/v*/geolocate/
 ||app.partnerboost.com/brand/track.*.min.js
 ||app.pep.work/api/analytics
+||app.planhat.com/analytics/plantrack.min.js
 ||app.polymersearch.com/dataunlocker.js
 ||app.qualified.com/*/sentry/
 ||app.qualified.com/*/visitor_events
@@ -2139,6 +2161,7 @@
 ||assets.rpglogs.com/js/global/googleanalytics.*.js
 ||assets.shop.hisense.com/ta.js
 ||assets.sky.com/js/thirdparty/sessioncam5-5.js
+||assets.sprocket.bz/trackers/
 ||assets.versus.io/js/prebid-
 ||assets.vidora.com/*/validate?api_key=
 ||assets.yumpu.com/release/*/tracking.js
@@ -2562,6 +2585,7 @@
 ||cdn.datamanager.co.kr/0/tcsdm.js
 ||cdn.deporvillage.com/tracking-library/
 ||cdn.dopc.cz/gen/detect.png
+||cdn.drda.io/scripts/analytics/
 ||cdn.dsmcdn.com/frontend/web/production/dom-event-tracker-
 ||cdn.dsmcdn.com/sfint/production/demeter-prod-*.umd.js
 ||cdn.dsmcdn.com/sfx/mergen/
@@ -3188,6 +3212,7 @@
 ||dingxiang-inc.com/ctu-group/constid-js/index.js
 ||dinos.co.jp/js/common/load-fluct.js
 ||dinos.co.jp/js/common/load-tagmanagers.js
+||dior.com/contcdc/
 ||directory.cookieyes.com/api/v*/ip
 ||dis.*.criteo.com/dis/
 ||dis.criteo.com/dis/
@@ -4331,6 +4356,7 @@
 ||jie50dcwuh.execute-api.us-east-1.amazonaws.com/prod/data/ads/
 ||jimdo.com/app/tracking/common/index/
 ||jins.com/*/ga.js
+||jitsu.www1.ru/api/s/track
 ||jm-madeira.pt/html/js/iter-libraries/iter-statistics.js
 ||jobkorea.co.kr/net/adbannerapi/adbannerlog
 ||joggo.run/api/events
@@ -4515,6 +4541,7 @@
 ||lenovo.com/gemets/
 ||lenovo.com/portalpacks/web/js/analyticsservicefactory*.js
 ||leolist.cc/static/min/js/modules/bam-impressions-
+||leroymerlin.co.za/fokt/
 ||lespresso.it/js/gtm-helper.js
 ||lespresso.it/js/usercentrics-helper.js
 ||letelegramme.fr/assets/block/analytics/
@@ -4740,7 +4767,9 @@
 ||massivecams.com/api/events
 ||massivecams.com/api/statsd
 ||massivecams.com/api/v1/activity
+||masterclass.com/qz6s/
 ||masutabe.info/js/access.js
+||matalan.co.uk/track
 ||matas.dk/internal/tracking/
 ||matelso.de/webtracking/
 ||matome.xvps.jp/beacon
@@ -4861,6 +4890,7 @@
 ||miniso.com.tr/*/sendeventv2|
 ||miniwebtool.com/js/mwt-analytics.
 ||minorasu.basf.co.jp/shared/scripts/vendor/google-analysis/
+||mirakl.net/mtag.min.js
 ||misc.udn.com/record/pageview/
 ||mistral.ai/api/trpc/event.sendeventtodatalake?
 ||misumi-ec.com/api/v1/log/
@@ -4889,6 +4919,7 @@
 ||monitor-frontend-collector.a.bybit-aws.com/api/*/batch/
 ||monitor.uu.qq.com/analytics/
 ||monster-strike.com/assets/scripts/tracking.js
+||monster.com/visitor/tracking-v11.js
 ||monsterhunternow.vanillacommunities.com/api/*/config?select=analytics.anonymize
 ||monsterhunternow.vanillacommunities.com/dist/*/forum/async/addons/vanillaanalytics*.min.js
 ||montgomerycountymd.gov/common/scripts/googleanalytics.js
@@ -5539,6 +5570,7 @@
 ||ps.azurewaf.microsoft.com/event
 ||psprices.com/staticfiles/build/frontend_psprices_js_analytics_ts.*.js
 ||psr.staticbg.com/rum/monitor.min.js
+||psychcentral.com/api/drivers/
 ||pt.dwcdn.net/*/datawrapper.gif
 ||pub.olx.com.br/detect-adblocker.js
 ||pub.olx.com.br/listing.js
@@ -7358,8 +7390,10 @@
 ||www-backend.strinova.com/api/common/uid|
 ||www.digikey.*/lo2z493j/init.js
 ||www.ebay.*/gh/dfpsvc?
+||www.eventim.*/orchestra/
 ||www.google.*/velog/
 ||www.uz/counter/collect?
+||www.vivastreet.*/cfgtg/
 ||www002.commutil.kr/adlog/adlog_arrviewset.php
 ||wzzm13.com/taboola_
 ||x.com/1.1/graphql/app_context.json

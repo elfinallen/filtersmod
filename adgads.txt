@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-11-08 17:33:06 UTC
-! Total Rules: 5214
+! Last Updated: 2026-11-09 04:23:48 UTC
+! Total Rules: 5207
 ! Expires: 5 days
 /a/ipn/js/*
 /a/p?adid=
@@ -1466,6 +1466,7 @@
 ||beareyes.com.cn/2/cat/js/*_centerl
 ||beareyes.com.cn/2/cat/js/*_right
 ||beareyes.com.cn^*/ad/
+||beeg.com/gtg/
 ||beephone.com.tw/ad-middle.php
 ||beephone.com.tw/ad-yahoo.php
 ||beforeitsnews.com/img/banner
@@ -1932,7 +1933,6 @@
 ||creative.myasian.live/widgets/
 ||cricbuzz.com/api/adverts/
 ||criteo.net/design/
-||crm.urlwebsite.com/assets/compat.js
 ||crxs.me/service/assets/core-state.
 ||csdn.net/ggmm/
 ||csdn.net/msg.popup.js
@@ -2251,7 +2251,6 @@
 ||eroprofile.com/js/nvbla.js
 ||erowall.com/126.js
 ||es3984.review/02_cn_ad/
-||estaticos01.gays-cruising.es/recursos/tres-doce.js
 ||etest8.com/js/158/infojs/
 ||etf88.com/swf/
 ||ettoday.net/ad/*_action.js
@@ -2374,7 +2373,6 @@
 ||ftopx.com/isttf558550ef6e.js
 ||ftopx.com/tf558550ef6e.js
 ||fuckflix.click/assets/js/custome.js
-||fuelfinder.dk/js/prettyprint-message-min.js
 ||fuimg.com/1/66795b80a792fb96.png
 ||func.tw/image/func2.png
 ||funnyjunk.com/site/js/extra/pre
@@ -2385,7 +2383,6 @@
 ||fwwang.cn/templets/fw/js/art
 ||fx110.*/pub/ghz/getmodel
 ||fx168.com/am.js
-||fxhpaoxqyajvmdg.
 ||fxsc6.net/js/
 ||fxxz.com/skin/know/all.js
 ||fzbm.com/bbs/static/js/bma.js
@@ -2487,7 +2484,6 @@
 ||gmbbku.com/jj/
 ||gmbuluo.net/js/
 ||gn-web-assets.api.bbc.com/ngas/*/dotcom-ads.js
-||go.fakta.id/assets/compat.js
 ||go.kbnmnl.com/api/models/vast
 ||go.linkwi.se/delivery/
 ||go2av.com/for_ad/
@@ -2527,7 +2523,6 @@
 ||greatandhra.com/wp-content/plugins/sortd-homepage-promo/
 ||greenxf.com/js/2019/
 ||greenxiazai.com/d/js/v/
-||groupon.com/javascripts/common/affiliate_widget/
 ||grow.gab.com/galahad/
 ||grtimed.com/material/*_960x110_
 ||gsdpw.com/file/script/a
@@ -2711,7 +2706,6 @@
 ||hktvmall.com/api/preroll/getlist?
 ||hltv.org/img/*&s=
 ||hmwang.icu/skin/images/*.gif
-||hockeyslovakia.sk/sk/bannerimg/
 ||hoes.tube/ai/
 ||homeschoolmath.net/a/
 ||honglingjin.co.uk/wp-content/uploads/*-homepage-takeover-bg-
@@ -2941,7 +2935,6 @@
 ||insurance.cekresi.me/assets/compat.js
 ||internationalsexguide.nl/banners/
 ||intporn.com/js/siropu/
-||invest.datapendidikan.com/assets/compat.js
 ||investing.com/jp.php
 ||iocoder.cn/alert/js/alert.js
 ||ip.sb/assets/images/*_ads.
@@ -3801,7 +3794,6 @@
 ||oodcd.cn/pan/config/history.
 ||ooqiu.com/ad_js/
 ||openalternative.co^*/ads/
-||openapk.net/include/affiliate-units.js
 ||oploverz.my/wp-content/uploads/*/*.gif
 ||opticsky.cn/images/2015/gy-px201
 ||optiklink.com/arlinablock.js
@@ -4478,6 +4470,7 @@
 ||straitstimes.com/_web2/betterads_head.js
 ||stream.cz/*/vast?
 ||streambtwp.b-cdn.net/aclib.js
+||streamex.hn/pop.js
 ||stripchat.com/api/external/
 ||strtpe.link/ppmain.js
 ||stulip.org/static/js/header.js
