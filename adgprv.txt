@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-11-09 04:23:48 UTC
-! Total Rules: 7612
+! Last Updated: 2026-11-09 21:53:03 UTC
+! Total Rules: 7632
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -417,7 +417,6 @@
 /eta/guid?
 /eulerian.js
 /eumcollector/beacons/*
-/ev.gif?_rand=
 /event-log?
 /event-tracking.js
 /event.cgi?
@@ -1033,6 +1032,8 @@
 /sentry-logger.js
 /sentry/bundle.min.js
 /seo/pagestat/*
+/service_worker/6al0/sw.js
+/service_worker/6al0/sw_iframe.html
 /services/t/l?referrer=
 /session/update-beacon
 /set_cookie?val=
@@ -1089,7 +1090,6 @@
 /srp.gif?
 /srpc.js?ssss
 /ss/o/*.gif
-/ssl-intgr-net/*
 /ssocore/update?
 /stat.gif?
 /stat.js?
@@ -1296,6 +1296,7 @@
 /v.gif?
 /v.gif?t=
 /v1/adn/visit|
+/v1/care/engagement/ux/bundle.js?
 /v1/events/publish|
 /v1/external/visitor|
 /v1/pixel?
@@ -1408,7 +1409,6 @@
 /wup?cid=
 /wxhawkeye.js
 /x.gif?
-/x0k461/e6c1b/xc9
 /xgemius.js
 /xhr/api/v2/collector
 /xinhua_webdig.js
@@ -1634,6 +1634,7 @@
 ||agoda.com/api/pixel/index?
 ||agoda.net/v2/track
 ||agronews.com/js/tagmanager
+||agroserver.ru/ct/
 ||ai-sdk.dev/api/track
 ||aichaoxing.com/res/cx_stat.js
 ||aim.cloudflare.com/__log
@@ -1913,6 +1914,7 @@
 ||api.pico.bendingspoonsapps.com/v*/web-events
 ||api.pico.tools/metrics/
 ||api.picox.bendingspoons.com/v1/events
+||api.poool.fr/api/*/access/events.track.pageview
 ||api.poool.fr/api/v3/access/event
 ||api.prod.allstar.dev/methods/clip-views
 ||api.prod.allstar.dev/methods/track
@@ -2052,6 +2054,7 @@
 ||app.revenuehero.io/logs/ingest
 ||app.s.id/api/sda/tr
 ||app.simplelogin.io/static/js/an.js
+||app.smartemailing.cz/js/tracking/tracker.js
 ||app.snov.io/back/track-first-visit
 ||app.tag-plus.com/ja/api/v1/unison_planet/heat_map
 ||app.termly.io/api/*/statistics
@@ -2114,11 +2117,13 @@
 ||as.coinbase.com/metrics
 ||asadcdn.com/flairfire/
 ||asahibeer.co.jp/tracking.js
+||asaptickets.com/tracker/
 ||asda.com/px/px1uglztko/init.js
 ||asia-northeast1-co-comix.cloudfunctions.net/trackview
 ||asistanaliz.com/api/hit/
 ||askanydifference.com/beardeddragon/gilamonster.js
 ||askdoctors.jp/assets/packs/js/impression_tracker-
+||assemblymag.com/4f8s/
 ||asset*.coupangcdn.com/customjs/mycoupang/fingerprint2/
 ||assets*.msn.com/bundles/*/nativeadstemplates.*.js
 ||assets-jpcust.jwpsrv.com/*/ping.js
@@ -2167,6 +2172,7 @@
 ||assets.yumpu.com/release/*/tracking.js
 ||assistant.watson.appdomain.cloud/analytics/
 ||astrologyanswers.com/gtmmetrics/
+||astroved.com/avdatavault/
 ||at.cbsi.com/*/event?
 ||at.cbsi.com/lib/api/client-info
 ||at.mklaud.com/at/at_log_*.php
@@ -2325,6 +2331,7 @@
 ||bilet.yandex.com.tr/log/
 ||bilibili.com/x/frontend/finger/fpfmc?
 ||billboard.com/wp-content/plugins/pmc-plugins/pmc-trackonomics/build/index.js
+||billiger.de/l/
 ||bing.com/action/
 ||bing.com/api/shopping/v1/telemetry
 ||bing.com/api/v1/mediation/tracking?
@@ -2730,6 +2737,7 @@
 ||channel.io/front/v*/channels/*/events
 ||channelexco.com/ppx/
 ||charmmy-api.line.me/api/*/bars/tracking
+||chat.bot.check24.de/faro/collect
 ||chat.deepseek.com/api/*/client/settings/report
 ||chat.deepseek.com/api/*/telemetry
 ||chat.deepseek.com/api/v0/events
@@ -2747,6 +2755,7 @@
 ||check24.*/files/give_png.php
 ||check24.*/gif/*/info.gif
 ||check24.*/misc/tracking_gif.php
+||check24.de/files/give_img.php
 ||checkmal.com/_res/js/beusable.js
 ||checkmal.com/_res/js/naver.premiumlog.js
 ||checkout-blocks.shopifyapps.com/api/extensions/*/event
@@ -2832,6 +2841,7 @@
 ||cloudfunctions.net/trackevent|
 ||cls.rambler.ru/api/*/events
 ||clubjt.jp/js/ga_event.js
+||cm-dynamic.billiger.de/delivery/info/?id=
 ||cm-oss.hisavana.com/moviebox/mb_hssdk.js
 ||cmap.alibaba.com/landing_ae.gif
 ||cmap.alibaba.com/ml.html?callback=landing
@@ -2950,6 +2960,7 @@
 ||contx.net/collect.js
 ||contx.net/ingest/res/i/collect
 ||contx.net/ingest/res/i/tag/trk
+||conversions.flowcode.com/pixel-tracker/
 ||coocha.co.kr/assets/js/tracking.js
 ||coocha.co.kr/log/
 ||coocha.co.kr/static/js/common/tracker.js
@@ -3567,6 +3578,7 @@
 ||farfetch.net/v1/marketing/trackings
 ||faro.civitai.
 ||fashionbykakao.com/api/*/tr?
+||fashionista.com/.api/admiral
 ||fast.a.klaviyo.com/media/js/analytics/klaviyo_analytics.js
 ||fast.fonts.net/jsapi/core/mt.js
 ||fastcdn.co/js/sptw.
@@ -3812,7 +3824,6 @@
 ||gizmodo.com/x-kinja-static/assets/new-client/*~trackers
 ||gizmodo.jp/api/surveycountcollection
 ||gizmodo.jp/api/surveycountcollection?
-||gkx.gokwik.co/gke/
 ||gkx.gokwik.co/kp/api/v1/fp/
 ||glami.com.tr/js/compiled/pt.js
 ||glami.com.tr/tracker/
@@ -4368,6 +4379,7 @@
 ||js-webt-lol.9cache.com/piwik
 ||js.dhresource.com/*/tracklog/tracklog.js
 ||js.dhresource.com/buyer/common/track/trackwebsdk.js
+||js.eruptr.io/epd.js
 ||js.gleam.io/*/trk.js
 ||js.hscta.net/cta/current.js
 ||js.hubspot.com/analytics/
@@ -4440,6 +4452,7 @@
 ||kenga.tech/heatmaps-
 ||kentaku.co.jp/js/gtm.js
 ||kerch.fm/templates/fm/js/analytic.js
+||ketchcdn.com/web/v*/log?
 ||keyforsteam.de/analytics/script.js
 ||kfzteile24.de/*_tracking.js
 ||kgnews.co.kr/weblog/gtracker.
@@ -4473,6 +4486,7 @@
 ||kmib.co.kr/ref/
 ||knockaround.com/cdn/s/trekkie.storefront.
 ||knotch-cdn.com/ktag/
+||knshow.com/ab?
 ||kobe-np.co.jp/api/audience-data
 ||kobo.com/trackclicks
 ||kocaeligazetesi.com.tr/stats/
@@ -4973,6 +4987,8 @@
 ||mtvnservices.com/metrics/
 ||multporn.net/modules/statistics/statistics.php
 ||muragon.com/js/normal/gtag-event.js
+||musescore.com/components/data?
+||musescore.com/score/stats/
 ||music.apm-proxy.obs.mts.ru/eum/*/eum.min.js
 ||music.apple.com/assets/mt-client-logger-core.
 ||music.bugs.co.kr/js/log/
@@ -5276,6 +5292,7 @@
 ||p.flipp.com/beacons
 ||p.hentaiforce.net/api/event
 ||p.kulp.in/api/event
+||p.relay-t.io/wh.js
 ||p.sfx.ms/is/invis.gif
 ||p.typekit.net/p.gif
 ||p.udn.com.tw/upf/static/common/udn-fingerprint.umd.js
@@ -5438,6 +5455,7 @@
 ||plausible.cgmagonline.com/api/event|
 ||plausible.io/api/event
 ||plausible.io/js/p.js
+||play.astrogame.org/qw4d/
 ||play.googleapis.com/log|
 ||play.pl/?_hn:type=
 ||play.vidyard.com/api/metrics
@@ -5548,6 +5566,7 @@
 ||prod.adobeccstatic.com/unav/*/analyticsprovider.
 ||prod.benchmarkemail.com/tracker.bundle.js
 ||prod.danawa.com/info/ajax/getadsmartproductlist.ajax.php
+||prod.empathy.co/public/visit
 ||prod.tools.shortbread.aws.dev/1x1.png?
 ||production-bq-lambda-stack.production.yummly.com/event
 ||progameguides.com/*/openweb-tracking.js
@@ -5695,6 +5714,7 @@
 ||rbc.ru/info-service/api/v*/ev/?
 ||rbc.ru/redir/stat/
 ||rbl.ms/spacer.gif?
+||rcdn.kervinteractive.com/pixels/
 ||rcs.mako.co.il/js/neo/hpstats.js
 ||rcs.mako.co.il/js/scripts/metrics.js
 ||rcsobjects.it/rcs_tracking-service/v1/distro/html/trservice.shtml
@@ -5794,6 +5814,7 @@
 ||rewe.de/api/xrd/web-vitals
 ||rewe.de/shop/api/productlist/impressions
 ||rezka.ag/setinfo/
+||rf.nfl.com/ping/
 ||rfk.finishline.com/api/event-rfkj/
 ||rhea-cache.advividnetwork.com/tracker/
 ||ria.ru/polling?ticket=
@@ -5807,6 +5828,7 @@
 ||rihappy.com.br/site/track.aspx
 ||riotgames.com/m.gif
 ||rivnepost.rv.ua/wp-admin/admin-ajax.php?action=rbcollect
+||rivo.vin/api/*/view
 ||rivo.vin/rivo-stealer/
 ||rlsnet.ru/js/statistics/
 ||rmc-cx.api.rakuten.co.jp/*/web/events|
@@ -5880,7 +5902,6 @@
 ||s.ensonhaber.com/assets/js/lib/esh-tag-v5.js
 ||s.gaming.tools/api/event|
 ||s.hoplon.pandora.com/ag/*/clear.js
-||s.joinhoney.com/evs
 ||s.kelkoogroup.net/st?
 ||s.kk-resources.com/ks.js
 ||s.kk-resources.com/leadtag.js
@@ -5992,7 +6013,6 @@
 ||sdk-api.yozio.com/?os
 ||sdk-service.nsureapi.com/events
 ||sdk.appbrain.com/api/
-||sdk.mdznconnect.com/data-collector/
 ||sdk.mrf.io/statics/marfeel-sdk.js
 ||sdk.nsureapi.com/sdk.js
 ||sdk.rum.aliyuncs.com/v*/bl.js
@@ -6001,7 +6021,7 @@
 ||search-api.joongna.com/v*/ga/log|
 ||search.11st.co.kr/js/searchwebfront/search/public/rakelog-mobile-search.js
 ||search.aol.com/beacon/
-||search.ch/audit/
+||search.check24.de/tag.gif
 ||search.yahoo.com/beacon
 ||searchbooster.net/scripts/tracker/
 ||searchiq.co/api/tr?event=
@@ -6138,6 +6158,7 @@
 ||shutterstock.com/ja/blog/wp-content/themes/sstk/assets/js/analytics.min.js
 ||shutterstock.com/ja/blog/wp-content/themes/sstk/assets/js/parsely-tracking.min.js
 ||sidecar.unext.jp/track/
+||sierra.chat/-/api/events
 ||sight.ewp.gg/track/
 ||sign.ing/libs/martech/analytics.js
 ||signals.turkcell.com.tr/r|
@@ -6356,6 +6377,7 @@
 ||stat.i3.dmm.com/plus/tracking.js
 ||stat.tiara.
 ||stat.tildaapi.com/event/
+||statad.ru/tracker.js
 ||statcounter.com/counter/*.js
 ||static-cdn.arte.tv/static/analytics/
 ||static-cdn.spot.im/production/topic-tracker/tags/*/topic-tracker.js
@@ -6740,7 +6762,6 @@
 ||thehealthy.com/wp-content/plugins/tmbi-data-analytics/
 ||thehealthy.com/wp-content/plugins/tmbi-permutive/
 ||thehill.com/6zcfgh4h/init.js
-||theinfatuation.com/api/logger
 ||theinformation.com/ahoy/events
 ||thejc.com/js/analytics-article.js
 ||thekitchn.com/jayeky18/init.js
@@ -7199,7 +7220,6 @@
 ||vodafone.com.au/js/ot2.min.js
 ||vodtw.xyz/zepto-
 ||voicendata.com/static/js/*_gtag_publisher.js
-||voidemail.org/js/track.js
 ||volleybox.net/media/js/analytics/
 ||voonik.com/analytics.min.js
 ||voorkeuren.tvgids.nl/v1/_|
@@ -7263,7 +7283,6 @@
 ||web-g-p.com/info/js/cookie.js
 ||web-g-p.com/info/log/
 ||web-g-p.com/info/log_total.cgi
-||web-rabbit.meitustat.com/report?
 ||web.snrbox.com/*?tracker=
 ||web.tv/analytics/
 ||web.ultra-soccer.jp/js/analytics.js
@@ -7338,6 +7357,7 @@
 ||wine-searcher.com/k6s8okp3/init.js
 ||winfuture.de/?*/videos-json.php&f=track_event
 ||winfuture.de/ajax/count
+||winfuture.de/ajax/zs
 ||winfuture.de/wfk/?id=gtm-
 ||wintorrents.ru/templates/wintorentsnew/images/gp.jpg
 ||wired.*/hotzones/src/pixelpropagate.js
@@ -7432,7 +7452,6 @@
 ||xinnet.com/dcp/javascript/fingerprint2.min.js
 ||xlgaytube.tv/analytics.js
 ||xmind.app/_api/plsbl/gtag
-||xn--e1aaipcdgnfsn.su^*/counter.php
 ||xn--pckua2a7gp15o89zb.com/api/am/v1/t?
 ||xn--pckua2a7gp15o89zb.com/api/t/v*/vit
 ||xn--pckua2a7gp15o89zb.com/api/tracking.js
@@ -7584,6 +7603,7 @@
 ||zed.dev/api/send_page_event
 ||zed.dev/api/send_page_event|
 ||zed.dev/docs/theme/analytics.js
+||zeelool.com/*-metrics/
 ||zenback.jp^*/tracking.html
 ||zendesk.com/embeddable_blip?type=analytics&data=
 ||zenimpact.io/dist/zen_init.min.js

@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-11-09 04:23:48 UTC
-! Total Rules: 5207
+! Last Updated: 2026-11-09 21:53:03 UTC
+! Total Rules: 5212
 ! Expires: 5 days
 /a/ipn/js/*
 /a/p?adid=
@@ -581,6 +581,7 @@
 ||131458.com/union/
 ||1328f.com/js/jquery.js
 ||1337x.*/js/vpn*.js
+||1337x.st/mm.js
 ||1342a.com/js/jquery.js
 ||138vps.com/image/
 ||139file.com/jsa/
@@ -1218,6 +1219,7 @@
 ||anhuinews.com/include/
 ||anhuinews.com/zhuyeguanli/*ad/
 ||anime-suba.com/anime-suba/admin/imganadvertisement/
+||anime3rb.com/build/assets/kw-*.js
 ||anjuke.com^*/ajax/business_area_search/
 ||ankangwang.com/js/info.js
 ||anqu.com/b.js
@@ -1833,6 +1835,7 @@
 ||clouddn.com/960x60.gif
 ||cloudfront.net/public/ct?cpguid=&
 ||cloudfront.net/yongli04/
+||cms.games.gg/api/advertisements
 ||cn.ntdtv.com/assets/themes/ntd/js/article_ads.js
 ||cna5.cc/skins/js/
 ||cnblogs.com/ajax/bigbanner/
@@ -4154,6 +4157,7 @@
 ||rising.com.cn/weblog/
 ||riskbird.com/riskbird-api/guest/uniongoods
 ||rivo.vin/rivo-stealer/
+||rivo.vin/vi|
 ||rjsos.com/channel/laomo_dibu.png
 ||rjzxw.com/include/
 ||rkanr.com/data/cpcache/cp*.js
@@ -4478,6 +4482,7 @@
 ||subhd.com/images/ap/
 ||subserieshd.com/banner/
 ||subterra.run/probe.js
+||sudugu.cc/scripts/yuedu.js
 ||sudugu.com/config/v7.js
 ||sudupan.com^*.gif
 ||sufile.com/jsa/
