@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-11-10 05:47:07 UTC
-! Total Rules: 5209
+! Last Updated: 2026-11-10 19:15:05 UTC
+! Total Rules: 5213
 ! Expires: 5 days
 /a/ipn/js/*
 /a/p?adid=
@@ -1161,6 +1161,7 @@
 ||aizhan.com/imagesa/
 ||akqipai.com/m/tpl/v3/js/indexbottom.js
 ||akuziti.com/tu/*.js
+||akwam.*/files/terra.js
 ||aldtop.com/scrtips/
 ||alexa.cn/upfile/images/
 ||ali213.net/images/bg_lt.jpg
@@ -1956,6 +1957,8 @@
 ||cvs.com/*?q=get*butterflyproducts
 ||cww.net.cn/include/show.asp?boardid=
 ||cww.net.cn/js/urdev.js
+||cybernews.com/js/ads-body-*.js
+||cybernews.com/js/editorial-sidebar-ads-*.js
 ||cyberscore.live/images/bnrk-res/
 ||cycyw.com/mf/
 ||cycyw.com/qdj/
@@ -3984,6 +3987,7 @@
 ||ptyw.yiche.com/ssp/
 ||puporn.com/xahnqhalt/
 ||pupudy.com/images/wxrj.gif
+||puregirl.tv/api/ads
 ||pussyspace.com/fub
 ||putaoys.com/static/js/acb1.js
 ||putlocker.*/banner/static/
@@ -4269,7 +4273,7 @@
 ||sex3.com/ee/s/s/su
 ||sex8.cc/plugin-e6-rebate.html
 ||sextb.*/js/brs.js
-||sextb.net/js/popup.js
+||sextb.*/js/popup.js
 ||sextvx.com/ads/
 ||sexvid.*/rrt/xd.js
 ||sexvid.*/ysla/

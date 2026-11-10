@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-11-10 05:47:07 UTC
-! Total Rules: 7632
+! Last Updated: 2026-11-10 19:15:05 UTC
+! Total Rules: 7635
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -100,7 +100,6 @@
 /analytics/track_event/*
 /analytics/trackimpressions
 /analytics/tracking.js
-/analytics?ver=*&referrer=
 /analytics?ver=*&visitor_id=
 /analytics_cookie.js
 /analytics_events.js
@@ -137,6 +136,7 @@
 /api/v1/metrics
 /api/v1/reportdata/*
 /api/v2/collector
+/api/viewcontent.php?
 /api_ip_info.php
 /apilog?
 /apmrum.min.js
@@ -581,6 +581,7 @@
 /htdocs/js/admiral/init.js
 /i.gif?
 /i.gif?pageevent=
+/i.php?i=
 /i.png?id=
 /i?e=pv&page=
 /i?e=pv&url=
@@ -1506,6 +1507,7 @@
 ||a.europaplus.ru/*/event?p2=
 ||a.flux.jp/analytics.collect.v1.collectservice/collect
 ||a.fsdn.com/con/js/sftheme/vendor/bizx-prebid.js
+||a.klaviyo.com/forms/api/v3/geo-ip
 ||a.klaviyo.com/onsite/track-analytics
 ||a.nel.cloudflare.com/report/
 ||a.nytimes.com/svc/nyt/data-layer?sourceapp
@@ -2266,6 +2268,7 @@
 ||banggood.com/statistics.html
 ||bangkokpost.com/hits/*?t=
 ||baotintuc.vn/scripts/log.js
+||baqend.com/v*/speedkit/signals?
 ||bar-navig.yandex.ru/u
 ||barmer.de/proxy/tealium/event-stream/
 ||basaru.net.ru/js/coin32.js
@@ -2617,6 +2620,7 @@
 ||cdn.jsdelivr.net/gh/unib0ts/
 ||cdn.jsdelivr.net/gh/zahidsattarahmed/storeview/newtrackingscript.min.js
 ||cdn.jsdelivr.net/npm/@adshield/
+||cdn.jsdelivr.net/npm/@datacite/datacite-tracker
 ||cdn.jsdelivr.net/npm/@snowplow/
 ||cdn.jsdelivr.net/npm/@thumbmarkjs/thumbmarkjs/dist/thumbmark.
 ||cdn.jsdelivr.net/npm/rrweb@latest/dist/rrweb.
@@ -2691,7 +2695,6 @@
 ||cdn.webeyo.com/ipinfo|
 ||cdn.wootric.com/wootric-sdk.js
 ||cdn.work.hotp.jp/assets/lib/js/logteam-
-||cdn.zeroclick.io/scripts/badge.js
 ||cdn.zg-api.com/a/z/js/v1/analytics.js
 ||cdn1.edgedatg.com/aws/abc/scripts/adobe-analytics2.js
 ||cdn1.edgedatg.com/aws/apps/datg/web-js-telemetry-service/*/production/js/datgts.js
@@ -4536,7 +4539,6 @@
 ||laz-g-cdn.alicdn.com/lazada/dynamic-static-nopolyfill/*/daraz-marketing-tracker.js
 ||ldlc.com/v4px/js/ldlcmachine.js
 ||leadpages.net/*/tracking.js
-||leadplan.ru/api/visitor/
 ||leakgallery.com/api/lg/
 ||learning.linkedin.com/fizzy/admin
 ||leboncoin.fr/piano-analytics/
@@ -4900,6 +4902,7 @@
 ||microsoft.com/etc.clientlibs/microsoft/clientlibs/exp-analytics/
 ||microsoft.com/library/svy/broker.js
 ||middleware.marktjagd.de/proxy/trackings
+||migros.com.tr/analytics/
 ||mimg.sportsworldi.com/lib/google_analytics.js
 ||miniso.com.tr/*/sendeventv2|
 ||miniwebtool.com/js/mwt-analytics.
@@ -5349,13 +5352,13 @@
 ||paypal.com/credit-presentment/glog?
 ||paypal.com/credit-presentment/log
 ||paypal.com/platform/tealeaftarget
+||paypal.com/ptrk/
 ||paypal.com/tagmanager/pptm.js
 ||paypal.com/webapps/beaconweb/
 ||paypal.com/webapps/mch/cmd/?
 ||paypal.com/xoplatform/logger/api/logger
 ||paypalobjects.com/*/pixel.gif
 ||paypalobjects.com/web/res/*/js/summary-analytics.js
-||paypalobjects.com^*/pixel.gif
 ||paytr.com/securemetric/
 ||pbd.yahoo.com/data/analytics
 ||pbd.yahoo.com/data/logs/benji
