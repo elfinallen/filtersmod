@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-11-09 21:53:03 UTC
-! Total Rules: 5212
+! Last Updated: 2026-11-10 05:47:07 UTC
+! Total Rules: 5209
 ! Expires: 5 days
 /a/ipn/js/*
 /a/p?adid=
@@ -1559,7 +1559,6 @@
 ||boyfriendtv.com/bftv/b/
 ||boyfriendtv.com/bftv/bb/
 ||boyfriendtv.com/bftv/bbb/img/
-||boyfriendtv.com/bftv/paysite/
 ||boyfriendtv.com/link/out/b/
 ||boyfriendtv.com/units/live/ppnd/
 ||boyfriendtv.com/zv3/b/
@@ -2197,7 +2196,6 @@
 ||eastmoney.com/trade/hqb_hq.html
 ||easyai.tech/wp-content/uploads/*-576x1024.
 ||easyicon.net/gg2019/
-||easymp3mix.com/js/re-ads-zone.js
 ||ebay.com/scl/js/scandalloader.js
 ||ebaystatic.com/rs/c/scandal/
 ||ebaystatic.com^*/scandaljs-
@@ -2902,6 +2900,7 @@
 ||imgbox.com/images/tpd.png
 ||imgchili.net/media/image*.gif
 ||imgchili.net/media/top.gif
+||imgdawgknuttz.com/*.php
 ||imgdb.cn/item/6098ab56d1a9ae528f16192c.jpg
 ||imgdb.cn/item/66a73333d9c307b7e9dbb6ef.jpg
 ||imgdrive.net/anex/
@@ -2909,6 +2908,7 @@
 ||imghost.top/kita/
 ||imgjiajiao.cn/jiajiao/js/lxonline.js
 ||imglnkx.com/*/*_banner*.gif
+||imgoutlet.pw/amload.js
 ||imgroom.net/images/*.gif
 ||imgs.cc/images/ad_
 ||imgs.cc/img/8pl6fjy.gif
@@ -3439,7 +3439,6 @@
 ||lwlwlw.com/js/fvgg.js
 ||lxapk.com/wp-content/uploads/*.gif
 ||lyd.com.cn^*950-90.
-||lyricsly.in/wp-content/plugins/gpadblock/assets/js/detector.js
 ||lysq.com/data/attachment/portal/
 ||lywww.com/data/js.php?id=
 ||lywww.com/header_pic.php
@@ -3509,7 +3508,6 @@
 ||mangahub.io/iframe/
 ||mangakakalot.gg/js/ads/clck-adu-kklgg.js
 ||mangaraw24.online/api/v*/ads/
-||mangatensei.com/runative.php
 ||manhuaren.com/wx20190904.js
 ||manhwa18.cc/main2023/
 ||manqian.cn/784a6e27-be5b-4442-86e5-9f4adb51894d?
@@ -3708,6 +3706,7 @@
 ||netflavns1.com/assets/jquery/app0.
 ||netgames.io/js/page-ads.js
 ||new-icon.ol-img.com/jslib/ad
+||newagebd.net/assets/img/ads/
 ||news.99k.tw/open/open*.php
 ||news.cn/2021detail/js/booklist.js
 ||news.cn/imgad/
@@ -4454,7 +4453,6 @@
 ||static.tohomh123.com/js/funasd.js
 ||static.videezy.com/assets/underpop-*.js
 ||static.wgospodarce.pl/images/top_banners
-||static.xcafe.com/adm/
 ||static.xshuyaya.com/m/d.js
 ||statics.123pan.com/fe/phoenix-share/js/pcwapad.min.js
 ||stats.chinaz.com/tool/
@@ -5095,7 +5093,6 @@
 ||youku.com/dress/
 ||youmelive.com/timg/
 ||youporn.com/_xa/ads
-||yourlust.com*/serve
 ||yourlust.com/assets/script.js
 ||yourlust.com/js/scripts.js
 ||youth.cn/images/c.js
