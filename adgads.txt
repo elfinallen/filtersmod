@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-11-10 19:15:05 UTC
-! Total Rules: 5213
+! Last Updated: 2026-11-11 04:28:34 UTC
+! Total Rules: 5214
 ! Expires: 5 days
 /a/ipn/js/*
 /a/p?adid=
@@ -1558,7 +1558,6 @@
 ||boyfriendtv.com/ads/
 ||boyfriendtv.com/bftv/*/player-extras.
 ||boyfriendtv.com/bftv/b/
-||boyfriendtv.com/bftv/bb/
 ||boyfriendtv.com/bftv/bbb/img/
 ||boyfriendtv.com/link/out/b/
 ||boyfriendtv.com/units/live/ppnd/
@@ -1813,6 +1812,7 @@
 ||cidianwang.com/js/zdtop.js
 ||cilimao.*/amaod/
 ||cilipa.com^*0.js
+||cinemadeck.com/ifr/
 ||citysbs.com/chongqing/*/1920x179-
 ||citysbs.com/no/*/1190x60-
 ||citysbs.com/no/*/650x50-
@@ -2413,6 +2413,7 @@
 ||game8.vn/partial/all_advwidth*partial
 ||gamecopyworld.com/ddd/
 ||gamefy.cn/cookiead.php
+||gameinformer.com/async-load/block?block_plugin_id=gi5_ads_content_article_
 ||gameinformer.com/modules/custom/gi5_ads/js/content/
 ||gamemale.com/static/js/valida.js
 ||gamersky.com/common/tg/
@@ -2972,6 +2973,7 @@
 ||isyd.net/images/ad1.jpg
 ||it165.net/index.php?m=poster&
 ||it610.com/views/front/js/special/
+||italiangenealogy.com/images/banners/
 ||itavcn.com/images/2012/ad_
 ||itavcn.com/images/2013/ad_
 ||itavcn.com/images/2014/ad_
@@ -4262,7 +4264,6 @@
 ||seowhy.com/ask/img/*gg
 ||ser-46-host.store/v1/megamax-98412-tag.js
 ||serengeseba.com/static/view.js
-||serververify.com/providers/ad-load/
 ||service.hotstar.com^*/midroll
 ||service.iwara.tv/*/*.php?zones=
 ||service.iwara.tv/z/z.php
