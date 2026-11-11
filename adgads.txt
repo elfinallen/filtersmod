@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-11-11 04:28:34 UTC
-! Total Rules: 5214
+! Last Updated: 2026-11-11 19:11:34 UTC
+! Total Rules: 5219
 ! Expires: 5 days
 /a/ipn/js/*
 /a/p?adid=
@@ -1313,6 +1313,8 @@
 ||av6k.com/templets/default/parts/
 ||av6k.com/video-ads/
 ||av99.us/player/ad.
+||avbase.app/_astro/ad-config.
+||avbase.app/_astro/exopopunder.
 ||avcity.twavtv.com/iframe/
 ||avdao.pw/dist/js/sc_check
 ||avkuy.com/wp-content/uploads/*/*.webp
@@ -2378,6 +2380,7 @@
 ||ftopx.com/tf558550ef6e.js
 ||fuckflix.click/assets/js/custome.js
 ||fuimg.com/1/66795b80a792fb96.png
+||full-porn.com/assets/js/page-links/9.js
 ||func.tw/image/func2.png
 ||funnyjunk.com/site/js/extra/pre
 ||funshipin.com/v1/js/footerhongbao.js
@@ -3968,6 +3971,7 @@
 ||ppshk.com^*banner/
 ||ppsj.com.cn/images/ppsj300.gif
 ||pptv.com/game/aplus/client/gamedetail.html
+||preprints.org/frontend/banners
 ||prettyvirgin.com/images/banners/
 ||prettyvirgin.com/js/show.html
 ||price.com.hk/dfp_price.php?
@@ -5120,6 +5124,7 @@
 ||yueipaoo.xyz^*.gif
 ||yun.baidu.com/act/api/activityentry?
 ||yundaquan.com/data/attachment/portal/
+||yuntu68.com/dgg
 ||yuntu68.com/img
 ||yuntue.com/zb_users/plugin/morelinks*.php
 ||yunupload.net/jsa/

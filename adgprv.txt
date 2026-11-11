@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-11-11 04:28:34 UTC
-! Total Rules: 7636
+! Last Updated: 2026-11-11 19:11:34 UTC
+! Total Rules: 7631
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -139,7 +139,6 @@
 /api/viewcontent.php?
 /api_ip_info.php
 /apilog?
-/apmrum.min.js
 /app.php/ads/*
 /app/eclog/js/cid.generate.js
 /appdynamics/adrum-
@@ -189,7 +188,6 @@
 /b/stats?
 /ba_tracking.js
 /baidustatistics.js
-/base/es5/bundle.js
 /base/es6/bundle.js
 /batch/1/oe/*
 /bbtstats/*
@@ -206,7 +204,6 @@
 /beacon/perf
 /beacon/stats
 /beacon/user-data
-/beacon/v1/batch?
 /beacons?data=
 /bf.gif?ac=
 /bineos.min.js
@@ -574,6 +571,7 @@
 /hitcount?
 /hitcounter.
 /hitcounter/*
+/hits/collect/*
 /hockeystack.min.js
 /home/new/v*/api/applogger.php
 /home/new/v*/api/get-ip.php
@@ -983,6 +981,7 @@
 /rest/analytics/*
 /rest/high/api/cogitoergosum
 /resxclsa.js
+/rmkt/collect/*
 /rollbar.js
 /rollbar.min.js
 /roverclk/*
@@ -1645,7 +1644,6 @@
 ||airbnb.*/tracking/
 ||airlytics-web.airlock.twcmobile.weather.com/eventproxy/track
 ||airtable.com/internal/
-||airtel.in/analytics/pixel?
 ||aiv-delivery.net/*/trackingevents?
 ||aiv-delivery.net/events/
 ||aiv-delivery.net/v1/reportevent
@@ -2212,6 +2210,7 @@
 ||autotrader.com/no_cache/bi_
 ||autotrader.com/pixall/
 ||auxin.g123.jp/external/*/refund_campaign/game/g123/status
+||avbase.app/api/vitals?
 ||aviakassa.com/api/v*/logger
 ||aviasales.*-analytics.
 ||aviasales.*/analytics_pv.
@@ -2711,7 +2710,6 @@
 ||cdon.*/assets/dist/assets-cdonanalytics.js
 ||cdp.ems.onet.pl/*/me?domain=
 ||cdp.nrs.ai/api/ingest
-||cdp.sph.com.sg/activation/activation.js
 ||cdp.vercel.com/rs/
 ||cdpapi.livemint.com/api/adserve/lm
 ||celebtattler.com/world/cache/analytics.js
@@ -4218,7 +4216,6 @@
 ||imgur.com/albumview.gif?
 ||imgur.com/imageview.gif?
 ||immobilien-zeitung.de/backend/commons/js/analytics_config.js
-||immoweb.be/*/track/
 ||immowelt.de/serp-bff/analytics/
 ||imobie.com/js/analytics.js
 ||imore.com/vite/assets/analytichandlers-*.js
@@ -4649,7 +4646,6 @@
 ||livinglanguage.com/js/view.analytics.
 ||lmcdn.ru^*/statistics.js
 ||lnk.to/~/tr/
-||lnk.to/~/tr/visit
 ||lnkd.in/li/track
 ||locondo.jp/*/analysis/tracker.js
 ||log*-normal-*.tiktokv.com
@@ -4865,6 +4861,7 @@
 ||melhorplano.net/scripts/tracker/
 ||melonstube.com/js/analytics
 ||memonotepad.com/js/modules/google-analytics-bundle.js
+||memorial.com.tr/cxgt/
 ||mensjournal.com/.api/admiral
 ||mercari.com/gtm/
 ||mercdn.net/assets/scripts/raphaelp
@@ -4885,7 +4882,6 @@
 ||metro.tokyo.lg.jp/shared/js/g_tag.js
 ||metro.tokyo.lg.jp/shared/js/gtag.js
 ||metrobyt-mobile.com/self-service-metro/v1/logging
-||meucdn.vip/cdn-cgi/trace
 ||mexc.com/staticjs/tag.js
 ||mgntrn.nl/api/event
 ||mhealth.ru/_stat/log/
@@ -5426,7 +5422,6 @@
 ||ping.typekit.net/p.gif
 ||pingback.issuu.com/ping
 ||pinkoi.com/_log/
-||pinkvilla.com/comscore_response.php
 ||pinnacle.com/ru/?btag=
 ||pinterest.com/*/contextlogresource/
 ||pinterest.com/*/statslogresource/
@@ -5575,7 +5570,6 @@
 ||production-bq-lambda-stack.production.yummly.com/event
 ||progameguides.com/*/openweb-tracking.js
 ||progorodchelny.ru/modules/lenta/stat.php
-||progressive.com/log/
 ||prokazan.ru/components/analytics/stat.js
 ||prometeo-media-service.com/assets/pixel.gif
 ||promos.investing.com/*/digibox.gif?
@@ -5799,6 +5793,7 @@
 ||restaurantguru.com/log.php
 ||resultspage.com/js/sli-spark.js
 ||retail-client-events-service.internal.salsify.com/events
+||retail.hihonor.com/survey/base/analysis/
 ||retailrocket.ru/content/javascript/tracking.js
 ||retently.com/api/remote/tracking/
 ||reurl.cc/javascripts/tagtoo.js
@@ -6455,6 +6450,7 @@
 ||static.read.tools/stats.min.js
 ||static.rebelboost.com/tracking/
 ||static.rendeljkinait.hu/plugins/rendeljkinait-base-setup/widgets/package-tracking-widget/
+||static.revechat.com/widget/scripts/analytics/
 ||static.ridicdn.net/books-backend/*/tracking/ridi-tracking-sdk.js
 ||static.rtrp.jp/static/js/googletagmanager.*.js
 ||static.sbsdlab.co.kr/common/gtag/
@@ -6828,7 +6824,6 @@
 ||tmp.argusplatform.com/js/wid.tracker.js
 ||tms.marriott.com/error/e.gif
 ||tmssl.akamaized.net/js/news-viewport-tracking.js
-||tmtarget.com/tracking/
 ||tnaflix.com/stats.php
 ||toast.com/log
 ||tof.perfectworld.com/public/js/stat-tof-perfectworld-
