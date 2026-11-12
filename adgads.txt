@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-11-11 19:11:34 UTC
-! Total Rules: 5219
+! Last Updated: 2026-11-12 05:33:44 UTC
+! Total Rules: 5223
 ! Expires: 5 days
 /a/ipn/js/*
 /a/p?adid=
@@ -818,7 +818,6 @@
 ||4hw.com.cn/js/common.js
 ||4kwu.cc/static/js/tj.js
 ||4taoxs.com/api/accept/
-||4tube.com/assets/adn-
 ||4tube.com/assets/padb-
 ||500xxxx.com/go.js
 ||5054399.com/js/rice/m.js
@@ -1005,7 +1004,6 @@
 ||8boobs.com/flr.js
 ||8d8d.me/images/dealer.gif
 ||8kporner.com/themes/lite/js/mztn.js
-||8muses.com/banner/
 ||8s8s.com/data/banner/
 ||8se.me/service/assets/core-state.
 ||8xbook.org/scripts/ad/
@@ -1252,6 +1250,7 @@
 ||api.live.bilibili.com/*/banner
 ||api.redgifs.com/v*/adv/
 ||api.redgifs.com/v*/feeds/modules
+||api.thefinancialexpress.com.bd/api/ads/
 ||api.wudizuqiu.com/72nba
 ||api.wudizuqiu.com/bocai.js
 ||apic.91bixin.net/api/thirdadv/
@@ -1520,6 +1519,7 @@
 ||bitchesgirls.com/libs/adloaders/
 ||bitscn.com/js/a2
 ||bixingjia.com/js/hf.
+||biz-cdn.varzesh3.*/banners/
 ||bjcathay.com/s?z=
 ||bjhockey.org/public/pc/video/test.mp4
 ||bjmama.net/a/spc_
@@ -1901,7 +1901,6 @@
 ||coincheck.com/images/affiliates/
 ||colamanga.com/sw.js
 ||colonist.io/dist/images/ab_
-||comdotgame.com/static/ads/
 ||comefromchina.com/images/128bestbuy
 ||comicbox.xyz/getadsdata
 ||comicbox.xyz/static/js/ad-manager.
@@ -2008,6 +2007,7 @@
 ||demaxiya.com/v4/dd/
 ||deqixs.com/config/
 ||derpicdn.net/spns/*.gif
+||detectiveconanworld.com/images/support-us-brave.png
 ||developer.mozilla.org/pong/
 ||deyangs.com/img/
 ||dfcfw.com/download/d25411840164398846730_w690h389.
@@ -2048,7 +2048,6 @@
 ||dio99.com/images/*.gif
 ||dioguitar23.*/images/*.gif
 ||dioimg.net/images/*.gif
-||direct-specific.com
 ||dirtyvideo.fun/js/script_
 ||discuss.com.hk/dfp_forum.php?au=discuss_web_
 ||discuss.com.hk/oath/
@@ -2088,7 +2087,6 @@
 ||dogfight360.com/usbeam/*_ad/
 ||dogfight360.com/usbeam/yuelun_ad/
 ||doii.cc/mmm/
-||donalduck.netcrew.sbs/e/js
 ||dongchedi.com/motor/ad/
 ||dongfangtai.com/2018/
 ||douban.com/?unit=dale_movie_trailer_after_play&
@@ -2415,6 +2413,7 @@
 ||game8.vn/partial/all_*advpartial
 ||game8.vn/partial/all_advwidth*partial
 ||gamecopyworld.com/ddd/
+||gamecopyworld.eu/ddd/
 ||gamefy.cn/cookiead.php
 ||gameinformer.com/async-load/block?block_plugin_id=gi5_ads_content_article_
 ||gameinformer.com/modules/custom/gi5_ads/js/content/
@@ -2674,6 +2673,7 @@
 ||hellporno.com/_a_xb/
 ||henan.sina.com.cn/iframe/7/
 ||henan100.com/d/file/indexad/
+||hentai2read.com/arknvb/arkapi.php
 ||hentaicomic.*/data/ds/
 ||hentaicomic.*/data/game/*/wap.gif
 ||hentaifox.com/js/slider.js
@@ -2733,6 +2733,7 @@
 ||hotavxxx.com/images/*96
 ||hoteastday.com/newspc/show?
 ||hotlink.cc/promo/
+||hotmovs.com/suhum/
 ||hotpress.info/blog/asian-javdl/wp-content/uploads/irvsxp.js
 ||house.sina.com.cn/2.0/abp/
 ||house365.com/js/lbpopup.js
@@ -3494,7 +3495,6 @@
 ||m1955.com/template/qq/images/playad/
 ||macd.cn/macd-topads.html
 ||macfans.org/vip/
-||machineseeker.com/data/ofni/
 ||macys.com/sitemonetization/v1/sponsored-products/
 ||madnessporn.com/mad/
 ||magedu.com/wp-content/uploads/*/xwzx
@@ -3539,6 +3539,7 @@
 ||media.notthebee.com/ads/
 ||media.swncdn.com/salemads/*/advscript.js
 ||medsci.cn/images/wyg.jpg
+||megatube.xxx/sum.js
 ||meiju8.cc/js/jquery.p.min.js
 ||meiju8.cc/js/m_ban_
 ||meiju8.cc/js/pv
@@ -3630,6 +3631,7 @@
 ||mortgagecentres.net/banner.gif
 ||moviebite.cc/ads-config.js
 ||moviekhhd.biz/ads/
+||movielair.cc/assets/mone-*.js
 ||movshow.com/*portal/
 ||mowenxi.com/1.png
 ||mp4ba.com^*/js/head.js
@@ -4206,6 +4208,7 @@
 ||s.go.sohu.com^*/?callback=
 ||s.weibo.com/widget.html
 ||s.yimg.com/cv/apiv2/tw/bwchou25/
+||s.yimg.com/du/site/prddyyadcpnmcfay.js
 ||s.yimg.com/ja/ap/tw/js/
 ||s.yimg.com/uv/dm/scripts/syndication.js
 ||s0.cdn3x.com/jb/js/jb.vast.min.js
@@ -4367,6 +4370,7 @@
 ||sm.ign.com/zdadkit*.js
 ||smqzj.com/seo.js
 ||smzy.com/v1/img/
+||snipercentral.com/images/banners/
 ||so.91ks.online/asset/bd.js
 ||so.com/com/ads?
 ||so.com/index/advertise
@@ -4409,6 +4413,7 @@
 ||sojson.com/ui/images/upyun
 ||somanhua.com/smh/
 ||songsongyun.com/ads/
+||sonichits.com/tf.php
 ||sonimei.cn/images/gg.png
 ||sonimei.cn/images/llq.png
 ||sonimei.cn/qipai.jpg
@@ -4483,7 +4488,6 @@
 ||streambtwp.b-cdn.net/aclib.js
 ||streamex.hn/pop.js
 ||stripchat.com/api/external/
-||strtpe.link/ppmain.js
 ||stulip.org/static/js/header.js
 ||su.bdimg.com/static/dspui/js/
 ||subhd.com/images/ap/
