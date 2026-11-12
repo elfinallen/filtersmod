@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-11-12 05:33:44 UTC
-! Total Rules: 7631
+! Last Updated: 2026-11-12 19:28:50 UTC
+! Total Rules: 7629
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -826,7 +826,6 @@
 /pagetag?
 /pagetrack.js
 /pagetracker.js
-/pagetracking.js
 /pageview.js
 /pageview?t=
 /pageviews.php?type=
@@ -1143,6 +1142,7 @@
 /t.gif?
 /taevents-c.js
 /tag/proxy?id=g-
+/tag_path/profile/visit/*
 /tagcommander/prd/*
 /tagmanager/pptm.js
 /tagmetrics/*
@@ -1331,6 +1331,7 @@
 /visitorapi.js
 /visitorcountry.svc/*
 /visitoridentification.js
+/vstat.php
 /w.gif?
 /watch.*.js?key=*&kw=*&refer=
 /web-pixel-*/pixel.modern.js
@@ -1402,7 +1403,6 @@
 /wrapper/metrics/v1/custom-metrics?
 /writelog.js
 /ws-tracking.js
-/wt-connect-pixel/carts/init?
 /wt?p=
 /wt_capi.js
 /wtid.js
@@ -2034,6 +2034,7 @@
 ||app.huawei.com/hwa-c/configresource/js/general/ha.js
 ||app.inkind.com/api/*/events
 ||app.intercom.io/gtm_tracking/
+||app.kajabi.com/health_check/ping
 ||app.kulgacdn.com/js/script.js
 ||app.leadplan.ru/assets/img/1px.gif
 ||app.leadster.com.br/*/analytics/
@@ -3329,7 +3330,7 @@
 ||duhnet.tv/*/*/stats/init.min.js
 ||dumbingofage.com/?feed-stats-post-id=
 ||dumpster.cam4.com/v2/fp1.js
-||duolingo.com/2017-06-30/tracking-status
+||duolingo.com/api/1/sync/batch
 ||dus.trivago.com/tracking
 ||dutchie.com/telemetry|
 ||dxlive.com/js/dtrace.js
@@ -3503,7 +3504,6 @@
 ||everyplate.com/gw/otlp/traces
 ||evidon.com/pub/
 ||ewaline.su/stats.js
-||excess.duolingo.com/batch
 ||execute-api*.amazonaws.com/pixel-prod/
 ||execute-api.*.amazonaws.com/current/events?
 ||execute-api.*.amazonaws.com/event|
@@ -3707,7 +3707,6 @@
 ||freecontent.stream
 ||freedownloadmanager.org/ajax/th_view.php
 ||freehostedscripts.net/ocounter.
-||freepik.*/download.gif?
 ||freepik.com/_ga?
 ||freepornq.com/counter/
 ||fresnel.vimeocdn.com/add/player-test-impression?beacon
@@ -4939,7 +4938,6 @@
 ||montgomerycountymd.gov/common/scripts/googleanalytics.js
 ||morgenpost.de/resources/*/js/webtrekk
 ||morinaga.co.jp/assets/js/ga.js
-||morningstar.com/api/v1/analytics
 ||motogonki.ru/js/google_service.js
 ||motoin.de/scripts/emstrack.js
 ||motorsport.com/pageinfo/stat/
@@ -7180,7 +7178,6 @@
 ||vinted.*/relay/events
 ||vinted.de/relay/events
 ||vinted.fr/relay/events
-||vinted.it/relay/events
 ||vinted.nl/relay/events
 ||viously.com/*/mt?
 ||vipbox.*/pge=
@@ -7348,6 +7345,7 @@
 ||wikihow.com/ev/
 ||wikihow.com/x/collect
 ||wikihow.com/x/collect?
+||wikily.gg/api/event
 ||wikipedia.org/beacon/
 ||wikipedia.org/ins-502b/v2/events
 ||windowspro.de/stats/
