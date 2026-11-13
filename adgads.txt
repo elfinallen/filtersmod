@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-11-12 19:28:50 UTC
-! Total Rules: 5223
+! Last Updated: 2026-11-13 04:50:57 UTC
+! Total Rules: 5217
 ! Expires: 5 days
 /a/ipn/js/*
 /a/p?adid=
@@ -818,7 +818,6 @@
 ||4hw.com.cn/js/common.js
 ||4kwu.cc/static/js/tj.js
 ||4taoxs.com/api/accept/
-||4tube.com/assets/padb-
 ||500xxxx.com/go.js
 ||5054399.com/js/rice/m.js
 ||5068.com/*gg
@@ -1246,7 +1245,6 @@
 ||api.leakgallery.com/affiliate/
 ||api.leakgallery.com/cfg/*/cpc?
 ||api.leakgallery.com/cfg/*/z?
-||api.leakgallery.com/r/
 ||api.live.bilibili.com/*/banner
 ||api.redgifs.com/v*/adv/
 ||api.redgifs.com/v*/feeds/modules
@@ -1275,6 +1273,7 @@
 ||ark.letv.com/s?
 ||ashemaletube.com/ast/b/
 ||asiav.cyou/myupdatelist.
+||askai.glarity.app/img/ads/
 ||asp300.*/2012adimg/
 ||asp300.*/2012js/
 ||asp300.*/2017js/
@@ -2231,7 +2230,6 @@
 ||elecfans.com/skin-*ad_
 ||elecfans.com/static/home_ad/
 ||elecfans.com/webapi/advertisement/
-||elitebabes.com/panel8vz3/
 ||emoney.cn/www/officalwebstatic/js/slidead.js
 ||en8848.com.cn/js/ad
 ||en8848.com.cn/js/content.
@@ -2447,7 +2445,7 @@
 ||gay4porn.com/ai/
 ||gaymes.net/wp-content/themes/gameking/js/porngaymes.js
 ||gayporntube.com/spots.php?
-||gays-cruising.es/recursos/
+||gaystream.pw/pushtop.js
 ||gd-singapore.com/data/1724/aimg/rloadbnus-ibc26.
 ||gd.ct10000.com/js/ecssstat.js
 ||gd.sina.com.cn/iframe/22/
@@ -2743,7 +2741,6 @@
 ||hqcx.net/index.php?m=poster&
 ||hqdoor.com/web/
 ||hqol.cn/up/ad/
-||hqpornstream.com/pub/
 ||hs.cnfol.com/cm/imgs/load.gif
 ||hsbianma.com/ad/
 ||hsbianma.com/content/images/*-ad-
@@ -3039,6 +3036,7 @@
 ||jav.sb/videojs/300x100.php
 ||javazhijia.com/skin/
 ||javbooks.com/52toy/
+||javct.net/jav-popup
 ||javenglish.cc/terra.js
 ||javhd.com/*/300x250.html?
 ||javhd.com/banners-mainpage/
@@ -3684,6 +3682,7 @@
 ||myhaitang.cc/assets/public/*.js
 ||mylomza.pl/static/files/inline_images/*/inline__
 ||mylust.com/*.jsx
+||mylust.com/092-
 ||mylust.com/b/
 ||myqcloud.com/ad/
 ||myqcloud.com/wp-content/uploads/huoxingyun.
@@ -3937,7 +3936,6 @@
 ||pixfs.net/js/mib_falcon
 ||pixfs.net/module/fullpage/dist/ad-full-page-enter-fly.
 ||pixfs.net/module/fullpage/dist/ad-full-page.
-||pixhost.to/resource-session/
 ||pixlr.com/fad/
 ||pjtime.com/js/show_ad
 ||pkvs.com/public/300/
@@ -3953,7 +3951,6 @@
 ||popcdn.day/magnitude.js
 ||popin.cc/ads/
 ||porn87.com/static/stream_ads/
-||porndd.com/static/js/popunder-inject.js
 ||porndoe.com/views/footer/banners.html
 ||porndoe.com/wp-contents/channel?
 ||porngamespass.com/iframes/
@@ -3980,6 +3977,7 @@
 ||price.com.hk/ec-discuss-widget.php
 ||price.com.hk/scripts/ysm.js
 ||primevideo.com/cdp/getvideoads
+||product.rightmove.co.uk/featured-customer-v2.html
 ||proewildfire.cn/fd.js
 ||proginn.com/cms/10000/
 ||programmer-club.com.tw/images/uuu/
@@ -4451,7 +4449,6 @@
 ||starnnews.com/banner/
 ||startpage.com/*/adsense/search/async-ads.js
 ||startpage.com^*/afs/
-||starwank.com/api/
 ||static-cdn.spot.im/production/ads/tags/v*/ads/ads.js
 ||static.c4assets.com/all4-ad-code/latest/adverts.js
 ||static.chinatimes.com/scripts/2019/ad2019.min.js
@@ -4581,10 +4578,10 @@
 ||the-avatar.lol/api/pult/
 ||thefreedictionary.com/_/tr.ashx?
 ||thegay.com/static/da/
+||thegay.porn/gdtatrco/
 ||thehentaiworld.com/fro_lo*.js
 ||thehun.net/banners/
 ||thephuketnews.com/photo/banner/
-||theplatform.kiwi/ads/
 ||theporn.xyz/static/bet365.gif
 ||theporn.xyz/static/tmp/
 ||thesimsresource.com/js/ad-loader.js
@@ -4662,7 +4659,6 @@
 ||tra.scds.pmdstatic.net/advertising-core/
 ||trafficmanager.net/o.js
 ||trahkino.cc/static/js/li.js
-||tranny.one/bhb.php
 ||tranny.one/trannystatic/ads/
 ||trannygem.com/ai
 ||trans.firm.in/*.js
@@ -4769,9 +4765,6 @@
 ||vdianying.cc/img/youhuiquan250.gif
 ||vdianying.cc/wp-content/plugins/wp-adblock-dedect/
 ||vdrama.fans/assets/cinema-monetize.js
-||vdrama.fans/js/vd-ad-config.js
-||vdrama.fans/js/vd-playback-check.js
-||veo-hentai.com/wp-content/plugins/veohentai/popunder-unificado.js
 ||vercel.app/ads/
 ||vgao.xyz/images/*.gif
 ||video.itxueyuan.com/1672473525178992.mp4
@@ -4959,6 +4952,7 @@
 ||xhamster2.com*/vast?
 ||xhamster3.com*/vast?
 ||xhcdn.com/site/*/ntvb.gif
+||xhvid.com/*/vast?
 ||xhymsq.com/data/attachment/portal/
 ||xiacaidd.com/xiacai/ad/
 ||xianshuabao.com/ashx/pt.ashx?cmd=record&filter=&order=all&
