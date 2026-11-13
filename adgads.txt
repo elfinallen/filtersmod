@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-11-13 04:50:57 UTC
-! Total Rules: 5217
+! Last Updated: 2026-11-13 19:08:11 UTC
+! Total Rules: 5221
 ! Expires: 5 days
 /a/ipn/js/*
 /a/p?adid=
@@ -1696,6 +1696,7 @@
 ||cdn.jsdelivr.net/gh/itspro-dev/project_files@
 ||cdn.jsdelivr.net/gh/mdnaik/myblog@master/arlinablock.js
 ||cdn.jsdelivr.net/gh/prebid/currency-file@1/latest.json
+||cdn.livesoccertv.com/js/ads-*.js
 ||cdn.myhentaicomics.com/rev/frames/
 ||cdn.onnetwork.tv/js/player*/player_prebidm.js
 ||cdn.onnetwork.tv/js/prebid*.js
@@ -2672,6 +2673,8 @@
 ||henan.sina.com.cn/iframe/7/
 ||henan100.com/d/file/indexad/
 ||hentai2read.com/arknvb/arkapi.php
+||hentai2read.com/x/l?v=
+||hentaicdn.com/cdn/beta/ourdream-socialbar.js
 ||hentaicomic.*/data/ds/
 ||hentaicomic.*/data/game/*/wap.gif
 ||hentaifox.com/js/slider.js
@@ -3036,7 +3039,7 @@
 ||jav.sb/videojs/300x100.php
 ||javazhijia.com/skin/
 ||javbooks.com/52toy/
-||javct.net/jav-popup
+||javct.net/jav-popup.
 ||javenglish.cc/terra.js
 ||javhd.com/*/300x250.html?
 ||javhd.com/banners-mainpage/
@@ -3982,6 +3985,7 @@
 ||proginn.com/cms/10000/
 ||programmer-club.com.tw/images/uuu/
 ||projectorcentral.com/*?bid=
+||prologuedrivers.com/js/california/dist/adshieldedgecacheabexp.*.js
 ||property.hk/js/adside.js
 ||ps0z.com/300x250b
 ||ps123.net/myfile/

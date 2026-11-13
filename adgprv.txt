@@ -1,7 +1,7 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-11-13 04:50:57 UTC
+! Last Updated: 2026-11-13 19:08:11 UTC
 ! Total Rules: 7628
 ! Expires: 5 days
 /a.gif?
@@ -100,6 +100,7 @@
 /analytics/track_event/*
 /analytics/trackimpressions
 /analytics/tracking.js
+/analytics?ver=*&referrer=
 /analytics?ver=*&visitor_id=
 /analytics_cookie.js
 /analytics_events.js
@@ -125,7 +126,6 @@
 /api/metrics/event
 /api/otlp/trace
 /api/pageview?
-/api/pixel?
 /api/site/tracking-config/*
 /api/t/c|
 /api/t/gtm/*
@@ -430,7 +430,6 @@
 /events/counter?
 /events/impression?
 /events/track/*
-/events/tracking
 /events/view?
 /eventsbeacon?
 /eventtracker.js
@@ -776,7 +775,6 @@
 /new-client/trackers.
 /new-relic.js
 /new-relic.min.js
-/newrelic-browser.js
 /newrelic-gpt.
 /newrelic.js
 /newrelic.min.js
@@ -1107,7 +1105,6 @@
 /statistics/visit?id=
 /statrecorder.asp?
 /stats-collect
-/stats-listener.js
 /stats.*/tracker.
 /stats.gif?
 /stats.php?*http
@@ -1347,6 +1344,7 @@
 /webdig.js
 /webdig_test.js
 /weblog.php?
+/webmr.js
 /webservices/remotemodulestracker.php
 /webstats.js
 /webtrack.js
@@ -1533,7 +1531,6 @@
 ||ab-in-den-urlaub.de/resources/cjs/tracking
 ||ab-in-den-urlaub.de/trackingpixel_
 ||ab-in-den-urlaub.de/usertracking
-||ab.g.globo/event
 ||abc.com.py/pf/resources/js/googletagmanager.js
 ||abcd.mdc.akamaized.net/materials/index/?country=
 ||abcotvs.net^*/fban_
@@ -1913,6 +1910,7 @@
 ||api.pico.bendingspoonsapps.com/v*/web-events
 ||api.pico.tools/metrics/
 ||api.picox.bendingspoons.com/v1/events
+||api.plus.kinopoisk.ru/graphql?operationname=registersimpleactionwithpixel
 ||api.poool.fr/api/*/access/events.track.pageview
 ||api.poool.fr/api/v3/access/event
 ||api.prod.allstar.dev/methods/clip-views
@@ -4376,6 +4374,7 @@
 ||journalreport.cn/mstatistics.js
 ||jr-cross.co.jp/lib/js/ekinakapotal-ga.js
 ||js-webt-lol.9cache.com/piwik
+||js.ciphera.net/script.js
 ||js.dhresource.com/*/tracklog/tracklog.js
 ||js.dhresource.com/buyer/common/track/trackwebsdk.js
 ||js.eruptr.io/epd.js
@@ -7347,7 +7346,6 @@
 ||wikily.gg/api/event
 ||wikipedia.org/beacon/
 ||wikipedia.org/ins-502b/v2/events
-||windowspro.de/stats/
 ||windowspro.de/stats/mto.js
 ||windy.com/sedlina/ga/
 ||wine-searcher.com/k6s8okp3/init.js
@@ -7507,6 +7505,7 @@
 ||yandex.ru/click/
 ||yandex.ru/log?
 ||yandex.ru/metrika/
+||yandex.ru/static-mon/event
 ||yandexcdn.com/ajax.php
 ||yandexcdn.com/cdn-cgi/trace
 ||yansk.ru/counter/
@@ -7616,6 +7615,7 @@
 ||zinio.com/static/assets/js/fp-main.min.js
 ||zip.co/analytics
 ||zive.cz/client.scripts/tracking.js
+||zkrainynba.com/wp-content/themes/zkrainynba/assets/js/events-ga*.min.js
 ||zn.ua/actions/profile/banners/stat
 ||zocdoc.com/metrics/
 ||zoiper.com/*/js/tracker.js
