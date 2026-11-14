@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-11-13 19:08:11 UTC
-! Total Rules: 5221
+! Last Updated: 2026-11-14 04:44:10 UTC
+! Total Rules: 5216
 ! Expires: 5 days
 /a/ipn/js/*
 /a/p?adid=
@@ -1560,7 +1560,6 @@
 ||boyfriendtv.com/bftv/*/player-extras.
 ||boyfriendtv.com/bftv/b/
 ||boyfriendtv.com/bftv/bbb/img/
-||boyfriendtv.com/link/out/b/
 ||boyfriendtv.com/units/live/ppnd/
 ||boyfriendtv.com/zv3/b/
 ||boyfriendtv3.com/zv3/
@@ -1620,7 +1619,6 @@
 ||bzhanyy.com^*.gif
 ||c-ctrip.com/images/0101r120009e1kn7ocdca.gif
 ||c-ctrip.com/train/201611/yqh_270-280.jpg
-||c.fimgs.net/e/*theme=auto
 ||c.mipcdn.com/static/*/mip-ad/mip-ad.js
 ||c114.com.cn/default_inc/a/images/
 ||c114.com.cn/js/channel.js
@@ -1696,6 +1694,7 @@
 ||cdn.jsdelivr.net/gh/itspro-dev/project_files@
 ||cdn.jsdelivr.net/gh/mdnaik/myblog@master/arlinablock.js
 ||cdn.jsdelivr.net/gh/prebid/currency-file@1/latest.json
+||cdn.jsdelivr.net/gh/streamcorner/adcsh/
 ||cdn.livesoccertv.com/js/ads-*.js
 ||cdn.myhentaicomics.com/rev/frames/
 ||cdn.onnetwork.tv/js/player*/player_prebidm.js
@@ -2268,7 +2267,6 @@
 ||excelhome.net/js/banner-
 ||exmoo.com/js/ad-position/
 ||expreview.com/baba/
-||extremescatporn.com/static/images/banners/
 ||eyny.com/data/cache/js_show_ads.js
 ||eyusky.net/weixin-img/zhifubao.jpg
 ||eyuyao.com/yyad/
@@ -2360,7 +2358,6 @@
 ||freedidi.com/wp-content/plugins/abn-wall/assets/abn-wall.
 ||freedidi.com/wp-content/plugins/death-luhubaoyu/
 ||freehao123.com/wp-content/uploads/2017/05/mmkdm.png
-||freeones.com/static-assets/istripper/
 ||freepopnews.skin/advert/
 ||freeuseporn.com/bnr/
 ||freeuseporn.com/bnrmanage/
@@ -2374,7 +2371,6 @@
 ||ftchinese.com/m/marketing/
 ||ftimg.net/s?z=
 ||ftopx.com/isttf558550ef6e.js
-||ftopx.com/tf558550ef6e.js
 ||fuckflix.click/assets/js/custome.js
 ||fuimg.com/1/66795b80a792fb96.png
 ||full-porn.com/assets/js/page-links/9.js
@@ -2716,6 +2712,7 @@
 ||hltv.org/img/*&s=
 ||hmwang.icu/skin/images/*.gif
 ||hoes.tube/ai/
+||homemade.xxx/player/html.php?aid=
 ||homeschoolmath.net/a/
 ||honglingjin.co.uk/wp-content/uploads/*-homepage-takeover-bg-
 ||hongyingbbs.com/jj/
@@ -2729,7 +2726,6 @@
 ||hoopchina.com.cn/web/channel/voice/*/beforelogin/beforelogin.js
 ||hoopchina.com.cn/web/widget/partner/*/promote.js
 ||hoopchina.com.cn^*/ad-pc-sdk.
-||hornygamer.com/includes/gamefile/sw3d_hornygamer.gif
 ||hosthentai.xyz/todo/ad/
 ||hotavxxx.com/images/*96
 ||hoteastday.com/newspc/show?
@@ -2928,7 +2924,6 @@
 ||imgur.com/znq0lxp.gif
 ||imhentai.xxx/js/expp.js
 ||imhentai.xxx/js/slider_
-||immoweb.be/*/dpg/
 ||imooc.com/open/courselistrandjs
 ||imparteconocimientos.com/recursos/anti-adblocker.js
 ||indiatimes.com/lgads_
@@ -3116,7 +3111,6 @@
 ||jitapu.com/inc/adv
 ||jitashe.org/template/jitashe/image/bc/3
 ||jiyingdm.com/js/loadingshow.html
-||jizzberry.com/65
 ||jizzberry.com/assets/f_load.js
 ||jizzberry.com/static/js/initsite.min.js
 ||jjgirls.com/graphics/mobile/en/*/*.jpg
@@ -3193,6 +3187,7 @@
 ||juji.tv/runtime/js/
 ||jumboporn.xyz/t63fd79f7055.js
 ||juqingw.com/js/tad
+||justthegays.com/api/users/
 ||justthegays.com/wp-content/plugins/videopack-ads
 ||juweixin.com/static/spk
 ||juxia.com/jxtp/indexbg.jpg
@@ -3241,7 +3236,6 @@
 ||kantie.org/a/images/car.jpg
 ||kantv6.com/index.php/popularize/
 ||kaoyan1v1.com/iaa/
-||kawai-jav.com/public/upload/ads/
 ||kayak.com/*/afterclick/
 ||kayege.org/js/
 ||kb-render.alicdn.com/html/*.html
@@ -3716,7 +3710,6 @@
 ||netded.com/templets/gfan/js/global.js
 ||netease.com/house-public/articleyunyans.js
 ||netflavns1.com/assets/jquery/app0.
-||netgames.io/js/page-ads.js
 ||new-icon.ol-img.com/jslib/ad
 ||newagebd.net/assets/img/ads/
 ||news.99k.tw/open/open*.php
@@ -3807,7 +3800,6 @@
 ||oodcd.cn/pan/config/copy.
 ||oodcd.cn/pan/config/history.
 ||ooqiu.com/ad_js/
-||openalternative.co^*/ads/
 ||oploverz.my/wp-content/uploads/*/*.gif
 ||opticsky.cn/images/2015/gy-px201
 ||optiklink.com/arlinablock.js
@@ -4371,6 +4363,7 @@
 ||slit.cn/slimages/
 ||sm.ign.com/zdadkit*.js
 ||smqzj.com/seo.js
+||smutty.com/n.js
 ||smzy.com/v1/img/
 ||snipercentral.com/images/banners/
 ||so.91ks.online/asset/bd.js
@@ -4566,6 +4559,7 @@
 ||teacher.php.cn/php/
 ||techug.com/aatb/
 ||telewebion.faina.ir/v1/ads/
+||templates.cds.yahoo.com/remote/widget?
 ||tengfangyun.com/attachment/*/w_1200
 ||tengfun.com/attachment/*/w_1200
 ||tengzhihh.com/image/*-950x277.
@@ -4769,6 +4763,7 @@
 ||vdianying.cc/img/youhuiquan250.gif
 ||vdianying.cc/wp-content/plugins/wp-adblock-dedect/
 ||vdrama.fans/assets/cinema-monetize.js
+||veporn.com/api/vast-proxy
 ||vercel.app/ads/
 ||vgao.xyz/images/*.gif
 ||video.itxueyuan.com/1672473525178992.mp4
