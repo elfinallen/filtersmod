@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-11-14 04:44:10 UTC
-! Total Rules: 7628
+! Last Updated: 2026-11-14 17:36:48 UTC
+! Total Rules: 7627
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -690,7 +690,6 @@
 /log?count=
 /log?data=
 /log?entry=
-/log?event=
 /log?format=
 /log?id=
 /log?method=
@@ -1100,6 +1099,7 @@
 /static/js/analytics-helper.js
 /static/js/tracker.js^
 /static/modules/js/assertiveyield/*
+/statify/v1/track|
 /statistic/pixel?
 /statistics/md.gif?
 /statistics/visit?id=
@@ -1119,7 +1119,6 @@
 /stats/record_visit/*
 /stats/transp.bmp
 /stats/v2/visit?
-/stats?aid=
 /statscounter/*
 /statsig/rgstr?k=client-
 /statsna.js
@@ -1401,6 +1400,7 @@
 /wrapper/metrics/v1/custom-metrics?
 /writelog.js
 /ws-tracking.js
+/wt-connect-pixel/carts/init?
 /wt?p=
 /wt_capi.js
 /wtid.js
@@ -2625,9 +2625,6 @@
 ||cdn.jsdelivr.net/npm/statsig-js
 ||cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js
 ||cdn.jsdelivr.net/npm/yandex-metrica-watch/watch.js
-||cdn.lesnumeriques.com/assets/*/js/eventstracker-
-||cdn.lesnumeriques.com/assets/*/js/offer-tracking-
-||cdn.lesnumeriques.com/assets/*/js/tracking-
 ||cdn.liga.net/assets/js/campaign.js
 ||cdn.liga.net/assets/js/remplib.js
 ||cdn.lihkg.com/static/*/js/21.chunk.js
@@ -3437,6 +3434,8 @@
 ||emmi.jp/scripts/tracker.js
 ||emp.de/on/demandware.store/*/__analytics-tracking
 ||emrld.ltd/collect
+||emrldco.com/collect
+||emrldtp.cc/collect
 ||emrldtp.com/collect
 ||ems.youku.com/event?
 ||emule-security.org/tracker.js
@@ -3924,7 +3923,6 @@
 ||greg.app/web/analytics/
 ||grizly.*/metrics/
 ||groceries.morrisons.com/events/
-||grok.com/_data/v1/a/
 ||grok.com/_data/v1/events
 ||grok.com/api/log_metric
 ||grok.com/api/statsig/
@@ -4533,6 +4531,7 @@
 ||launchpad-wrapper.privacymanager.io/*/launchpad-liveramp.js
 ||laz-g-cdn.alicdn.com/lazada/dynamic-static-nopolyfill/*/daraz-marketing-tracker.js
 ||ldlc.com/v4px/js/ldlcmachine.js
+||leadconnectorhq.com/stats/event
 ||leadpages.net/*/tracking.js
 ||leakgallery.com/api/lg/
 ||learning.linkedin.com/fizzy/admin
@@ -5089,6 +5088,7 @@
 ||newsweek.com/www/js/mar2015/counter.js
 ||newtimes.com/analytics?
 ||newzit.com/setabframe.html
+||nexon.com/api/nxlog/
 ||nexon.com/nxlog-collect/
 ||nexstardigital.net/segment.js
 ||next.rikunabi.com/api/logrecommendrealtimei2av2
@@ -5254,7 +5254,6 @@
 ||orbitz.com^*/2x2.gif?
 ||orbitz.com^*/evaluateexperimentsandlog
 ||order.buywithprime.amazon.com/log|
-||ordergroove.com/log/offer?
 ||organiccdn.io/assets/sdk/events.m.js
 ||organiccdn.io/assets/sdk/monitor.unit-sdk.js
 ||organicfruitapps.com/analytics
@@ -5754,7 +5753,6 @@
 ||reebok.eu/*/trackings|
 ||reebok.jp/resources/js/analysis/tracker.js
 ||reformal.ru/log.php
-||register.boostymark.com/a/reg
 ||regmedia.co.uk/*/tp.gif
 ||reibootmac.com/script/rn_event_track_v*.min.js
 ||reise.com/js/webtrekk
@@ -6011,6 +6009,7 @@
 ||sdk.mrf.io/statics/marfeel-sdk.js
 ||sdk.nsureapi.com/sdk.js
 ||sdk.rum.aliyuncs.com/v*/bl.js
+||sdk.stackup-ai.com/collect
 ||seaart.ai/log/
 ||search-api.fie.futurecdn.net/js/*/master-*/analytics-library-entry-getcustomtrackingid.js
 ||search-api.joongna.com/v*/ga/log|
@@ -6525,7 +6524,6 @@
 ||stmg-prod.mirror.co.uk/analytics.config.json
 ||stolicaonego.ru/ajax/stat/
 ||storage.googleapis.com/*/js/comscore.js
-||storage.googleapis.com/builder-preview/iframe/pixel.js
 ||storage.googleapis.com/cdn2.guard.io/webflow/tracking-grd.js
 ||storage.googleapis.com/rasin/*/hm.js
 ||storage.googleapis.com/shufoo-prod-imp-gif/
@@ -6559,6 +6557,7 @@
 ||strm.yandex.ru/log?
 ||ststandard.com/ping
 ||studio-api.prod.suno.com/api/statsig/
+||stuff.co.nz/otel/
 ||stuttgarter-zeitung.de/cms/hitcount
 ||stw.extreme-down.
 ||stw.zone-telechargement.
@@ -6919,6 +6918,7 @@
 ||tripadvisor.*/pvlog
 ||tripadvisor.*/wm/record
 ||tripadvisor.com.tr/metricsajax
+||tripcdn.com/bf.gif
 ||tripcdn.com/modules/ibu/xtracker/
 ||tritondigital.com/ondemand/impression?
 ||trivago.*/log?slog=
@@ -7020,7 +7020,6 @@
 ||ucweb.com/collect/
 ||udemy.com/api-2.0/ecl
 ||udemy.com/api-2.0/ecl?
-||uecdn.es/js/pbmu.js
 ||uel.remitly.io/*/events
 ||ufe.helixo.co/api/v1/stats
 ||uha-mikakuto.co.jp/parts/analytics.js
