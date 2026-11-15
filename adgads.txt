@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-11-14 17:36:48 UTC
-! Total Rules: 5217
+! Last Updated: 2026-11-15 04:35:35 UTC
+! Total Rules: 5211
 ! Expires: 5 days
 /a/ipn/js/*
 /a/p?adid=
@@ -1344,7 +1344,6 @@
 ||bad.news/scripts?
 ||bad996.com/dakaads.js
 ||badmintoncn.com/cbo_include/js/cboaaa.js
-||badvault.com/api/ads?type=hilltop
 ||bahamut.com.tw/js/ad.js
 ||baidu.com/?action=getadsdata&
 ||baidu.com/adpc/scrolltextad.js
@@ -1695,6 +1694,7 @@
 ||cdn.jsdelivr.net/gh/mdnaik/myblog@master/arlinablock.js
 ||cdn.jsdelivr.net/gh/prebid/currency-file@1/latest.json
 ||cdn.jsdelivr.net/gh/streamcorner/adcsh/
+||cdn.jsdelivr.net/gh/streamcorner/popads/
 ||cdn.livesoccertv.com/js/ads-*.js
 ||cdn.myhentaicomics.com/rev/frames/
 ||cdn.onnetwork.tv/js/player*/player_prebidm.js
@@ -2285,7 +2285,6 @@
 ||familydoctor.com.cn/c/a/000/ggw_
 ||fang.com/house/ajaxrequest/advertlget.
 ||fang99.com^*/advjs/
-||fanhub.com/_xa/ads_batch?
 ||fanmtl.com/*/js/ad/*.js
 ||fanquanwang.com/uploads/ad/
 ||fans.*.space/fans/*.php
@@ -2335,7 +2334,6 @@
 ||fkxs.net/tops/
 ||fl6n.com/adtop/
 ||flash.mycar168.com/data/js/
-||flightview.com/shield.js
 ||flighty.cn/images/
 ||flv2mp3.by/get-rtb-url
 ||flvto.biz/get-rtb-url
@@ -3421,7 +3419,6 @@
 ||lovek01.com/gif/97-
 ||loveshang.com/api.php?mod=ad&adid=custom_
 ||lovingsiren.com/wp-content/uploads/*banner.
-||lowendtalk.com/uploads/editor/*.gif
 ||lpl.qq.com/*/data/lol_match2_news_recommend_*_info.js
 ||lsforum.net/cam2/*.gif
 ||lsforum.net/yahooad/
@@ -4222,7 +4219,6 @@
 ||sass.hk/images/hengfu.jpg
 ||sass.hk/js/ggcn.js
 ||sass.hk/plus/mytag_js.php?aid=
-||sat-universe.com/wos2.png
 ||satroki.tech/api/jdunion
 ||save-editor.com/b/in/ad/
 ||savefiles.com/sf7k29x4.js
@@ -4252,7 +4248,6 @@
 ||sdo.com/static/image/mkads/
 ||sdzbcg.com/images/sdfhyl
 ||search.brave.com/api/ads/
-||search.brave.com/serp/v1/static/serp-js/paid/
 ||sector.sk/default-*.aspx
 ||sector.sk/scripts/trixam.min.js
 ||secured.dailymail.co.uk/feeds/commercial/topvideos.json
@@ -4763,7 +4758,6 @@
 ||variflight.com/carnoc/ad/
 ||vdianying.cc/img/youhuiquan250.gif
 ||vdianying.cc/wp-content/plugins/wp-adblock-dedect/
-||vdrama.fans/assets/cinema-monetize.js
 ||veporn.com/api/vast-proxy
 ||vercel.app/ads/
 ||vgao.xyz/images/*.gif
