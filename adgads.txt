@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-11-15 04:35:35 UTC
-! Total Rules: 5211
+! Last Updated: 2026-11-15 18:25:45 UTC
+! Total Rules: 5213
 ! Expires: 5 days
 /a/ipn/js/*
 /a/p?adid=
@@ -4234,6 +4234,7 @@
 ||script.wikia.nocookie.net/fandom-ae-assets/odyssey/ad-engine/production/main.js
 ||scriptcat.org/api/*/advertise?
 ||scripts.dailymail.co.uk/static/mol-adverts/*.css
+||scripts.dkmedia.now.sh/popunders/
 ||scripts.dkmedia.vercel.app/popunders/
 ||scrolller.com/scrolller/affiliates/
 ||scupio.com/adpinline/
@@ -4939,6 +4940,7 @@
 ||xghylt.com/api.php?mod=ad&adid=
 ||xgirls.agency/pg/c/
 ||xgroovy.com/bid?
+||xgroovy.com/nfxdnud7xv5abih9/
 ||xgroovy.com/static/js/initsite.min.js
 ||xhaccess.com^*/vast?
 ||xhamster.com*/vast?

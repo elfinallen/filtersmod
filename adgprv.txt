@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-11-15 04:35:35 UTC
-! Total Rules: 7627
+! Last Updated: 2026-11-15 18:25:45 UTC
+! Total Rules: 7615
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -84,7 +84,6 @@
 /analytics.config.js
 /analytics.gif?
 /analytics.js/v1/*
-/analytics/abtest/*
 /analytics/analytics.js
 /analytics/analytics.min.js
 /analytics/click?
@@ -1203,7 +1202,6 @@
 /track?data=
 /track?event=
 /track?eventkey=
-/track?name=
 /track?pid=
 /track?referrer=
 /track_click?
@@ -1354,7 +1352,6 @@
 /webtrends.min.js
 /wf-beacon-
 /white_pixel.gif?
-/wix-code-telemetry-collector/*
 /wix-engage-visitors-
 /wmxtracker.js
 /woocommerce-google-adwords-conversion-tracking-tag/*
@@ -1946,7 +1943,6 @@
 ||api.streamelements.com/science/
 ||api.strem.io/api/events
 ||api.syg.ma/page_view
-||api.tally.so/forms/*/events
 ||api.target.com/consumers/*/ttms/events
 ||api.target.com/consumers/*_debugevent=
 ||api.target.com/firefly_events/*/events/
@@ -2170,7 +2166,6 @@
 ||assets.yumpu.com/release/*/tracking.js
 ||assistant.watson.appdomain.cloud/analytics/
 ||astatic.ccmbg.com/hz.js
-||astrologyanswers.com/gtmmetrics/
 ||astroved.com/avdatavault/
 ||at.cbsi.com/*/event?
 ||at.cbsi.com/lib/api/client-info
@@ -2892,7 +2887,6 @@
 ||colliers.com/coveo/rest/*/analytics/
 ||cologger.shopping.naver.com/api/*/collect/
 ||comcast.net/measurements/
-||comdirect.de/cp/log/
 ||comfy.ua/api/analytics/
 ||comfy.ua/api/auth/v*/gtm/
 ||comic.naver.com/ad/flex/stats.nhn
@@ -4414,7 +4408,6 @@
 ||jvc.gg^*/traffic.js
 ||jwplatform.com/ping.gif?
 ||jwpltx.com/*/ping.gif
-||jzq915.playmobil.com^ы
 ||k-crm.jp/tracking.js
 ||k-crm.jp/web.tracking.js
 ||k.p-n.io/event-stream
@@ -4956,7 +4949,6 @@
 ||mparticle.weather.com/webevents/
 ||mr.allegro.
 ||mrbeast.store/undefined/*/trackimageviews
-||mrkhub.com/sks/js/sks_track.js
 ||msecnd.net/script/raptor-
 ||msecnd.net/scripts/a/ai.
 ||msecnd.net/scripts/jsll-
@@ -4976,6 +4968,7 @@
 ||mt-wzb.clarin.com/weizenbock/pixel.fingerprint.gif
 ||mtb-news.de/metric/
 ||mtm.qdqmedia.com
+||mtsbank.ru/hustonwehaveaproblem/
 ||mtvema.com/media/module/ent_reporting
 ||mtvnservices.com/aria/uuid.html
 ||mtvnservices.com/measurements/
@@ -5373,9 +5366,6 @@
 ||pd5sngsre3.net/g/hn.js
 ||pdfcrowd.com/pls/api/event
 ||pdfcrowd.com/static/3rd/js/fpr.js
-||pdffiller.com/api_v3/experiment/
-||pdffiller.com/api_v3/uploader/stats
-||pdffiller.com/click-stream/
 ||peach-static.ebu.io/pipe-*.min.js
 ||peachjohn.co.jp/staffcontent/assets/js/staffstart-analytics.js
 ||peacocktv.com/*/tracking/
@@ -6235,7 +6225,6 @@
 ||socialcrosspromo.com/track|
 ||socialxup.com/api/track
 ||softonic*/web-stats
-||softonic.jp/web-stats
 ||softportal.com/js/metrika.js
 ||sogou.com/cl.gif?
 ||sohu.com/adgtr/
@@ -6418,7 +6407,6 @@
 ||static.gazeta.pl/info/http/xgemius-min.jsgz
 ||static.gazeta.ru/nm*/js/block_counter_v*.js
 ||static.gazeta.ru/nm2021/js/block_counter.
-||static.guance.com/browser-sdk/
 ||static.hankyung.com/js/ga/googletagmanager.js
 ||static.hepsiburada.net/scripts/webtrekk*.js
 ||static.iqiyi.com/js/pingback/
