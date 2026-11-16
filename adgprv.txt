@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-11-16 04:31:56 UTC
-! Total Rules: 7628
+! Last Updated: 2026-11-16 21:34:44 UTC
+! Total Rules: 7627
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -70,7 +70,6 @@
 /analytics-js/*
 /analytics-library.js
 /analytics-minimal-v4.js
-/analytics-module-api/v1/analytics?
 /analytics-ping.js
 /analytics-reporter/*
 /analytics-reporter/*/event
@@ -145,6 +144,7 @@
 /appmeasurement.js
 /appmeasurement.min.js
 /appmeasurement_module_activitymap.min.js
+/apps/awin/*
 /apps/ssw/events-collector-lambda/events/*
 /apricot.php?
 /ard.png?
@@ -464,7 +464,6 @@
 /fingerprint2.min.js
 /fingerprint2.min.js^
 /fingerprint3.js
-/firebase-performance-compat.js
 /firebase-performance-standalone-compat.js
 /firebase-performance-standalone.js
 /flying-analytics/*
@@ -600,6 +599,7 @@
 /impression.js?
 /impression/track?
 /impression?mkevt=
+/in.getclicky.com/*
 /in.php?referer=
 /in/track?data=
 /ingest/*ip=*&ver=
@@ -877,7 +877,7 @@
 /pixel/impression^
 /pixel/nvrwe?
 /pixel/view?
-/pixel_identifier.js
+/pixel?clientid=
 /pixel_iframe.
 /pixel_track.
 /pixel_tracking.
@@ -919,6 +919,7 @@
 /pr.php?
 /prgr-trk?
 /printpixel.js
+/probance_tracker-min.js
 /prod/dfm/g2i.min.js
 /prod/dfm/t8y9347t.min.js
 /prod/ncg/ncg.js
@@ -985,7 +986,6 @@
 /rpc/log/*
 /rpc/log?
 /rpfingerprint?
-/rt_tag.js
 /rt_track.js
 /rt_track_event.js
 /rtoaster.js
@@ -1047,6 +1047,7 @@
 /shopify-boomerang-
 /shopify-datalayer-minified.js
 /shopify/assets/themes_support/notifications/spacer-
+/shopify/fec/produce|
 /shopify/track.js
 /shopify_stats.js
 /shopifycloud/media-analytics/v*/analytics.js
@@ -1195,7 +1196,6 @@
 /track/open?
 /track/pageviews/*
 /track/pixel.php
-/track/pixel/*
 /track/statistic/*
 /track?*&event=
 /track?_event=
@@ -1549,7 +1549,6 @@
 ||account.protonvpn.com/api/data/v1/metrics
 ||account.y8.com/api/v*/json/tracking/
 ||accounts.ad.nl/gscounters.sendreport
-||accounts.google.com/gsi/log
 ||accounts.haymarket.media/tracking/drip-event
 ||accounts.snapchat.com/accounts/sso?client_id=snapchat-com-metrics
 ||accounts.snapchat.com/accounts/static/scripts/pixel.js
@@ -1566,7 +1565,6 @@
 ||activity-flow.vtex.com/af/af.js
 ||ad.antventure.com/pixel
 ||ad.mail.ru/static/sync-loader.js
-||adameve.com/emetrics/
 ||addefend-platform.com/s?
 ||addthis.com/at/
 ||addthis.com/live/
@@ -1877,6 +1875,7 @@
 ||api.intelligems.io/v3/track
 ||api.invideo.io/v3/send_analytics_event
 ||api.iris.tv/update
+||api.iterable.com/api/events/
 ||api.job*.ch/public/statistic/teaser/hit
 ||api.k2s.cc/v1/adn/visit
 ||api.k2s.cc/v1/analytics/
@@ -1943,6 +1942,7 @@
 ||api.streamelements.com/science/
 ||api.strem.io/api/events
 ||api.syg.ma/page_view
+||api.tally.so/forms/*/events
 ||api.target.com/consumers/*/ttms/events
 ||api.target.com/consumers/*_debugevent=
 ||api.target.com/firefly_events/*/events/
@@ -2370,6 +2370,7 @@
 ||blogtotal.de/blogtotal_stats_
 ||bloknot.ru/counter.php
 ||bloombergbusiness.com/horizon/track
+||bloomreach.com/js/brweb.min.js
 ||bloxd.io/social/analytics/
 ||blozoo.info/js/inouttool/
 ||blozoo.info/js/ranktool/
@@ -2411,7 +2412,6 @@
 ||boy18tube.com/analytics.js
 ||boyner.com.tr/1eus/
 ||boyplus.net/589n/
-||bpi.zip.co/trx/
 ||bpt.webedia-group.com/pixel.png?
 ||br.de/dotrack
 ||br.reco.ebu.io/v3/collect?s=
@@ -2528,7 +2528,6 @@
 ||cartoonporno.xxx/static/js/lib/counters/
 ||cartseekite.com/cartxtrack
 ||cas-live.das-onlinespiel.de/gateway?
-||cast-imp.jtbc.co.kr/trac?event=
 ||cast.imp.joins.com/persona.js
 ||catalogueau.com/wp-content/plugins/google-site-kit/dist/assets/js/googlesitekit-events-provider-content-events-*.js
 ||catawiki.com/ab/s.js
@@ -3162,7 +3161,6 @@
 ||decathlon.net/content/tracker.v2.prod.min.js
 ||deepl.com/web/statistics
 ||deepsystems.com/wp-content/plugins/integrate-posthog-web-analytics/
-||deepweb.net/api/event
 ||deezer.com/ajax/gw-light.php?method=log.listen
 ||deine-tierwelt.de/external/analytics.js
 ||deine-tierwelt.de/static/js/*tracking.js
@@ -3179,7 +3177,6 @@
 ||delivery.youplay.se/report?
 ||dell.com/*/clickstream/collect
 ||delt.io/a/
-||delt.io/a/nalytic/s.js
 ||delta.com/datacollect
 ||demandware.edgesuite.net/*/dwanalytics.js
 ||demo.zeenews.com/ads/counter.php
@@ -3410,6 +3407,8 @@
 ||ekitan.com/*-analytics.js
 ||ekitan.com/common/ek-tracker/
 ||eldorado.gg/white-house/white_house_script_data_
+||electricbikes.com/api/ad-impressions
+||electricbikes.com/api/ad-stats
 ||electroverse.com/view/insights/script.js
 ||elements.video/tr/
 ||eletrogate.com/_events/
@@ -3444,7 +3443,6 @@
 ||ems.youku.com/event?
 ||emule-security.org/tracker.js
 ||en2.elvenar.com/game/tracking
-||endorsal.io/check/
 ||eneba.com/metrics/
 ||engadget.com/p.gif?
 ||engadget.com/ping
@@ -3493,7 +3491,6 @@
 ||event-analytics.yesware.com/main.js
 ||event.arte.tv/api/server-side-tracking/
 ||event.symbiosys.ai/page_viewjs
-||eventbrite.com/metrics/
 ||eventhub.eu01.miro.com/api/stream
 ||eventiavversinews.it/wp-json/vinkmag/*/visitortrack/
 ||events-proxy.mintlify.com
@@ -3825,7 +3822,6 @@
 ||gizmodo.com/x-kinja-static/assets/new-client/*~trackers
 ||gizmodo.jp/api/surveycountcollection
 ||gizmodo.jp/api/surveycountcollection?
-||gkx.gokwik.co/kp/api/v1/fp/
 ||glami.com.tr/js/compiled/pt.js
 ||glami.com.tr/tracker/
 ||glamour.com/hotzones/src/pixelpropagate.js
@@ -4372,6 +4368,9 @@
 ||joggo.run/api/events
 ||join.project1service.com/client-logs
 ||join.protonvpn.com/api/data/v1/metrics
+||jolect.com/gohangout/log-proxy
+||jolect.com/shopify-buyer-center/buyer/event/
+||jolect.com/shopify-buyer-center/buyer/sg_event/
 ||jooble.org/spa-metrics
 ||journalreport.cn/mstatistics.js
 ||jr-cross.co.jp/lib/js/ekinakapotal-ga.js
@@ -5159,7 +5158,6 @@
 ||nvworld.ru/js/ua-*.js
 ||nvworld.ru/js/ym-*.js
 ||nytimes.com/v1/purr-cache
-||nzherald.co.nz/pf/resources/scripts/tracking/data-ref.js
 ||oas.monster.com/scripts/oas_analytics.js
 ||obilet.com/event|
 ||obs.coupangstreaming.com/web/collect
@@ -5333,7 +5331,6 @@
 ||partner-events.favicdn.net/*/partnereventstracking.js
 ||partner.awscconsumerinfo.autotrader.com/*/beacon/
 ||partners.sbermarketing.ru/api/tracker/sdk.js
-||partsgeek.com/sspgt/
 ||paruvendu.fr/*/stats/
 ||passportnews.co.il/system/js/analytics.js
 ||passportnews.co.il/tag_manager.js
@@ -5426,6 +5423,7 @@
 ||pinterest.com/_/_/report/
 ||pinterest.com/_/_/storage_report/
 ||pinterest.com/_/_/trace/trace/
+||piratewires.substack.com/api/v1/firehose/islands/batch
 ||pitomec.ru/top.gif
 ||pivol.com/count.asp?
 ||pix.spot.im/api/*/pixel
@@ -5859,6 +5857,7 @@
 ||rtings.com/api/event|
 ||rtings.com/js/script.manual.js
 ||rtp.pt/common/js/convivaapptracker.js
+||rtp.pt/rtp-sensor/
 ||rts.ch/boreas/collect
 ||rts.ch^*/boreas_b01.js
 ||ru-mi.com/*/ee_tracking.js
@@ -6125,7 +6124,6 @@
 ||shopclues.com/assets/js/slick.js
 ||shopee.tw/__t__
 ||shopee.tw/v2/shpsec/web/report
-||shoperatech.com/s/collect?
 ||shopflo.com/api/v1/spark
 ||shopify.com/*/assets/instant-pixel.js
 ||shopify.com/*/assets/script_tag.js
@@ -6502,6 +6500,7 @@
 ||stats.mopo.de/cntcc
 ||stats.pcsg-server.de/js/
 ||stats.publitas.com/publitas-stats/track
+||stats.sender.net/ping
 ||stats.thuisarts.nl/piwik.php
 ||stats.thuisarts.nl/plugins/heatmapsessionrecording/
 ||stats.zone-telechargement.
@@ -6805,7 +6804,6 @@
 ||tinybird.co/v0/events?
 ||tinypass.com/checkout/offer/trackshow
 ||tinypass.com^*/track?
-||tips.delt.io
 ||titanprod.narvar.com/*/track|
 ||tk.ilius.net/tr.gif?
 ||tkx.mp.lura.live/rest/v2/server_time
@@ -7043,7 +7041,6 @@
 ||ump.sf-express.com/monitor/*/report|
 ||umschool.net/_jts/api/s/track
 ||unagi*.amazon.*/events/
-||unami.delt.io/script.js
 ||uncensored.ai/*/trackevents
 ||underthesnow.ru/engine/modules/counter-
 ||uniads.net/pixel?
@@ -7312,6 +7309,7 @@
 ||weights.gg/api/data/analytics.trackusersession
 ||weiyun.com/cgi-bin/tianshu_report
 ||weiyun.com/proxy/domain/boss.qzone.qq.com/fcg-bin/fcg_rep_strategy?
+||welect.de/api/*/mtrcs
 ||wellsfargo.com/as/jslog
 ||wellsfargo.com/assets/images/global/s.gif?log=
 ||wellsfargo.com/jenny/
@@ -7528,6 +7526,7 @@
 ||yemeksepeti.com/*/xhr/b/s/beacon
 ||yeniakit.com.tr/process/analytics
 ||yenicaggazetesi.com.tr/stats/
+||yepnews.eu/event.html
 ||yes24.com/sysimage/contents/scripts/c/logging/
 ||yes24.com/sysimage/contents/scripts/p/logging/
 ||yext.com/plpixel?

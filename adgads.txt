@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-11-16 04:31:56 UTC
-! Total Rules: 5217
+! Last Updated: 2026-11-16 21:34:44 UTC
+! Total Rules: 5225
 ! Expires: 5 days
 /a/ipn/js/*
 /a/p?adid=
@@ -175,7 +175,6 @@
 /gg_d.php
 /gg_details_
 /gg_t.php
-/ggao.
 /ggao/*
 /ggclass/*
 /ggdata1.
@@ -1020,6 +1019,7 @@
 ||90oo.com/tp/msn.jpg
 ||91bixin.net/api/adv/
 ||91bixin.net/api/chdd/liveadv?
+||91cg1.com/ssp/
 ||91danji.com/attachments/201810/12/10/2hdyj7ut9.jpg
 ||91danji.com/js/lmt.js
 ||91jbz.com/file/script/a
@@ -1245,6 +1245,8 @@
 ||api.leakgallery.com/affiliate/
 ||api.leakgallery.com/cfg/*/cpc?
 ||api.leakgallery.com/cfg/*/z?
+||api.leakgallery.com/cfg/decide?
+||api.leakgallery.com/cfg/h|
 ||api.live.bilibili.com/*/banner
 ||api.redgifs.com/v*/adv/
 ||api.redgifs.com/v*/feeds/modules
@@ -2230,6 +2232,7 @@
 ||elecfans.com/skin-*ad_
 ||elecfans.com/static/home_ad/
 ||elecfans.com/webapi/advertisement/
+||electricbikes.com/api/ad-banners
 ||emoney.cn/www/officalwebstatic/js/slidead.js
 ||en8848.com.cn/js/ad
 ||en8848.com.cn/js/content.
@@ -3859,6 +3862,7 @@
 ||pcbeta.com/data/cache/common_fbdbbsyuzhttpx.js
 ||pcgames.com.cn*/index.js
 ||pcgames.com.cn/g/
+||pcguide.com/wp-content/plugins/redefined-ads/
 ||pchome.com.tw/js/overlay_ad.js
 ||pchome.net/flow.php
 ||pcmx.autohome.com.cn/impress?
@@ -3914,6 +3918,8 @@
 ||pics.wanlibo.com/js/pagemodulestat.js
 ||picyq.com/index.php/home/run/get_ad/
 ||pierrebotton.com/global/
+||piknova.com/sponsor-images/
+||piknova.com/sponsor?
 ||pincai.com/js/pubuliu.
 ||ping0.cc/images/gx/*.gif
 ||pingmeibang.com/zt/zx.jpg
@@ -4199,6 +4205,7 @@
 ||ruyig.com/730x76.png
 ||s-msn.com/portal/xiatui.js
 ||s-opgg-kit.op.gg/gnb/config/*/lol.ads.json
+||s.cdn.gcprivacy.net/gcid_s.min.js
 ||s.go.sohu.com^*/?callback=
 ||s.weibo.com/widget.html
 ||s.yimg.com/cv/apiv2/tw/bwchou25/
@@ -4711,6 +4718,7 @@
 ||u.ctrip.com/showcaseadvertisementsit/
 ||u.riju.com/click.php
 ||uaa.com/js/dxj.
+||uadforum.com/community/images/ua_ads/
 ||uc129.com/images/top_hjsj.jpg
 ||uc129.com/m/
 ||udn.com.tw/upf/*_banners/bd/
