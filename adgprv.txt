@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-11-15 18:25:45 UTC
-! Total Rules: 7615
+! Last Updated: 2026-11-16 04:31:56 UTC
+! Total Rules: 7628
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -2703,6 +2703,7 @@
 ||cdp.vercel.com/rs/
 ||cdpapi.livemint.com/api/adserve/lm
 ||celebtattler.com/world/cache/analytics.js
+||cella.*.check24.*/tracking/
 ||cengage.com/services/cubby/bff/analytics
 ||cengage.info/v1/activity
 ||cengage.info/v1/profile
@@ -2743,10 +2744,18 @@
 ||chaturbate.com/api/adblocker/
 ||chaynikam.info/php/*pagestat.phtml
 ||cheaptickets.com/cl/2x2.gif?
+||check24.*/*/json/dynamic/set-sem-tracking
+||check24.*/*/traffic-event
+||check24.*/api/client-logs
+||check24.*/api/web-vitals-metrics
 ||check24.*/assets/funnel-tracking.min.js
+||check24.*/files/give_gif.php
 ||check24.*/files/give_png.php
 ||check24.*/gif/*/info.gif
+||check24.*/jsonp/statsd/
 ||check24.*/misc/tracking_gif.php
+||check24.*/rpc/desktop/log/
+||check24.*/synclocalstorage.html
 ||check24.de/files/give_img.php
 ||checkmal.com/_res/js/beusable.js
 ||checkmal.com/_res/js/naver.premiumlog.js
@@ -3094,6 +3103,7 @@
 ||dap.dmm.co.jp/imp?
 ||darkreader.org/elements/statistics.js
 ||dartington.co.uk/*/weltpixel_ga4/js/weltpixel_ga4_gtm.js
+||das-cdn.idealo.com/pixel/
 ||dash.getsitecontrol.com/api/*/events?
 ||dashichang.work/statistics/statistics.
 ||dasoertliche.de/js/liwanalytics.js
@@ -5574,6 +5584,7 @@
 ||psr.staticbg.com/rum/monitor.min.js
 ||psychcentral.com/api/drivers/
 ||pt.dwcdn.net/*/datawrapper.gif
+||pub-api.*.check24.*/*/shared-identifier
 ||pub.olx.com.br/detect-adblocker.js
 ||pub.olx.com.br/listing.js
 ||pub.pixels.ai/metrics-lib.js
@@ -6993,6 +7004,7 @@
 ||uber.com/v2/_events
 ||ubereats.com/_events
 ||ubisoft.com/*/global/tracking/
+||ubt-sgp.travix.com/bee/collect
 ||ubt.tracking.shopee.
 ||ubta.tracking.shopee.
 ||uc.cn/collect?
@@ -7055,6 +7067,7 @@
 ||ups.com/img/icp.gif
 ||upstract.com/tokei/
 ||upwork.com/upi/jslogger
+||urlaub.check24.*/*/json/hotel/featuredhotelreport
 ||urldefense.com/*/webmon.js
 ||urldefense.proofpoint.com^*analytics_insight.min.js
 ||urlscan.io/stats

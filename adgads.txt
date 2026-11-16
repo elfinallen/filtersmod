@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-11-15 18:25:45 UTC
-! Total Rules: 5213
+! Last Updated: 2026-11-16 04:31:56 UTC
+! Total Rules: 5217
 ! Expires: 5 days
 /a/ipn/js/*
 /a/p?adid=
@@ -1285,7 +1285,6 @@
 ||assets.moly.hu/system/header_ads/
 ||assets.msn.com/bundles/*/weather/latest/river-feed.
 ||assets.presearch.com/backgrounds/
-||assets.stuff.co.nz/static/stuff-adtech-sdk/ads-sdk/
 ||assetscdn.jable.tv/assets/images/*-760x70.
 ||astrill.com/bnrs/
 ||asuracomic.net/api/ads/
@@ -1577,6 +1576,7 @@
 ||brand.sogou.com/micro?yyid=
 ||bravoporn.com/v/if2
 ||bravoteens.com/ta/
+||bravotube.net/js/clickback.js
 ||brazzers.com/ads/
 ||breakdownexpress.com/js/ads
 ||browserscan.net/dist/adspower_zh.
@@ -1677,6 +1677,7 @@
 ||cdn.aznude.com/js/dating.json
 ||cdn.bullion.media/custom_units/video-strip-master.js
 ||cdn.cnn.com/ads/
+||cdn.coinglasscdn.com/static/bitunix/*.gif
 ||cdn.concert.io/lib/concert-ads/
 ||cdn.cums.net/templates/cumsnew/js/nav-restore.js
 ||cdn.cuty.io/fps.js
@@ -1897,7 +1898,6 @@
 ||codenong.com/dq.png
 ||codesocang.com/js/a.js
 ||codesocang.com/plus/*baoyue
-||coincheck.com/images/affiliates/
 ||colamanga.com/sw.js
 ||colonist.io/dist/images/ab_
 ||comefromchina.com/images/128bestbuy
@@ -2358,7 +2358,6 @@
 ||freehao123.com/wp-content/uploads/2017/05/mmkdm.png
 ||freepopnews.skin/advert/
 ||freeuseporn.com/bnr/
-||freeuseporn.com/bnrmanage/
 ||frendz4m.org/arlinablock.js
 ||frontendjs.com/api/ad
 ||frprn.com/even/ok.js
@@ -2381,6 +2380,7 @@
 ||fwwang.cn/templets/fw/js/art
 ||fx110.*/pub/ghz/getmodel
 ||fx168.com/am.js
+||fxhpaoxqyajvmdg.
 ||fxsc6.net/js/
 ||fxxz.com/skin/know/all.js
 ||fzbm.com/bbs/static/js/bma.js
@@ -2640,6 +2640,7 @@
 ||hcbbsoss.oss-cn-hangzhou.aliyuncs.com^*-banner
 ||hd-easyporn.com/static/exonb/backloderforload.php
 ||hd21.*/templates/base_master/js/jquery.shows.min.js
+||hd21.*/templates/base_master/js/jquery.shows2.min.js
 ||hdchina.*/styles/topshow/ad/
 ||hdgays.net/img_hg/gaypaysites.jpg
 ||hdmoli.pro/a_d/
@@ -2708,6 +2709,7 @@
 ||hkmte.com/seo.js
 ||hktvmall.com/api/preroll/getlist?
 ||hltv.org/img/*&s=
+||hmama.tv/wp-content/custom_assets/jwplayer/*/vast.js
 ||hmwang.icu/skin/images/*.gif
 ||hoes.tube/ai/
 ||homemade.xxx/player/html.php?aid=
@@ -3845,7 +3847,6 @@
 ||parade.com/runtime/delta.js
 ||parade.com/runtime/gamma.js
 ||parade.com/runtime/webads.js
-||partwithner.com/partners/
 ||pasazer.com/_assets/js/ad-connect.js
 ||pastemytxt.com/download_ad.jpg
 ||pbc.pagesix.com/p/nyp/pagesix/pb.js
@@ -3933,7 +3934,6 @@
 ||pkvs.com/public/300/
 ||pkvs.com/public/as.js
 ||player.globalsun.io/*-player.js
-||playerls.com/js/jquery/*/jquery-*.min.js?v=
 ||plibcdn.com/templates/base_master/js/jquery.shows2.min.js
 ||pmb*.tj.ali213.net/js/
 ||pniao99.com/statics/js/stat.js
@@ -3948,6 +3948,7 @@
 ||porngamespass.com/iframes/
 ||pornhd3x.tv/cms_data/sites/admin/files/ads
 ||pornhub.*/_xa/ads
+||pornicom.com/jsb/
 ||pornone.com/js/combined.js
 ||pornpapa.com/extension/
 ||pornpaw.com/never.js
@@ -4117,6 +4118,7 @@
 ||rawcdn.githack.com/*/arlinablock.js
 ||rawcdn.githack.com/sanjoy944/jonaki/*/adblockerpupup.js
 ||readcomiconline.li/ads/
+||realgfporn.com/js/bbbasdffdddf.php
 ||realmadryt.pl/build/assets/articlegate-*.js
 ||realmadryt.pl/img/banners/
 ||receivefreesms.co.uk/adblk/adblk_enc.js
@@ -4225,6 +4227,7 @@
 ||savefrom.net/build/js/chunk~popup
 ||sax*.sina.
 ||sbo8.com/static/theme/js/bottom.
+||scatxxxporn.com/static/images/banners/
 ||sccnn.com/sf/zt.jpg
 ||scibook.cn/tuiguang.
 ||sciencenet.cn/field/js/news.
@@ -4530,6 +4533,7 @@
 ||t.atmng.io/adweb/*.prod.js
 ||t.c-c.one/b/
 ||t.c-c.one/z/
+||t1.daumcdn.net/adfit/static/ad.min.js
 ||t2.picb.cc/2022/08/07/6rppj1.jpg
 ||t2.picb.cc/2022/08/07/6rprkd.jpg
 ||taboola.com/vpaid/
@@ -4570,7 +4574,6 @@
 ||tgb.cn/res/js/tgbgg/
 ||thcdy.co/baidu2/foot.js
 ||thcdy.co/baidu2/index_top.js
-||the-avatar.lol/api/pult/
 ||thefreedictionary.com/_/tr.ashx?
 ||thegay.com/static/da/
 ||thegay.porn/gdtatrco/
@@ -4833,6 +4836,7 @@
 ||webapi.dantri.com.vn/bn/list-pos
 ||webcamtests.com/myshowroom/view.php
 ||webconf.douyucdn.cn/resource/common/giftphotos_w.json
+||webextension.org/explore/ads.js
 ||webjx.com/zanzhushang/
 ||webkaka.com/ad/
 ||webkaka.com/info/script/articlead.js
