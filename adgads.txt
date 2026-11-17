@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-11-17 06:18:44 UTC
-! Total Rules: 5224
+! Last Updated: 2026-11-17 20:24:24 UTC
+! Total Rules: 5232
 ! Expires: 5 days
 /a/ipn/js/*
 /a/p?adid=
@@ -974,6 +974,7 @@
 ||7x7n.com/static/pic/*.jpg
 ||7xdown.com/bz/
 ||7xdown.com/idcgg/
+||80.lv/api/updpromos
 ||8070kk.com/statics/js/guo
 ||80s.la/m/js/
 ||80s.so/9*.js
@@ -1699,6 +1700,7 @@
 ||cdn.jsdelivr.net/gh/prebid/currency-file@1/latest.json
 ||cdn.jsdelivr.net/gh/streamcorner/adcsh/
 ||cdn.jsdelivr.net/gh/streamcorner/popads/
+||cdn.lbs.pw/rek/
 ||cdn.livesoccertv.com/js/ads-*.js
 ||cdn.myhentaicomics.com/rev/frames/
 ||cdn.onnetwork.tv/js/player*/player_prebidm.js
@@ -2066,6 +2068,7 @@
 ||dj97.com/api.php?mod=ad&
 ||djdedu.net/static/*.gif
 ||djicdn.com/uploads/ad_image_file/
+||dlink10.com/apop.php
 ||dlkoo.cc/down/copy
 ||dlkoo.com/down/copy
 ||dm5900.com/piao/
@@ -3068,6 +3071,7 @@
 ||jd100.com/cwmpc/
 ||jdbstatic.com/ads/
 ||jeshoots.com/wp-content/uploads/*/*/banner1.jpg
+||jgwxs.com/images/sim.
 ||jia.com/js/common/article_home_adv.js
 ||jialingmm.net/dm/tj.js
 ||jialingmm.net/img/gdw.jpg
@@ -3398,6 +3402,7 @@
 ||liuxue86.com/css/liuxue_output.js
 ||liuxue86.com/js/ideng/liuxue-show
 ||liveany.com/images/8d8d.gif
+||liveball.sx/public/js/custom_clickunder.js
 ||livelive24.*/ads/ad*.js|
 ||livku.com/g1000/
 ||liwupuba.com/livead/
@@ -4147,6 +4152,7 @@
 ||res.taotu.org/adimages/
 ||res.vps234.com/resources/images/hosting-promotion/
 ||resources.faireconomy.media/js.min/resources/js/money/moneyslotmanager.js
+||retrovault.ch/assets/js/rv-guard.js
 ||revolver.news/wp-content/banners/
 ||rfidworld.com.cn/js/a.js
 ||rfidworld.com.cn/js/b.js
@@ -4234,6 +4240,7 @@
 ||savefrom.net/build/js/chunk~popup
 ||sax*.sina.
 ||sbo8.com/static/theme/js/bottom.
+||scanwp.net/js/exit-popup.js
 ||scatxxxporn.com/static/images/banners/
 ||sccnn.com/sf/zt.jpg
 ||scibook.cn/tuiguang.
@@ -4692,6 +4699,7 @@
 ||tuwan.com/events/courseiframe?
 ||tuwan.com/myad/
 ||tv2box.com/img_1g/
+||tv3.lt/uploads/image/top-7bet/
 ||tv699.com/alltemplet/js/
 ||tv699.com/templet699/js/
 ||tv7box.com/runtime/js/

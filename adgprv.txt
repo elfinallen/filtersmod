@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-11-17 06:18:44 UTC
-! Total Rules: 7624
+! Last Updated: 2026-11-17 20:24:24 UTC
+! Total Rules: 7631
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -1757,6 +1757,7 @@
 ||androidpolice.com/an-strpixel.png
 ||androidpolice.com/pixel.png?
 ||anilibria.top/api/v1/ads/
+||anime-go.org/theme/assets/js/presence.js
 ||animegratis.net/js/layout-signal.js
 ||animember.net/js/access.js
 ||anizmplayer.com/gmetrics/
@@ -2707,6 +2708,7 @@
 ||cengage.info/v2/resource-interactions
 ||centerblog.net/stats.js
 ||ceoscoredaily.com/weblog/gtracker
+||ceramet.net/v*/stat_views
 ||ceros.com/a?data
 ||cewe.de/tracking/*.js
 ||cfm.kt.com/js/adobe/*/launch-
@@ -2910,6 +2912,7 @@
 ||components.justanswer.com/v3/main-tracking-script@released.js
 ||components2.*.it/rcs_tealium/
 ||components2.corriereobjects.it/rcs_data-tracking/
+||components2.corriereobjects.it/rcs_tag-manager/v*/index.min.js
 ||components2.rcsobjects.it/rcs_tracking-service/
 ||compress-or-die.com/hokuspokus
 ||computerbase.de/analytics
@@ -4504,6 +4507,7 @@
 ||kotaku.com/stats/beacon?
 ||kraken.com/analytics
 ||kraken.com/js/sift.min.js
+||krepsinis.net/gtgmetrics/
 ||kroger.com/*/clickstream/
 ||kroger.com/clickstream/
 ||kroger.com/resources/*/collect
@@ -4574,6 +4578,7 @@
 ||licdn.com/*li.lms-analytics/
 ||licensing.bitmovin.com/impression
 ||liczniki.org/hit.php
+||liderlamp.pl/mx7v2/
 ||lidl.media01.eu/tm_js.aspx?trackid=
 ||lieliskadavana.lv/gtm/
 ||lifenewsjr.com/xstat/
@@ -5747,6 +5752,7 @@
 ||redgifs.com/v2/metrics/
 ||redirect.prod.experiment.routing.cloudfront.aws.a2z.com/x.png
 ||redirectify.app/script_tags/tracking.js
+||redpocket.com/js/trackweb.js
 ||reebok.eu/*/trackings|
 ||reebok.jp/resources/js/analysis/tracker.js
 ||reformal.ru/log.php
@@ -7054,6 +7060,7 @@
 ||unitymedia.de/beacon/
 ||unleash-edge-prod.penpencil.co/api/frontend/client/metrics
 ||unleash-edge.wrtn.ai/api/frontend/client/metrics|
+||unpkg.com/analytics-plugin-trackable
 ||unpkg.com/web-vitals
 ||unpkg.com/web-vitals?
 ||upi.com/story/stat/
