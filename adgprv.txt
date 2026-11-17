@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-11-16 21:34:44 UTC
-! Total Rules: 7627
+! Last Updated: 2026-11-17 06:18:44 UTC
+! Total Rules: 7624
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -283,7 +283,6 @@
 /click_metrics-jquery.js
 /clickcount/clickcount.js
 /clickctrl.js
-/clickheat.js
 /clicklog.js
 /clicklog4pc.js
 /clickstream.js
@@ -364,6 +363,7 @@
 /dataunlocker.js
 /dcjs/prod/*
 /dcs.gif?
+/dd/tags.js
 /ddm/activity/src=
 /dead-clicks-autocapture.js
 /detectincognito.min.js
@@ -793,6 +793,7 @@
 /o_tealium.js
 /oa-tracking?
 /official-facebook-pixel/js/facebook_signal.js
+/omgpixel_validation_osp.json?
 /omniture/visitorapi.
 /omniture_tracking.
 /onetag/*
@@ -1173,7 +1174,6 @@
 /trace/record?
 /traces.php?
 /track-event.js
-/track-focus.min.js
 /track-internal-links.js
 /track-the-click-public.js
 /track-visit?
@@ -1189,7 +1189,6 @@
 /track/capture.aspx?
 /track/client-events
 /track/event/*
-/track/go.php?*&referer_url=
 /track/impression?
 /track/impressions?
 /track/open.php?
@@ -1528,6 +1527,7 @@
 ||ab-in-den-urlaub.de/resources/cjs/tracking
 ||ab-in-den-urlaub.de/trackingpixel_
 ||ab-in-den-urlaub.de/usertracking
+||ab.g.globo/event
 ||abc.com.py/pf/resources/js/googletagmanager.js
 ||abcd.mdc.akamaized.net/materials/index/?country=
 ||abcotvs.net^*/fban_
@@ -1698,7 +1698,6 @@
 ||amazon.com/*/cerberus/log/
 ||amazon.com/1/action-impressions/
 ||amazon.com/ax/claim/log|
-||amazon.com/cs/uedata
 ||amazon.com/empty.gif?
 ||amazon.com/shoppingaids/logimpression?
 ||amazon.com^*/impress.html
@@ -2344,7 +2343,6 @@
 ||bitchute.com/data/script.js
 ||bitdefender.com/cdp/
 ||bitdefender.com/dtm/
-||bitdefender.com/geoip
 ||bitget.com/v*/monitor/events|
 ||bitget.com/v1/buried/log/
 ||bitmango.com/log
@@ -3211,7 +3209,6 @@
 ||digikey.*/-/media/designer/web%20analytics/multitrack/js/multitrack.js
 ||digikey.*/resources/ba4e6e570brn21616213e20fbeb902d9
 ||digital-dwh.dumont.de/custom/*ts_unix=*keywords=*metric
-||digital.flytedesk.com/js/head.js
 ||digital.pumb.ua/environment|
 ||digital.pumb.ua/s1fy3/nk/ztd/
 ||digitalgov.gov/universal-federated-analytics-min.js
@@ -4080,6 +4077,7 @@
 ||hotels.com/cl/*.gif?
 ||hotels.com/cl/2x2.json
 ||hotels.com/egcs/v2/collect
+||hotels.com/tagging-client
 ||hotels.com/taps/v*/impr?
 ||hotels.com/taps/v*/pageview?
 ||hotwire.com/api/*/logging/
@@ -7627,7 +7625,6 @@
 ||zoominfo.com/pixel/
 ||zoyaporn.com/js/jquery.iframetracker.js
 ||zozo.jp/common/js/ads-inner-tracking.js
-||zumper.com/events
 ||zvuk.com/api/v*/clickstream-web
 ||zxid-api.mobileservice.cn/sdk/base/report
 ||zyuken.net/gcp_remote/ads_imp/

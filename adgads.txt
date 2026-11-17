@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-11-16 21:34:44 UTC
-! Total Rules: 5225
+! Last Updated: 2026-11-17 06:18:44 UTC
+! Total Rules: 5224
 ! Expires: 5 days
 /a/ipn/js/*
 /a/p?adid=
@@ -1238,6 +1238,7 @@
 ||api-a.ganjingworld.com/*/adsserver/get-vast-xml/
 ||api.adultdeepfakes.cam/banners
 ||api.apiimg.com/huaer/xiahe.js
+||api.avrebo.net/api/v*/advert/
 ||api.bilibili.com/x/ad/
 ||api.deepai.org/set_user_sees_ads
 ||api.deepai.org/thrad-placement-proxy
@@ -2678,7 +2679,6 @@
 ||hentaifox.com/js/slider.js
 ||hentaihaven.*/api/ads/?placement=
 ||hentaivideos.net/imp/
-||herexxxtube.com/tmp/
 ||hewdasgas.com/assets/js/sfaub.js
 ||hexun.*/hxpage/index.html
 ||hexun.com*/hx_news/hx_news_finalpage.js
@@ -3191,6 +3191,7 @@
 ||jumboporn.xyz/t63fd79f7055.js
 ||juqingw.com/js/tad
 ||justthegays.com/api/users/
+||justthegays.com/summer-cloud-d5d4/
 ||justthegays.com/wp-content/plugins/videopack-ads
 ||juweixin.com/static/spk
 ||juxia.com/jxtp/indexbg.jpg
@@ -3994,7 +3995,6 @@
 ||puporn.com/xahnqhalt/
 ||pupudy.com/images/wxrj.gif
 ||puregirl.tv/api/ads
-||pussyspace.com/fub
 ||putaoys.com/static/js/acb1.js
 ||putlocker.*/banner/static/
 ||putlocker.*/sab_
@@ -4576,7 +4576,6 @@
 ||testingcf.jsdelivr.net/gh/softwaredefinevehicle/*/wp-slimstat.js
 ||testingcf.jsdelivr.net/gh/softwaredefinevehicle/static/lozad.min.js
 ||texnet.com.cn/images/cnbanner/
-||textmatchcut.app/ad-gate.js
 ||tfg2.com/images/upfile/ad/
 ||tgb.cn/res/js/tgbgg/
 ||thcdy.co/baidu2/foot.js
