@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-11-17 20:24:24 UTC
-! Total Rules: 7631
+! Last Updated: 2026-11-18 05:43:58 UTC
+! Total Rules: 7638
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -1828,6 +1828,8 @@
 ||api.clerk.io/v*/log/
 ||api.cmp.inmobi.com/?log=
 ||api.coloso.co.kr/logs/page
+||api.community.fox.com/*/analytics/events
+||api.community.fox.com/*/metrics
 ||api.config-security.com/event
 ||api.config-security.com/first
 ||api.consumer.pt.mcclatchy.com/mia-mh/meter
@@ -3694,6 +3696,7 @@
 ||foursquare.com/*/wtrack?event=
 ||foursquare.com/v2/private/logactions
 ||foxford.ru/traqtor|
+||foxnewsplayer-a.akamaihd.net/player/*/omniture.js
 ||fp-it-acc.portal101.cn/deviceprofile/
 ||francais.rt.com/nbc-stats/
 ||france24.com/bon.jour?
@@ -4662,6 +4665,7 @@
 ||logs.jobs.com/impression_trackingv*.min.js
 ||logs.juspay.in
 ||logservice.dbankcloud.cn
+||loki-ingest.fox.com/loki/api/v1/push
 ||loom.com/metrics/graphql
 ||low-ya.com/duplicate-ga-cookie
 ||lowendtalk.com/settings/analyticstick.json
@@ -6414,6 +6418,7 @@
 ||static.fd.nl/assets/fdmg-tag-manager/
 ||static.files.bbci.co.uk/ws/simorgh-assets/public/static/js/reverb/
 ||static.fnnews.com/resources/w/statics/fn-staticsv2.js
+||static.foxnews.com/static/isa/app/lib/visitorapi.orig.js
 ||static.foxnews.com/static/leap/sites/fnc/metrics.js
 ||static.funshion.com/*/common/log/
 ||static.gala.games/gal/fp/loader_v*.js
@@ -6554,6 +6559,8 @@
 ||streamtape.to/stat/
 ||streamtheworld.com/imp?
 ||streetsblog.org/api/session|
+||strike.fox.com/static/fnc/video/amazonbidder.js
+||strike.fox.com/static/fnc/video/prebidbidder.js
 ||stripchat.com/pixel/
 ||stripe.com/?event=
 ||strm.yandex.ru/log?

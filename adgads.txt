@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-11-17 20:24:24 UTC
-! Total Rules: 5232
+! Last Updated: 2026-11-18 05:43:58 UTC
+! Total Rules: 5235
 ! Expires: 5 days
 /a/ipn/js/*
 /a/p?adid=
@@ -1250,6 +1250,7 @@
 ||api.leakgallery.com/cfg/decide?
 ||api.leakgallery.com/cfg/h|
 ||api.live.bilibili.com/*/banner
+||api.plebmasters.de/v*/announcements/
 ||api.redgifs.com/v*/adv/
 ||api.redgifs.com/v*/feeds/modules
 ||api.thefinancialexpress.com.bd/api/ads/
@@ -2445,6 +2446,7 @@
 ||gasaq.com/public/flash/
 ||gay.bingo/agent.php
 ||gay4porn.com/ai/
+||gayhaus.com/*.js?*=videop-
 ||gaymes.net/wp-content/themes/gameking/js/porngaymes.js
 ||gayporntube.com/spots.php?
 ||gaystream.pw/pushtop.js
@@ -2676,6 +2678,7 @@
 ||henan100.com/d/file/indexad/
 ||hentai2read.com/arknvb/arkapi.php
 ||hentai2read.com/x/l?v=
+||hentaiasmr.moe/b4b8.js
 ||hentaicdn.com/cdn/beta/ourdream-socialbar.js
 ||hentaicomic.*/data/ds/
 ||hentaicomic.*/data/game/*/wap.gif
@@ -3401,6 +3404,7 @@
 ||liu16.com/vip.png
 ||liuxue86.com/css/liuxue_output.js
 ||liuxue86.com/js/ideng/liuxue-show
+||live.avrebo.net/api/live/v*/web/live-channels?
 ||liveany.com/images/8d8d.gif
 ||liveball.sx/public/js/custom_clickunder.js
 ||livelive24.*/ads/ad*.js|
@@ -3811,7 +3815,6 @@
 ||oploverz.my/wp-content/uploads/*/*.gif
 ||opticsky.cn/images/2015/gy-px201
 ||optiklink.com/arlinablock.js
-||orangepix.is/istrp/*.gif
 ||oremanga.net/wp-content/uploads/*.gif
 ||orzx.im/document/recommend/flashpoint.html
 ||orzx.im/document/union/
@@ -3903,7 +3906,6 @@
 ||pharmnet.com.cn/js/float_div.js
 ||phb123.com/skin/js/tongji.js
 ||phbkm.com/js/
-||phncdn.com/*/pics/skins/
 ||photos18.com/images/friend/
 ||php1.cn/uploads/huayun.jpg
 ||phpernote.com/ali
@@ -4886,6 +4888,7 @@
 ||win2008.info/gongyi.gif
 ||windows.net/732d.js
 ||windowszj.net/d/js/list/click
+||winporn.*/templates/base_master/js/jquery.shows2.min.js
 ||winwin7.com/statics/js/pos_js/
 ||winwin7.com/statics/js/user/xz.
 ||wiocha.pl/js/placements.js
