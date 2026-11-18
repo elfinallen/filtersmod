@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-11-18 05:43:58 UTC
-! Total Rules: 5235
+! Last Updated: 2026-11-18 19:54:20 UTC
+! Total Rules: 5237
 ! Expires: 5 days
 /a/ipn/js/*
 /a/p?adid=
@@ -428,6 +428,7 @@
 /skin/default/js/qbtr.js
 /sm/getcode?apikey=
 /smflow/get.*=gadcallback_
+/snigel-billboard.
 /sobt_adv.js
 /source/plugin/drk_ledadv/*
 /source/plugin/mama_tips/*
@@ -580,7 +581,6 @@
 ||131458.com/union/
 ||1328f.com/js/jquery.js
 ||1337x.*/js/vpn*.js
-||1337x.st/mm.js
 ||1342a.com/js/jquery.js
 ||138vps.com/image/
 ||139file.com/jsa/
@@ -3712,6 +3712,7 @@
 ||nairaland.com/vertipics/
 ||nanfengyl.com/static/js/zdad.js
 ||natgeomedia.com/js/ads-parallax.
+||native.tportal.hr/black-friday/
 ||naughtyblog.org/wp-content/images/k2s/
 ||nb.zol.com.cn/detail_*.html
 ||nbegame.com/nbeos/*.jpg
@@ -3884,6 +3885,7 @@
 ||pcstore.com.tw/css/myacc_init.js
 ||pcvideoyf.titan.mgtv.com/pb/*.mp4
 ||pdfbook.cn/wp-content/uploads/2017/11/049.jpg
+||peachr.tv/api/spot/
 ||peachring.com/new-page/js/human-verify.
 ||peachurnet.com/templates/banner-*x*-*.png
 ||peachurnet.com/templates/stake.com-banner-size-*-min.jpg

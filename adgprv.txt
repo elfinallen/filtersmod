@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-11-18 05:43:58 UTC
-! Total Rules: 7638
+! Last Updated: 2026-11-18 19:54:20 UTC
+! Total Rules: 7655
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -275,6 +275,7 @@
 /chartbeat.min.js
 /chicken.gif?*=
 /chicken.gif?z=
+/cl/2x2.json
 /clarity-*.js
 /clear.gif?
 /click-tracking.js
@@ -389,6 +390,7 @@
 /dot.gif?
 /dpistat/updater.php
 /dtr/count.php
+/duel-analytics.js
 /dwanalytics-
 /dwanalytics.js
 /dynamicanalytics.js
@@ -466,6 +468,7 @@
 /fingerprint3.js
 /firebase-performance-standalone-compat.js
 /firebase-performance-standalone.js
+/flipptag.js
 /flying-analytics/*
 /flying-analytics/js/analytics.js
 /fp/check.js
@@ -603,6 +606,8 @@
 /in.php?referer=
 /in/track?data=
 /ingest/*ip=*&ver=
+/ingest/array/*/config.js
+/ingest/i/v0/*
 /init?*&fallbackuserid=
 /insales_counter.js?
 /insights-emitter.
@@ -723,7 +728,6 @@
 /mai-publisher-analytics.js
 /martypixel?
 /master-amg-plugin/assets/js/page-view-ga.js
-/matomo-tracking.js
 /matomo.php
 /matomo.php?action_name=
 /matomo.php?idsite=
@@ -758,6 +762,7 @@
 /monitor/v1/log
 /monitor_analytic.js
 /monitor_browser/collect/*
+/monitor_web/collect?
 /monitor_web/settings/browser-settings?
 /monsido.js
 /mpel/mpel.js
@@ -920,6 +925,7 @@
 /pr.php?
 /prgr-trk?
 /printpixel.js
+/pro-analytics.
 /probance_tracker-min.js
 /prod/dfm/g2i.min.js
 /prod/dfm/t8y9347t.min.js
@@ -1333,6 +1339,7 @@
 /web-pixel-shopify-custom-pixel@
 /web-pixels@*/web-pixel-*/sandbox/modern/*
 /web-vitals-tracker.js
+/web-vitals-with-attribution.js
 /web-vitals.iife.js
 /web_analytics/*
 /web_js_stats.
@@ -1533,6 +1540,7 @@
 ||abcotvs.net^*/fban_
 ||abema-tv.com/v1/stats/
 ||abendblatt.de/stats
+||abritel.fr/tagging-client
 ||abs.twimg.com/responsive-web/client-web/loader.hometimelineadblocknotice
 ||abysscdn.com/cdn-cgi/trace
 ||ac.cnstrc.com/v2/behavioral_action/
@@ -2526,6 +2534,7 @@
 ||cargurus.com/cars/cganalyticspageview.action
 ||cargurus.com/tr/
 ||carmazoon24-pu01.ihre-webseite.it/js/logger
+||carrentals.com/tagging-client
 ||cartoonporno.xxx/static/js/lib/counters/
 ||cartseekite.com/cartxtrack
 ||cas-live.das-onlinespiel.de/gateway?
@@ -2730,6 +2739,7 @@
 ||channel-receive.meetbot.biz/sp/callback/user/behavior/data
 ||channel.io/front/v*/channels/*/events
 ||channelexco.com/ppx/
+||character.ai/scripts/googlefc-config.js
 ||charmmy-api.line.me/api/*/bars/tracking
 ||chat.bot.check24.de/faro/collect
 ||chat.deepseek.com/api/*/client/settings/report
@@ -2745,6 +2755,7 @@
 ||chaturbate.com/api/adblocker/
 ||chaynikam.info/php/*pagestat.phtml
 ||cheaptickets.com/cl/2x2.gif?
+||cheaptickets.com/tagging-client
 ||check24.*/*/json/dynamic/set-sem-tracking
 ||check24.*/*/traffic-event
 ||check24.*/api/client-logs
@@ -2972,6 +2983,7 @@
 ||coolblue.de/js/mimir/
 ||coopmobile.ch/analytics/at.js
 ||cope.es/stats/services/recordevent
+||copilot.com/events
 ||copilot.microsoft.com/fd/ls/
 ||copyrightcontent.org/e/
 ||coral.diks.fi/assets/js/count.js
@@ -3186,7 +3198,6 @@
 ||dengarden.com/.api/admiral
 ||deo.shopeemobile.com/shopee/shopee-trackingsdk-
 ||deovr.com/api_logs/
-||deporvillage.com/tracking-library/
 ||derstandard.*/qpkdl/
 ||derstandard.*/qy/zonck
 ||desmos.com/analytics/js/
@@ -3515,6 +3526,7 @@
 ||expedia.*/2x2.gif?
 ||expedia.*/cl/
 ||expedia.*/minify/client-logger-bundle-
+||expedia.*/tagging-client
 ||expedia.com/api/datacapture/track
 ||expedia.com/api/uisprime/track
 ||expedia.com/cl/data/typeahead_client_metrics.json
@@ -3615,6 +3627,7 @@
 ||fensi.plus/*/tracking/
 ||ferienwohnungen.de/api/pxl
 ||fernomius.com/event/
+||fewo-direkt.de/tagging-client
 ||ff.netmonet.co/api/frontend/client/metrics
 ||ffo3gv1cf3ir.merlincdn.net/*/google-analytics-web*.js
 ||figma.com/api/figment-proxy/
@@ -3720,6 +3733,7 @@
 ||frontend-prod.healthline.com/api/metrics
 ||froomle.com/api/*/events
 ||frysfood.com/assets/*/collect?
+||fscdn.eppo.cloud/api/flag-config/v1/config?
 ||fspark-ap.com/ft/analytics_log
 ||fstrk.net/api/tracker/
 ||ft.com/ingest?
@@ -3753,7 +3767,6 @@
 ||gameinformer.com/*/js/tracking/
 ||gameinformer.com/modules/contrib/statistics/
 ||gamejolt.com/tick/
-||gamemonetize.com/account/event.php?
 ||gamerant.com/strpixel.png
 ||gamerpay.gg/monitoring?
 ||gamesgames.com/wdg/performance_tracker-active
@@ -4062,7 +4075,6 @@
 ||home.ripley.cl/front/ripley/ripley.js
 ||home.ripley.cl/front/ripley/ripley_ga*.js
 ||homedepot.ca/mr/thd-ca-prod.js
-||homedepot.ca/webmetrics/collect
 ||homemate.co.jp/common/js/beacon/real_estate_detail.js
 ||homemate.co.jp/for/beacon_info/
 ||honcierge.jp/pv?
@@ -4088,6 +4100,7 @@
 ||hotels.com/taps/v*/pageview?
 ||hotwire.com/api/*/logging/
 ||hotwire.com/api/datacapture/track
+||hotwire.com/tagging-client
 ||hotwire.com^*/1x1.gif?
 ||hotwire.com^*/evaluateexperimentsandlog
 ||hotwirestatic.com/*/comp/gtm/googletaganalytics.js
@@ -4982,7 +4995,6 @@
 ||mssdk.tiktokw.us/web/report?
 ||mst.*.de/g/collect
 ||mt-wzb.clarin.com/weizenbock/pixel.fingerprint.gif
-||mtb-news.de/metric/
 ||mtm.qdqmedia.com
 ||mtsbank.ru/hustonwehaveaproblem/
 ||mtvema.com/media/module/ent_reporting
@@ -5097,7 +5109,6 @@
 ||newsweek.com/www/js/mar2015/counter.js
 ||newtimes.com/analytics?
 ||newzit.com/setabframe.html
-||nexon.com/api/nxlog/
 ||nexon.com/nxlog-collect/
 ||nexstardigital.net/segment.js
 ||next.rikunabi.com/api/logrecommendrealtimei2av2
@@ -5258,6 +5269,7 @@
 ||orbitz.com/cl/data/bingpixels.json?
 ||orbitz.com/cl/data/typeahead_client_metrics.json
 ||orbitz.com/minify/client-logger-bundle-
+||orbitz.com/tagging-client
 ||orbitz.com^*/1x1.gif?
 ||orbitz.com^*/2x2.gif?
 ||orbitz.com^*/evaluateexperimentsandlog
@@ -5338,6 +5350,7 @@
 ||partner-events.favicdn.net/*/partnereventstracking.js
 ||partner.awscconsumerinfo.autotrader.com/*/beacon/
 ||partners.sbermarketing.ru/api/tracker/sdk.js
+||partsgeek.com/sspgt/
 ||paruvendu.fr/*/stats/
 ||passportnews.co.il/system/js/analytics.js
 ||passportnews.co.il/tag_manager.js
@@ -5382,6 +5395,7 @@
 ||pdfcrowd.com/static/3rd/js/fpr.js
 ||peach-static.ebu.io/pipe-*.min.js
 ||peachjohn.co.jp/staffcontent/assets/js/staffstart-analytics.js
+||peachr.tv/s.js
 ||peacocktv.com/*/tracking/
 ||pearson.com/assets/*/collect
 ||peek-cloppenburg.at/assets/js/3rdparty/tags.tiqcdn.com/utag.js
@@ -5394,7 +5408,6 @@
 ||perfops.net/rom3/
 ||perimeterx.net/api/v1/collector/
 ||perplexity.ai/rest/event/analytics
-||perplexity.ai/unifyintent.js
 ||pes.itv.com/*/post/
 ||petco.com/track-production/analytics.js
 ||petersenshunting.com/js/convivaapptracker.js
@@ -5802,7 +5815,6 @@
 ||revico.jp/js/put_revico_cookie/put_revico_cookie.js
 ||revico.jp/providejs/revico_tracking.js
 ||review*.cre.ma/events?
-||reviews.io/stats/
 ||revistamundodiners.com/wp-content/plugins/goal-tracker-ga/public/js/wp-goal-tracker-ga-public.js
 ||revive-chat.io/js/tracking-min.js
 ||revocdn.revotas.com/trc/api/rvts*_tracker.js
@@ -6209,7 +6221,6 @@
 ||slashdot.org/country.js
 ||slashdot.org/images/js.gif
 ||slate.com/analytics?
-||slc.cbssports.com/events
 ||sleeknotestaticcontent.sleeknote.com/production/package-tracker.js
 ||slgnt.eu/frontend/api/track
 ||slideplayer.biz.tr/slide/getviewscount/
@@ -6519,6 +6530,7 @@
 ||stavka.tv/post-affilate-pro.js
 ||stay22.com/ext/partner?
 ||stayfriends.de/mobilemember/js/framework/sf_tracking.js
+||stayz.*/tagging-client
 ||stbbs.sooplive.com/api/*_log.php
 ||std-lab.jp/js/analytics.js.php
 ||steamchina.com/default/usabilitytracking
@@ -6666,6 +6678,7 @@
 ||t2bot.ru/nod32key/adblock-c.php
 ||t3.chat/js/xt/script.js
 ||ta.tokopedia.com/promo/v1/views
+||tab.volces.com/service/2/abtest_config/
 ||tabakhero.de/widgets/cbax/analytics/
 ||tabletki.ua/analyticsdata/
 ||tag.assembly.go.kr:*/nlog/log/event
@@ -6704,6 +6717,7 @@
 ||tchibo.de/prof/js?event
 ||tcloudbase.com/access?
 ||tds.net/api/*/sendevents/
+||tdum.alibaba.com/dss.js
 ||teamtailor.com/pageview
 ||teamviewer.com/api/log/
 ||techcrunch.com/wp-json/wp/v*/tc_events
@@ -6897,6 +6911,7 @@
 ||travelocity.com/cl/data/typeahead_client_metrics.json
 ||travelocity.com/minify/exp.core.channeltracking
 ||travelocity.com/minify/exp.core.tvlytracking
+||travelocity.com/tagging-client
 ||travelocity.com^*/1x1.gif?
 ||travelocity.com^*/2x2.gif?
 ||travelocity.com^*/evaluateexperimentsandlog
@@ -7015,7 +7030,6 @@
 ||ubisoft.com/*/global/tracking/
 ||ubt-sgp.travix.com/bee/collect
 ||ubt.tracking.shopee.
-||ubta.tracking.shopee.
 ||uc.cn/collect?
 ||ucankus.com/inc/hhit.asp
 ||ucc.co.jp/shared/js/ga_code.js
@@ -7233,6 +7247,7 @@
 ||vox.com/sendeventdata
 ||voxmedia.com/beacon-min.js
 ||vrbo.com/edap/elo/v1/event/beacon
+||vrbo.com/tagging-client
 ||vs4.com/impr.php
 ||vs4.com/impr.php?
 ||vsco.co/api/cantor/track
@@ -7297,6 +7312,7 @@
 ||webapi.wral.com/api/analytics/
 ||webapp-middleware.21buttons.com/event_log/
 ||webassign.net/services/cubby/bff/analytics
+||webbff.eu.4game.com/api/exporter/events
 ||webcamsbabe.com/js/s.js
 ||webd.home.news.cn/1.gif?
 ||webedia.fr/js/gs.js
@@ -7395,6 +7411,7 @@
 ||worldremit.com/web-cms/api/metric
 ||worldztool.com^*/dotraceuser.php
 ||worthpoint.com/liujcowl/init.js
+||wotif.*/tagging-client
 ||wotif.com/cl/2x2.gif?
 ||wow-impulse.net/track/
 ||wowgame.jp/countup.asp
