@@ -1,7 +1,7 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-11-18 19:54:20 UTC
+! Last Updated: 2026-11-19 05:42:59 UTC
 ! Total Rules: 5237
 ! Expires: 5 days
 /a/ipn/js/*
@@ -1241,8 +1241,6 @@
 ||api.apiimg.com/huaer/xiahe.js
 ||api.avrebo.net/api/v*/advert/
 ||api.bilibili.com/x/ad/
-||api.deepai.org/set_user_sees_ads
-||api.deepai.org/thrad-placement-proxy
 ||api.jerkmotion.com/r/
 ||api.leakgallery.com/affiliate/
 ||api.leakgallery.com/cfg/*/cpc?
@@ -2446,7 +2444,6 @@
 ||gasaq.com/public/flash/
 ||gay.bingo/agent.php
 ||gay4porn.com/ai/
-||gayhaus.com/*.js?*=videop-
 ||gaymes.net/wp-content/themes/gameking/js/porngaymes.js
 ||gayporntube.com/spots.php?
 ||gaystream.pw/pushtop.js
@@ -2514,6 +2511,7 @@
 ||google.com/adsense/search/async-ads.js
 ||google.com/pagead/1p-user-list/
 ||google.com/pagead/drt/
+||google.com/pagead/form-data/
 ||google.com/pagead/landing?
 ||googlesyndication.com/pagead/
 ||googlesyndication.com/safeframe/
@@ -2721,6 +2719,7 @@
 ||hmama.tv/wp-content/custom_assets/jwplayer/*/vast.js
 ||hmwang.icu/skin/images/*.gif
 ||hoes.tube/ai/
+||home-xxx-videos.com/snowy-
 ||homemade.xxx/player/html.php?aid=
 ||homeschoolmath.net/a/
 ||honglingjin.co.uk/wp-content/uploads/*-homepage-takeover-bg-
@@ -2921,7 +2920,6 @@
 ||imghost.top/kita/
 ||imgjiajiao.cn/jiajiao/js/lxonline.js
 ||imglnkx.com/*/*_banner*.gif
-||imgoutlet.pw/amload.js
 ||imgroom.net/images/*.gif
 ||imgs.cc/images/ad_
 ||imgs.cc/img/8pl6fjy.gif
@@ -3223,8 +3221,6 @@
 ||k8dm.com/960x70.
 ||kaixin001.com.cn/js/cpm-
 ||kalvin.cn/page/img/
-||kami-labs.fr/*/ads-widget.js
-||kami-labs.fr/*/house-ads.js
 ||kan.cc/statics/abs/scripts/abs.
 ||kan98.com/images/*.gif
 ||kan98.com/statics/js/k2017/kan98.js
@@ -3608,7 +3604,6 @@
 ||miwifi.com^*ads/
 ||mixer.video.iqiyi.com/jp/mixin/resources/
 ||mjedge.net/js/customscript.js
-||mjedge.net/nb/service-handler.js
 ||mm111.net/api.php?mod=ad&
 ||mm387.com/images/*.gif
 ||mmonly.cc/js/mmonlyapp.js
@@ -3756,7 +3751,6 @@
 ||nhentai.to/js/combined.*.js?
 ||niepo.net/api/arrayid/analytics.
 ||nitroflare.com/img/banners/
-||nitter.space/js/ads.js
 ||niu07.com/gg/*.js
 ||niugupan.com/js/tj.js
 ||niupic.com/images/2019/11/17/_17.
@@ -3806,6 +3800,7 @@
 ||onegreen.net/myfile/
 ||oneinstack.com/images/oneinstack-
 ||onetvb.com/assets/javascripts/
+||onlineshopping.co.za/expop/
 ||onnetwork.tv/widget/
 ||onx8.com/theme/tange/add/
 ||onx8.com/zb_users/theme/ydgreen/style/ad/
@@ -4124,6 +4119,7 @@
 ||r3sub.com/nb/
 ||r3sub.com/posters/00698128.jpg
 ||rabbitstream.net/ajax/*/banners
+||rainmaker.production-public.tubi.io/*/web?app_id=tubitv*&pub_id=*&*vpaid_enabled=
 ||rainpat.com/content/1360x55/
 ||rainpat.com/scripts/jquery.superslide.
 ||rakuya.com.tw/position?task=
@@ -4142,6 +4138,7 @@
 ||redshu.com/js/pcadv.js
 ||redshu.com/js/www/jquerygg.js
 ||redtube.com/_xa/
+||redtube.fm/advertisment.htm
 ||reef2reef.com/data/siropu/am/user/
 ||refinery89.com/performance/
 ||rentalcars.com/partners/
@@ -4276,6 +4273,7 @@
 ||seectech.cn/scm/ad/list
 ||seek68.cn/img/*.gif
 ||segmentfault.com/sponsor/
+||segmentnext.com/lhfdy3jswvq8.js
 ||selector.voltaxam.com/ads
 ||sentcss.com/get/cors/spread/
 ||sentcss.com/get/showcase/
@@ -4577,7 +4575,6 @@
 ||tdxs5.cc/m
 ||teacher.php.cn/php/
 ||techug.com/aatb/
-||telewebion.faina.ir/v1/ads/
 ||templates.cds.yahoo.com/remote/widget?
 ||tengfangyun.com/attachment/*/w_1200
 ||tengfun.com/attachment/*/w_1200
@@ -4692,6 +4689,7 @@
 ||tube.hentaistream.com/wp-includes/js/pop4.js
 ||tube8.*/_xa/ads
 ||tubeon.*/templates/base_master/js/jquery.shows2.min.js
+||tubev.sex/td24f164e52654fc593c6952240be1dc210935fe/
 ||tui.gtimg.com//res/
 ||tui555.com/public/gong/js/a_
 ||tui56.com/guanggao*.html
@@ -4757,6 +4755,8 @@
 ||upapi.net/pb/ex?w=*&uponit
 ||upload.xchina.biz/ad/
 ||uqload.*/js2/*.js
+||uqload.vc/58228/m7j7j669.js
+||uqload.vc/7g6m8/8g4h3mhm.js
 ||uqload.vc/player/jw8/vast.js
 ||userscript.zone/s.js
 ||usgo.chucaotang.net/ua.js

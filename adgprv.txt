@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-11-18 19:54:20 UTC
-! Total Rules: 7655
+! Last Updated: 2026-11-19 05:42:59 UTC
+! Total Rules: 7662
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -314,6 +314,7 @@
 /collect/pv?
 /collect/view?
 /collect/view_count?
+/collect?configid=
 /collect?event=
 /collect?r=
 /collect?tid=
@@ -581,6 +582,7 @@
 /i.gif?pageevent=
 /i.php?i=
 /i.png?id=
+/i/v0/e/*
 /i?e=pv&page=
 /i?e=pv&url=
 /i?stm=
@@ -811,6 +813,9 @@
 /opinionlab.js
 /optimizelyjs/*
 /otautoblock.js
+/otel/v1/logs
+/otel/v1/metrics
+/otel/v1/traces
 /otlp/traces
 /ouibounce.min.js
 /outbrainad.
@@ -1360,6 +1365,7 @@
 /white_pixel.gif?
 /wix-engage-visitors-
 /wmxtracker.js
+/woocommerce-analytics/*
 /woocommerce-google-adwords-conversion-tracking-tag/*
 /wp-content/cache/busting/google-tracking/*
 /wp-content/plugins/advanced-ads-tracking/*
@@ -5003,6 +5009,7 @@
 ||mtvnservices.com/metrics/
 ||multporn.net/modules/statistics/statistics.php
 ||muragon.com/js/normal/gtag-event.js
+||muse.ai/api/auth/caa-events
 ||musescore.com/components/data?
 ||musescore.com/score/stats/
 ||music.apm-proxy.obs.mts.ru/eum/*/eum.min.js
@@ -5194,6 +5201,7 @@
 ||oeksound.com/pl/api/event
 ||offer-link.com/collect-click.php
 ||office.net/*/web-vitals.*.js
+||offloop.org/_vid/v1/collect
 ||ohmynews.com/nws_web/common/js/googleanalytics
 ||ohmynews.com/nws_web/common/js/tagmanage
 ||oita-press.co.jp/js2020/analytics.js
@@ -6578,7 +6586,6 @@
 ||strm.yandex.ru/log?
 ||ststandard.com/ping
 ||studio-api.prod.suno.com/api/statsig/
-||stuff.co.nz/otel/
 ||stuttgarter-zeitung.de/cms/hitcount
 ||stw.extreme-down.
 ||stw.zone-telechargement.
