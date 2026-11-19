@@ -1,7 +1,7 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-11-19 05:42:59 UTC
+! Last Updated: 2026-11-19 19:54:08 UTC
 ! Total Rules: 7662
 ! Expires: 5 days
 /a.gif?
@@ -83,6 +83,7 @@
 /analytics.config.js
 /analytics.gif?
 /analytics.js/v1/*
+/analytics/abtest/*
 /analytics/analytics.js
 /analytics/analytics.min.js
 /analytics/click?
@@ -435,7 +436,6 @@
 /events/view?
 /eventsbeacon?
 /eventtracker.js
-/eventtracking-
 /eventtracking.
 /eventtracking/*
 /evercookie.js
@@ -799,6 +799,7 @@
 /o_code.js
 /o_tealium.js
 /oa-tracking?
+/oas_analytics.js
 /official-facebook-pixel/js/facebook_signal.js
 /omgpixel_validation_osp.json?
 /omniture/visitorapi.
@@ -1127,6 +1128,7 @@
 /stats/counterpage.
 /stats/footer.js
 /stats/header.js
+/stats/impression
 /stats/pageview
 /stats/record_visit/*
 /stats/transp.bmp
@@ -1184,6 +1186,7 @@
 /trace-update.php?
 /trace/record?
 /traces.php?
+/tracifyv2.js
 /track-event.js
 /track-internal-links.js
 /track-the-click-public.js
@@ -1277,8 +1280,6 @@
 /trk.php?
 /tynt.js
 /u.gif?
-/ua/optin?
-/ua/trailevent?
 /uedata?
 /uisprime/track
 /umami.js
@@ -1763,7 +1764,6 @@
 ||analytics.twitter.com/*/adsct?
 ||analytics.vgtimes.
 ||analyticsindiamag.com/~api/analytics|
-||analyto.io/api/event
 ||anapixel.elmundo.es/ter.gif
 ||ancestrycdn.com/tao/at/
 ||ancestrycdn.com/webui-unifiedtracking/
@@ -2869,7 +2869,6 @@
 ||cmp.p7s1.io/*/analytics
 ||cmp.quantcast.com/?log=
 ||cmp.vg.no^*/metrics/
-||cms.1sec.email/api/analytics-track
 ||cms.static.btv.bg/microsites/btvnovinite/js/ga360.js
 ||cn.ntdtv.com/assets/themes/ntd/js/article_ads.js
 ||cnet.com/ext/make/ingest/v*/t|
@@ -2893,6 +2892,7 @@
 ||coachweb.com/vite/assets/jwplayer/shared/analytics.*.js
 ||coachweb.com/vite/assets/jwplayer/shared/trackingevents.*.js
 ||coccoc.com/log?
+||code.trygravity.ai/gr-pix.js
 ||codecademy.com/analytics/
 ||codenames.game/api/event|
 ||codeproject.com/a.min.js
@@ -3242,6 +3242,7 @@
 ||dinos.co.jp/js/common/load-tagmanagers.js
 ||dior.com/contcdc/
 ||directory.cookieyes.com/api/v*/ip
+||directory.cookieyes.com/api/v1/ip
 ||dis.*.criteo.com/dis/
 ||dis.criteo.com/dis/
 ||discord.com/api/track
@@ -3440,8 +3441,6 @@
 ||elpais.com.uy/google-analytics-*.js
 ||emag.ru/counter/counter.php?url=
 ||emails.macys.com/pub/cct?
-||emailtemporario.com.br/*/trackevents
-||emailtemporario.com.br/~api/analytics
 ||embed.acast.com/api/proxy?type=impression
 ||embed.acast.com/api/stats
 ||embed.mikmak.tv/brandtracking/
@@ -4162,7 +4161,6 @@
 ||iadvize.com/collector/
 ||ias.r10s.jp/grp15/ex_common2.js
 ||ias.r10s.jp/grp15/lib/ichiba_frame.js
-||ibm.com/analytics/build/bluemix-analytics.min.js
 ||iboysoft.com/js/track.js
 ||icecat.biz/stats/scripts/live-stats.js
 ||iceporn.net/ajax/log/
@@ -4458,6 +4456,8 @@
 ||karte.io/mirror-record/record?
 ||karte.io/rewrite-log/
 ||kartell.com/ccstoreui/*/analytics/
+||kasemato.net/wp-content/themes/kasemato/assets/access-analytics.js
+||kasemato.net/wp-content/themes/kasemato/assets/frame-stats.js
 ||kaspersky-labs.com/cld_track?
 ||kaufland.de/_/perf/
 ||kaufland.de/api/uts/events
@@ -5400,7 +5400,6 @@
 ||pcwelt.de/js/amazon_tracking.js
 ||pd5sngsre3.net/g/hn.js
 ||pdfcrowd.com/pls/api/event
-||pdfcrowd.com/static/3rd/js/fpr.js
 ||peach-static.ebu.io/pipe-*.min.js
 ||peachjohn.co.jp/staffcontent/assets/js/staffstart-analytics.js
 ||peachr.tv/s.js
@@ -6838,6 +6837,7 @@
 ||tinypass.com^*/track?
 ||titanprod.narvar.com/*/track|
 ||tk.ilius.net/tr.gif?
+||tka.tiki.vn/pixel/
 ||tkx.mp.lura.live/rest/v2/server_time
 ||tlctv.com.tr/ajax/item/hitimage?
 ||tlctv.com.tr/assets/default/images/pixel.gif
