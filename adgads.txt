@@ -1,8 +1,8 @@
 ! Title: AdGuard Advert
 ! Description: ADS Filter composed of AdGuard Base & Chinese Filter, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-11-19 19:54:08 UTC
-! Total Rules: 5237
+! Last Updated: 2026-11-20 05:31:21 UTC
+! Total Rules: 5240
 ! Expires: 5 days
 /a/ipn/js/*
 /a/p?adid=
@@ -1132,6 +1132,7 @@
 ||affyun.com/wp-content/uploads/2018/10/file.gif
 ||afocus.com.cn/s?
 ||afzhan.com/javascript/ad_couplet.js
+||agedbitch.com/gds/
 ||agefans.top/js/wap2-jm-ms.js
 ||agogo.tv/images//uploads/ad/
 ||ah.sina.com.cn/iframe/
@@ -3353,6 +3354,7 @@
 ||lenovo.com.cn/cms/2018-07-20/201807201014498251793.png
 ||lenovo.com.cn/lenovo/bid?clienttype=
 ||letemsvetemapplem.eu/*/alzafeed_*.php
+||letsporn.com/qsda/
 ||letv.com/pzt/hyhmzq/index.shtml
 ||lf9-static.bytednsdoc.com/obj/tos-cn-i-0813
 ||lgmi.com/ggimg/
@@ -3796,7 +3798,6 @@
 ||olehdtv.com/index.php/index/userss|
 ||olelive.com/v1/pub/index/anchor/check/pc/e?
 ||om.cn/api/ad-om/
-||omegascans.org/spicybox-ad.mp4
 ||onegreen.net/myfile/
 ||oneinstack.com/images/oneinstack-
 ||onetvb.com/assets/javascripts/
@@ -4119,7 +4120,6 @@
 ||r3sub.com/nb/
 ||r3sub.com/posters/00698128.jpg
 ||rabbitstream.net/ajax/*/banners
-||rainmaker.production-public.tubi.io/*/web?app_id=tubitv*&pub_id=*&*vpaid_enabled=
 ||rainpat.com/content/1360x55/
 ||rainpat.com/scripts/jquery.superslide.
 ||rakuya.com.tw/position?task=
@@ -4205,6 +4205,7 @@
 ||rule34video.com/images/advertisements/
 ||runmang.vip/img/
 ||runoob.com/images/re/
+||rusdosug.com/fotos/banners/
 ||ruten.com.tw/js/gads_
 ||ruten.com.tw/search/imp_ad_
 ||ruten.com.tw^*/ahd_
@@ -4502,7 +4503,6 @@
 ||su.bdimg.com/static/dspui/js/
 ||subhd.com/images/ap/
 ||subserieshd.com/banner/
-||subterra.run/probe.js
 ||sudugu.cc/scripts/yuedu.js
 ||sudugu.com/config/v7.js
 ||sudupan.com^*.gif
@@ -4744,6 +4744,7 @@
 ||ufile.cc/crod.js
 ||ufile.cc/pps.js
 ||ukdevilz.com/static/players/*/vast.js
+||undress.app/ad_banners/
 ||unecne.com/wp-content/uploads/*ad-
 ||unikoshardware.com/wp-content/uploads/*/*/wpointer_ad_440x250.jpg
 ||unpkg.com/hjadu/
@@ -4880,6 +4881,7 @@
 ||westca.com/server/
 ||weste.net/js/showpagead.js
 ||wfiles.hcomic.net/indexswiper/*_*x*_*_tc_gif.gif
+||whispersinthecorridors.in/api/ads/
 ||whnews.cn/wh_public/xuxu/
 ||whsir.com/wp-content/themes/wh-blog/js/modal.js
 ||widget.engageya.com/engageya_loader.js
@@ -5036,6 +5038,7 @@
 ||xpcha.com/js/notice.js
 ||xqishen.com^*/0
 ||xqishen.com^*/1
+||xrares.com/xopind.js
 ||xslca.cc/js/pf.js
 ||xstt5.com/skin/v3/js/dibu.js
 ||xstt5.com/template/js/fx
