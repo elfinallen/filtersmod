@@ -1,8 +1,8 @@
 ! Title: AdGuard Privacy
 ! Description: Privacy Filter composed of AdGuard tracking & EasyPrivacy, removed uncommon rules.
 ! Homepage: https://github.com/elfinallen/filtersmod
-! Last Updated: 2026-11-20 05:31:21 UTC
-! Total Rules: 7665
+! Last Updated: 2026-11-20 19:33:41 UTC
+! Total Rules: 7669
 ! Expires: 5 days
 /a.gif?
 /a/elevar/static/*
@@ -379,7 +379,6 @@
 /dg/default/rest/*
 /dg/default/rest/rpc/*
 /diffuser.js
-/digital-data-enrichment.min.js
 /discourse-fingerprint_
 /disp_cnt.php
 /dispatch.fcgi?
@@ -755,6 +754,7 @@
 /mip-stats-cnzz/*
 /mistat-data/onetrack/onetrack.js
 /mistats/*
+/mmcore.js
 /mms/get_site_js?*abp=
 /mnppixellibrary.min.js
 /mnt/imp?
@@ -1966,7 +1966,6 @@
 ||api.target.com/rum_analytics/
 ||api.tatadigital.com/analytics-engine/
 ||api.teester.com/data/collect
-||api.tempmailvip.io.vn/api/track
 ||api.testbook.com/api/*/popup
 ||api.tezfiles.com/*/analytics/
 ||api.thefantazy.com/web-vitals
@@ -2369,7 +2368,6 @@
 ||bitwarden.com/plsbl/
 ||bizhankook.com/log/
 ||bizseasky.com/mon
-||blackcrow.ai/v1/events/
 ||blick.ch/stats
 ||blitz.gg/js/feature-ads-lr/
 ||blitz.gg/js/feature-ads-outstream/
@@ -2428,6 +2426,7 @@
 ||boy18tube.com/analytics.js
 ||boyner.com.tr/1eus/
 ||boyplus.net/589n/
+||bpi.zip.co/trx/
 ||bpt.webedia-group.com/pixel.png?
 ||br.de/dotrack
 ||br.reco.ebu.io/v3/collect?s=
@@ -3506,6 +3505,8 @@
 ||europe1.fr/build/e1/tracking.
 ||european-alternatives.eu/api/event
 ||eurozpravy.cz/js/matomo-events.js
+||ev.chitchat.tv/e/
+||ev.chitchat.tv/i/*/e/
 ||ev.mmin.io/ping
 ||event-analytics.yesware.com/main.js
 ||event.arte.tv/api/server-side-tracking/
@@ -3628,6 +3629,7 @@
 ||feedly.com/mxpnl/
 ||feeds.feedburner.com/~fc/
 ||feeds.ibt.com/track.gif
+||feliz.data.tm-awx.com/netro-web/batch
 ||fenerbahce.org/cmsapi/webanalytics/
 ||fenixplay.xyz/api/stats/
 ||fensi.plus/*/tracking/
@@ -3674,6 +3676,7 @@
 ||flow.1passwordservices.com/api/v1/event
 ||flowgpt.com/*/track|
 ||flowgpt.com/api/trpc/prompt.createpromptimpressionrecord
+||fls-eu.amazon.de/*batch/*uedata*gateway
 ||fls.doubleclick.net/activityi
 ||flux-cdn.com/*/analytics/
 ||fluxor-wrapper.api.emerios.com/api/v1/tracking/event/track
@@ -3948,8 +3951,6 @@
 ||grok.com/_data/v1/events
 ||grok.com/api/log_metric
 ||grok.com/api/statsig/
-||grokipedia.com/api/analytics
-||grokipedia.com/api/ev
 ||grokipedia.com/api/stats
 ||ground.news/api/posthog/
 ||ground.news/monitoring
@@ -4548,6 +4549,7 @@
 ||l.ivi.ru/logger/
 ||l.search.naver.com/n/responsive/*&no_qc=*&p=
 ||l.search.naver.com/n/scrolllog/*?u=*&slogs=
+||l.usaa.com/e/v1/
 ||l2.io/ip.js
 ||lacoccinelle.net/tools.js
 ||laftel.net/twitter-pixel.js
@@ -5663,7 +5665,6 @@
 ||qualified.com/packs/js/analytics-
 ||qualifioapp.com/egw/events
 ||qualtrics.com/jfe/static/dist/c/adobe.
-||qualtrics.com/wrsiteinterceptengine/?q_impress=
 ||qualtrics.com^*/metrics
 ||qualzz.com/assets/trackingscript/webtracking.js
 ||quantserve.com/api/
@@ -5694,7 +5695,6 @@
 ||r25.jp/api/tracking/
 ||r3.mail.ru/k?fver=
 ||r3.mail.ru/k?sign=
-||rabota.by/analytics?
 ||rackcdn.com/gate.js
 ||rackcdn.com/stf.js
 ||radar.cloudflare.com/api/analytics
@@ -5790,8 +5790,6 @@
 ||reklama.lv/services/collect.php
 ||reklama.mail.ru/*.gif
 ||relatorios.prportais.com.br/storage/cdn-adi/news-tracker-min.js
-||relay-prod.typeracer.com/e/
-||relay-prod.typeracer.com/flags/
 ||relish.com/api-insights/
 ||relish.com/js/active-campaign-form.js
 ||remarkable.com/api/proxy/marker
@@ -5825,6 +5823,7 @@
 ||revico.jp/js/put_revico_cookie/put_revico_cookie.js
 ||revico.jp/providejs/revico_tracking.js
 ||review*.cre.ma/events?
+||reviews.io/stats/
 ||revistamundodiners.com/wp-content/plugins/goal-tracker-ga/public/js/wp-goal-tracker-ga-public.js
 ||revive-chat.io/js/tracking-min.js
 ||revocdn.revotas.com/trc/api/rvts*_tracker.js
@@ -6036,6 +6035,7 @@
 ||sdk-api.yozio.com/?os
 ||sdk-service.nsureapi.com/events
 ||sdk.appbrain.com/api/
+||sdk.getlimy.ai/p/limy-analytics.min.js
 ||sdk.mrf.io/statics/marfeel-sdk.js
 ||sdk.nsureapi.com/sdk.js
 ||sdk.rum.aliyuncs.com/v*/bl.js
@@ -6115,6 +6115,8 @@
 ||sexyrealsexdolls.com/api/collect
 ||seyredelim.com/lib/ajax/track.php
 ||seznam.cz/*/hit/?
+||seznam.cz/*/hit|
+||seznam.cz/*/imp?k=
 ||sezzle.com/v1/event/log
 ||sfgame.net/tracking_ggs.php
 ||sfgate.com/413gkwmt/init.js
@@ -6557,6 +6559,7 @@
 ||storage.googleapis.com/rasin/*/hm.js
 ||storage.googleapis.com/shufoo-prod-imp-gif/
 ||storage.googleapis.com/t3n-de/assets/t3n/2018/scripts/msodrq.js
+||storage.googleapis.com/tm-frend-graffiti/
 ||storage.googleapis.com/vs-scripts/intentiq/vsintentiq.js
 ||storage.googleapis.com/widget.kenect.com/resources/scripts/newrelic.js.gz
 ||storage.syncmedia.io/libs/sm_capture_
@@ -6614,7 +6617,6 @@
 ||sumsub.com/resources/fevents
 ||sumsub.com/stry/
 ||suno.com/9i3s/
-||supabase.co/*/track-visitor
 ||super.cz/*/hit/?
 ||super.cz/*/imp?
 ||super.cz/*/impress?
@@ -7076,7 +7078,6 @@
 ||ump.sf-express.com/monitor/*/report|
 ||umschool.net/_jts/api/s/track
 ||unagi*.amazon.*/events/
-||uncensored.ai/*/trackevents
 ||underthesnow.ru/engine/modules/counter-
 ||uniads.net/pixel?
 ||unibet.com/orval/tracking/lastclick.min.js
@@ -7198,6 +7199,8 @@
 ||vidtech.cbsinteractive.com/uvpjs/*/lib/tracking/mux.js
 ||viduro.top/api/heartbeat
 ||viedtelevizija.lv/js/analytics.smartlib.js
+||view.publitas.com/ecommtracker.js
+||view.publitas.com/javascripts/vendors/publitas-stats.js
 ||views.b1tv.ro/track.js
 ||views.playtech.ro/track.js
 ||vimeo.com/ablincoln/
@@ -7361,6 +7364,7 @@
 ||wheregoes.com/api/event
 ||wherewindsmeetgame.com/*/api/upload/log
 ||whirlpool-cdn.thron.com/shared/plugins/tracking/current/sp.js
+||whispersinthecorridors.in/public/js/analytics.js
 ||whistleout.com.au/track?u=
 ||whitepages.com/api/log-
 ||whitepages.com/static/dist/setupgaconfig.js
